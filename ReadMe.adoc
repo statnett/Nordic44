@@ -1,0 +1,53 @@
+= Nordic44
+
+== Introduction
+This is the repository for the Nordic44, which is a synthetic power system model of the Nordic high-voltage transmission system, described in link: https://www.iec.ch/homepage[IEC] Common Information Model (link:https://en.wikipedia.org/wiki/Common_Information_Model_(electricity)[CIM]).
+
+== Purpose
+The main objective of Nordic44 is to provide the necessary CIM model information to support simulation business processes and information exchanges relevant to the Nordic electrical power grid.
+
+Relevant business functions that the model aims to support are:
+* Network Operation (NO)
+* Emergency Simulation (ES)
+* Engineering Design Management (EDM)
+* Fault Management (FM)
+* Network Model Management (NMM)
+* Predictive Operation Planning (POP)
+* System Development Planning (SDP)
+
+Relevant application functions that the model aims to support are:
+* Static Power Flow (SPF)
+* Remedial Action and Contingency Analysis (RACA)
+* Short-Circuit Analysis (SCA)
+* Capacity Calculation Analysis (CCA)
+* Transient Dynamic Stability Analysis (TDSA)
+* Market information and transparency
+
+== Content
+
+== Related work
+
+=== DIGIN10
+The Nordic44 is intended to be created so that it can be merged with the link:https://github.com/digin-energi/Grunnprofil[DIGIN10] project, enabling analysis across High Voltage (HV), Medium Voltage (MV), and Low Voltage (LV).
+
+=== NYPA Model Transformation
+A version of Nordic44 has been used in the link:https://github.com/ALSETLab/NYPAModelTransformation[NYPA Model Transformation] project.
+In the repository, there are multiple versions of link:https://github.com/ALSETLab/NYPAModelTransformation/tree/master/ModelTransf-Tool/Prototype/examples/nordic-44[Nordic44] and relevant PSSE models.
+
+== Accreditation
+The first released version of the Nordic44 model was published in the following paper, authored by:
+L. Vanfretti, S.H. Olsen, V.S. Narasimham Arava, G. Laera, A. Bidadfar, T. Rabuzin, S. H. Jakobsen, J. Lavenius, M. Baudette, and F.J. Gómez-López, "An Open Data Repository and a Data Processing Software Toolset of an Equivalent Nordic Grid Model Matched to Historical Electricity Market Data," Data in Brief (Elsevier), February 17th 2017. http://dx.doi.org/10.1016/j.dib.2017.02.021
+
+The original PSSE-based model was provided by Emil Hillberg at link:https://www.stri.se/[STRI].
+
+The original Nordic44 model was created to support static power flow and dynamic stability analysis under relevant market conditions for the Nordic power system, based on the market data published by link:https://www.nordpoolgroup.com/en/[Nord Pool]. It was trained and validated for all electricity market operation hours during 2015 with power flow and dynamic response. The result was used to train and test Machine Learning techniques (e.g., Decision Trees) and other computational techniques essential in workflows for dynamic security assessment of electrical power systems.
+
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+
+This work is licensed under a link:http://creativecommons.org/licenses/by-nc-sa/4.0/[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License].
+
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+
+[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
+[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
