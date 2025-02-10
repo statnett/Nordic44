@@ -1,0 +1,2156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:icim="http://iec.ch/TC57/2013/CIM-schema-cim16-info#" xmlns:dm="http://iec.ch/TC57/61970-552/DifferenceModel/1#" xmlns:entsoe="http://iec.ch/TC57/CIM100-European#" xmlns:ips="http://www.ips-energy.com/IPS_CIM-schema-cim16#" xmlns:ips_psse="http://www.ips-energy.com/IPS_PSSE-schema#" xmlns:pti="http://www.pti-us.com/PTI_CIM-schema-cim16#" xmlns:cape="http://www.electrocon.com/CAPE_CIM-schema-cim16#" xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#" xmlns:svk="http://www.svk.se/schema/cim_extensions#" xmlns:pid="http://powerinfo.us/CIM/Diagram/1#">
+  <md:FullModel rdf:about="urn:uuid:383a07b4-7139-49a9-b34b-d82050ac2ef8">
+    <md:Model.scenarioTime>2024-07-09T12:14:56.9704712Z</md:Model.scenarioTime>
+    <md:Model.description></md:Model.description>
+    <md:Model.version>1</md:Model.version>
+    <md:Model.profile>http://entsoe.eu/CIM/Dynamics/3/2</md:Model.profile>
+    <md:Model.profile>http://entsoe.eu/CIM/Dynamics/3/2</md:Model.profile>
+    <md:Model.modelingAuthoritySet>https://www.ips-energy.com/</md:Model.modelingAuthoritySet>
+  </md:FullModel>
+  <cim:SynchronousMachine rdf:about="#_f1769919-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f1769920-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f1769961-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f1769967-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f176996d-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f1769973-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f1769979-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f1769804-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f176980a-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f1769810-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f1769845-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f176984c-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f1769853-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f176985a-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f1769861-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f1769868-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f176986f-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f1769876-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f17699bd-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f17699c4-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f17699cb-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f17699d2-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f17699d9-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f17699e0-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f17699e7-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f17699ee-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f17699f5-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f176983d-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f1769929-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f1769930-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f1769937-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f176993e-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f1769947-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f176994d-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f1769953-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f1769959-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f1769a12-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f1769a19-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f1769a20-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f1769a27-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f1769a2e-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f1769a35-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f176999f-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f17699a6-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f17699ad-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f17699b4-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f176987f-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f1769886-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f176988d-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f1769894-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f176989b-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f17698a2-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f176990b-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f1769911-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f17699fe-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f1769a04-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f1769a0a-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f1769818-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f176981f-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f1769826-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f176982d-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f1769834-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f17698ab-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f17698b1-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f17698b7-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f17698bd-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f17698c3-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f17698c9-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f17698df-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f17698e6-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f17698ed-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f17698f4-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f17698fb-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f1769902-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f17698d1-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f17698d7-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f1769981-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f1769988-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f176998f-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:SynchronousMachine rdf:about="#_f1769996-9aeb-11e5-91da-b8763fd99c5f" />
+  <cim:Terminal rdf:about="#_2dd90403-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769cb6-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90417-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769cf8-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9040f-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769cd4-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9040e-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769cd4-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90411-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769ce0-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90414-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769cec-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9040b-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769cc8-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_669c1d0c-87dd-a943-9316-88308bd36f15">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_4d89c650-5698-2e43-849b-ff65a7251f9c" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9019e-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2dd9019d-bdfb-11e5-94fa-c8f73332c8f4" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_8f8094c3-5c43-1241-9014-6c7a3ae10213">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_b8666715-5047-5d4d-a882-85fcf5c727b5" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90409-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2dd90408-bdfb-11e5-94fa-c8f73332c8f4" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_dc791b3b-fe63-a14b-b144-953748088613">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_22e5ddcf-ac23-b449-bc4f-83336535f7c2" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2e64900b-94a8-6e40-bd63-3e69510c316f">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_22e5ddcf-ac23-b449-bc4f-83336535f7c2" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_aadfa134-666a-ae4f-8c09-6f3ae114c3b5">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_4e7aa43e-f1a3-0046-8cbb-19f29bfdeab6" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_eb8b2a90-9bc8-154f-92dd-3887e3676498">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_4e7aa43e-f1a3-0046-8cbb-19f29bfdeab6" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_bff806b2-7825-af4c-a34b-be542dbe5ae6">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_0a46da9f-1326-254e-8a3b-649a431f6625" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_ee4223ab-0538-dc4a-9b79-d463c048bb08">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_0a46da9f-1326-254e-8a3b-649a431f6625" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_8a0babd6-6d6f-854b-b65f-4245e65c9e9c">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_6d9f92ea-354f-9f40-9fc2-33367292f12c" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_a533d3fd-822f-3b40-9030-e18b571cd1ea">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_6d9f92ea-354f-9f40-9fc2-33367292f12c" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_fe798f30-0725-e94e-8142-c06ca7701b14">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f56758a8-12a0-7648-b04b-f32ec3247e3b" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_5906b2a0-4ec9-1949-98b8-709380af0060">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f56758a8-12a0-7648-b04b-f32ec3247e3b" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_51883d43-111e-f24b-89f7-0573426fa32f">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_e3672ff8-a637-5046-a7f7-cd1760746ed4" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_e2f56599-a78e-494f-8db3-c0b0bdab1d70">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_e3672ff8-a637-5046-a7f7-cd1760746ed4" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_1ef7a41b-2cff-6046-b48f-c60a16fd20b0">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_7113e099-7f24-6a47-9fa2-94a2d57d6c9b" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_d288bd96-ae6e-cf46-9775-f38e2699f1ce">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_7113e099-7f24-6a47-9fa2-94a2d57d6c9b" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_9acd76b4-8d78-2b4b-81d5-e404e244997d">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_b36c1e1d-ec67-7b48-9a2f-ecbf617ae59f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_076da31b-080d-c742-9cb1-134a6ba5b1ed">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_b36c1e1d-ec67-7b48-9a2f-ecbf617ae59f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_a949cafd-39f3-8e4c-bca5-9928b004b4da">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_dd8be3ea-8ad3-f148-898c-5509662d5159" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_6da89f37-cc6f-4e4e-8b20-975295017390">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_dd8be3ea-8ad3-f148-898c-5509662d5159" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_c3458e72-1c7a-a74b-b561-8afe0a3aa2be">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_674b85b4-1a1f-2341-94bf-7e8f93392a7a" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_eba035f1-7c96-0142-8561-37b28625abf7">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_674b85b4-1a1f-2341-94bf-7e8f93392a7a" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_3916ae31-9f3d-af4e-8d87-87d373d8200a">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_cbd34307-2d45-ae47-872a-516888952750" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_b77c60e8-fe4f-9149-9bc6-c3eb8f899de2">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_cbd34307-2d45-ae47-872a-516888952750" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_22c3512a-fdf2-464c-b1f4-85d173fa2d18">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_4ba4e1a4-7265-d74f-8d46-8a4db7da37d1" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_ab88a3a2-a572-3440-be06-757e0225ea42">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_4ba4e1a4-7265-d74f-8d46-8a4db7da37d1" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_d28bc89e-0592-1440-9721-5cbe124c1f1b">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_3dd4a1cf-86dc-9649-8120-e519d7986be9" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_0ef62251-5e2e-d14a-aa44-396d4a885c4f">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_3dd4a1cf-86dc-9649-8120-e519d7986be9" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_356c6f11-da4d-3f4d-b3fd-49234106345c">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_5ae8b25f-24cc-e34b-b238-2aea59d516c5" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_761a49da-2b71-2d4e-877f-3cf7fa86ef63">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_5ae8b25f-24cc-e34b-b238-2aea59d516c5" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_db724627-9dae-4748-b4e3-2daf627ffa17">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_368340e1-464b-814b-9bac-9b70b93dde72" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_1a6d8d77-f2ca-f043-b475-f7db6304fe3e">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_368340e1-464b-814b-9bac-9b70b93dde72" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90478-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769e1e-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9047c-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769e1e-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_ea014fdb-b96f-2a4b-b1df-d38e846d4941">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_84573786-1ecd-614d-b343-72f255c26a3b" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90196-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2dd90195-bdfb-11e5-94fa-c8f73332c8f4" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd901ff-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769752-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90202-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769758-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd902dd-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769929-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd902e0-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769930-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd902e3-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769937-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd902e6-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f176993e-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_67dfc70a-36cf-da4e-b97c-fd1eda9cd8ac">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2384f146-deb2-c046-817c-6322a5381b9c" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_7d101d2b-ce05-9843-ab59-2c3e5e244cbb">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2384f146-deb2-c046-817c-6322a5381b9c" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_a749d698-52a2-564e-8c6f-068fe62045fe">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_ecc63b62-ab62-9747-9744-92ba78e89971" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_5ffde614-bc34-384d-923e-e62ac9f3f584">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_ecc63b62-ab62-9747-9744-92ba78e89971" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2e98d68c-e0c5-6d47-b392-a1746743ef63">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_3c4c59b7-461d-5b40-8f0e-2064845bbfdb" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_692809cf-1bb4-8642-9b70-ee677f063304">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_3c4c59b7-461d-5b40-8f0e-2064845bbfdb" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_8e8e6b0c-ee96-7a4f-9790-c9ae62edafbe">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_dad36893-9a19-d148-8703-a4f0ddd95077" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_67bc203e-13e4-534b-94b8-bf19f5b31080">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_dad36893-9a19-d148-8703-a4f0ddd95077" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_7f811234-10fe-e34f-a9af-9af61a6dd4c7">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_0d415b1b-b4da-f34f-aafb-802c77edce8e" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_f08f910c-300e-8941-aa85-3106d93e3429">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_0d415b1b-b4da-f34f-aafb-802c77edce8e" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_e3d56d8b-5f71-3042-9734-7118977e887c">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_ff413319-b126-e444-9e46-3e2268fc19aa" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_4a5b7813-14d3-fa4d-8907-edcdce7dbfd9">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_ff413319-b126-e444-9e46-3e2268fc19aa" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_71d09d39-a080-5d4f-86f3-7b3185e51b8e">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_fdf147d4-240d-2143-b01a-84fc829bc284" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_5831696b-e9e1-8e4a-a169-0e4e09f15f1f">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_fdf147d4-240d-2143-b01a-84fc829bc284" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_13116d72-3969-1344-91a7-14fb404a00c0">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_6589185b-1ac4-df4e-830b-30ea50c3d15d" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_ecfaf384-4581-4249-8646-b5d31943ad61">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_6589185b-1ac4-df4e-830b-30ea50c3d15d" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_ad970e05-69d9-5340-9dbd-ce6a9a2e0996">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_cefef4c4-1b45-af4b-8e13-275e0c9ffe27" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_0b50ae74-92eb-f244-872b-07e629f53494">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_cefef4c4-1b45-af4b-8e13-275e0c9ffe27" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_f4dba262-3ff3-9f41-961d-7fbe1f8a0cd7">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_85c172ea-50d5-8843-ba55-f8659693a2c6" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_0619c12e-abb9-b141-b3a7-e2788d3d375c">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_85c172ea-50d5-8843-ba55-f8659693a2c6" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_f723530d-ae1e-df4f-9c7f-21e42da147d6">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_bf62264e-c8f3-8f43-95c9-570f3337479c" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2a67a243-6e4a-a84d-8aea-f250399166c9">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_bf62264e-c8f3-8f43-95c9-570f3337479c" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_947636e9-e939-294e-a94b-2090060b74ca">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_41b5a199-973e-9246-ab28-6593d6a59a0d" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_7af49a35-a119-5443-84be-af343b7761c8">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_41b5a199-973e-9246-ab28-6593d6a59a0d" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_b3ff19da-83b8-5e40-b38c-38982b748732">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_13588bcf-c30d-7a49-beaa-67fcce61d305" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_dae3bb4b-0a86-9243-99c1-a1d5b163774d">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_13588bcf-c30d-7a49-beaa-67fcce61d305" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_e25c03e3-96a7-a64f-b776-a155f009d5f8">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_bdc35ecf-da90-de41-9345-b8c4228f63bd" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2f8c9437-e564-e948-8764-be3494565b1f">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_bdc35ecf-da90-de41-9345-b8c4228f63bd" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_0a122f63-f2c6-ca43-be49-76571474d98c">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_128ca899-5716-9341-a823-dd4c35385f2e" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_40725e5a-33bf-6046-8d11-da19f9c726b4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_128ca899-5716-9341-a823-dd4c35385f2e" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_30ab0123-1669-1242-99ca-610e4bcdc6c5">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_df16ad25-a8cf-a04b-a420-0d71145132dc" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_ad37e24a-9993-4f45-80ed-49a80b6a85d9">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_df16ad25-a8cf-a04b-a420-0d71145132dc" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_c1ca1160-be67-9448-a16b-e92a6112e380">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_316f39b6-0fed-ea41-87a1-0f5119e136c2" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_c8f95fee-e9a6-a44b-97ac-23e272a05ecd">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_316f39b6-0fed-ea41-87a1-0f5119e136c2" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_f9e8d6d1-76e1-6c4d-a640-e128ecfa723e">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_c9917527-be41-014a-9344-d9df590239e3" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_b016bc42-5a9f-ec42-b326-e9b9eed9e6d3">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_c9917527-be41-014a-9344-d9df590239e3" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_292835be-c432-734c-8c28-3b8c61c0c077">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_30b297b4-8e19-da40-9f52-fb9175136a22" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_40c8340e-7ccf-d446-8a6b-bffa19ec88e6">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_30b297b4-8e19-da40-9f52-fb9175136a22" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_093a3df5-0583-894f-99c9-016d752ff920">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_3993c419-d9d7-bb4c-8319-6671df77ec90" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_854b40ee-7109-d04c-b4ef-f0665722e451">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_3993c419-d9d7-bb4c-8319-6671df77ec90" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_a4bc44aa-25e4-684a-ab2c-c7fc3378d9e5">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_a7bb9a3e-03d8-3b46-9cf6-f2bf71ab7042" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_16659ede-d69f-1d48-bcf2-ebb2ee6c259e">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_a7bb9a3e-03d8-3b46-9cf6-f2bf71ab7042" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_0d7f39d0-5447-fb42-9d4f-3d0775bceef0">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_cc9d6086-68d7-0840-88da-2456744b3b14" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_e65c4130-3a4d-db42-9020-c9f7c447d473">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_cc9d6086-68d7-0840-88da-2456744b3b14" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_c95039b2-aea2-ad4d-b444-c6efc77461e5">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_0c75da66-5f3b-7d4a-809d-5a3772999253" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_d7a472cc-6b91-564d-93b4-0f3c24f2342c">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_0c75da66-5f3b-7d4a-809d-5a3772999253" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_6abb96f5-a71f-8e41-b563-7c569789d6bd">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_3a4ef440-621c-ec4d-9d45-65e99b395dae" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_a2a690ef-b78a-3f46-90c5-5d434e26a64e">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_3a4ef440-621c-ec4d-9d45-65e99b395dae" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_925f3ab7-54ce-b748-887a-fc6ae23bbdc2">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_e399c43f-0e9e-ae42-a66e-116fcccb56ac" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_a0ad0036-fbee-6646-b195-3a86614529f2">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_e399c43f-0e9e-ae42-a66e-116fcccb56ac" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_9b49634c-4910-9841-b595-0d0cb0d0d1de">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_0192045c-3523-324a-a050-c9dddd6fe2d0" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_bc0f852a-3cc8-e143-8174-f0854a2d38aa">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_0192045c-3523-324a-a050-c9dddd6fe2d0" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_37c82b4c-7441-9946-98bf-7ade99732ecf">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_0169b8e7-c05b-3640-b55e-22b40081ca21" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_caa10f15-4591-e241-ac0b-81675acf5687">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_56013ae5-ff4f-2949-b59a-e60c62702d3e" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_79887cf1-6c94-3f4f-a1f8-7ddef866d55f">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_0169b8e7-c05b-3640-b55e-22b40081ca21" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_d92cb2eb-fd81-194c-9e43-618df025d6b4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_56013ae5-ff4f-2949-b59a-e60c62702d3e" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_84775b5d-95c1-bd46-bb0d-0f74e4c06757">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_4ee41c27-44cd-3146-8fe0-ad30d5051340" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_0345061e-37c9-9a49-b632-2af77bdca3a2">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_4ee41c27-44cd-3146-8fe0-ad30d5051340" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_3718af45-a6ee-fb40-a4c6-f1118c114393">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_05d4226b-111b-f747-84b4-cc7be03f3544" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_ae68b597-69fb-e14b-a070-67c7dcc1d698">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_05d4226b-111b-f747-84b4-cc7be03f3544" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_8574aebb-23c4-3e4a-bd04-b5651c97d27a">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_c986d524-47e9-9e4d-b635-64386c9be9a1" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_38b8e08a-112e-b046-8504-efef4beb0c17">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_c986d524-47e9-9e4d-b635-64386c9be9a1" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_c1aa295d-e817-db46-b14e-bee2739fcd9d">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2973c36e-3d17-284c-a950-b86b9496acca" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_0dae5d37-4d01-3645-9e94-607410c5ac34">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2973c36e-3d17-284c-a950-b86b9496acca" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_cf654436-a05a-7948-8cc3-f3a288608964">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_9098d05f-45b6-7b4f-b176-a6995b423baa" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_5ddb272d-00bd-d74e-8c96-e2049351c3e4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_9098d05f-45b6-7b4f-b176-a6995b423baa" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_e3ef93a1-723a-224e-8863-472e4f269633">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_7cc994ab-ddb9-8a4a-bbda-e91af59a06d9" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_714c775a-246f-e34f-9a6b-667f4b66138c">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_7cc994ab-ddb9-8a4a-bbda-e91af59a06d9" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_efe663e2-7518-3044-88d4-209bf597536a">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2366eea5-1051-1047-b1e4-ba6c741e076d" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_e035c87e-704d-404f-8ea8-91c62e0d7d8a">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2366eea5-1051-1047-b1e4-ba6c741e076d" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_eaf768b1-3d82-c64d-a1c6-5bd7f9a72751">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_373c4779-0905-d34c-bbc9-d200f848cbd9" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_8d35b51b-06bd-7541-b3e6-2ddbbb1204fe">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_373c4779-0905-d34c-bbc9-d200f848cbd9" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_70f1852f-186d-5e43-98bf-b69f028cfcc5">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_29fd599d-9429-cb4b-a103-df08eb0a97f8" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_6ac2f3cd-c906-0a4b-ba1b-5942e9c65307">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_29fd599d-9429-cb4b-a103-df08eb0a97f8" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_329965e7-b5de-c54f-856a-358c9e1f9c50">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_b209ada6-1835-1540-8868-1cd5e65016c2" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_f710cc4a-50dd-e443-8ac7-4c56b70041e8">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_b209ada6-1835-1540-8868-1cd5e65016c2" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_da4b0f71-a251-f947-be12-2de53a2d272a">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_4b31bd38-15c9-104a-bbb8-4570207cc245" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_5c3fa20d-4748-5e44-b915-481e6d2552cd">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_4b31bd38-15c9-104a-bbb8-4570207cc245" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_cd25f47c-ad0c-f74d-8c0e-fd91a95505b6">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f0473e35-b545-ac4a-84b9-2d52718a3b35" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_c8ac9d5f-d60e-a345-8790-12b86184c31b">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f0473e35-b545-ac4a-84b9-2d52718a3b35" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90156-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2dd90155-bdfb-11e5-94fa-c8f73332c8f4" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9015c-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2dd9015b-bdfb-11e5-94fa-c8f73332c8f4" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9015e-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2dd9015d-bdfb-11e5-94fa-c8f73332c8f4" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90162-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2dd90161-bdfb-11e5-94fa-c8f73332c8f4" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90166-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2dd90165-bdfb-11e5-94fa-c8f73332c8f4" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90168-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2dd90167-bdfb-11e5-94fa-c8f73332c8f4" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9016b-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2dd9016a-bdfb-11e5-94fa-c8f73332c8f4" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9016d-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2dd9016c-bdfb-11e5-94fa-c8f73332c8f4" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9016f-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2dd9016e-bdfb-11e5-94fa-c8f73332c8f4" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90171-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2dd90170-bdfb-11e5-94fa-c8f73332c8f4" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90173-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2dd90172-bdfb-11e5-94fa-c8f73332c8f4" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90176-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2dd90175-bdfb-11e5-94fa-c8f73332c8f4" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90178-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2dd90177-bdfb-11e5-94fa-c8f73332c8f4" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9017c-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2dd9017b-bdfb-11e5-94fa-c8f73332c8f4" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9017e-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2dd9017d-bdfb-11e5-94fa-c8f73332c8f4" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90182-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2dd90181-bdfb-11e5-94fa-c8f73332c8f4" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90184-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2dd90183-bdfb-11e5-94fa-c8f73332c8f4" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90186-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2dd90185-bdfb-11e5-94fa-c8f73332c8f4" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90188-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2dd90187-bdfb-11e5-94fa-c8f73332c8f4" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9018a-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2dd90189-bdfb-11e5-94fa-c8f73332c8f4" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9018c-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2dd9018b-bdfb-11e5-94fa-c8f73332c8f4" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9018e-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2dd9018d-bdfb-11e5-94fa-c8f73332c8f4" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90190-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2dd9018f-bdfb-11e5-94fa-c8f73332c8f4" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90192-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2dd90191-bdfb-11e5-94fa-c8f73332c8f4" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90194-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2dd90193-bdfb-11e5-94fa-c8f73332c8f4" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9019a-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2dd90199-bdfb-11e5-94fa-c8f73332c8f4" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9019c-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2dd9019b-bdfb-11e5-94fa-c8f73332c8f4" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd901a0-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2dd9019f-bdfb-11e5-94fa-c8f73332c8f4" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd901a2-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2dd901a1-bdfb-11e5-94fa-c8f73332c8f4" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd901a4-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2dd901a3-bdfb-11e5-94fa-c8f73332c8f4" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd901a6-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2dd901a5-bdfb-11e5-94fa-c8f73332c8f4" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd901a8-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2dd901a7-bdfb-11e5-94fa-c8f73332c8f4" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd901ae-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2dd901ad-bdfb-11e5-94fa-c8f73332c8f4" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd901b2-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2dd901b1-bdfb-11e5-94fa-c8f73332c8f4" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd901b4-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2dd901b3-bdfb-11e5-94fa-c8f73332c8f4" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd901b8-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2dd901b7-bdfb-11e5-94fa-c8f73332c8f4" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd901ba-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2dd901b9-bdfb-11e5-94fa-c8f73332c8f4" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd901bc-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2dd901bb-bdfb-11e5-94fa-c8f73332c8f4" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd901be-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2dd901bd-bdfb-11e5-94fa-c8f73332c8f4" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd901c2-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2dd901c1-bdfb-11e5-94fa-c8f73332c8f4" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd901c4-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2dd901c3-bdfb-11e5-94fa-c8f73332c8f4" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd901c6-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f17696e0-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd901c9-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f17696e6-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd901cc-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f17696ec-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd901cf-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f17696f2-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd901d2-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f17696f8-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd901d5-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f17696fe-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd901d8-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769704-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd901db-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f176970a-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd901de-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769710-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd901e1-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769716-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd901e4-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f176971c-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd901e7-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769722-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd901ea-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769728-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd901ed-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f176972e-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd901f0-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769734-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd901f3-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f176973a-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd901f6-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769740-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd901f9-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769746-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd901fc-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f176974c-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd901aa-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2dd901a9-bdfb-11e5-94fa-c8f73332c8f4" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90205-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f176975e-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90208-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769764-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9020b-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f176976a-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9020e-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769770-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90211-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769776-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90214-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f176977c-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90217-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769782-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9021a-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769788-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9021d-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f176978e-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90220-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769794-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90223-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f176979a-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90226-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f17697a0-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90229-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f17697a6-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9022c-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f17697ac-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9022f-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f17697b2-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90232-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f17697b8-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90235-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f17697be-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90238-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f17697c4-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9023b-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f17697ca-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9023e-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f17697d0-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90241-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f17697d6-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90244-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f17697dc-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90247-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f17697e2-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9024a-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f17697e8-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9024d-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f17697ee-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90250-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f17697f4-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90253-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f17697fa-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90258-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769804-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9025b-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f176980a-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9025e-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769810-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90262-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769818-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90265-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f176981f-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90268-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769826-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9026b-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f176982d-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9026e-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769834-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90272-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f176983d-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90276-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769845-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90279-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f176984c-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9027c-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769853-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9027f-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f176985a-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90282-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769861-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90285-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769868-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90288-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f176986f-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9028b-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769876-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9028f-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f176987f-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90292-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769886-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90295-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f176988d-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90298-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769894-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9029b-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f176989b-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9029e-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f17698a2-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd902a2-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f17698ab-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd902a5-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f17698b1-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd902a8-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f17698b7-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd902ab-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f17698bd-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd902ae-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f17698c3-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd902b1-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f17698c9-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd902b5-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f17698d1-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd902b8-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f17698d7-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd902bc-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f17698df-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd902bf-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f17698e6-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd902c2-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f17698ed-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd902c5-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f17698f4-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd902c8-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f17698fb-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd902cb-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769902-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd902cf-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f176990b-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd902d2-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769911-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd902d6-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769919-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd902d9-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769920-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd902ea-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769947-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd902ed-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f176994d-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd902f0-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769953-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd902f3-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769959-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd902f7-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769961-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd902fa-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769967-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd902fd-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f176996d-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90300-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769973-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90303-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769979-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90307-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769981-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9030a-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769988-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9030d-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f176998f-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90310-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769996-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90314-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f176999f-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90317-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f17699a6-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9031a-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f17699ad-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9031d-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f17699b4-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90321-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f17699bd-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90324-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f17699c4-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90327-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f17699cb-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9032a-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f17699d2-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9032d-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f17699d9-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90330-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f17699e0-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90333-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f17699e7-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90336-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f17699ee-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90339-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f17699f5-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9033d-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f17699fe-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90340-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769a04-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90343-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769a0a-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90347-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769a12-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9034a-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769a19-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9034d-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769a20-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90350-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769a27-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90353-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769a2e-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90356-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769a35-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90357-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769a39-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9035a-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769a4c-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9035d-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769a58-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90360-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769a64-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90363-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769a70-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90366-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769a7c-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90369-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769a88-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9036c-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769a94-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9036f-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769aa0-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90372-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769aac-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90375-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769ab8-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90378-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769ac4-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9037b-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769ad0-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9037e-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769adc-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90381-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769ae8-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90384-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769af4-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90387-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769b00-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9038a-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769b0c-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9038d-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769b18-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90390-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769b24-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90393-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769b30-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90396-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769b3c-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90399-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769b48-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9039c-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769b54-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9039f-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769b60-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd903a2-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769b6c-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd903a5-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769b78-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd903a8-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769b84-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd903ab-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769b90-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd903ae-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769b9c-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd903b1-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769ba8-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd903b4-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769bb4-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd903b7-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769bc0-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd903ba-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769bcc-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd903be-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2dd903bd-bdfb-11e5-94fa-c8f73332c8f4" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd903c1-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2dd903c0-bdfb-11e5-94fa-c8f73332c8f4" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd903c3-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769bde-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd903c6-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769bea-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd903c9-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769bf6-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd903cd-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2dd903cc-bdfb-11e5-94fa-c8f73332c8f4" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd903d0-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2dd903cf-bdfb-11e5-94fa-c8f73332c8f4" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd903d2-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769c08-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd903d5-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769c14-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd903d8-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769c20-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd903db-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769c2c-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd903de-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769c38-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd903e1-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769c44-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd903e4-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769c50-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd903e7-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769c5c-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd903ea-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769c68-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd903ed-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769c74-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd903f0-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769c80-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd903f3-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769c8c-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd903f6-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769c98-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd903fa-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2dd903f9-bdfb-11e5-94fa-c8f73332c8f4" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd903fd-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2dd903fc-bdfb-11e5-94fa-c8f73332c8f4" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd903ff-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769caa-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90402-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769cb6-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90406-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2dd90405-bdfb-11e5-94fa-c8f73332c8f4" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9041a-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769d04-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9041d-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769d10-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90420-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769d1c-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90423-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769d28-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90426-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769d34-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90429-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769d40-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9042c-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769d4c-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9042f-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769d58-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90432-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769d64-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90435-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769d70-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90439-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769d7c-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90440-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769d8e-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90447-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769da0-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9044e-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769db2-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90455-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769dc4-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9045c-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769dd6-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90463-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769de8-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9046a-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769dfa-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90471-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769e0c-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9047f-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769e30-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90486-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769e42-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90358-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769a39-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9035b-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769a4c-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9035e-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769a58-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90361-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769a64-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90364-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769a70-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90367-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769a7c-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9036a-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769a88-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9036d-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769a94-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90370-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769aa0-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90373-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769aac-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90376-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769ab8-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90379-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769ac4-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9037c-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769ad0-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9037f-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769adc-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90382-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769ae8-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90385-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769af4-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90388-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769b00-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9038b-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769b0c-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9038e-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769b18-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90391-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769b24-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90394-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769b30-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90397-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769b3c-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9039a-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769b48-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9039d-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769b54-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd903a0-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769b60-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd903a3-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769b6c-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd903a6-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769b78-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd903a9-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769b84-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd903ac-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769b90-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd903af-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769b9c-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd903b2-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769ba8-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd903b5-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769bb4-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd903b8-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769bc0-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd903bb-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769bcc-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd903c4-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769bde-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd903c7-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769bea-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd903ca-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769bf6-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd903d3-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769c08-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd903d6-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769c14-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd903d9-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769c20-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd903dc-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769c2c-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd903df-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769c38-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd903e2-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769c44-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd903e5-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769c50-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd903e8-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769c5c-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd903eb-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769c68-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd903ee-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769c74-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd903f1-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769c80-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd903f4-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769c8c-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd903f7-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769c98-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90400-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769caa-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9040c-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769cc8-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90412-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769ce0-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90415-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769cec-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90418-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769cf8-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9041b-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769d04-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9041e-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769d10-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90421-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769d1c-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90424-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769d28-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90427-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769d34-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9042a-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769d40-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9042d-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769d4c-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90430-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769d58-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90433-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769d64-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90436-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769d70-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9043d-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769d7c-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90444-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769d8e-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9044b-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769da0-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90452-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769db2-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90459-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769dc4-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90460-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769dd6-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90467-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769de8-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9046e-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769dfa-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90475-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769e0c-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd90483-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769e30-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2dd9048a-bdfb-11e5-94fa-c8f73332c8f4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f1769e42-9aeb-11e5-91da-b8763fd99c5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_02b41435-bd3e-bb4b-9b89-24e3a8983c0f">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_4d89c650-5698-2e43-849b-ff65a7251f9c" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_a9b61cc1-6066-49e5-bfbc-8ab93df5378f">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_131a14f6-7032-499d-b691-f65bc52cc635" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_be24dc11-bfeb-4879-b0ff-18a490500393">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_eba80fde-c5f8-49fc-8465-0329fdeefda9" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_aa779c1e-3231-4a30-9c97-2e454df8fd2e">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_43dbe66c-a342-44b0-b9cf-058c784cef1d" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_c09dcf2f-1c42-4327-b781-a60f03da1bdf">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_43dbe66c-a342-44b0-b9cf-058c784cef1d" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_9b9eb222-f178-41bd-b982-1a6bbc962633">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_1bb434df-1410-4b79-b57b-1af90387e355" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_01e61a02-6a5c-4870-8908-0993f903e993">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_063fd50f-9b15-4b24-a59c-be21be7fd845" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_aedd4519-26d5-49a7-afdc-4429e9fa792b">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_063fd50f-9b15-4b24-a59c-be21be7fd845" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_3a69b15f-29f9-45a1-b1e5-abd6e87679ca">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_0103615e-f6cc-4cb8-a338-a7fb714cdfa2" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_f9c541fc-963c-4261-b7be-635e26aab390">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_85024669-7147-4a77-9a30-b773d8b10f58" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_7a27297f-5740-4fad-b0f5-70615a91b8c2">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_85024669-7147-4a77-9a30-b773d8b10f58" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_36f15195-4403-4b23-889f-ef5f31ea0bb7">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_c060399a-96a1-4765-9ef8-c936ca08f8fe" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_c6c5b1ac-8cc3-46a5-9b10-66097a1ef1c8">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_117beb83-cb8e-444f-a054-e98d1ca477e7" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_6888a1d9-6f42-419f-b2df-7b6f0e031db4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2a906e57-0892-4de8-89b2-56c273f8c09c" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_5df405a4-3126-4ea8-a022-32d7756bd141">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_117beb83-cb8e-444f-a054-e98d1ca477e7" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_bd42c91e-8867-4d92-ba9d-491240b602af">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_919be6f3-be6b-449d-af3d-4d0a7a221ff5" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_7a1e79c9-c114-4868-a557-1dccf242477d">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_919be6f3-be6b-449d-af3d-4d0a7a221ff5" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_1c7f30d2-4876-4033-9637-90ce25ea2fe7">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_e2b45f87-e399-47b4-86f9-0e68fb374a65" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_6a3d76f7-276c-44d5-b883-89240b3b2b2f">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_e286272e-827c-4b12-83cb-6b3e91170e3e" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_50abb33d-e94f-4e74-b775-d252f82d1310">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_e286272e-827c-4b12-83cb-6b3e91170e3e" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_c1de217c-a40b-4079-9fde-3d7bd30a934b">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_30d15518-d0ac-4800-a5c1-da8593c790ed" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_06ac43a8-dee2-4c3c-bf96-4d87defe94db">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_30d15518-d0ac-4800-a5c1-da8593c790ed" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_86cd468a-7cfa-4efa-9ee5-f9bb8088a7a1">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_4abb4cf4-5b33-4e16-b4f4-7b7dbf45e90a" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_b4049b1a-ac26-43bc-a59f-bd3b4bbd666e">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_9d58e5bb-834c-4faa-928c-7da0bb1497d9" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_0da1c730-0958-4dac-9a8c-c8d7ba4b43ce">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_84329e8e-2efe-4870-82db-a0bf9a768bd2" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_b6fde3bb-8fb7-4b19-9e15-32597c864385">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_ead7f7fd-d132-43b5-b561-1b0e65b0a562" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_532b1ea0-074d-4ab0-b582-b583b3289f03">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_320b9701-cae3-478e-a70b-03d1736ed4e3" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_38e1c640-0a06-4538-b521-953f48cefea8">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_1ab052d3-e055-4dfe-9e47-8af771bd652a" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_7ab75f17-adf9-4e46-b2c2-8c361e647e21">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_5394fd91-851b-406a-ab9c-ecbe7a411c17" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_ca7d345e-cf27-4f24-941d-c0ac34b2fdb3">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f2ed5944-a394-4802-8ec9-936bc60e5bc4" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_02d082db-3c6d-458a-93d2-0d7ace7d4ec8">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_fe0a5228-5eb4-4008-9ee6-d22389f798e9" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_40381c35-9d93-41dc-b504-9f7fa07d36fa">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_50e4056a-92e6-4bc2-b6e1-4d66f1624c38" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_e1048b55-b799-45b5-aa60-e452c0784a5d">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_0103615e-f6cc-4cb8-a338-a7fb714cdfa2" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_bfe5eea8-b897-49ec-afc9-bbec308f93be">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_8aad5c29-6039-4321-8f8a-ad1c186dd145" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_1e4f0009-85b7-4087-85a8-bf7c21f01e47">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_8aad5c29-6039-4321-8f8a-ad1c186dd145" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_fc57ebb1-8059-4dd7-9811-2129b912dd45">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_84329e8e-2efe-4870-82db-a0bf9a768bd2" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2c0a6657-c218-4e53-8b4f-97eca6cabf5d">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_dda0993b-140e-41f4-ab0e-9690859afef3" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_7fe6afe8-8c76-4da5-93ff-ef18a1ea5a05">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_a498f1fd-65f0-41df-83ee-29c92d075514" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_0802b6e1-d0ec-4763-8ef3-3daa8491db3d">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_a498f1fd-65f0-41df-83ee-29c92d075514" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_81cdadda-ee8c-4dfd-946a-0635624ec15b">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_ead7f7fd-d132-43b5-b561-1b0e65b0a562" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_31333403-d015-4f06-964e-9e17a61c5a8b">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2a906e57-0892-4de8-89b2-56c273f8c09c" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_143382f7-7fd8-4191-bc72-2637805f2232">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_764a7252-9aae-4da4-a23b-6c770d8b16c1" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_536ea11f-ef95-4aed-9ed3-38e25507a31e">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_764a7252-9aae-4da4-a23b-6c770d8b16c1" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_229bbca7-85c5-4477-a17a-a740a659f4ba">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_e18cbee0-1a4f-4315-9108-39f317c67fd5" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_597e3d22-006a-42fd-98ab-2d770c3de3c3">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2bd7a004-6ad1-47fc-bb52-6f5ee1f94c31" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_4b48981e-04b8-497d-bd12-aebaa0711e51">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2bd7a004-6ad1-47fc-bb52-6f5ee1f94c31" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_63008f90-ffd1-437c-8325-dba7f0f6d0e0">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_3f90847f-9450-47aa-a2fa-714cc5353867" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_75cd9cd7-b796-4f22-b6e3-8b6f7c5e37af">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_3f90847f-9450-47aa-a2fa-714cc5353867" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_9f6c9ac5-f891-479b-b127-d032bd91e130">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_ed384e6d-b8d1-45bf-9778-fb2e1b5142fa" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_8a265428-9d34-49fb-8c38-925857746227">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_bf819ffc-270d-4025-bef8-db10ffb5b196" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_7f48263a-770e-40c7-ad21-c71627cdab40">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_bf819ffc-270d-4025-bef8-db10ffb5b196" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_1f6d65dc-0498-4e9f-beda-0e36a667bb43">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_9d58e5bb-834c-4faa-928c-7da0bb1497d9" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_683d152b-dcf1-4366-80fd-76f2b6cd9ee3">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_6f519536-eefe-452e-8294-c115bf21581d" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_fbf03686-b993-49c2-93c9-65104176a8f2">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_6f519536-eefe-452e-8294-c115bf21581d" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_3319d991-dcb5-46ce-947c-a99d45f63aab">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_7d2f35f7-82ef-42f9-bc10-6f62fe96d116" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_0215c1f8-fc1e-445f-a558-92bf98969e41">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_e832d4e7-1335-4773-b203-bf7035d29bc3" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_ed91b195-2039-4900-a268-a8755d30cf30">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_e832d4e7-1335-4773-b203-bf7035d29bc3" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_f31b5fec-4481-49d9-8848-fe49584f5ffe">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_446700b3-38fb-4cfe-aa71-11fdf6118a49" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_3d6ea092-8ae6-42e3-babf-44a147bcb208">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_446700b3-38fb-4cfe-aa71-11fdf6118a49" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_aa1b0b87-0d63-46e2-8111-9fbb6ea816a2">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_a6d32ac1-e894-4d28-a44b-41635a6c8b6f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_bf39bb12-27ee-4d10-8b12-e5cf9df9b716">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_ba0be174-8971-4820-a42b-db2c5a781e87" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_e2be31ec-d1e5-406b-9599-86aa02207bed">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_ba0be174-8971-4820-a42b-db2c5a781e87" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_e1a6c356-813b-4311-8986-898231fa1aa1">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_131a14f6-7032-499d-b691-f65bc52cc635" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_bf2c7b69-3bea-4fcc-958d-7b3c48a7a857">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_320b9701-cae3-478e-a70b-03d1736ed4e3" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_e8b1f571-0501-4698-ad19-640b1185dc7d">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_800c36a9-07be-45bd-9106-260cbd66ce4c" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_52ed6ec4-be0a-408c-ad0a-7bd5373a146c">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_800c36a9-07be-45bd-9106-260cbd66ce4c" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_68157d46-4a7e-418f-bafe-66e20711a4a9">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_8cc7031f-def2-49b7-97a9-43d3c3c15789" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_b2c87180-cc2e-495b-b118-f136e5bccf1d">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_81f3131f-baed-442d-bf7a-3606832fc3e0" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_62523238-53d4-4711-8a2a-b41035630898">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_81f3131f-baed-442d-bf7a-3606832fc3e0" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_55e2a0a4-56bf-40c1-83b2-d325f5189991">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_7e432a85-77b4-44f2-ae98-07134a1a5087" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_283fd7fb-6e9d-412a-a4f5-fdabbca1a570">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_7e432a85-77b4-44f2-ae98-07134a1a5087" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_01ec3391-39cc-44e6-805e-ac0f0edae6c0">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_8dcf0a96-206b-4da2-814d-4030ac0dfaec" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_48e064d1-57cf-4fbe-bc6b-1aa924545e7a">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_8dcf0a96-206b-4da2-814d-4030ac0dfaec" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_aea98b32-d6db-4a7e-a95a-ada4f44c8198">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_b8a334a5-2bcb-40e6-b6c2-db906441552d" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2bc1cd52-2a39-4aab-ade9-aa288026e247">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_46ae56a9-435f-4fad-aa91-015ef1dca930" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_98004ef5-e5ce-4265-ab1f-61f09e071cfa">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_46ae56a9-435f-4fad-aa91-015ef1dca930" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_0a678342-9812-43a4-96f3-5854378d5d78">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_797fe5ce-1857-4bea-8a0f-728a4b4c30ed" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_eb318191-ad86-4557-bda4-ec5bb2a8bf6c">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_797fe5ce-1857-4bea-8a0f-728a4b4c30ed" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_8e8a13c4-ae71-48d8-84b7-dceb0d7672cb">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_296e7555-8ef5-4ad4-a85b-3111ae892a65" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_c5bc4e4d-bac4-4345-910f-15a6790278d2">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_296e7555-8ef5-4ad4-a85b-3111ae892a65" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_3511146a-8295-4ff1-a93f-c55041b56074">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f2ed5944-a394-4802-8ec9-936bc60e5bc4" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_dac94d79-480e-4e2c-80be-38d1cd71ba4d">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_725505f7-df2a-41da-9428-0a9b7984817a" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_7b16f278-456f-4dc8-a3e5-3187f673f7c3">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_725505f7-df2a-41da-9428-0a9b7984817a" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_147daae5-324b-400e-bae3-2834a755d490">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_13e2ba8c-0046-447a-a99f-4c7ec3b051b9" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_8096380f-f98c-4e4e-aa15-1866edf2a519">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_76335f11-64c3-474d-92fd-7ab11ed607e4" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_bb5f83d8-1fea-4335-8377-e2551ad64ee8">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_04355e33-02e4-42ed-8d88-96b0be7044a8" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_27b62e2b-b8aa-4df1-b740-8edbfbf1bc8e">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_04355e33-02e4-42ed-8d88-96b0be7044a8" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_a08c75e1-e729-43d9-8f8a-f3aef1c64328">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_81567f71-8233-4e19-8357-e75d35e89470" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_4ae7f58f-6292-4b46-967f-3220caf4bcfb">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_81567f71-8233-4e19-8357-e75d35e89470" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_1eab6fb9-bcaf-43ac-9d4e-59d5e6c584c9">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_aae86260-d615-473f-9622-5817da962df1" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_10b9392c-2705-442f-9caa-92befb7f2a59">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_9b24ac8f-043c-4087-ac3b-a695c464f93d" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_e4308159-eace-4525-ab88-9165ffcc4c56">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_9b24ac8f-043c-4087-ac3b-a695c464f93d" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_62eb6150-d16f-456a-9288-178f36391480">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_fe0a5228-5eb4-4008-9ee6-d22389f798e9" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2d89f58a-8b63-4926-afab-43dd40806497">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_5bd4c12d-99d5-49d7-87fb-a346067c697e" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_907ec852-2025-45ba-8c23-74844b7181f1">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_5bd4c12d-99d5-49d7-87fb-a346067c697e" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_a9b32dfb-6dfe-4d4c-b563-2e29614b4319">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_76335f11-64c3-474d-92fd-7ab11ed607e4" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_5212d1df-9427-4202-9564-8aac1111fbc5">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_4c23e857-2e4b-4b7c-9c47-5a9190e5afd4" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_8d1b7879-ba70-459c-a9ab-f5cc16245e92">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_b63024f5-df5f-4d21-ba9d-97288bdabe97" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_dbd260b8-a9a6-4e57-b3c4-4e37faf970ad">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_b63024f5-df5f-4d21-ba9d-97288bdabe97" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_7d68dda0-34ab-4d1f-adbe-59833a2e2d89">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f64ec489-a926-4f4f-877b-102d4cd7fd2b" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_a1efb1ed-3ba9-4461-a9f4-0b80b8298bbe">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f64ec489-a926-4f4f-877b-102d4cd7fd2b" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_53075a70-fdf6-4201-ab30-a5622568f240">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_93efed67-8a75-487c-8e1d-0d31ee4a2fc3" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_9e92ebe1-8891-4d33-b03d-8a87bb1fb68a">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_93efed67-8a75-487c-8e1d-0d31ee4a2fc3" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_ec4561fc-115e-4fc0-903b-362c076c245e">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2a850d95-6c2e-4a20-a9c6-0f97158473d6" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_0a57245c-827a-447d-b68a-18cbbd2b7d7b">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_7c60d1fd-fe74-4094-89f7-2d3949deaa3c" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_d4af13ff-7321-4031-9d3a-5d609e7a716f">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_7c60d1fd-fe74-4094-89f7-2d3949deaa3c" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_54a2bbab-bf15-4b63-afc6-ecfbd135d058">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_46bce40c-71c2-4d19-b63f-78a69c460b0e" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_db6aa9ff-9de6-4356-89be-b8e889ad6c76">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_b6bbea56-f530-4f7b-9a94-9b7fdeb58779" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_cf300299-c004-43c6-88bf-213eef453fbb">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_b6bbea56-f530-4f7b-9a94-9b7fdeb58779" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_1a49c2a1-157b-48d8-b9bc-c730e1bc4f0c">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_3a7461ed-8e5d-427a-8b48-af3a46c042f5" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_eda5e7ec-946f-46db-8ba3-5b7dcf8ab677">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_9a717362-88c3-4b20-85a7-9adfb67c63ca" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_87f29ed1-815c-41f4-b6ea-1d379f3b4b79">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_9a717362-88c3-4b20-85a7-9adfb67c63ca" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_57b5a4b0-ef47-49cf-bd43-4b3b91fcf621">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_e0e00668-9e76-461f-b310-8c84afb9ffe6" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_762fe0b5-b721-4b03-be6a-4cf2ebb68c28">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_e0e00668-9e76-461f-b310-8c84afb9ffe6" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_6cd14a4d-28a7-43b2-aab8-47f19a4ff074">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_39a90500-8c87-4576-b912-32abf18a8d12" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_4ff08b75-a1c0-4efb-a6cf-e6007d46fbac">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_39a90500-8c87-4576-b912-32abf18a8d12" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_d406735a-4c44-45ef-a189-e050216e1183">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_50e4056a-92e6-4bc2-b6e1-4d66f1624c38" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_d4141353-a4b9-4b70-8aad-a9206b76b35c">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_46bce40c-71c2-4d19-b63f-78a69c460b0e" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_9e6f9c70-b0ad-48c6-9622-8956105b03a6">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_9f3753d2-3a46-454b-8d14-f4f00743d48a" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_f2c474df-1fdf-4d28-bfde-7a64bf08fac2">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_9f3753d2-3a46-454b-8d14-f4f00743d48a" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_95c67764-d60f-4cda-87bb-3844490986e4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_46c1c4fb-6a7a-4912-bd2e-4851b6276345" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_79da072a-4f5a-4985-b4e0-9e9d6fe36de0">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_1404c232-d6aa-4ed9-855c-8c7ac383a8f5" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_7a3181a7-9e88-457f-b242-8042d802cc5f">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_1404c232-d6aa-4ed9-855c-8c7ac383a8f5" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_649f6e2d-c92a-48ef-bae8-db3e945ce62e">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_70b19e4c-edb9-4957-885c-59b7a515724f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_15e427b1-b3c8-4599-a093-eef5ddda81c2">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_70b19e4c-edb9-4957-885c-59b7a515724f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_7be4341d-b51c-41f9-a174-0166467e4e56">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_67334cb3-902b-4d55-9207-50c75357458c" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_cd2d0841-1edd-4eab-a4dd-3261bc5f7e34">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_86b80fe6-e846-415c-a74d-30abad315741" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_661cab41-0d32-4b9f-b33e-f707c4904c39">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_86b80fe6-e846-415c-a74d-30abad315741" />
+  </cim:Terminal>
+  <cim:SynchronousMachine rdf:about="#_33666962-c2f9-4f6b-af5a-2ef1982ac282" />
+  <cim:Terminal rdf:about="#_7d09271d-7826-442e-bc57-d1fa1955495e">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_33666962-c2f9-4f6b-af5a-2ef1982ac282" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_48955729-dbff-455b-94bd-3b8bb2c1537c">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_681a26f3-5a55-11eb-a658-74e5f963e191" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_19be92de-7307-074e-af23-2acb6521214a">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_1f19556f-4604-8545-b930-0d96b163c57a" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_92d33b9a-7034-11eb-a65a-74e5f963e191">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_92d33b99-7034-11eb-a65a-74e5f963e191" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_f6e8c471-b1eb-467b-af68-78c6aa25771b">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_92d33bcc-7034-11eb-a65a-74e5f963e191" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_ffb2f7d9-b099-4ecb-be93-9071b755ceab">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_abbab805-9b44-4c2d-93c2-45a691f71cd1" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_25581747-6599-46ae-a8ac-62a0161045aa">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_cf484bc9-2ef9-4116-a5a9-9a5db3e09df9" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_eaa32378-2082-4b76-92df-09fa5f8b8b51">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_d1afcb93-f7d9-4e93-8c91-bbeb35f2a322" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_f3b95f0e-d18e-4d14-a61a-79c020ac8c30">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_38cd8874-fb01-462c-8c85-95dac14fee9c" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_86c847a4-9732-9844-b480-c53b70f6ceec">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_b1b4714b-a160-7742-84d5-d6486d776c94" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_92d33be5-7034-11eb-a65a-74e5f963e191">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_92d33be4-7034-11eb-a65a-74e5f963e191" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_b4e0a331-3de4-4ac8-802b-a8eb031ce568">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_681a26cf-5a55-11eb-a658-74e5f963e191" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_92d33bb7-7034-11eb-a65a-74e5f963e191">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_681a2a7f-5a55-11eb-a658-74e5f963e191" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_92d33ba8-7034-11eb-a65a-74e5f963e191">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_681a2a13-5a55-11eb-a658-74e5f963e191" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_92d33b81-7034-11eb-a65a-74e5f963e191">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_681a26db-5a55-11eb-a658-74e5f963e191" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_0523e10e-4e02-48c6-94dd-ef1938932497">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_a8afc199-8a20-41d8-8ada-5261202610eb" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_86def089-155d-984b-a28f-2d4835cc7dfe">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_ce365fed-87da-da4c-b646-6d39ba7eb406" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_8266f01c-2b3d-4111-957e-b871f71f0fad">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_48668646-105a-490d-aaad-3259b852aa23" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_45fbf47e-a9b2-4131-8851-afceeecf0ec9">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_e3b199ca-485b-4df8-99f0-fdd5e4f3ff73" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_0e748f98-11fe-4783-9501-0e673cab8f0d">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_13d2fd99-e200-4f43-bd9f-a16dc4959edb" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_e190ae57-ed18-f340-90c2-ddbbfe168ed8">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_ed8865cf-8b36-42ce-acdc-0627b5f55802" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_92d33bf5-7034-11eb-a65a-74e5f963e191">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_681a2fdd-5a55-11eb-a658-74e5f963e191" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_6cc409d6-980c-481b-8b67-127ecf5dc19c">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_dd41276d-9ea7-47a8-a0f3-65215c8225a5" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_1089c4dd-7fa5-4b0b-a92c-1680375ae16f">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_ab5aff23-cc0c-40a9-ab1b-7c113822358e" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_297b7aa5-fb24-458f-8680-c1052e42a1f9">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_47bfbe16-6fa2-4b6c-9b75-7453efebafbe" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_87f8c183-5711-4941-9eb4-c6b84d6a80b9">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_eb9b50c9-e363-0940-a177-2b7abd47f398" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_4e7dd4ef-600d-4ada-9cf4-115877382adc">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_a8f889e8-53f2-494b-97b9-c5dcbc1d17c7" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_8be67710-8728-3546-b2be-87f8fa2ee604">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_a450fac1-80a9-cd4d-aa26-0223af980b17" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_342b33ad-8621-4065-8b98-d7497369f93b">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_d4afd20b-a007-43f0-9736-4a868c4cc65a" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_fa0a4d49-abad-4371-a75e-3051034a834a">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_57b1462c-259c-426b-86f9-f6f6f2af9c5c" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_54d22a2e-c361-45e2-94cd-08a2573b3c4e">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_808643b7-4e47-4faa-b906-999d0f1fe32b" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_991c13e2-277f-4d4b-9c53-d6d58b1008c0">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_93fb8ecd-7d8f-40b3-8777-be000fb8e0e3" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_0eb374ed-073c-481e-bc88-1be81df7070b">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_12156bb5-7a82-4e95-8ea4-2ff8573133fe" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_5781ec87-90e4-4f57-8651-6b34b8f3eb4d">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_b8b9b131-6eb7-41c7-899e-7003960b1a5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_223dbb61-ee70-474e-8e58-adc96aa4458d">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f7d8e580-296d-4c2a-b989-1eb4db7af387" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_92d33c01-7034-11eb-a65a-74e5f963e191">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_681a323d-5a55-11eb-a658-74e5f963e191" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_47144173-d517-44a1-b149-91017d75db78">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_b16294fe-269c-4f3d-b6af-4bc473c663d6" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_92d33b55-7034-11eb-a65a-74e5f963e191">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_681a2160-5a55-11eb-a658-74e5f963e191" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_1c3ecb82-a323-4874-bdf0-95c84c12113d">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_842aed4c-0828-4e7a-babc-ce724633a43d" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_92d33bf1-7034-11eb-a65a-74e5f963e191">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_681a2fcb-5a55-11eb-a658-74e5f963e191" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_05548bc6-70a0-44b7-8bac-20f745974e43">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_681a3087-5a55-11eb-a658-74e5f963e191" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_b395d763-b35d-1e45-85d8-05da6a0bb6ab">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_681a1eac-5a55-11eb-a658-74e5f963e191" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_2ce9db0d-914a-4beb-96ae-76dbb1d47a49">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_fd338915-3831-4cc5-8c55-af2b4c1c2bb8" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_1c9ff3c5-59c8-4277-8c0a-80babe98e3c3">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_41e0788e-9dc5-4bf0-862b-f2a99e421602" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_3641e5de-84eb-4f21-9947-e1bef550a7bc">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_a2a20c81-78b5-40bc-81d1-14ed8ea03e12" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_352223e5-366d-4556-92dc-2ad6ab9b0c7f">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_e63a5023-05b9-4adf-bafd-a372b751a6ed" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_9fa38ed3-62bd-a842-9af7-9e51bbe67b89">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_69a8ceaa-e0a2-8744-a258-2f572ba4bd9f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_323cb814-3159-4112-9290-3dfe87439ee1">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_411847e0-02b3-49df-951a-f1cf780f4738" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_8aaadbaa-c554-403b-87ff-0a788ab24c82">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2714d85d-92e7-4f88-a488-f39e782a6298" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_3be9726b-a9cf-430e-ba62-96ad7c43a73f">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_1ac100c3-7a71-4b22-b32c-47fd73c3d01a" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_a56293ef-1f47-4837-a124-4ce3f3b75c9f">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_75f12fd9-2057-4b79-9f19-73736a0f2a6d" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_95b7ad7d-6b88-4dce-b726-feb157304bd8">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2fb546e7-9e06-4356-a3ad-7e3756c34f6a" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_ef17168b-d7ee-7548-9822-e10bbbcec793">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_c70c1ea0-c58b-624b-ab6a-0072ad2eea25" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_92d33b5a-7034-11eb-a65a-74e5f963e191">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_681a21b1-5a55-11eb-a658-74e5f963e191" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_bec25a71-68ca-496f-ad8a-edf43f6e6982">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_55de4e32-8cb0-4602-9901-ec91e104b300" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_fa9b4957-62cd-4146-8483-a9620bf5ba3f">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_20605037-a626-4691-8601-89666564ff87" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_92d33b58-7034-11eb-a65a-74e5f963e191">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_681a2176-5a55-11eb-a658-74e5f963e191" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_92d33bfd-7034-11eb-a65a-74e5f963e191">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_681a309b-5a55-11eb-a658-74e5f963e191" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_1a4d9840-26f0-452a-afe4-d74ba8829451">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_652e1c63-50b0-4f5a-b88d-8f814a0cda4d" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_d1b627f7-1429-4a78-845a-17e9a7068a4f">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_57b1462c-259c-426b-86f9-f6f6f2af9c5c" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_9796f69a-d718-43c7-91b6-980cd96a1c50">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_92d33b99-7034-11eb-a65a-74e5f963e191" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_d6520dc7-c5b2-4ac5-bdba-04d02ec87472">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_681a26f3-5a55-11eb-a658-74e5f963e191" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_5b2bb253-421b-b14e-9d6c-ca972e830e4a">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_1f19556f-4604-8545-b930-0d96b163c57a" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_92d33bce-7034-11eb-a65a-74e5f963e191">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_92d33bcc-7034-11eb-a65a-74e5f963e191" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_db529221-814c-4f40-ab73-a7084d6308b7">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_d1afcb93-f7d9-4e93-8c91-bbeb35f2a322" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_21699bda-a520-45ea-b011-21a56bf567d7">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_38cd8874-fb01-462c-8c85-95dac14fee9c" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_0851452b-3751-0843-b8e3-74f14543907b">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_b1b4714b-a160-7742-84d5-d6486d776c94" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_92d33be6-7034-11eb-a65a-74e5f963e191">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_92d33be4-7034-11eb-a65a-74e5f963e191" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_92d33b7f-7034-11eb-a65a-74e5f963e191">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_681a26cf-5a55-11eb-a658-74e5f963e191" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_92d33bb8-7034-11eb-a65a-74e5f963e191">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_681a2a7f-5a55-11eb-a658-74e5f963e191" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_92d33ba9-7034-11eb-a65a-74e5f963e191">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_681a2a13-5a55-11eb-a658-74e5f963e191" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_92d33b82-7034-11eb-a65a-74e5f963e191">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_681a26db-5a55-11eb-a658-74e5f963e191" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_240e7e1c-2d1b-4637-9721-c3642adea4f7">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_dd41276d-9ea7-47a8-a0f3-65215c8225a5" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_7ca23509-fcc4-4653-a7db-334e1e113581">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_ab5aff23-cc0c-40a9-ab1b-7c113822358e" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_c2797e60-6614-4c5f-9090-ed8cef7b15b5">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_cf484bc9-2ef9-4116-a5a9-9a5db3e09df9" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_71d501b8-9459-40b1-abe6-d18563eed82f">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_a8afc199-8a20-41d8-8ada-5261202610eb" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_ccbe9368-07f4-184b-b3e5-9af9b1a08592">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_ce365fed-87da-da4c-b646-6d39ba7eb406" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_f8846bea-b1a3-4b2c-8da5-7fa0231079f6">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_48668646-105a-490d-aaad-3259b852aa23" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_484698af-2887-c446-afa2-c1f4bb5a9e65">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_e3b199ca-485b-4df8-99f0-fdd5e4f3ff73" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_92d33bf7-7034-11eb-a65a-74e5f963e191">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_681a2fdd-5a55-11eb-a658-74e5f963e191" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_cb3849f8-60a6-406b-8567-39293b5a1f76">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_a8f889e8-53f2-494b-97b9-c5dcbc1d17c7" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_60032c2a-2dc2-41d1-9530-497a7474f22b">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_84d18a79-be9c-4b68-be21-36c3d7d40c58" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_b9bbb321-d34a-c142-a321-b4fa3ac440cb">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_a450fac1-80a9-cd4d-aa26-0223af980b17" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_e36ac936-4891-4871-b3b5-604e0d163922">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_d4afd20b-a007-43f0-9736-4a868c4cc65a" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_a4c98c27-2025-413a-b0e3-152d1cdf425d">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_93fb8ecd-7d8f-40b3-8777-be000fb8e0e3" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_83bf6035-97b6-4433-b5f9-bb455444a983">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_12156bb5-7a82-4e95-8ea4-2ff8573133fe" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_5e488684-a146-4775-8cd8-5dbbe9da8034">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_808643b7-4e47-4faa-b906-999d0f1fe32b" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_5b6cb662-bbaf-49aa-9c9e-b86d268a8518">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_b8b9b131-6eb7-41c7-899e-7003960b1a5f" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_deb8bef1-6ddc-49fe-bf8f-a2252b2f5cc4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_f7d8e580-296d-4c2a-b989-1eb4db7af387" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_78148af7-4690-43b1-ab25-80913fb55a75">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_b16294fe-269c-4f3d-b6af-4bc473c663d6" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_34c1e6c6-72ce-4d1c-904b-d11a63c3490b">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_842aed4c-0828-4e7a-babc-ce724633a43d" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_92d33bfb-7034-11eb-a65a-74e5f963e191">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_681a3087-5a55-11eb-a658-74e5f963e191" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_92d33bf3-7034-11eb-a65a-74e5f963e191">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_681a2fcb-5a55-11eb-a658-74e5f963e191" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_a42ffc08-46b4-4e3d-910c-248ca5d3a382">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_fd338915-3831-4cc5-8c55-af2b4c1c2bb8" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_d87b4358-2aaf-46a0-bf1e-e63edc2352a8">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_41e0788e-9dc5-4bf0-862b-f2a99e421602" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_3bbcc64f-d1ea-42d9-827a-77f46787ea95">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_a2a20c81-78b5-40bc-81d1-14ed8ea03e12" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_e72f44bf-2c81-4329-a902-233eec3a9a8b">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_e63a5023-05b9-4adf-bafd-a372b751a6ed" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_9077e7e3-9b90-9e46-a24c-30c28317e7e4">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_411847e0-02b3-49df-951a-f1cf780f4738" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_fc3c9e4a-a573-4f55-ab9e-18f4c0f3a3d2">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2714d85d-92e7-4f88-a488-f39e782a6298" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_b581556c-f18b-4120-bc90-a89ef37448e9">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_1ac100c3-7a71-4b22-b32c-47fd73c3d01a" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_d2a2232a-024f-467c-b698-2b16ddf2547a">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_75f12fd9-2057-4b79-9f19-73736a0f2a6d" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_d6d1a951-08c8-468b-b9b3-011774b9a769">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_2fb546e7-9e06-4356-a3ad-7e3756c34f6a" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_0766474a-94ad-40b5-8bb5-db0b7fcd04ff">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_55de4e32-8cb0-4602-9901-ec91e104b300" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_802d9d22-8304-5444-ac23-6f071fb84b77">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_20605037-a626-4691-8601-89666564ff87" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_92d33bff-7034-11eb-a65a-74e5f963e191">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_681a309b-5a55-11eb-a658-74e5f963e191" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_78c5385c-be34-4f4f-a81a-225decba8227">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_652e1c63-50b0-4f5a-b88d-8f814a0cda4d" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_e2dfb756-4b1e-f34b-a0be-880ea3a2ef50">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_62585c75-b020-614c-89a1-fec7c118c3fa" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_0a936e9d-6e05-6547-af77-18e442db0913">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_c9d5445c-9ad6-3849-9e02-08762805826b" />
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_313f9413-16a2-4037-8546-2df5c62767be">
+    <cim:Terminal.ConductingEquipment rdf:resource="#_0506353c-8adf-4f48-999f-bb1975c03467" />
+  </cim:Terminal>
+</rdf:RDF>
