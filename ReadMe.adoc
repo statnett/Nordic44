@@ -1,44 +1,67 @@
-= Talk to the Power System
-:toc:
-:toc-title: Table of Contents
-:icons: font
+= Nordic44
 
 == Introduction
-The power industry must transform to accommodate the **green transition**, adopting innovative tools and methods to revolutionize how we perform power system analyses. Extracting data from power system models modeled according to the **Common Information Model (CIM)** standards (IEC 61970, 61968, 62325) is an integral part of this analytical work.
-
-However, crafting the required **graph queries** often exceeds the capabilities of many power system engineers due to their complexity. Inspired by advancements in AI, such as Chat-GPT, we envision a future where power system engineers can receive **trustworthy and explainable answers** through **natural language queries**.
-
-== Vision
-Our vision is to create a system that allows power system engineers to:
-
-* **Query complex models in natural language**: Eliminate the need for specialized query language expertise.
-* **Receive trustworthy answers**: Ensure results are reliable, transparent, and align with established industry standards.
-* **Accelerate decision-making**: Streamline workflows to support the **green energy transition**.
+This is the repository for the Nordic44, which is a synthetic power system model of the Nordic high-voltage transmission system, described in link: https://www.iec.ch/homepage[IEC] Common Information Model (link:https://en.wikipedia.org/wiki/Common_Information_Model_(electricity)[CIM]).
 
 == Purpose
-This repository supports R&D efforts to accelerate progress toward this vision. Specifically, it focuses on:
+The main objective of Nordic44 is to provide the necessary CIM model information to support simulation business processes and information exchanges relevant to the Nordic electrical power grid.
 
-* Enabling natural language interfaces for querying **CIM-based power system models**.
-* Ensuring queries and results are explainable, traceable, and compliant with standards.
-* Bridging the gap between power system engineering and advanced AI methodologies.
+Relevant business functions that the model aims to support are:
 
-== Key Standards and Technologies
-This work leverages the following key standards and technologies:
+* Network Operation (NO)
 
-* **Common Information Model (CIM)**: Standards IEC 61970, IEC 61968, and IEC 62325.
-* **Graph Databases and Queries**: Supporting the querying of CIM models stored as graphs.
-* **AI and Natural Language Processing (NLP)**: Inspired by large language models like Chat-GPT.
+* Emergency Simulation (ES)
 
-== Contributing
-To Be addressed.
+* Engineering Design Management (EDM)
 
-== License
+* Fault Management (FM)
+
+* Network Model Management (NMM)
+
+* Predictive Operation Planning (POP)
+
+* System Development Planning (SDP)
+
+Relevant application functions that the model aims to support are:
+
+* Static Power Flow (SPF)
+
+* Remedial Action and Contingency Analysis (RACA)
+
+* Short-Circuit Analysis (SCA)
+
+* Capacity Calculation Analysis (CCA)
+
+* Transient Dynamic Stability Analysis (TDSA)
+
+* Market information and transparency
+
+== Content
+
+== Related work
+
+=== Elbits Telemark-120
+The Nordic44 is intended to be created so that it can be merged with the link:https://github.com/3lbits/CIM4NoUtility/tree/develop/Telemark-120[Telemark-120] project, enabling analysis across High Voltage (HV), Medium Voltage (MV), and Low Voltage (LV).
+
+=== NYPA Model Transformation
+A version of Nordic44 has been used in the link:https://github.com/ALSETLab/NYPAModelTransformation[NYPA Model Transformation] project.
+In the repository, there are multiple versions of link:https://github.com/ALSETLab/NYPAModelTransformation/tree/master/ModelTransf-Tool/Prototype/examples/nordic-44[Nordic44] and relevant PSSE models.
+
+== Accreditation
+The first released version of the Nordic44 model was published in the following paper, authored by:
+L. Vanfretti, S.H. Olsen, V.S. Narasimham Arava, G. Laera, A. Bidadfar, T. Rabuzin, S. H. Jakobsen, J. Lavenius, M. Baudette, and F.J. Gómez-López, "An Open Data Repository and a Data Processing Software Toolset of an Equivalent Nordic Grid Model Matched to Historical Electricity Market Data," Data in Brief (Elsevier), February 17th 2017. http://dx.doi.org/10.1016/j.dib.2017.02.021
+
+The original PSSE-based model was provided by Emil Hillberg at link:https://www.stri.se/[STRI].
+
+The original Nordic44 model was created to support static power flow and dynamic stability analysis under relevant market conditions for the Nordic power system, based on the market data published by link:https://www.nordpoolgroup.com/en/[Nord Pool]. It was trained and validated for all electricity market operation hours during 2015 with power flow and dynamic response. The result was used to train and test Machine Learning techniques (e.g., Decision Trees) and other computational techniques essential in workflows for dynamic security assessment of electrical power systems.
+
+== Licenses
 [.shield-link]
-image::https://img.shields.io/badge/License-Apache%202.0-blue.svg[alt="Apache 2.0 License", link="https://www.apache.org/licenses/LICENSE-2.0"]
+image::https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg[alt="CC BY-NC-SA 4.0", link="http://creativecommons.org/licenses/by-nc-sa/4.0/"]
 
-This work is licensed under the
-link:https://www.apache.org/licenses/LICENSE-2.0/[Apache License, Version 2.0].
+This work is licensed under a
+link:http://creativecommons.org/licenses/by-nc-sa/4.0/[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License].
 
-
-
+[.license-badge]
+image::https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png[alt="CC BY-NC-SA 4.0", link="http://creativecommons.org/licenses/by-nc-sa/4.0/"]
 
