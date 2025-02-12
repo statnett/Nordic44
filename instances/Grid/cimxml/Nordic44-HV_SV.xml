@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF  xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:entsoe="http://entsoe.eu/CIM/SchemaExtension/3/1#" xmlns:entsoe2="http://entsoe.eu/CIM/SchemaExtension/3/2#" xmlns:eu="http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#" xmlns:icim="http://iec.ch/TC57/2013/CIM-schema-cim16-info#" xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#" xmlns:pid="http://powerinfo.us/CIM/Diagram/1#" xmlns:pti="http://www.pti-us.com/PTI_CIM-schema-cim16#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<!-- Exported from CIMSpy/CIMdesk on 2025-02-12T15:28:34Z. -->
+<rdf:RDF  xmlns:cim="http://iec.ch/TC57/CIM100#" 
+		xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#" 
+		xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	>
+
 	<md:FullModel rdf:about="urn:uuid:5b6a8b13-4c20-4147-8ed6-7249e303e647">
 		<md:Model.created>2025-02-12T15:28:34Z</md:Model.created>
-		<md:Model.description>Partitioned by CIMdesk/CIMSpy from Transformed from Assembled_from_Nordic44_CGM_37a_EQ</md:Model.description>
+		<md:Model.description>Test model developed by Statnett SF. Nordic 44 bus system for the Nordic region.</md:Model.description>
 		<md:Model.profile>http://iec.ch/TC57/ns/CIM/StateVariables-EU/3.0</md:Model.profile>
-		<md:Model.DependentOn rdf:resource="urn:uuid:7b3f94c0-bd9b-e74e-866b-f473153c3e70"/>		<md:Model.modelingAuthoritySet>http://www.Statnett.no/IGM/Nordic44_CGM</md:Model.modelingAuthoritySet>		<md:Model.scenarioTime>2017-11-24T09:03:11.4346768Z</md:Model.scenarioTime>		<md:Model.version>1</md:Model.version>	</md:FullModel>
+		<md:Model.DependentOn rdf:resource="urn:uuid:7b3f94c0-bd9b-e74e-866b-f473153c3e70"/>
+		<md:Model.modelingAuthoritySet>http://www.Statnett.no/IGM/Nordic44_CGM</md:Model.modelingAuthoritySet>
+		<md:Model.scenarioTime>2017-11-24T09:03:11.4346768Z</md:Model.scenarioTime>
+		<md:Model.version>1</md:Model.version>
+	</md:FullModel>
+
 	<cim:SvPowerFlow rdf:ID="_b0400306-53a3-11e8-a5aa-74e5f963e191">
 		<cim:SvPowerFlow.Terminal rdf:resource="#_2dd903ab-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:SvPowerFlow.p>-14.3241911</cim:SvPowerFlow.p>

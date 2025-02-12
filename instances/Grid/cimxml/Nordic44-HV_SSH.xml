@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF  xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:entsoe="http://entsoe.eu/CIM/SchemaExtension/3/1#" xmlns:entsoe2="http://entsoe.eu/CIM/SchemaExtension/3/2#" xmlns:eu="http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#" xmlns:icim="http://iec.ch/TC57/2013/CIM-schema-cim16-info#" xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#" xmlns:pid="http://powerinfo.us/CIM/Diagram/1#" xmlns:pti="http://www.pti-us.com/PTI_CIM-schema-cim16#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<!-- Exported from CIMSpy/CIMdesk on 2025-02-12T15:28:34Z. -->
+<rdf:RDF  xmlns:cim="http://iec.ch/TC57/CIM100#" 
+		xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#" 
+		xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
 	<md:FullModel rdf:about="urn:uuid:1d08772d-c1d0-4c47-810d-b14908cd94f5">
 		<md:Model.created>2025-02-12T15:28:34Z</md:Model.created>
-		<md:Model.description>Partitioned by CIMdesk/CIMSpy from Transformed from Assembled_from_Nordic44_CGM_37a_EQ</md:Model.description>
+		<md:Model.description>Test model developed by Statnett SF. Nordic 44 bus system for the Nordic region.</md:Model.description>
 		<md:Model.profile>http://iec.ch/TC57/ns/CIM/SteadyStateHypothesis-EU/3.0</md:Model.profile>
-		<md:Model.DependentOn rdf:resource="urn:uuid:e710212f-f6b2-8d4c-9dc0-365398d8b59c"/>		<md:Model.modelingAuthoritySet>http://www.Statnett.no/IGM/Nordic44_CGM</md:Model.modelingAuthoritySet>		<md:Model.scenarioTime>2017-11-24T09:03:11.4346768Z</md:Model.scenarioTime>		<md:Model.version>1</md:Model.version>	</md:FullModel>
+		<md:Model.DependentOn rdf:resource="urn:uuid:e710212f-f6b2-8d4c-9dc0-365398d8b59c"/>		
+		<md:Model.modelingAuthoritySet>http://www.Statnett.no/IGM/Nordic44_CGM</md:Model.modelingAuthoritySet>
+		<md:Model.scenarioTime>2017-11-24T09:03:11.4346768Z</md:Model.scenarioTime>
+		<md:Model.version>1</md:Model.version>
+	</md:FullModel>
+
 	<cim:Equipment rdf:about="#_f1769b90-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 	</cim:Equipment>
@@ -232,175 +239,159 @@
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>false</cim:Switch.open>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
 	</cim:Breaker>
 	<cim:Breaker rdf:about="#_0a46da9f-1326-254e-8a3b-649a431f6625">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>true</cim:Switch.open>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
 	</cim:Breaker>
 	<cim:Breaker rdf:about="#_f56758a8-12a0-7648-b04b-f32ec3247e3b">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>false</cim:Switch.open>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
 	</cim:Breaker>
 	<cim:Breaker rdf:about="#_7113e099-7f24-6a47-9fa2-94a2d57d6c9b">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>true</cim:Switch.open>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
 	</cim:Breaker>
 	<cim:Breaker rdf:about="#_dd8be3ea-8ad3-f148-898c-5509662d5159">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>false</cim:Switch.open>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
 	</cim:Breaker>
 	<cim:Breaker rdf:about="#_cbd34307-2d45-ae47-872a-516888952750">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>true</cim:Switch.open>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
 	</cim:Breaker>
 	<cim:Breaker rdf:about="#_3dd4a1cf-86dc-9649-8120-e519d7986be9">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>false</cim:Switch.open>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
 	</cim:Breaker>
 	<cim:Breaker rdf:about="#_5ae8b25f-24cc-e34b-b238-2aea59d516c5">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>false</cim:Switch.open>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
 	</cim:Breaker>
 	<cim:Breaker rdf:about="#_368340e1-464b-814b-9bac-9b70b93dde72">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>false</cim:Switch.open>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
 	</cim:Breaker>
 	<cim:Breaker rdf:about="#_2384f146-deb2-c046-817c-6322a5381b9c">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>false</cim:Switch.open>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
 	</cim:Breaker>
 	<cim:Breaker rdf:about="#_3c4c59b7-461d-5b40-8f0e-2064845bbfdb">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>true</cim:Switch.open>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
 	</cim:Breaker>
 	<cim:Breaker rdf:about="#_0d415b1b-b4da-f34f-aafb-802c77edce8e">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>false</cim:Switch.open>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
 	</cim:Breaker>
 	<cim:Breaker rdf:about="#_fdf147d4-240d-2143-b01a-84fc829bc284">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>true</cim:Switch.open>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
 	</cim:Breaker>
 	<cim:Breaker rdf:about="#_cefef4c4-1b45-af4b-8e13-275e0c9ffe27">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>false</cim:Switch.open>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
 	</cim:Breaker>
 	<cim:Breaker rdf:about="#_bf62264e-c8f3-8f43-95c9-570f3337479c">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>true</cim:Switch.open>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
 	</cim:Breaker>
 	<cim:Breaker rdf:about="#_13588bcf-c30d-7a49-beaa-67fcce61d305">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>false</cim:Switch.open>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
 	</cim:Breaker>
 	<cim:Breaker rdf:about="#_128ca899-5716-9341-a823-dd4c35385f2e">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>true</cim:Switch.open>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:Breaker>
 	<cim:Breaker rdf:about="#_316f39b6-0fed-ea41-87a1-0f5119e136c2">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>false</cim:Switch.open>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:Breaker>
 	<cim:Breaker rdf:about="#_30b297b4-8e19-da40-9f52-fb9175136a22">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>true</cim:Switch.open>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:Breaker>
 	<cim:Breaker rdf:about="#_a7bb9a3e-03d8-3b46-9cf6-f2bf71ab7042">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>false</cim:Switch.open>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:Breaker>
 	<cim:Breaker rdf:about="#_0c75da66-5f3b-7d4a-809d-5a3772999253">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>true</cim:Switch.open>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:Breaker>
 	<cim:Breaker rdf:about="#_e399c43f-0e9e-ae42-a66e-116fcccb56ac">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>false</cim:Switch.open>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:Breaker>
 	<cim:Breaker rdf:about="#_0169b8e7-c05b-3640-b55e-22b40081ca21">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>true</cim:Switch.open>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:Breaker>
 	<cim:Breaker rdf:about="#_05d4226b-111b-f747-84b4-cc7be03f3544">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>false</cim:Switch.open>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:Breaker>
 	<cim:Breaker rdf:about="#_2973c36e-3d17-284c-a950-b86b9496acca">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>true</cim:Switch.open>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:Breaker>
 	<cim:Breaker rdf:about="#_7cc994ab-ddb9-8a4a-bbda-e91af59a06d9">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>false</cim:Switch.open>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:Breaker>
 	<cim:Breaker rdf:about="#_373c4779-0905-d34c-bbc9-d200f848cbd9">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>true</cim:Switch.open>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:Breaker>
 	<cim:Breaker rdf:about="#_b209ada6-1835-1540-8868-1cd5e65016c2">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>false</cim:Switch.open>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:Breaker>
 	<cim:Breaker rdf:about="#_56013ae5-ff4f-2949-b59a-e60c62702d3e">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>true</cim:Switch.open>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:Breaker>
 	<cim:Equipment rdf:about="#_2dd90175-bdfb-11e5-94fa-c8f73332c8f4">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -544,211 +535,211 @@
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>430.058</cim:EnergyConsumer.q>
 		<cim:EnergyConsumer.p>1030.381</cim:EnergyConsumer.p>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:about="#_f176974c-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>430.058</cim:EnergyConsumer.q>
 		<cim:EnergyConsumer.p>1030.381</cim:EnergyConsumer.p>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:about="#_f176976a-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>245.824</cim:EnergyConsumer.q>
 		<cim:EnergyConsumer.p>670.271</cim:EnergyConsumer.p>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:about="#_f1769770-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>245.824</cim:EnergyConsumer.q>
 		<cim:EnergyConsumer.p>670.271</cim:EnergyConsumer.p>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:about="#_f17696e0-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>92.183</cim:EnergyConsumer.q>
 		<cim:EnergyConsumer.p>272.451</cim:EnergyConsumer.p>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:about="#_f17696e6-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>92.183</cim:EnergyConsumer.q>
 		<cim:EnergyConsumer.p>272.451</cim:EnergyConsumer.p>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:about="#_f17696ec-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>92.183</cim:EnergyConsumer.q>
 		<cim:EnergyConsumer.p>272.451</cim:EnergyConsumer.p>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:about="#_f1769704-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>417.731</cim:EnergyConsumer.q>
 		<cim:EnergyConsumer.p>1418.454</cim:EnergyConsumer.p>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:about="#_f176979a-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>275.111</cim:EnergyConsumer.q>
 		<cim:EnergyConsumer.p>1319.43</cim:EnergyConsumer.p>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:about="#_f17697a0-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>275.111</cim:EnergyConsumer.q>
 		<cim:EnergyConsumer.p>1319.43</cim:EnergyConsumer.p>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:about="#_f17697a6-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>275.111</cim:EnergyConsumer.q>
 		<cim:EnergyConsumer.p>1319.43</cim:EnergyConsumer.p>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:about="#_f17697ac-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>275.111</cim:EnergyConsumer.q>
 		<cim:EnergyConsumer.p>1319.43</cim:EnergyConsumer.p>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:about="#_f17697b2-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>275.111</cim:EnergyConsumer.q>
 		<cim:EnergyConsumer.p>1319.43</cim:EnergyConsumer.p>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:about="#_f17696f8-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>70.693</cim:EnergyConsumer.q>
 		<cim:EnergyConsumer.p>67.546</cim:EnergyConsumer.p>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:about="#_f1769752-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>267.37</cim:EnergyConsumer.q>
 		<cim:EnergyConsumer.p>1312.229</cim:EnergyConsumer.p>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:about="#_f1769758-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>267.37</cim:EnergyConsumer.q>
 		<cim:EnergyConsumer.p>1312.229</cim:EnergyConsumer.p>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:about="#_f17697dc-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>251.115</cim:EnergyConsumer.q>
 		<cim:EnergyConsumer.p>764</cim:EnergyConsumer.p>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:about="#_f17697e2-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>251.115</cim:EnergyConsumer.q>
 		<cim:EnergyConsumer.p>764</cim:EnergyConsumer.p>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:about="#_f17697e8-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>251.115</cim:EnergyConsumer.q>
 		<cim:EnergyConsumer.p>764</cim:EnergyConsumer.p>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:about="#_f1769788-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>680.376</cim:EnergyConsumer.q>
 		<cim:EnergyConsumer.p>2070</cim:EnergyConsumer.p>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:about="#_f176970a-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>332.079</cim:EnergyConsumer.q>
 		<cim:EnergyConsumer.p>1192.154</cim:EnergyConsumer.p>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:about="#_f1769710-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>332.079</cim:EnergyConsumer.q>
 		<cim:EnergyConsumer.p>1192.154</cim:EnergyConsumer.p>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:about="#_f1769740-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>215.027</cim:EnergyConsumer.q>
 		<cim:EnergyConsumer.p>1128.514</cim:EnergyConsumer.p>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:about="#_f17697ca-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>786.043</cim:EnergyConsumer.q>
 		<cim:EnergyConsumer.p>1185.425</cim:EnergyConsumer.p>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:about="#_f17697d0-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>786.043</cim:EnergyConsumer.q>
 		<cim:EnergyConsumer.p>1185.425</cim:EnergyConsumer.p>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:about="#_f17696fe-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>342.16</cim:EnergyConsumer.q>
 		<cim:EnergyConsumer.p>1041</cim:EnergyConsumer.p>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:about="#_f1769716-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>498.117</cim:EnergyConsumer.q>
 		<cim:EnergyConsumer.p>1430.584</cim:EnergyConsumer.p>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:about="#_f176971c-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>498.117</cim:EnergyConsumer.q>
 		<cim:EnergyConsumer.p>1430.584</cim:EnergyConsumer.p>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:about="#_f1769722-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>498.117</cim:EnergyConsumer.q>
 		<cim:EnergyConsumer.p>1430.584</cim:EnergyConsumer.p>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:about="#_f1769728-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>498.117</cim:EnergyConsumer.q>
 		<cim:EnergyConsumer.p>1430.584</cim:EnergyConsumer.p>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:about="#_f176973a-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>721.461</cim:EnergyConsumer.q>
 		<cim:EnergyConsumer.p>2195</cim:EnergyConsumer.p>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:about="#_f1769734-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>150.52</cim:EnergyConsumer.q>
 		<cim:EnergyConsumer.p>539.723</cim:EnergyConsumer.p>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:about="#_f1769776-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>256.264</cim:EnergyConsumer.q>
 		<cim:EnergyConsumer.p>779.667</cim:EnergyConsumer.p>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:about="#_f176977c-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>256.264</cim:EnergyConsumer.q>
 		<cim:EnergyConsumer.p>779.667</cim:EnergyConsumer.p>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:about="#_f1769782-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>256.264</cim:EnergyConsumer.q>
 		<cim:EnergyConsumer.p>779.667</cim:EnergyConsumer.p>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:ConformLoad>
 	<cim:ControlArea rdf:about="#_f17696b0-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:ControlArea.netInterchange>-502</cim:ControlArea.netInterchange>
@@ -2356,683 +2347,683 @@
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>false</cim:Switch.open>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:Disconnector>
 	<cim:Disconnector rdf:about="#_6d9f92ea-354f-9f40-9fc2-33367292f12c">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>true</cim:Switch.open>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:Disconnector>
 	<cim:Disconnector rdf:about="#_e3672ff8-a637-5046-a7f7-cd1760746ed4">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>false</cim:Switch.open>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:Disconnector>
 	<cim:Disconnector rdf:about="#_b36c1e1d-ec67-7b48-9a2f-ecbf617ae59f">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>true</cim:Switch.open>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:Disconnector>
 	<cim:Disconnector rdf:about="#_674b85b4-1a1f-2341-94bf-7e8f93392a7a">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>false</cim:Switch.open>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:Disconnector>
 	<cim:Disconnector rdf:about="#_4ba4e1a4-7265-d74f-8d46-8a4db7da37d1">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>true</cim:Switch.open>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:Disconnector>
 	<cim:Disconnector rdf:about="#_ecc63b62-ab62-9747-9744-92ba78e89971">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>false</cim:Switch.open>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:Disconnector>
 	<cim:Disconnector rdf:about="#_dad36893-9a19-d148-8703-a4f0ddd95077">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>true</cim:Switch.open>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:Disconnector>
 	<cim:Disconnector rdf:about="#_ff413319-b126-e444-9e46-3e2268fc19aa">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>false</cim:Switch.open>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:Disconnector>
 	<cim:Disconnector rdf:about="#_6589185b-1ac4-df4e-830b-30ea50c3d15d">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>true</cim:Switch.open>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:Disconnector>
 	<cim:Disconnector rdf:about="#_85c172ea-50d5-8843-ba55-f8659693a2c6">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>false</cim:Switch.open>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:Disconnector>
 	<cim:Disconnector rdf:about="#_41b5a199-973e-9246-ab28-6593d6a59a0d">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>true</cim:Switch.open>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:Disconnector>
 	<cim:Disconnector rdf:about="#_bdc35ecf-da90-de41-9345-b8c4228f63bd">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>false</cim:Switch.open>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:Disconnector>
 	<cim:Disconnector rdf:about="#_df16ad25-a8cf-a04b-a420-0d71145132dc">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>true</cim:Switch.open>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:Disconnector>
 	<cim:Disconnector rdf:about="#_c9917527-be41-014a-9344-d9df590239e3">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>false</cim:Switch.open>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:Disconnector>
 	<cim:Disconnector rdf:about="#_3993c419-d9d7-bb4c-8319-6671df77ec90">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>true</cim:Switch.open>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:Disconnector>
 	<cim:Disconnector rdf:about="#_cc9d6086-68d7-0840-88da-2456744b3b14">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>false</cim:Switch.open>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:Disconnector>
 	<cim:Disconnector rdf:about="#_3a4ef440-621c-ec4d-9d45-65e99b395dae">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>true</cim:Switch.open>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:Disconnector>
 	<cim:Disconnector rdf:about="#_0192045c-3523-324a-a050-c9dddd6fe2d0">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>false</cim:Switch.open>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:Disconnector>
 	<cim:Disconnector rdf:about="#_4ee41c27-44cd-3146-8fe0-ad30d5051340">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>true</cim:Switch.open>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:Disconnector>
 	<cim:Disconnector rdf:about="#_c986d524-47e9-9e4d-b635-64386c9be9a1">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>false</cim:Switch.open>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:Disconnector>
 	<cim:Disconnector rdf:about="#_9098d05f-45b6-7b4f-b176-a6995b423baa">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>true</cim:Switch.open>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:Disconnector>
 	<cim:Disconnector rdf:about="#_2366eea5-1051-1047-b1e4-ba6c741e076d">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>false</cim:Switch.open>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:Disconnector>
 	<cim:Disconnector rdf:about="#_29fd599d-9429-cb4b-a103-df08eb0a97f8">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>true</cim:Switch.open>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:Disconnector>
 	<cim:Disconnector rdf:about="#_4b31bd38-15c9-104a-bbb8-4570207cc245">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>false</cim:Switch.open>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:Disconnector>
 	<cim:Disconnector rdf:about="#_f0473e35-b545-ac4a-84b9-2d52718a3b35">
 		<cim:Switch.locked>false</cim:Switch.locked>
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:Switch.open>true</cim:Switch.open>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:Disconnector>
 	<cim:GeneratingUnit rdf:about="#_f1769915-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>1</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f176991d-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>1</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f176995d-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>0</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f1769964-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>0</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f176996a-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>0</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f1769970-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>0</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f1769976-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>0</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f1769800-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>0</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f1769807-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>0</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f176980d-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>0</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f1769841-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>1</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f1769849-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>1</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f1769850-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>1</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f1769857-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>1</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f176985e-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>1</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f1769865-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>1</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f176986c-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>1</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f1769873-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>1</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f17699b9-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>1</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f17699c1-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>1</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f17699c8-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>1</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f17699cf-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>1</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f17699d6-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>1</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f17699dd-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>1</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f17699e4-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>1</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f17699eb-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>1</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f17699f2-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>1</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f1769839-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>0</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f1769925-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>1</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f176992d-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>1</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f1769934-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>1</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f176993b-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>1</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f1769943-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>0</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f176994a-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>0</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f1769950-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>0</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f1769956-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>0</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f1769a0e-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>1</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f1769a16-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>1</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f1769a1d-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>1</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f1769a24-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>1</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f1769a2b-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>1</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f1769a32-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>1</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f176999b-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>1</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f17699a3-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>1</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f17699aa-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>1</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f17699b1-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>1</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f176987b-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>1</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f1769883-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>1</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f176988a-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>1</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f1769891-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>1</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f1769898-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>1</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f176989f-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>1</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f1769907-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>0</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f176990e-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>0</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f17699fa-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>0</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f1769a01-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>0</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f1769a07-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>0</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f1769814-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>1</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f176981c-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>1</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f1769823-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>1</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f176982a-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>1</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f1769831-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>1</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f17698a7-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>0</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f17698ae-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>0</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f17698b4-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>0</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f17698ba-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>0</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f17698c0-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>0</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f17698c6-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>0</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f17698db-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>1</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f17698e3-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>1</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f17698ea-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>1</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f17698f1-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>1</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f17698f8-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>1</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f17698ff-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>1</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f17698cd-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>0</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f17698d4-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>0</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f176997d-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>1</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f1769985-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>1</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f176998c-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>1</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="#_f1769993-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:GeneratingUnit.normalPF>1</cim:GeneratingUnit.normalPF>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:GeneratingUnit>
 	<cim:LinearShuntCompensator rdf:about="#_2dd90408-bdfb-11e5-94fa-c8f73332c8f4">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:ShuntCompensator.sections>1</cim:ShuntCompensator.sections>
 		<cim:RegulatingCondEq.controlEnabled>false</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:LinearShuntCompensator>
 	<cim:LinearShuntCompensator rdf:about="#_2dd90405-bdfb-11e5-94fa-c8f73332c8f4">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:ShuntCompensator.sections>1</cim:ShuntCompensator.sections>
 		<cim:RegulatingCondEq.controlEnabled>false</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:LinearShuntCompensator>
 	<cim:LinearShuntCompensator rdf:about="#_2dd903cc-bdfb-11e5-94fa-c8f73332c8f4">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:ShuntCompensator.sections>1</cim:ShuntCompensator.sections>
 		<cim:RegulatingCondEq.controlEnabled>false</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:LinearShuntCompensator>
 	<cim:LinearShuntCompensator rdf:about="#_2dd903cf-bdfb-11e5-94fa-c8f73332c8f4">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:ShuntCompensator.sections>1</cim:ShuntCompensator.sections>
 		<cim:RegulatingCondEq.controlEnabled>false</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:LinearShuntCompensator>
 	<cim:LinearShuntCompensator rdf:about="#_2dd903fc-bdfb-11e5-94fa-c8f73332c8f4">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:ShuntCompensator.sections>1</cim:ShuntCompensator.sections>
 		<cim:RegulatingCondEq.controlEnabled>false</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:LinearShuntCompensator>
 	<cim:LinearShuntCompensator rdf:about="#_2dd903bd-bdfb-11e5-94fa-c8f73332c8f4">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:ShuntCompensator.sections>1</cim:ShuntCompensator.sections>
 		<cim:RegulatingCondEq.controlEnabled>false</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:LinearShuntCompensator>
 	<cim:LinearShuntCompensator rdf:about="#_2dd903c0-bdfb-11e5-94fa-c8f73332c8f4">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:ShuntCompensator.sections>1</cim:ShuntCompensator.sections>
 		<cim:RegulatingCondEq.controlEnabled>false</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:LinearShuntCompensator>
 	<cim:LinearShuntCompensator rdf:about="#_2dd903f9-bdfb-11e5-94fa-c8f73332c8f4">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:ShuntCompensator.sections>1</cim:ShuntCompensator.sections>
 		<cim:RegulatingCondEq.controlEnabled>false</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:LinearShuntCompensator>
 	<cim:NonConformLoad rdf:about="#_f17697f4-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>162.041</cim:EnergyConsumer.q>
 		<cim:EnergyConsumer.p>493</cim:EnergyConsumer.p>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:NonConformLoad>
 	<cim:NonConformLoad rdf:about="#_f17696f2-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>199.84</cim:EnergyConsumer.q>
 		<cim:EnergyConsumer.p>608</cim:EnergyConsumer.p>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:NonConformLoad>
 	<cim:NonConformLoad rdf:about="#_f17697c4-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>170.587</cim:EnergyConsumer.q>
 		<cim:EnergyConsumer.p>519</cim:EnergyConsumer.p>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:NonConformLoad>
 	<cim:NonConformLoad rdf:about="#_f1769764-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>239.611</cim:EnergyConsumer.q>
 		<cim:EnergyConsumer.p>729</cim:EnergyConsumer.p>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:NonConformLoad>
 	<cim:NonConformLoad rdf:about="#_f17697b8-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>0.0</cim:EnergyConsumer.q>
 		<cim:EnergyConsumer.p>-608</cim:EnergyConsumer.p>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:NonConformLoad>
 	<cim:NonConformLoad rdf:about="#_f17697fa-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>0.986</cim:EnergyConsumer.q>
 		<cim:EnergyConsumer.p>3</cim:EnergyConsumer.p>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:NonConformLoad>
 	<cim:NonConformLoad rdf:about="#_f176975e-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>175.266</cim:EnergyConsumer.q>
 		<cim:EnergyConsumer.p>1230</cim:EnergyConsumer.p>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:NonConformLoad>
 	<cim:NonConformLoad rdf:about="#_f17697ee-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>310.935</cim:EnergyConsumer.q>
 		<cim:EnergyConsumer.p>946</cim:EnergyConsumer.p>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:NonConformLoad>
 	<cim:NonConformLoad rdf:about="#_f176978e-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>3.944</cim:EnergyConsumer.q>
 		<cim:EnergyConsumer.p>12</cim:EnergyConsumer.p>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:NonConformLoad>
 	<cim:NonConformLoad rdf:about="#_f1769794-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>0.0</cim:EnergyConsumer.q>
 		<cim:EnergyConsumer.p>-19</cim:EnergyConsumer.p>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:NonConformLoad>
 	<cim:NonConformLoad rdf:about="#_f17697d6-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>0.0</cim:EnergyConsumer.q>
 		<cim:EnergyConsumer.p>-12</cim:EnergyConsumer.p>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:NonConformLoad>
 	<cim:NonConformLoad rdf:about="#_f176972e-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>0.0</cim:EnergyConsumer.q>
 		<cim:EnergyConsumer.p>-80</cim:EnergyConsumer.p>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:NonConformLoad>
 	<cim:NonConformLoad rdf:about="#_f17697be-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
 		<cim:EnergyConsumer.q>0.0</cim:EnergyConsumer.q>
 		<cim:EnergyConsumer.p>-903</cim:EnergyConsumer.p>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:NonConformLoad>
 	<cim:Equipment rdf:about="#_f1769d8e-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3251,7 +3242,7 @@
 		<cim:RotatingMachine.p>-248.468643</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>101.896751</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f1769920-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3260,7 +3251,7 @@
 		<cim:RotatingMachine.p>-248.468643</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>101.896751</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f1769961-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3269,7 +3260,7 @@
 		<cim:RotatingMachine.p>-681.3352</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-159.272461</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f1769967-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3278,7 +3269,7 @@
 		<cim:RotatingMachine.p>-681.3352</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-159.272461</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f176996d-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3287,7 +3278,7 @@
 		<cim:RotatingMachine.p>-681.3352</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-159.272461</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f1769973-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3296,7 +3287,7 @@
 		<cim:RotatingMachine.p>-681.3352</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-159.272461</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f1769979-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3305,7 +3296,7 @@
 		<cim:RotatingMachine.p>-681.3352</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-159.272461</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f1769804-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3314,7 +3305,7 @@
 		<cim:RotatingMachine.p>-619.304443</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-45.2621231</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f176980a-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3323,7 +3314,7 @@
 		<cim:RotatingMachine.p>-619.304443</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-45.2621231</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f1769810-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3332,7 +3323,7 @@
 		<cim:RotatingMachine.p>-619.304443</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-45.2621231</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f1769845-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3341,7 +3332,7 @@
 		<cim:RotatingMachine.p>-230.520554</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>5.795822</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f176984c-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3350,7 +3341,7 @@
 		<cim:RotatingMachine.p>-230.520554</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>5.795822</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f1769853-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3359,7 +3350,7 @@
 		<cim:RotatingMachine.p>-230.520554</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>5.795822</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f176985a-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3368,7 +3359,7 @@
 		<cim:RotatingMachine.p>-230.520554</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>5.795822</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f1769861-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3377,7 +3368,7 @@
 		<cim:RotatingMachine.p>-230.520554</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>5.795822</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f1769868-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3386,7 +3377,7 @@
 		<cim:RotatingMachine.p>-230.520554</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>5.795822</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f176986f-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3395,7 +3386,7 @@
 		<cim:RotatingMachine.p>-230.520554</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>5.795822</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f1769876-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3404,7 +3395,7 @@
 		<cim:RotatingMachine.p>-230.520554</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>5.795822</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f17699bd-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3413,7 +3404,7 @@
 		<cim:RotatingMachine.p>-685.1866</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-77.27217</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f17699c4-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3422,7 +3413,7 @@
 		<cim:RotatingMachine.p>-685.1866</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-77.27217</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f17699cb-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3431,7 +3422,7 @@
 		<cim:RotatingMachine.p>-685.1866</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-77.27217</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f17699d2-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3440,7 +3431,7 @@
 		<cim:RotatingMachine.p>-685.1866</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-77.27217</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f17699d9-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3449,7 +3440,7 @@
 		<cim:RotatingMachine.p>-685.1866</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-77.27217</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f17699e0-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3458,7 +3449,7 @@
 		<cim:RotatingMachine.p>-685.1866</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-77.27217</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f17699e7-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3467,7 +3458,7 @@
 		<cim:RotatingMachine.p>-685.1866</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-77.27217</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f17699ee-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3476,7 +3467,7 @@
 		<cim:RotatingMachine.p>-685.1866</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-77.27217</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f17699f5-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3485,7 +3476,7 @@
 		<cim:RotatingMachine.p>-685.1866</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-77.27217</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f176983d-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3494,7 +3485,7 @@
 		<cim:RotatingMachine.p>-159.379791</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>62.45014</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f1769929-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3503,7 +3494,7 @@
 		<cim:RotatingMachine.p>-223.73381</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-407.339233</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f1769930-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3512,7 +3503,7 @@
 		<cim:RotatingMachine.p>-223.73381</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-407.339233</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f1769937-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3521,7 +3512,7 @@
 		<cim:RotatingMachine.p>-223.73381</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-407.339233</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f176993e-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3530,7 +3521,7 @@
 		<cim:RotatingMachine.p>-223.73381</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-407.339233</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f1769947-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3539,7 +3530,7 @@
 		<cim:RotatingMachine.p>-465.741028</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-188.981277</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f176994d-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3548,7 +3539,7 @@
 		<cim:RotatingMachine.p>-465.741028</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-188.981277</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f1769953-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3557,7 +3548,7 @@
 		<cim:RotatingMachine.p>-465.741028</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-188.981277</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f1769959-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3566,7 +3557,7 @@
 		<cim:RotatingMachine.p>-465.741028</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-188.981277</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f1769a12-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3575,7 +3566,7 @@
 		<cim:RotatingMachine.p>-706.3567</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-206.678741</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f1769a19-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3584,7 +3575,7 @@
 		<cim:RotatingMachine.p>-706.3567</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-206.678741</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f1769a20-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3593,7 +3584,7 @@
 		<cim:RotatingMachine.p>-706.3567</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-206.678741</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f1769a27-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3602,7 +3593,7 @@
 		<cim:RotatingMachine.p>-706.3567</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-206.678741</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f1769a2e-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3611,7 +3602,7 @@
 		<cim:RotatingMachine.p>-706.3567</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-206.678741</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f1769a35-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3620,7 +3611,7 @@
 		<cim:RotatingMachine.p>-706.3567</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-206.678741</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f176999f-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3629,7 +3620,7 @@
 		<cim:RotatingMachine.p>-611.6982</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-131.620667</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f17699a6-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3638,7 +3629,7 @@
 		<cim:RotatingMachine.p>-611.6982</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-131.620667</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f17699ad-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3647,7 +3638,7 @@
 		<cim:RotatingMachine.p>-611.6982</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-131.620667</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f17699b4-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3656,7 +3647,7 @@
 		<cim:RotatingMachine.p>-611.6982</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-131.620667</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f176987f-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3665,7 +3656,7 @@
 		<cim:RotatingMachine.p>-530.3356</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-23.3964062</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f1769886-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3674,7 +3665,7 @@
 		<cim:RotatingMachine.p>-530.3356</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-23.3964062</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f176988d-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3683,7 +3674,7 @@
 		<cim:RotatingMachine.p>-530.3356</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-23.3964062</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f1769894-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3692,7 +3683,7 @@
 		<cim:RotatingMachine.p>-530.3356</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-23.3964062</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f176989b-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3701,7 +3692,7 @@
 		<cim:RotatingMachine.p>-530.3356</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-23.3964062</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f17698a2-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3710,7 +3701,7 @@
 		<cim:RotatingMachine.p>-530.3356</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-23.3964062</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f176990b-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3719,7 +3710,7 @@
 		<cim:RotatingMachine.p>-259.914185</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-272.861542</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f1769911-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3728,7 +3719,7 @@
 		<cim:RotatingMachine.p>-259.914185</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-272.861542</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f17699fe-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3737,7 +3728,7 @@
 		<cim:RotatingMachine.p>-435.067566</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-534.334534</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f1769a04-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3746,7 +3737,7 @@
 		<cim:RotatingMachine.p>-435.067566</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-534.334534</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f1769a0a-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3755,7 +3746,7 @@
 		<cim:RotatingMachine.p>-435.067566</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-534.334534</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f1769818-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3764,7 +3755,7 @@
 		<cim:RotatingMachine.p>-335.140228</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>108.338722</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f176981f-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3773,7 +3764,7 @@
 		<cim:RotatingMachine.p>-335.140228</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>108.338722</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f1769826-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3782,7 +3773,7 @@
 		<cim:RotatingMachine.p>-335.140228</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>108.338722</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f176982d-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3791,7 +3782,7 @@
 		<cim:RotatingMachine.p>-335.140228</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>108.338722</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f1769834-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3800,7 +3791,7 @@
 		<cim:RotatingMachine.p>-213.137024</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>68.8995</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f17698ab-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3809,7 +3800,7 @@
 		<cim:RotatingMachine.p>-645.5978</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-190.005981</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f17698b1-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3818,7 +3809,7 @@
 		<cim:RotatingMachine.p>-645.5978</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-190.005981</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f17698b7-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3827,7 +3818,7 @@
 		<cim:RotatingMachine.p>-645.5978</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-190.005981</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f17698bd-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3836,7 +3827,7 @@
 		<cim:RotatingMachine.p>-645.5978</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-190.005981</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f17698c3-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3845,7 +3836,7 @@
 		<cim:RotatingMachine.p>-645.5978</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-190.005981</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f17698c9-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3854,7 +3845,7 @@
 		<cim:RotatingMachine.p>-645.5978</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-190.005981</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f17698df-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3863,7 +3854,7 @@
 		<cim:RotatingMachine.p>-806.957336</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-242.9028</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f17698e6-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3872,7 +3863,7 @@
 		<cim:RotatingMachine.p>-806.957336</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-242.9028</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f17698ed-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3881,7 +3872,7 @@
 		<cim:RotatingMachine.p>-806.957336</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-242.9028</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f17698f4-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3890,7 +3881,7 @@
 		<cim:RotatingMachine.p>-806.957336</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-242.9028</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f17698fb-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3899,7 +3890,7 @@
 		<cim:RotatingMachine.p>-806.957336</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-242.9028</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f1769902-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3908,7 +3899,7 @@
 		<cim:RotatingMachine.p>-806.957336</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-242.9028</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f17698d1-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3917,7 +3908,7 @@
 		<cim:RotatingMachine.p>-274.353546</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-390.301453</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f17698d7-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3926,7 +3917,7 @@
 		<cim:RotatingMachine.p>-274.353546</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-390.301453</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f1769981-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3935,7 +3926,7 @@
 		<cim:RotatingMachine.p>-269.7673</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-196.055939</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f1769988-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3944,7 +3935,7 @@
 		<cim:RotatingMachine.p>-269.7673</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-196.055939</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f176998f-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3953,7 +3944,7 @@
 		<cim:RotatingMachine.p>-269.7673</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-196.055939</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:SynchronousMachine rdf:about="#_f1769996-9aeb-11e5-91da-b8763fd99c5f">
 		<cim:Equipment.inService>true</cim:Equipment.inService>
@@ -3962,7 +3953,7 @@
 		<cim:RotatingMachine.p>-269.7673</cim:RotatingMachine.p>
 		<cim:RotatingMachine.q>-196.055939</cim:RotatingMachine.q>
 		<cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
-		<entsoe2:Equipment.inService>true</entsoe2:Equipment.inService>
+		
 	</cim:SynchronousMachine>
 	<cim:TapChangerControl rdf:about="#_2dd90443-bdfb-11e5-94fa-c8f73332c8f4">
 		<cim:RegulatingControl.discrete>true</cim:RegulatingControl.discrete>

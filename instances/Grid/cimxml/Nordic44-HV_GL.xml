@@ -1,11 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF  xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:entsoe="http://entsoe.eu/CIM/SchemaExtension/3/1#" xmlns:entsoe2="http://entsoe.eu/CIM/SchemaExtension/3/2#" xmlns:eu="http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#" xmlns:icim="http://iec.ch/TC57/2013/CIM-schema-cim16-info#" xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#" xmlns:pid="http://powerinfo.us/CIM/Diagram/1#" xmlns:pti="http://www.pti-us.com/PTI_CIM-schema-cim16#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<!-- Exported from CIMSpy/CIMdesk on 2025-02-12T15:28:34Z. -->
+:<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF  xmlns:cim="http://iec.ch/TC57/CIM100#" 
+		xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#" 
+		xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	>
+
 	<md:FullModel rdf:about="urn:uuid:167b4832-27c5-ff4f-bd26-6ce3bff1bdb7">
 		<md:Model.created>2025-02-12T15:28:34Z</md:Model.created>
-		<md:Model.description>Partitioned by CIMdesk/CIMSpy from Transformed from Assembled_from_Nordic44_CGM_37a_EQ</md:Model.description>
+		<md:Model.description>Test model developed by Statnett SF. Nordic 44 bus system for the Nordic region.</md:Model.description>
 		<md:Model.profile>http://iec.ch/TC57/ns/CIM/GeographicalLocation-EU/3.0</md:Model.profile>
-		<md:Model.DependentOn rdf:resource="urn:uuid:e710212f-f6b2-8d4c-9dc0-365398d8b59c"/>		<md:Model.modelingAuthoritySet>http://www.Statnett.no/IGM/Nordic44_CGM</md:Model.modelingAuthoritySet>		<md:Model.scenarioTime>2017-11-24T09:03:11.4346768Z</md:Model.scenarioTime>		<md:Model.version>1</md:Model.version>	</md:FullModel>
+		<md:Model.DependentOn rdf:resource="urn:uuid:e710212f-f6b2-8d4c-9dc0-365398d8b59c"/>
+		<md:Model.modelingAuthoritySet>http://www.Statnett.no/IGM/Nordic44_CGM</md:Model.modelingAuthoritySet>
+		<md:Model.scenarioTime>2017-11-24T09:03:11.4346768Z</md:Model.scenarioTime>
+		<md:Model.version>1</md:Model.version>
+	</md:FullModel>
+
 	<cim:CoordinateSystem rdf:ID="_97f147c9-6990-634d-bb6c-c0808728437e">
 		<cim:CoordinateSystem.crsUrn>urn:ogc:def:crs:EPSG::4326</cim:CoordinateSystem.crsUrn>
 		<cim:IdentifiedObject.mRID>97f147c9-6990-634d-bb6c-c0808728437e</cim:IdentifiedObject.mRID>
