@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:cim="http://iec.ch/TC57/CIM100#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:dcatcim="https://cim4.eu/ns/dcatcim#" 
+    > 
+  
+  <dcat:Catalog rdf:about="urn:uuid:3a14dd8d1-177e-4f4e-b7dc-21413092cdaa"> 
+	<dcterms:identifier>urn:uuid:3d40111f-fc40-439e-a9f3-1670715392ca</dcterms:identifier>
+	<dcterms:issued>2025-02-12T08:01:33Z</dcterms:issued>
+	<dcat:version>3.0.0.alpha</dcat:version>
+	<dcterms:title>Manifest</dcterms:title>
+	<dcterms:description xml:lang ="en">Nordic44 Test model</dcterms:description>
+	<adms:versionNotes xml:lang ="en">This is the initial version</adms:versionNotes>
+    <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dcterms:publisher rdf:resource="https://www.statnett.no/en/about-statnett/contact-us/>
+    <dcterms:rights>Copyright</dcterms:rights>
+	<dcterms:rightsHolder>Statnett SF</dcterms:rightsHolder>
+	<dcat:dataset rdf:resource="urn:uuid:6ffcaafd-b3b7-4a7f-8d86-7d5870e17629"/> 
+  </dcat:Catalog>
+
+  <dcat:Dataset rdf:about="urn:uuid:6ffcaafd-b3b7-4a7f-8d86-7d5870e17629">
+	<dcterms:identifier>urn:uuid:6ffcaafd-b3b7-4a7f-8d86-7d5870e17629</dcterms:identifier>
+	<dcterms:issued>2025-02-12T08:01:33Z</dcterms:issued>
+	<dcat:distribution rdf:resource="urn:uuid:2c5a9cd0-3012-46cd-802f-c59803cc2756"/>
+  </dcat:Dataset>  
+  <dcat:Distribution rdf:about="urn:uuid:2c5a9cd0-3012-46cd-802f-c59803cc2756">
+	<dcterms:description xml:lang="en">CIMXML serialization of the boundary EQ</dcterms:description>
+	<dcat:mediaType <http://www.iana.org/assignments/media-types/application/rdf+xml>/>
+	<dcterms:conformsTo>urn:iso:std:iec:61970-552:2016</dcterms:conformsTo>
+	<dcat:accessURL rdf:resource="file://xmlrdf/Nordic44-HV_EQ.xml"/>
+    <prov:wasGeneratedBy rdf:resource="https://energy.referencedata.eu/Action/CGM-RA"/>
+	<prov:generatedAtTime>2025-02-12T08:01:33Z</prov:generatedAtTime>
+  </dcat:Distribution >
+  
+   
+</rdf:RDF>
