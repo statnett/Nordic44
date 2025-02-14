@@ -40,8 +40,9 @@ Nordic44 follows *Semantic Versioning 2.0.0 (link:https://semver.org/[SemVer])* 
 [cols="3,2,5,2",options="header"]
 |===
 | Version | Date | Description | Issue
+| 3.0.0-beta.1 | 2025-02-14 | Update Manifest with the header information that will be used in NCP | link:https://github.com/statnett/Nordic44/issues/15[#15]
+| 3.0.0-alpha.1 | 2025-02-12 | Remove entsoe and entsoe2 namespaces  | link:https://github.com/statnett/Nordic44/issues/10[#10]
 | 3.0.0-alpha.1 | 2025-02-12 | Converting Nordic version 38 to CGMES 3.0  | link:https://github.com/statnett/Nordic44/issues/9[#9]
-| 3.0.0-alpha.2 |  |  | 
 |===
 
 For further details, refer to the changelog history on GitHub:  
