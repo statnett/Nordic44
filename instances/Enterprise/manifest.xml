@@ -45,7 +45,7 @@
   <dcat:Distribution rdf:about="urn:uuid:ec47575c-900e-4ddb-87c8-fd8deb8e0d00">
     <dcat:accessURL rdf:resource="file://xmlrdf/N44-ENT-Schneider_AC.xml"/>
     <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/rdf+xml"/>
-    <dcterms:conformsTo>urn:iso:std:iec:61970-552:2016</dcterms:conformsTo>
+    <dcterms:conformsTo rdf:resource="urn:iso:std:iec:61970-552:2016"/>
     <dcterms:description xml:lang="en">CIMXML serialization of the Nordic44 AC</dcterms:description>
     <prov:generatedAtTime>2025-02-14T11:00:00Z</prov:generatedAtTime>
     <prov:wasGeneratedBy rdf:resource="https://energy.referencedata.eu/Test/Action/AC"/>
@@ -74,7 +74,7 @@
   <dcat:Distribution rdf:about="urn:uuid:28050d72-acb0-41d2-b0fa-ddf034d8bccf">
     <dcat:accessURL rdf:resource="file://xmlrdf/N44-ENT-Siemens_AC.xml"/>
     <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/rdf+xml"/>
-    <dcterms:conformsTo>urn:iso:std:iec:61970-552:2016</dcterms:conformsTo>
+    <dcterms:conformsTo rdf:resource="urn:iso:std:iec:61970-552:2016"/>
     <dcterms:description xml:lang="en">CIMXML serialization of the Nordic44 AC</dcterms:description>
     <prov:generatedAtTime>2025-02-14T11:00:00Z</prov:generatedAtTime>
     <prov:wasGeneratedBy rdf:resource="https://energy.referencedata.eu/Test/Action/AC"/>
@@ -106,7 +106,7 @@
   <dcat:Distribution rdf:about="urn:uuid:66ab65a5-dffe-41c7-9d5b-b1e74906b4d9">
     <dcat:accessURL rdf:resource="file://xmlrdf/N44-ENT-Statnett_AS.xml"/>
     <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/rdf+xml"/>
-    <dcterms:conformsTo>urn:iso:std:iec:61970-552:2016</dcterms:conformsTo>
+    <dcterms:conformsTo rdf:resource="urn:iso:std:iec:61970-552:2016"/>
     <dcterms:description xml:lang="en">CIMXML serialization of the Nordic44 AS</dcterms:description>
     <prov:generatedAtTime>2025-02-14T11:00:00Z</prov:generatedAtTime>
     <prov:wasGeneratedBy rdf:resource="https://energy.referencedata.eu/Test/Action/AS"/>

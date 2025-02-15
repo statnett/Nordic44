@@ -51,7 +51,7 @@
 <dcat:Distribution rdf:about="urn:uuid:5e109739-0140-449f-a7ae-f531f882f7d0">
   <dcat:accessURL rdf:resource="file://xmlrdf/Nordic44-HV_EQ.xml"/>
   <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/rdf+xml"/>
-  <dcterms:conformsTo>urn:iso:std:iec:61970-552:2016</dcterms:conformsTo>
+  <dcterms:conformsTo rdf:resource="urn:iso:std:iec:61970-552:2016"/>
   <dcterms:description xml:lang="en">CIMXML serialization of the Nordic44 EQ</dcterms:description>
   <prov:generatedAtTime>2025-02-14T11:00:00Z</prov:generatedAtTime>
   <prov:wasGeneratedBy rdf:resource="https://energy.referencedata.eu/Test/Action/EQ"/>
@@ -82,7 +82,7 @@
 <dcat:Distribution rdf:about="urn:uuid:38884d50-30ff-41d3-99bb-c794cbdf57cb">
   <dcat:accessURL rdf:resource="file://xmlrdf/Nordic44-HV_SSH.xml"/>
   <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/rdf+xml"/>
-  <dcterms:conformsTo>urn:iso:std:iec:61970-552:2016</dcterms:conformsTo>
+  <dcterms:conformsTo rdf:resource="urn:iso:std:iec:61970-552:2016"/>
   <dcterms:description xml:lang="en">CIMXML serialization of the Nordic44 SSH</dcterms:description>
   <prov:generatedAtTime>2025-02-14T11:00:00Z</prov:generatedAtTime>
   <prov:wasGeneratedBy rdf:resource="https://energy.referencedata.eu/Test/Action/SSH"/>
@@ -113,7 +113,7 @@
 <dcat:Distribution rdf:about="urn:uuid:8b095732-1506-40bd-aeb8-a42d311edd5a">
   <dcat:accessURL rdf:resource="file://xmlrdf/Nordic44-HV_GL.xml"/>
   <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/rdf+xml"/>
-  <dcterms:conformsTo>urn:iso:std:iec:61970-552:2016</dcterms:conformsTo>
+  <dcterms:conformsTo rdf:resource="urn:iso:std:iec:61970-552:2016"/>
   <dcterms:description xml:lang="en">CIMXML serialization of the Nordic44 GL</dcterms:description>
   <prov:generatedAtTime>2025-02-14T11:00:00Z</prov:generatedAtTime>
   <prov:wasGeneratedBy rdf:resource="https://energy.referencedata.eu/Test/Action/GL"/>
@@ -145,7 +145,7 @@
 <dcat:Distribution rdf:about="urn:uuid:8b095732-1506-40bd-aeb8-a42d311edd5a">
   <dcat:accessURL rdf:resource="file://xmlrdf/Nordic44-HV_DL.xml"/>
   <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/rdf+xml"/>
-  <dcterms:conformsTo>urn:iso:std:iec:61970-552:2016</dcterms:conformsTo>
+  <dcterms:conformsTo rdf:resource="urn:iso:std:iec:61970-552:2016"/>
   <dcterms:description xml:lang="en">CIMXML serialization of the Nordic44 DL</dcterms:description>
   <prov:generatedAtTime>2025-02-14T11:00:00Z</prov:generatedAtTime>
   <prov:wasGeneratedBy rdf:resource="https://energy.referencedata.eu/Test/Action/DL"/>
@@ -176,7 +176,7 @@
 <dcat:Distribution rdf:about="urn:uuid:e6539353-17f9-4d94-be60-eabed8b6e99f">
   <dcat:accessURL rdf:resource="file://xmlrdf/Nordic44-HV_TP.xml"/>
   <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/rdf+xml"/>
-  <dcterms:conformsTo>urn:iso:std:iec:61970-552:2016</dcterms:conformsTo>
+  <dcterms:conformsTo rdf:resource="urn:iso:std:iec:61970-552:2016"/>
   <dcterms:description xml:lang="en">CIMXML serialization of the Nordic44 TP</dcterms:description>
   <prov:generatedAtTime>2025-02-14T11:00:00Z</prov:generatedAtTime>
   <prov:wasGeneratedBy rdf:resource="https://energy.referencedata.eu/Test/Action/TP"/>
@@ -208,7 +208,7 @@
 <dcat:Distribution rdf:about="urn:uuid:4841109b-52ca-4457-9beb-8db6890082d6">
   <dcat:accessURL rdf:resource="file://xmlrdf/Nordic44-HV_SV.xml"/>
   <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/rdf+xml"/>
-  <dcterms:conformsTo>urn:iso:std:iec:61970-552:2016</dcterms:conformsTo>
+  <dcterms:conformsTo rdf:resource="urn:iso:std:iec:61970-552:2016"/>
   <dcterms:description xml:lang="en">CIMXML serialization of the Nordic44 SV</dcterms:description>
   <prov:generatedAtTime>2025-02-14T11:00:00Z</prov:generatedAtTime>
   <prov:wasGeneratedBy rdf:resource="https://energy.referencedata.eu/Test/Action/SV"/>
