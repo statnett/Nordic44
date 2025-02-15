@@ -33,7 +33,7 @@
   <dcat:keyword>EQ</dcat:keyword>
   <dcat:keyword>Equipment</dcat:keyword>
   <dcat:startDate>2015-12-31T23:00:00Z</dcat:startDate>
-  <dcat:version>1.0.0-beta-1</dcat:version>
+  <dcat:version>3.0.0-beta-1</dcat:version>
   <dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/Public"/>
   <dcterms:conformsTo rdf:resource="http://iec.ch/TC57/ns/CIM/CoreEquipment-EU/3.0"/>
   <dcterms:description xml:lang="en">Equipment part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region.</dcterms:description>
@@ -43,7 +43,7 @@
   <dcterms:rights>Copyright</dcterms:rights>
   <dcterms:rightsHolder>Statnett SF</dcterms:rightsHolder>
   <dcterms:spatial rdf:resource="https://energy.referencedata.eu/Test/Frame/NORDIC-Power-Transmission-System"/>
-  <dcterms:title>20160101_Nordic44-HV_EQ_v1-0-0-beta-1</dcterms:title>
+  <dcterms:title>20160101_Nordic44-HV_EQ_v3-0-0-beta-1</dcterms:title>
   <dcterms:type rdf:resource="https://energy.referencedata.eu/type/CIM-PowerSystemModel"/>
 </dcat:Dataset>
 
@@ -64,7 +64,7 @@
   <dcat:keyword>SSH</dcat:keyword>
   <dcat:keyword>SteadyStateHypothesis</dcat:keyword>
   <dcat:startDate>2015-12-31T23:00:00Z</dcat:startDate>
-  <dcat:version>1.0.0-beta-1</dcat:version>
+  <dcat:version>3.0.0-beta-1</dcat:version>
   <dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/Public"/>
   <dcterms:conformsTo rdf:resource="http://iec.ch/TC57/ns/CIM/SteadyStateHypothesis-EU/3.0"/>
   <dcterms:description xml:lang="en">Steady-State Hypothesis (SSH) part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region.</dcterms:description>
@@ -75,7 +75,7 @@
   <dcterms:rights>Copyright</dcterms:rights>
   <dcterms:rightsHolder>Statnett SF</dcterms:rightsHolder>
   <dcterms:spatial rdf:resource="https://energy.referencedata.eu/Test/Frame/NORDIC-Power-Transmission-System"/>
-  <dcterms:title>20160101_Nordic44-HV_SSH_v1-0-0-beta-1</dcterms:title>
+  <dcterms:title>20160101_Nordic44-HV_SSH_v3-0-0-beta-1</dcterms:title>
   <dcterms:type rdf:resource="https://energy.referencedata.eu/type/CIM-PowerSystemModel"/>
 </dcat:Dataset>
 
@@ -95,7 +95,7 @@
   <dcat:keyword>GL</dcat:keyword>
   <dcat:keyword>GeographicalLocation</dcat:keyword>
   <dcat:startDate>2025-02-14T12:00:00Z</dcat:startDate>
-  <dcat:version>1.0.0-beta-1</dcat:version>
+  <dcat:version>3.0.0-beta-1</dcat:version>
   <dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/Public"/>
   <dcterms:conformsTo rdf:resource="http://iec.ch/TC57/ns/CIM/GeographicalLocation-EU/3.0"/>
   <dcterms:description xml:lang="en">Geographical Location (GL) part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region.</dcterms:description>
@@ -106,7 +106,7 @@
   <dcterms:rights>Copyright</dcterms:rights>
   <dcterms:rightsHolder>Statnett SF</dcterms:rightsHolder>
   <dcterms:spatial rdf:resource="https://energy.referencedata.eu/Test/Frame/NORDIC-Power-Transmission-System"/>
-  <dcterms:title>20160101_Nordic44-HV_GL_v1-0-0-beta-1</dcterms:title>
+  <dcterms:title>20160101_Nordic44-HV_GL_v3-0-0-beta-1</dcterms:title>
   <dcterms:type rdf:resource="https://energy.referencedata.eu/type/CIM-PowerSystemModel"/>
 </dcat:Dataset>
 
@@ -126,7 +126,7 @@
   <dcat:keyword>DL</dcat:keyword>
   <dcat:keyword>DiagramLayout</dcat:keyword>
   <dcat:startDate>2025-02-14T12:00:00Z</dcat:startDate>
-  <dcat:version>1.0.0-beta-1</dcat:version>
+  <dcat:version>3.0.0-beta-1</dcat:version>
   <dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/Public"/>
   <dcterms:conformsTo rdf:resource="http://iec.ch/TC57/ns/CIM/DiagramLayout-EU/3.0"/>
   <dcterms:description xml:lang="en">Diagram Layout (DL) part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region.</dcterms:description>
@@ -138,7 +138,7 @@
   <dcterms:rights>Copyright</dcterms:rights>
   <dcterms:rightsHolder>Statnett SF</dcterms:rightsHolder>
   <dcterms:spatial rdf:resource="https://energy.referencedata.eu/Test/Frame/NORDIC-Power-Transmission-System"/>
-  <dcterms:title>20160101_Nordic44-HV_DL_v1-0-0-beta-1</dcterms:title>
+  <dcterms:title>20160101_Nordic44-HV_DL_v3-0-0-beta-1</dcterms:title>
   <dcterms:type rdf:resource="https://energy.referencedata.eu/type/CIM-PowerSystemModel"/>
 </dcat:Dataset>
 
@@ -158,7 +158,7 @@
   <dcat:keyword>DL</dcat:keyword>
   <dcat:keyword>DiagramLayout</dcat:keyword>
   <dcat:startDate>2025-02-14T12:00:00Z</dcat:startDate>
-  <dcat:version>1.0.0-beta-1</dcat:version>
+  <dcat:version>3.0.0-beta-1</dcat:version>
   <dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/Public"/>
   <dcterms:conformsTo rdf:resource="http://iec.ch/TC57/ns/CIM/Topology-EU/3.0"/>
   <dcterms:description xml:lang="en">Topological (TP) part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region.</dcterms:description>
@@ -169,7 +169,7 @@
   <dcterms:rights>Copyright</dcterms:rights>
   <dcterms:rightsHolder>Statnett SF</dcterms:rightsHolder>
   <dcterms:spatial rdf:resource="https://energy.referencedata.eu/Test/Frame/NORDIC-Power-Transmission-System"/>
-  <dcterms:title>20160101_Nordic44-HV_TP_v1-0-0-beta-1</dcterms:title>
+  <dcterms:title>20160101_Nordic44-HV_TP_v3-0-0-beta-1</dcterms:title>
   <dcterms:type rdf:resource="https://energy.referencedata.eu/type/CIM-PowerSystemModel"/>
 </dcat:Dataset>
 
@@ -190,7 +190,7 @@
   <dcat:keyword>SV</dcat:keyword>
   <dcat:keyword>StateVariablet</dcat:keyword>
   <dcat:startDate>2025-02-14T12:00:00Z</dcat:startDate>
-  <dcat:version>1.0.0-beta-1</dcat:version>
+  <dcat:version>3.0.0-beta-1</dcat:version>
   <dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/Public"/>
   <dcterms:conformsTo rdf:resource="http://iec.ch/TC57/ns/CIM/StateVariables-EU/3.0"/>
   <dcterms:description xml:lang="en">State Variable (SV) part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region.</dcterms:description>
@@ -201,7 +201,7 @@
   <dcterms:rights>Copyright</dcterms:rights>
   <dcterms:rightsHolder>Statnett SF</dcterms:rightsHolder>
   <dcterms:spatial rdf:resource="https://energy.referencedata.eu/Test/Frame/NORDIC-Power-Transmission-System"/>
-  <dcterms:title>20160101_Nordic44-HV_SV_v1-0-0-beta-1</dcterms:title>
+  <dcterms:title>20160101_Nordic44-HV_SV_v3-0-0-beta-1</dcterms:title>
   <dcterms:type rdf:resource="https://energy.referencedata.eu/type/CIM-PowerSystemModel"/>
 </dcat:Dataset>
 
