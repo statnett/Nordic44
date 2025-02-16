@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:cim="https://cim.ucaiug.io/ns#"
+	xmlns:dcat="http://www.w3.org/ns/dcat#"
+	xmlns:dcatcim="https://cim4.eu/ns/dcatcim#" 
+	xmlns:dcterms="http://purl.org/dc/terms/" 
+ 	xmlns:eu="https://cim.ucaiug.io/ns/eu#"
+	xmlns:nc="https://cim4.eu/ns/nc#"
+	xmlns:prov="http://www.w3.org/ns/prov#" 
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  >
+
+<dcat:Dataset rdf:about="urn:uuid:9e3521e2-9504-4122-8c1e-a4c4411ffd7a">
+  <adms:versionNotes xml:lang="en">Initial version</adms:versionNotes>
+  <dcat:isVersionOf rdf:resource="https://energy.referencedata.eu/Test/Model/N44-NC-HV_RA"/>
+  <dcat:keyword>RA</dcat:keyword>
+  <dcat:keyword>RemedialAction</dcat:keyword>
+  <dcat:startDate>2015-12-31T23:00:00Z</dcat:startDate>
+  <dcat:version>3.0.0-beta-1</dcat:version>
+  <dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/Public"/>
+  <dcterms:conformsTo rdf:resource="https://ap.cim4.eu/RemedialAction/2.3"/>
+  <dcterms:description xml:lang="en">Remedial Action (RA) included in Network Code part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region.</dcterms:description>
+  <dcterms:identifier>urn:uuid:9e3521e2-9504-4122-8c1e-a4c4411ffd7a</dcterms:identifier>
+  <dcterms:issued>2025-02-14T12:00:00Z</dcterms:issued>
+  <dcterms:publisher rdf:resource="https://www.statnett.no/en/about-statnett/contact-us/"/>
+  <dcterms:requires rdf:resource="urn:uuid:e710212f-f6b2-8d4c-9dc0-365398d8b59c"/> <!-- Nordic44-HV_EQ -->
+  <dcterms:requires rdf:resource="urn:uuid:d9a01a85-0ad8-4958-be03-d89ad78ca497"/> <!-- N44-NC-HV_CD -->
+  <dcterms:rights>Copyright</dcterms:rights>
+  <dcterms:rightsHolder>Statnett SF</dcterms:rightsHolder>
+  <dcterms:spatial rdf:resource="https://energy.referencedata.eu/Test/Frame/NORDIC-Power-Transmission-System"/>
+  <dcterms:title>20160101_N44-NC-HV_RA_v3-0-0-beta-1</dcterms:title>
+  <dcterms:type rdf:resource="https://energy.referencedata.eu/type/CIM-PowerSystemModel"/>
+   <prov:generatedAtTime>2025-02-14T11:00:00Z</prov:generatedAtTime>
+  <prov:wasGeneratedBy rdf:resource="https://energy.referencedata.eu/Test/Action/RA"/>
+</dcat:Dataset>
+
+	
+	<nc:Gate rdf:ID="_29aa9783-38df-407a-99dd-bf19ddba7fef">
+		<cim:IdentifiedObject.name>AND G 300KRISTIAN-ARENDAL</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>29aa9783-38df-407a-99dd-bf19ddba7fef</cim:IdentifiedObject.mRID>
+		<nc:Gate.kind rdf:resource="https://cim4.eu/ns/nc#GateLogicKind.and"/>
+	</nc:Gate>
+	<nc:Gate rdf:ID="_43e27a15-0192-4c01-bec3-413f770618c7">
+		<cim:IdentifiedObject.name>AND G 300KRISTIAN-ARENDAL F DIR</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>43e27a15-0192-4c01-bec3-413f770618c7</cim:IdentifiedObject.mRID>
+		<nc:Gate.kind rdf:resource="https://cim4.eu/ns/nc#GateLogicKind.and"/>
+		<cim:IdentifiedObject.description>Check the flow and direction on 300KRISTIAN-ARENDAL.</cim:IdentifiedObject.description>
+	</nc:Gate>
+	<nc:Gate rdf:ID="_6d3f27a0-6a15-4ab0-a267-ea750cf5025f">
+		<cim:IdentifiedObject.name>AND G 300KRISTIAN-KVILLDAL F DIR</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>6d3f27a0-6a15-4ab0-a267-ea750cf5025f</cim:IdentifiedObject.mRID>
+		<nc:Gate.kind rdf:resource="https://cim4.eu/ns/nc#GateLogicKind.and"/>
+		<cim:IdentifiedObject.description>Check the flow and direction on 300KRISTIAN-KVILLDAL.</cim:IdentifiedObject.description>
+	</nc:Gate>
+	<nc:Gate rdf:ID="_fe38ec20-3ab2-474d-bf37-2f9bcfd6747f">
+		<cim:IdentifiedObject.name>OR G KRISTIAN300 VL</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>fe38ec20-3ab2-474d-bf37-2f9bcfd6747f</cim:IdentifiedObject.mRID>
+		<nc:Gate.kind rdf:resource="https://cim4.eu/ns/nc#GateLogicKind.or"/>
+	</nc:Gate>
+	<nc:Gate rdf:ID="_1238f3dd-6c26-488b-9067-d885d80903ba">
+		<cim:IdentifiedObject.name>OR G NorNed</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>1238f3dd-6c26-488b-9067-d885d80903ba</cim:IdentifiedObject.mRID>
+		<nc:Gate.kind rdf:resource="https://cim4.eu/ns/nc#GateLogicKind.or"/>
+	</nc:Gate>
+	<nc:PinEquipment rdf:ID="_e4c73a28-e1f4-4d22-85ab-483ba818bb90">
+		<cim:IdentifiedObject.name>GP 300KRISTIAN-ARENDAL FLOW</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>e4c73a28-e1f4-4d22-85ab-483ba818bb90</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>One out of two check for monitoring for flow on the line. This check for the amount.</cim:IdentifiedObject.description>
+		<nc:GateInputPin.Gate rdf:resource="#_43e27a15-0192-4c01-bec3-413f770618c7"/>
+		<nc:PinEquipment.Equipment rdf:resource="#_f1769cd4-9aeb-11e5-91da-b8763fd99c5f"/>
+		<nc:PinEquipment.kind rdf:resource="https://cim4.eu/ns/nc#PinEquipmentKind.currentLimit"/> <!-- That has been changed-->
+		<nc:GateInputPin.thresholdPercentage>1.15</nc:GateInputPin.thresholdPercentage> <!-- That has been changed-->
+		<nc:GateInputPin.logicKind rdf:resource="https://cim4.eu/ns/nc#LogicOperatorKind.geaterThan"/>
+	</nc:PinEquipment>
+	<nc:PinEquipment rdf:ID="_2bfb0a52-5634-478d-b795-6c88e0585c24">
+		<cim:IdentifiedObject.name>GP 300KRISTIAN-ARENDAL IC</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>2bfb0a52-5634-478d-b795-6c88e0585c24</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>One out of two check for monitoring for tripping. This check that the line not connected</cim:IdentifiedObject.description>
+		<nc:GateInputPin.Gate rdf:resource="#_29aa9783-38df-407a-99dd-bf19ddba7fef"/>
+		<nc:PinEquipment.Equipment rdf:resource="#_f1769cd4-9aeb-11e5-91da-b8763fd99c5f"/>
+		<nc:PinEquipment.kind rdf:resource="https://cim4.eu/ns/nc#PinEquipmentKind.connected"/> <!-- That has been changed-->
+		<nc:GateInputPin.negate>true</nc:GateInputPin.negate>
+	</nc:PinEquipment>
+	<nc:PinEquipment rdf:ID="_e2008e0d-d944-4f8a-9de0-e6ed2cf7f82e">
+		<cim:IdentifiedObject.name>GP 300KRISTIAN-ARENDAL IS</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>e2008e0d-d944-4f8a-9de0-e6ed2cf7f82e</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>One out of two check for monitoring for tripping. This check that the line is in service</cim:IdentifiedObject.description>
+		<nc:GateInputPin.Gate rdf:resource="#_29aa9783-38df-407a-99dd-bf19ddba7fef"/>
+		<nc:PinEquipment.Equipment rdf:resource="#_f1769cd4-9aeb-11e5-91da-b8763fd99c5f"/>
+		<nc:PinEquipment.kind rdf:resource="https://cim4.eu/ns/nc#PinEquipmentKind.inService"/> <!-- That has been changed-->
+	</nc:PinEquipment>
+	<nc:PinEquipment rdf:ID="_7b573a17-3466-4000-b93d-0aeaef314c32">
+		<cim:IdentifiedObject.name>GP 300KRISTIAN-KVILLDAL FLOW</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>7b573a17-3466-4000-b93d-0aeaef314c32</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>One out of two check for monitoring for flow on the line. This check for the amount.</cim:IdentifiedObject.description>
+		<nc:GateInputPin.Gate rdf:resource="#_6d3f27a0-6a15-4ab0-a267-ea750cf5025f"/>
+		<nc:PinEquipment.Equipment rdf:resource="#_f1769cec-9aeb-11e5-91da-b8763fd99c5f"/>
+		<nc:PinEquipment.kind rdf:resource="https://cim4.eu/ns/nc#PinEquipmentKind.currentLimit"/> <!-- That has been changed-->
+		<nc:GateInputPin.thresholdPercentage>1.15</nc:GateInputPin.thresholdPercentage> <!-- That has been changed-->
+		<nc:GateInputPin.logicKind rdf:resource="https://cim4.eu/ns/nc#LogicOperatorKind.geaterThan"/> <!-- That has been changed-->
+	</nc:PinEquipment>
+	<nc:PinGate rdf:ID="_793fb1c9-75c7-4b5c-aca7-b4c3c7978645">
+		<cim:IdentifiedObject.name>GP 300KRISTIAN-ARENDAL FLOW DIR</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>793fb1c9-75c7-4b5c-aca7-b4c3c7978645</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>Output from the flow and direction gate for 300KRISTIAN-ARENDAL.</cim:IdentifiedObject.description>
+		<nc:PinGate.GateOutput rdf:resource="#_43e27a15-0192-4c01-bec3-413f770618c7"/>
+		<nc:GateInputPin.Gate rdf:resource="#_1238f3dd-6c26-488b-9067-d885d80903ba"/>
+	</nc:PinGate>
+	<nc:PinGate rdf:ID="_9aaec7e7-e34e-439b-abe1-8cc14411e96c">
+		<cim:IdentifiedObject.name>GP 300KRISTIAN-KVILLDAL FLOW DIR</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>9aaec7e7-e34e-439b-abe1-8cc14411e96c</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>Output from the flow and direction gate for 300KRISTIAN-KVILLDAL.</cim:IdentifiedObject.description>
+		<nc:PinGate.GateOutput rdf:resource="#_6d3f27a0-6a15-4ab0-a267-ea750cf5025f"/>
+		<nc:GateInputPin.Gate rdf:resource="#_1238f3dd-6c26-488b-9067-d885d80903ba"/>
+	</nc:PinGate>
+	<nc:PinTerminal rdf:ID="_b799d394-34b3-45e4-a103-a5676a13850d">
+		<cim:IdentifiedObject.name>GP 300KRISTIAN-ARENDAL DIR</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>b799d394-34b3-45e4-a103-a5676a13850d</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>One out of two check for monitoring for flow on the line. This check for the direction.</cim:IdentifiedObject.description>
+		<nc:GateInputPin.Gate rdf:resource="#_43e27a15-0192-4c01-bec3-413f770618c7"/>
+		<nc:GateInputPin.logicKind rdf:resource="https://cim4.eu/ns/nc#LogicOperatorKind.lessThan"/>
+		<nc:GateInputPin.thresholdValue>0</nc:GateInputPin.thresholdValue>  <!-- That has been changed-->
+		<nc:PinTerminal.Terminal rdf:resource="#_2dd9040e-bdfb-11e5-94fa-c8f73332c8f4"/>
+		<nc:PinTerminal.kind rdf:resource="https://cim4.eu/ns/nc#PinTerminalKind.activePower"/>
+	</nc:PinTerminal>
+	<nc:PinTerminal rdf:ID="_b0c5b94e-7094-470d-8515-7c6b1e7cfd31">
+		<cim:IdentifiedObject.name>GP 300KRISTIAN-KVILLDAL DIR</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>b0c5b94e-7094-470d-8515-7c6b1e7cfd31</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>One out of two check for monitoring for flow on the line. This check for the direction.</cim:IdentifiedObject.description>
+		<nc:GateInputPin.Gate rdf:resource="#_6d3f27a0-6a15-4ab0-a267-ea750cf5025f"/>
+		<nc:GateInputPin.logicKind rdf:resource="https://cim4.eu/ns/nc#LogicOperatorKind.lessThan"/>
+		<nc:GateInputPin.thresholdValue>0</nc:GateInputPin.thresholdValue>
+		<nc:PinTerminal.Terminal rdf:resource="#_2dd90414-bdfb-11e5-94fa-c8f73332c8f4"/>
+		<nc:PinTerminal.kind rdf:resource="https://cim4.eu/ns/nc#PinTerminalKind.activePower"/>
+	</nc:PinTerminal>
+	<nc:PinTerminal rdf:ID="_112e3335-caa5-44dd-85eb-3a258791e127">
+		<cim:IdentifiedObject.name>GP KRISTIAN300 A VL</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>112e3335-caa5-44dd-85eb-3a258791e127</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>Check the voltage level on the terminal of the busbarsection.</cim:IdentifiedObject.description>
+		<nc:GateInputPin.Gate rdf:resource="#_fe38ec20-3ab2-474d-bf37-2f9bcfd6747f"/>
+		<nc:GateInputPin.logicKind rdf:resource="https://cim4.eu/ns/nc#LogicOperatorKind.lessThanOrEquals"/>
+		<nc:GateInputPin.thresholdValue>270</nc:GateInputPin.thresholdValue>
+		<nc:PinTerminal.Terminal rdf:resource="#_2dd90196-bdfb-11e5-94fa-c8f73332c8f4"/>
+		<nc:PinTerminal.kind rdf:resource="https://cim4.eu/ns/nc#PinTerminalKind.voltage"/>
+	</nc:PinTerminal>
+	<nc:PinTerminal rdf:ID="_9c6e15f8-8edf-4aa1-8f52-fbd7322e4dd2">
+		<cim:IdentifiedObject.name>GP KRISTIAN300 B VL</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>9c6e15f8-8edf-4aa1-8f52-fbd7322e4dd2</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>Check the voltage level on the terminal of the busbarsection.</cim:IdentifiedObject.description>
+		<nc:GateInputPin.Gate rdf:resource="#_fe38ec20-3ab2-474d-bf37-2f9bcfd6747f"/>
+		<nc:GateInputPin.logicKind rdf:resource="https://cim4.eu/ns/nc#LogicOperatorKind.lessThanOrEquals"/>
+		<nc:GateInputPin.thresholdValue>270</nc:GateInputPin.thresholdValue>
+		<nc:PinTerminal.Terminal rdf:resource="#_ea014fdb-b96f-2a4b-b1df-d38e846d4941"/>
+		<nc:PinTerminal.kind rdf:resource="https://cim4.eu/ns/nc#PinTerminalKind.voltage"/>
+	</nc:PinTerminal>
+	<nc:ProtectiveActionAdjustment rdf:ID="_ec32d28c-4ea8-4a8b-a3f1-558dd07666e7">
+		<cim:IdentifiedObject.name>PAA FEDA 300 L1</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>ec32d28c-4ea8-4a8b-a3f1-558dd07666e7</cim:IdentifiedObject.mRID>
+		<nc:ProtectiveAction.normalEnabled>true</nc:ProtectiveAction.normalEnabled>
+		<nc:ProtectiveAction.ProtectiveActionCollection rdf:resource="#_2b790cb6-e640-4fc8-b00b-ccb026a5725f"/>
+		<entsoe2:ProtectiveActionAdjustment.value>150</entsoe2:ProtectiveActionAdjustment.value>
+		<nc:ProtectiveActionAdjustment.ConductingEquipment rdf:resource="#_f1769764-9aeb-11e5-91da-b8763fd99c5f"/>
+		<nc:ProtectiveActionAdjustment.reduce>true</nc:ProtectiveActionAdjustment.reduce>
+		<nc:ProtectiveActionAdjustment.reduceToNegative>false</nc:ProtectiveActionAdjustment.reduceToNegative>
+		<nc:ProtectiveActionAdjustment.kind rdf:resource="https://cim4.eu/ns/nc#ProtectiveActionAdjustmentKind.byValue"/>
+	</nc:ProtectiveActionAdjustment>
+	<nc:ProtectiveActionAdjustment rdf:ID="_050cd458-b999-4c8d-ad24-93c6a3102b53">
+		<cim:IdentifiedObject.name>PAA KVI KRISTIAN G1</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>050cd458-b999-4c8d-ad24-93c6a3102b53</cim:IdentifiedObject.mRID>
+		<nc:ProtectiveAction.normalEnabled>true</nc:ProtectiveAction.normalEnabled>
+		<nc:ProtectiveAction.ProtectiveActionCollection rdf:resource="#_1708cf7a-ecdb-47aa-886c-c2025fce80bd"/>
+		<entsoe2:ProtectiveActionAdjustment.value>25</entsoe2:ProtectiveActionAdjustment.value>
+		<nc:ProtectiveActionAdjustment.ConductingEquipment rdf:resource="#_f1769947-9aeb-11e5-91da-b8763fd99c5f"/>
+		<nc:ProtectiveActionAdjustment.reduce>true</nc:ProtectiveActionAdjustment.reduce>
+		<nc:ProtectiveActionAdjustment.reduceToNegative>false</nc:ProtectiveActionAdjustment.reduceToNegative>
+		<nc:ProtectiveActionAdjustment.kind rdf:resource="https://cim4.eu/ns/nc#ProtectiveActionAdjustmentKind.byValue"/>
+	</nc:ProtectiveActionAdjustment>
+	<nc:ProtectiveActionAdjustment rdf:ID="_417979f7-6af4-460e-8966-c42e671844a3">
+		<cim:IdentifiedObject.name>PAA KVI KRISTIAN G2</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>417979f7-6af4-460e-8966-c42e671844a3</cim:IdentifiedObject.mRID>
+		<nc:ProtectiveAction.normalEnabled>true</nc:ProtectiveAction.normalEnabled>
+		<nc:ProtectiveAction.ProtectiveActionCollection rdf:resource="#_1708cf7a-ecdb-47aa-886c-c2025fce80bd"/>
+		<entsoe2:ProtectiveActionAdjustment.value>30</entsoe2:ProtectiveActionAdjustment.value>
+		<nc:ProtectiveActionAdjustment.ConductingEquipment rdf:resource="#_f176994d-9aeb-11e5-91da-b8763fd99c5f"/>
+		<nc:ProtectiveActionAdjustment.reduce>true</nc:ProtectiveActionAdjustment.reduce>
+		<nc:ProtectiveActionAdjustment.reduceToNegative>false</nc:ProtectiveActionAdjustment.reduceToNegative>
+		<nc:ProtectiveActionAdjustment.kind rdf:resource="https://cim4.eu/ns/nc#ProtectiveActionAdjustmentKind.byValue"/>
+	</nc:ProtectiveActionAdjustment>
+	<nc:ProtectiveActionCollection rdf:ID="_2b790cb6-e640-4fc8-b00b-ccb026a5725f">
+		<cim:IdentifiedObject.name>PAC FEDA PAA</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>2b790cb6-e640-4fc8-b00b-ccb026a5725f</cim:IdentifiedObject.mRID>
+	</nc:ProtectiveActionCollection>
+	<nc:ProtectiveActionCollection rdf:ID="_1708cf7a-ecdb-47aa-886c-c2025fce80bd">
+		<cim:IdentifiedObject.name>PAC KRISTIAN-ARENDAL PAA</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>1708cf7a-ecdb-47aa-886c-c2025fce80bd</cim:IdentifiedObject.mRID>
+	</nc:ProtectiveActionCollection>
+	<nc:ProtectiveActionCollection rdf:ID="_1e396889-dffa-414e-a6f0-c79dfe612d8f">
+		<cim:IdentifiedObject.name>PAC KRISTIAN300 L2 PAA</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>1e396889-dffa-414e-a6f0-c79dfe612d8f</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>Isolating the load KRISTIAN300 L2.</cim:IdentifiedObject.description>
+	</nc:ProtectiveActionCollection>
+	<nc:ProtectiveActionEquipment rdf:ID="_7d4a1418-e789-45b3-97a5-456b14ffde2b">
+		<cim:IdentifiedObject.name>PAA KRISTIAN300 L2</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>7d4a1418-e789-45b3-97a5-456b14ffde2b</cim:IdentifiedObject.mRID>
+		<nc:ProtectiveAction.normalEnabled>true</nc:ProtectiveAction.normalEnabled>
+		<nc:ProtectiveAction.ProtectiveActionCollection rdf:resource="#_1e396889-dffa-414e-a6f0-c79dfe612d8f"/>
+		<nc:ProtectiveActionEquipment.inService>false</nc:ProtectiveActionEquipment.inService>
+		<nc:ProtectiveActionEquipment.Equipment rdf:resource="#_f1769758-9aeb-11e5-91da-b8763fd99c5f"/>
+	</nc:ProtectiveActionEquipment>
+	<nc:ProtectiveActionEquipment rdf:ID="_03b7096c-99ad-41ef-b6b4-c169dfecdb28">
+		<cim:IdentifiedObject.name>PAA KRISTIAN300L1  AD_S</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>03b7096c-99ad-41ef-b6b4-c169dfecdb28</cim:IdentifiedObject.mRID>
+		<nc:ProtectiveAction.normalEnabled>true</nc:ProtectiveAction.normalEnabled>
+		<nc:ProtectiveAction.ProtectiveActionCollection rdf:resource="#_1e396889-dffa-414e-a6f0-c79dfe612d8f"/>
+		<nc:ProtectiveActionEquipment.inService>false</nc:ProtectiveActionEquipment.inService>
+		<nc:ProtectiveActionEquipment.Equipment rdf:resource="#_c986d524-47e9-9e4d-b635-64386c9be9a1"/>
+	</nc:ProtectiveActionEquipment>
+	<nc:ProtectiveActionEquipment rdf:ID="_bb6dc968-2ad4-436d-847e-242622ad395b">
+		<cim:IdentifiedObject.name>PAA KRISTIAN300L2  AB_S</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>bb6dc968-2ad4-436d-847e-242622ad395b</cim:IdentifiedObject.mRID>
+		<nc:ProtectiveAction.normalEnabled>true</nc:ProtectiveAction.normalEnabled>
+		<nc:ProtectiveAction.ProtectiveActionCollection rdf:resource="#_1e396889-dffa-414e-a6f0-c79dfe612d8f"/>
+		<nc:ProtectiveActionEquipment.inService>false</nc:ProtectiveActionEquipment.inService>
+		<nc:ProtectiveActionEquipment.Equipment rdf:resource="#_7cc994ab-ddb9-8a4a-bbda-e91af59a06d9"/>
+	</nc:ProtectiveActionEquipment>
+	<nc:ProtectiveActionEquipment rdf:ID="_f235a8cc-4321-4c4d-a8ff-84e09a9c95b7">
+		<cim:IdentifiedObject.name>PAA KRISTIAN300L2  BB_S</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>f235a8cc-4321-4c4d-a8ff-84e09a9c95b7</cim:IdentifiedObject.mRID>
+		<nc:ProtectiveAction.normalEnabled>true</nc:ProtectiveAction.normalEnabled>
+		<nc:ProtectiveAction.ProtectiveActionCollection rdf:resource="#_1e396889-dffa-414e-a6f0-c79dfe612d8f"/>
+		<nc:ProtectiveActionEquipment.inService>false</nc:ProtectiveActionEquipment.inService>
+		<nc:ProtectiveActionEquipment.Equipment rdf:resource="#_373c4779-0905-d34c-bbc9-d200f848cbd9"/>
+	</nc:ProtectiveActionEquipment>
+	<nc:ProtectiveActionEquipment rdf:ID="_1dcb03a1-9ab8-458c-a9c4-0d5e5824645b">
+		<cim:IdentifiedObject.name>PAA KRISTIAN300L2  BD_S</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>1dcb03a1-9ab8-458c-a9c4-0d5e5824645b</cim:IdentifiedObject.mRID>
+		<nc:ProtectiveAction.normalEnabled>true</nc:ProtectiveAction.normalEnabled>
+		<nc:ProtectiveAction.ProtectiveActionCollection rdf:resource="#_1e396889-dffa-414e-a6f0-c79dfe612d8f"/>
+		<nc:ProtectiveActionEquipment.inService>false</nc:ProtectiveActionEquipment.inService>
+		<nc:ProtectiveActionEquipment.Equipment rdf:resource="#_29fd599d-9429-cb4b-a103-df08eb0a97f8"/>
+	</nc:ProtectiveActionEquipment>
+	<nc:RemedialActionScheme rdf:ID="_68d525d7-f393-47c0-aebb-155ef41f79ca">
+		<cim:IdentifiedObject.name>SIPS 300KRISTIAN-ARENDAL</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>68d525d7-f393-47c0-aebb-155ef41f79ca</cim:IdentifiedObject.mRID>
+		<nc:RemedialActionScheme.normalActive>true</nc:RemedialActionScheme.normalActive>
+		<nc:RemedialActionScheme.kind rdf:resource="https://cim4.eu/ns/nc#RemedialActionSchemeKind.rAS"/>
+	</nc:RemedialActionScheme>
+	<nc:RemedialActionScheme rdf:ID="_e34b8faa-ede0-4000-8c7d-d8df46a37416">
+		<cim:IdentifiedObject.name>SIPS KRISTIAN300 VL</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>e34b8faa-ede0-4000-8c7d-d8df46a37416</cim:IdentifiedObject.mRID>
+		<nc:RemedialActionScheme.normalActive>true</nc:RemedialActionScheme.normalActive>
+		<nc:RemedialActionScheme.kind rdf:resource="https://cim4.eu/ns/nc#RemedialActionSchemeKind.rAS"/>
+	</nc:RemedialActionScheme>
+
+	<nc:RemedialActionScheme rdf:ID="_5850bebd-d028-4578-a1c0-e77c718a116f">
+		<cim:IdentifiedObject.name>SIPS NorNed</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>5850bebd-d028-4578-a1c0-e77c718a116f</cim:IdentifiedObject.mRID>
+		<nc:RemedialActionScheme.kind rdf:resource="https://cim4.eu/ns/nc#RemedialActionSchemeKind.rAS"/>
+		<nc:RemedialActionScheme.normalArmed>true</nc:RemedialActionScheme.normalArmed>
+	</nc:RemedialActionScheme>
+	<nc:Stage rdf:ID="_af418504-ec4e-4315-8faf-234557121d8d">
+		<cim:IdentifiedObject.name>S1 KRI-ARE</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>af418504-ec4e-4315-8faf-234557121d8d</cim:IdentifiedObject.mRID>
+		<nc:Stage.RemedialActionScheme rdf:resource="#_68d525d7-f393-47c0-aebb-155ef41f79ca"/>
+		<nc:Stage.priority>1</nc:Stage.priority>
+	</nc:Stage>
+	<nc:Stage rdf:ID="_cdb8c7f6-28ff-4cec-ba1b-0992ec445e2f">
+		<cim:IdentifiedObject.name>S1 KRISTIAN300 VL</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>cdb8c7f6-28ff-4cec-ba1b-0992ec445e2f</cim:IdentifiedObject.mRID>
+		<nc:Stage.RemedialActionScheme rdf:resource="#_e34b8faa-ede0-4000-8c7d-d8df46a37416"/>
+		<nc:Stage.priority>1</nc:Stage.priority>
+	</nc:Stage>
+	<nc:Stage rdf:ID="_31095b78-d690-48ee-91b1-ef4bfecdb19e">
+		<cim:IdentifiedObject.name>S1 NorNed</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>31095b78-d690-48ee-91b1-ef4bfecdb19e</cim:IdentifiedObject.mRID>
+		<nc:Stage.RemedialActionScheme rdf:resource="#_5850bebd-d028-4578-a1c0-e77c718a116f"/>
+		<nc:Stage.priority>1</nc:Stage.priority>
+	</nc:Stage>
+	<nc:StageTrigger rdf:ID="_69ed3bd9-c374-49ef-b186-d49d869940bb">
+		<cim:IdentifiedObject.name>ST1 S1 KRI-ARE</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>69ed3bd9-c374-49ef-b186-d49d869940bb</cim:IdentifiedObject.mRID>
+		<nc:StageTrigger.Stage rdf:resource="#_af418504-ec4e-4315-8faf-234557121d8d"/>
+		<nc:StageTrigger.GateTrigger rdf:resource="#_29aa9783-38df-407a-99dd-bf19ddba7fef"/>
+		<nc:StageTrigger.normalEnabled>true</nc:StageTrigger.normalEnabled>
+		<nc:StageTrigger.ProtectiveActionCollection rdf:resource="#_1708cf7a-ecdb-47aa-886c-c2025fce80bd"/>
+	</nc:StageTrigger>
+	<nc:StageTrigger rdf:ID="_bb31f847-7509-4582-9721-6e50b525f55d">
+		<cim:IdentifiedObject.name>ST1 S1 KRISTIAN300 VL</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>bb31f847-7509-4582-9721-6e50b525f55d</cim:IdentifiedObject.mRID>
+		<nc:StageTrigger.Stage rdf:resource="#_cdb8c7f6-28ff-4cec-ba1b-0992ec445e2f"/>
+		<nc:StageTrigger.GateTrigger rdf:resource="#_fe38ec20-3ab2-474d-bf37-2f9bcfd6747f"/>
+		<nc:StageTrigger.normalEnabled>true</nc:StageTrigger.normalEnabled>
+		<nc:StageTrigger.ProtectiveActionCollection rdf:resource="#_1e396889-dffa-414e-a6f0-c79dfe612d8f"/>
+	</nc:StageTrigger>
+	<nc:StageTrigger rdf:ID="_dcca331c-3acd-446a-94ec-1c00b427af05">
+		<cim:IdentifiedObject.name>ST1 S1 NorNed</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>dcca331c-3acd-446a-94ec-1c00b427af05</cim:IdentifiedObject.mRID>
+		<nc:StageTrigger.Stage rdf:resource="#_31095b78-d690-48ee-91b1-ef4bfecdb19e"/>
+		<nc:StageTrigger.GateTrigger rdf:resource="#_1238f3dd-6c26-488b-9067-d885d80903ba"/>
+		<nc:StageTrigger.ProtectiveActionCollection rdf:resource="#_2b790cb6-e640-4fc8-b00b-ccb026a5725f"/>
+		<nc:StageTrigger.normalArmed>true</nc:StageTrigger.normalArmed>
+	</nc:StageTrigger>
+
+
+
+</rdf:RDF>
