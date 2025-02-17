@@ -217,5 +217,37 @@
   <prov:wasGeneratedBy rdf:resource="https://energy.referencedata.eu/Test/Action/SV"/>
 </dcat:Distribution>
 
+<dcat:Dataset rdf:about="urn:uuid:67e97bb0-ec38-481d-9e56-3e9d45e95a33">
+  <adms:versionNotes xml:lang="en">Initial version</adms:versionNotes>
+  <dcat:distribution rdf:resource="urn:uuid:c4f2422b-03a4-4298-aa16-40921c4ca16f"/>
+  <dcat:isVersionOf rdf:resource="https://energy.referencedata.eu/Test/Model/Nordic44-HV_SV"/>
+  <dcat:keyword>SV</dcat:keyword>
+  <dcat:keyword>StateVariablet</dcat:keyword>
+  <dcat:startDate>2025-02-14T12:00:00Z</dcat:startDate>
+  <dcat:version>3.0.0-beta-1</dcat:version>
+  <dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/Public"/>
+  <dcterms:conformsTo rdf:resource="http://iec.ch/TC57/ns/CIM/Operation-EU/3.0"/>
+  <dcterms:description xml:lang="en">Equipment Operation (OP) part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region.</dcterms:description>
+  <dcterms:identifier>urn:uuid:67e97bb0-ec38-481d-9e56-3e9d45e95a33</dcterms:identifier>
+  <dcterms:issued>2025-02-14T11:00:00Z</dcterms:issued>
+  <dcterms:publisher rdf:resource="https://www.statnett.no/en/about-statnett/contact-us/"/>
+  <dcterms:requires rdf:resource="urn:uuid:e710212f-f6b2-8d4c-9dc0-365398d8b59c"/> <!-- Nordic44-HV_EQ-->
+  <dcterms:requires rdf:resource="urn:uuid:d9a01a85-0ad8-4958-be03-d89ad78ca497"/> <!-- N44-NC_HV_CD-->
+  <dcterms:rights>Copyright</dcterms:rights>
+  <dcterms:rightsHolder>Statnett SF</dcterms:rightsHolder>
+  <dcterms:spatial rdf:resource="https://energy.referencedata.eu/Test/Frame/NORDIC-Power-Transmission-System"/>
+  <dcterms:title>20160101_Nordic44-HV_OP_v3-0-0-beta-1</dcterms:title>
+  <dcterms:type rdf:resource="https://energy.referencedata.eu/type/CIM-PowerSystemModel"/>
+</dcat:Dataset>
+
+<dcat:Distribution rdf:about="urn:uuid:c4f2422b-03a4-4298-aa16-40921c4ca16f">
+  <dcat:accessURL rdf:resource="file://xmlrdf/Nordic44-HV_OP.xml"/>
+  <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/rdf+xml"/>
+  <dcterms:conformsTo rdf:resource="urn:iso:std:iec:61970-552:2016"/>
+  <dcterms:description xml:lang="en">CIMXML serialization of the Nordic44 OP</dcterms:description>
+  <prov:generatedAtTime>2025-02-14T11:00:00Z</prov:generatedAtTime>
+  <prov:wasGeneratedBy rdf:resource="https://energy.referencedata.eu/Test/Action/OP"/>
+</dcat:Distribution>
+
 
 </rdf:RDF>

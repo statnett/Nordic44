@@ -333,15 +333,15 @@
 	<cim:GeneratingUnit rdf:about="_f1769915-9aeb-11e5-91da-b8763fd99c5f"> <!--ASKER   G1 -->
 				<!-- Need to modify 
 		<pti:GeneratingUnit.dispatchable>false</pti:GeneratingUnit.dispatchable>
-		<pti:GeneratingUnit.meritOrder>1</pti:GeneratingUnit.meritOrder>-->
-		<nc:GeneratingUnit.normalParticipationFactor>1.0</nc:GeneratingUnit.normalParticipationFactor>
+		<pti:GeneratingUnit.meritOrder>1</pti:GeneratingUnit.meritOrder>
+		<nc:GeneratingUnit.normalParticipationFactor>1.0</nc:GeneratingUnit.normalParticipationFactor>-->
 		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_2ad2b84f-9b6e-48db-96d9-3dcbd5d9fc6f"/>
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="_f176991d-9aeb-11e5-91da-b8763fd99c5f"> <!--ASKER   G2 -->
 				<!-- Need to modify 
 		<pti:GeneratingUnit.dispatchable>false</pti:GeneratingUnit.dispatchable>
-		<pti:GeneratingUnit.meritOrder>2</pti:GeneratingUnit.meritOrder>-->
-		<nc:GeneratingUnit.normalParticipationFactor>2.0</nc:GeneratingUnit.normalParticipationFactor>
+		<pti:GeneratingUnit.meritOrder>2</pti:GeneratingUnit.meritOrder>
+		<nc:GeneratingUnit.normalParticipationFactor>2.0</nc:GeneratingUnit.normalParticipationFactor>-->
 		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_2ad2b84f-9b6e-48db-96d9-3dcbd5d9fc6f"/>
 	</cim:GeneratingUnit>
 	<cim:GeneratingUnit rdf:about="_f176995d-9aeb-11e5-91da-b8763fd99c5f"> <!--BLAFALLIG1 -->
