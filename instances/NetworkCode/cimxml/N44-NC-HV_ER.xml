@@ -216,6 +216,7 @@
 		<cim:IdentifiedObject.description>Trondheim_SR</cim:IdentifiedObject.description>
 	</nc:ScheduleResource>
 
+<!-- Unit distribution -->
 
 
 	<nc:CircuitShare rdf:ID="_9a6018fb-ede3-4517-94e4-b54c583543ad">

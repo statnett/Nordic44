@@ -60,5 +60,79 @@
 		<nc:CircuitShare.contributionFactor>90</nc:CircuitShare.contributionFactor>
 	</nc:CircuitShare>
 
+<!-- StageTrigger-->
+	<nc:StageTrigger rdf:about="_69ed3bd9-c374-49ef-b186-d49d869940bb"> <!-- ST1 S1 KRI-ARE-->
+		<nc:StageTrigger.armed>true</nc:StageTrigger.armed>
+    <nc:StageTrigger.inService>true</nc:StageTrigger.inService>
+	</nc:StageTrigger>
+
+  <nc:StageTrigger rdf:about="_bb31f847-7509-4582-9721-6e50b525f55d"> <!-- ST1 S1 KRISTIAN300 VL-->
+		<nc:StageTrigger.armed>true</nc:StageTrigger.armed>
+    <nc:StageTrigger.inService>true</nc:StageTrigger.inService>
+	</nc:StageTrigger>
+
+  <nc:StageTrigger rdf:about="_dcca331c-3acd-446a-94ec-1c00b427af05"> <!-- ST1 S1 NorNed-->
+		<nc:StageTrigger.armed>true</nc:StageTrigger.armed>
+    <nc:StageTrigger.inService>true</nc:StageTrigger.inService>
+	</nc:StageTrigger>
+
+<!-- RemedialActionScheme-->
+	<nc:RemedialActionScheme rdf:about="_68d525d7-f393-47c0-aebb-155ef41f79ca">  <!-- SIPS 300KRISTIAN-ARENDAL -->
+		<nc:RemedialActionScheme.armed>true</nc:RemedialActionScheme.armed>
+    <nc:RemedialActionScheme.inService>true</nc:RemedialActionScheme.inService>
+	</nc:RemedialActionScheme>
+	<nc:RemedialActionScheme rdf:about="_e34b8faa-ede0-4000-8c7d-d8df46a37416">  <!-- SIPS KRISTIAN300 VL -->
+		<nc:RemedialActionScheme.armed>true</nc:RemedialActionScheme.armed>
+    <nc:RemedialActionScheme.inService>true</nc:RemedialActionScheme.inService>
+	</nc:RemedialActionScheme>
+	<nc:RemedialActionScheme rdf:about="_5850bebd-d028-4578-a1c0-e77c718a116f">  <!-- SIPS NorNed-->
+		<nc:RemedialActionScheme.armed>true</nc:RemedialActionScheme.armed>
+    <nc:RemedialActionScheme.inService>true</nc:RemedialActionScheme.inService>
+	</nc:RemedialActionScheme>
+
+	<nc:InServiceAction rdf:about="_7d4a1418-e789-45b3-97a5-456b14ffde2b"> <!-- GSA KRISTIAN300 L2-->
+		<nc:GridStateAlteration.enabled>true</nc:GridStateAlteration.enabled>
+	</nc:InServiceAction>
+
+	<nc:TopologyAction rdf:about="_03b7096c-99ad-41ef-b6b4-c169dfecdb28"> <!-- GSA KRISTIAN300L1  AD_S-->
+		<nc:GridStateAlteration.enabled>true</nc:GridStateAlteration.enabled>
+	</nc:TopologyAction>
+
+	<nc:TopologyAction rdf:about="_bb6dc968-2ad4-436d-847e-242622ad395b">  <!-- GSA KRISTIAN300L2  AB_S -->
+    <nc:GridStateAlteration.enabled>true</nc:GridStateAlteration.enabled>
+	</nc:TopologyAction>
+
+	<nc:TopologyAction rdf:about="_f235a8cc-4321-4c4d-a8ff-84e09a9c95b7">  <!-- GSA KRISTIAN300L2  BB_S -->
+    <nc:GridStateAlteration.enabled>true</nc:GridStateAlteration.enabled>
+	</nc:TopologyAction>
+
+	<nc:TopologyAction rdf:about="_1dcb03a1-9ab8-458c-a9c4-0d5e5824645b">  <!-- GSA KRISTIAN300L2  BD_S -->
+    <nc:GridStateAlteration.enabled>true</nc:GridStateAlteration.enabled>
+	</nc:TopologyAction>
+
+	<nc:LoadAction rdf:about="_ec32d28c-4ea8-4a8b-a3f1-558dd07666e7">  <!-- GSA FEDA 300 L1 -->
+    <nc:GridStateAlteration.enabled>true</nc:GridStateAlteration.enabled>
+	</nc:LoadAction>
+
+	<nc:RotatingMachineAction rdf:about="_050cd458-b999-4c8d-ad24-93c6a3102b53">   <!-- GSA KVI KRISTIAN G1 -->
+    <nc:GridStateAlteration.enabled>true</nc:GridStateAlteration.enabled>
+	</nc:RotatingMachineAction>
+
+	<nc:RotatingMachineAction rdf:about="_417979f7-6af4-460e-8966-c42e671844a3">   <!-- GSA KVI KRISTIAN G2 -->
+    <nc:GridStateAlteration.enabled>true</nc:GridStateAlteration.enabled>
+	</nc:RotatingMachineAction>
+
+	
+  <nc:StaticPropertyRange rdf:about="_8048d34b-3ae2-4699-8e4c-e83e2cdff327"> <!-- SPRA FEDA 300 L1 -->
+		<nc:RangeConstraint.value>150</nc:RangeConstraint.value>
+	</nc:StaticPropertyRange>
+
+	<nc:StaticPropertyRange rdf:about="_723d5e6c-76d1-4f49-b151-a0ad7f46e036"> <!-- SPRA KVI KRISTIAN G1 -->
+		<nc:RangeConstraint.value>25</nc:RangeConstraint.value>
+	</nc:StaticPropertyRange>
+
+	<nc:StaticPropertyRange rdf:about="_71c1c2af-f4d4-429a-af03-8c6fd44de393"> <!-- SPRA KVI KRISTIAN G1 -->
+		<nc:RangeConstraint.value>30</nc:RangeConstraint.value>
+	</nc:StaticPropertyRange>  
 
 </rdf:RDF>
