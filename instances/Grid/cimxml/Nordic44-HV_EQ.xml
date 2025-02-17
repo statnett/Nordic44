@@ -10066,7 +10066,7 @@
 		<cim:IdentifiedObject.mRID>87cf3d46-9cf1-4dcb-9d1c-22498a639d76</cim:IdentifiedObject.mRID>
 	</cim:OperationalLimitType>
 	<cim:OperationalLimitType rdf:ID="_df0cea8a-8e5a-4254-a040-410fa4797154">
-		<eu:OperationalLimitType.kind rdf:resource="http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#LimitKind.patl"/>
+		<eu:OperationalLimitType.kind rdf:resource="http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#LimitKind.stability"/>
 		<cim:OperationalLimitType.isInfiniteDuration>true</cim:OperationalLimitType.isInfiniteDuration>
 		<cim:OperationalLimitType.direction rdf:resource="http://iec.ch/TC57/CIM100#OperationalLimitDirectionKind.low"/>
 		<cim:IdentifiedObject.name>OLT Low Stability</cim:IdentifiedObject.name>

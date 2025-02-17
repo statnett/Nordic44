@@ -34,105 +34,123 @@
   <prov:wasGeneratedBy rdf:resource="https://energy.referencedata.eu/Test/Action/ER"/>
 </dcat:Dataset>
 
+<!-- OperationalLimitSet for PowerTransferCorridor -->
+	<cim:OperationalLimitSet rdf:ID="_f802a83f-b9fb-48fb-9dde-0f5132e5f886">
+		<cim:OperationalLimitSet.Terminal rdf:resource="#_2dd9039f-bdfb-11e5-94fa-c8f73332c8f4"/>
+		<cim:IdentifiedObject.description>PTC 420RINGHALS-HALDEN LimitSet for direction Halden to Ringhals</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>LS PTC 420RING-HALDEN F HA</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>f802a83f-b9fb-48fb-9dde-0f5132e5f886</cim:IdentifiedObject.mRID>
+		<nc:OperationalLimitSet.PowerTransferCorridor rdf:resource="#_e3cfe43a-f522-4164-bb01-f7a3abc5b26d"/>
+	</cim:OperationalLimitSet>
+
+	<cim:ActivePowerLimit rdf:ID="_f6ab9ccd-10fa-4531-8427-763e11163b28">
+		<nc:ActivePowerLimit.normalValue>1600</nc:ActivePowerLimit.nc>
+		<!-- <cim:ActivePowerLimit.value>1600</cim:ActivePowerLimit.value> where should this go? A serrated SSH for the ER? -->
+		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_f802a83f-b9fb-48fb-9dde-0f5132e5f886"/>
+		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_df0cea8a-8e5a-4254-a040-410fa4797154"/>
+		<cim:IdentifiedObject.name>APL STABILITY</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>f6ab9ccd-10fa-4531-8427-763e11163b28</cim:IdentifiedObject.mRID>
+	</cim:ActivePowerLimit>
+
 
 	<nc:SchedulingArea rdf:ID="_096cb162-6a74-4dcd-b9e5-9845e1f049b6">
 		<cim:IdentifiedObject.name>SA-FI</cim:IdentifiedObject.name>
-    <cim:IdentifiedObject.mRID>096cb162-6a74-4dcd-b9e5-9845e1f049b6</cim:IdentifiedObject.mRID>
+    	<cim:IdentifiedObject.mRID>096cb162-6a74-4dcd-b9e5-9845e1f049b6</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>Scheduling Area of Finland (FI)</cim:IdentifiedObject.description>
 		<nc:SchedulingArea.BiddingZone rdf:resource="#_6eaaae78-21f1-41c7-81a4-2b0fe15cdbfc"/>
-    <nc:SchedulingArea.ControlArea rdf:resource="#_f17696b0-9aeb-11e5-91da-b8763fd99c5f"/>
-    <nc:SchedulingArea.mormalParticipationFactor>1.0</nc:SchedulingArea.mormalParticipationFactor>
+    	<nc:SchedulingArea.ControlArea rdf:resource="#_f17696b0-9aeb-11e5-91da-b8763fd99c5f"/>
+    	<nc:SchedulingArea.normalParticipationFactor>1.0</nc:SchedulingArea.normalParticipationFactor>
 		<nc:SchedulingArea.SynchronousArea rdf:resource="#_5829041b-1f25-4a3d-8b4c-532d9f0b6e54"/>
 	</nc:SchedulingArea>
 	<nc:SchedulingArea rdf:ID="_19454eeb-cf3c-4b22-91c8-42c94a48e04e">
 		<cim:IdentifiedObject.name>SA-NO1</cim:IdentifiedObject.name>
-    <cim:IdentifiedObject.mRID>19454eeb-cf3c-4b22-91c8-42c94a48e04e</cim:IdentifiedObject.mRID>
+    	<cim:IdentifiedObject.mRID>19454eeb-cf3c-4b22-91c8-42c94a48e04e</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>Scheduling Area of Viken North</cim:IdentifiedObject.description>
 		<nc:SchedulingArea.BiddingZone rdf:resource="#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
 		<nc:SchedulingArea.ControlArea rdf:resource="#_f1769606-9aeb-11e5-91da-b8763fd99c5f"/>
-    <nc:SchedulingArea.mormalParticipationFactor>0.5</nc:SchedulingArea.mormalParticipationFactor>
-    <nc:SchedulingArea.SynchronousArea rdf:resource="#_5829041b-1f25-4a3d-8b4c-532d9f0b6e54"/>
+    	<nc:SchedulingArea.normalParticipationFactor>0.5</nc:SchedulingArea.normalParticipationFactor>
+    	<nc:SchedulingArea.SynchronousArea rdf:resource="#_5829041b-1f25-4a3d-8b4c-532d9f0b6e54"/>
 	</nc:SchedulingArea>
 	<nc:SchedulingArea rdf:ID="_d398cead-6dfb-4ce3-80a0-93f23d46bd7b">
 		<cim:IdentifiedObject.name>SA-NO2</cim:IdentifiedObject.name>
-    <cim:IdentifiedObject.mRID>d398cead-6dfb-4ce3-80a0-93f23d46bd7b</cim:IdentifiedObject.mRID>
+    	<cim:IdentifiedObject.mRID>d398cead-6dfb-4ce3-80a0-93f23d46bd7b</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>Scheduling Area of NO2 - 2011-05-16: Southern Norway. West of Hasle (420kV), Sylling (4kV). East of Sauda (300kV)</cim:IdentifiedObject.description>
 		<nc:SchedulingArea.BiddingZone rdf:resource="#_63b13e2e-8d0a-47d0-8de8-fb686decbae4"/>
 		<nc:SchedulingArea.ControlArea rdf:resource="#_f1769606-9aeb-11e5-91da-b8763fd99c5f"/>
-    <nc:SchedulingArea.mormalParticipationFactor>1.0</nc:SchedulingArea.mormalParticipationFactor>
-    <nc:SchedulingArea.SynchronousArea rdf:resource="#_5829041b-1f25-4a3d-8b4c-532d9f0b6e54"/>
+    	<nc:SchedulingArea.normalParticipationFactor>1.0</nc:SchedulingArea.normalParticipationFactor>
+    	<nc:SchedulingArea.SynchronousArea rdf:resource="#_5829041b-1f25-4a3d-8b4c-532d9f0b6e54"/>
 	</nc:SchedulingArea>
 	<nc:SchedulingArea rdf:ID="_b08fcabb-1507-478a-8b76-081ead819b1d">
 		<cim:IdentifiedObject.name>SA-NO3</cim:IdentifiedObject.name>
-    <cim:IdentifiedObject.mRID>b08fcabb-1507-478a-8b76-081ead819b1d</cim:IdentifiedObject.mRID>
+    	<cim:IdentifiedObject.mRID>b08fcabb-1507-478a-8b76-081ead819b1d</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>Scheduling Area of NO3 - 2011-05-16: Mid Part of Norway, n.o.Ø.Vinstra (300kV), n.o.Litjf(132 kV bus bars), s.o.Tunnsjødal-Verdal (300kV), s (300kV)</cim:IdentifiedObject.description>
 		<nc:SchedulingArea.BiddingZone rdf:resource="#_0f094148-164b-427a-a8e8-0c5f334688ae"/>
 		<nc:SchedulingArea.ControlArea rdf:resource="#_f1769606-9aeb-11e5-91da-b8763fd99c5f"/>
-    <nc:SchedulingArea.mormalParticipationFactor>1.0</nc:SchedulingArea.mormalParticipationFactor>
-    <nc:SchedulingArea.SynchronousArea rdf:resource="#_5829041b-1f25-4a3d-8b4c-532d9f0b6e54"/>
+    	<nc:SchedulingArea.normalParticipationFactor>1.0</nc:SchedulingArea.normalParticipationFactor>
+    	<nc:SchedulingArea.SynchronousArea rdf:resource="#_5829041b-1f25-4a3d-8b4c-532d9f0b6e54"/>
 	</nc:SchedulingArea>
 	<nc:SchedulingArea rdf:ID="_0b6da2c4-48c2-4a39-953a-38b365e0953e">
 		<cim:IdentifiedObject.name>SA-NO4</cim:IdentifiedObject.name>
-    <cim:IdentifiedObject.mRID>0b6da2c4-48c2-4a39-953a-38b365e0953e</cim:IdentifiedObject.mRID>
+    	<cim:IdentifiedObject.mRID>0b6da2c4-48c2-4a39-953a-38b365e0953e</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>Scheduling Area of NO4 - 2011-05-16: Mid Part of Norway, n.o.Tunnsjødal-Verdal (300kV),os (300kV) Northern Norway</cim:IdentifiedObject.description>
 		<nc:SchedulingArea.BiddingZone rdf:resource="#_b64efd13-92fe-4786-87ef-731d1e2cce0e"/>
 		<nc:SchedulingArea.ControlArea rdf:resource="#_f1769606-9aeb-11e5-91da-b8763fd99c5f"/>
-    <nc:SchedulingArea.mormalParticipationFactor>1.0</nc:SchedulingArea.mormalParticipationFactor>
-    <nc:SchedulingArea.SynchronousArea rdf:resource="#_5829041b-1f25-4a3d-8b4c-532d9f0b6e54"/>
+    	<nc:SchedulingArea.normalParticipationFactor>1.0</nc:SchedulingArea.normalParticipationFactor>
+    	<nc:SchedulingArea.SynchronousArea rdf:resource="#_5829041b-1f25-4a3d-8b4c-532d9f0b6e54"/>
 	</nc:SchedulingArea>
 	<nc:SchedulingArea rdf:ID="_79f002b6-1193-40e2-9a3f-1b2e3d5dfa5c">
 		<cim:IdentifiedObject.name>SA-NO5</cim:IdentifiedObject.name>
-    <cim:IdentifiedObject.mRID>79f002b6-1193-40e2-9a3f-1b2e3d5dfa5c</cim:IdentifiedObject.mRID>
+    	<cim:IdentifiedObject.mRID>79f002b6-1193-40e2-9a3f-1b2e3d5dfa5c</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>Scheduling Area of NO5 - 2011-05-16: Western Norway. West of Hylen (300kv), Nesflaten (300kv)</cim:IdentifiedObject.description>
 		<nc:SchedulingArea.BiddingZone rdf:resource="#_dc281688-8b45-4ce7-b2e8-6c524a5afece"/>
 		<nc:SchedulingArea.ControlArea rdf:resource="#_f1769606-9aeb-11e5-91da-b8763fd99c5f"/>
-    <nc:SchedulingArea.mormalParticipationFactor>1.0</nc:SchedulingArea.mormalParticipationFactor>
-    <nc:SchedulingArea.SynchronousArea rdf:resource="#_5829041b-1f25-4a3d-8b4c-532d9f0b6e54"/>
+    	<nc:SchedulingArea.normalParticipationFactor>1.0</nc:SchedulingArea.normalParticipationFactor>
+    	<nc:SchedulingArea.SynchronousArea rdf:resource="#_5829041b-1f25-4a3d-8b4c-532d9f0b6e54"/>
 	</nc:SchedulingArea>
 	<nc:SchedulingArea rdf:ID="_2e0d8985-2b1b-425f-b1da-756635504a6b">
 		<cim:IdentifiedObject.name>SA-SE1</cim:IdentifiedObject.name>
-    <cim:IdentifiedObject.mRID>2e0d8985-2b1b-425f-b1da-756635504a6b</cim:IdentifiedObject.mRID>
+    	<cim:IdentifiedObject.mRID>2e0d8985-2b1b-425f-b1da-756635504a6b</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>Scheduling Area of Sverige 1</cim:IdentifiedObject.description>
 		<nc:SchedulingArea.BiddingZone rdf:resource="#_b478a210-4550-4986-9e47-47912ff06d61"/>
 		<nc:SchedulingArea.ControlArea rdf:resource="#_f17695ca-9aeb-11e5-91da-b8763fd99c5f"/>
-    <nc:SchedulingArea.mormalParticipationFactor>1.0</nc:SchedulingArea.mormalParticipationFactor>
-    <nc:SchedulingArea.SynchronousArea rdf:resource="#_5829041b-1f25-4a3d-8b4c-532d9f0b6e54"/>
+    	<nc:SchedulingArea.normalParticipationFactor>1.0</nc:SchedulingArea.normalParticipationFactor>
+    	<nc:SchedulingArea.SynchronousArea rdf:resource="#_5829041b-1f25-4a3d-8b4c-532d9f0b6e54"/>
 	</nc:SchedulingArea>
 	<nc:SchedulingArea rdf:ID="_709001cd-13d9-4d1e-9a4e-553cd24f0724">
 		<cim:IdentifiedObject.name>SA-SE2</cim:IdentifiedObject.name>
-    <cim:IdentifiedObject.mRID>709001cd-13d9-4d1e-9a4e-553cd24f0724</cim:IdentifiedObject.mRID>
+    	<cim:IdentifiedObject.mRID>709001cd-13d9-4d1e-9a4e-553cd24f0724</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>Scheduling Area of Sverige 2</cim:IdentifiedObject.description>
 		<nc:SchedulingArea.BiddingZone rdf:resource="#_781f385c-f3a1-4691-843d-eab2ed919a1b"/>
 		<nc:SchedulingArea.ControlArea rdf:resource="#_f17695ca-9aeb-11e5-91da-b8763fd99c5f"/>
-    <nc:SchedulingArea.mormalParticipationFactor>1.0</nc:SchedulingArea.mormalParticipationFactor>
-    <nc:SchedulingArea.SynchronousArea rdf:resource="#_5829041b-1f25-4a3d-8b4c-532d9f0b6e54"/>
+    	<nc:SchedulingArea.normalParticipationFactor>1.0</nc:SchedulingArea.normalParticipationFactor>
+    	<nc:SchedulingArea.SynchronousArea rdf:resource="#_5829041b-1f25-4a3d-8b4c-532d9f0b6e54"/>
 	</nc:SchedulingArea>
 	<nc:SchedulingArea rdf:ID="_f01ffeb3-1dd0-4344-9de7-42323a27d731">
 		<cim:IdentifiedObject.name>SA-SE3</cim:IdentifiedObject.name>
-    <cim:IdentifiedObject.mRID>f01ffeb3-1dd0-4344-9de7-42323a27d731</cim:IdentifiedObject.mRID>
+    	<cim:IdentifiedObject.mRID>f01ffeb3-1dd0-4344-9de7-42323a27d731</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>Scheduling Area of Sverige 3</cim:IdentifiedObject.description>
 		<nc:SchedulingArea.BiddingZone rdf:resource="#_30e6709e-510c-49b9-92ec-e2aebdc1050e"/>
 		<nc:SchedulingArea.ControlArea rdf:resource="#_f17695ca-9aeb-11e5-91da-b8763fd99c5f"/>
-    <nc:SchedulingArea.mormalParticipationFactor>1.0</nc:SchedulingArea.mormalParticipationFactor>
-    <nc:SchedulingArea.SynchronousArea rdf:resource="#_5829041b-1f25-4a3d-8b4c-532d9f0b6e54"/>
+    	<nc:SchedulingArea.normalParticipationFactor>1.0</nc:SchedulingArea.normalParticipationFactor>
+    	<nc:SchedulingArea.SynchronousArea rdf:resource="#_5829041b-1f25-4a3d-8b4c-532d9f0b6e54"/>
 	</nc:SchedulingArea>
 	<nc:SchedulingArea rdf:ID="_d8739dc3-ffab-4457-b819-a20579c4d0fc">
 		<cim:IdentifiedObject.name>SA-SE4</cim:IdentifiedObject.name>
-    <cim:IdentifiedObject.mRID>d8739dc3-ffab-4457-b819-a20579c4d0fc</cim:IdentifiedObject.mRID>
+    	<cim:IdentifiedObject.mRID>d8739dc3-ffab-4457-b819-a20579c4d0fc</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>Scheduling Area of Sverige 4</cim:IdentifiedObject.description>
 		<nc:SchedulingArea.BiddingZone rdf:resource="#_2119a5e9-fa38-4fe8-a8e9-2a2cc6f73bad"/>
 		<nc:SchedulingArea.ControlArea rdf:resource="#_f17695ca-9aeb-11e5-91da-b8763fd99c5f"/>
-    <nc:SchedulingArea.mormalParticipationFactor>1.0</nc:SchedulingArea.mormalParticipationFactor>
-    <nc:SchedulingArea.SynchronousArea rdf:resource="#_5829041b-1f25-4a3d-8b4c-532d9f0b6e54"/>
+    	<nc:SchedulingArea.normalParticipationFactor>1.0</nc:SchedulingArea.normalParticipationFactor>
+    	<nc:SchedulingArea.SynchronousArea rdf:resource="#_5829041b-1f25-4a3d-8b4c-532d9f0b6e54"/>
 	</nc:SchedulingArea>
 	<nc:SchedulingArea rdf:ID="_553776dc-295d-aa4b-a36e-f563acc71bb7">
 		<cim:IdentifiedObject.name>SA-NO6</cim:IdentifiedObject.name>
-    <cim:IdentifiedObject.mRID>553776dc-295d-aa4b-a36e-f563acc71bb7</cim:IdentifiedObject.mRID>
+    	<cim:IdentifiedObject.mRID>553776dc-295d-aa4b-a36e-f563acc71bb7</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>Scheduling Area of Ostfold</cim:IdentifiedObject.description>
 		<nc:SchedulingArea.BiddingZone rdf:resource="#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
 		<nc:SchedulingArea.ControlArea rdf:resource="#_f1769606-9aeb-11e5-91da-b8763fd99c5f"/>
-    <nc:SchedulingArea.mormalParticipationFactor>0.5</nc:SchedulingArea.mormalParticipationFactor>
-    <nc:SchedulingArea.SynchronousArea rdf:resource="#_5829041b-1f25-4a3d-8b4c-532d9f0b6e54"/>
+    	<nc:SchedulingArea.normalParticipationFactor>0.5</nc:SchedulingArea.normalParticipationFactor>
+    	<nc:SchedulingArea.SynchronousArea rdf:resource="#_5829041b-1f25-4a3d-8b4c-532d9f0b6e54"/>
 	</nc:SchedulingArea>
 	
 	<nc:ScheduleResource rdf:ID="_7ac39667-7920-42ad-9f10-bcb766a2b681">
