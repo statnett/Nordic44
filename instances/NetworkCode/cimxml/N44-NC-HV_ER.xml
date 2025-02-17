@@ -52,6 +52,100 @@
 		<cim:IdentifiedObject.mRID>f6ab9ccd-10fa-4531-8427-763e11163b28</cim:IdentifiedObject.mRID>
 	</cim:ActivePowerLimit>
 
+	<!-- This converted from entsoe2:RateTemperature -->
+	<nc:AmbientTemperatureDependencyCurve rdf:ID="_5f595160-19c7-467e-a8df-4bcefc89b46e">
+		<cim:IdentifiedObject.description>Ambient Temperature Dependency Curve in degree Celsius</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>ATDC-001</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>5f595160-19c7-467e-a8df-4bcefc89b46e</cim:IdentifiedObject.mRID>
+		<cim:curve.curveStyle rdf:resource="https://cim.ucaiug.io/ns#straightLineYValues"/>	
+		<cim:curve.xUnit rdf:resource="https://cim.ucaiug.io/ns#UnitSymbol.degC"/>
+		<cim:curve.y2Unit rdf:resource="https://cim.ucaiug.io/ns#UnitSymbol.none"/>
+	</nc:AmbientTemperatureDependencyCurve>
+
+	<cim:CurveData rdf:ID="_f8dcb94f-6a0f-40ef-9928-842b25b7df53">
+    	<cim:CurveData.xValue>-10</CIM:CurveData.xValue>  <!-- degree Celsius  -->
+        <cim:CurveData.y1Value>0.75</CIM:CurveData.y1Value>  <!-- relative temperature dependent (Y-axis) -->
+        <cim:CurveData.Curve rdf:resource="#C_5f595160-19c7-467e-a8df-4bcefc89b46e"/>	
+	</cim:CurveData>
+
+	<cim:CurveData rdf:ID="_77017cd9-7224-4612-87aa-b5697530bd52">
+    	<cim:CurveData.xValue>-15</CIM:CurveData.xValue>  <!-- degree Celsius  -->
+        <cim:CurveData.y1Value>0.7</CIM:CurveData.y1Value>  <!-- relative temperature dependent (Y-axis) -->
+        <cim:CurveData.Curve rdf:resource="#C_5f595160-19c7-467e-a8df-4bcefc89b46e"/>	
+	</cim:CurveData>
+
+	<cim:CurveData rdf:ID="_8da54c8f-7667-443c-b456-70a27cb09447">
+    	<cim:CurveData.xValue>-20</CIM:CurveData.xValue>  <!-- degree Celsius  -->
+        <cim:CurveData.y1Value>0.65</CIM:CurveData.y1Value>  <!-- relative temperature dependent (Y-axis) -->
+        <cim:CurveData.Curve rdf:resource="#C_5f595160-19c7-467e-a8df-4bcefc89b46e"/>	
+	</cim:CurveData>
+
+	<cim:CurveData rdf:ID="_79ebe136-0807-403e-9e16-594eb3e550b6">
+    	<cim:CurveData.xValue>-25</CIM:CurveData.xValue>  <!-- degree Celsius  -->
+        <cim:CurveData.y1Value>0.6</CIM:CurveData.y1Value>  <!-- relative temperature dependent (Y-axis) -->
+        <cim:CurveData.Curve rdf:resource="#C_5f595160-19c7-467e-a8df-4bcefc89b46e"/>	
+	</cim:CurveData>
+
+	<cim:CurveData rdf:ID="_96ce695d-ee63-4ec2-a14e-80af2730d39b">
+    	<cim:CurveData.xValue>-30</CIM:CurveData.xValue>  <!-- degree Celsius  -->
+        <cim:CurveData.y1Value>0.5</CIM:CurveData.y1Value>  <!-- relative temperature dependent (Y-axis) -->
+        <cim:CurveData.Curve rdf:resource="#C_5f595160-19c7-467e-a8df-4bcefc89b46e"/>	
+	</cim:CurveData>
+
+	<cim:CurveData rdf:ID="_abb7331d-8fce-4d83-bbcf-67caa0ab562d">
+    	<cim:CurveData.xValue>-5</CIM:CurveData.xValue>  <!-- degree Celsius  -->
+        <cim:CurveData.y1Value>0.7</CIM:CurveData.y1Value>  <!-- relative temperature dependent (Y-axis) -->
+        <cim:CurveData.Curve rdf:resource="#C_5f595160-19c7-467e-a8df-4bcefc89b46e"/>	
+	</cim:CurveData>
+
+	<cim:CurveData rdf:ID="_2e24d8c9-bc91-4c64-a6e9-4ee28f7e46aa">
+    	<cim:CurveData.xValue>0</CIM:CurveData.xValue>  <!-- degree Celsius  -->
+        <cim:CurveData.y1Value>0.75</CIM:CurveData.y1Value>  <!-- relative temperature dependent (Y-axis) -->
+        <cim:CurveData.Curve rdf:resource="#C_5f595160-19c7-467e-a8df-4bcefc89b46e"/>	
+	</cim:CurveData>
+
+	<cim:CurveData rdf:ID="_8bea88f7-12bb-425b-864f-a6e67218cbfa">
+    	<cim:CurveData.xValue>5</CIM:CurveData.xValue>  <!-- degree Celsius  -->
+        <cim:CurveData.y1Value>0.8</CIM:CurveData.y1Value>  <!-- relative temperature dependent (Y-axis) -->
+        <cim:CurveData.Curve rdf:resource="#C_5f595160-19c7-467e-a8df-4bcefc89b46e"/>	
+	</cim:CurveData>
+
+	<cim:CurveData rdf:ID="_28846c30-b0ce-46b4-98d4-9ae2490607ad">
+    	<cim:CurveData.xValue>10.0</CIM:CurveData.xValue>  <!-- degree Celsius  -->
+        <cim:CurveData.y1Value>0.85</CIM:CurveData.y1Value>  <!-- relative temperature dependent (Y-axis) -->
+        <cim:CurveData.Curve rdf:resource="#C_5f595160-19c7-467e-a8df-4bcefc89b46e"/>	
+	</cim:CurveData>
+
+	<cim:CurveData rdf:ID="_16bc3fbb-3b45-4bbb-b400-3d0b58af2f6b">
+    	<cim:CurveData.xValue>15.0</CIM:CurveData.xValue>  <!-- degree Celsius  -->
+        <cim:CurveData.y1Value>0.9</CIM:CurveData.y1Value>  <!-- relative temperature dependent (Y-axis) -->
+        <cim:CurveData.Curve rdf:resource="#C_5f595160-19c7-467e-a8df-4bcefc89b46e"/>	
+	</cim:CurveData>
+
+	<cim:CurveData rdf:ID="_c7275c33-0232-476f-8a80-071879629be7">
+    	<cim:CurveData.xValue>20.0</CIM:CurveData.xValue>  <!-- degree Celsius  -->
+        <cim:CurveData.y1Value>0.0</CIM:CurveData.y1Value>  <!-- relative temperature dependent (Y-axis) -->
+        <cim:CurveData.Curve rdf:resource="#C_5f595160-19c7-467e-a8df-4bcefc89b46e"/>	
+	</cim:CurveData>
+
+	<cim:CurveData rdf:ID="_2cab1876-1d80-47f3-8d27-7a99f4d1db4f">
+    	<cim:CurveData.xValue>25.0</CIM:CurveData.xValue>  <!-- degree Celsius  -->
+        <cim:CurveData.y1Value>1.1</CIM:CurveData.y1Value>  <!-- relative temperature dependent (Y-axis) -->
+        <cim:CurveData.Curve rdf:resource="#C_5f595160-19c7-467e-a8df-4bcefc89b46e"/>	
+	</cim:CurveData>
+
+	<cim:CurveData rdf:ID="_c378b218-4131-4d5b-8cb8-8263451211c0">
+    	<cim:CurveData.xValue>30.0</CIM:CurveData.xValue>  <!-- degree Celsius  -->
+        <cim:CurveData.y1Value>1.5</CIM:CurveData.y1Value>  <!-- relative temperature dependent (Y-axis) -->
+        <cim:CurveData.Curve rdf:resource="#C_5f595160-19c7-467e-a8df-4bcefc89b46e"/>	
+	</cim:CurveData>
+
+	<cim:CurveData rdf:ID="_e591a226-13bb-44ec-9e42-1667d90dd286">
+    	<cim:CurveData.xValue>40.0</CIM:CurveData.xValue>  <!-- degree Celsius  -->
+        <cim:CurveData.y1Value>2.0</CIM:CurveData.y1Value>  <!-- relative temperature dependent (Y-axis) -->
+        <cim:CurveData.Curve rdf:resource="#C_5f595160-19c7-467e-a8df-4bcefc89b46e"/>	
+	</cim:CurveData>
+
 
 	<nc:SchedulingArea rdf:ID="_096cb162-6a74-4dcd-b9e5-9845e1f049b6">
 		<cim:IdentifiedObject.name>SA-FI</cim:IdentifiedObject.name>
