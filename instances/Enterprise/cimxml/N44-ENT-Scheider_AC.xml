@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?iec61970-552 version="2.0"?>
+
+<rdf:RDF  xmlns:cim="http://iec.ch/TC57/CIM/CIM100#"
+		xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+		xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#"
+	>		
+	
+<md:FullModel rdf:about="urn:uuid:d869a44b5-7ab5-4bcf-9d58-1c9e750a6f20">
+    <md:Model.created>2025-02-14T12:00:00Z</md:Model.created>
+    <md:Model.scenarioTime>2015-12-31T23:00:00Z</md:Model.scenarioTime>
+    <md:Model.version>1</md:Model.version>
+    <md:Model.description>Asset Catalogue (AC) from Schneider included in the enterprise part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region.</md:Model.description>
+    <md:Model.modelingAuthoritySet>http://www.Statnett.no/Enterprise/Nordic44</md:Model.modelingAuthoritySet>
+    <md:Model.profile>http://iec.ch/TC57/CIM/AssetCatalogue/2/0</md:Model.profile>
+</md:FullModel>
+
+  
+<cim:Organisation rdf:about="urn:uuid:b21ec013-41dc-4cac-ae79-927dfe45e51f">
+    <cim:IdentifiedObject.name>Schneider Electric</cim:IdentifiedObject.name>
+    <cim:Organisation.streetAddress>35 Rue Joseph Monier</cim:Organisation.streetAddress>
+    <cim:Organisation.postalCode>92500</cim:Organisation.postalCode>
+    <cim:Organisation.city>Rueil-Malmaison</cim:Organisation.city>
+    <cim:Organisation.country>France</cim:Organisation.country>
+    <cim:Organisation.eMail>info@schneider-electric.com</cim:Organisation.eMail>
+    <cim:Organisation.phone>+33 1 41 29 70 00</cim:Organisation.phone>
+</cim:Organisation>
+
+<cim:Manufacturer rdf:about="urn:uuid:96af32e4-215b-448f-a6ed-20d0e64e3dff">
+	<cim:IdentifiedObject.name>Schneider Electric Manufacture</cim:IdentifiedObject.name>
+	<cim:OrganisationRole.Organisation rdf:resource="urn:uuid:b21ec013-41dc-4cac-ae79-927dfe45e51f" />
+</cim:Manufacturer>
+
+
+  	<!--	Breaker Asset Catalogue Data -->
+	<cim:ProductAssetModel rdf:about="urn:uuid:6fca60c7-c0bc-4ee9-87c4-7a2ecacd552f">
+		<cim:IdentifiedObject.name>PSM A Single-Phase Breaker</cim:IdentifiedObject.name>
+		<cim:ProductAssetModel.catalogueNumber>001</cim:ProductAssetModel.catalogueNumber>
+		<cim:ProductAssetModel.modelNumber>A SPB001</cim:ProductAssetModel.modelNumber>
+		<cim:ProductAssetModel.Manufacturer rdf:resource="urn:uuid:96af32e4-215b-448f-a6ed-20d0e64e3dff" />	
+		<cim:ProductAssetModel.AssetInfo rdf:resource="urn:uuid:6e2752f2-d4f3-11e7-9296-cec278b6b50a" />	
+	</cim:ProductAssetModel>
+
+	<cim:ProductAssetModel rdf:about="urn:uuid:e82a738a-d3d5-424a-8ef3-8492aa10e287">
+		<cim:IdentifiedObject.name>PSM A Disconnecter</cim:IdentifiedObject.name>
+		<cim:ProductAssetModel.catalogueNumber>003</cim:ProductAssetModel.catalogueNumber>
+		<cim:ProductAssetModel.modelNumber>A D001</cim:ProductAssetModel.modelNumber>		
+		<cim:ProductAssetModel.Manufacturer rdf:resource="urn:uuid:96af32e4-215b-448f-a6ed-20d0e64e3dff" />	
+		<cim:ProductAssetModel.AssetInfo rdf:resource="urn:uuid:cb50c3ea-5598-46dd-97c7-ce0b824c498b" />			
+	</cim:ProductAssetModel>
+
+
+	<cim:SwitchInfo rdf:about="urn:uuid:6e2752f2-d4f3-11e7-9296-cec278b6b50a">
+		<cim:IdentifiedObject.name>SI Single-Phase Breaker</cim:IdentifiedObject.name>
+		<cim:SwitchInfo.breakingCapacity>1950</cim:SwitchInfo.breakingCapacity>
+		<cim:SwitchInfo.isSinglePhase>true</cim:SwitchInfo.isSinglePhase>
+		<cim:SwitchInfo.isUnganged>true</cim:SwitchInfo.isUnganged>
+		<cim:SwitchInfo.ratedCurrent>2000</cim:SwitchInfo.ratedCurrent>
+		<cim:SwitchInfo.ratedVoltage>300</cim:SwitchInfo.ratedVoltage>			
+	</cim:SwitchInfo>
+
+	<cim:SwitchInfo rdf:about="urn:uuid:82d61e6f-bf85-4aa9-8276-457dbcdb5198">
+		<cim:IdentifiedObject.name>SI Multi-Phase Breaker</cim:IdentifiedObject.name>
+		<cim:SwitchInfo.breakingCapacity>1950</cim:SwitchInfo.breakingCapacity>
+		<cim:SwitchInfo.isSinglePhase>true</cim:SwitchInfo.isSinglePhase>
+		<cim:SwitchInfo.isUnganged>false</cim:SwitchInfo.isUnganged>
+		<cim:SwitchInfo.ratedCurrent>2000</cim:SwitchInfo.ratedCurrent>
+		<cim:SwitchInfo.ratedVoltage>300</cim:SwitchInfo.ratedVoltage>				
+	</cim:SwitchInfo>
+
+	<cim:SwitchInfo rdf:about="urn:uuid:cb50c3ea-5598-46dd-97c7-ce0b824c498b">
+		<cim:IdentifiedObject.name>SI Disconnecter</cim:IdentifiedObject.name>
+		<cim:SwitchInfo.isSinglePhase>false</cim:SwitchInfo.isSinglePhase>
+		<cim:SwitchInfo.ratedCurrent>2000</cim:SwitchInfo.ratedCurrent>
+		<cim:SwitchInfo.ratedVoltage>300</cim:SwitchInfo.ratedVoltage>			
+	</cim:SwitchInfo>
+
+	
+  	<!--	Wired Asset Catalogue Data -->
+	<cim:ProductAssetModel rdf:about="urn:uuid:5521c75f-e6f1-4a7d-b37d-b2b14b75c518">
+		<cim:IdentifiedObject.name>PSM A Overhead Wire</cim:IdentifiedObject.name>
+		<cim:ProductAssetModel.catalogueNumber>005</cim:ProductAssetModel.catalogueNumber>
+		<cim:ProductAssetModel.modelNumber>A OHW001</cim:ProductAssetModel.modelNumber>
+		<cim:ProductAssetModel.usageKind rdf:resource="http://iec.ch/TC57/CIM/CIM100#AssetModelUsageKind.transmission"/>
+		<cim:ProductAssetModel.Manufacturer rdf:resource="urn:uuid:96af32e4-215b-448f-a6ed-20d0e64e3dff" />	
+		<cim:ProductAssetModel.AssetInfo rdf:resource="urn:uuid:7f618ac4-d4da-11e7-9296-cec278b6b50a" />	
+	</cim:ProductAssetModel>
+
+ 
+	<cim:OverheadWireInfo rdf:about="urn:uuid:7f618ac4-d4da-11e7-9296-cec278b6b50a">
+		<cim:IdentifiedObject.name>OHWI Overhead Wire</cim:IdentifiedObject.name>
+		<cim:WireInfo.rAC25>0.672</cim:WireInfo.rAC25>
+		<cim:WireInfo.rDC20>0.659</cim:WireInfo.rDC20>
+		<cim:WireInfo.rAC75>0.805</cim:WireInfo.rAC75>
+	</cim:OverheadWireInfo>
+	
+	
+  	<!--	Power Transformer Asset Catalogue Data -->
+	<cim:ProductAssetModel rdf:about="urn:uuid:6d993b26-72bf-46f0-9eb3-70bc26d544ac">
+		<cim:IdentifiedObject.name>PAM A Power Transformer</cim:IdentifiedObject.name>
+		<cim:ProductAssetModel.catalogueNumber>006</cim:ProductAssetModel.catalogueNumber>
+		<cim:ProductAssetModel.modelNumber>A PTI001</cim:ProductAssetModel.modelNumber>
+		<cim:ProductAssetModel.usageKind rdf:resource="http://iec.ch/TC57/CIM/CIM100#AssetModelUsageKind.transmission"/>
+		<cim:ProductAssetModel.Manufacturer rdf:resource="urn:uuid:96af32e4-215b-448f-a6ed-20d0e64e3dff" />	
+		<cim:ProductAssetModel.AssetInfo rdf:resource="urn:uuid:9eb4e906-d4f4-11e7-9296-cec278b6b50a" />	
+	</cim:ProductAssetModel>
+
+	<cim:PowerTransformerInfo rdf:about="urn:uuid:9eb4e906-d4f4-11e7-9296-cec278b6b50a">
+		<cim:IdentifiedObject.name>PTI Power Transformer</cim:IdentifiedObject.name>
+		<cim:AssetInfo.ProductAssetModel rdf:resource="urn:uuid:6d993b26-72bf-46f0-9eb3-70bc26d544ac" />
+	</cim:PowerTransformerInfo>
+	
+	<cim:TransformerTankInfo rdf:about="urn:uuid:be53e1d0-1147-44af-b624-77c9ff829bb4">
+		<cim:IdentifiedObject.name>TTI Transformer Tank</cim:IdentifiedObject.name>
+		<cim:TransformerTankInfo.PowerTransformerInfo rdf:resource="urn:uuid:9eb4e906-d4f4-11e7-9296-cec278b6b50a" />
+	</cim:TransformerTankInfo>
+
+	<cim:TransformerEndInfo rdf:about="urn:uuid:be53e1d0-1147-44af-b624-77c9ff829bb4">
+		<cim:IdentifiedObject.name>TEI P Transformer End Primary</cim:IdentifiedObject.name>
+		<cim:TransformerEndInfo.TransformerTankInfo rdf:resource="urn:uuid:3ac55233-7ca0-4b39-afc1-d6f777fc3c0e" />
+		<cim:TransformerEndInfo.connectionKind rdf:resource="http://iec.ch/TC57/CIM/CIM100#WindingConnection.Y"/>
+		<cim:TransformerEndInfo.endNumber>2</cim:TransformerEndInfo.endNumber>
+		<cim:TransformerEndInfo.phaseAngleClock>0</cim:TransformerEndInfo.phaseAngleClock>
+		<cim:TransformerEndInfo.r>0</cim:TransformerEndInfo.r>
+		<cim:TransformerEndInfo.ratedS>1000</cim:TransformerEndInfo.ratedS>
+		<cim:TransformerEndInfo.ratedU>300</cim:TransformerEndInfo.ratedU>
+
+		<!--	ToDo: Check why b, g and x is missing in the standard 
+		<cim:TransformerEndInfo.b>0</cim:TransformerEndInfo.b>
+		<cim:TransformerEndInfo.g>0</cim:TransformerEndInfo.g>
+		<cim:TransformerEndInfo.x>0</cim:TransformerEndInfo.x>
+		-->
+	</cim:TransformerEndInfo>
+
+	<cim:TransformerEndInfo rdf:about="urn:uuid:bdeebee8-9178-40a1-993d-571c47209f4d">
+		<cim:IdentifiedObject.name>TEI S Transformer End Secondary</cim:IdentifiedObject.name>
+		<cim:TransformerEndInfo.TransformerTankInfo rdf:resource="urn:uuid:3ac55233-7ca0-4b39-afc1-d6f777fc3c0e" />
+		<cim:TransformerEndInfo.connectionKind rdf:resource="http://iec.ch/TC57/CIM/CIM100#WindingConnection.Y"/>
+		<cim:TransformerEndInfo.endNumber>2</cim:TransformerEndInfo.endNumber>
+		<cim:TransformerEndInfo.phaseAngleClock>0</cim:TransformerEndInfo.phaseAngleClock>
+		<cim:TransformerEndInfo.r>0.14112</cim:TransformerEndInfo.r>
+		<cim:TransformerEndInfo.ratedS>1000</cim:TransformerEndInfo.ratedS>
+		<cim:TransformerEndInfo.ratedU>420</cim:TransformerEndInfo.ratedU>
+
+		<!--	ToDo: Check why b, g and x is missing in the standard 
+		<cim:TransformerEndInfo.b>0</cim:TransformerEndInfo.b>
+		<cim:TransformerEndInfo.g>0</cim:TransformerEndInfo.g>
+		<cim:TransformerEndInfo.x>5.3802</cim:TransformerEndInfo.x>
+		-->
+	</cim:TransformerEndInfo>	
+	
+	  	<!--	Tap Changer Asset Catalogue Data -->
+	<cim:ProductAssetModel rdf:about="urn:uuid:e673fe8d-62a3-4e28-819b-c9e94bfcae38">
+		<cim:IdentifiedObject.name>PAM A Tap Changer</cim:IdentifiedObject.name>
+		<cim:ProductAssetModel.catalogueNumber>007</cim:ProductAssetModel.catalogueNumber>
+		<cim:ProductAssetModel.modelNumber>A TC001</cim:ProductAssetModel.modelNumber>
+		<cim:ProductAssetModel.usageKind rdf:resource="http://iec.ch/TC57/CIM/CIM100#AssetModelUsageKind.transmission"/>
+		<cim:ProductAssetModel.Manufacturer rdf:resource="urn:uuid:96af32e4-215b-448f-a6ed-20d0e64e3dff" />	
+		<cim:ProductAssetModel.AssetInfo rdf:resource="urn:uuid:66c4bc79-0e4c-420d-9f9a-f64c81fd2254" />	
+	</cim:ProductAssetModel>
+
+	<cim:TapChangerInfo rdf:about="urn:uuid:66c4bc79-0e4c-420d-9f9a-f64c81fd2254">
+		<cim:IdentifiedObject.name>PC Tap Changer</cim:IdentifiedObject.name>
+		<cim:AssetInfo.ProductAssetModel rdf:resource="urn:uuid:e673fe8d-62a3-4e28-819b-c9e94bfcae38" />
+		<cim:TapChangerInfo.highStep>33</cim:TapChangerInfo.highStep>
+		<cim:TapChangerInfo.lowStep>1</cim:TapChangerInfo.lowStep>
+		<cim:TapChangerInfo.neutralStep>17</cim:TapChangerInfo.neutralStep>
+		<cim:TapChangerInfo.neutralU>300</cim:TapChangerInfo.neutralU>
+		<cim:TapChangerInfo.ratedCurrent>0</cim:TapChangerInfo.ratedCurrent>
+		<cim:TapChangerInfo.ratedApparentPower>0</cim:TapChangerInfo.ratedApparentPower>
+		<cim:TapChangerInfo.ratedVoltage>300</cim:TapChangerInfo.ratedVoltage>
+		<cim:TapChangerInfo.stepVoltageIncrement>2.5</cim:TapChangerInfo.stepVoltageIncrement>
+	</cim:TapChangerInfo>
+	
+	
+	  	<!--	Shunt Compensator Asset Catalogue Data -->
+	<cim:ProductAssetModel rdf:about="urn:uuid:6d993b26-72bf-46f0-9eb3-70bc26d544ac">
+		<cim:IdentifiedObject.name>PAM A ShuntCompensator</cim:IdentifiedObject.name>
+		<cim:ProductAssetModel.catalogueNumber>008</cim:ProductAssetModel.catalogueNumber>
+		<cim:ProductAssetModel.modelNumber>A LSC001</cim:ProductAssetModel.modelNumber>
+		<cim:ProductAssetModel.usageKind rdf:resource="http://iec.ch/TC57/CIM/CIM100#AssetModelUsageKind.transmission"/>
+		<cim:ProductAssetModel.Manufacturer rdf:resource="urn:uuid:96af32e4-215b-448f-a6ed-20d0e64e3dff" />	
+		<cim:ProductAssetModel.AssetInfo rdf:resource="urn:uuid:d9a0ead9-f67e-4317-a128-631fe9f68177" />	
+	</cim:ProductAssetModel>
+
+	<cim:ShuntCompensatorInfo rdf:about="urn:uuid:d9a0ead9-f67e-4317-a128-631fe9f68177">
+		<cim:IdentifiedObject.name>SH Shunt Compensator</cim:IdentifiedObject.name>
+		<cim:AssetInfo.ProductAssetModel rdf:resource="urn:uuid:6d993b26-72bf-46f0-9eb3-70bc26d544ac" />
+		<cim:ShuntCompensatorInfo.maxPowerLoss>0</cim:ShuntCompensatorInfo.maxPowerLoss>
+		<cim:ShuntCompensatorInfo.ratedCurrent>0</cim:ShuntCompensatorInfo.ratedCurrent>
+		<cim:ShuntCompensatorInfo.ratedReactivePower>0</cim:ShuntCompensatorInfo.ratedReactivePower>
+		<cim:ShuntCompensatorInfo.ratedVoltage>300</cim:ShuntCompensatorInfo.ratedVoltage>
+	</cim:ShuntCompensatorInfo>
+
+	  	<!--	BusbarSection Asset Catalogue Data -->
+	<cim:ProductAssetModel rdf:about="urn:uuid:4ffa629d-a671-4bd1-b4bb-c69c8fd2511d">
+		<cim:IdentifiedObject.name>PAM A BusbarSection</cim:IdentifiedObject.name>
+		<cim:ProductAssetModel.catalogueNumber>009</cim:ProductAssetModel.catalogueNumber>
+		<cim:ProductAssetModel.modelNumber>A BS001</cim:ProductAssetModel.modelNumber>
+		<cim:ProductAssetModel.usageKind rdf:resource="http://iec.ch/TC57/CIM/CIM100#AssetModelUsageKind.transmission"/>
+		<cim:ProductAssetModel.Manufacturer rdf:resource="urn:uuid:96af32e4-215b-448f-a6ed-20d0e64e3dff" />	
+		<cim:ProductAssetModel.AssetInfo rdf:resource="urn:uuid:628b66ae-c9c7-4191-89c0-82d95f26319e" />	
+	</cim:ProductAssetModel>
+
+	<cim:BusbarSectionInfo rdf:about="urn:uuid:628b66ae-c9c7-4191-89c0-82d95f26319e">
+		<cim:IdentifiedObject.name>SH BusbarSection</cim:IdentifiedObject.name>
+		<cim:AssetInfo.ProductAssetModel rdf:resource="urn:uuid:4ffa629d-a671-4bd1-b4bb-c69c8fd2511d" />
+		<cim:ShuntCompensatorInfo.ratedCurrent>0</cim:ShuntCompensatorInfo.ratedCurrent>
+		<cim:ShuntCompensatorInfo.ratedVoltage>300</cim:ShuntCompensatorInfo.ratedVoltage>
+	</cim:BusbarSectionInfo>
+
+
+</rdf:RDF>

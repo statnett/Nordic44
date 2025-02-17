@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?iec61970-552 version="2.0"?>
+
+<rdf:RDF  xmlns:cim="http://iec.ch/TC57/CIM/CIM100#"
+		xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+		xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#"
+	>		
+	
+<md:FullModel rdf:about="urn:uuid:75f351c7-75a6-4c25-8f1c-985aa59e90ad">
+    <md:Model.created>2025-02-14T12:00:00Z</md:Model.created>
+    <md:Model.scenarioTime>2015-12-31T23:00:00Z</md:Model.scenarioTime>
+    <md:Model.version>1</md:Model.version>
+    <md:Model.description>Asset Catalogue (AC) from Siemens Energy included in the enterprise part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region.</md:Model.description>
+    <md:Model.modelingAuthoritySet>http://www.Statnett.no/Enterprise/Nordic44</md:Model.modelingAuthoritySet>
+    <md:Model.profile>http://iec.ch/TC57/CIM/AssetCatalogue/2/0</md:Model.profile>
+</md:FullModel>
+
+  
+<cim:Organisation rdf:about="urn:uuid:27613d44-28e2-4aeb-a96b-f4a49591d629">
+    <cim:IdentifiedObject.name>Siemens Energy</cim:IdentifiedObject.name>
+    <cim:Organisation.streetAddress>Freyeslebenstr. 1</cim:Organisation.streetAddress>
+    <cim:Organisation.postalCode>91058</cim:Organisation.postalCode>
+    <cim:Organisation.city>Erlangen</cim:Organisation.city>
+    <cim:Organisation.country>Germany</cim:Organisation.country>
+    <cim:Organisation.eMail>info@siemens-energy.com</cim:Organisation.eMail>
+    <cim:Organisation.phone>+49 911 6505 0</cim:Organisation.phone>
+</cim:Organisation>
+	
+
+  	<cim:Manufacturer rdf:about="urn:uuid:ba8b5d24-9649-408d-8afe-452a987fbbc3">
+		<cim:IdentifiedObject.name>Siemens Energy Manufacture</cim:IdentifiedObject.name>
+		<cim:OrganisationRole.Organisation rdf:resource="urn:uuid:27613d44-28e2-4aeb-a96b-f4a49591d629" />
+	</cim:Manufacturer>
+
+
+	<cim:ProductAssetModel rdf:about="urn:uuid:f9d75cad-02c4-4c24-9f68-2be249a5bd68">
+		<cim:IdentifiedObject.name>PSM B Single-Phase Breaker</cim:IdentifiedObject.name>
+		<cim:ProductAssetModel.catalogueNumber>002</cim:ProductAssetModel.catalogueNumber>
+		<cim:ProductAssetModel.modelNumber>B SPB001</cim:ProductAssetModel.modelNumber>	
+		<cim:ProductAssetModel.Manufacturer rdf:resource="urn:uuid:ba8b5d24-9649-408d-8afe-452a987fbbc3" />
+		<cim:ProductAssetModel.AssetInfo rdf:resource="urn:uuid:6e2752f2-d4f3-11e7-9296-cec278b6b50a" />			
+	</cim:ProductAssetModel>
+
+	<cim:ProductAssetModel rdf:about="urn:uuid:b9029228-6016-4f86-ac21-6c54657ee9c6">
+		<cim:IdentifiedObject.name>PSM B Disconnecter</cim:IdentifiedObject.name>
+		<cim:ProductAssetModel.catalogueNumber>004</cim:ProductAssetModel.catalogueNumber>
+		<cim:ProductAssetModel.modelNumber>B D001</cim:ProductAssetModel.modelNumber>		
+		<cim:ProductAssetModel.Manufacturer rdf:resource="urn:uuid:ba8b5d24-9649-408d-8afe-452a987fbbc3" />		
+		<cim:ProductAssetModel.AssetInfo rdf:resource="urn:uuid:cb50c3ea-5598-46dd-97c7-ce0b824c498b" />	
+	</cim:ProductAssetModel>
+
+	<cim:ProductAssetModel rdf:about="urn:uuid:bec74e51-00a7-471c-8573-a66812a7bd6d">
+		<cim:IdentifiedObject.name>PSM B Cable</cim:IdentifiedObject.name>
+		<cim:ProductAssetModel.catalogueNumber>006</cim:ProductAssetModel.catalogueNumber>
+		<cim:ProductAssetModel.modelNumber>B CA001</cim:ProductAssetModel.modelNumber>
+		<cim:ProductAssetModel.usageKind rdf:resource="http://iec.ch/TC57/CIM/CIM100#AssetModelUsageKind.transmission"/>
+		<cim:ProductAssetModel.Manufacturer rdf:resource="urn:uuid:ba8b5d24-9649-408d-8afe-452a987fbbc3" />
+		<cim:ProductAssetModel.AssetInfo rdf:resource="urn:uuid:971ee291-79f2-43b2-a4ed-a45f39572079" />	
+	</cim:ProductAssetModel>
+
+  	<cim:CableInfo rdf:about="urn:uuid:971ee291-79f2-43b2-a4ed-a45f39572079">
+		<cim:IdentifiedObject.name>CI Cable</cim:IdentifiedObject.name>
+		<cim:WireInfo.gmr>1000</cim:WireInfo.gmr>
+		<cim:WireInfo.insulated>true</cim:WireInfo.insulated>
+		<cim:WireInfo.material rdf:resource="http://iec.ch/TC57/CIM/CIM100#WireMaterialKind.aluminum"/>			
+		<cim:WireInfo.insulationMaterial rdf:resource="http://iec.ch/TC57/CIM/CIM100#WireInsulationKind.treeRetardantCrosslinkedPolyethylene"/>		
+		<cim:CableInfo.shieldMaterial rdf:resource="http://iec.ch/TC57/CIM/CIM100#CableShieldMaterialKind.cooper"/>
+		<cim:WireInfo.nominalTemperature>20</cim:WireInfo.nominalTemperature>
+	</cim:CableInfo>
+
+
+</rdf:RDF>

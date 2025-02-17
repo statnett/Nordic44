@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?iec61970-552 version="2.0"?>
+
+<rdf:RDF  xmlns:cim="http://iec.ch/TC57/CIM/CIM100#" 
+		xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+		xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#"
+		>		
+	
+	<!-- The header information could be replaced by Manifest profile. The header is added to identify relevant information. -->
+  <md:FullModel rdf:about="urn:uuid:eb4d92e6-d4da-11e7-9296-cec278b6b50a">
+    <md:Model.created>2025-02-14T12:00:00Z</md:Model.created>
+    <md:Model.scenarioTime>2015-12-31T23:00:00Z</md:Model.scenarioTime>
+    <md:Model.version>1</md:Model.version>
+    <md:Model.description>Asset (AS) records for Statnett as asset owner in the enterprise part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region.Nordic CPMSM Test model Asset.</md:Model.description>
+    <md:Model.modelingAuthoritySet>http://www.Statnett.no/Enterprise/Nordic44</md:Model.modelingAuthoritySet>
+    <md:Model.profile>http://iec.ch/TC57/CIM/Asset/2/0</md:Model.profile>
+	<!-- Depending on AssetCatalogue file -->
+    <md:Model.DependentOn rdf:resource="urn:uuid:d869a44b5-7ab5-4bcf-9d58-1c9e750a6f20" />
+	<md:Model.DependentOn rdf:resource="urn:uuid:75f351c7-75a6-4c25-8f1c-985aa59e90ad" />
+	<!-- Depending on ElectricalProperties file -->
+    <md:Model.DependentOn rdf:resource="urn:uuid:1cbcbc2c-1cf1-48f0-b3fd-2c28444c21b" />		
+  </md:FullModel>
+
+  
+  
+   	<!--	Organisation Data.  -->
+	<cim:Organisation rdf:about="urn:uuid:349d93a8-d8e9-4d8a-a428-5c89b55ac7a3">
+		<cim:IdentifiedObject.name>O Organisation C</cim:IdentifiedObject.name>
+	</cim:Organisation>
+
+	<cim:Organisation rdf:about="urn:uuid:959c6355-28f4-469d-af68-1f62f478b57f">
+		<cim:IdentifiedObject.name>O Organisation D</cim:IdentifiedObject.name>
+	</cim:Organisation>
+	
+	<cim:AssetOwner rdf:about="urn:uuid:2d009e27-5319-4265-b4d3-48aa6f4e57cb">
+		<cim:IdentifiedObject.name>AO Owner A</cim:IdentifiedObject.name>
+		<cim:OrganisationRole.Organisation rdf:resource="urn:uuid:349d93a8-d8e9-4d8a-a428-5c89b55ac7a3" />
+	</cim:AssetOwner>
+
+  	<cim:AssetOwner rdf:about="urn:uuid:84161c05-ae4f-419c-b6c4-502dad3d3b59">
+		<cim:IdentifiedObject.name>AO Owner B</cim:IdentifiedObject.name>
+		<cim:OrganisationRole.Organisation rdf:resource="urn:uuid:959c6355-28f4-469d-af68-1f62f478b57f" />
+	</cim:AssetOwner>
+
+
+	<!--	Multi phase breaker with shared ownership  -->
+	<cim:Asset rdf:about="urn:uuid:0f7f0b6a-d4de-11e7-9296-cec278b6b50a">
+		<cim:IdentifiedObject.name>MB123 Multi phase Breaker</cim:IdentifiedObject.name>
+		<!--	ARENDAL 300AS1 AB_S located in the ElectricalProperties file -->
+		<cim:Asset.PowerSystemResource rdf:resource="urn:uuid:22e5ddcf-ac23-b449-bc4f-83336535f7c2"/>
+		<!--	SI Multi-Phase Breaker located in the Asset Catalogue file -->
+		<cim:Asset.AssetInfo rdf:resource="urn:uuid:82d61e6f-bf85-4aa9-8276-457dbcdb5198"/>
+		<!--	This asset does not have a Product Asset Model. The assosiation below is to PSM B Single-Phase Breaker located in the Asset Catalogue file 
+		<cim:Asset.ProductAssetModel rdf:resource="urn:uuid:f9d75cad-02c4-4c24-9f68-2be249a5bd68"/>
+		-->
+		<cim:Asset.serialNumber>MB123</cim:Asset.serialNumber>
+		<cim:Asset.inUseDate>1988-04-23</cim:Asset.inUseDate>
+		<cim:Asset.inUseState rdf:resource="http://iec.ch/TC57/CIM/CIM100#InUseStateKind.inUse"/>
+		<cim:Asset.kind rdf:resource="http://iec.ch/TC57/CIM/CIM100#AssetKind.breakerSF6DeadTankBreaker"/>	
+	</cim:Asset>
+
+  	<cim:Ownership rdf:about="urn:uuid:96f338e1-6ea9-4fa6-89de-cd3780fb2de5">
+		<cim:IdentifiedObject.name>AO Owner A MB123 Multi phase Breaker</cim:IdentifiedObject.name>
+		<cim:Ownership.AssetOwner rdf:resource="urn:uuid:84161c05-ae4f-419c-b6c4-502dad3d3b59" />
+		<cim:Ownership.Asset rdf:resource="urn:uuid:0f7f0b6a-d4de-11e7-9296-cec278b6b50a" />
+		<cim:Ownership.share>0.5</cim:Ownership.share>
+	</cim:Ownership>
+
+  	<cim:Ownership rdf:about="urn:uuid:0b1136d1-2117-453a-8365-c39e47dcd6f7">
+		<cim:IdentifiedObject.name>AO Owner B MB123 Multi phase Breaker</cim:IdentifiedObject.name>
+		<cim:Ownership.AssetOwner rdf:resource="urn:uuid:84161c05-ae4f-419c-b6c4-502dad3d3b59" />
+		<cim:Ownership.Asset rdf:resource="urn:uuid:0f7f0b6a-d4de-11e7-9296-cec278b6b50a" />
+		<cim:Ownership.share>0.5</cim:Ownership.share>
+	</cim:Ownership>
+	
+	
+	
+	<!--	Single phase breaker with a common asset container that include ownership  -->
+	<cim:Asset rdf:about="urn:uuid:aa4106a4-8de0-4eb4-8954-bec8d13af532">
+		<cim:IdentifiedObject.name>AC Single phase Breaker</cim:IdentifiedObject.name>
+		<!--	ARENDAL 300AS1 AB_S located in the ElectricalProperties file -->
+		<cim:Asset.PowerSystemResource rdf:resource="urn:uuid:22e5ddcf-ac23-b449-bc4f-83336535f7c2"/>
+	</cim:Asset>
+
+  	<cim:Ownership rdf:about="urn:uuid:f8539253-7a75-4b40-9ca4-cb91892de754">
+		<cim:IdentifiedObject.name>AO Owner B AC Single phase Breaker</cim:IdentifiedObject.name>
+		<cim:Ownership.AssetOwner rdf:resource="urn:uuid:84161c05-ae4f-419c-b6c4-502dad3d3b59" />
+		<cim:Ownership.Asset rdf:resource="urn:uuid:aa4106a4-8de0-4eb4-8954-bec8d13af532" />
+		<cim:Ownership.share>1</cim:Ownership.share>
+	</cim:Ownership>
+	
+	
+	<cim:Asset rdf:about="urn:uuid:f747d2e1-f28b-43a5-92c8-fb0c1cc44c0d">
+		<cim:IdentifiedObject.name>SB101 Single phase Breaker</cim:IdentifiedObject.name>
+		<!--	AC Single phase Breaker located in this file -->
+		<cim:Asset.AssetContainer rdf:resource="urn:uuid:aa4106a4-8de0-4eb4-8954-bec8d13af532"/>
+		<!--	SI Single-Phase Breaker located in the Asset Catalogue file -->
+		<cim:Asset.AssetInfo rdf:resource="urn:uuid:6e2752f2-d4f3-11e7-9296-cec278b6b50a"/>
+		<!--	 PSM B Single-Phase Breaker located in the Asset Catalogue file -->
+		<cim:Asset.ProductAssetModel rdf:resource="urn:uuid:f9d75cad-02c4-4c24-9f68-2be249a5bd68"/>
+		<cim:Asset.serialNumber>SB101</cim:Asset.serialNumber>
+		<cim:Asset.inUseDate>1988-05-20</cim:Asset.inUseDate>
+		<cim:Asset.inUseState rdf:resource="http://iec.ch/TC57/CIM/CIM100#InUseStateKind.inUse"/>
+		<cim:Asset.kind rdf:resource="http://iec.ch/TC57/CIM/CIM100#AssetKind.breakerSF6DeadTankBreaker"/>	
+	</cim:Asset>
+
+	<cim:Asset rdf:about="urn:uuid:c9360819-9a84-4191-a9c3-4112b42d6417">
+		<cim:IdentifiedObject.name>SB102 Single phase Breaker</cim:IdentifiedObject.name>
+		<!--	AC Single phase Breaker located in this file -->
+		<cim:Asset.AssetContainer rdf:resource="urn:uuid:aa4106a4-8de0-4eb4-8954-bec8d13af532"/>
+		<!--	SI Single-Phase Breaker located in the Asset Catalogue file -->
+		<cim:Asset.AssetInfo rdf:resource="urn:uuid:6e2752f2-d4f3-11e7-9296-cec278b6b50a"/>
+		<!--	 PSM B Single-Phase Breaker located in the Asset Catalogue file -->
+		<cim:Asset.ProductAssetModel rdf:resource="urn:uuid:f9d75cad-02c4-4c24-9f68-2be249a5bd68"/>
+		<cim:Asset.serialNumber>SB102</cim:Asset.serialNumber>
+		<cim:Asset.inUseDate>1988-05-20</cim:Asset.inUseDate>
+		<cim:Asset.inUseState rdf:resource="http://iec.ch/TC57/CIM/CIM100#InUseStateKind.inUse"/>
+		<cim:Asset.kind rdf:resource="http://iec.ch/TC57/CIM/CIM100#AssetKind.breakerSF6DeadTankBreaker"/>	
+	</cim:Asset>
+
+	<cim:Asset rdf:about="urn:uuid:7babdccf-d97a-48e6-898e-5b3d854abda3">
+		<cim:IdentifiedObject.name>SB103 Single phase Breaker</cim:IdentifiedObject.name>
+		<!--	AC Single phase Breaker located in this file -->
+		<cim:Asset.AssetContainer rdf:resource="urn:uuid:aa4106a4-8de0-4eb4-8954-bec8d13af532"/>
+		<!--	SI Single-Phase Breaker located in the Asset Catalogue file -->
+		<cim:Asset.AssetInfo rdf:resource="urn:uuid:6e2752f2-d4f3-11e7-9296-cec278b6b50a"/>
+		<!--	 PSM B Single-Phase Breaker located in the Asset Catalogue file -->
+		<cim:Asset.ProductAssetModel rdf:resource="urn:uuid:f9d75cad-02c4-4c24-9f68-2be249a5bd68"/>
+		<cim:Asset.serialNumber>SB103</cim:Asset.serialNumber>
+		<cim:Asset.inUseDate>1988-05-20</cim:Asset.inUseDate>
+		<cim:Asset.inUseState rdf:resource="http://iec.ch/TC57/CIM/CIM100#InUseStateKind.inUse"/>
+		<cim:Asset.kind rdf:resource="http://iec.ch/TC57/CIM/CIM100#AssetKind.breakerSF6DeadTankBreaker"/>	
+	</cim:Asset>
+	
+	<!--	Power Transformer with Tap Change and ownership on Tap Change  -->
+	<cim:Asset rdf:about="urn:uuid:29d8b748-d4f4-11e7-9296-cec278b6b50a">
+		<!--	PowerTransformer ARENDAL T1 -->
+		<cim:Asset.PowerSystemResource rdf:resource="urn:uuid:f1769e1e-9aeb-11e5-91da-b8763fd99c5f"/>
+		<!--	PTI Power Transformer located in the Asset Catalogue file -->
+		<cim:Asset.AssetInfo rdf:resource="urn:uuid:9eb4e906-d4f4-11e7-9296-cec278b6b50a"/>
+		<cim:Asset.serialNumber>T201</cim:Asset.serialNumber>
+		<cim:IdentifiedObject.name>T201 Power Transformer</cim:IdentifiedObject.name>
+		<!--	 PAM A Power Transformer located in the Asset Catalogue file -->
+		<cim:Asset.ProductAssetModel rdf:resource="urn:uuid:6d993b26-72bf-46f0-9eb3-70bc26d544ac"/>
+		<cim:Asset.inUseDate>1988-05-20</cim:Asset.inUseDate>
+		<cim:Asset.critical>true</cim:Asset.critical>
+		<cim:Asset.inUseState rdf:resource="http://iec.ch/TC57/CIM/CIM100#InUseStateKind.inUse"/>
+		<cim:Asset.kind rdf:resource="http://iec.ch/TC57/CIM/CIM100#AssetKind.transformer"/>	
+	</cim:Asset>
+		
+	<cim:Asset rdf:about="urn:uuid:9b669974-9309-43ea-bab4-013376a79e3b">
+		<cim:Asset.serialNumber>TC301</cim:Asset.serialNumber>
+		<cim:IdentifiedObject.name>TC201 Tap Changer</cim:IdentifiedObject.name>
+		<!--	ARENDALST1 P RTC1 located in the ElectricalProperties file -->		
+		<cim:Asset.PowerSystemResource rdf:resource="urn:uuid:f1769e28-9aeb-11e5-91da-b8763fd99c5f"/>
+		<!--	PC Tap Changer located in the Asset Catalogue file -->
+		<cim:Asset.AssetInfo rdf:resource="urn:uuid:66c4bc79-0e4c-420d-9f9a-f64c81fd2254"/>
+		<!--	 PAM A Tap Changer located in the Asset Catalogue file -->
+		<cim:Asset.ProductAssetModel rdf:resource="urn:uuid:e673fe8d-62a3-4e28-819b-c9e94bfcae38"/>
+		<!--	T201 Power Transformer located in this file -->
+		<cim:Asset.AssetContainer rdf:resource="urn:uuid:29d8b748-d4f4-11e7-9296-cec278b6b50a"/>
+		<cim:Asset.inUseDate>1988-05-20</cim:Asset.inUseDate>
+		<cim:Asset.inUseState rdf:resource="http://iec.ch/TC57/CIM/CIM100#InUseStateKind.inUse"/>
+		<cim:Asset.kind rdf:resource="http://iec.ch/TC57/CIM/CIM100#AssetKind.other"/>	
+	</cim:Asset>
+
+  	<cim:Ownership rdf:about="urn:uuid:5d555ac3-ab3f-4480-81e1-85730c720067">
+		<cim:IdentifiedObject.name>AO Owner B TC201 Tap Changer</cim:IdentifiedObject.name>
+		<cim:Ownership.AssetOwner rdf:resource="urn:uuid:84161c05-ae4f-419c-b6c4-502dad3d3b59" />
+		<cim:Ownership.Asset rdf:resource="urn:uuid:9b669974-9309-43ea-bab4-013376a79e3b" />
+		<cim:Ownership.share>1</cim:Ownership.share>
+	</cim:Ownership>
+
+	<!--	Shunt Compensator and ownership  -->
+	<cim:Asset rdf:about="urn:uuid:040766f1-699a-40f5-85d7-1b9d5deb3955">
+		<cim:Asset.serialNumber>LSC401</cim:Asset.serialNumber>
+		<cim:IdentifiedObject.name>LSC401 Shunt Compensator</cim:IdentifiedObject.name>
+		<!--	ARENDAL 300 LSC1 located in the ElectricalProperties file -->		
+		<cim:Asset.PowerSystemResource rdf:resource="urn:uuid:2dd90408-bdfb-11e5-94fa-c8f73332c8f4"/>
+		<!--	SH Shunt Compensator located in the Asset Catalogue file -->
+		<cim:Asset.AssetInfo rdf:resource="urn:uuid:d9a0ead9-f67e-4317-a128-631fe9f68177"/>
+		<!--	PAM A ShuntCompensator located in the Asset Catalogue file -->
+		<cim:Asset.ProductAssetModel rdf:resource="urn:uuid:6d993b26-72bf-46f0-9eb3-70bc26d544ac"/>
+		<cim:Asset.inUseDate>1988-05-20</cim:Asset.inUseDate>
+		<cim:Asset.inUseState rdf:resource="http://iec.ch/TC57/CIM/CIM100#InUseStateKind.inUse"/>
+		<cim:Asset.kind rdf:resource="http://iec.ch/TC57/CIM/CIM100#AssetKind.other"/>	
+	</cim:Asset>
+
+  	<cim:Ownership rdf:about="urn:uuid:912b4bbb-1f9b-455d-a578-b2f8fef16c31">
+		<cim:IdentifiedObject.name>AO Owner B LSC401 Shunt Compensator</cim:IdentifiedObject.name>
+		<cim:Ownership.AssetOwner rdf:resource="urn:uuid:84161c05-ae4f-419c-b6c4-502dad3d3b59" />
+		<cim:Ownership.Asset rdf:resource="urn:uuid:040766f1-699a-40f5-85d7-1b9d5deb3955" />
+		<cim:Ownership.share>1</cim:Ownership.share>
+	</cim:Ownership>	
+	
+</rdf:RDF>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:cim="https://cim.ucaiug.io/ns#"
+	xmlns:dcat="http://www.w3.org/ns/dcat#"
+	xmlns:dcatcim="https://cim4.eu/ns/dcatcim#" 
+	xmlns:dcterms="http://purl.org/dc/terms/" 
+ 	xmlns:eu="https://cim.ucaiug.io/ns/eu#"
+	xmlns:nc="https://cim4.eu/ns/nc#"
+	xmlns:prov="http://www.w3.org/ns/prov#" 
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  >
+
+  <dcat:Catalog rdf:about="urn:uuid:f0d38504-4ba9-4912-b9ca-3673f5947e7d">
+    <adms:versionNotes xml:lang="en">Initial version</adms:versionNotes>
+    <dcat:dataset rdf:resource="urn:uuid:d869a44b5-7ab5-4bcf-9d58-1c9e750a6f20"/>
+    <dcat:dataset rdf:resource="urn:uuid:75f351c7-75a6-4c25-8f1c-985aa59e90ad"/>
+    <dcat:version>3.0.0-beta.1</dcat:version>
+    <dcterms:description xml:lang="en">Enterprise (ENT) part of Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region.</dcterms:description>
+    <dcterms:identifier>urn:uuid:f0d38504-4ba9-4912-b9ca-3673f5947e7d</dcterms:identifier>
+    <dcterms:issued>2025-02-14T12:00:00Z</dcterms:issued>
+    <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dcterms:publisher rdf:resource="https://www.statnett.no/en/about-statnett/contact-us/"/>
+    <dcterms:rights>Copyright</dcterms:rights>
+    <dcterms:rightsHolder>Statnett SF</dcterms:rightsHolder>
+    <dcterms:title>Manifest</dcterms:title>
+  </dcat:Catalog>
+
+
+  <dcat:Dataset rdf:about="urn:uuid:d869a44b5-7ab5-4bcf-9d58-1c9e750a6f20">
+    <adms:versionNotes xml:lang="en">Initial version</adms:versionNotes>
+    <dcat:distribution rdf:resource="urn:uuid:ec47575c-900e-4ddb-87c8-fd8deb8e0d00"/>
+    <dcat:isVersionOf rdf:resource="https://energy.referencedata.eu/Test/Enterprise/N44-ENT-Scheider_AC"/>
+    <dcat:keyword>AC</dcat:keyword>
+    <dcat:keyword>AssetCatalogue</dcat:keyword>
+    <dcat:startDate>2015-12-31T23:00:00Z</dcat:startDate>
+    <dcat:version>3.0.0-beta-1</dcat:version>
+    <dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/Public"/>
+    <dcterms:conformsTo rdf:resource="http://iec.ch/TC57/CIM/AssetCatalogue/2/0"/>
+    <dcterms:description xml:lang="en">Asset Catalogue (AC) from Schneider included in the enterprise part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region.</dcterms:description>
+    <dcterms:identifier>urn:uuid:d869a44b5-7ab5-4bcf-9d58-1c9e750a6f20</dcterms:identifier>
+    <dcterms:issued>2025-02-14T12:00:00Z</dcterms:issued>
+    <dcterms:publisher rdf:resource="https://www.statnett.no/en/about-statnett/contact-us/"/>
+    <dcterms:rights>Copyright</dcterms:rights>
+    <dcterms:rightsHolder>Statnett SF</dcterms:rightsHolder>
+    <dcterms:title>20160101_N44-ENT-Scheider_AC_v3-0-0-beta-1</dcterms:title>
+    <dcterms:type rdf:resource="https://energy.referencedata.eu/type/CIM-EnterpriseModel"/>
+  </dcat:Dataset>
+
+  <dcat:Distribution rdf:about="urn:uuid:ec47575c-900e-4ddb-87c8-fd8deb8e0d00">
+    <dcat:accessURL rdf:resource="file://xmlrdf/N44-ENT-Schneider_AC.xml"/>
+    <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/rdf+xml"/>
+    <dcterms:conformsTo rdf:resource="urn:iso:std:iec:61970-552:2016"/>
+    <dcterms:description xml:lang="en">CIMXML serialization of the Nordic44 AC</dcterms:description>
+    <prov:generatedAtTime>2025-02-14T11:00:00Z</prov:generatedAtTime>
+    <prov:wasGeneratedBy rdf:resource="https://energy.referencedata.eu/Test/Action/AC"/>
+  </dcat:Distribution>
+
+  <dcat:Dataset rdf:about="urn:uuid:75f351c7-75a6-4c25-8f1c-985aa59e90ad">
+    <adms:versionNotes xml:lang="en">Initial version</adms:versionNotes>
+    <dcat:distribution rdf:resource="urn:uuid:28050d72-acb0-41d2-b0fa-ddf034d8bccf"/>
+    <dcat:isVersionOf rdf:resource="https://energy.referencedata.eu/Test/Enterprise/N44-ENT-Siemens_AC"/>
+    <dcat:keyword>AC</dcat:keyword>
+    <dcat:keyword>AssetCatalogue</dcat:keyword>
+    <dcat:startDate>2015-12-31T23:00:00Z</dcat:startDate>
+    <dcat:version>3.0.0-beta-1</dcat:version>
+    <dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/Public"/>
+    <dcterms:conformsTo rdf:resource="http://iec.ch/TC57/CIM/AssetCatalogue/2/0"/>
+    <dcterms:description xml:lang="en">Asset Catalogue (AC) from Siemens Energy included in the enterprise part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region.</dcterms:description>
+    <dcterms:identifier>urn:uuid:d869a44b5-7ab5-4bcf-9d58-1c9e750a6f20</dcterms:identifier>
+    <dcterms:issued>2025-02-14T12:00:00Z</dcterms:issued>
+    <dcterms:publisher rdf:resource="https://www.statnett.no/en/about-statnett/contact-us/"/>
+    <dcterms:rights>Copyright</dcterms:rights>
+    <dcterms:rightsHolder>Statnett SF</dcterms:rightsHolder>
+    <dcterms:title>20160101_N44-ENT-Siemens_AC_v3-0-0-beta-1</dcterms:title>
+    <dcterms:type rdf:resource="https://energy.referencedata.eu/type/CIM-EnterpriseModel"/>
+  </dcat:Dataset>
+
+  <dcat:Distribution rdf:about="urn:uuid:28050d72-acb0-41d2-b0fa-ddf034d8bccf">
+    <dcat:accessURL rdf:resource="file://xmlrdf/N44-ENT-Siemens_AC.xml"/>
+    <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/rdf+xml"/>
+    <dcterms:conformsTo rdf:resource="urn:iso:std:iec:61970-552:2016"/>
+    <dcterms:description xml:lang="en">CIMXML serialization of the Nordic44 AC</dcterms:description>
+    <prov:generatedAtTime>2025-02-14T11:00:00Z</prov:generatedAtTime>
+    <prov:wasGeneratedBy rdf:resource="https://energy.referencedata.eu/Test/Action/AC"/>
+  </dcat:Distribution>
+
+  <dcat:Dataset rdf:about="urn:uuid:eb4d92e6-d4da-11e7-9296-cec278b6b50a">
+    <adms:versionNotes xml:lang="en">Initial version</adms:versionNotes>
+    <dcat:distribution rdf:resource="urn:uuid:66ab65a5-dffe-41c7-9d5b-b1e74906b4d9"/>
+    <dcat:isVersionOf rdf:resource="https://energy.referencedata.eu/Test/Enterprise/N44-ENT-Statnett_AS"/>
+    <dcat:keyword>AS</dcat:keyword>
+    <dcat:keyword>Asset</dcat:keyword>
+    <dcat:startDate>2015-12-31T23:00:00Z</dcat:startDate>
+    <dcat:version>3.0.0-beta-1</dcat:version>
+    <dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/Public"/>
+    <dcterms:conformsTo rdf:resource="http://iec.ch/TC57/CIM/Asset/2/0"/>
+    <dcterms:description xml:lang="en">Asset (AS) records for Statnett as asset owner in the enterprise part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region.Nordic CPMSM Test model Asset.</dcterms:description>
+    <dcterms:identifier>urn:uuid:eb4d92e6-d4da-11e7-9296-cec278b6b50a</dcterms:identifier>
+    <dcterms:issued>2025-02-14T12:00:00Z</dcterms:issued>
+    <dcterms:publisher rdf:resource="https://www.statnett.no/en/about-statnett/contact-us/"/>
+    <dcterms:requires rdf:resource="urn:uuid:d869a44b5-7ab5-4bcf-9d58-1c9e750a6f20"/>
+    <dcterms:requires rdf:resource="urn:uuid:75f351c7-75a6-4c25-8f1c-985aa59e90ad"/>
+    <dcterms:requires rdf:resource="urn:uuid:1cbcbc2c-1cf1-48f0-b3fd-2c28444c21b"/>
+    <dcterms:rights>Copyright</dcterms:rights>
+    <dcterms:rightsHolder>Statnett SF</dcterms:rightsHolder>
+    <dcterms:title>20160101_N44-ENT-Statnett_AS_v3-0-0-beta-1</dcterms:title>
+    <dcterms:type rdf:resource="https://energy.referencedata.eu/type/CIM-EnterpriseModel"/>
+  </dcat:Dataset>
+
+  <dcat:Distribution rdf:about="urn:uuid:66ab65a5-dffe-41c7-9d5b-b1e74906b4d9">
+    <dcat:accessURL rdf:resource="file://xmlrdf/N44-ENT-Statnett_AS.xml"/>
+    <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/rdf+xml"/>
+    <dcterms:conformsTo rdf:resource="urn:iso:std:iec:61970-552:2016"/>
+    <dcterms:description xml:lang="en">CIMXML serialization of the Nordic44 AS</dcterms:description>
+    <prov:generatedAtTime>2025-02-14T11:00:00Z</prov:generatedAtTime>
+    <prov:wasGeneratedBy rdf:resource="https://energy.referencedata.eu/Test/Action/AS"/>
+  </dcat:Distribution>
+
+</rdf:RDF>

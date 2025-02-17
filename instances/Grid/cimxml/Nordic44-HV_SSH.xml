@@ -4,12 +4,12 @@
 		xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 >
 	<md:FullModel rdf:about="urn:uuid:1d08772d-c1d0-4c47-810d-b14908cd94f5">
-		<md:Model.created>2025-02-12T15:28:34Z</md:Model.created>
-		<md:Model.description>Test model developed by Statnett SF. Nordic 44 bus system for the Nordic region.</md:Model.description>
+		<md:Model.created>2025-02-14T12:00:00Z</md:Model.created>
+		<md:Model.description>Steady-State Hypothesis (SSH) part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region.</md:Model.description>
 		<md:Model.profile>http://iec.ch/TC57/ns/CIM/SteadyStateHypothesis-EU/3.0</md:Model.profile>
-		<md:Model.DependentOn rdf:resource="urn:uuid:e710212f-f6b2-8d4c-9dc0-365398d8b59c"/>		
+		<md:Model.DependentOn rdf:resource="urn:uuid:e710212f-f6b2-8d4c-9dc0-365398d8b59c"/>
 		<md:Model.modelingAuthoritySet>http://www.Statnett.no/IGM/Nordic44_CGM</md:Model.modelingAuthoritySet>
-		<md:Model.scenarioTime>2017-11-24T09:03:11.4346768Z</md:Model.scenarioTime>
+		<md:Model.scenarioTime>2015-12-31T23:00:00Z</md:Model.scenarioTime>
 		<md:Model.version>1</md:Model.version>
 	</md:FullModel>
 

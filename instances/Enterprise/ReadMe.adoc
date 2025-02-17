@@ -7,17 +7,17 @@
 == Introduction
 
 This file is accommodating the machine-readably link:manifest.xml['manifest'] and provide a human readable text that describe the content of the underlying folders.
-The Nordic44 is a synthetic power system model of the Nordic high-voltage transmission system described and compliant with the Common Grid Model Exchange Standard (CGMES). 
+The Nordic44-Ent is the enterprise (asset) part of the Nordic synthetic power system model of the Nordic high-voltage transmission system described. The instance file is compliant with Common Distribution Power System Model (CDPSM) described in IEC 61968-13:2021. 
 
-- `cimxml/` – Contains CIM XML files (based on RDF XML) according to *IEC 61970-600-1* (that based on and provide some discrepancy to IEC 61970-552:2016). These file would be used for CGMES support power flow tools. 
+- `cimxml/` – Contains CIM XML files (a dialogues based on RDF XML) according to *IEC 61970-600-1* (that based on and provide some discrepancy to IEC 61970-552:2016).
 - `jsonld/` – Contains CIM JSON-LD plan to be addressed in *IEC 61970-553* that will be a serialization format, *fully compatible with Semantic Web standards*..
-- `trig/` – Contains link:https://www.w3.org/TR/trig/[TriG format] version of the model addressing a more human readable format that will be used for human documentation. 
+- `trig/` – Contains link:https://www.w3.org/TR/trig/[TriG format] version of the model addressing a more hyuman readable format that will be used for human documentation. 
 
 Currently is the file in link:cimxml[cimxml folder] the master and will be translated into link:https://www.w3.org/TR/json-ld11/[JSON-LD] and located in link:jsonld[jsonld folder] and into link:https://www.w3.org/TR/trig/[TriG] and located in link:trig[trig folder]
 
 == Validation Approach
 
-The files will be validated against CGMES 3.0 and described in SHACL. The CIM XML file will be tested for power flow in a CGMES supported power flow tool. 
+The files will be validated against CDPSM 2.0 profiles described in SHACL.
 
 == Changelog
 
@@ -40,9 +40,8 @@ Nordic44 follows *Semantic Versioning 2.0.0 (link:https://semver.org/[SemVer])* 
 [cols="3,2,5,2",options="header"]
 |===
 | Version | Date | Description | Issue
-| 3.0.0-beta.1 | 2025-02-14 | Update Manifest with the header information that will be used in NCP | link:https://github.com/statnett/Nordic44/issues/15[#15]
-| 3.0.0-alpha.1 | 2025-02-12 | Remove entsoe and entsoe2 namespaces  | link:https://github.com/statnett/Nordic44/issues/10[#10]
-| 3.0.0-alpha.1 | 2025-02-12 | Converting Nordic version 38 to CGMES 3.0  | link:https://github.com/statnett/Nordic44/issues/9[#9]
+| 3.0.0-beta.1 | 2025-02-14 | Converted model from v38 | 
+
 |===
 
 For further details, refer to the changelog history on GitHub:  

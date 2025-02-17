@@ -1,0 +1,939 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:cim="https://cim.ucaiug.io/ns#"
+	xmlns:dcat="http://www.w3.org/ns/dcat#"
+	xmlns:dcatcim="https://cim4.eu/ns/dcatcim#" 
+	xmlns:dcterms="http://purl.org/dc/terms/" 
+ 	xmlns:eu="https://cim.ucaiug.io/ns/eu#"
+	xmlns:nc="https://cim4.eu/ns/nc#"
+	xmlns:prov="http://www.w3.org/ns/prov#" 
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  >
+
+<dcat:Dataset rdf:about="urn:uuid:ebef4527-f0bc-4c59-8870-950af8ed9041">
+  <adms:versionNotes xml:lang="en">Initial version</adms:versionNotes>
+  <dcat:isVersionOf rdf:resource="https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER"/>
+  <dcat:keyword>ER</dcat:keyword>
+  <dcat:keyword>EquipmentReliability</dcat:keyword>
+  <dcat:startDate>2015-12-31T23:00:00Z</dcat:startDate>
+  <dcat:version>3.0.0-beta-1</dcat:version>
+  <dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/Public"/>
+  <dcterms:conformsTo rdf:resource="https://ap.cim4.eu/EquipmentReliability/2.3"/>
+  <dcterms:description xml:lang="en">Equipment Reliability (ER) included in Network Code part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region.</dcterms:description>
+  <dcterms:identifier>urn:uuid:ebef4527-f0bc-4c59-8870-950af8ed9041</dcterms:identifier>
+  <dcterms:issued>2025-02-14T12:00:00Z</dcterms:issued>
+  <dcterms:publisher rdf:resource="https://www.statnett.no/en/about-statnett/contact-us/"/>
+  <dcterms:requires rdf:resource="urn:uuid:e710212f-f6b2-8d4c-9dc0-365398d8b59c"/> <!-- Nordic44-HV_EQ -->
+  <dcterms:requires rdf:resource="urn:uuid:d9a01a85-0ad8-4958-be03-d89ad78ca497"/> <!-- N44-NC-HV_CD -->
+  <dcterms:rights>Copyright</dcterms:rights>
+  <dcterms:rightsHolder>Statnett SF</dcterms:rightsHolder>
+  <dcterms:spatial rdf:resource="https://energy.referencedata.eu/Test/Frame/NORDIC-Power-Transmission-System"/>
+  <dcterms:title>20160101_N44-NC-HV_ER_v3-0-0-beta-1</dcterms:title>
+  <dcterms:type rdf:resource="https://energy.referencedata.eu/type/CIM-PowerSystemModel"/>
+
+	<prov:generatedAtTime>2025-02-14T11:00:00Z</prov:generatedAtTime>
+  <prov:wasGeneratedBy rdf:resource="https://energy.referencedata.eu/Test/Action/ER"/>
+</dcat:Dataset>
+
+<!-- OperationalLimitSet for PowerTransferCorridor -->
+	<cim:OperationalLimitSet rdf:ID="_f802a83f-b9fb-48fb-9dde-0f5132e5f886">
+		<cim:OperationalLimitSet.Terminal rdf:resource="#_2dd9039f-bdfb-11e5-94fa-c8f73332c8f4"/>
+		<cim:IdentifiedObject.description>PTC 420RINGHALS-HALDEN LimitSet for direction Halden to Ringhals</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>LS PTC 420RING-HALDEN F HA</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>f802a83f-b9fb-48fb-9dde-0f5132e5f886</cim:IdentifiedObject.mRID>
+		<nc:OperationalLimitSet.PowerTransferCorridor rdf:resource="#_e3cfe43a-f522-4164-bb01-f7a3abc5b26d"/>
+	</cim:OperationalLimitSet>
+
+	<cim:ActivePowerLimit rdf:ID="_f6ab9ccd-10fa-4531-8427-763e11163b28">
+		<nc:ActivePowerLimit.normalValue>1600</nc:ActivePowerLimit.nc>
+		<!-- <cim:ActivePowerLimit.value>1600</cim:ActivePowerLimit.value> where should this go? A serrated SSH for the ER? -->
+		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_f802a83f-b9fb-48fb-9dde-0f5132e5f886"/>
+		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_df0cea8a-8e5a-4254-a040-410fa4797154"/>
+		<cim:IdentifiedObject.name>APL STABILITY</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>f6ab9ccd-10fa-4531-8427-763e11163b28</cim:IdentifiedObject.mRID>
+	</cim:ActivePowerLimit>
+
+	<!-- This converted from entsoe2:RateTemperature -->
+	<nc:AmbientTemperatureDependencyCurve rdf:ID="_5f595160-19c7-467e-a8df-4bcefc89b46e">
+		<cim:IdentifiedObject.description>Ambient Temperature Dependency Curve in degree Celsius</cim:IdentifiedObject.description>
+		<cim:IdentifiedObject.name>ATDC-001</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>5f595160-19c7-467e-a8df-4bcefc89b46e</cim:IdentifiedObject.mRID>
+		<cim:curve.curveStyle rdf:resource="https://cim.ucaiug.io/ns#straightLineYValues"/>	
+		<cim:curve.xUnit rdf:resource="https://cim.ucaiug.io/ns#UnitSymbol.degC"/>
+		<cim:curve.y2Unit rdf:resource="https://cim.ucaiug.io/ns#UnitSymbol.none"/>
+	</nc:AmbientTemperatureDependencyCurve>
+
+	<cim:CurveData rdf:ID="_f8dcb94f-6a0f-40ef-9928-842b25b7df53">
+    	<cim:CurveData.xValue>-10</CIM:CurveData.xValue>  <!-- degree Celsius  -->
+        <cim:CurveData.y1Value>0.75</CIM:CurveData.y1Value>  <!-- relative temperature dependent (Y-axis) -->
+        <cim:CurveData.Curve rdf:resource="#C_5f595160-19c7-467e-a8df-4bcefc89b46e"/>	
+	</cim:CurveData>
+
+	<cim:CurveData rdf:ID="_77017cd9-7224-4612-87aa-b5697530bd52">
+    	<cim:CurveData.xValue>-15</CIM:CurveData.xValue>  <!-- degree Celsius  -->
+        <cim:CurveData.y1Value>0.7</CIM:CurveData.y1Value>  <!-- relative temperature dependent (Y-axis) -->
+        <cim:CurveData.Curve rdf:resource="#C_5f595160-19c7-467e-a8df-4bcefc89b46e"/>	
+	</cim:CurveData>
+
+	<cim:CurveData rdf:ID="_8da54c8f-7667-443c-b456-70a27cb09447">
+    	<cim:CurveData.xValue>-20</CIM:CurveData.xValue>  <!-- degree Celsius  -->
+        <cim:CurveData.y1Value>0.65</CIM:CurveData.y1Value>  <!-- relative temperature dependent (Y-axis) -->
+        <cim:CurveData.Curve rdf:resource="#C_5f595160-19c7-467e-a8df-4bcefc89b46e"/>	
+	</cim:CurveData>
+
+	<cim:CurveData rdf:ID="_79ebe136-0807-403e-9e16-594eb3e550b6">
+    	<cim:CurveData.xValue>-25</CIM:CurveData.xValue>  <!-- degree Celsius  -->
+        <cim:CurveData.y1Value>0.6</CIM:CurveData.y1Value>  <!-- relative temperature dependent (Y-axis) -->
+        <cim:CurveData.Curve rdf:resource="#C_5f595160-19c7-467e-a8df-4bcefc89b46e"/>	
+	</cim:CurveData>
+
+	<cim:CurveData rdf:ID="_96ce695d-ee63-4ec2-a14e-80af2730d39b">
+    	<cim:CurveData.xValue>-30</CIM:CurveData.xValue>  <!-- degree Celsius  -->
+        <cim:CurveData.y1Value>0.5</CIM:CurveData.y1Value>  <!-- relative temperature dependent (Y-axis) -->
+        <cim:CurveData.Curve rdf:resource="#C_5f595160-19c7-467e-a8df-4bcefc89b46e"/>	
+	</cim:CurveData>
+
+	<cim:CurveData rdf:ID="_abb7331d-8fce-4d83-bbcf-67caa0ab562d">
+    	<cim:CurveData.xValue>-5</CIM:CurveData.xValue>  <!-- degree Celsius  -->
+        <cim:CurveData.y1Value>0.7</CIM:CurveData.y1Value>  <!-- relative temperature dependent (Y-axis) -->
+        <cim:CurveData.Curve rdf:resource="#C_5f595160-19c7-467e-a8df-4bcefc89b46e"/>	
+	</cim:CurveData>
+
+	<cim:CurveData rdf:ID="_2e24d8c9-bc91-4c64-a6e9-4ee28f7e46aa">
+    	<cim:CurveData.xValue>0</CIM:CurveData.xValue>  <!-- degree Celsius  -->
+        <cim:CurveData.y1Value>0.75</CIM:CurveData.y1Value>  <!-- relative temperature dependent (Y-axis) -->
+        <cim:CurveData.Curve rdf:resource="#C_5f595160-19c7-467e-a8df-4bcefc89b46e"/>	
+	</cim:CurveData>
+
+	<cim:CurveData rdf:ID="_8bea88f7-12bb-425b-864f-a6e67218cbfa">
+    	<cim:CurveData.xValue>5</CIM:CurveData.xValue>  <!-- degree Celsius  -->
+        <cim:CurveData.y1Value>0.8</CIM:CurveData.y1Value>  <!-- relative temperature dependent (Y-axis) -->
+        <cim:CurveData.Curve rdf:resource="#C_5f595160-19c7-467e-a8df-4bcefc89b46e"/>	
+	</cim:CurveData>
+
+	<cim:CurveData rdf:ID="_28846c30-b0ce-46b4-98d4-9ae2490607ad">
+    	<cim:CurveData.xValue>10.0</CIM:CurveData.xValue>  <!-- degree Celsius  -->
+        <cim:CurveData.y1Value>0.85</CIM:CurveData.y1Value>  <!-- relative temperature dependent (Y-axis) -->
+        <cim:CurveData.Curve rdf:resource="#C_5f595160-19c7-467e-a8df-4bcefc89b46e"/>	
+	</cim:CurveData>
+
+	<cim:CurveData rdf:ID="_16bc3fbb-3b45-4bbb-b400-3d0b58af2f6b">
+    	<cim:CurveData.xValue>15.0</CIM:CurveData.xValue>  <!-- degree Celsius  -->
+        <cim:CurveData.y1Value>0.9</CIM:CurveData.y1Value>  <!-- relative temperature dependent (Y-axis) -->
+        <cim:CurveData.Curve rdf:resource="#C_5f595160-19c7-467e-a8df-4bcefc89b46e"/>	
+	</cim:CurveData>
+
+	<cim:CurveData rdf:ID="_c7275c33-0232-476f-8a80-071879629be7">
+    	<cim:CurveData.xValue>20.0</CIM:CurveData.xValue>  <!-- degree Celsius  -->
+        <cim:CurveData.y1Value>0.0</CIM:CurveData.y1Value>  <!-- relative temperature dependent (Y-axis) -->
+        <cim:CurveData.Curve rdf:resource="#C_5f595160-19c7-467e-a8df-4bcefc89b46e"/>	
+	</cim:CurveData>
+
+	<cim:CurveData rdf:ID="_2cab1876-1d80-47f3-8d27-7a99f4d1db4f">
+    	<cim:CurveData.xValue>25.0</CIM:CurveData.xValue>  <!-- degree Celsius  -->
+        <cim:CurveData.y1Value>1.1</CIM:CurveData.y1Value>  <!-- relative temperature dependent (Y-axis) -->
+        <cim:CurveData.Curve rdf:resource="#C_5f595160-19c7-467e-a8df-4bcefc89b46e"/>	
+	</cim:CurveData>
+
+	<cim:CurveData rdf:ID="_c378b218-4131-4d5b-8cb8-8263451211c0">
+    	<cim:CurveData.xValue>30.0</CIM:CurveData.xValue>  <!-- degree Celsius  -->
+        <cim:CurveData.y1Value>1.5</CIM:CurveData.y1Value>  <!-- relative temperature dependent (Y-axis) -->
+        <cim:CurveData.Curve rdf:resource="#C_5f595160-19c7-467e-a8df-4bcefc89b46e"/>	
+	</cim:CurveData>
+
+	<cim:CurveData rdf:ID="_e591a226-13bb-44ec-9e42-1667d90dd286">
+    	<cim:CurveData.xValue>40.0</CIM:CurveData.xValue>  <!-- degree Celsius  -->
+        <cim:CurveData.y1Value>2.0</CIM:CurveData.y1Value>  <!-- relative temperature dependent (Y-axis) -->
+        <cim:CurveData.Curve rdf:resource="#C_5f595160-19c7-467e-a8df-4bcefc89b46e"/>	
+	</cim:CurveData>
+
+
+	<nc:SchedulingArea rdf:ID="_096cb162-6a74-4dcd-b9e5-9845e1f049b6">
+		<cim:IdentifiedObject.name>SA-FI</cim:IdentifiedObject.name>
+    	<cim:IdentifiedObject.mRID>096cb162-6a74-4dcd-b9e5-9845e1f049b6</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>Scheduling Area of Finland (FI)</cim:IdentifiedObject.description>
+		<nc:SchedulingArea.BiddingZone rdf:resource="#_6eaaae78-21f1-41c7-81a4-2b0fe15cdbfc"/>
+    	<nc:SchedulingArea.ControlArea rdf:resource="#_f17696b0-9aeb-11e5-91da-b8763fd99c5f"/>
+    	<nc:SchedulingArea.normalParticipationFactor>1.0</nc:SchedulingArea.normalParticipationFactor>
+		<nc:SchedulingArea.SynchronousArea rdf:resource="#_5829041b-1f25-4a3d-8b4c-532d9f0b6e54"/>
+	</nc:SchedulingArea>
+	<nc:SchedulingArea rdf:ID="_19454eeb-cf3c-4b22-91c8-42c94a48e04e">
+		<cim:IdentifiedObject.name>SA-NO1</cim:IdentifiedObject.name>
+    	<cim:IdentifiedObject.mRID>19454eeb-cf3c-4b22-91c8-42c94a48e04e</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>Scheduling Area of Viken North</cim:IdentifiedObject.description>
+		<nc:SchedulingArea.BiddingZone rdf:resource="#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
+		<nc:SchedulingArea.ControlArea rdf:resource="#_f1769606-9aeb-11e5-91da-b8763fd99c5f"/>
+    	<nc:SchedulingArea.normalParticipationFactor>0.5</nc:SchedulingArea.normalParticipationFactor>
+    	<nc:SchedulingArea.SynchronousArea rdf:resource="#_5829041b-1f25-4a3d-8b4c-532d9f0b6e54"/>
+	</nc:SchedulingArea>
+	<nc:SchedulingArea rdf:ID="_d398cead-6dfb-4ce3-80a0-93f23d46bd7b">
+		<cim:IdentifiedObject.name>SA-NO2</cim:IdentifiedObject.name>
+    	<cim:IdentifiedObject.mRID>d398cead-6dfb-4ce3-80a0-93f23d46bd7b</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>Scheduling Area of NO2 - 2011-05-16: Southern Norway. West of Hasle (420kV), Sylling (4kV). East of Sauda (300kV)</cim:IdentifiedObject.description>
+		<nc:SchedulingArea.BiddingZone rdf:resource="#_63b13e2e-8d0a-47d0-8de8-fb686decbae4"/>
+		<nc:SchedulingArea.ControlArea rdf:resource="#_f1769606-9aeb-11e5-91da-b8763fd99c5f"/>
+    	<nc:SchedulingArea.normalParticipationFactor>1.0</nc:SchedulingArea.normalParticipationFactor>
+    	<nc:SchedulingArea.SynchronousArea rdf:resource="#_5829041b-1f25-4a3d-8b4c-532d9f0b6e54"/>
+	</nc:SchedulingArea>
+	<nc:SchedulingArea rdf:ID="_b08fcabb-1507-478a-8b76-081ead819b1d">
+		<cim:IdentifiedObject.name>SA-NO3</cim:IdentifiedObject.name>
+    	<cim:IdentifiedObject.mRID>b08fcabb-1507-478a-8b76-081ead819b1d</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>Scheduling Area of NO3 - 2011-05-16: Mid Part of Norway, n.o.Ø.Vinstra (300kV), n.o.Litjf(132 kV bus bars), s.o.Tunnsjødal-Verdal (300kV), s (300kV)</cim:IdentifiedObject.description>
+		<nc:SchedulingArea.BiddingZone rdf:resource="#_0f094148-164b-427a-a8e8-0c5f334688ae"/>
+		<nc:SchedulingArea.ControlArea rdf:resource="#_f1769606-9aeb-11e5-91da-b8763fd99c5f"/>
+    	<nc:SchedulingArea.normalParticipationFactor>1.0</nc:SchedulingArea.normalParticipationFactor>
+    	<nc:SchedulingArea.SynchronousArea rdf:resource="#_5829041b-1f25-4a3d-8b4c-532d9f0b6e54"/>
+	</nc:SchedulingArea>
+	<nc:SchedulingArea rdf:ID="_0b6da2c4-48c2-4a39-953a-38b365e0953e">
+		<cim:IdentifiedObject.name>SA-NO4</cim:IdentifiedObject.name>
+    	<cim:IdentifiedObject.mRID>0b6da2c4-48c2-4a39-953a-38b365e0953e</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>Scheduling Area of NO4 - 2011-05-16: Mid Part of Norway, n.o.Tunnsjødal-Verdal (300kV),os (300kV) Northern Norway</cim:IdentifiedObject.description>
+		<nc:SchedulingArea.BiddingZone rdf:resource="#_b64efd13-92fe-4786-87ef-731d1e2cce0e"/>
+		<nc:SchedulingArea.ControlArea rdf:resource="#_f1769606-9aeb-11e5-91da-b8763fd99c5f"/>
+    	<nc:SchedulingArea.normalParticipationFactor>1.0</nc:SchedulingArea.normalParticipationFactor>
+    	<nc:SchedulingArea.SynchronousArea rdf:resource="#_5829041b-1f25-4a3d-8b4c-532d9f0b6e54"/>
+	</nc:SchedulingArea>
+	<nc:SchedulingArea rdf:ID="_79f002b6-1193-40e2-9a3f-1b2e3d5dfa5c">
+		<cim:IdentifiedObject.name>SA-NO5</cim:IdentifiedObject.name>
+    	<cim:IdentifiedObject.mRID>79f002b6-1193-40e2-9a3f-1b2e3d5dfa5c</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>Scheduling Area of NO5 - 2011-05-16: Western Norway. West of Hylen (300kv), Nesflaten (300kv)</cim:IdentifiedObject.description>
+		<nc:SchedulingArea.BiddingZone rdf:resource="#_dc281688-8b45-4ce7-b2e8-6c524a5afece"/>
+		<nc:SchedulingArea.ControlArea rdf:resource="#_f1769606-9aeb-11e5-91da-b8763fd99c5f"/>
+    	<nc:SchedulingArea.normalParticipationFactor>1.0</nc:SchedulingArea.normalParticipationFactor>
+    	<nc:SchedulingArea.SynchronousArea rdf:resource="#_5829041b-1f25-4a3d-8b4c-532d9f0b6e54"/>
+	</nc:SchedulingArea>
+	<nc:SchedulingArea rdf:ID="_2e0d8985-2b1b-425f-b1da-756635504a6b">
+		<cim:IdentifiedObject.name>SA-SE1</cim:IdentifiedObject.name>
+    	<cim:IdentifiedObject.mRID>2e0d8985-2b1b-425f-b1da-756635504a6b</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>Scheduling Area of Sverige 1</cim:IdentifiedObject.description>
+		<nc:SchedulingArea.BiddingZone rdf:resource="#_b478a210-4550-4986-9e47-47912ff06d61"/>
+		<nc:SchedulingArea.ControlArea rdf:resource="#_f17695ca-9aeb-11e5-91da-b8763fd99c5f"/>
+    	<nc:SchedulingArea.normalParticipationFactor>1.0</nc:SchedulingArea.normalParticipationFactor>
+    	<nc:SchedulingArea.SynchronousArea rdf:resource="#_5829041b-1f25-4a3d-8b4c-532d9f0b6e54"/>
+	</nc:SchedulingArea>
+	<nc:SchedulingArea rdf:ID="_709001cd-13d9-4d1e-9a4e-553cd24f0724">
+		<cim:IdentifiedObject.name>SA-SE2</cim:IdentifiedObject.name>
+    	<cim:IdentifiedObject.mRID>709001cd-13d9-4d1e-9a4e-553cd24f0724</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>Scheduling Area of Sverige 2</cim:IdentifiedObject.description>
+		<nc:SchedulingArea.BiddingZone rdf:resource="#_781f385c-f3a1-4691-843d-eab2ed919a1b"/>
+		<nc:SchedulingArea.ControlArea rdf:resource="#_f17695ca-9aeb-11e5-91da-b8763fd99c5f"/>
+    	<nc:SchedulingArea.normalParticipationFactor>1.0</nc:SchedulingArea.normalParticipationFactor>
+    	<nc:SchedulingArea.SynchronousArea rdf:resource="#_5829041b-1f25-4a3d-8b4c-532d9f0b6e54"/>
+	</nc:SchedulingArea>
+	<nc:SchedulingArea rdf:ID="_f01ffeb3-1dd0-4344-9de7-42323a27d731">
+		<cim:IdentifiedObject.name>SA-SE3</cim:IdentifiedObject.name>
+    	<cim:IdentifiedObject.mRID>f01ffeb3-1dd0-4344-9de7-42323a27d731</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>Scheduling Area of Sverige 3</cim:IdentifiedObject.description>
+		<nc:SchedulingArea.BiddingZone rdf:resource="#_30e6709e-510c-49b9-92ec-e2aebdc1050e"/>
+		<nc:SchedulingArea.ControlArea rdf:resource="#_f17695ca-9aeb-11e5-91da-b8763fd99c5f"/>
+    	<nc:SchedulingArea.normalParticipationFactor>1.0</nc:SchedulingArea.normalParticipationFactor>
+    	<nc:SchedulingArea.SynchronousArea rdf:resource="#_5829041b-1f25-4a3d-8b4c-532d9f0b6e54"/>
+	</nc:SchedulingArea>
+	<nc:SchedulingArea rdf:ID="_d8739dc3-ffab-4457-b819-a20579c4d0fc">
+		<cim:IdentifiedObject.name>SA-SE4</cim:IdentifiedObject.name>
+    	<cim:IdentifiedObject.mRID>d8739dc3-ffab-4457-b819-a20579c4d0fc</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>Scheduling Area of Sverige 4</cim:IdentifiedObject.description>
+		<nc:SchedulingArea.BiddingZone rdf:resource="#_2119a5e9-fa38-4fe8-a8e9-2a2cc6f73bad"/>
+		<nc:SchedulingArea.ControlArea rdf:resource="#_f17695ca-9aeb-11e5-91da-b8763fd99c5f"/>
+    	<nc:SchedulingArea.normalParticipationFactor>1.0</nc:SchedulingArea.normalParticipationFactor>
+    	<nc:SchedulingArea.SynchronousArea rdf:resource="#_5829041b-1f25-4a3d-8b4c-532d9f0b6e54"/>
+	</nc:SchedulingArea>
+	<nc:SchedulingArea rdf:ID="_553776dc-295d-aa4b-a36e-f563acc71bb7">
+		<cim:IdentifiedObject.name>SA-NO6</cim:IdentifiedObject.name>
+    	<cim:IdentifiedObject.mRID>553776dc-295d-aa4b-a36e-f563acc71bb7</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>Scheduling Area of Ostfold</cim:IdentifiedObject.description>
+		<nc:SchedulingArea.BiddingZone rdf:resource="#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
+		<nc:SchedulingArea.ControlArea rdf:resource="#_f1769606-9aeb-11e5-91da-b8763fd99c5f"/>
+    	<nc:SchedulingArea.normalParticipationFactor>0.5</nc:SchedulingArea.normalParticipationFactor>
+    	<nc:SchedulingArea.SynchronousArea rdf:resource="#_5829041b-1f25-4a3d-8b4c-532d9f0b6e54"/>
+	</nc:SchedulingArea>
+	
+	<nc:ScheduleResource rdf:ID="_7ac39667-7920-42ad-9f10-bcb766a2b681">
+		<cim:IdentifiedObject.name>SR-NOKG11</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.mRID>7ac39667-7920-42ad-9f10-bcb766a2b681</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>Blafalli_SR</cim:IdentifiedObject.description>
+	</nc:ScheduleResource>
+	<nc:ScheduleResource rdf:ID="_7825e759-1c96-490a-8f29-3aa3cb776cc8">
+		<cim:IdentifiedObject.name>SR-NOKG01</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.mRID>7ac39667-7920-42ad-9f10-bcb766a2b681</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>Forsmark_SR</cim:IdentifiedObject.description>
+	</nc:ScheduleResource>
+	<nc:ScheduleResource rdf:ID="_7825e759-1c96-490a-8f29-3aa3cb776cc8">
+		<cim:IdentifiedObject.name>SR-NOKG14</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.mRID>7ac39667-7920-42ad-9f10-bcb766a2b681</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>Helsinki_SR</cim:IdentifiedObject.description>
+	</nc:ScheduleResource>
+	<nc:ScheduleResource rdf:ID="_e301f841-e969-4f95-8c22-f737b2f73c79">
+		<cim:IdentifiedObject.name>SR-NOKG03</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.mRID>e301f841-e969-4f95-8c22-f737b2f73c79</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>Jarpstrommen_Grundfors_SR</cim:IdentifiedObject.description>
+	</nc:ScheduleResource>
+	<nc:ScheduleResource rdf:ID="_3eabc0b3-1afe-439c-98a1-3fc0ef12e102">
+		<cim:IdentifiedObject.name>SR-NOKG09</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.mRID>3eabc0b3-1afe-439c-98a1-3fc0ef12e102</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>Kristiansand_SR</cim:IdentifiedObject.description>
+	</nc:ScheduleResource>
+	<nc:ScheduleResource rdf:ID="_482cbb4f-7ccd-4353-b5c8-60cc96c9799e">
+		<cim:IdentifiedObject.name>SR-NOKG10</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.mRID>482cbb4f-7ccd-4353-b5c8-60cc96c9799e</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>Kvilldal_SR</cim:IdentifiedObject.description>
+	</nc:ScheduleResource>
+	<nc:ScheduleResource rdf:ID="_5ff5264a-70fd-40f9-b5bf-0020c677c2fe">
+		<cim:IdentifiedObject.name>SR-NOKG16</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.mRID>5ff5264a-70fd-40f9-b5bf-0020c677c2fe</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>Malmo_SR</cim:IdentifiedObject.description>
+	</nc:ScheduleResource>
+	<nc:ScheduleResource rdf:ID="_ae6cb5a5-b679-4307-bc6d-f1fe70cb3a2c">
+		<cim:IdentifiedObject.name>SR-NOKG04</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.mRID>ae6cb5a5-b679-4307-bc6d-f1fe70cb3a2c</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>Oskarshamn_SR</cim:IdentifiedObject.description>
+	</nc:ScheduleResource>
+	<nc:ScheduleResource rdf:ID="_2ad2b84f-9b6e-48db-96d9-3dcbd5d9fc6f">
+		<cim:IdentifiedObject.name>SR-NOKG08</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.mRID>2ad2b84f-9b6e-48db-96d9-3dcbd5d9fc6f</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>Oslo_SR</cim:IdentifiedObject.description>
+	</nc:ScheduleResource>
+	<nc:ScheduleResource rdf:ID="_25dae699-5c94-4ed3-91df-d015a62d235b">
+		<cim:IdentifiedObject.name>SR-NOKG15</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.mRID>25dae699-5c94-4ed3-91df-d015a62d235b</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>Oulu_SR</cim:IdentifiedObject.description>
+	</nc:ScheduleResource>
+	<nc:ScheduleResource rdf:ID="_dd07673f-1aa1-4839-9f1c-cca381ec8f2f">
+		<cim:IdentifiedObject.name>SR-NOKG02</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.mRID>dd07673f-1aa1-4839-9f1c-cca381ec8f2f</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>Porjus_SR</cim:IdentifiedObject.description>
+	</nc:ScheduleResource>
+	<nc:ScheduleResource rdf:ID="_bd52ca52-19a2-467b-ad03-e77af426d092">
+		<cim:IdentifiedObject.name>SR-NOKG05</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.mRID>bd52ca52-19a2-467b-ad03-e77af426d092</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>Ringhals_SR</cim:IdentifiedObject.description>
+	</nc:ScheduleResource>
+	<nc:ScheduleResource rdf:ID="_e69c9068-d9ab-4197-b46a-8552e0d58557">
+		<cim:IdentifiedObject.name>SR-NOKG13</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.mRID>e69c9068-d9ab-4197-b46a-8552e0d58557</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>Rossaga_SR</cim:IdentifiedObject.description>
+	</nc:ScheduleResource>
+	<nc:ScheduleResource rdf:ID="_dab56647-fc6e-41ac-b2f4-ca2c8a669b61">
+		<cim:IdentifiedObject.name>SR-NOKG07</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.mRID>dab56647-fc6e-41ac-b2f4-ca2c8a669b61</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>Sima_SR</cim:IdentifiedObject.description>
+	</nc:ScheduleResource>
+	<nc:ScheduleResource rdf:ID="_0726d132-976b-4b46-8015-c0fdce45cd47">
+		<cim:IdentifiedObject.name>SR-NOKG06</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.mRID>0726d132-976b-4b46-8015-c0fdce45cd47</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>Tretten_SR</cim:IdentifiedObject.description>
+	</nc:ScheduleResource>
+	<nc:ScheduleResource rdf:ID="_24b6fc32-57fc-4f13-a102-46a4d80826ef">
+		<cim:IdentifiedObject.name>SR-NOKG12</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.mRID>24b6fc32-57fc-4f13-a102-46a4d80826ef</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>Trondheim_SR</cim:IdentifiedObject.description>
+	</nc:ScheduleResource>
+
+<!-- Unit distribution -->
+
+	<cim:GeneratingUnit rdf:about="_f1769915-9aeb-11e5-91da-b8763fd99c5f"> <!--ASKER   G1 -->
+				<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>false</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>1</pti:GeneratingUnit.meritOrder>
+		<nc:GeneratingUnit.normalParticipationFactor>1.0</nc:GeneratingUnit.normalParticipationFactor>-->
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_2ad2b84f-9b6e-48db-96d9-3dcbd5d9fc6f"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f176991d-9aeb-11e5-91da-b8763fd99c5f"> <!--ASKER   G2 -->
+				<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>false</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>2</pti:GeneratingUnit.meritOrder>
+		<nc:GeneratingUnit.normalParticipationFactor>2.0</nc:GeneratingUnit.normalParticipationFactor>-->
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_2ad2b84f-9b6e-48db-96d9-3dcbd5d9fc6f"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f176995d-9aeb-11e5-91da-b8763fd99c5f"> <!--BLAFALLIG1 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>1</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>1.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_7ac39667-7920-42ad-9f10-bcb766a2b681"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f1769964-9aeb-11e5-91da-b8763fd99c5f"> <!--BLAFALLIG2 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>2</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>2.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_7ac39667-7920-42ad-9f10-bcb766a2b681"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f176996a-9aeb-11e5-91da-b8763fd99c5f"> <!--BLAFALLIG3 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>3</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>3.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_7ac39667-7920-42ad-9f10-bcb766a2b681"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f1769970-9aeb-11e5-91da-b8763fd99c5f"> <!--BLAFALLIG4 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>4</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>4.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_7ac39667-7920-42ad-9f10-bcb766a2b681"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f1769976-9aeb-11e5-91da-b8763fd99c5f"> <!--BLAFALLIG5 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>5</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>5.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_7ac39667-7920-42ad-9f10-bcb766a2b681"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f1769800-9aeb-11e5-91da-b8763fd99c5f"> <!--FORSMARK G1 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>1</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>1.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_7825e759-1c96-490a-8f29-3aa3cb776cc8"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f1769807-9aeb-11e5-91da-b8763fd99c5f"> <!--FORSMARK G2 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>2</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>2.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_7825e759-1c96-490a-8f29-3aa3cb776cc8"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f176980d-9aeb-11e5-91da-b8763fd99c5f"> <!--FORSMARK G3 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>false</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>3</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>3.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_7825e759-1c96-490a-8f29-3aa3cb776cc8"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f1769841-9aeb-11e5-91da-b8763fd99c5f"> <!--GRUNDFORG1 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>false</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>1</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>1.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_e301f841-e969-4f95-8c22-f737b2f73c79"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f1769849-9aeb-11e5-91da-b8763fd99c5f"> <!--GRUNDFORG2 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>2</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>2.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_e301f841-e969-4f95-8c22-f737b2f73c79"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f1769850-9aeb-11e5-91da-b8763fd99c5f"> <!--GRUNDFORG3 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>3</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>3.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_e301f841-e969-4f95-8c22-f737b2f73c79"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f1769857-9aeb-11e5-91da-b8763fd99c5f"> <!--GRUNDFORG4 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>4</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>4.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_e301f841-e969-4f95-8c22-f737b2f73c79"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f176985e-9aeb-11e5-91da-b8763fd99c5f"> <!--GRUNDFORG5 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>5</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>5.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_e301f841-e969-4f95-8c22-f737b2f73c79"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f1769865-9aeb-11e5-91da-b8763fd99c5f"> <!--GRUNDFORG6 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>6</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>6.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_e301f841-e969-4f95-8c22-f737b2f73c79"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f176986c-9aeb-11e5-91da-b8763fd99c5f"> <!--GRUNDFORG7 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>7</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>7.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_e301f841-e969-4f95-8c22-f737b2f73c79"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f1769873-9aeb-11e5-91da-b8763fd99c5f"> <!--GRUNDFORG8 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>8</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>8.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_e301f841-e969-4f95-8c22-f737b2f73c79"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f17699b9-9aeb-11e5-91da-b8763fd99c5f"> <!--HELSINKIG1 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>1</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>1.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_939d9c9b-5c0f-46eb-941b-ea90ceac4db9"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f17699c1-9aeb-11e5-91da-b8763fd99c5f"> <!--HELSINKIG2 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>2</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>2.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_939d9c9b-5c0f-46eb-941b-ea90ceac4db9"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f17699c8-9aeb-11e5-91da-b8763fd99c5f"> <!--HELSINKIG3 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>3</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>3.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_939d9c9b-5c0f-46eb-941b-ea90ceac4db9"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f17699cf-9aeb-11e5-91da-b8763fd99c5f"> <!--HELSINKIG4 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>4</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>4.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_939d9c9b-5c0f-46eb-941b-ea90ceac4db9"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f17699d6-9aeb-11e5-91da-b8763fd99c5f"> <!--HELSINKIG5 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>5</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>5.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_939d9c9b-5c0f-46eb-941b-ea90ceac4db9"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f17699dd-9aeb-11e5-91da-b8763fd99c5f"> <!--HELSINKIG6 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>6</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>6.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_939d9c9b-5c0f-46eb-941b-ea90ceac4db9"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f17699e4-9aeb-11e5-91da-b8763fd99c5f"> <!--HELSINKIG7 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>7</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>7.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_939d9c9b-5c0f-46eb-941b-ea90ceac4db9"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f17699eb-9aeb-11e5-91da-b8763fd99c5f"> <!--HELSINKIG8 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>false</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>8</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>8.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_939d9c9b-5c0f-46eb-941b-ea90ceac4db9"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f17699f2-9aeb-11e5-91da-b8763fd99c5f"> <!--HELSINKIG9 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>false</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>9</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>9.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_939d9c9b-5c0f-46eb-941b-ea90ceac4db9"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f1769839-9aeb-11e5-91da-b8763fd99c5f"> <!--JARPSTROG1 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>false</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>1</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>1.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_e301f841-e969-4f95-8c22-f737b2f73c79"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f1769925-9aeb-11e5-91da-b8763fd99c5f"> <!--KRISTIANG1 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>1</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>1.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_3eabc0b3-1afe-439c-98a1-3fc0ef12e102"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f176992d-9aeb-11e5-91da-b8763fd99c5f"> <!--KRISTIANG2 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>2</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>2.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_3eabc0b3-1afe-439c-98a1-3fc0ef12e102"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f1769934-9aeb-11e5-91da-b8763fd99c5f"> <!--KRISTIANG3 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>3</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>3.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_3eabc0b3-1afe-439c-98a1-3fc0ef12e102"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f176993b-9aeb-11e5-91da-b8763fd99c5f"> <!--KRISTIANG4 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>false</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>4</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>4.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_3eabc0b3-1afe-439c-98a1-3fc0ef12e102"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f1769943-9aeb-11e5-91da-b8763fd99c5f"> <!--KVILLDALG1 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>1</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>1.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_482cbb4f-7ccd-4353-b5c8-60cc96c9799e"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f176994a-9aeb-11e5-91da-b8763fd99c5f"> <!--KVILLDALG2 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>2</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>2.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_482cbb4f-7ccd-4353-b5c8-60cc96c9799e"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f1769950-9aeb-11e5-91da-b8763fd99c5f"> <!--KVILLDALG3 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>3</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>3.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_482cbb4f-7ccd-4353-b5c8-60cc96c9799e"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f1769956-9aeb-11e5-91da-b8763fd99c5f"> <!--KVILLDALG4 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>4</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>4.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_482cbb4f-7ccd-4353-b5c8-60cc96c9799e"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f1769a0e-9aeb-11e5-91da-b8763fd99c5f"> <!--MALMO   G1 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>1</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>1.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_5ff5264a-70fd-40f9-b5bf-0020c677c2fe"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f1769a16-9aeb-11e5-91da-b8763fd99c5f"> <!--MALMO   G2 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>2</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>2.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_5ff5264a-70fd-40f9-b5bf-0020c677c2fe"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f1769a1d-9aeb-11e5-91da-b8763fd99c5f"> <!--MALMO   G3 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>3</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>3.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_5ff5264a-70fd-40f9-b5bf-0020c677c2fe"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f1769a24-9aeb-11e5-91da-b8763fd99c5f"> <!--MALMO   G4 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>4</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>4.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_5ff5264a-70fd-40f9-b5bf-0020c677c2fe"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f1769a2b-9aeb-11e5-91da-b8763fd99c5f"> <!--MALMO   G5 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>5</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>5.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_5ff5264a-70fd-40f9-b5bf-0020c677c2fe"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f1769a32-9aeb-11e5-91da-b8763fd99c5f"> <!--MALMO   G6 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>6</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>6.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_5ff5264a-70fd-40f9-b5bf-0020c677c2fe"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f176999b-9aeb-11e5-91da-b8763fd99c5f"> <!--MO      G1 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>1</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>1.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_e69c9068-d9ab-4197-b46a-8552e0d58557"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f17699a3-9aeb-11e5-91da-b8763fd99c5f"> <!--MO      G2 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>2</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>2.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_e69c9068-d9ab-4197-b46a-8552e0d58557"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f17699aa-9aeb-11e5-91da-b8763fd99c5f"> <!--MO      G3 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>3</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>3.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_e69c9068-d9ab-4197-b46a-8552e0d58557"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f17699b1-9aeb-11e5-91da-b8763fd99c5f"> <!--MO      G4 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>4</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>4.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_e69c9068-d9ab-4197-b46a-8552e0d58557"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f176987b-9aeb-11e5-91da-b8763fd99c5f"> <!--OSKARSHAG1 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>1</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>1.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_ae6cb5a5-b679-4307-bc6d-f1fe70cb3a2c"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f1769883-9aeb-11e5-91da-b8763fd99c5f"> <!--OSKARSHAG2 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>2</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>2.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_ae6cb5a5-b679-4307-bc6d-f1fe70cb3a2c"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f176988a-9aeb-11e5-91da-b8763fd99c5f"> <!--OSKARSHAG3 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>3</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>3.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_ae6cb5a5-b679-4307-bc6d-f1fe70cb3a2c"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f1769891-9aeb-11e5-91da-b8763fd99c5f"> <!--OSKARSHAG4 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>4</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>4.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_ae6cb5a5-b679-4307-bc6d-f1fe70cb3a2c"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f1769898-9aeb-11e5-91da-b8763fd99c5f"> <!--OSKARSHAG5 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>5</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>5.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_ae6cb5a5-b679-4307-bc6d-f1fe70cb3a2c"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f176989f-9aeb-11e5-91da-b8763fd99c5f"> <!--OSKARSHAG6 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>6</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>6.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_ae6cb5a5-b679-4307-bc6d-f1fe70cb3a2c"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f1769907-9aeb-11e5-91da-b8763fd99c5f"> <!--OSLO    G1 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>1</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>1.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_2ad2b84f-9b6e-48db-96d9-3dcbd5d9fc6f"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f176990e-9aeb-11e5-91da-b8763fd99c5f"> <!--OSLO    G2 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>2</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>2.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_2ad2b84f-9b6e-48db-96d9-3dcbd5d9fc6f"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f17699fa-9aeb-11e5-91da-b8763fd99c5f"> <!--OULU    G1 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>1</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>1.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_25dae699-5c94-4ed3-91df-d015a62d235b"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f1769a01-9aeb-11e5-91da-b8763fd99c5f"> <!--OULU    G2 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>2</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>2.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_25dae699-5c94-4ed3-91df-d015a62d235b"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f1769a07-9aeb-11e5-91da-b8763fd99c5f"> <!--OULU    G3 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>3</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>3.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_25dae699-5c94-4ed3-91df-d015a62d235b"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f1769814-9aeb-11e5-91da-b8763fd99c5f"> <!--PORJUS G1 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>1</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>1.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_dd07673f-1aa1-4839-9f1c-cca381ec8f2f"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f176981c-9aeb-11e5-91da-b8763fd99c5f"> <!--PORJUS G2 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>2</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>2.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_dd07673f-1aa1-4839-9f1c-cca381ec8f2f"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f1769823-9aeb-11e5-91da-b8763fd99c5f"> <!--PORJUS G3 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>3</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>3.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_dd07673f-1aa1-4839-9f1c-cca381ec8f2f"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f176982a-9aeb-11e5-91da-b8763fd99c5f"> <!--PORJUS G4 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>4</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>4.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_dd07673f-1aa1-4839-9f1c-cca381ec8f2f"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f1769831-9aeb-11e5-91da-b8763fd99c5f"> <!--PORJUS G5 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>false</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>5</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>5.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_dd07673f-1aa1-4839-9f1c-cca381ec8f2f"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f17698a7-9aeb-11e5-91da-b8763fd99c5f"> <!--RINGHALSG1 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>1</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>1.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_bd52ca52-19a2-467b-ad03-e77af426d092"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f17698ae-9aeb-11e5-91da-b8763fd99c5f"> <!--RINGHALSG2 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>2</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>2.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_bd52ca52-19a2-467b-ad03-e77af426d092"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f17698b4-9aeb-11e5-91da-b8763fd99c5f"> <!--RINGHALSG3 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>3</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>3.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_bd52ca52-19a2-467b-ad03-e77af426d092"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f17698ba-9aeb-11e5-91da-b8763fd99c5f"> <!--RINGHALSG4 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>4</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>4.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_bd52ca52-19a2-467b-ad03-e77af426d092"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f17698c0-9aeb-11e5-91da-b8763fd99c5f"> <!--RINGHALSG5 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>false</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>5</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>5.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_bd52ca52-19a2-467b-ad03-e77af426d092"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f17698c6-9aeb-11e5-91da-b8763fd99c5f"> <!--RINGHALSG6 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>false</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>6</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>6.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_bd52ca52-19a2-467b-ad03-e77af426d092"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f17698db-9aeb-11e5-91da-b8763fd99c5f"> <!--SIMA    G1 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>1</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>1.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_dab56647-fc6e-41ac-b2f4-ca2c8a669b61"/> <!-- to be included -->
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f17698e3-9aeb-11e5-91da-b8763fd99c5f"> <!--SIMA    G2 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>2</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>2.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_dab56647-fc6e-41ac-b2f4-ca2c8a669b61"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f17698ea-9aeb-11e5-91da-b8763fd99c5f"> <!--SIMA    G3 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>3</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>3.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_dab56647-fc6e-41ac-b2f4-ca2c8a669b61"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f17698f1-9aeb-11e5-91da-b8763fd99c5f"> <!--SIMA    G4 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>4</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>4.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_dab56647-fc6e-41ac-b2f4-ca2c8a669b61"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f17698f8-9aeb-11e5-91da-b8763fd99c5f"> <!--SIMA    G5 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>5</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>5.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_dab56647-fc6e-41ac-b2f4-ca2c8a669b61"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f17698ff-9aeb-11e5-91da-b8763fd99c5f"> <!--SIMA    G6 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>6</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>6.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_dab56647-fc6e-41ac-b2f4-ca2c8a669b61"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f17698cd-9aeb-11e5-91da-b8763fd99c5f"> <!--TRETTEN G1 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>false</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>1</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>1.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_0726d132-976b-4b46-8015-c0fdce45cd47"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f17698d4-9aeb-11e5-91da-b8763fd99c5f"> <!--TRETTEN G2 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>false</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>2</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>2.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_0726d132-976b-4b46-8015-c0fdce45cd47"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f176997d-9aeb-11e5-91da-b8763fd99c5f"> <!--TRONDHEIG1 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>1</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>1.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_24b6fc32-57fc-4f13-a102-46a4d80826ef"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f1769985-9aeb-11e5-91da-b8763fd99c5f"> <!--TRONDHEIG2 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>2</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>2.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_24b6fc32-57fc-4f13-a102-46a4d80826ef"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f176998c-9aeb-11e5-91da-b8763fd99c5f"> <!--TRONDHEIG3 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>3</pti:GeneratingUnit.meritOrder>-->
+		<nc:GeneratingUnit.normalParticipationFactor>3.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_24b6fc32-57fc-4f13-a102-46a4d80826ef"/>
+	</cim:GeneratingUnit>
+	<cim:GeneratingUnit rdf:about="_f1769993-9aeb-11e5-91da-b8763fd99c5f"> <!--TRONDHEIG4 -->
+		<!-- Need to modify 
+		<pti:GeneratingUnit.dispatchable>true</pti:GeneratingUnit.dispatchable>
+		<pti:GeneratingUnit.meritOrder>4</pti:GeneratingUnit.meritOrder> -->
+		<nc:GeneratingUnit.normalParticipationFactor>4.0</nc:GeneratingUnit.normalParticipationFactor>
+		<nc:GeneratingUnit.ScheduleResource rdf:resource="#_24b6fc32-57fc-4f13-a102-46a4d80826ef"/>
+	</cim:GeneratingUnit>
+
+	<nc:CircuitShare rdf:ID="_9a6018fb-ede3-4517-94e4-b54c583543ad">
+		<cim:IdentifiedObject.name>CS 420RINGHALS-HALDEN  1</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.mRID>9a6018fb-ede3-4517-94e4-b54c583543ad</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>Circuit contribution share of CC 420RINGHALS-HALDEN  1 on PTC 420RINGHALS-HALDEN</cim:IdentifiedObject.description>
+    <nc:CircuitShare.Circuit rdf:resource="#_efe2dce7-e144-48ae-8b0e-9e48cddea658"/>
+		<nc:CircuitShare.normalContributionFactor>100</nc:CircuitShare.normalContributionFactor>
+		<nc:CircuitShare.PowerTransferCorridor rdf:resource="#_e3cfe43a-f522-4164-bb01-f7a3abc5b26d"/>
+	</nc:CircuitShare>
+
+	<nc:CircuitShare rdf:ID="_e6fedcdb-8a62-4559-bd19-227de853c76a">
+		<cim:IdentifiedObject.name>CS 420RINGHALS-HALDEN  2</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.mRID>e6fedcdb-8a62-4559-bd19-227de853c76a</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>Circuit contribution share of CC 420RINGHALS-HALDEN  2 on PTC 420RINGHALS-HALDEN</cim:IdentifiedObject.description>
+    <nc:CircuitShare.Circuit rdf:resource="#_0b8fd844-ca69-4cc9-82b5-3225991235b6"/>
+    <nc:CircuitShare.normalContributionFactor>100</nc:CircuitShare.normalContributionFactor>
+		<nc:CircuitShare.contributionFactor>100</nc:CircuitShare.contributionFactor>
+		<nc:CircuitShare.PowerTransferCorridor rdf:resource="#_e3cfe43a-f522-4164-bb01-f7a3abc5b26d"/>
+	</nc:CircuitShare>
+
+
+	<nc:LineCircuit rdf:ID="_efe2dce7-e144-48ae-8b0e-9e48cddea658">
+		<cim:IdentifiedObject.name>CC 420RINGHALS-HALDEN  1</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.mRID>efe2dce7-e144-48ae-8b0e-9e48cddea658</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>Line Circuit container for 420RINGHALS-HALDEN  1.</cim:IdentifiedObject.description>
+		<nc:Circuit.Terminal rdf:resource="#_2dd9039f-bdfb-11e5-94fa-c8f73332c8f4"/> <!-- Need to check -->
+		<nc:Circuit.positiveFlowIn>true</nc:Circuit.positiveFlowIn>
+	</nc:LineCircuit>
+
+	<nc:LineCircuit rdf:ID="_0b8fd844-ca69-4cc9-82b5-3225991235b6">
+		<cim:IdentifiedObject.name>CC 420RINGHALS-HALDEN  2</cim:IdentifiedObject.name>
+    	<cim:IdentifiedObject.mRID>0b8fd844-ca69-4cc9-82b5-3225991235b6</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>Line Circuit container for 420RINGHALS-HALDEN  2.</cim:IdentifiedObject.description>
+		<nc:Circuit.Terminal rdf:resource="#_2dd903a2-bdfb-11e5-94fa-c8f73332c8f4"/> <!-- Need to check -->
+		<nc:Circuit.positiveFlowIn>true</nc:Circuit.positiveFlowIn>
+	</nc:LineCircuit>
+
+	<nc:OrdinaryPowerTransferCorridor rdf:ID="_e3cfe43a-f522-4164-bb01-f7a3abc5b26d">
+		<cim:IdentifiedObject.name>OPTC 420RINGHALS-HALDEN</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.mRID>e3cfe43a-f522-4164-bb01-f7a3abc5b26d</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.description>Ordinary Power Transfer Corridor 420RINGHALS-HALDEN</cim:IdentifiedObject.description>
+    <nc:PowerTransferCorridor.normalEnabled>true</nc:PowerTransferCorridor.normalEnabled>
+	</nc:OrdinaryPowerTransferCorridor>
+	
+
+
+</rdf:RDF>
