@@ -45,7 +45,7 @@
 		<cim:IdentifiedObject.description>Tripping of 300KRISTIAN-ARENDAL</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>CE 300KRISTIAN-ARENDAL</cim:IdentifiedObject.name>
 		<cim:ContingencyElement.Contingency rdf:resource="#_0c19a9a2-1165-49f9-bc0a-2f6b88deec9f" />
-		<cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ontingencyEquipmentStatusKind.outOfService"/>
+		<cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
 		<cim:ContingencyEquipment.Equipment rdf:resource="#_f1769cd4-9aeb-11e5-91da-b8763fd99c5f" />
 	</cim:ContingencyEquipment>
 
