@@ -42,11 +42,11 @@
 	</nc:OrdinaryContingency>
 
  	<nc:SchedulingArea rdf:about="_19454eeb-cf3c-4b22-91c8-42c94a48e04e"> <!-- SA-NO1-->
-    <nc:SchedulingArea.participationFactor>0.6</nc:SchedulingArea.mormalParticipationFactor>
+    <nc:SchedulingArea.participationFactor>0.6</nc:SchedulingArea.participationFactor>
 	</nc:SchedulingArea> 
 
  	<nc:SchedulingArea rdf:about="_553776dc-295d-aa4b-a36e-f563acc71bb7"> <!-- SA-NO6-->
-    <nc:SchedulingArea.participationFactor>0.4</nc:SchedulingArea.mormalParticipationFactor>
+    <nc:SchedulingArea.participationFactor>0.4</nc:SchedulingArea.participationFactor>
 	</nc:SchedulingArea> 
 
 	<nc:OrdinaryPowerTransferCorridor rdf:about="_e3cfe43a-f522-4164-bb01-f7a3abc5b26d">  <!-- OPTC 420RINGHALS-HALDEN-->
