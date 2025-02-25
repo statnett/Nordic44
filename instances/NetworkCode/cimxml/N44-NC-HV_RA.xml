@@ -193,7 +193,7 @@
 	<nc:StaticPropertyRange rdf:ID="_8048d34b-3ae2-4699-8e4c-e83e2cdff327">
 		<cim:IdentifiedObject.name>SPRA FEDA 300 L1</cim:IdentifiedObject.name>
 		<cim:IdentifiedObject.mRID>8048d34b-3ae2-4699-8e4c-e83e2cdff327</cim:IdentifiedObject.mRID>
-		<nc:RangeConstraint.direction rdf:resource="https://cim4.eu/ns/nc#PRelativeDirectionKind.down"/>
+		<nc:RangeConstraint.direction rdf:resource="https://cim4.eu/ns/nc#RelativeDirectionKind.down"/>
 		<nc:RangeConstraint.GridStateAlteration rdf:resource="#_ec32d28c-4ea8-4a8b-a3f1-558dd07666e7"/>
 		<nc:RangeConstraint.valueKind rdf:resource="http://entsoe.eu/ns/nc#ValueOffsetKind.incremental"/>
 		<nc:RangeConstraint.normalValue>150</nc:RangeConstraint.normalValue>
@@ -204,7 +204,7 @@
 	<nc:StaticPropertyRange rdf:ID="_723d5e6c-76d1-4f49-b151-a0ad7f46e036">
 		<cim:IdentifiedObject.name>SPRA KVI KRISTIAN G1</cim:IdentifiedObject.name>
 		<cim:IdentifiedObject.mRID>723d5e6c-76d1-4f49-b151-a0ad7f46e036</cim:IdentifiedObject.mRID>
-		<nc:RangeConstraint.direction rdf:resource="https://cim4.eu/ns/nc#PRelativeDirectionKind.down"/>
+		<nc:RangeConstraint.direction rdf:resource="https://cim4.eu/ns/nc#RelativeDirectionKind.down"/>
 		<nc:RangeConstraint.GridStateAlteration rdf:resource="#_050cd458-b999-4c8d-ad24-93c6a3102b53"/>
 		<nc:RangeConstraint.valueKind rdf:resource="http://entsoe.eu/ns/nc#ValueOffsetKind.incremental"/>
 		<nc:RangeConstraint.normalValue>25</nc:RangeConstraint.normalValue>
@@ -214,7 +214,7 @@
 	<nc:StaticPropertyRange rdf:ID="_71c1c2af-f4d4-429a-af03-8c6fd44de393">
 		<cim:IdentifiedObject.name>SPRA KVI KRISTIAN G2</cim:IdentifiedObject.name>
 		<cim:IdentifiedObject.mRID>71c1c2af-f4d4-429a-af03-8c6fd44de393</cim:IdentifiedObject.mRID>
-		<nc:RangeConstraint.direction rdf:resource="https://cim4.eu/ns/nc#PRelativeDirectionKind.down"/>
+		<nc:RangeConstraint.direction rdf:resource="https://cim4.eu/ns/nc#RelativeDirectionKind.down"/>
 		<nc:RangeConstraint.GridStateAlteration rdf:resource="#_417979f7-6af4-460e-8966-c42e671844a3"/>
 		<nc:RangeConstraint.valueKind rdf:resource="http://entsoe.eu/ns/nc#ValueOffsetKind.incremental"/>
 		<nc:RangeConstraint.normalValue>30</nc:RangeConstraint.normalValue>
