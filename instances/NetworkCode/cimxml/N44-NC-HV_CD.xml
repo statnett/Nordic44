@@ -5,7 +5,8 @@
 	xmlns:dcterms="http://purl.org/dc/terms/" 
  	xmlns:eu="https://cim.ucaiug.io/ns/eu#"
 	xmlns:nc="https://cim4.eu/ns/nc#"
-	xmlns:prov="http://www.w3.org/ns/prov#" 
+	xmlns:prov="http://www.w3.org/ns/prov#"
+  xmlns:adms="http://www.w3.org/ns/adms#"
 	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   >
 
@@ -348,260 +349,260 @@
     <cim:IdentifiedObject.name>SE3_SWL</cim:IdentifiedObject.name>
   </nc:BiddingZone>
   <nc:BiddingZoneBorder rdf:ID="_8a2653a0-7f76-4f64-a346-9ae318f219dc">
-    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#dc281688-8b45-4ce7-b2e8-6c524a5afece"/>
-    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#63b13e2e-8d0a-47d0-8de8-fb686decbae4"/>
+    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#_dc281688-8b45-4ce7-b2e8-6c524a5afece"/>
+    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#_63b13e2e-8d0a-47d0-8de8-fb686decbae4"/>
     <cim:IdentifiedObject.description>Non-oriented border between Norwegian Area Elspot Area 5 - Norwegian Area Elspot Area 2</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>8a2653a0-7f76-4f64-a346-9ae318f219dc</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>NO5 - NO2</cim:IdentifiedObject.name>
   </nc:BiddingZoneBorder>
   <nc:BiddingZoneBorder rdf:ID="_3dab7075-ce62-4e1e-98c1-c61fa047ae43">
-    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#b478a210-4550-4986-9e47-47912ff06d61"/>
-    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#6eaaae78-21f1-41c7-81a4-2b0fe15cdbfc"/>
+    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#_b478a210-4550-4986-9e47-47912ff06d61"/>
+    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#_6eaaae78-21f1-41c7-81a4-2b0fe15cdbfc"/>
     <cim:IdentifiedObject.description>Non-oriented border between Swedish Elspot Area 1 - Finland</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>3dab7075-ce62-4e1e-98c1-c61fa047ae43</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>SE1 - FI</cim:IdentifiedObject.name>
   </nc:BiddingZoneBorder>
   <nc:BiddingZoneBorder rdf:ID="_9ed72c3e-5849-4ff6-aea0-e9fbe9ee9bbf">
-    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#781f385c-f3a1-4691-843d-eab2ed919a1b"/>
-    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#0f094148-164b-427a-a8e8-0c5f334688ae"/>
+    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#_781f385c-f3a1-4691-843d-eab2ed919a1b"/>
+    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#_0f094148-164b-427a-a8e8-0c5f334688ae"/>
     <cim:IdentifiedObject.description>Non-oriented border between Swedish Elspot Area 2 - Norwegian Area Elspot Area 3</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>9ed72c3e-5849-4ff6-aea0-e9fbe9ee9bbf</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>SE2 - NO3</cim:IdentifiedObject.name>
   </nc:BiddingZoneBorder>
   <nc:BiddingZoneBorder rdf:ID="_4f1743b1-da1c-4087-9055-291f7955ec8f">
-    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#b64efd13-92fe-4786-87ef-731d1e2cce0e"/>
-    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#b478a210-4550-4986-9e47-47912ff06d61"/>
+    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#_b64efd13-92fe-4786-87ef-731d1e2cce0e"/>
+    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#_b478a210-4550-4986-9e47-47912ff06d61"/>
     <cim:IdentifiedObject.description>Non-oriented border between Norwegian Area Elspot Area 4 - Swedish Elspot Area 1</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>4f1743b1-da1c-4087-9055-291f7955ec8f</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>NO4 - SE1</cim:IdentifiedObject.name>
   </nc:BiddingZoneBorder>
   <nc:BiddingZoneBorder rdf:ID="_ccb919b4-1482-49f1-ab46-b072020ac120">
-    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#e7e780b2-3a74-4453-8e4d-f10a397abf5d"/>
-    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#090d342b-a577-4be1-880b-f97bc958ff03"/>
+    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#_e7e780b2-3a74-4453-8e4d-f10a397abf5d"/>
+    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#_090d342b-a577-4be1-880b-f97bc958ff03"/>
     <cim:IdentifiedObject.description>Non-oriented border between Denmark DK1 - Netherlands</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>ccb919b4-1482-49f1-ab46-b072020ac120</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>DK1 - NL</cim:IdentifiedObject.name>
   </nc:BiddingZoneBorder>
   <nc:BiddingZoneBorder rdf:ID="_2e524331-ba5b-4b27-99a2-332184e2ce24">
-    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#2119a5e9-fa38-4fe8-a8e9-2a2cc6f73bad"/>
-    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#20ab92be-8650-44cc-8a7e-fdae8baf027f"/>
+    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#_2119a5e9-fa38-4fe8-a8e9-2a2cc6f73bad"/>
+    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#_20ab92be-8650-44cc-8a7e-fdae8baf027f"/>
     <cim:IdentifiedObject.description>Non-oriented border between Swedish Elspot Area 4 - Lithuania</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>2e524331-ba5b-4b27-99a2-332184e2ce24</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>SE4 - LT</cim:IdentifiedObject.name>
   </nc:BiddingZoneBorder>
   <nc:BiddingZoneBorder rdf:ID="_49811c7c-0cea-4dcf-8c83-3c5b8601b218">
-    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#0c1bc7f4-7404-4a4d-9d6b-d9edc0944a54"/>
-    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#f0a0d421-7010-423b-805a-73a99393f1d6"/>
+    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#_0c1bc7f4-7404-4a4d-9d6b-d9edc0944a54"/>
+    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#_f0a0d421-7010-423b-805a-73a99393f1d6"/>
     <cim:IdentifiedObject.description>Non-oriented border between Denmark DK2 - Germany_Austria_Luxemburg</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>49811c7c-0cea-4dcf-8c83-3c5b8601b218</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>DK2 - DE_AT_LU</cim:IdentifiedObject.name>
   </nc:BiddingZoneBorder>
   <nc:BiddingZoneBorder rdf:ID="_3f43657a-d46a-4247-85d8-55027c0adaf7">
-    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#dc281688-8b45-4ce7-b2e8-6c524a5afece"/>
-    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#0f094148-164b-427a-a8e8-0c5f334688ae"/>
+    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#_dc281688-8b45-4ce7-b2e8-6c524a5afece"/>
+    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#_0f094148-164b-427a-a8e8-0c5f334688ae"/>
     <cim:IdentifiedObject.description>Non-oriented border between Norwegian Area Elspot Area 5 - Norwegian Area Elspot Area 3</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>3f43657a-d46a-4247-85d8-55027c0adaf7</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>NO5 - NO3</cim:IdentifiedObject.name>
   </nc:BiddingZoneBorder>
   <nc:BiddingZoneBorder rdf:ID="_697bcbb6-d367-4c5c-be7b-13a91cf36d53">
-    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#0f094148-164b-427a-a8e8-0c5f334688ae"/>
-    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#b64efd13-92fe-4786-87ef-731d1e2cce0e"/>
+    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#_0f094148-164b-427a-a8e8-0c5f334688ae"/>
+    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#_b64efd13-92fe-4786-87ef-731d1e2cce0e"/>
     <cim:IdentifiedObject.description>Non-oriented border between Norwegian Area Elspot Area 3 - Norwegian Area Elspot Area 4</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>697bcbb6-d367-4c5c-be7b-13a91cf36d53</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>NO3 - NO4</cim:IdentifiedObject.name>
   </nc:BiddingZoneBorder>
   <nc:BiddingZoneBorder rdf:ID="_d59af46b-8d2c-41b0-a2b0-817b001831fc">
-    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#85fea1a6-7edb-4f73-88b8-3a95ea728d03"/>
-    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#0c1bc7f4-7404-4a4d-9d6b-d9edc0944a54"/>
+    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#_85fea1a6-7edb-4f73-88b8-3a95ea728d03"/>
+    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#_0c1bc7f4-7404-4a4d-9d6b-d9edc0944a54"/>
     <cim:IdentifiedObject.description>Non-oriented border between Germany_Luxemburg - Denmark DK2</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>d59af46b-8d2c-41b0-a2b0-817b001831fc</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>DE_LU - DK2</cim:IdentifiedObject.name>
   </nc:BiddingZoneBorder>
   <nc:BiddingZoneBorder rdf:ID="_fdc34686-71ab-4fc4-8975-271a1bbe0acb">
-    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#dc281688-8b45-4ce7-b2e8-6c524a5afece"/>
-    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
+    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#_dc281688-8b45-4ce7-b2e8-6c524a5afece"/>
+    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
     <cim:IdentifiedObject.description>Non-oriented border between Norwegian Area Elspot Area 5 - Norwegian Area Elspot Area 1</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>fdc34686-71ab-4fc4-8975-271a1bbe0acb</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>NO5 - NO1</cim:IdentifiedObject.name>
   </nc:BiddingZoneBorder>
   <nc:BiddingZoneBorder rdf:ID="_2e7b7ea0-39a6-46ed-80a1-e887ce4c45cd">
-    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
-    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#63b13e2e-8d0a-47d0-8de8-fb686decbae4"/>
+    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
+    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#_63b13e2e-8d0a-47d0-8de8-fb686decbae4"/>
     <cim:IdentifiedObject.description>Non-oriented border between Norwegian Area Elspot Area 1 - Norwegian Area Elspot Area 2</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>2e7b7ea0-39a6-46ed-80a1-e887ce4c45cd</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>NO1 - NO2</cim:IdentifiedObject.name>
   </nc:BiddingZoneBorder>
   <nc:BiddingZoneBorder rdf:ID="_d2baadfc-1398-4300-bcd8-2eacd5b931aa">
-    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#2119a5e9-fa38-4fe8-a8e9-2a2cc6f73bad"/>
-    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#85fea1a6-7edb-4f73-88b8-3a95ea728d03"/>
+    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#_2119a5e9-fa38-4fe8-a8e9-2a2cc6f73bad"/>
+    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#_85fea1a6-7edb-4f73-88b8-3a95ea728d03"/>
     <cim:IdentifiedObject.description>Non-oriented border between Swedish Elspot Area 4 - Germany_Luxemburg</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>d2baadfc-1398-4300-bcd8-2eacd5b931aa</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>SE4 - DE_LU</cim:IdentifiedObject.name>
   </nc:BiddingZoneBorder>
   <nc:BiddingZoneBorder rdf:ID="_c6f889c7-eb10-4964-a47f-765cabbb0aa3">
-    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#2119a5e9-fa38-4fe8-a8e9-2a2cc6f73bad"/>
-    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#0c1bc7f4-7404-4a4d-9d6b-d9edc0944a54"/>
+    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#_2119a5e9-fa38-4fe8-a8e9-2a2cc6f73bad"/>
+    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#_0c1bc7f4-7404-4a4d-9d6b-d9edc0944a54"/>
     <cim:IdentifiedObject.description>Non-oriented border between Swedish Elspot Area 4 - Denmark DK2</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>c6f889c7-eb10-4964-a47f-765cabbb0aa3</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>SE4 - DK2</cim:IdentifiedObject.name>
   </nc:BiddingZoneBorder>
   <nc:BiddingZoneBorder rdf:ID="_0b1fce1c-50ec-409a-a8ba-5a69a50b88ed">
-    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#30e6709e-510c-49b9-92ec-e2aebdc1050e"/>
-    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#6eaaae78-21f1-41c7-81a4-2b0fe15cdbfc"/>
+    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#_30e6709e-510c-49b9-92ec-e2aebdc1050e"/>
+    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#_6eaaae78-21f1-41c7-81a4-2b0fe15cdbfc"/>
     <cim:IdentifiedObject.description>Non-oriented border between Swedish Elspot Area 3 - Finland</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>0b1fce1c-50ec-409a-a8ba-5a69a50b88ed</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>SE3 - FI</cim:IdentifiedObject.name>
   </nc:BiddingZoneBorder>
   <nc:BiddingZoneBorder rdf:ID="_72eb4991-d019-4b13-b023-74578baec192">
-    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#7e0de26d-9d0e-4181-a94a-d3a50fdaf719"/>
-    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#63b13e2e-8d0a-47d0-8de8-fb686decbae4"/>
+    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#_7e0de26d-9d0e-4181-a94a-d3a50fdaf719"/>
+    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#_63b13e2e-8d0a-47d0-8de8-fb686decbae4"/>
     <cim:IdentifiedObject.description>Non-oriented border between Great Britain - Norwegian Area Elspot Area 2</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>72eb4991-d019-4b13-b023-74578baec192</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>GB - NO2</cim:IdentifiedObject.name>
   </nc:BiddingZoneBorder>
   <nc:BiddingZoneBorder rdf:ID="_418d9231-72f2-4b70-af6d-511cf4a60e46">
-    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#e7e780b2-3a74-4453-8e4d-f10a397abf5d"/>
-    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#f0a0d421-7010-423b-805a-73a99393f1d6"/>
+    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#_e7e780b2-3a74-4453-8e4d-f10a397abf5d"/>
+    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#_f0a0d421-7010-423b-805a-73a99393f1d6"/>
     <cim:IdentifiedObject.description>Non-oriented border between Denmark DK1 - Germany_Austria_Luxemburg</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>418d9231-72f2-4b70-af6d-511cf4a60e46</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>DK1 - DE_AT_LU</cim:IdentifiedObject.name>
   </nc:BiddingZoneBorder>
   <nc:BiddingZoneBorder rdf:ID="_4f4f2cfe-424c-42d0-a55b-d91faf704913">
-    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#e7e780b2-3a74-4453-8e4d-f10a397abf5d"/>
-    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#85fea1a6-7edb-4f73-88b8-3a95ea728d03"/>
+    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#_e7e780b2-3a74-4453-8e4d-f10a397abf5d"/>
+    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#_85fea1a6-7edb-4f73-88b8-3a95ea728d03"/>
     <cim:IdentifiedObject.description>Non-oriented border between Denmark DK1 - Germany_Luxemburg</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>4f4f2cfe-424c-42d0-a55b-d91faf704913</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>DK1 - DE_LU</cim:IdentifiedObject.name>
   </nc:BiddingZoneBorder>
   <nc:BiddingZoneBorder rdf:ID="_6f62eb40-3a9b-4424-b47b-2815b8e0d9fe">
-    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#e79e30a5-9cc0-4773-9909-1aab02341519"/>
-    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#30e6709e-510c-49b9-92ec-e2aebdc1050e"/>
+    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#_e79e30a5-9cc0-4773-9909-1aab02341519"/>
+    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#_30e6709e-510c-49b9-92ec-e2aebdc1050e"/>
     <cim:IdentifiedObject.description>Non-oriented border between Cut area SE3LS - Swedish Elspot Area 3</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>6f62eb40-3a9b-4424-b47b-2815b8e0d9fe</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>CUT_AREA_SE3LS - SE3</cim:IdentifiedObject.name>
   </nc:BiddingZoneBorder>
   <nc:BiddingZoneBorder rdf:ID="_8105c169-bb3e-4c36-9bac-0c31c482638b">
-    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#e7e780b2-3a74-4453-8e4d-f10a397abf5d"/>
-    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#7e0de26d-9d0e-4181-a94a-d3a50fdaf719"/>
+    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#_e7e780b2-3a74-4453-8e4d-f10a397abf5d"/>
+    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#_7e0de26d-9d0e-4181-a94a-d3a50fdaf719"/>
     <cim:IdentifiedObject.description>Non-oriented border between Denmark DK1 - Great Britain</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>8105c169-bb3e-4c36-9bac-0c31c482638b</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>DK1 - GB</cim:IdentifiedObject.name>
   </nc:BiddingZoneBorder>
   <nc:BiddingZoneBorder rdf:ID="_6fb56677-7feb-4197-8165-f52a7acc7051">
-    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#8ec52d73-62d1-4676-a791-0f7302a04b71"/>
-    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#30e6709e-510c-49b9-92ec-e2aebdc1050e"/>
+    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#_8ec52d73-62d1-4676-a791-0f7302a04b71"/>
+    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#_30e6709e-510c-49b9-92ec-e2aebdc1050e"/>
     <cim:IdentifiedObject.description>Non-oriented border between Swedish Fictitious Area SE3A - Swedish Elspot Area 3</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>6fb56677-7feb-4197-8165-f52a7acc7051</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>SE3A - SE3</cim:IdentifiedObject.name>
   </nc:BiddingZoneBorder>
   <nc:BiddingZoneBorder rdf:ID="_4bd4d204-ad21-4bb5-9657-a713bb8193d4">
-    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#b478a210-4550-4986-9e47-47912ff06d61"/>
-    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#781f385c-f3a1-4691-843d-eab2ed919a1b"/>
+    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#_b478a210-4550-4986-9e47-47912ff06d61"/>
+    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#_781f385c-f3a1-4691-843d-eab2ed919a1b"/>
     <cim:IdentifiedObject.description>Non-oriented border between Swedish Elspot Area 1 - Swedish Elspot Area 2</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>4bd4d204-ad21-4bb5-9657-a713bb8193d4</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>SE1 - SE2</cim:IdentifiedObject.name>
   </nc:BiddingZoneBorder>
   <nc:BiddingZoneBorder rdf:ID="_085b0abe-2e81-49f7-9843-f4746c387e10">
-    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#5df846f4-0a3a-43fc-af92-1d2fa0c6d860"/>
-    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#7e0de26d-9d0e-4181-a94a-d3a50fdaf719"/>
+    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#_5df846f4-0a3a-43fc-af92-1d2fa0c6d860"/>
+    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#_7e0de26d-9d0e-4181-a94a-d3a50fdaf719"/>
     <cim:IdentifiedObject.description>Non-oriented border between IFA2_virtual_BZN - Great Britain</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>085b0abe-2e81-49f7-9843-f4746c387e10</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>FR_UK_IFA2_V_BZN - GB</cim:IdentifiedObject.name>
   </nc:BiddingZoneBorder>
   <nc:BiddingZoneBorder rdf:ID="_c21d9d06-7eb0-4653-b766-f4a2b2315032">
-    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#0c1bc7f4-7404-4a4d-9d6b-d9edc0944a54"/>
-    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#e7e780b2-3a74-4453-8e4d-f10a397abf5d"/>
+    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#_0c1bc7f4-7404-4a4d-9d6b-d9edc0944a54"/>
+    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#_e7e780b2-3a74-4453-8e4d-f10a397abf5d"/>
     <cim:IdentifiedObject.description>Non-oriented border between Denmark DK2 - Denmark DK1</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>c21d9d06-7eb0-4653-b766-f4a2b2315032</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>DK2 - DK1</cim:IdentifiedObject.name>
   </nc:BiddingZoneBorder>
   <nc:BiddingZoneBorder rdf:ID="_f87c7026-ffd9-4c9e-b2ad-5311ea79e5f2">
-    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#30e6709e-510c-49b9-92ec-e2aebdc1050e"/>
-    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
+    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#_30e6709e-510c-49b9-92ec-e2aebdc1050e"/>
+    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
     <cim:IdentifiedObject.description>Non-oriented border between Swedish Elspot Area 3 - Norwegian Area Elspot Area 1</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>f87c7026-ffd9-4c9e-b2ad-5311ea79e5f2</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>SE3 - NO1</cim:IdentifiedObject.name>
   </nc:BiddingZoneBorder>
   <nc:BiddingZoneBorder rdf:ID="_c9afca0e-9c27-41be-b802-ed774a8d4856">
-    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#e7e780b2-3a74-4453-8e4d-f10a397abf5d"/>
-    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#63b13e2e-8d0a-47d0-8de8-fb686decbae4"/>
+    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#_e7e780b2-3a74-4453-8e4d-f10a397abf5d"/>
+    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#_63b13e2e-8d0a-47d0-8de8-fb686decbae4"/>
     <cim:IdentifiedObject.description>Non-oriented border between Denmark DK1 - Norwegian Area Elspot Area 2</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>c9afca0e-9c27-41be-b802-ed774a8d4856</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>DK1 - NO2</cim:IdentifiedObject.name>
   </nc:BiddingZoneBorder>
   <nc:BiddingZoneBorder rdf:ID="_852b95c0-4c49-4ded-85b2-a8f2b610db30">
-    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
-    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#0f094148-164b-427a-a8e8-0c5f334688ae"/>
+    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
+    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#_0f094148-164b-427a-a8e8-0c5f334688ae"/>
     <cim:IdentifiedObject.description>Non-oriented border between Norwegian Area Elspot Area 1 - Norwegian Area Elspot Area 3</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>852b95c0-4c49-4ded-85b2-a8f2b610db30</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>NO1 - NO3</cim:IdentifiedObject.name>
   </nc:BiddingZoneBorder>
   <nc:BiddingZoneBorder rdf:ID="_b56a8421-25e2-47c2-bf0d-58432c58bfcc">
-    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#b64efd13-92fe-4786-87ef-731d1e2cce0e"/>
-    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#6eaaae78-21f1-41c7-81a4-2b0fe15cdbfc"/>
+    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#_b64efd13-92fe-4786-87ef-731d1e2cce0e"/>
+    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#_6eaaae78-21f1-41c7-81a4-2b0fe15cdbfc"/>
     <cim:IdentifiedObject.description>Non-oriented border between Norwegian Area Elspot Area 4 - Finland</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>b56a8421-25e2-47c2-bf0d-58432c58bfcc</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>NO4 - FI</cim:IdentifiedObject.name>
   </nc:BiddingZoneBorder>
   <nc:BiddingZoneBorder rdf:ID="_4607066a-7748-4c8b-acb1-3bc648bf41c2">
-    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#30e6709e-510c-49b9-92ec-e2aebdc1050e"/>
-    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#2119a5e9-fa38-4fe8-a8e9-2a2cc6f73bad"/>
+    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#_30e6709e-510c-49b9-92ec-e2aebdc1050e"/>
+    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#_2119a5e9-fa38-4fe8-a8e9-2a2cc6f73bad"/>
     <cim:IdentifiedObject.description>Non-oriented border between Swedish Elspot Area 3 - Swedish Elspot Area 4</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>4607066a-7748-4c8b-acb1-3bc648bf41c2</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>SE3 - SE4</cim:IdentifiedObject.name>
   </nc:BiddingZoneBorder>
   <nc:BiddingZoneBorder rdf:ID="_becf566b-8de1-43f3-9995-19921bbab9b0">
-    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#2119a5e9-fa38-4fe8-a8e9-2a2cc6f73bad"/>
-    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#f0a0d421-7010-423b-805a-73a99393f1d6"/>
+    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#_2119a5e9-fa38-4fe8-a8e9-2a2cc6f73bad"/>
+    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#_f0a0d421-7010-423b-805a-73a99393f1d6"/>
     <cim:IdentifiedObject.description>Non-oriented border between Swedish Elspot Area 4 - Germany_Austria_Luxemburg</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>becf566b-8de1-43f3-9995-19921bbab9b0</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>SE4 - DE_AT_LU</cim:IdentifiedObject.name>
   </nc:BiddingZoneBorder>
   <nc:BiddingZoneBorder rdf:ID="_3d91562b-f6fa-429f-b4bf-11593f79c557">
-    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#781f385c-f3a1-4691-843d-eab2ed919a1b"/>
-    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#30e6709e-510c-49b9-92ec-e2aebdc1050e"/>
+    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#_781f385c-f3a1-4691-843d-eab2ed919a1b"/>
+    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#_30e6709e-510c-49b9-92ec-e2aebdc1050e"/>
     <cim:IdentifiedObject.description>Non-oriented border between Swedish Elspot Area 2 - Swedish Elspot Area 3</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>3d91562b-f6fa-429f-b4bf-11593f79c557</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>SE2 - SE3</cim:IdentifiedObject.name>
   </nc:BiddingZoneBorder>
   <nc:BiddingZoneBorder rdf:ID="_9ae85411-31a9-474d-acbd-f88da4cad240">
-    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#63b13e2e-8d0a-47d0-8de8-fb686decbae4"/>
-    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#8ad62773-067d-4de6-a818-c399459347cf"/>
+    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#_63b13e2e-8d0a-47d0-8de8-fb686decbae4"/>
+    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#_8ad62773-067d-4de6-a818-c399459347cf"/>
     <cim:IdentifiedObject.description>Non-oriented border between Norwegian Area Elspot Area 2 - Norwegian Fictitious Area 2A</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>9ae85411-31a9-474d-acbd-f88da4cad240</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>NO2 - NO_FICT_AREA_2A</cim:IdentifiedObject.name>
   </nc:BiddingZoneBorder>
   <nc:BiddingZoneBorder rdf:ID="_a681779c-0c9a-4d1e-9b31-5e896f09b6d3">
-    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#63b13e2e-8d0a-47d0-8de8-fb686decbae4"/>
-    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#85fea1a6-7edb-4f73-88b8-3a95ea728d03"/>
+    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#_63b13e2e-8d0a-47d0-8de8-fb686decbae4"/>
+    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#_85fea1a6-7edb-4f73-88b8-3a95ea728d03"/>
     <cim:IdentifiedObject.description>Non-oriented border between Norwegian Area Elspot Area 2 - Germany_Luxemburg</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>a681779c-0c9a-4d1e-9b31-5e896f09b6d3</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>NO2 - DE_LU</cim:IdentifiedObject.name>
   </nc:BiddingZoneBorder>
   <nc:BiddingZoneBorder rdf:ID="_e951c775-b6d0-4aa4-b85c-496a00c91175">
-    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#e7e780b2-3a74-4453-8e4d-f10a397abf5d"/>
-    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#30e6709e-510c-49b9-92ec-e2aebdc1050e"/>
+    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#_e7e780b2-3a74-4453-8e4d-f10a397abf5d"/>
+    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#_30e6709e-510c-49b9-92ec-e2aebdc1050e"/>
     <cim:IdentifiedObject.description>Non-oriented border between Denmark DK1 - Swedish Elspot Area 3</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>e951c775-b6d0-4aa4-b85c-496a00c91175</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>DK1 - SE3</cim:IdentifiedObject.name>
   </nc:BiddingZoneBorder>
   <nc:BiddingZoneBorder rdf:ID="_4f05e7b6-fd77-4913-a112-b8524b21d0b4">
-    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#63b13e2e-8d0a-47d0-8de8-fb686decbae4"/>
-    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#090d342b-a577-4be1-880b-f97bc958ff03"/>
+    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#_63b13e2e-8d0a-47d0-8de8-fb686decbae4"/>
+    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#_090d342b-a577-4be1-880b-f97bc958ff03"/>
     <cim:IdentifiedObject.description>Non-oriented border between Norwegian Area Elspot Area 2 - Netherlands</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>4f05e7b6-fd77-4913-a112-b8524b21d0b4</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>NO2 - NL</cim:IdentifiedObject.name>
   </nc:BiddingZoneBorder>
   <nc:BiddingZoneBorder rdf:ID="_4308fd4e-591d-4db9-966c-417402c99601">
-    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#b64efd13-92fe-4786-87ef-731d1e2cce0e"/>
-    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#781f385c-f3a1-4691-843d-eab2ed919a1b"/>
+    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#_b64efd13-92fe-4786-87ef-731d1e2cce0e"/>
+    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#_781f385c-f3a1-4691-843d-eab2ed919a1b"/>
     <cim:IdentifiedObject.description>Non-oriented border between Norwegian Area Elspot Area 4 - Swedish Elspot Area 2</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>4308fd4e-591d-4db9-966c-417402c99601</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>NO4 - SE2</cim:IdentifiedObject.name>
   </nc:BiddingZoneBorder>
   <nc:BiddingZoneBorder rdf:ID="_7113ab1b-c48b-4977-a067-f70ae52df0b5">
-    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#cebd0c20-568c-4bb4-8542-1a6e90e741af"/>
-    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#2119a5e9-fa38-4fe8-a8e9-2a2cc6f73bad"/>
+    <nc:BiddingZoneBorder.BiddingZoneOne rdf:resource="#_cebd0c20-568c-4bb4-8542-1a6e90e741af"/>
+    <nc:BiddingZoneBorder.BiddingZoneTwo rdf:resource="#_2119a5e9-fa38-4fe8-a8e9-2a2cc6f73bad"/>
     <cim:IdentifiedObject.description>Non-oriented border between Poland - Swedish Elspot Area 4</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>7113ab1b-c48b-4977-a067-f70ae52df0b5</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>PL - SE4</cim:IdentifiedObject.name>

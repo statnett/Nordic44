@@ -5,7 +5,8 @@
 	xmlns:dcterms="http://purl.org/dc/terms/" 
  	xmlns:eu="https://cim.ucaiug.io/ns/eu#"
 	xmlns:nc="https://cim4.eu/ns/nc#"
-	xmlns:prov="http://www.w3.org/ns/prov#" 
+	xmlns:prov="http://www.w3.org/ns/prov#"
+	xmlns:adms="http://www.w3.org/ns/adms#"
 	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   >
 
@@ -72,7 +73,7 @@
 		<nc:PinEquipment.kind rdf:resource="https://cim4.eu/ns/nc#PinEquipmentKind.currentLimit"/> -->
 		<nc:PinOperationalLimit.OperationalLimit rdf:resource="#_f1769cdd-9aeb-11e5-91da-b8763fd99c5f"/> <!-- RATEA normalValue 4811.252243-->
 		<nc:GateInputPin.thresholdPercentage>115</nc:GateInputPin.thresholdPercentage> 
-		<nc:GateInputPin.logicKind rdf:resource="https://cim4.eu/ns/nc#LogicOperatorKind.geaterThan"/>
+		<nc:GateInputPin.logicKind rdf:resource="https://cim4.eu/ns/nc#LogicOperatorsKind.greaterThan"/>
 	</nc:PinOperationalLimit>
 
 	<nc:PinEquipment rdf:ID="_2bfb0a52-5634-478d-b795-6c88e0585c24">
@@ -102,7 +103,7 @@
 			<nc:PinEquipment.kind rdf:resource="https://cim4.eu/ns/nc#PinEquipmentKind.currentLimit"/> 	-->
 		<nc:PinOperationalLimit.OperationalLimit rdf:resource="#_f1769cf5-9aeb-11e5-91da-b8763fd99c5f"/> <!-- RATEA normalValue 4041.451884-->
 		<nc:GateInputPin.thresholdPercentage>115</nc:GateInputPin.thresholdPercentage> 
-		<nc:GateInputPin.logicKind rdf:resource="https://cim4.eu/ns/nc#LogicOperatorKind.geaterThan"/> 
+		<nc:GateInputPin.logicKind rdf:resource="https://cim4.eu/ns/nc#LogicOperatorsKind.greaterThan"/> 
 	</nc:PinOperationalLimit>
 
 	<nc:PinGate rdf:ID="_793fb1c9-75c7-4b5c-aca7-b4c3c7978645">
@@ -125,7 +126,7 @@
 		<cim:IdentifiedObject.mRID>b799d394-34b3-45e4-a103-a5676a13850d</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>One out of two check for monitoring for flow on the line. This check for the direction.</cim:IdentifiedObject.description>
 		<nc:GateInputPin.Gate rdf:resource="#_43e27a15-0192-4c01-bec3-413f770618c7"/>
-		<nc:GateInputPin.logicKind rdf:resource="https://cim4.eu/ns/nc#LogicOperatorKind.lessThan"/>
+		<nc:GateInputPin.logicKind rdf:resource="https://cim4.eu/ns/nc#LogicOperatorsKind.lessThan"/>
 		<nc:GateInputPin.thresholdValue>0.0</nc:GateInputPin.thresholdValue>  
 		<nc:PinTerminal.Terminal rdf:resource="#_2dd9040e-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<nc:PinTerminal.kind rdf:resource="https://cim4.eu/ns/nc#PinTerminalKind.activePower"/> 
@@ -135,7 +136,7 @@
 		<cim:IdentifiedObject.mRID>b0c5b94e-7094-470d-8515-7c6b1e7cfd31</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>One out of two check for monitoring for flow on the line. This check for the direction.</cim:IdentifiedObject.description>
 		<nc:GateInputPin.Gate rdf:resource="#_6d3f27a0-6a15-4ab0-a267-ea750cf5025f"/>
-		<nc:GateInputPin.logicKind rdf:resource="https://cim4.eu/ns/nc#LogicOperatorKind.lessThan"/>
+		<nc:GateInputPin.logicKind rdf:resource="https://cim4.eu/ns/nc#LogicOperatorsKind.lessThan"/>
 		<nc:GateInputPin.thresholdValue>0.0</nc:GateInputPin.thresholdValue>
 		<nc:PinTerminal.Terminal rdf:resource="#_2dd90414-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<nc:PinTerminal.kind rdf:resource="https://cim4.eu/ns/nc#PinTerminalKind.activePower"/> 
@@ -145,7 +146,7 @@
 		<cim:IdentifiedObject.mRID>112e3335-caa5-44dd-85eb-3a258791e127</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>Check the voltage level on the terminal of the busbarsection.</cim:IdentifiedObject.description>
 		<nc:GateInputPin.Gate rdf:resource="#_fe38ec20-3ab2-474d-bf37-2f9bcfd6747f"/>
-		<nc:GateInputPin.logicKind rdf:resource="https://cim4.eu/ns/nc#LogicOperatorKind.lessThanOrEquals"/>
+		<nc:GateInputPin.logicKind rdf:resource="https://cim4.eu/ns/nc#LogicOperatorsKind.lessThanOrEquals"/>
 		<nc:GateInputPin.thresholdValue>270.0</nc:GateInputPin.thresholdValue>
 		<nc:PinTerminal.Terminal rdf:resource="#_2dd90196-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<nc:PinTerminal.kind rdf:resource="https://cim4.eu/ns/nc#PinTerminalKind.voltageMagnitude"/>
@@ -155,7 +156,7 @@
 		<cim:IdentifiedObject.mRID>9c6e15f8-8edf-4aa1-8f52-fbd7322e4dd2</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>Check the voltage level on the terminal of the busbarsection.</cim:IdentifiedObject.description>
 		<nc:GateInputPin.Gate rdf:resource="#_fe38ec20-3ab2-474d-bf37-2f9bcfd6747f"/>
-		<nc:GateInputPin.logicKind rdf:resource="https://cim4.eu/ns/nc#LogicOperatorKind.lessThanOrEquals"/>
+		<nc:GateInputPin.logicKind rdf:resource="https://cim4.eu/ns/nc#LogicOperatorsKind.lessThanOrEquals"/>
 		<nc:GateInputPin.thresholdValue>270.0</nc:GateInputPin.thresholdValue>
 		<nc:PinTerminal.Terminal rdf:resource="#_ea014fdb-b96f-2a4b-b1df-d38e846d4941"/>
 		<nc:PinTerminal.kind rdf:resource="https://cim4.eu/ns/nc#PinTerminalKind.voltageMagnitude"/>
@@ -192,7 +193,7 @@
 	<nc:StaticPropertyRange rdf:ID="_8048d34b-3ae2-4699-8e4c-e83e2cdff327">
 		<cim:IdentifiedObject.name>SPRA FEDA 300 L1</cim:IdentifiedObject.name>
 		<cim:IdentifiedObject.mRID>8048d34b-3ae2-4699-8e4c-e83e2cdff327</cim:IdentifiedObject.mRID>
-		<nc:RangeConstraint.direction rdf:resource="https://cim4.eu/ns/nc#PRelativeDirectionKind.down"/>
+		<nc:RangeConstraint.direction rdf:resource="https://cim4.eu/ns/nc#RelativeDirectionKind.down"/>
 		<nc:RangeConstraint.GridStateAlteration rdf:resource="#_ec32d28c-4ea8-4a8b-a3f1-558dd07666e7"/>
 		<nc:RangeConstraint.valueKind rdf:resource="http://entsoe.eu/ns/nc#ValueOffsetKind.incremental"/>
 		<nc:RangeConstraint.normalValue>150</nc:RangeConstraint.normalValue>
@@ -203,7 +204,7 @@
 	<nc:StaticPropertyRange rdf:ID="_723d5e6c-76d1-4f49-b151-a0ad7f46e036">
 		<cim:IdentifiedObject.name>SPRA KVI KRISTIAN G1</cim:IdentifiedObject.name>
 		<cim:IdentifiedObject.mRID>723d5e6c-76d1-4f49-b151-a0ad7f46e036</cim:IdentifiedObject.mRID>
-		<nc:RangeConstraint.direction rdf:resource="https://cim4.eu/ns/nc#PRelativeDirectionKind.down"/>
+		<nc:RangeConstraint.direction rdf:resource="https://cim4.eu/ns/nc#RelativeDirectionKind.down"/>
 		<nc:RangeConstraint.GridStateAlteration rdf:resource="#_050cd458-b999-4c8d-ad24-93c6a3102b53"/>
 		<nc:RangeConstraint.valueKind rdf:resource="http://entsoe.eu/ns/nc#ValueOffsetKind.incremental"/>
 		<nc:RangeConstraint.normalValue>25</nc:RangeConstraint.normalValue>
@@ -213,7 +214,7 @@
 	<nc:StaticPropertyRange rdf:ID="_71c1c2af-f4d4-429a-af03-8c6fd44de393">
 		<cim:IdentifiedObject.name>SPRA KVI KRISTIAN G2</cim:IdentifiedObject.name>
 		<cim:IdentifiedObject.mRID>71c1c2af-f4d4-429a-af03-8c6fd44de393</cim:IdentifiedObject.mRID>
-		<nc:RangeConstraint.direction rdf:resource="https://cim4.eu/ns/nc#PRelativeDirectionKind.down"/>
+		<nc:RangeConstraint.direction rdf:resource="https://cim4.eu/ns/nc#RelativeDirectionKind.down"/>
 		<nc:RangeConstraint.GridStateAlteration rdf:resource="#_417979f7-6af4-460e-8966-c42e671844a3"/>
 		<nc:RangeConstraint.valueKind rdf:resource="http://entsoe.eu/ns/nc#ValueOffsetKind.incremental"/>
 		<nc:RangeConstraint.normalValue>30</nc:RangeConstraint.normalValue>

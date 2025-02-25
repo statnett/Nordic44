@@ -5,7 +5,8 @@
 	xmlns:dcterms="http://purl.org/dc/terms/" 
  	xmlns:eu="https://cim.ucaiug.io/ns/eu#"
 	xmlns:nc="https://cim4.eu/ns/nc#"
-	xmlns:prov="http://www.w3.org/ns/prov#" 
+	xmlns:prov="http://www.w3.org/ns/prov#"
+	xmlns:adms="http://www.w3.org/ns/adms#"
 	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   >
 
@@ -23,6 +24,7 @@
   <dcterms:issued>2025-02-14T12:00:00Z</dcterms:issued>
   <dcterms:publisher rdf:resource="https://www.statnett.no/en/about-statnett/contact-us/"/>
   <dcterms:requires rdf:resource="urn:uuid:e710212f-f6b2-8d4c-9dc0-365398d8b59c"/> <!-- Nordic44-HV_EQ -->
+<dcterms:requires rdf:resource="urn:uuid:d9a01a85-0ad8-4958-be03-d89ad78ca497"/> <!-- N44-NC-HV_CO -->
   <dcterms:rights>Copyright</dcterms:rights>
   <dcterms:rightsHolder>Statnett SF</dcterms:rightsHolder>
   <dcterms:spatial rdf:resource="https://energy.referencedata.eu/Test/Frame/NORDIC-Power-Transmission-System"/>
@@ -44,7 +46,7 @@
 		<cim:IdentifiedObject.description>Tripping of 300KRISTIAN-ARENDAL</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>CE 300KRISTIAN-ARENDAL</cim:IdentifiedObject.name>
 		<cim:ContingencyElement.Contingency rdf:resource="#_0c19a9a2-1165-49f9-bc0a-2f6b88deec9f" />
-		<cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ontingencyEquipmentStatusKind.outOfService"/>
+		<cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
 		<cim:ContingencyEquipment.Equipment rdf:resource="#_f1769cd4-9aeb-11e5-91da-b8763fd99c5f" />
 	</cim:ContingencyEquipment>
 
