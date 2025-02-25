@@ -110,7 +110,7 @@
 		<cim:AssetInfo.ProductAssetModel rdf:resource="urn:uuid:6d993b26-72bf-46f0-9eb3-70bc26d544ac" />
 	</cim:PowerTransformerInfo>
 	
-	<cim:TransformerTankInfo rdf:about="urn:uuid:be53e1d0-1147-44af-b624-77c9ff829bb4">
+	<cim:TransformerTankInfo rdf:about="urn:uuid:5ceafd9d-a353-4743-ae0d-6acbe3a7b85d">
 		<cim:IdentifiedObject.name>TTI Transformer Tank</cim:IdentifiedObject.name>
 		<cim:TransformerTankInfo.PowerTransformerInfo rdf:resource="urn:uuid:9eb4e906-d4f4-11e7-9296-cec278b6b50a" />
 	</cim:TransformerTankInfo>
@@ -174,7 +174,7 @@
 	
 	
 	  	<!--	Shunt Compensator Asset Catalogue Data -->
-	<cim:ProductAssetModel rdf:about="urn:uuid:6d993b26-72bf-46f0-9eb3-70bc26d544ac">
+	<cim:ProductAssetModel rdf:about="urn:uuid:d2221af9-1b5a-4be3-89e6-9c0f561d2378">
 		<cim:IdentifiedObject.name>PAM A ShuntCompensator</cim:IdentifiedObject.name>
 		<cim:ProductAssetModel.catalogueNumber>008</cim:ProductAssetModel.catalogueNumber>
 		<cim:ProductAssetModel.modelNumber>A LSC001</cim:ProductAssetModel.modelNumber>
@@ -185,7 +185,7 @@
 
 	<cim:ShuntCompensatorInfo rdf:about="urn:uuid:d9a0ead9-f67e-4317-a128-631fe9f68177">
 		<cim:IdentifiedObject.name>SH Shunt Compensator</cim:IdentifiedObject.name>
-		<cim:AssetInfo.ProductAssetModel rdf:resource="urn:uuid:6d993b26-72bf-46f0-9eb3-70bc26d544ac" />
+		<cim:AssetInfo.ProductAssetModel rdf:resource="urn:uuid:d2221af9-1b5a-4be3-89e6-9c0f561d2378" />
 		<cim:ShuntCompensatorInfo.maxPowerLoss>0</cim:ShuntCompensatorInfo.maxPowerLoss>
 		<cim:ShuntCompensatorInfo.ratedCurrent>0</cim:ShuntCompensatorInfo.ratedCurrent>
 		<cim:ShuntCompensatorInfo.ratedReactivePower>0</cim:ShuntCompensatorInfo.ratedReactivePower>
