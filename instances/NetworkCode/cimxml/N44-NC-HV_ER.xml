@@ -45,7 +45,7 @@
 	</cim:OperationalLimitSet>
 
 	<cim:ActivePowerLimit rdf:ID="_f6ab9ccd-10fa-4531-8427-763e11163b28">
-		<nc:ActivePowerLimit.normalValue>1600</nc:ActivePowerLimit.nc>
+		<cim:ActivePowerLimit.normalValue>1600</cim:ActivePowerLimit.normalValue>
 		<!-- <cim:ActivePowerLimit.value>1600</cim:ActivePowerLimit.value> where should this go? A serrated SSH for the ER? -->
 		<cim:OperationalLimit.OperationalLimitSet rdf:resource="#_f802a83f-b9fb-48fb-9dde-0f5132e5f886"/>
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_df0cea8a-8e5a-4254-a040-410fa4797154"/>
