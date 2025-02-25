@@ -222,8 +222,8 @@
   <adms:versionNotes xml:lang="en">Initial version</adms:versionNotes>
   <dcat:distribution rdf:resource="urn:uuid:c4f2422b-03a4-4298-aa16-40921c4ca16f"/>
   <dcat:isVersionOf rdf:resource="https://energy.referencedata.eu/Test/Model/Nordic44-HV_SV"/>
-  <dcat:keyword>SV</dcat:keyword>
-  <dcat:keyword>StateVariablet</dcat:keyword>
+  <dcat:keyword>OP</dcat:keyword>
+  <dcat:keyword>Operation</dcat:keyword>
   <dcat:startDate>2025-02-14T12:00:00Z</dcat:startDate>
   <dcat:version>3.0.0-beta-1</dcat:version>
   <dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/Public"/>
