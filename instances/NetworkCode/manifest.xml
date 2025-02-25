@@ -109,6 +109,8 @@
   <dcterms:issued>2025-02-14T12:00:00Z</dcterms:issued>
   <dcterms:publisher rdf:resource="https://www.statnett.no/en/about-statnett/contact-us/"/>
   <dcterms:requires rdf:resource="urn:uuid:84552e03-0040-43d5-aff2-0f77f01668cb"/> <!-- N44-NC-HV_CO -->
+  <dcterms:requires rdf:resource="urn:uuid:ebef4527-f0bc-4c59-8870-950af8ed9041"/> <!-- N44-NC-HV_ER -->   
+  <dcterms:requires rdf:resource="urn:uuid:9e3521e2-9504-4122-8c1e-a4c4411ffd7a"/> <!-- N44-NC-HV_RA -->   
   <dcterms:rights>Copyright</dcterms:rights>
   <dcterms:rightsHolder>Statnett SF</dcterms:rightsHolder>
   <dcterms:spatial rdf:resource="https://energy.referencedata.eu/Test/Frame/NORDIC-Power-Transmission-System"/>
