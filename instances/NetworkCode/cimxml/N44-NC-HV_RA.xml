@@ -73,7 +73,7 @@
 		<nc:PinEquipment.kind rdf:resource="https://cim4.eu/ns/nc#PinEquipmentKind.currentLimit"/> -->
 		<nc:PinOperationalLimit.OperationalLimit rdf:resource="#_f1769cdd-9aeb-11e5-91da-b8763fd99c5f"/> <!-- RATEA normalValue 4811.252243-->
 		<nc:GateInputPin.thresholdPercentage>115</nc:GateInputPin.thresholdPercentage> 
-		<nc:GateInputPin.logicKind rdf:resource="https://cim4.eu/ns/nc#LogicOperatorKind.geaterThan"/>
+		<nc:GateInputPin.logicKind rdf:resource="https://cim4.eu/ns/nc#LogicOperatorKind.greaterThan"/>
 	</nc:PinOperationalLimit>
 
 	<nc:PinEquipment rdf:ID="_2bfb0a52-5634-478d-b795-6c88e0585c24">
@@ -103,7 +103,7 @@
 			<nc:PinEquipment.kind rdf:resource="https://cim4.eu/ns/nc#PinEquipmentKind.currentLimit"/> 	-->
 		<nc:PinOperationalLimit.OperationalLimit rdf:resource="#_f1769cf5-9aeb-11e5-91da-b8763fd99c5f"/> <!-- RATEA normalValue 4041.451884-->
 		<nc:GateInputPin.thresholdPercentage>115</nc:GateInputPin.thresholdPercentage> 
-		<nc:GateInputPin.logicKind rdf:resource="https://cim4.eu/ns/nc#LogicOperatorKind.geaterThan"/> 
+		<nc:GateInputPin.logicKind rdf:resource="https://cim4.eu/ns/nc#LogicOperatorKind.greaterThan"/> 
 	</nc:PinOperationalLimit>
 
 	<nc:PinGate rdf:ID="_793fb1c9-75c7-4b5c-aca7-b4c3c7978645">
