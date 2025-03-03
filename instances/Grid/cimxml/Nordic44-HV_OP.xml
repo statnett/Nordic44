@@ -78,6 +78,7 @@
 
 	<cim:Analog rdf:ID="_ad3782e5-a8fb-e44e-9366-38a7c8827368">
 		<cim:IdentifiedObject.name>NO-BZ-1 HYDA P</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>ad3782e5-a8fb-e44e-9366-38a7c8827368</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Hydro Actual Active Power</cim:IdentifiedObject.description>
 		<cim:Measurement.PowerSystemResource rdf:resource="#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
 		<cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
@@ -87,6 +88,7 @@
 	</cim:Analog>
 	<cim:Analog rdf:ID="_e86c1491-955c-4946-82de-b63a6192277a">
 		<cim:IdentifiedObject.name>NO-BZ-1 HYDF P</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>e86c1491-955c-4946-82de-b63a6192277a</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Hydro Forecast Active Power</cim:IdentifiedObject.description>
 		<cim:Measurement.PowerSystemResource rdf:resource="#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
 		<cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
@@ -96,6 +98,7 @@
 	</cim:Analog>
 	<cim:Analog rdf:ID="_5d9cc592-1b36-9740-af4d-06e3696f829e">
 		<cim:IdentifiedObject.name>NO-BZ-1 HYRAF P</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>5d9cc592-1b36-9740-af4d-06e3696f829e</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Hydro Reservoir Availability Forecast Active Power</cim:IdentifiedObject.description>
 		<cim:Measurement.PowerSystemResource rdf:resource="#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
 		<cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
@@ -105,6 +108,7 @@
 	</cim:Analog>
 	<cim:Analog rdf:ID="_ede27694-434e-5a42-9bdc-272dd750a9c0">
 		<cim:IdentifiedObject.name>NO-BZ-1 IGENC P</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>ede27694-434e-5a42-9bdc-272dd750a9c0</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Installed Generating Capacity Active Power</cim:IdentifiedObject.description>
 		<cim:Measurement.PowerSystemResource rdf:resource="#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
 		<cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
@@ -114,6 +118,7 @@
 	</cim:Analog>
 	<cim:Analog rdf:ID="_b07d2149-2fca-9c4b-a4ab-909fe501e1b6">
 		<cim:IdentifiedObject.name>NO-BZ-1 IHYPC P</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>b07d2149-2fca-9c4b-a4ab-909fe501e1b6</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Installed Hydro Pump Capacity Active Power</cim:IdentifiedObject.description>
 		<cim:Measurement.PowerSystemResource rdf:resource="#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
 		<cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
@@ -123,6 +128,7 @@
 	</cim:Analog>
 	<cim:Analog rdf:ID="_0aa5e8dd-7ee5-e04c-a5f4-400089570f6c">
 		<cim:IdentifiedObject.name>NO-BZ-1 IHYRC P</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>0aa5e8dd-7ee5-e04c-a5f4-400089570f6c</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Installed Hydro Reservoir Capacity Active Power</cim:IdentifiedObject.description>
 		<cim:Measurement.PowerSystemResource rdf:resource="#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
 		<cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
@@ -132,6 +138,7 @@
 	</cim:Analog>
 	<cim:Analog rdf:ID="_efd83f4d-ff51-9441-b2d3-7087abb9c2ba">
 		<cim:IdentifiedObject.name>NO-BZ-1 IRORC P</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>efd83f4d-ff51-9441-b2d3-7087abb9c2ba</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Installed Run-of-river Capacity Active Power</cim:IdentifiedObject.description>
 		<cim:Measurement.PowerSystemResource rdf:resource="#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
 		<cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
@@ -141,6 +148,7 @@
 	</cim:Analog>
 	<cim:Analog rdf:ID="_fa062dad-5adb-a945-807d-862f080f5d23">
 		<cim:IdentifiedObject.name>NO-BZ-1 IWINC P</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>fa062dad-5adb-a945-807d-862f080f5d23</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Installed Wind Capacity Active Power</cim:IdentifiedObject.description>
 		<cim:Measurement.PowerSystemResource rdf:resource="#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
 		<cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
@@ -150,6 +158,7 @@
 	</cim:Analog>
 	<cim:Analog rdf:ID="_74306ce2-bf32-9e40-a14f-9303f3101274">
 		<cim:IdentifiedObject.name>NO-BZ-1 LA P</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>74306ce2-bf32-9e40-a14f-9303f3101274</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Load Actual Active Power</cim:IdentifiedObject.description>
 		<cim:Measurement.PowerSystemResource rdf:resource="#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
 		<cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
@@ -159,6 +168,7 @@
 	</cim:Analog>
 	<cim:Analog rdf:ID="_687792ee-e9a2-5d4b-bac2-6ec451287c6d">
 		<cim:IdentifiedObject.name>NO-BZ-1 LF P</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>687792ee-e9a2-5d4b-bac2-6ec451287c6d</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Load Forecast Active Power</cim:IdentifiedObject.description>
 		<cim:Measurement.PowerSystemResource rdf:resource="#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
 		<cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
@@ -168,6 +178,7 @@
 	</cim:Analog>
 	<cim:Analog rdf:ID="_c7111857-b4fa-9945-b840-c5bab849144a">
 		<cim:IdentifiedObject.name>NO-BZ-1 NEXA P</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>c7111857-b4fa-9945-b840-c5bab849144a</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Net Exchange Actual Active Power</cim:IdentifiedObject.description>
 		<cim:Measurement.PowerSystemResource rdf:resource="#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
 		<cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
@@ -177,6 +188,7 @@
 	</cim:Analog>
 	<cim:Analog rdf:ID="_a68067c8-8456-7143-9f20-216a1a88d213">
 		<cim:IdentifiedObject.name>NO-BZ-1 NEXF P</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>a68067c8-8456-7143-9f20-216a1a88d213</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Net Exchange Forecast Active Power</cim:IdentifiedObject.description>
 		<cim:Measurement.PowerSystemResource rdf:resource="#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
 		<cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
@@ -186,6 +198,7 @@
 	</cim:Analog>
 	<cim:Analog rdf:ID="_1aae61d1-6b75-d84e-8b08-f8cf5ff69b78">
 		<cim:IdentifiedObject.name>NO-BZ-1 NUCA P</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>1aae61d1-6b75-d84e-8b08-f8cf5ff69b78</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Nuclear Actual Active Power</cim:IdentifiedObject.description>
 		<cim:Measurement.PowerSystemResource rdf:resource="#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
 		<cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
@@ -195,6 +208,7 @@
 	</cim:Analog>
 	<cim:Analog rdf:ID="_8e5494f2-1d0b-8d42-9ae6-3a0d8cf8d25d">
 		<cim:IdentifiedObject.name>NO-BZ-1 NUCF P</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>8e5494f2-1d0b-8d42-9ae6-3a0d8cf8d25d</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Nuclear Forecast Active Power</cim:IdentifiedObject.description>
 		<cim:Measurement.PowerSystemResource rdf:resource="#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
 		<cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
@@ -204,6 +218,7 @@
 	</cim:Analog>
 	<cim:Analog rdf:ID="_9f954584-6132-af41-8015-80fd7c0e22f8">
 		<cim:IdentifiedObject.name>NO-BZ-1 OTHA P</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>9f954584-6132-af41-8015-80fd7c0e22f8</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Other Actual Active Power</cim:IdentifiedObject.description>
 		<cim:Measurement.PowerSystemResource rdf:resource="#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
 		<cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
@@ -213,6 +228,7 @@
 	</cim:Analog>
 	<cim:Analog rdf:ID="_7183e6f1-4ba0-854b-918f-ac180ca2aa78">
 		<cim:IdentifiedObject.name>NO-BZ-1 OTHF P</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>7183e6f1-4ba0-854b-918f-ac180ca2aa78</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Other Forecast Active Power</cim:IdentifiedObject.description>
 		<cim:Measurement.PowerSystemResource rdf:resource="#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
 		<cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
@@ -222,6 +238,7 @@
 	</cim:Analog>
 	<cim:Analog rdf:ID="_cedb649b-78f5-d042-b399-1efeb080029e">
 		<cim:IdentifiedObject.name>NO-BZ-1 PROA P</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>cedb649b-78f5-d042-b399-1efeb080029e</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Production Actual Active Power</cim:IdentifiedObject.description>
 		<cim:Measurement.PowerSystemResource rdf:resource="#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
 		<cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
@@ -231,6 +248,7 @@
 	</cim:Analog>
 	<cim:Analog rdf:ID="_7ae1d616-8796-ad43-95f7-f3510b413e81">
 		<cim:IdentifiedObject.name>NO-BZ-1 PROF P</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>7ae1d616-8796-ad43-95f7-f3510b413e81</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Production Forecast Active Power</cim:IdentifiedObject.description>
 		<cim:Measurement.PowerSystemResource rdf:resource="#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
 		<cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
@@ -240,6 +258,7 @@
 	</cim:Analog>
 	<cim:Analog rdf:ID="_e46afcb9-f3a4-4a4b-9c28-2d51b3708ae1">
 		<cim:IdentifiedObject.name>NO-BZ-1 PUMAF P</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>e46afcb9-f3a4-4a4b-9c28-2d51b3708ae1</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Hydro Pump Availability Forecast Active Power</cim:IdentifiedObject.description>
 		<cim:Measurement.PowerSystemResource rdf:resource="#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
 		<cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
@@ -249,6 +268,7 @@
 	</cim:Analog>
 	<cim:Analog rdf:ID="_40af803a-e127-ba4c-8366-a19451841b93">
 		<cim:IdentifiedObject.name>NO-BZ-1 RCF P</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>40af803a-e127-ba4c-8366-a19451841b93</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Remaining Capacity Forecast Active Power</cim:IdentifiedObject.description>
 		<cim:Measurement.PowerSystemResource rdf:resource="#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
 		<cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
@@ -258,6 +278,7 @@
 	</cim:Analog>
 	<cim:Analog rdf:ID="_22c86021-5e62-824d-9965-38826dc07a4c">
 		<cim:IdentifiedObject.name>NO-BZ-1 RORA P</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>22c86021-5e62-824d-9965-38826dc07a4c</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Run-of-river Actual Active Power</cim:IdentifiedObject.description>
 		<cim:Measurement.PowerSystemResource rdf:resource="#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
 		<cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
@@ -267,6 +288,7 @@
 	</cim:Analog>
 	<cim:Analog rdf:ID="_9ad8e518-0b29-4d46-872a-105321bbcce1">
 		<cim:IdentifiedObject.name>NO-BZ-1 RORF P</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>9ad8e518-0b29-4d46-872a-105321bbcce1</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Run-of-river Forecast Active Power</cim:IdentifiedObject.description>
 		<cim:Measurement.PowerSystemResource rdf:resource="#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
 		<cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
@@ -276,6 +298,7 @@
 	</cim:Analog>
 	<cim:Analog rdf:ID="_addc4858-76ce-8240-a702-d6e96126b946">
 		<cim:IdentifiedObject.name>NO-BZ-1 THRA P</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>addc4858-76ce-8240-a702-d6e96126b946</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Thermal Actual Active Power</cim:IdentifiedObject.description>
 		<cim:Measurement.PowerSystemResource rdf:resource="#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
 		<cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
@@ -285,6 +308,7 @@
 	</cim:Analog>
 	<cim:Analog rdf:ID="_4b4f37c6-c90d-2749-b77f-d53ece79c4e7">
 		<cim:IdentifiedObject.name>NO-BZ-1 THRF P</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>4b4f37c6-c90d-2749-b77f-d53ece79c4e7</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Thermal Forecast Active Power</cim:IdentifiedObject.description>
 		<cim:Measurement.PowerSystemResource rdf:resource="#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
 		<cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
@@ -294,6 +318,7 @@
 	</cim:Analog>
 	<cim:Analog rdf:ID="_b6200d77-995a-ee46-967a-fa8bc92a582a">
 		<cim:IdentifiedObject.name>NO-BZ-1 WINA P</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>b6200d77-995a-ee46-967a-fa8bc92a582a</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Wind Actual Active Power</cim:IdentifiedObject.description>
 		<cim:Measurement.PowerSystemResource rdf:resource="#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
 		<cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
@@ -303,6 +328,7 @@
 	</cim:Analog>
 	<cim:Analog rdf:ID="_7e629e54-eef1-2d44-bcbe-6450c51e6603">
 		<cim:IdentifiedObject.name>NO-BZ-1 WINF P</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>7e629e54-eef1-2d44-bcbe-6450c51e6603</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Wind Forecast Active Power</cim:IdentifiedObject.description>
 		<cim:Measurement.PowerSystemResource rdf:resource="#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
 		<cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
@@ -312,6 +338,7 @@
 	</cim:Analog>
 	<cim:Analog rdf:ID="_fd33f771-db4e-1d44-bec5-e7691cf2a54b">
 		<cim:IdentifiedObject.name>NO-BZ-2 LA P</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>fd33f771-db4e-1d44-bec5-e7691cf2a54b</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO2 BiddingZone Load Actual Active Power</cim:IdentifiedObject.description>
 		<cim:Measurement.PowerSystemResource rdf:resource="#_63b13e2e-8d0a-47d0-8de8-fb686decbae4"/>
 		<cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
@@ -321,6 +348,7 @@
 	</cim:Analog>
 	<cim:Analog rdf:ID="_58a1fd1d-c187-8143-82f9-cd57a421888e">
 		<cim:IdentifiedObject.name>NO-BZ-2 LF P</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>58a1fd1d-c187-8143-82f9-cd57a421888e</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO2 BiddingZone Load Forecast Active Power</cim:IdentifiedObject.description>
 		<cim:Measurement.PowerSystemResource rdf:resource="#_63b13e2e-8d0a-47d0-8de8-fb686decbae4"/>
 		<cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
@@ -330,6 +358,7 @@
 	</cim:Analog>
 	<cim:Analog rdf:ID="_35ef9ce3-5fc6-9546-a056-067807c3b30a">
 		<cim:IdentifiedObject.name>NO-BZ-3 LA P</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>35ef9ce3-5fc6-9546-a056-067807c3b30a</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO3 BiddingZone Load Actual Active Power</cim:IdentifiedObject.description>
 		<cim:Measurement.PowerSystemResource rdf:resource="#_0f094148-164b-427a-a8e8-0c5f334688ae"/>
 		<cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
@@ -339,6 +368,7 @@
 	</cim:Analog>
 	<cim:Analog rdf:ID="_8b1b936a-7395-e644-8b0a-63113ed9f23c">
 		<cim:IdentifiedObject.name>NO-BZ-3 LF P</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>8b1b936a-7395-e644-8b0a-63113ed9f23c</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO3 BiddingZone Load Forecast Active Power</cim:IdentifiedObject.description>
 		<cim:Measurement.PowerSystemResource rdf:resource="#_0f094148-164b-427a-a8e8-0c5f334688ae"/>
 		<cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
@@ -348,6 +378,7 @@
 	</cim:Analog>
 	<cim:AnalogValue rdf:ID="_1656efeb-3475-304d-9886-a88a72a83a66">
 		<cim:AnalogValue.Analog rdf:resource="#_e86c1491-955c-4946-82de-b63a6192277a"/>
+		<cim:IdentifiedObject.mRID>1656efeb-3475-304d-9886-a88a72a83a66</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.name>NO-BZ-1 HYD 1M P_V</cim:IdentifiedObject.name>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Hydro Forecast Month-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
@@ -356,6 +387,7 @@
 	<cim:AnalogValue rdf:ID="_19901048-1ad8-3d4a-88cf-37c4471d895c">
 		<cim:AnalogValue.Analog rdf:resource="#_e86c1491-955c-4946-82de-b63a6192277a"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 HYD 1Y P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>19901048-1ad8-3d4a-88cf-37c4471d895c</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Hydro Forecast Year-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
@@ -363,6 +395,7 @@
 	<cim:AnalogValue rdf:ID="_748308fd-acf4-1346-b2b2-9dbdc871d68c">
 		<cim:AnalogValue.Analog rdf:resource="#_e86c1491-955c-4946-82de-b63a6192277a"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 HYD 2D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>748308fd-acf4-1346-b2b2-9dbdc871d68c</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Hydro Forecast Two Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
@@ -370,12 +403,14 @@
 	<cim:AnalogValue rdf:ID="_1cced0c2-25ad-6040-b415-eca9d3b107de">
 		<cim:AnalogValue.Analog rdf:resource="#_e86c1491-955c-4946-82de-b63a6192277a"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 HYD 3D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>1cced0c2-25ad-6040-b415-eca9d3b107de</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Hydro Forecast Three Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
 	</cim:AnalogValue>
 	<cim:AnalogValue rdf:ID="_8e2081cd-1a05-f147-b532-9f3e4928dc8c">
 		<cim:AnalogValue.Analog rdf:resource="#_e86c1491-955c-4946-82de-b63a6192277a"/>
+		<cim:IdentifiedObject.mRID>8e2081cd-1a05-f147-b532-9f3e4928dc8c</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.name>NO-BZ-1 HYD 4D P_V</cim:IdentifiedObject.name>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Hydro Forecast Four Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
@@ -384,6 +419,7 @@
 	<cim:AnalogValue rdf:ID="_97b13531-4d48-2342-a562-8a76bcd377d8">
 		<cim:AnalogValue.Analog rdf:resource="#_e86c1491-955c-4946-82de-b63a6192277a"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 HYD 5D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>97b13531-4d48-2342-a562-8a76bcd377d8</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Hydro Forecast Five Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
@@ -391,6 +427,7 @@
 	<cim:AnalogValue rdf:ID="_d556dd93-6c86-764b-b28b-776b41a3e7bb">
 		<cim:AnalogValue.Analog rdf:resource="#_e86c1491-955c-4946-82de-b63a6192277a"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 HYD 6D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>d556dd93-6c86-764b-b28b-776b41a3e7bb</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Hydro Forecast Six Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
@@ -398,6 +435,7 @@
 	<cim:AnalogValue rdf:ID="_82dd4d6f-9055-a149-b42b-33d97d87528b">
 		<cim:AnalogValue.Analog rdf:resource="#_e86c1491-955c-4946-82de-b63a6192277a"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 HYD 7D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>82dd4d6f-9055-a149-b42b-33d97d87528b</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Hydro Forecast Seven Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
@@ -405,6 +443,7 @@
 	<cim:AnalogValue rdf:ID="_4decf4ce-3b46-444c-95dc-84ab5bfd8b07">
 		<cim:AnalogValue.Analog rdf:resource="#_ad3782e5-a8fb-e44e-9366-38a7c8827368"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 HYDO P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>4decf4ce-3b46-444c-95dc-84ab5bfd8b07</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Hydro Actual Observed</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_4c0436b7-532d-a34e-b2ee-a46a5e151536"/>
 		<cim:AnalogValue.value>4000</cim:AnalogValue.value>
@@ -412,6 +451,7 @@
 	<cim:AnalogValue rdf:ID="_83e6342d-ece0-5043-8f0b-80b3633f20b2">
 		<cim:AnalogValue.Analog rdf:resource="#_ad3782e5-a8fb-e44e-9366-38a7c8827368"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 HYDS P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>83e6342d-ece0-5043-8f0b-80b3633f20b2</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Hydro Actual Scheduled</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_6a4237ae-327d-5a4c-9c10-167725983c17"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
@@ -419,6 +459,7 @@
 	<cim:AnalogValue rdf:ID="_d86ebff3-a4f2-c74c-b639-c347c801775c">
 		<cim:AnalogValue.Analog rdf:resource="#_e46afcb9-f3a4-4a4b-9c28-2d51b3708ae1"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 HYP 1D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>d86ebff3-a4f2-c74c-b639-c347c801775c</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Hydro Pump Availability Forecast Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>3720</cim:AnalogValue.value>
@@ -426,6 +467,7 @@
 	<cim:AnalogValue rdf:ID="_4615474a-2e25-8643-96c7-277a9db2e467">
 		<cim:AnalogValue.Analog rdf:resource="#_e46afcb9-f3a4-4a4b-9c28-2d51b3708ae1"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 HYP 1M P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>4615474a-2e25-8643-96c7-277a9db2e467</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Hydro Pump Availability Forecast Month-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>3720</cim:AnalogValue.value>
@@ -433,6 +475,7 @@
 	<cim:AnalogValue rdf:ID="_e5c7bc21-bfe4-c241-a36a-d2a602e52964">
 		<cim:AnalogValue.Analog rdf:resource="#_e46afcb9-f3a4-4a4b-9c28-2d51b3708ae1"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 HYP 1Y P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>e5c7bc21-bfe4-c241-a36a-d2a602e52964</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Hydro Pump Availability Forecast Year-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>3720</cim:AnalogValue.value>
@@ -440,6 +483,7 @@
 	<cim:AnalogValue rdf:ID="_3e7d0769-fdc9-3849-a35f-7dd3fad92bf4">
 		<cim:AnalogValue.Analog rdf:resource="#_e46afcb9-f3a4-4a4b-9c28-2d51b3708ae1"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 HYP 2D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>3e7d0769-fdc9-3849-a35f-7dd3fad92bf4</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Hydro Pump Availability Forecast Two Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>3720</cim:AnalogValue.value>
@@ -447,6 +491,7 @@
 	<cim:AnalogValue rdf:ID="_1caa0865-8c0b-c047-9168-43218cc431db">
 		<cim:AnalogValue.Analog rdf:resource="#_e46afcb9-f3a4-4a4b-9c28-2d51b3708ae1"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 HYP 3D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>1caa0865-8c0b-c047-9168-43218cc431db</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Hydro Pump Availability Forecast Three Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>3720</cim:AnalogValue.value>
@@ -454,6 +499,7 @@
 	<cim:AnalogValue rdf:ID="_1d1756ee-f0f1-8f41-95e7-f7a955017ad3">
 		<cim:AnalogValue.Analog rdf:resource="#_e46afcb9-f3a4-4a4b-9c28-2d51b3708ae1"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 HYP 4D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>1d1756ee-f0f1-8f41-95e7-f7a955017ad3</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Hydro Pump Availability Forecast Four Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>3720</cim:AnalogValue.value>
@@ -461,6 +507,7 @@
 	<cim:AnalogValue rdf:ID="_0c064e09-1338-c642-bd41-28c2d6853188">
 		<cim:AnalogValue.Analog rdf:resource="#_e46afcb9-f3a4-4a4b-9c28-2d51b3708ae1"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 HYP 5D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>0c064e09-1338-c642-bd41-28c2d6853188</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Hydro Pump Availability Forecast Five Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>3720</cim:AnalogValue.value>
@@ -468,6 +515,7 @@
 	<cim:AnalogValue rdf:ID="_6b467cdf-55ba-b643-b9b7-6bc71fa8c96f">
 		<cim:AnalogValue.Analog rdf:resource="#_e46afcb9-f3a4-4a4b-9c28-2d51b3708ae1"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 HYP 6D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>6b467cdf-55ba-b643-b9b7-6bc71fa8c96f</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Hydro Pump Availability Forecast Six Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>3720</cim:AnalogValue.value>
@@ -475,6 +523,7 @@
 	<cim:AnalogValue rdf:ID="_142d7702-2d93-3042-afae-5b633a8d629e">
 		<cim:AnalogValue.Analog rdf:resource="#_e46afcb9-f3a4-4a4b-9c28-2d51b3708ae1"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 HYP 7D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>142d7702-2d93-3042-afae-5b633a8d629e</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Hydro Pump Availability Forecast Seven Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>3720</cim:AnalogValue.value>
@@ -482,6 +531,7 @@
 	<cim:AnalogValue rdf:ID="_0cc9a316-236e-e246-89c6-dfcc94e703d4">
 		<cim:AnalogValue.Analog rdf:resource="#_e46afcb9-f3a4-4a4b-9c28-2d51b3708ae1"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 HYP ID P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>0cc9a316-236e-e246-89c6-dfcc94e703d4</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Hydro Pump Availability Forecast Intraday</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>3720</cim:AnalogValue.value>
@@ -489,6 +539,7 @@
 	<cim:AnalogValue rdf:ID="_2e59189a-4617-e84f-bef3-b2558a32884c">
 		<cim:AnalogValue.Analog rdf:resource="#_5d9cc592-1b36-9740-af4d-06e3696f829e"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 HYRA 1D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>2e59189a-4617-e84f-bef3-b2558a32884c</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Hydro Reservoir Availability Forecast Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>3720</cim:AnalogValue.value>
@@ -496,6 +547,7 @@
 	<cim:AnalogValue rdf:ID="_8d6a6576-1a9c-de47-b4dc-4f83c9c60981">
 		<cim:AnalogValue.Analog rdf:resource="#_5d9cc592-1b36-9740-af4d-06e3696f829e"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 HYRA 1M P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>8d6a6576-1a9c-de47-b4dc-4f83c9c60981</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Hydro Reservoir Availability Forecast Month-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>3720</cim:AnalogValue.value>
@@ -503,6 +555,7 @@
 	<cim:AnalogValue rdf:ID="_ac076588-a148-ab46-874d-cb66957b543e">
 		<cim:AnalogValue.Analog rdf:resource="#_5d9cc592-1b36-9740-af4d-06e3696f829e"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 HYRA 1Y P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>ac076588-a148-ab46-874d-cb66957b543e</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Hydro Reservoir Availability Forecast Year-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>3720</cim:AnalogValue.value>
@@ -510,6 +563,7 @@
 	<cim:AnalogValue rdf:ID="_d9c1fe94-20f8-1a43-ae5f-809b37c12c9d">
 		<cim:AnalogValue.Analog rdf:resource="#_5d9cc592-1b36-9740-af4d-06e3696f829e"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 HYRA 2D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>d9c1fe94-20f8-1a43-ae5f-809b37c12c9d</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Hydro Reservoir Availability Forecast Two Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>3720</cim:AnalogValue.value>
@@ -517,6 +571,7 @@
 	<cim:AnalogValue rdf:ID="_563c0df5-7602-7d4a-86f6-ef69bd9bf6b5">
 		<cim:AnalogValue.Analog rdf:resource="#_5d9cc592-1b36-9740-af4d-06e3696f829e"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 HYRA 3D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>563c0df5-7602-7d4a-86f6-ef69bd9bf6b5</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Hydro Reservoir Availability Forecast Three Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>3720</cim:AnalogValue.value>
@@ -524,6 +579,7 @@
 	<cim:AnalogValue rdf:ID="_4c556416-4bde-9c41-9b8b-9c7838b9c7c3">
 		<cim:AnalogValue.Analog rdf:resource="#_5d9cc592-1b36-9740-af4d-06e3696f829e"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 HYRA 4D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>4c556416-4bde-9c41-9b8b-9c7838b9c7c3</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Hydro Reservoir Availability Forecast Four Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>3720</cim:AnalogValue.value>
@@ -531,6 +587,7 @@
 	<cim:AnalogValue rdf:ID="_94454c1d-5779-0f48-86a5-64ad8b0f007e">
 		<cim:AnalogValue.Analog rdf:resource="#_5d9cc592-1b36-9740-af4d-06e3696f829e"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 HYRA 5D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>94454c1d-5779-0f48-86a5-64ad8b0f007e</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Hydro Reservoir Availability Forecast Five Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>3720</cim:AnalogValue.value>
@@ -538,6 +595,7 @@
 	<cim:AnalogValue rdf:ID="_38b205bb-a597-a549-b4c5-b9063d2fb4e8">
 		<cim:AnalogValue.Analog rdf:resource="#_5d9cc592-1b36-9740-af4d-06e3696f829e"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 HYRA 6D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>38b205bb-a597-a549-b4c5-b9063d2fb4e8</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Hydro Reservoir Availability Forecast Six Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>3720</cim:AnalogValue.value>
@@ -545,6 +603,7 @@
 	<cim:AnalogValue rdf:ID="_9c4d65c1-9653-a74a-ae7b-316ead0afeb3">
 		<cim:AnalogValue.Analog rdf:resource="#_5d9cc592-1b36-9740-af4d-06e3696f829e"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 HYRA 7D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>9c4d65c1-9653-a74a-ae7b-316ead0afeb3</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Hydro Reservoir Availability Forecast Seven Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>3720</cim:AnalogValue.value>
@@ -552,6 +611,7 @@
 	<cim:AnalogValue rdf:ID="_199e3dc4-5d44-f748-ae37-89535d501c1d">
 		<cim:AnalogValue.Analog rdf:resource="#_5d9cc592-1b36-9740-af4d-06e3696f829e"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 HYRA ID P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>199e3dc4-5d44-f748-ae37-89535d501c1d</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Hydro Reservoir Availability Forecast Intraday</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>3720</cim:AnalogValue.value>
@@ -559,6 +619,7 @@
 	<cim:AnalogValue rdf:ID="_3a08148b-5fa9-f642-a327-a00073b2c719">
 		<cim:AnalogValue.Analog rdf:resource="#_ede27694-434e-5a42-9bdc-272dd750a9c0"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 IGENC P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>3a08148b-5fa9-f642-a327-a00073b2c719</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Installed Generating Capacity</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_d9c67735-2e2b-7746-9d00-145c4905db86"/>
 		<cim:AnalogValue.value>2370</cim:AnalogValue.value>
@@ -566,6 +627,7 @@
 	<cim:AnalogValue rdf:ID="_95b796ba-8242-304e-985e-fa06fec37eec">
 		<cim:AnalogValue.Analog rdf:resource="#_b07d2149-2fca-9c4b-a4ab-909fe501e1b6"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 IHYPC P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>95b796ba-8242-304e-985e-fa06fec37eec</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Installed Hydro Pump Capacity</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>2370</cim:AnalogValue.value>
@@ -573,6 +635,7 @@
 	<cim:AnalogValue rdf:ID="_b6eef139-d322-0346-a512-7d2ea261abd2">
 		<cim:AnalogValue.Analog rdf:resource="#_0aa5e8dd-7ee5-e04c-a5f4-400089570f6c"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 IHYRC P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>b6eef139-d322-0346-a512-7d2ea261abd2</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Installed Hydro Reservoir Capacity</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>2370</cim:AnalogValue.value>
@@ -580,6 +643,7 @@
 	<cim:AnalogValue rdf:ID="_a5ec92a1-7c6f-9b4f-922c-12a9642cf1a6">
 		<cim:AnalogValue.Analog rdf:resource="#_efd83f4d-ff51-9441-b2d3-7087abb9c2ba"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 IRORC P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>a5ec92a1-7c6f-9b4f-922c-12a9642cf1a6</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Installed Run-of-river Capacity</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>2370</cim:AnalogValue.value>
@@ -587,6 +651,7 @@
 	<cim:AnalogValue rdf:ID="_4047f3ac-76fc-fd45-ad58-2994037775af">
 		<cim:AnalogValue.Analog rdf:resource="#_fa062dad-5adb-a945-807d-862f080f5d23"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 IWINCF P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>4047f3ac-76fc-fd45-ad58-2994037775af</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Installed Wind Capacity</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>2370</cim:AnalogValue.value>
@@ -594,6 +659,7 @@
 	<cim:AnalogValue rdf:ID="_aa53ac58-4e87-3b4f-9437-580f2e577c18">
 		<cim:AnalogValue.Analog rdf:resource="#_74306ce2-bf32-9e40-a14f-9303f3101274"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 LAO P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>aa53ac58-4e87-3b4f-9437-580f2e577c18</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Load Actual Observed</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_4c0436b7-532d-a34e-b2ee-a46a5e151536"/>
 		<cim:AnalogValue.value>3700</cim:AnalogValue.value>
@@ -601,6 +667,7 @@
 	<cim:AnalogValue rdf:ID="_6624c256-b94b-9246-b539-c2ad7c304d33">
 		<cim:AnalogValue.Analog rdf:resource="#_74306ce2-bf32-9e40-a14f-9303f3101274"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 LAS P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>6624c256-b94b-9246-b539-c2ad7c304d33</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Load Actual Scheduled</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_6a4237ae-327d-5a4c-9c10-167725983c17"/>
 		<cim:AnalogValue.value>3750</cim:AnalogValue.value>
@@ -608,6 +675,7 @@
 	<cim:AnalogValue rdf:ID="_75ecd1e9-945a-b046-8381-c60f4df11caa">
 		<cim:AnalogValue.Analog rdf:resource="#_687792ee-e9a2-5d4b-bac2-6ec451287c6d"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 LF 1D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>75ecd1e9-945a-b046-8381-c60f4df11caa</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Load Forecast Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_5693dfbd-c51e-e343-b1d7-e2d3faa3db5d"/>
 		<cim:AnalogValue.value>3720</cim:AnalogValue.value>
@@ -615,6 +683,7 @@
 	<cim:AnalogValue rdf:ID="_78e48c3f-fe5a-d541-8efc-49b15839db90">
 		<cim:AnalogValue.Analog rdf:resource="#_687792ee-e9a2-5d4b-bac2-6ec451287c6d"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 LF 1M P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>78e48c3f-fe5a-d541-8efc-49b15839db90</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Load Forecast Month-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_817254d6-0199-244f-9bc9-0fd730e1d337"/>
 		<cim:AnalogValue.value>3831</cim:AnalogValue.value>
@@ -622,6 +691,7 @@
 	<cim:AnalogValue rdf:ID="_62d3dd27-ac28-8948-824d-b53a58e7be29">
 		<cim:AnalogValue.Analog rdf:resource="#_687792ee-e9a2-5d4b-bac2-6ec451287c6d"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 LF 1Y P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>62d3dd27-ac28-8948-824d-b53a58e7be29</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Load Forecast Year-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_3b167a19-ddea-ec45-98be-8a1c2c021457"/>
 		<cim:AnalogValue.value>3831</cim:AnalogValue.value>
@@ -629,6 +699,7 @@
 	<cim:AnalogValue rdf:ID="_31896b46-0a9d-fa47-aa50-059c2328c1f8">
 		<cim:AnalogValue.Analog rdf:resource="#_687792ee-e9a2-5d4b-bac2-6ec451287c6d"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 LF 2D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>31896b46-0a9d-fa47-aa50-059c2328c1f8</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Load Forecast Two Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_5693dfbd-c51e-e343-b1d7-e2d3faa3db5d"/>
 		<cim:AnalogValue.value>3888</cim:AnalogValue.value>
@@ -636,6 +707,7 @@
 	<cim:AnalogValue rdf:ID="_cde8988f-4a06-1348-b17a-f80d4141c52b">
 		<cim:AnalogValue.Analog rdf:resource="#_687792ee-e9a2-5d4b-bac2-6ec451287c6d"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 LF 3D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>cde8988f-4a06-1348-b17a-f80d4141c52b</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Load Forecast Three Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_f2f7ec5a-de86-5742-9e75-4a7143b837c8"/>
 		<cim:AnalogValue.value>3878</cim:AnalogValue.value>
@@ -643,6 +715,7 @@
 	<cim:AnalogValue rdf:ID="_069b8d2b-eef4-b245-8958-3541b8c53862">
 		<cim:AnalogValue.Analog rdf:resource="#_687792ee-e9a2-5d4b-bac2-6ec451287c6d"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 LF 4D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>069b8d2b-eef4-b245-8958-3541b8c53862</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Load Forecast Four Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_f2f7ec5a-de86-5742-9e75-4a7143b837c8"/>
 		<cim:AnalogValue.value>3870</cim:AnalogValue.value>
@@ -650,6 +723,7 @@
 	<cim:AnalogValue rdf:ID="_afc9435a-a180-744c-b56d-a3d6e529606e">
 		<cim:AnalogValue.Analog rdf:resource="#_687792ee-e9a2-5d4b-bac2-6ec451287c6d"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 LF 5D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>afc9435a-a180-744c-b56d-a3d6e529606e</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Load Forecast Five Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_f2f7ec5a-de86-5742-9e75-4a7143b837c8"/>
 		<cim:AnalogValue.value>3850</cim:AnalogValue.value>
@@ -657,6 +731,7 @@
 	<cim:AnalogValue rdf:ID="_bd0a0b58-cdc0-d648-934e-82b5c5c5ff80">
 		<cim:AnalogValue.Analog rdf:resource="#_687792ee-e9a2-5d4b-bac2-6ec451287c6d"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 LF 6D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>bd0a0b58-cdc0-d648-934e-82b5c5c5ff80</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Load Forecast Six Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_f2f7ec5a-de86-5742-9e75-4a7143b837c8"/>
 		<cim:AnalogValue.value>3855</cim:AnalogValue.value>
@@ -664,6 +739,7 @@
 	<cim:AnalogValue rdf:ID="_1b5d0b83-ed26-b84f-b3de-73a370e12a71">
 		<cim:AnalogValue.Analog rdf:resource="#_687792ee-e9a2-5d4b-bac2-6ec451287c6d"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 LF 7D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>1b5d0b83-ed26-b84f-b3de-73a370e12a71</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Load Forecast Seven Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_f2f7ec5a-de86-5742-9e75-4a7143b837c8"/>
 		<cim:AnalogValue.value>3831</cim:AnalogValue.value>
@@ -671,6 +747,7 @@
 	<cim:AnalogValue rdf:ID="_105384df-9b48-3848-8fd2-97cf37575885">
 		<cim:AnalogValue.Analog rdf:resource="#_687792ee-e9a2-5d4b-bac2-6ec451287c6d"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 LF ID P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>105384df-9b48-3848-8fd2-97cf37575885</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Load Forecast Intraday</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_5693dfbd-c51e-e343-b1d7-e2d3faa3db5d"/>
 		<cim:AnalogValue.value>3720</cim:AnalogValue.value>
@@ -678,6 +755,7 @@
 	<cim:AnalogValue rdf:ID="_6c7f7942-c6bf-2341-847c-e8446f0d2f8e">
 		<cim:AnalogValue.Analog rdf:resource="#_a68067c8-8456-7143-9f20-216a1a88d213"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 NEX 1M P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>6c7f7942-c6bf-2341-847c-e8446f0d2f8e</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Net Exchange Forecast Month-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
@@ -685,6 +763,7 @@
 	<cim:AnalogValue rdf:ID="_3b244970-4e6d-8e48-b4b5-e65492a10f06">
 		<cim:AnalogValue.Analog rdf:resource="#_a68067c8-8456-7143-9f20-216a1a88d213"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 NEX 1Y P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>3b244970-4e6d-8e48-b4b5-e65492a10f06</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Net Exchange Forecast Year-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
@@ -692,6 +771,7 @@
 	<cim:AnalogValue rdf:ID="_cec5f642-8b62-a949-933b-30f9cd8ebfd6">
 		<cim:AnalogValue.Analog rdf:resource="#_a68067c8-8456-7143-9f20-216a1a88d213"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 NEX 2D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>cec5f642-8b62-a949-933b-30f9cd8ebfd6</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Net Exchange Forecast Two Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
@@ -699,6 +779,7 @@
 	<cim:AnalogValue rdf:ID="_62f68aa1-5914-c345-9a54-03eaff37ce27">
 		<cim:AnalogValue.Analog rdf:resource="#_a68067c8-8456-7143-9f20-216a1a88d213"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 NEX 3D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>62f68aa1-5914-c345-9a54-03eaff37ce27</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Net Exchange Forecast Three Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
@@ -706,6 +787,7 @@
 	<cim:AnalogValue rdf:ID="_61ab46d2-a1a7-4342-b601-82c2aedbd782">
 		<cim:AnalogValue.Analog rdf:resource="#_a68067c8-8456-7143-9f20-216a1a88d213"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 NEX 4D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>61ab46d2-a1a7-4342-b601-82c2aedbd782</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Net Exchange Forecast Four Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
@@ -713,6 +795,7 @@
 	<cim:AnalogValue rdf:ID="_ff3cc0d8-5886-5343-9513-9cea9a104359">
 		<cim:AnalogValue.Analog rdf:resource="#_a68067c8-8456-7143-9f20-216a1a88d213"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 NEX 5D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>ff3cc0d8-5886-5343-9513-9cea9a104359</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Net Exchange Forecast Five Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
@@ -720,6 +803,7 @@
 	<cim:AnalogValue rdf:ID="_cc696cf4-aeb2-0c49-a2a3-e5932352ec38">
 		<cim:AnalogValue.Analog rdf:resource="#_a68067c8-8456-7143-9f20-216a1a88d213"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 NEX 6D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>cc696cf4-aeb2-0c49-a2a3-e5932352ec38</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Net Exchange Forecast Six Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
@@ -727,6 +811,7 @@
 	<cim:AnalogValue rdf:ID="_47e284f2-1961-b948-acd6-76518d238e95">
 		<cim:AnalogValue.Analog rdf:resource="#_a68067c8-8456-7143-9f20-216a1a88d213"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 NEX 7D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>47e284f2-1961-b948-acd6-76518d238e95</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Net Exchange Forecast Seven Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
@@ -734,6 +819,7 @@
 	<cim:AnalogValue rdf:ID="_f9b2a56b-fcba-f242-b8f0-d0fc72500435">
 		<cim:AnalogValue.Analog rdf:resource="#_c7111857-b4fa-9945-b840-c5bab849144a"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 NEXO P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>f9b2a56b-fcba-f242-b8f0-d0fc72500435</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Net Exchange Actual Observed</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_4c0436b7-532d-a34e-b2ee-a46a5e151536"/>
 		<cim:AnalogValue.value>4000</cim:AnalogValue.value>
@@ -741,6 +827,7 @@
 	<cim:AnalogValue rdf:ID="_67a8751f-3053-a743-bc2c-52f0a114d914">
 		<cim:AnalogValue.Analog rdf:resource="#_c7111857-b4fa-9945-b840-c5bab849144a"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 NEXS P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>67a8751f-3053-a743-bc2c-52f0a114d914</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Net Exchange Actual Scheduled</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_6a4237ae-327d-5a4c-9c10-167725983c17"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
@@ -748,6 +835,7 @@
 	<cim:AnalogValue rdf:ID="_afdcb33c-1030-ca4b-a1de-1e91c1e50653">
 		<cim:AnalogValue.Analog rdf:resource="#_8e5494f2-1d0b-8d42-9ae6-3a0d8cf8d25d"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 NUC 1M P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>afdcb33c-1030-ca4b-a1de-1e91c1e50653</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Nuclear Forecast Month-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
@@ -755,6 +843,7 @@
 	<cim:AnalogValue rdf:ID="_a2f26a70-4ea5-e54a-a9e3-7387efc47310">
 		<cim:AnalogValue.Analog rdf:resource="#_8e5494f2-1d0b-8d42-9ae6-3a0d8cf8d25d"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 NUC 1Y P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>a2f26a70-4ea5-e54a-a9e3-7387efc47310</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Nuclear Forecast Year-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
@@ -762,6 +851,7 @@
 	<cim:AnalogValue rdf:ID="_5631c6de-952c-714d-a492-27137f7bdc1a">
 		<cim:AnalogValue.Analog rdf:resource="#_8e5494f2-1d0b-8d42-9ae6-3a0d8cf8d25d"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 NUC 2D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>5631c6de-952c-714d-a492-27137f7bdc1a</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Nuclear Forecast Two Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
@@ -769,6 +859,7 @@
 	<cim:AnalogValue rdf:ID="_978a6a69-4700-3b4d-a8af-b6f775d14a44">
 		<cim:AnalogValue.Analog rdf:resource="#_8e5494f2-1d0b-8d42-9ae6-3a0d8cf8d25d"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 NUC 3D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>978a6a69-4700-3b4d-a8af-b6f775d14a44</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Nuclear Forecast Three Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
@@ -776,6 +867,7 @@
 	<cim:AnalogValue rdf:ID="_0fd05cfd-b3c3-3443-8c4b-8d8dadcd72c3">
 		<cim:AnalogValue.Analog rdf:resource="#_8e5494f2-1d0b-8d42-9ae6-3a0d8cf8d25d"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 NUC 4D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>0fd05cfd-b3c3-3443-8c4b-8d8dadcd72c3</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Nuclear Forecast Four Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
@@ -783,6 +875,7 @@
 	<cim:AnalogValue rdf:ID="_276fb966-a647-994f-87ee-c938bf41a8af">
 		<cim:AnalogValue.Analog rdf:resource="#_8e5494f2-1d0b-8d42-9ae6-3a0d8cf8d25d"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 NUC 5D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>276fb966-a647-994f-87ee-c938bf41a8af</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Nuclear Forecast Five Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
@@ -790,6 +883,7 @@
 	<cim:AnalogValue rdf:ID="_c1032361-b0c7-6a45-846e-2e0069727e67">
 		<cim:AnalogValue.Analog rdf:resource="#_8e5494f2-1d0b-8d42-9ae6-3a0d8cf8d25d"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 NUC 6D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>c1032361-b0c7-6a45-846e-2e0069727e67</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Nuclear Forecast Six Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
@@ -797,6 +891,7 @@
 	<cim:AnalogValue rdf:ID="_92cc8125-73f5-ea46-a002-a77e62861acf">
 		<cim:AnalogValue.Analog rdf:resource="#_8e5494f2-1d0b-8d42-9ae6-3a0d8cf8d25d"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 NUC 7D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>92cc8125-73f5-ea46-a002-a77e62861acf</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Nuclear Forecast Seven Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
@@ -804,6 +899,7 @@
 	<cim:AnalogValue rdf:ID="_3061f1e3-2328-9b43-b216-96ea9104cf57">
 		<cim:AnalogValue.Analog rdf:resource="#_1aae61d1-6b75-d84e-8b08-f8cf5ff69b78"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 NUCO P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>3061f1e3-2328-9b43-b216-96ea9104cf57</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Nuclear Actual Observed</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_4c0436b7-532d-a34e-b2ee-a46a5e151536"/>
 		<cim:AnalogValue.value>4000</cim:AnalogValue.value>
@@ -811,6 +907,7 @@
 	<cim:AnalogValue rdf:ID="_b294e2e6-d1cd-2644-b079-27641ab2d844">
 		<cim:AnalogValue.Analog rdf:resource="#_1aae61d1-6b75-d84e-8b08-f8cf5ff69b78"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 NUCS P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>b294e2e6-d1cd-2644-b079-27641ab2d844</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Nuclear Actual Scheduled</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_6a4237ae-327d-5a4c-9c10-167725983c17"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
@@ -818,6 +915,7 @@
 	<cim:AnalogValue rdf:ID="_dd0758c7-2b5a-3846-99d0-77413ffe9950">
 		<cim:AnalogValue.Analog rdf:resource="#_7183e6f1-4ba0-854b-918f-ac180ca2aa78"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 OTH 1M P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>dd0758c7-2b5a-3846-99d0-77413ffe9950</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Other Production Forecast Month-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
@@ -825,6 +923,7 @@
 	<cim:AnalogValue rdf:ID="_19e74f84-0f9a-1e41-8568-6bd6d48db26f">
 		<cim:AnalogValue.Analog rdf:resource="#_7183e6f1-4ba0-854b-918f-ac180ca2aa78"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 OTH 1Y P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>19e74f84-0f9a-1e41-8568-6bd6d48db26f</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Other Production Forecast Year-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
@@ -832,6 +931,7 @@
 	<cim:AnalogValue rdf:ID="_e973680b-c0a5-bc4f-a984-368624c197c7">
 		<cim:AnalogValue.Analog rdf:resource="#_7183e6f1-4ba0-854b-918f-ac180ca2aa78"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 OTH 2D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>e973680b-c0a5-bc4f-a984-368624c197c7</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Other Production Forecast Two Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
@@ -839,6 +939,7 @@
 	<cim:AnalogValue rdf:ID="_58dd875f-8531-b94b-9bd1-265c0010934b">
 		<cim:AnalogValue.Analog rdf:resource="#_7183e6f1-4ba0-854b-918f-ac180ca2aa78"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 OTH 3D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>58dd875f-8531-b94b-9bd1-265c0010934b</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Other Production Forecast Three Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
@@ -846,6 +947,7 @@
 	<cim:AnalogValue rdf:ID="_1d5b07d3-4dba-1b4e-adcb-bc4c09dae83c">
 		<cim:AnalogValue.Analog rdf:resource="#_7183e6f1-4ba0-854b-918f-ac180ca2aa78"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 OTH 4D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>1d5b07d3-4dba-1b4e-adcb-bc4c09dae83c</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Other Production Forecast Four Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
@@ -853,6 +955,7 @@
 	<cim:AnalogValue rdf:ID="_5e5f565d-894e-1e43-86a1-7c666d7e13cd">
 		<cim:AnalogValue.Analog rdf:resource="#_7183e6f1-4ba0-854b-918f-ac180ca2aa78"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 OTH 5D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>5e5f565d-894e-1e43-86a1-7c666d7e13cd</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Other Production Forecast Five Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
@@ -860,6 +963,7 @@
 	<cim:AnalogValue rdf:ID="_46a7d2ab-2156-3d49-95a3-c1db7b1f89bb">
 		<cim:AnalogValue.Analog rdf:resource="#_7183e6f1-4ba0-854b-918f-ac180ca2aa78"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 OTH 6D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>46a7d2ab-2156-3d49-95a3-c1db7b1f89bb</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Other Production Forecast Six Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
@@ -867,6 +971,7 @@
 	<cim:AnalogValue rdf:ID="_7d497f37-351b-e24f-be98-c52e61e3b0d8">
 		<cim:AnalogValue.Analog rdf:resource="#_7183e6f1-4ba0-854b-918f-ac180ca2aa78"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 OTH 7D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>7d497f37-351b-e24f-be98-c52e61e3b0d8</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Other Production Forecast Seven Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
@@ -874,6 +979,7 @@
 	<cim:AnalogValue rdf:ID="_e91f397c-aa81-e54e-859a-7a7b5c52275f">
 		<cim:AnalogValue.Analog rdf:resource="#_9f954584-6132-af41-8015-80fd7c0e22f8"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 OTHO P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>e91f397c-aa81-e54e-859a-7a7b5c52275f</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Other Production Actual Observed</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_4c0436b7-532d-a34e-b2ee-a46a5e151536"/>
 		<cim:AnalogValue.value>4000</cim:AnalogValue.value>
@@ -881,6 +987,7 @@
 	<cim:AnalogValue rdf:ID="_4eec4118-7441-e442-bd80-af6dcf9f9aa9">
 		<cim:AnalogValue.Analog rdf:resource="#_9f954584-6132-af41-8015-80fd7c0e22f8"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 OTHS P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>4eec4118-7441-e442-bd80-af6dcf9f9aa9</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Other Production Actual Scheduled</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_6a4237ae-327d-5a4c-9c10-167725983c17"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
@@ -888,6 +995,7 @@
 	<cim:AnalogValue rdf:ID="_d3881b87-17a2-7949-aa6c-2ed11c10a620">
 		<cim:AnalogValue.Analog rdf:resource="#_7ae1d616-8796-ad43-95f7-f3510b413e81"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 PRO 1M P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>d3881b87-17a2-7949-aa6c-2ed11c10a620</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Production Forecast Month-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_d9c67735-2e2b-7746-9d00-145c4905db86"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
@@ -895,6 +1003,7 @@
 	<cim:AnalogValue rdf:ID="_734c712f-7c33-c44d-ba3f-d0b8b03ddc83">
 		<cim:AnalogValue.Analog rdf:resource="#_7ae1d616-8796-ad43-95f7-f3510b413e81"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 PRO 1Y P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>734c712f-7c33-c44d-ba3f-d0b8b03ddc83</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Production Forecast Year-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_d9c67735-2e2b-7746-9d00-145c4905db86"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
@@ -902,6 +1011,7 @@
 	<cim:AnalogValue rdf:ID="_5e014656-16d4-2845-9b97-e5cd0fab24f4">
 		<cim:AnalogValue.Analog rdf:resource="#_7ae1d616-8796-ad43-95f7-f3510b413e81"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 PRO 2D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>5e014656-16d4-2845-9b97-e5cd0fab24f4</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Production Forecast Two Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_d9c67735-2e2b-7746-9d00-145c4905db86"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
@@ -909,6 +1019,7 @@
 	<cim:AnalogValue rdf:ID="_4bf95c21-9760-f54e-8910-ea2639b51447">
 		<cim:AnalogValue.Analog rdf:resource="#_7ae1d616-8796-ad43-95f7-f3510b413e81"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 PRO 3D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>4bf95c21-9760-f54e-8910-ea2639b51447</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Production Forecast Three Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_d9c67735-2e2b-7746-9d00-145c4905db86"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
@@ -916,6 +1027,7 @@
 	<cim:AnalogValue rdf:ID="_1df8925c-8fae-fe4d-8802-862d6f0f2389">
 		<cim:AnalogValue.Analog rdf:resource="#_7ae1d616-8796-ad43-95f7-f3510b413e81"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 PRO 4D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>1df8925c-8fae-fe4d-8802-862d6f0f2389</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Production Forecast Four Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_d9c67735-2e2b-7746-9d00-145c4905db86"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
@@ -923,6 +1035,7 @@
 	<cim:AnalogValue rdf:ID="_1a0728bb-9543-c843-bed2-9f07280b140a">
 		<cim:AnalogValue.Analog rdf:resource="#_7ae1d616-8796-ad43-95f7-f3510b413e81"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 PRO 5D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>1a0728bb-9543-c843-bed2-9f07280b140a</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Production Forecast Five Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_d9c67735-2e2b-7746-9d00-145c4905db86"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
@@ -930,6 +1043,7 @@
 	<cim:AnalogValue rdf:ID="_aab3c96c-9943-7640-9621-b5965f19aafa">
 		<cim:AnalogValue.Analog rdf:resource="#_7ae1d616-8796-ad43-95f7-f3510b413e81"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 PRO 6D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>aab3c96c-9943-7640-9621-b5965f19aafa</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Production Forecast Six Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_d9c67735-2e2b-7746-9d00-145c4905db86"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
@@ -937,6 +1051,7 @@
 	<cim:AnalogValue rdf:ID="_4439bb91-7c9b-1b41-a091-8ae3600d3349">
 		<cim:AnalogValue.Analog rdf:resource="#_7ae1d616-8796-ad43-95f7-f3510b413e81"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 PRO 7D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>4439bb91-7c9b-1b41-a091-8ae3600d3349</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Production Forecast Seven Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_d9c67735-2e2b-7746-9d00-145c4905db86"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
@@ -944,6 +1059,7 @@
 	<cim:AnalogValue rdf:ID="_ff7cbe46-633f-8a46-a38e-ce21c38510dc">
 		<cim:AnalogValue.Analog rdf:resource="#_cedb649b-78f5-d042-b399-1efeb080029e"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 PROO P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>ff7cbe46-633f-8a46-a38e-ce21c38510dc</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Production Actual Observed</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_4c0436b7-532d-a34e-b2ee-a46a5e151536"/>
 		<cim:AnalogValue.value>4000</cim:AnalogValue.value>
@@ -951,6 +1067,7 @@
 	<cim:AnalogValue rdf:ID="_fe4df282-46b3-7c40-a5ad-f49187a533e5">
 		<cim:AnalogValue.Analog rdf:resource="#_cedb649b-78f5-d042-b399-1efeb080029e"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 PROS P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>fe4df282-46b3-7c40-a5ad-f49187a533e5</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Production Actual Scheduled</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_6a4237ae-327d-5a4c-9c10-167725983c17"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
@@ -958,6 +1075,7 @@
 	<cim:AnalogValue rdf:ID="_b797eb13-e770-874b-8a00-9046c4a5928e">
 		<cim:AnalogValue.Analog rdf:resource="#_40af803a-e127-ba4c-8366-a19451841b93"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 RCA 1D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>b797eb13-e770-874b-8a00-9046c4a5928e</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Remaining Capacity Forecast Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_d9c67735-2e2b-7746-9d00-145c4905db86"/>
 		<cim:AnalogValue.value>3720</cim:AnalogValue.value>
@@ -965,6 +1083,7 @@
 	<cim:AnalogValue rdf:ID="_75cab90d-30ae-7648-93f0-c9e8ab113ef7">
 		<cim:AnalogValue.Analog rdf:resource="#_40af803a-e127-ba4c-8366-a19451841b93"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 RCA 1M P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>75cab90d-30ae-7648-93f0-c9e8ab113ef7</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Remaining Capacity Forecast Month-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_d9c67735-2e2b-7746-9d00-145c4905db86"/>
 		<cim:AnalogValue.value>3720</cim:AnalogValue.value>
@@ -972,6 +1091,7 @@
 	<cim:AnalogValue rdf:ID="_a1e2be1e-c01d-194f-a85c-faeea6dab749">
 		<cim:AnalogValue.Analog rdf:resource="#_40af803a-e127-ba4c-8366-a19451841b93"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 RCA 1Y P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>a1e2be1e-c01d-194f-a85c-faeea6dab749</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Remaining Capacity Forecast Year-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_d9c67735-2e2b-7746-9d00-145c4905db86"/>
 		<cim:AnalogValue.value>3720</cim:AnalogValue.value>
@@ -979,6 +1099,7 @@
 	<cim:AnalogValue rdf:ID="_05a07c31-d13d-1747-af09-473145ad84ed">
 		<cim:AnalogValue.Analog rdf:resource="#_40af803a-e127-ba4c-8366-a19451841b93"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 RCA 2D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>05a07c31-d13d-1747-af09-473145ad84ed</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Remaining Capacity Forecast Two Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_d9c67735-2e2b-7746-9d00-145c4905db86"/>
 		<cim:AnalogValue.value>3720</cim:AnalogValue.value>
@@ -986,6 +1107,7 @@
 	<cim:AnalogValue rdf:ID="_2f605e72-da22-7442-a08f-0558f37fc83f">
 		<cim:AnalogValue.Analog rdf:resource="#_40af803a-e127-ba4c-8366-a19451841b93"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 RCA 3D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>2f605e72-da22-7442-a08f-0558f37fc83f</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Remaining Capacity Forecast Three Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_d9c67735-2e2b-7746-9d00-145c4905db86"/>
 		<cim:AnalogValue.value>3720</cim:AnalogValue.value>
@@ -993,6 +1115,7 @@
 	<cim:AnalogValue rdf:ID="_91bb6456-f9da-f844-834a-ee713c43d32e">
 		<cim:AnalogValue.Analog rdf:resource="#_40af803a-e127-ba4c-8366-a19451841b93"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 RCA 4D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>91bb6456-f9da-f844-834a-ee713c43d32e</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Remaining Capacity Forecast Four Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_d9c67735-2e2b-7746-9d00-145c4905db86"/>
 		<cim:AnalogValue.value>3720</cim:AnalogValue.value>
@@ -1000,6 +1123,7 @@
 	<cim:AnalogValue rdf:ID="_130156d7-9f92-324a-aa6a-817473599541">
 		<cim:AnalogValue.Analog rdf:resource="#_40af803a-e127-ba4c-8366-a19451841b93"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 RCA 5D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>130156d7-9f92-324a-aa6a-817473599541</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Remaining Capacity Forecast Five Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_d9c67735-2e2b-7746-9d00-145c4905db86"/>
 		<cim:AnalogValue.value>3720</cim:AnalogValue.value>
@@ -1007,6 +1131,7 @@
 	<cim:AnalogValue rdf:ID="_991b2a6c-e272-2c4b-a7c2-96af26c9d7b8">
 		<cim:AnalogValue.Analog rdf:resource="#_40af803a-e127-ba4c-8366-a19451841b93"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 RCA 6D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>991b2a6c-e272-2c4b-a7c2-96af26c9d7b8</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Remaining Capacity Forecast Six Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_d9c67735-2e2b-7746-9d00-145c4905db86"/>
 		<cim:AnalogValue.value>3720</cim:AnalogValue.value>
@@ -1014,6 +1139,7 @@
 	<cim:AnalogValue rdf:ID="_69b510f5-8c8a-214d-93dd-da39b6b9fbe8">
 		<cim:AnalogValue.Analog rdf:resource="#_40af803a-e127-ba4c-8366-a19451841b93"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 RCA 7D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>69b510f5-8c8a-214d-93dd-da39b6b9fbe8</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Remaining Capacity Forecast Seven Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_d9c67735-2e2b-7746-9d00-145c4905db86"/>
 		<cim:AnalogValue.value>3720</cim:AnalogValue.value>
@@ -1021,6 +1147,7 @@
 	<cim:AnalogValue rdf:ID="_f9d52d43-ea1d-7c4d-9f80-f8fdba3f8e71">
 		<cim:AnalogValue.Analog rdf:resource="#_40af803a-e127-ba4c-8366-a19451841b93"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 RCA ID P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>f9d52d43-ea1d-7c4d-9f80-f8fdba3f8e71</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Remaining Capacity Forecast Intraday</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_d9c67735-2e2b-7746-9d00-145c4905db86"/>
 		<cim:AnalogValue.value>3720</cim:AnalogValue.value>
@@ -1028,6 +1155,7 @@
 	<cim:AnalogValue rdf:ID="_3689afd5-d3e9-c749-9d31-d2c403d88d06">
 		<cim:AnalogValue.Analog rdf:resource="#_9ad8e518-0b29-4d46-872a-105321bbcce1"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 ROR 1M P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>3689afd5-d3e9-c749-9d31-d2c403d88d06</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Run-of-river Forecast Month-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_daf31d05-411f-984e-96d7-560183e1ec67"/>
 		<cim:AnalogValue.value>1199</cim:AnalogValue.value>
@@ -1035,6 +1163,7 @@
 	<cim:AnalogValue rdf:ID="_e5a9b2b8-7444-fb43-98be-ff4ab1a703d1">
 		<cim:AnalogValue.Analog rdf:resource="#_9ad8e518-0b29-4d46-872a-105321bbcce1"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 ROR 1Y P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>e5a9b2b8-7444-fb43-98be-ff4ab1a703d1</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Run-of-river Forecast Year-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_daf31d05-411f-984e-96d7-560183e1ec67"/>
 		<cim:AnalogValue.value>1202</cim:AnalogValue.value>
@@ -1042,6 +1171,7 @@
 	<cim:AnalogValue rdf:ID="_6e0c8781-2092-4f4c-9a13-d47cec447afa">
 		<cim:AnalogValue.Analog rdf:resource="#_9ad8e518-0b29-4d46-872a-105321bbcce1"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 ROR 2D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>6e0c8781-2092-4f4c-9a13-d47cec447afa</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Run-of-river Forecast Two Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_daf31d05-411f-984e-96d7-560183e1ec67"/>
 		<cim:AnalogValue.value>1200</cim:AnalogValue.value>
@@ -1049,6 +1179,7 @@
 	<cim:AnalogValue rdf:ID="_15df5908-87e7-3247-b250-7f119eff1a9f">
 		<cim:AnalogValue.Analog rdf:resource="#_9ad8e518-0b29-4d46-872a-105321bbcce1"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 ROR 3D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>15df5908-87e7-3247-b250-7f119eff1a9f</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Run-of-river Forecast Three Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_daf31d05-411f-984e-96d7-560183e1ec67"/>
 		<cim:AnalogValue.value>1234</cim:AnalogValue.value>
@@ -1056,6 +1187,7 @@
 	<cim:AnalogValue rdf:ID="_91f91b9e-9b73-d841-9ccd-2c064d4c17d7">
 		<cim:AnalogValue.Analog rdf:resource="#_9ad8e518-0b29-4d46-872a-105321bbcce1"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 ROR 4D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>91f91b9e-9b73-d841-9ccd-2c064d4c17d7</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Run-of-river Forecast Four Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_daf31d05-411f-984e-96d7-560183e1ec67"/>
 		<cim:AnalogValue.value>1188</cim:AnalogValue.value>
@@ -1063,6 +1195,7 @@
 	<cim:AnalogValue rdf:ID="_6dbb42eb-96cd-c94e-ad13-e94e7d1d037b">
 		<cim:AnalogValue.Analog rdf:resource="#_9ad8e518-0b29-4d46-872a-105321bbcce1"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 ROR 5D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>6dbb42eb-96cd-c94e-ad13-e94e7d1d037b</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Run-of-river Forecast Five Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_daf31d05-411f-984e-96d7-560183e1ec67"/>
 		<cim:AnalogValue.value>1300</cim:AnalogValue.value>
@@ -1070,6 +1203,7 @@
 	<cim:AnalogValue rdf:ID="_84dc2c58-2aa7-bf41-8059-4e675cc961dc">
 		<cim:AnalogValue.Analog rdf:resource="#_9ad8e518-0b29-4d46-872a-105321bbcce1"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 ROR 6D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>84dc2c58-2aa7-bf41-8059-4e675cc961dc</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Run-of-river Forecast Six Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_daf31d05-411f-984e-96d7-560183e1ec67"/>
 		<cim:AnalogValue.value>1221</cim:AnalogValue.value>
@@ -1077,6 +1211,7 @@
 	<cim:AnalogValue rdf:ID="_367ee225-3f09-ef44-a485-b9391f8bedd1">
 		<cim:AnalogValue.Analog rdf:resource="#_9ad8e518-0b29-4d46-872a-105321bbcce1"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 ROR 7D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>367ee225-3f09-ef44-a485-b9391f8bedd1</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Run-of-river Forecast Seven Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_daf31d05-411f-984e-96d7-560183e1ec67"/>
 		<cim:AnalogValue.value>1200</cim:AnalogValue.value>
@@ -1084,6 +1219,7 @@
 	<cim:AnalogValue rdf:ID="_e19ff914-6ca4-4440-987d-820241f7aeec">
 		<cim:AnalogValue.Analog rdf:resource="#_4b4f37c6-c90d-2749-b77f-d53ece79c4e7"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 THR 1M P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>e19ff914-6ca4-4440-987d-820241f7aeec</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Thermal Forecast Month-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
@@ -1091,6 +1227,7 @@
 	<cim:AnalogValue rdf:ID="_eb019c80-69a8-754d-b29e-e5668f857cea">
 		<cim:AnalogValue.Analog rdf:resource="#_4b4f37c6-c90d-2749-b77f-d53ece79c4e7"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 THR 1Y P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>eb019c80-69a8-754d-b29e-e5668f857cea</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Thermal Forecast Year-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
@@ -1098,6 +1235,7 @@
 	<cim:AnalogValue rdf:ID="_bae46cc4-cc01-214e-b4b3-f9df8fcad219">
 		<cim:AnalogValue.Analog rdf:resource="#_4b4f37c6-c90d-2749-b77f-d53ece79c4e7"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 THR 2D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>bae46cc4-cc01-214e-b4b3-f9df8fcad219</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Thermal Forecast Two Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
@@ -1105,6 +1243,7 @@
 	<cim:AnalogValue rdf:ID="_e470a7d7-2f32-f54f-8315-035efcee7bfa">
 		<cim:AnalogValue.Analog rdf:resource="#_4b4f37c6-c90d-2749-b77f-d53ece79c4e7"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 THR 3D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>e470a7d7-2f32-f54f-8315-035efcee7bfa</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Thermal Forecast Three Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
@@ -1112,6 +1251,7 @@
 	<cim:AnalogValue rdf:ID="_433c1753-32f6-9d46-ae72-3e467bd8d547">
 		<cim:AnalogValue.Analog rdf:resource="#_4b4f37c6-c90d-2749-b77f-d53ece79c4e7"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 THR 4D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>433c1753-32f6-9d46-ae72-3e467bd8d547</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Thermal Forecast Four Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
@@ -1119,6 +1259,7 @@
 	<cim:AnalogValue rdf:ID="_e568348b-92a6-5e4c-8071-242e552f2863">
 		<cim:AnalogValue.Analog rdf:resource="#_4b4f37c6-c90d-2749-b77f-d53ece79c4e7"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 THR 5D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>e568348b-92a6-5e4c-8071-242e552f2863</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Thermal Forecast Five Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
@@ -1126,6 +1267,7 @@
 	<cim:AnalogValue rdf:ID="_933ce024-197c-ab42-b1ff-d1f2f45f1887">
 		<cim:AnalogValue.Analog rdf:resource="#_4b4f37c6-c90d-2749-b77f-d53ece79c4e7"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 THR 6D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>933ce024-197c-ab42-b1ff-d1f2f45f1887</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Thermal Forecast Six Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
@@ -1133,6 +1275,7 @@
 	<cim:AnalogValue rdf:ID="_25da52c9-8f6d-3140-bfc8-79ea5aa524cb">
 		<cim:AnalogValue.Analog rdf:resource="#_4b4f37c6-c90d-2749-b77f-d53ece79c4e7"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 THR 7D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>25da52c9-8f6d-3140-bfc8-79ea5aa524cb</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Thermal Forecast Seven Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
@@ -1140,6 +1283,7 @@
 	<cim:AnalogValue rdf:ID="_666ae00e-97c2-144c-924c-ef75311e827a">
 		<cim:AnalogValue.Analog rdf:resource="#_addc4858-76ce-8240-a702-d6e96126b946"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 THRO P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>666ae00e-97c2-144c-924c-ef75311e827a</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Thermal  Actual Observed</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_4c0436b7-532d-a34e-b2ee-a46a5e151536"/>
 		<cim:AnalogValue.value>4000</cim:AnalogValue.value>
@@ -1147,6 +1291,7 @@
 	<cim:AnalogValue rdf:ID="_c71397e8-77ea-3e4a-84c8-36308b315205">
 		<cim:AnalogValue.Analog rdf:resource="#_addc4858-76ce-8240-a702-d6e96126b946"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 THRS P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>c71397e8-77ea-3e4a-84c8-36308b315205</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Thermal Actual Scheduled</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_6a4237ae-327d-5a4c-9c10-167725983c17"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
@@ -1154,6 +1299,7 @@
 	<cim:AnalogValue rdf:ID="_6e8ad8a4-1342-7941-901f-73dec3086118">
 		<cim:AnalogValue.Analog rdf:resource="#_7e629e54-eef1-2d44-bcbe-6450c51e6603"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 WIN 1M P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>6e8ad8a4-1342-7941-901f-73dec3086118</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Wind Forecast Month-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
@@ -1161,6 +1307,7 @@
 	<cim:AnalogValue rdf:ID="_3c34dc2e-ba22-0940-b0fb-fc5528d9aed1">
 		<cim:AnalogValue.Analog rdf:resource="#_7e629e54-eef1-2d44-bcbe-6450c51e6603"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 WIN 1Y P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>3c34dc2e-ba22-0940-b0fb-fc5528d9aed1</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Wind Forecast Year-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
@@ -1168,6 +1315,7 @@
 	<cim:AnalogValue rdf:ID="_ef44b349-9aa5-cf4d-9252-d3c7f7d4a58f">
 		<cim:AnalogValue.Analog rdf:resource="#_7e629e54-eef1-2d44-bcbe-6450c51e6603"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 WIN 2D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>ef44b349-9aa5-cf4d-9252-d3c7f7d4a58f</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Wind Forecast Two Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
@@ -1175,6 +1323,7 @@
 	<cim:AnalogValue rdf:ID="_74cf4686-58c0-414f-838b-86627b03bbdf">
 		<cim:AnalogValue.Analog rdf:resource="#_7e629e54-eef1-2d44-bcbe-6450c51e6603"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 WIN 3D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>74cf4686-58c0-414f-838b-86627b03bbdf</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Wind Forecast Three Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
@@ -1182,6 +1331,7 @@
 	<cim:AnalogValue rdf:ID="_4685e740-e437-554e-963e-eb73ecf845d7">
 		<cim:AnalogValue.Analog rdf:resource="#_7e629e54-eef1-2d44-bcbe-6450c51e6603"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 WIN 4D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>4685e740-e437-554e-963e-eb73ecf845d7</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Wind Forecast Four Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
@@ -1189,6 +1339,7 @@
 	<cim:AnalogValue rdf:ID="_a25730b8-28dd-3d41-a4d0-02dd8741919e">
 		<cim:AnalogValue.Analog rdf:resource="#_7e629e54-eef1-2d44-bcbe-6450c51e6603"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 WIN 5D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>a25730b8-28dd-3d41-a4d0-02dd8741919e</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Wind Forecast Five Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
@@ -1196,6 +1347,7 @@
 	<cim:AnalogValue rdf:ID="_1cb273d8-2093-334f-99c7-509b401d442f">
 		<cim:AnalogValue.Analog rdf:resource="#_7e629e54-eef1-2d44-bcbe-6450c51e6603"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 WIN 6D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>1cb273d8-2093-334f-99c7-509b401d442f</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Wind Forecast Six Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
@@ -1203,6 +1355,7 @@
 	<cim:AnalogValue rdf:ID="_1a865713-25b6-b740-a85b-bf685ad85c4d">
 		<cim:AnalogValue.Analog rdf:resource="#_7e629e54-eef1-2d44-bcbe-6450c51e6603"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 WIN 7D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>1a865713-25b6-b740-a85b-bf685ad85c4d</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Wind Forecast Seven Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_8432a0f5-0640-e34f-b811-331e8bb3712f"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
@@ -1210,6 +1363,7 @@
 	<cim:AnalogValue rdf:ID="_7301a8ca-a197-8e43-9bd5-0faf02211079">
 		<cim:AnalogValue.Analog rdf:resource="#_b6200d77-995a-ee46-967a-fa8bc92a582a"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 WINO P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>7301a8ca-a197-8e43-9bd5-0faf02211079</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Wind Actual Observed</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_4c0436b7-532d-a34e-b2ee-a46a5e151536"/>
 		<cim:AnalogValue.value>4000</cim:AnalogValue.value>
@@ -1217,6 +1371,7 @@
 	<cim:AnalogValue rdf:ID="_279d4ac0-f203-514f-8b99-dd01ee7e23d1">
 		<cim:AnalogValue.Analog rdf:resource="#_b6200d77-995a-ee46-967a-fa8bc92a582a"/>
 		<cim:IdentifiedObject.name>NO-BZ-1 WINS P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>279d4ac0-f203-514f-8b99-dd01ee7e23d1</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO1 BiddingZone Wind Actual Scheduled</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_6a4237ae-327d-5a4c-9c10-167725983c17"/>
 		<cim:AnalogValue.value>4050</cim:AnalogValue.value>
@@ -1224,6 +1379,7 @@
 	<cim:AnalogValue rdf:ID="_fa58f41d-1ee2-9146-8dfc-4595cd86ed0e">
 		<cim:AnalogValue.Analog rdf:resource="#_fd33f771-db4e-1d44-bec5-e7691cf2a54b"/>
 		<cim:IdentifiedObject.name>NO-BZ-2 LAO P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>fa58f41d-1ee2-9146-8dfc-4595cd86ed0e</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO2 BiddingZone Load Actual Observed</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_4c0436b7-532d-a34e-b2ee-a46a5e151536"/>
 		<cim:AnalogValue.value>6000</cim:AnalogValue.value>
@@ -1231,6 +1387,7 @@
 	<cim:AnalogValue rdf:ID="_60296fca-83f6-cc4c-8eda-02a06599d10d">
 		<cim:AnalogValue.Analog rdf:resource="#_fd33f771-db4e-1d44-bec5-e7691cf2a54b"/>
 		<cim:IdentifiedObject.name>NO-BZ-2 LAS P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>60296fca-83f6-cc4c-8eda-02a06599d10d</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO2 BiddingZone Load Actual Scheduled</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_6a4237ae-327d-5a4c-9c10-167725983c17"/>
 		<cim:AnalogValue.value>6010</cim:AnalogValue.value>
@@ -1238,6 +1395,7 @@
 	<cim:AnalogValue rdf:ID="_ffa7e134-3386-5e4a-947f-c2eddedd14e6">
 		<cim:AnalogValue.Analog rdf:resource="#_58a1fd1d-c187-8143-82f9-cd57a421888e"/>
 		<cim:IdentifiedObject.name>NO-BZ-2 LF 1D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>ffa7e134-3386-5e4a-947f-c2eddedd14e6</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO2 BiddingZone Load Forecast Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_5693dfbd-c51e-e343-b1d7-e2d3faa3db5d"/>
 		<cim:AnalogValue.value>6100</cim:AnalogValue.value>
@@ -1245,6 +1403,7 @@
 	<cim:AnalogValue rdf:ID="_70f1ac8f-1148-194e-98de-2dab24f638e0">
 		<cim:AnalogValue.Analog rdf:resource="#_58a1fd1d-c187-8143-82f9-cd57a421888e"/>
 		<cim:IdentifiedObject.name>NO-BZ-2 LF 2D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>70f1ac8f-1148-194e-98de-2dab24f638e0</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO2 BiddingZone Load Forecast Two Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_5693dfbd-c51e-e343-b1d7-e2d3faa3db5d"/>
 		<cim:AnalogValue.value>6060</cim:AnalogValue.value>
@@ -1252,6 +1411,7 @@
 	<cim:AnalogValue rdf:ID="_5521a3b3-0e1d-d344-85b6-2c24ebe3eb3e">
 		<cim:AnalogValue.Analog rdf:resource="#_35ef9ce3-5fc6-9546-a056-067807c3b30a"/>
 		<cim:IdentifiedObject.name>NO-BZ-3 LAO P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>5521a3b3-0e1d-d344-85b6-2c24ebe3eb3e</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO3 BiddingZone Load Actual Observed</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_4c0436b7-532d-a34e-b2ee-a46a5e151536"/>
 		<cim:AnalogValue.value>2350</cim:AnalogValue.value>
@@ -1259,6 +1419,7 @@
 	<cim:AnalogValue rdf:ID="_322f936d-1b8a-4a4b-b1d2-03403945c202">
 		<cim:AnalogValue.Analog rdf:resource="#_35ef9ce3-5fc6-9546-a056-067807c3b30a"/>
 		<cim:IdentifiedObject.name>NO-BZ-3 LAS P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>322f936d-1b8a-4a4b-b1d2-03403945c202</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO3 BiddingZone Load Actual Scheduled</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_6a4237ae-327d-5a4c-9c10-167725983c17"/>
 		<cim:AnalogValue.value>2360</cim:AnalogValue.value>
@@ -1266,6 +1427,7 @@
 	<cim:AnalogValue rdf:ID="_80fbd5bc-44ef-a449-bd3a-a332871d687c">
 		<cim:AnalogValue.Analog rdf:resource="#_8b1b936a-7395-e644-8b0a-63113ed9f23c"/>
 		<cim:IdentifiedObject.name>NO-BZ-3 LF 1D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>80fbd5bc-44ef-a449-bd3a-a332871d687c</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO3 BiddingZone Load Forecast Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_5693dfbd-c51e-e343-b1d7-e2d3faa3db5d"/>
 		<cim:AnalogValue.value>2370</cim:AnalogValue.value>
@@ -1273,6 +1435,7 @@
 	<cim:AnalogValue rdf:ID="_ba20d758-38ed-8042-8506-07e1acac12e6">
 		<cim:AnalogValue.Analog rdf:resource="#_8b1b936a-7395-e644-8b0a-63113ed9f23c"/>
 		<cim:IdentifiedObject.name>NO-BZ-3 LF 2D P_V</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.mRID>ba20d758-38ed-8042-8506-07e1acac12e6</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>NO3 BiddingZone Load Forecast Two Day-ahead</cim:IdentifiedObject.description>
 		<cim:MeasurementValue.MeasurementValueSource rdf:resource="#_5693dfbd-c51e-e343-b1d7-e2d3faa3db5d"/>
 		<cim:AnalogValue.value>2349</cim:AnalogValue.value>
