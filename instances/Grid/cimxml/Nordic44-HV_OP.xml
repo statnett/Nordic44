@@ -83,8 +83,8 @@
 		<cim:Measurement.PowerSystemResource rdf:resource="#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
 		<cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
 		<!-- <pti:Measurement.uncefactUnitCode>B11</pti:Measurement.uncefactUnitCode> -->
-		<cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100##UnitMultiplier.M"/>
-		<cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100##UnitSymbol.W"/>
+		<cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.M"/>
+		<cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.W"/>
 	</cim:Analog>
 	<cim:Analog rdf:ID="_e86c1491-955c-4946-82de-b63a6192277a">
 		<cim:IdentifiedObject.name>NO-BZ-1 HYDF P</cim:IdentifiedObject.name>
@@ -93,8 +93,8 @@
 		<cim:Measurement.PowerSystemResource rdf:resource="#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
 		<cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
 		<!-- <pti:Measurement.uncefactUnitCode>B11</pti:Measurement.uncefactUnitCode> -->
-		<cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100##UnitMultiplier.M"/>
-		<cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100##UnitSymbol.W"/>
+		<cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.M"/>
+		<cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.W"/>
 	</cim:Analog>
 	<cim:Analog rdf:ID="_5d9cc592-1b36-9740-af4d-06e3696f829e">
 		<cim:IdentifiedObject.name>NO-BZ-1 HYRAF P</cim:IdentifiedObject.name>
@@ -103,8 +103,8 @@
 		<cim:Measurement.PowerSystemResource rdf:resource="#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
 		<cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
 		<!-- <pti:Measurement.uncefactUnitCode>B12</pti:Measurement.uncefactUnitCode> -->
-		<cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100##UnitMultiplier.M"/>
-		<cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100##UnitSymbol.W"/>
+		<cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.M"/>
+		<cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.W"/>
 	</cim:Analog>
 	<cim:Analog rdf:ID="_ede27694-434e-5a42-9bdc-272dd750a9c0">
 		<cim:IdentifiedObject.name>NO-BZ-1 IGENC P</cim:IdentifiedObject.name>
@@ -113,8 +113,8 @@
 		<cim:Measurement.PowerSystemResource rdf:resource="#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
 		<cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
 		<!-- <pti:Measurement.uncefactUnitCode>A68</pti:Measurement.uncefactUnitCode> -->
-		<cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100##UnitMultiplier.M"/>
-		<cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100##UnitSymbol.W"/>
+		<cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.M"/>
+		<cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.W"/>
 	</cim:Analog>
 	<cim:Analog rdf:ID="_b07d2149-2fca-9c4b-a4ab-909fe501e1b6">
 		<cim:IdentifiedObject.name>NO-BZ-1 IHYPC P</cim:IdentifiedObject.name>
@@ -123,8 +123,8 @@
 		<cim:Measurement.PowerSystemResource rdf:resource="#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
 		<cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
 		<!-- <pti:Measurement.uncefactUnitCode>B10</pti:Measurement.uncefactUnitCode> -->
-		<cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100##UnitMultiplier.M"/>
-		<cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100##UnitSymbol.W"/>
+		<cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.M"/>
+		<cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.W"/>
 	</cim:Analog>
 	<cim:Analog rdf:ID="_0aa5e8dd-7ee5-e04c-a5f4-400089570f6c">
 		<cim:IdentifiedObject.name>NO-BZ-1 IHYRC P</cim:IdentifiedObject.name>
@@ -133,8 +133,8 @@
 		<cim:Measurement.PowerSystemResource rdf:resource="#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
 		<cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
 		<!-- <pti:Measurement.uncefactUnitCode>B12</pti:Measurement.uncefactUnitCode> -->
-		<cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100##UnitMultiplier.M"/>
-		<cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100##UnitSymbol.W"/>
+		<cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.M"/>
+		<cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.W"/>
 	</cim:Analog>
 	<cim:Analog rdf:ID="_efd83f4d-ff51-9441-b2d3-7087abb9c2ba">
 		<cim:IdentifiedObject.name>NO-BZ-1 IRORC P</cim:IdentifiedObject.name>
@@ -143,8 +143,8 @@
 		<cim:Measurement.PowerSystemResource rdf:resource="#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
 		<cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
 		<!-- <pti:Measurement.uncefactUnitCode>B11</pti:Measurement.uncefactUnitCode> -->
-		<cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100##UnitMultiplier.M"/>
-		<cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100##UnitSymbol.W"/>
+		<cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.M"/>
+		<cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.W"/>
 	</cim:Analog>
 	<cim:Analog rdf:ID="_fa062dad-5adb-a945-807d-862f080f5d23">
 		<cim:IdentifiedObject.name>NO-BZ-1 IWINC P</cim:IdentifiedObject.name>
@@ -153,8 +153,8 @@
 		<cim:Measurement.PowerSystemResource rdf:resource="#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
 		<cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
 		<!-- <pti:Measurement.uncefactUnitCode>B19</pti:Measurement.uncefactUnitCode> -->
-		<cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100##UnitMultiplier.M"/>
-		<cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100##UnitSymbol.W"/>
+		<cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.M"/>
+		<cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.W"/>
 	</cim:Analog>
 	<cim:Analog rdf:ID="_74306ce2-bf32-9e40-a14f-9303f3101274">
 		<cim:IdentifiedObject.name>NO-BZ-1 LA P</cim:IdentifiedObject.name>
@@ -163,8 +163,8 @@
 		<cim:Measurement.PowerSystemResource rdf:resource="#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
 		<cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
 		<!-- <pti:Measurement.uncefactUnitCode>A04</pti:Measurement.uncefactUnitCode> -->
-		<cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100##UnitMultiplier.M"/>
-		<cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100##UnitSymbol.W"/>
+		<cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.M"/>
+		<cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.W"/>
 	</cim:Analog>
 	<cim:Analog rdf:ID="_687792ee-e9a2-5d4b-bac2-6ec451287c6d">
 		<cim:IdentifiedObject.name>NO-BZ-1 LF P</cim:IdentifiedObject.name>
@@ -173,8 +173,8 @@
 		<cim:Measurement.PowerSystemResource rdf:resource="#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
 		<cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
 		<!-- <pti:Measurement.uncefactUnitCode>A04</pti:Measurement.uncefactUnitCode> -->
-		<cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100##UnitMultiplier.M"/>
-		<cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100##UnitSymbol.W"/>
+		<cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.M"/>
+		<cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.W"/>
 	</cim:Analog>
 	<cim:Analog rdf:ID="_c7111857-b4fa-9945-b840-c5bab849144a">
 		<cim:IdentifiedObject.name>NO-BZ-1 NEXA P</cim:IdentifiedObject.name>
@@ -183,8 +183,8 @@
 		<cim:Measurement.PowerSystemResource rdf:resource="#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
 		<cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
 		<!-- <pti:Measurement.uncefactUnitCode>xx</pti:Measurement.uncefactUnitCode> -->
-		<cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100##UnitMultiplier.M"/>
-		<cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100##UnitSymbol.W"/>
+		<cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.M"/>
+		<cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.W"/>
 	</cim:Analog>
 	<cim:Analog rdf:ID="_a68067c8-8456-7143-9f20-216a1a88d213">
 		<cim:IdentifiedObject.name>NO-BZ-1 NEXF P</cim:IdentifiedObject.name>
@@ -193,8 +193,8 @@
 		<cim:Measurement.PowerSystemResource rdf:resource="#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
 		<cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
 		<!-- <pti:Measurement.uncefactUnitCode>xx</pti:Measurement.uncefactUnitCode> -->
-		<cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100##UnitMultiplier.M"/>
-		<cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100##UnitSymbol.W"/>
+		<cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.M"/>
+		<cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.W"/>
 	</cim:Analog>
 	<cim:Analog rdf:ID="_1aae61d1-6b75-d84e-8b08-f8cf5ff69b78">
 		<cim:IdentifiedObject.name>NO-BZ-1 NUCA P</cim:IdentifiedObject.name>
@@ -203,8 +203,8 @@
 		<cim:Measurement.PowerSystemResource rdf:resource="#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
 		<cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
 		<!-- <pti:Measurement.uncefactUnitCode>B14</pti:Measurement.uncefactUnitCode> -->
-		<cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100##UnitMultiplier.M"/>
-		<cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100##UnitSymbol.W"/>
+		<cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.M"/>
+		<cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.W"/>
 	</cim:Analog>
 	<cim:Analog rdf:ID="_8e5494f2-1d0b-8d42-9ae6-3a0d8cf8d25d">
 		<cim:IdentifiedObject.name>NO-BZ-1 NUCF P</cim:IdentifiedObject.name>
@@ -213,8 +213,8 @@
 		<cim:Measurement.PowerSystemResource rdf:resource="#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
 		<cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
 		<!-- <pti:Measurement.uncefactUnitCode>B14</pti:Measurement.uncefactUnitCode> -->
-		<cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100##UnitMultiplier.M"/>
-		<cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100##UnitSymbol.W"/>
+		<cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.M"/>
+		<cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.W"/>
 	</cim:Analog>
 	<cim:Analog rdf:ID="_9f954584-6132-af41-8015-80fd7c0e22f8">
 		<cim:IdentifiedObject.name>NO-BZ-1 OTHA P</cim:IdentifiedObject.name>
@@ -223,8 +223,8 @@
 		<cim:Measurement.PowerSystemResource rdf:resource="#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
 		<cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
 		<!-- <pti:Measurement.uncefactUnitCode>B20</pti:Measurement.uncefactUnitCode> -->
-		<cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100##UnitMultiplier.M"/>
-		<cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100##UnitSymbol.W"/>
+		<cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.M"/>
+		<cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.W"/>
 	</cim:Analog>
 	<cim:Analog rdf:ID="_7183e6f1-4ba0-854b-918f-ac180ca2aa78">
 		<cim:IdentifiedObject.name>NO-BZ-1 OTHF P</cim:IdentifiedObject.name>
@@ -233,8 +233,8 @@
 		<cim:Measurement.PowerSystemResource rdf:resource="#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
 		<cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
 		<!-- <pti:Measurement.uncefactUnitCode>B20</pti:Measurement.uncefactUnitCode> -->
-		<cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100##UnitMultiplier.M"/>
-		<cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100##UnitSymbol.W"/>
+		<cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.M"/>
+		<cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.W"/>
 	</cim:Analog>
 	<cim:Analog rdf:ID="_cedb649b-78f5-d042-b399-1efeb080029e">
 		<cim:IdentifiedObject.name>NO-BZ-1 PROA P</cim:IdentifiedObject.name>
@@ -243,8 +243,8 @@
 		<cim:Measurement.PowerSystemResource rdf:resource="#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
 		<cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
 		<!-- <pti:Measurement.uncefactUnitCode>A38</pti:Measurement.uncefactUnitCode> -->
-		<cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100##UnitMultiplier.M"/>
-		<cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100##UnitSymbol.W"/>
+		<cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.M"/>
+		<cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.W"/>
 	</cim:Analog>
 	<cim:Analog rdf:ID="_7ae1d616-8796-ad43-95f7-f3510b413e81">
 		<cim:IdentifiedObject.name>NO-BZ-1 PROF P</cim:IdentifiedObject.name>
@@ -253,8 +253,8 @@
 		<cim:Measurement.PowerSystemResource rdf:resource="#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
 		<cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
 		<!-- <pti:Measurement.uncefactUnitCode>A38</pti:Measurement.uncefactUnitCode> -->
-		<cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100##UnitMultiplier.M"/>
-		<cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100##UnitSymbol.W"/>
+		<cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.M"/>
+		<cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.W"/>
 	</cim:Analog>
 	<cim:Analog rdf:ID="_e46afcb9-f3a4-4a4b-9c28-2d51b3708ae1">
 		<cim:IdentifiedObject.name>NO-BZ-1 PUMAF P</cim:IdentifiedObject.name>
@@ -263,8 +263,8 @@
 		<cim:Measurement.PowerSystemResource rdf:resource="#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
 		<cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
 		<!-- <pti:Measurement.uncefactUnitCode>B10</pti:Measurement.uncefactUnitCode> -->
-		<cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100##UnitMultiplier.M"/>
-		<cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100##UnitSymbol.W"/>
+		<cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.M"/>
+		<cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.W"/>
 	</cim:Analog>
 	<cim:Analog rdf:ID="_40af803a-e127-ba4c-8366-a19451841b93">
 		<cim:IdentifiedObject.name>NO-BZ-1 RCF P</cim:IdentifiedObject.name>
@@ -273,8 +273,8 @@
 		<cim:Measurement.PowerSystemResource rdf:resource="#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
 		<cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
 		<!-- <pti:Measurement.uncefactUnitCode>A38</pti:Measurement.uncefactUnitCode> -->
-		<cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100##UnitMultiplier.M"/>
-		<cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100##UnitSymbol.W"/>
+		<cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.M"/>
+		<cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.W"/>
 	</cim:Analog>
 	<cim:Analog rdf:ID="_22c86021-5e62-824d-9965-38826dc07a4c">
 		<cim:IdentifiedObject.name>NO-BZ-1 RORA P</cim:IdentifiedObject.name>
@@ -283,8 +283,8 @@
 		<cim:Measurement.PowerSystemResource rdf:resource="#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
 		<cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
 		<!-- <pti:Measurement.uncefactUnitCode>B11</pti:Measurement.uncefactUnitCode> -->
-		<cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100##UnitMultiplier.M"/>
-		<cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100##UnitSymbol.W"/>
+		<cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.M"/>
+		<cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.W"/>
 	</cim:Analog>
 	<cim:Analog rdf:ID="_9ad8e518-0b29-4d46-872a-105321bbcce1">
 		<cim:IdentifiedObject.name>NO-BZ-1 RORF P</cim:IdentifiedObject.name>
@@ -293,8 +293,8 @@
 		<cim:Measurement.PowerSystemResource rdf:resource="#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
 		<cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
 		<!-- <pti:Measurement.uncefactUnitCode>B11</pti:Measurement.uncefactUnitCode> -->
-		<cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100##UnitMultiplier.M"/>
-		<cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100##UnitSymbol.W"/>
+		<cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.M"/>
+		<cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.W"/>
 	</cim:Analog>
 	<cim:Analog rdf:ID="_addc4858-76ce-8240-a702-d6e96126b946">
 		<cim:IdentifiedObject.name>NO-BZ-1 THRA P</cim:IdentifiedObject.name>
@@ -303,8 +303,8 @@
 		<cim:Measurement.PowerSystemResource rdf:resource="#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
 		<cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
 		<!-- <pti:Measurement.uncefactUnitCode>B04</pti:Measurement.uncefactUnitCode> -->
-		<cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100##UnitMultiplier.M"/>
-		<cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100##UnitSymbol.W"/>
+		<cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.M"/>
+		<cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.W"/>
 	</cim:Analog>
 	<cim:Analog rdf:ID="_4b4f37c6-c90d-2749-b77f-d53ece79c4e7">
 		<cim:IdentifiedObject.name>NO-BZ-1 THRF P</cim:IdentifiedObject.name>
@@ -313,8 +313,8 @@
 		<cim:Measurement.PowerSystemResource rdf:resource="#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
 		<cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
 		<!-- <pti:Measurement.uncefactUnitCode>B04</pti:Measurement.uncefactUnitCode> -->
-		<cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100##UnitMultiplier.M"/>
-		<cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100##UnitSymbol.W"/>
+		<cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.M"/>
+		<cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.W"/>
 	</cim:Analog>
 	<cim:Analog rdf:ID="_b6200d77-995a-ee46-967a-fa8bc92a582a">
 		<cim:IdentifiedObject.name>NO-BZ-1 WINA P</cim:IdentifiedObject.name>
@@ -323,8 +323,8 @@
 		<cim:Measurement.PowerSystemResource rdf:resource="#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
 		<cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
 		<!-- <pti:Measurement.uncefactUnitCode>B19</pti:Measurement.uncefactUnitCode> -->
-		<cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100##UnitMultiplier.M"/>
-		<cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100##UnitSymbol.W"/>
+		<cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.M"/>
+		<cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.W"/>
 	</cim:Analog>
 	<cim:Analog rdf:ID="_7e629e54-eef1-2d44-bcbe-6450c51e6603">
 		<cim:IdentifiedObject.name>NO-BZ-1 WINF P</cim:IdentifiedObject.name>
@@ -333,8 +333,8 @@
 		<cim:Measurement.PowerSystemResource rdf:resource="#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a"/>
 		<cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
 		<!-- <pti:Measurement.uncefactUnitCode>B19</pti:Measurement.uncefactUnitCode> -->
-		<cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100##UnitMultiplier.M"/>
-		<cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100##UnitSymbol.W"/>
+		<cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.M"/>
+		<cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.W"/>
 	</cim:Analog>
 	<cim:Analog rdf:ID="_fd33f771-db4e-1d44-bec5-e7691cf2a54b">
 		<cim:IdentifiedObject.name>NO-BZ-2 LA P</cim:IdentifiedObject.name>
@@ -343,8 +343,8 @@
 		<cim:Measurement.PowerSystemResource rdf:resource="#_63b13e2e-8d0a-47d0-8de8-fb686decbae4"/>
 		<cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
 		<!-- <pti:Measurement.uncefactUnitCode>A04</pti:Measurement.uncefactUnitCode> -->
-		<cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100##UnitMultiplier.M"/>
-		<cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100##UnitSymbol.W"/>
+		<cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.M"/>
+		<cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.W"/>
 	</cim:Analog>
 	<cim:Analog rdf:ID="_58a1fd1d-c187-8143-82f9-cd57a421888e">
 		<cim:IdentifiedObject.name>NO-BZ-2 LF P</cim:IdentifiedObject.name>
@@ -353,8 +353,8 @@
 		<cim:Measurement.PowerSystemResource rdf:resource="#_63b13e2e-8d0a-47d0-8de8-fb686decbae4"/>
 		<cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
 		<!-- <pti:Measurement.uncefactUnitCode>A04</pti:Measurement.uncefactUnitCode> -->
-		<cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100##UnitMultiplier.M"/>
-		<cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100##UnitSymbol.W"/>
+		<cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.M"/>
+		<cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.W"/>
 	</cim:Analog>
 	<cim:Analog rdf:ID="_35ef9ce3-5fc6-9546-a056-067807c3b30a">
 		<cim:IdentifiedObject.name>NO-BZ-3 LA P</cim:IdentifiedObject.name>
@@ -363,8 +363,8 @@
 		<cim:Measurement.PowerSystemResource rdf:resource="#_0f094148-164b-427a-a8e8-0c5f334688ae"/>
 		<cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
 		<!-- <pti:Measurement.uncefactUnitCode>A04</pti:Measurement.uncefactUnitCode> -->
-		<cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100##UnitMultiplier.M"/>
-		<cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100##UnitSymbol.W"/>
+		<cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.M"/>
+		<cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.W"/>
 	</cim:Analog>
 	<cim:Analog rdf:ID="_8b1b936a-7395-e644-8b0a-63113ed9f23c">
 		<cim:IdentifiedObject.name>NO-BZ-3 LF P</cim:IdentifiedObject.name>
@@ -373,8 +373,8 @@
 		<cim:Measurement.PowerSystemResource rdf:resource="#_0f094148-164b-427a-a8e8-0c5f334688ae"/>
 		<cim:Measurement.measurementType>ThreePhaseActivePower</cim:Measurement.measurementType>
 		<!-- <pti:Measurement.uncefactUnitCode>A04</pti:Measurement.uncefactUnitCode> -->
-		<cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100##UnitMultiplier.M"/>
-		<cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100##UnitSymbol.W"/>
+		<cim:Measurement.unitMultiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.M"/>
+		<cim:Measurement.unitSymbol rdf:resource="http://iec.ch/TC57/CIM100#UnitSymbol.W"/>
 	</cim:Analog>
 	<cim:AnalogValue rdf:ID="_1656efeb-3475-304d-9886-a88a72a83a66">
 		<cim:AnalogValue.Analog rdf:resource="#_e86c1491-955c-4946-82de-b63a6192277a"/>
