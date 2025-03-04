@@ -1052,7 +1052,6 @@
 		<cim:Equipment.EquipmentContainer rdf:resource="#_f72994d8-9857-b349-a4ae-2e3c9652d5bc"/>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.description>Arendal 300 Asker 1 A Breaker</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.mRID>22e5ddcf-ac23-b449-bc4f-83336535f7c2</cim:IdentifiedObject.mRID>
@@ -1062,7 +1061,6 @@
 		<cim:Equipment.EquipmentContainer rdf:resource="#_f72994d8-9857-b349-a4ae-2e3c9652d5bc"/>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:Switch.normalOpen>true</cim:Switch.normalOpen>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.description>Arendal 300 Asker 1 B Breaker</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.mRID>0a46da9f-1326-254e-8a3b-649a431f6625</cim:IdentifiedObject.mRID>
@@ -1072,7 +1070,6 @@
 		<cim:Equipment.EquipmentContainer rdf:resource="#_e5943b0f-8c95-ef4c-a6f6-16b9ace48341"/>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.description>Arendal 300 Kristiansand 1 A Breaker</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.mRID>f56758a8-12a0-7648-b04b-f32ec3247e3b</cim:IdentifiedObject.mRID>
@@ -1082,7 +1079,6 @@
 		<cim:Equipment.EquipmentContainer rdf:resource="#_e5943b0f-8c95-ef4c-a6f6-16b9ace48341"/>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:Switch.normalOpen>true</cim:Switch.normalOpen>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.description>Arendal 300 Kristiansand 1 B Breaker</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.mRID>7113e099-7f24-6a47-9fa2-94a2d57d6c9b</cim:IdentifiedObject.mRID>
@@ -1092,7 +1088,6 @@
 		<cim:Equipment.EquipmentContainer rdf:resource="#_b61b6279-c21e-8241-aeb7-8d9bd3ead57c"/>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.description>Arendal 300 Kristiansand 2 A Breaker</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.mRID>dd8be3ea-8ad3-f148-898c-5509662d5159</cim:IdentifiedObject.mRID>
@@ -1102,7 +1097,6 @@
 		<cim:Equipment.EquipmentContainer rdf:resource="#_b61b6279-c21e-8241-aeb7-8d9bd3ead57c"/>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:Switch.normalOpen>true</cim:Switch.normalOpen>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.description>Arendal 300 Kristiansand 2 B Breaker</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.mRID>cbd34307-2d45-ae47-872a-516888952750</cim:IdentifiedObject.mRID>
@@ -1112,7 +1106,6 @@
 		<cim:Equipment.EquipmentContainer rdf:resource="#_82c28dce-c78e-974c-b392-0dd15c10e67a"/>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.description>Arendal 300 Shunt Compensator 1 A Breaker</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.mRID>3dd4a1cf-86dc-9649-8120-e519d7986be9</cim:IdentifiedObject.mRID>
@@ -1122,7 +1115,6 @@
 		<cim:Equipment.EquipmentContainer rdf:resource="#_07a43fc4-0dca-554d-9d57-b1b721912b5a"/>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.description>Arendal 300 Transformer 1 A Breaker</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.mRID>5ae8b25f-24cc-e34b-b238-2aea59d516c5</cim:IdentifiedObject.mRID>
@@ -1132,7 +1124,6 @@
 		<cim:Equipment.EquipmentContainer rdf:resource="#_bd862643-f24b-234c-8b43-3724eb3a173c"/>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.description>Arendal 420 Transformer 1 A Breaker</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.mRID>368340e1-464b-814b-9bac-9b70b93dde72</cim:IdentifiedObject.mRID>
@@ -1142,7 +1133,6 @@
 		<cim:Equipment.EquipmentContainer rdf:resource="#_e789e752-840f-6244-aca3-735295ad7b1e"/>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.description>Kristiansand 300 Arendal 1 A Breaker</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.mRID>2384f146-deb2-c046-817c-6322a5381b9c</cim:IdentifiedObject.mRID>
@@ -1152,7 +1142,6 @@
 		<cim:Equipment.EquipmentContainer rdf:resource="#_e789e752-840f-6244-aca3-735295ad7b1e"/>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:Switch.normalOpen>true</cim:Switch.normalOpen>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.description>Kristiansand 300 Arendal 1 B Breaker</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.mRID>3c4c59b7-461d-5b40-8f0e-2064845bbfdb</cim:IdentifiedObject.mRID>
@@ -1162,7 +1151,6 @@
 		<cim:Equipment.EquipmentContainer rdf:resource="#_d965c17e-a3fe-c447-8139-b55a1201b3b3"/>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.description>Kristiansand 300 Feda 1 A Breaker</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.mRID>0d415b1b-b4da-f34f-aafb-802c77edce8e</cim:IdentifiedObject.mRID>
@@ -1172,7 +1160,6 @@
 		<cim:Equipment.EquipmentContainer rdf:resource="#_d965c17e-a3fe-c447-8139-b55a1201b3b3"/>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:Switch.normalOpen>true</cim:Switch.normalOpen>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.description>Kristiansand 300 Feda 1 B Breaker</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.mRID>fdf147d4-240d-2143-b01a-84fc829bc284</cim:IdentifiedObject.mRID>
@@ -1182,7 +1169,6 @@
 		<cim:Equipment.EquipmentContainer rdf:resource="#_cf91c2cb-551a-e14c-8295-85c979c5c75e"/>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.description>Kristiansand 300 Gen 1 A Breaker</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.mRID>cefef4c4-1b45-af4b-8e13-275e0c9ffe27</cim:IdentifiedObject.mRID>
@@ -1192,7 +1178,6 @@
 		<cim:Equipment.EquipmentContainer rdf:resource="#_cf91c2cb-551a-e14c-8295-85c979c5c75e"/>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:Switch.normalOpen>true</cim:Switch.normalOpen>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.description>Kristiansand 300 Gen 1 B Breaker</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.mRID>bf62264e-c8f3-8f43-95c9-570f3337479c</cim:IdentifiedObject.mRID>
@@ -1202,7 +1187,6 @@
 		<cim:Equipment.EquipmentContainer rdf:resource="#_270e76e1-9738-5942-8fd5-ebabca4dfdad"/>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.description>Kristiansand 300 Gen 2 A Breaker</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.mRID>13588bcf-c30d-7a49-beaa-67fcce61d305</cim:IdentifiedObject.mRID>
@@ -1212,7 +1196,6 @@
 		<cim:Equipment.EquipmentContainer rdf:resource="#_270e76e1-9738-5942-8fd5-ebabca4dfdad"/>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:Switch.normalOpen>true</cim:Switch.normalOpen>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.description>Kristiansand 300 Gen 2 B Breaker</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.mRID>128ca899-5716-9341-a823-dd4c35385f2e</cim:IdentifiedObject.mRID>
@@ -1222,7 +1205,6 @@
 		<cim:Equipment.EquipmentContainer rdf:resource="#_c356ea84-abae-cb43-895f-7118f2f82b3e"/>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.description>Kristiansand 300 Gen 3 A Breaker</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.mRID>316f39b6-0fed-ea41-87a1-0f5119e136c2</cim:IdentifiedObject.mRID>
@@ -1232,7 +1214,6 @@
 		<cim:Equipment.EquipmentContainer rdf:resource="#_c356ea84-abae-cb43-895f-7118f2f82b3e"/>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:Switch.normalOpen>true</cim:Switch.normalOpen>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.description>Kristiansand 300 Gen 3 B Breaker</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.mRID>30b297b4-8e19-da40-9f52-fb9175136a22</cim:IdentifiedObject.mRID>
@@ -1242,7 +1223,6 @@
 		<cim:Equipment.EquipmentContainer rdf:resource="#_e3a27e90-4941-8146-86c4-932c8016b8d3"/>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.description>Kristiansand 300 Gen 4 A Breaker</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.mRID>a7bb9a3e-03d8-3b46-9cf6-f2bf71ab7042</cim:IdentifiedObject.mRID>
@@ -1252,7 +1232,6 @@
 		<cim:Equipment.EquipmentContainer rdf:resource="#_e3a27e90-4941-8146-86c4-932c8016b8d3"/>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:Switch.normalOpen>true</cim:Switch.normalOpen>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.description>Kristiansand 300 Gen 4 B Breaker</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.mRID>0c75da66-5f3b-7d4a-809d-5a3772999253</cim:IdentifiedObject.mRID>
@@ -1262,7 +1241,6 @@
 		<cim:Equipment.EquipmentContainer rdf:resource="#_9ba118a2-7cb0-a54b-ac6e-277cf55bfd4d"/>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.description>Kristiansand 300 Kvilldal 1 A Breaker</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.mRID>e399c43f-0e9e-ae42-a66e-116fcccb56ac</cim:IdentifiedObject.mRID>
@@ -1272,7 +1250,6 @@
 		<cim:Equipment.EquipmentContainer rdf:resource="#_9ba118a2-7cb0-a54b-ac6e-277cf55bfd4d"/>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:Switch.normalOpen>true</cim:Switch.normalOpen>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.description>Kristiansand 300 Kvilldal 1 B Breaker</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.mRID>0169b8e7-c05b-3640-b55e-22b40081ca21</cim:IdentifiedObject.mRID>
@@ -1282,7 +1259,6 @@
 		<cim:Equipment.EquipmentContainer rdf:resource="#_bc25cadf-543e-8442-a72a-6c11a851d3cf"/>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.description>Kristiansand 300 Load 1 A Breaker</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.mRID>05d4226b-111b-f747-84b4-cc7be03f3544</cim:IdentifiedObject.mRID>
@@ -1292,7 +1268,6 @@
 		<cim:Equipment.EquipmentContainer rdf:resource="#_bc25cadf-543e-8442-a72a-6c11a851d3cf"/>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:Switch.normalOpen>true</cim:Switch.normalOpen>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.description>Kristiansand 300 Load 1 B Breaker</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.mRID>2973c36e-3d17-284c-a950-b86b9496acca</cim:IdentifiedObject.mRID>
@@ -1302,7 +1277,6 @@
 		<cim:Equipment.EquipmentContainer rdf:resource="#_95f000f9-9c2b-4c4d-9ce5-6ced7a695b08"/>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.description>Kristiansand 300 Load 2 A Breaker</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.mRID>7cc994ab-ddb9-8a4a-bbda-e91af59a06d9</cim:IdentifiedObject.mRID>
@@ -1312,7 +1286,6 @@
 		<cim:Equipment.EquipmentContainer rdf:resource="#_95f000f9-9c2b-4c4d-9ce5-6ced7a695b08"/>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:Switch.normalOpen>true</cim:Switch.normalOpen>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.description>Kristiansand 300 Load 2 B Breaker</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.mRID>373c4779-0905-d34c-bbc9-d200f848cbd9</cim:IdentifiedObject.mRID>
@@ -1322,7 +1295,6 @@
 		<cim:Equipment.EquipmentContainer rdf:resource="#_58f5a32f-aec4-d647-9119-a1b6c15fa01a"/>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.description>Kristiansand 300 Stavanger 1 A Breaker</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.mRID>b209ada6-1835-1540-8868-1cd5e65016c2</cim:IdentifiedObject.mRID>
@@ -1332,7 +1304,6 @@
 		<cim:Equipment.EquipmentContainer rdf:resource="#_58f5a32f-aec4-d647-9119-a1b6c15fa01a"/>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:Switch.normalOpen>true</cim:Switch.normalOpen>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.description>Kristiansand 300 Stavanger 1 B Breaker</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.mRID>56013ae5-ff4f-2949-b59a-e60c62702d3e</cim:IdentifiedObject.mRID>
@@ -1340,322 +1311,276 @@
 	<cim:BusbarSection rdf:ID="_2dd90175-bdfb-11e5-94fa-c8f73332c8f4">
 		<cim:Equipment.EquipmentContainer rdf:resource="#_f1769600-9aeb-11e5-91da-b8763fd99c5f"/>
 		<cim:IdentifiedObject.name>AJAURE  300 A</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>2dd90175-bdfb-11e5-94fa-c8f73332c8f4</cim:IdentifiedObject.mRID>
 	</cim:BusbarSection>
 	<cim:BusbarSection rdf:ID="_2dd9019d-bdfb-11e5-94fa-c8f73332c8f4">
 		<cim:Equipment.EquipmentContainer rdf:resource="#_f1769672-9aeb-11e5-91da-b8763fd99c5f"/>
 		<cim:IdentifiedObject.name>ARENDAL 300 A</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>2dd9019d-bdfb-11e5-94fa-c8f73332c8f4</cim:IdentifiedObject.mRID>
 	</cim:BusbarSection>
 	<cim:BusbarSection rdf:ID="_b8666715-5047-5d4d-a882-85fcf5c727b5">
 		<cim:Equipment.EquipmentContainer rdf:resource="#_f1769672-9aeb-11e5-91da-b8763fd99c5f"/>
 		<cim:IdentifiedObject.name>ARENDAL 300 B</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>b8666715-5047-5d4d-a882-85fcf5c727b5</cim:IdentifiedObject.mRID>
 	</cim:BusbarSection>
 	<cim:BusbarSection rdf:ID="_2dd901c1-bdfb-11e5-94fa-c8f73332c8f4">
 		<cim:Equipment.EquipmentContainer rdf:resource="#_f17696d6-9aeb-11e5-91da-b8763fd99c5f"/>
 		<cim:IdentifiedObject.name>ARRIE   420 A</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>2dd901c1-bdfb-11e5-94fa-c8f73332c8f4</cim:IdentifiedObject.mRID>
 	</cim:BusbarSection>
 	<cim:BusbarSection rdf:ID="_2dd90191-bdfb-11e5-94fa-c8f73332c8f4">
 		<cim:Equipment.EquipmentContainer rdf:resource="#_f1769650-9aeb-11e5-91da-b8763fd99c5f"/>
 		<cim:IdentifiedObject.name>ASKER   300 A</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>2dd90191-bdfb-11e5-94fa-c8f73332c8f4</cim:IdentifiedObject.mRID>
 	</cim:BusbarSection>
 	<cim:BusbarSection rdf:ID="_2dd90185-bdfb-11e5-94fa-c8f73332c8f4">
 		<cim:Equipment.EquipmentContainer rdf:resource="#_f176962c-9aeb-11e5-91da-b8763fd99c5f"/>
 		<cim:IdentifiedObject.name>AURLAND 420 A</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>2dd90185-bdfb-11e5-94fa-c8f73332c8f4</cim:IdentifiedObject.mRID>
 	</cim:BusbarSection>
 	<cim:BusbarSection rdf:ID="_2dd901a7-bdfb-11e5-94fa-c8f73332c8f4">
 		<cim:Equipment.EquipmentContainer rdf:resource="#_f1769690-9aeb-11e5-91da-b8763fd99c5f"/>
 		<cim:IdentifiedObject.name>BLAFALLI300 A</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>2dd901a7-bdfb-11e5-94fa-c8f73332c8f4</cim:IdentifiedObject.mRID>
 	</cim:BusbarSection>
 	<cim:BusbarSection rdf:ID="_2dd9017d-bdfb-11e5-94fa-c8f73332c8f4">
 		<cim:Equipment.EquipmentContainer rdf:resource="#_f176961a-9aeb-11e5-91da-b8763fd99c5f"/>
 		<cim:IdentifiedObject.name>DAGALI  420 A</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>2dd9017d-bdfb-11e5-94fa-c8f73332c8f4</cim:IdentifiedObject.mRID>
 	</cim:BusbarSection>
 	<cim:BusbarSection rdf:ID="_2dd9015b-bdfb-11e5-94fa-c8f73332c8f4">
 		<cim:Equipment.EquipmentContainer rdf:resource="#_f17695ba-9aeb-11e5-91da-b8763fd99c5f"/>
 		<cim:IdentifiedObject.name>DANNEBO 420 A</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>2dd9015b-bdfb-11e5-94fa-c8f73332c8f4</cim:IdentifiedObject.mRID>
 	</cim:BusbarSection>
 	<cim:BusbarSection rdf:ID="_2dd90189-bdfb-11e5-94fa-c8f73332c8f4">
 		<cim:Equipment.EquipmentContainer rdf:resource="#_f1769638-9aeb-11e5-91da-b8763fd99c5f"/>
 		<cim:IdentifiedObject.name>EIDFJORD420 A</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>2dd90189-bdfb-11e5-94fa-c8f73332c8f4</cim:IdentifiedObject.mRID>
 	</cim:BusbarSection>
 	<cim:BusbarSection rdf:ID="_2dd901b9-bdfb-11e5-94fa-c8f73332c8f4">
 		<cim:Equipment.EquipmentContainer rdf:resource="#_f17696c0-9aeb-11e5-91da-b8763fd99c5f"/>
 		<cim:IdentifiedObject.name>ESTLINK 420 A</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>2dd901b9-bdfb-11e5-94fa-c8f73332c8f4</cim:IdentifiedObject.mRID>
 	</cim:BusbarSection>
 	<cim:BusbarSection rdf:ID="_2dd901a1-bdfb-11e5-94fa-c8f73332c8f4">
 		<cim:Equipment.EquipmentContainer rdf:resource="#_f176967e-9aeb-11e5-91da-b8763fd99c5f"/>
 		<cim:IdentifiedObject.name>FEDA    300 A</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>2dd901a1-bdfb-11e5-94fa-c8f73332c8f4</cim:IdentifiedObject.mRID>
 	</cim:BusbarSection>
 	<cim:BusbarSection rdf:ID="_2dd90155-bdfb-11e5-94fa-c8f73332c8f4">
 		<cim:Equipment.EquipmentContainer rdf:resource="#_f17695b0-9aeb-11e5-91da-b8763fd99c5f"/>
 		<cim:IdentifiedObject.name>FORSMARK420 A</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>2dd90155-bdfb-11e5-94fa-c8f73332c8f4</cim:IdentifiedObject.mRID>
 	</cim:BusbarSection>
 	<cim:BusbarSection rdf:ID="_2dd90187-bdfb-11e5-94fa-c8f73332c8f4">
 		<cim:Equipment.EquipmentContainer rdf:resource="#_f1769632-9aeb-11e5-91da-b8763fd99c5f"/>
 		<cim:IdentifiedObject.name>GEILO   420 A</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>2dd90187-bdfb-11e5-94fa-c8f73332c8f4</cim:IdentifiedObject.mRID>
 	</cim:BusbarSection>
 	<cim:BusbarSection rdf:ID="_2dd9016c-bdfb-11e5-94fa-c8f73332c8f4">
 		<cim:Equipment.EquipmentContainer rdf:resource="#_f17695e7-9aeb-11e5-91da-b8763fd99c5f"/>
 		<cim:IdentifiedObject.name>GRUNDFOR420 A</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>2dd9016c-bdfb-11e5-94fa-c8f73332c8f4</cim:IdentifiedObject.mRID>
 	</cim:BusbarSection>
 	<cim:BusbarSection rdf:ID="_2dd901a5-bdfb-11e5-94fa-c8f73332c8f4">
 		<cim:Equipment.EquipmentContainer rdf:resource="#_f176968a-9aeb-11e5-91da-b8763fd99c5f"/>
 		<cim:IdentifiedObject.name>HAGAFOSS420 A</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>2dd901a5-bdfb-11e5-94fa-c8f73332c8f4</cim:IdentifiedObject.mRID>
 	</cim:BusbarSection>
 	<cim:BusbarSection rdf:ID="_2dd9017b-bdfb-11e5-94fa-c8f73332c8f4">
 		<cim:Equipment.EquipmentContainer rdf:resource="#_f1769610-9aeb-11e5-91da-b8763fd99c5f"/>
 		<cim:IdentifiedObject.name>HALDEN  420 A</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>2dd9017b-bdfb-11e5-94fa-c8f73332c8f4</cim:IdentifiedObject.mRID>
 	</cim:BusbarSection>
 	<cim:BusbarSection rdf:ID="_2dd901b3-bdfb-11e5-94fa-c8f73332c8f4">
 		<cim:Equipment.EquipmentContainer rdf:resource="#_f17696b4-9aeb-11e5-91da-b8763fd99c5f"/>
 		<cim:IdentifiedObject.name>HELSINKI420 A</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>2dd901b3-bdfb-11e5-94fa-c8f73332c8f4</cim:IdentifiedObject.mRID>
 	</cim:BusbarSection>
 	<cim:BusbarSection rdf:ID="_2dd9015d-bdfb-11e5-94fa-c8f73332c8f4">
 		<cim:Equipment.EquipmentContainer rdf:resource="#_f17695c4-9aeb-11e5-91da-b8763fd99c5f"/>
 		<cim:IdentifiedObject.name>HJALTA  420 A</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>2dd9015d-bdfb-11e5-94fa-c8f73332c8f4</cim:IdentifiedObject.mRID>
 	</cim:BusbarSection>
 	<cim:BusbarSection rdf:ID="_2dd90167-bdfb-11e5-94fa-c8f73332c8f4">
 		<cim:Equipment.EquipmentContainer rdf:resource="#_f17695da-9aeb-11e5-91da-b8763fd99c5f"/>
 		<cim:IdentifiedObject.name>HOGASEN 300 A</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>2dd90167-bdfb-11e5-94fa-c8f73332c8f4</cim:IdentifiedObject.mRID>
 	</cim:BusbarSection>
 	<cim:BusbarSection rdf:ID="_2dd9016a-bdfb-11e5-94fa-c8f73332c8f4">
 		<cim:Equipment.EquipmentContainer rdf:resource="#_f17695e1-9aeb-11e5-91da-b8763fd99c5f"/>
 		<cim:IdentifiedObject.name>JARPSTRO420 A</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>2dd9016a-bdfb-11e5-94fa-c8f73332c8f4</cim:IdentifiedObject.mRID>
 	</cim:BusbarSection>
 	<cim:BusbarSection rdf:ID="_2dd901c3-bdfb-11e5-94fa-c8f73332c8f4">
 		<cim:Equipment.EquipmentContainer rdf:resource="#_f17696dc-9aeb-11e5-91da-b8763fd99c5f"/>
 		<cim:IdentifiedObject.name>KARLSH  420 A</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>2dd901c3-bdfb-11e5-94fa-c8f73332c8f4</cim:IdentifiedObject.mRID>
 	</cim:BusbarSection>
 	<cim:BusbarSection rdf:ID="_2dd90181-bdfb-11e5-94fa-c8f73332c8f4">
 		<cim:Equipment.EquipmentContainer rdf:resource="#_f1769620-9aeb-11e5-91da-b8763fd99c5f"/>
 		<cim:IdentifiedObject.name>KONGSBER420 A</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>2dd90181-bdfb-11e5-94fa-c8f73332c8f4</cim:IdentifiedObject.mRID>
 	</cim:BusbarSection>
 	<cim:BusbarSection rdf:ID="_2dd9019f-bdfb-11e5-94fa-c8f73332c8f4">
 		<cim:Equipment.EquipmentContainer rdf:resource="#_f1769678-9aeb-11e5-91da-b8763fd99c5f"/>
 		<cim:IdentifiedObject.name>KRISTIA 300 A</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>2dd9019f-bdfb-11e5-94fa-c8f73332c8f4</cim:IdentifiedObject.mRID>
 	</cim:BusbarSection>
 	<cim:BusbarSection rdf:ID="_2dd90195-bdfb-11e5-94fa-c8f73332c8f4">
 		<cim:Equipment.EquipmentContainer rdf:resource="#_f1769660-9aeb-11e5-91da-b8763fd99c5f"/>
 		<cim:IdentifiedObject.name>KRISTIAN300 A</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>2dd90195-bdfb-11e5-94fa-c8f73332c8f4</cim:IdentifiedObject.mRID>
 	</cim:BusbarSection>
 	<cim:BusbarSection rdf:ID="_84573786-1ecd-614d-b343-72f255c26a3b">
 		<cim:Equipment.EquipmentContainer rdf:resource="#_f1769660-9aeb-11e5-91da-b8763fd99c5f"/>
 		<cim:IdentifiedObject.name>KRISTIAN300 B</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>84573786-1ecd-614d-b343-72f255c26a3b</cim:IdentifiedObject.mRID>
 	</cim:BusbarSection>
 	<cim:BusbarSection rdf:ID="_2dd901a3-bdfb-11e5-94fa-c8f73332c8f4">
 		<cim:Equipment.EquipmentContainer rdf:resource="#_f1769684-9aeb-11e5-91da-b8763fd99c5f"/>
 		<cim:IdentifiedObject.name>KVILLDAL300 A</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>2dd901a3-bdfb-11e5-94fa-c8f73332c8f4</cim:IdentifiedObject.mRID>
 	</cim:BusbarSection>
 	<cim:BusbarSection rdf:ID="_2dd901bd-bdfb-11e5-94fa-c8f73332c8f4">
 		<cim:Equipment.EquipmentContainer rdf:resource="#_f17696d0-9aeb-11e5-91da-b8763fd99c5f"/>
 		<cim:IdentifiedObject.name>MALMO   420 A</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>2dd901bd-bdfb-11e5-94fa-c8f73332c8f4</cim:IdentifiedObject.mRID>
 	</cim:BusbarSection>
 	<cim:BusbarSection rdf:ID="_2dd901ad-bdfb-11e5-94fa-c8f73332c8f4">
 		<cim:Equipment.EquipmentContainer rdf:resource="#_f17696a4-9aeb-11e5-91da-b8763fd99c5f"/>
 		<cim:IdentifiedObject.name>MO      300 A</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>2dd901ad-bdfb-11e5-94fa-c8f73332c8f4</cim:IdentifiedObject.mRID>
 	</cim:BusbarSection>
 	<cim:BusbarSection rdf:ID="_2dd901b1-bdfb-11e5-94fa-c8f73332c8f4">
 		<cim:Equipment.EquipmentContainer rdf:resource="#_f17696aa-9aeb-11e5-91da-b8763fd99c5f"/>
 		<cim:IdentifiedObject.name>NARVIK  420 A</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>2dd901b1-bdfb-11e5-94fa-c8f73332c8f4</cim:IdentifiedObject.mRID>
 	</cim:BusbarSection>
 	<cim:BusbarSection rdf:ID="_2dd9016e-bdfb-11e5-94fa-c8f73332c8f4">
 		<cim:Equipment.EquipmentContainer rdf:resource="#_f17695ed-9aeb-11e5-91da-b8763fd99c5f"/>
 		<cim:IdentifiedObject.name>OSKARSHA420 A</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>2dd9016e-bdfb-11e5-94fa-c8f73332c8f4</cim:IdentifiedObject.mRID>
 	</cim:BusbarSection>
 	<cim:BusbarSection rdf:ID="_2dd9018b-bdfb-11e5-94fa-c8f73332c8f4">
 		<cim:Equipment.EquipmentContainer rdf:resource="#_f176963e-9aeb-11e5-91da-b8763fd99c5f"/>
 		<cim:IdentifiedObject.name>OSLO    300 A</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>2dd9018b-bdfb-11e5-94fa-c8f73332c8f4</cim:IdentifiedObject.mRID>
 	</cim:BusbarSection>
 	<cim:BusbarSection rdf:ID="_2dd901bb-bdfb-11e5-94fa-c8f73332c8f4">
 		<cim:Equipment.EquipmentContainer rdf:resource="#_f17696c6-9aeb-11e5-91da-b8763fd99c5f"/>
 		<cim:IdentifiedObject.name>OULU    420 A</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>2dd901bb-bdfb-11e5-94fa-c8f73332c8f4</cim:IdentifiedObject.mRID>
 	</cim:BusbarSection>
 	<cim:BusbarSection rdf:ID="_2dd90161-bdfb-11e5-94fa-c8f73332c8f4">
 		<cim:Equipment.EquipmentContainer rdf:resource="#_f17695ce-9aeb-11e5-91da-b8763fd99c5f"/>
 		<cim:IdentifiedObject.name>PORJUS  420 A</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>2dd90161-bdfb-11e5-94fa-c8f73332c8f4</cim:IdentifiedObject.mRID>
 	</cim:BusbarSection>
 	<cim:BusbarSection rdf:ID="_2dd90170-bdfb-11e5-94fa-c8f73332c8f4">
 		<cim:Equipment.EquipmentContainer rdf:resource="#_f17695f3-9aeb-11e5-91da-b8763fd99c5f"/>
 		<cim:IdentifiedObject.name>RINGHALS420 A</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>2dd90170-bdfb-11e5-94fa-c8f73332c8f4</cim:IdentifiedObject.mRID>
 	</cim:BusbarSection>
 	<cim:BusbarSection rdf:ID="_2dd9019b-bdfb-11e5-94fa-c8f73332c8f4">
 		<cim:Equipment.EquipmentContainer rdf:resource="#_f176966c-9aeb-11e5-91da-b8763fd99c5f"/>
 		<cim:IdentifiedObject.name>SANDEFJO420 A</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>2dd9019b-bdfb-11e5-94fa-c8f73332c8f4</cim:IdentifiedObject.mRID>
 	</cim:BusbarSection>
 	<cim:BusbarSection rdf:ID="_2dd90183-bdfb-11e5-94fa-c8f73332c8f4">
 		<cim:Equipment.EquipmentContainer rdf:resource="#_f1769626-9aeb-11e5-91da-b8763fd99c5f"/>
 		<cim:IdentifiedObject.name>SIMA    300 A</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>2dd90183-bdfb-11e5-94fa-c8f73332c8f4</cim:IdentifiedObject.mRID>
 	</cim:BusbarSection>
 	<cim:BusbarSection rdf:ID="_2dd90193-bdfb-11e5-94fa-c8f73332c8f4">
 		<cim:Equipment.EquipmentContainer rdf:resource="#_f1769656-9aeb-11e5-91da-b8763fd99c5f"/>
 		<cim:IdentifiedObject.name>SKIEN   420 A</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>2dd90193-bdfb-11e5-94fa-c8f73332c8f4</cim:IdentifiedObject.mRID>
 	</cim:BusbarSection>
 	<cim:BusbarSection rdf:ID="_2dd90199-bdfb-11e5-94fa-c8f73332c8f4">
 		<cim:Equipment.EquipmentContainer rdf:resource="#_f1769666-9aeb-11e5-91da-b8763fd99c5f"/>
 		<cim:IdentifiedObject.name>STAVANGE300 A</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>2dd90199-bdfb-11e5-94fa-c8f73332c8f4</cim:IdentifiedObject.mRID>
 	</cim:BusbarSection>
 	<cim:BusbarSection rdf:ID="_2dd90172-bdfb-11e5-94fa-c8f73332c8f4">
 		<cim:Equipment.EquipmentContainer rdf:resource="#_f17695f9-9aeb-11e5-91da-b8763fd99c5f"/>
 		<cim:IdentifiedObject.name>STENKU  135 A</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90174-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>2dd90172-bdfb-11e5-94fa-c8f73332c8f4</cim:IdentifiedObject.mRID>
 	</cim:BusbarSection>
 	<cim:BusbarSection rdf:ID="_2dd9018d-bdfb-11e5-94fa-c8f73332c8f4">
 		<cim:Equipment.EquipmentContainer rdf:resource="#_f1769644-9aeb-11e5-91da-b8763fd99c5f"/>
 		<cim:IdentifiedObject.name>SYLLING 420 A</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>2dd9018d-bdfb-11e5-94fa-c8f73332c8f4</cim:IdentifiedObject.mRID>
 	</cim:BusbarSection>
 	<cim:BusbarSection rdf:ID="_2dd9018f-bdfb-11e5-94fa-c8f73332c8f4">
 		<cim:Equipment.EquipmentContainer rdf:resource="#_f176964a-9aeb-11e5-91da-b8763fd99c5f"/>
 		<cim:IdentifiedObject.name>SYSLE   420 A</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>2dd9018f-bdfb-11e5-94fa-c8f73332c8f4</cim:IdentifiedObject.mRID>
 	</cim:BusbarSection>
 	<cim:BusbarSection rdf:ID="_2dd90165-bdfb-11e5-94fa-c8f73332c8f4">
 		<cim:Equipment.EquipmentContainer rdf:resource="#_f17695d4-9aeb-11e5-91da-b8763fd99c5f"/>
 		<cim:IdentifiedObject.name>TENHULT 420 A</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>2dd90165-bdfb-11e5-94fa-c8f73332c8f4</cim:IdentifiedObject.mRID>
 	</cim:BusbarSection>
 	<cim:BusbarSection rdf:ID="_2dd90177-bdfb-11e5-94fa-c8f73332c8f4">
 		<cim:Equipment.EquipmentContainer rdf:resource="#_f176960a-9aeb-11e5-91da-b8763fd99c5f"/>
 		<cim:IdentifiedObject.name>TRETTEN 300 A</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>2dd90177-bdfb-11e5-94fa-c8f73332c8f4</cim:IdentifiedObject.mRID>
 	</cim:BusbarSection>
 	<cim:BusbarSection rdf:ID="_2dd901a9-bdfb-11e5-94fa-c8f73332c8f4">
 		<cim:Equipment.EquipmentContainer rdf:resource="#_f176969a-9aeb-11e5-91da-b8763fd99c5f"/>
 		<cim:IdentifiedObject.name>TRONDHEI300 A</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>2dd901a9-bdfb-11e5-94fa-c8f73332c8f4</cim:IdentifiedObject.mRID>
 	</cim:BusbarSection>
 	<cim:BusbarSection rdf:ID="_2dd901b7-bdfb-11e5-94fa-c8f73332c8f4">
 		<cim:Equipment.EquipmentContainer rdf:resource="#_f17696ba-9aeb-11e5-91da-b8763fd99c5f"/>
 		<cim:IdentifiedObject.name>VYBORG  420 A</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>2dd901b7-bdfb-11e5-94fa-c8f73332c8f4</cim:IdentifiedObject.mRID>
 	</cim:BusbarSection>
@@ -1669,7 +1594,6 @@
 		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
 		<cim:IdentifiedObject.description>5500 &apos;1 &apos;</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>ASKER   300 L1</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.mRID>f1769746-9aeb-11e5-91da-b8763fd99c5f</cim:IdentifiedObject.mRID>
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:ID="_f176974c-9aeb-11e5-91da-b8763fd99c5f">
@@ -1682,7 +1606,6 @@
 		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
 		<cim:IdentifiedObject.description>5500 &apos;2 &apos;</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>ASKER   300 L2</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.mRID>f176974c-9aeb-11e5-91da-b8763fd99c5f</cim:IdentifiedObject.mRID>
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:ID="_f176976a-9aeb-11e5-91da-b8763fd99c5f">
@@ -1695,7 +1618,6 @@
 		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
 		<cim:IdentifiedObject.description>6100 &apos;1 &apos;</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>BLAFALLI300 L1</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.mRID>f176976a-9aeb-11e5-91da-b8763fd99c5f</cim:IdentifiedObject.mRID>
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:ID="_f1769770-9aeb-11e5-91da-b8763fd99c5f">
@@ -1708,7 +1630,6 @@
 		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
 		<cim:IdentifiedObject.description>6100 &apos;2 &apos;</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>BLAFALLI300 L2</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.mRID>f1769770-9aeb-11e5-91da-b8763fd99c5f</cim:IdentifiedObject.mRID>
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:ID="_f17696e0-9aeb-11e5-91da-b8763fd99c5f">
@@ -1721,7 +1642,6 @@
 		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
 		<cim:IdentifiedObject.description>3000 &apos;1 &apos;</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>FORSMARK420 L1</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.mRID>f17696e0-9aeb-11e5-91da-b8763fd99c5f</cim:IdentifiedObject.mRID>
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:ID="_f17696e6-9aeb-11e5-91da-b8763fd99c5f">
@@ -1734,7 +1654,6 @@
 		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
 		<cim:IdentifiedObject.description>3000 &apos;2 &apos;</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>FORSMARK420 L2</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.mRID>f17696e6-9aeb-11e5-91da-b8763fd99c5f</cim:IdentifiedObject.mRID>
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:ID="_f17696ec-9aeb-11e5-91da-b8763fd99c5f">
@@ -1747,7 +1666,6 @@
 		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
 		<cim:IdentifiedObject.description>3000 &apos;3 &apos;</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>FORSMARK420 L3</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.mRID>f17696ec-9aeb-11e5-91da-b8763fd99c5f</cim:IdentifiedObject.mRID>
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:ID="_f1769704-9aeb-11e5-91da-b8763fd99c5f">
@@ -1760,7 +1678,6 @@
 		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
 		<cim:IdentifiedObject.description>3249 &apos;1 &apos;</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>GRUNDFOR420 L1</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.mRID>f1769704-9aeb-11e5-91da-b8763fd99c5f</cim:IdentifiedObject.mRID>
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:ID="_f176979a-9aeb-11e5-91da-b8763fd99c5f">
@@ -1773,7 +1690,6 @@
 		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
 		<cim:IdentifiedObject.description>7000 &apos;1 &apos;</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>HELSINKI420 L1</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.mRID>f176979a-9aeb-11e5-91da-b8763fd99c5f</cim:IdentifiedObject.mRID>
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:ID="_f17697a0-9aeb-11e5-91da-b8763fd99c5f">
@@ -1786,7 +1702,6 @@
 		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
 		<cim:IdentifiedObject.description>7000 &apos;2 &apos;</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>HELSINKI420 L2</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.mRID>f17697a0-9aeb-11e5-91da-b8763fd99c5f</cim:IdentifiedObject.mRID>
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:ID="_f17697a6-9aeb-11e5-91da-b8763fd99c5f">
@@ -1799,7 +1714,6 @@
 		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
 		<cim:IdentifiedObject.description>7000 &apos;3 &apos;</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>HELSINKI420 L3</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.mRID>f17697a6-9aeb-11e5-91da-b8763fd99c5f</cim:IdentifiedObject.mRID>
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:ID="_f17697ac-9aeb-11e5-91da-b8763fd99c5f">
@@ -1812,7 +1726,6 @@
 		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
 		<cim:IdentifiedObject.description>7000 &apos;4 &apos;</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>HELSINKI420 L4</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.mRID>f17697ac-9aeb-11e5-91da-b8763fd99c5f</cim:IdentifiedObject.mRID>
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:ID="_f17697b2-9aeb-11e5-91da-b8763fd99c5f">
@@ -1825,7 +1738,6 @@
 		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
 		<cim:IdentifiedObject.description>7000 &apos;5 &apos;</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>HELSINKI420 L5</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.mRID>f17697b2-9aeb-11e5-91da-b8763fd99c5f</cim:IdentifiedObject.mRID>
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:ID="_f17696f8-9aeb-11e5-91da-b8763fd99c5f">
@@ -1838,7 +1750,6 @@
 		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
 		<cim:IdentifiedObject.description>3100 &apos;1 &apos;</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>HJALTA 420 L1</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.mRID>f17696f8-9aeb-11e5-91da-b8763fd99c5f</cim:IdentifiedObject.mRID>
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:ID="_f1769752-9aeb-11e5-91da-b8763fd99c5f">
@@ -1851,7 +1762,6 @@
 		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
 		<cim:IdentifiedObject.description>5600 &apos;1 &apos;</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>KRISTIAN300 L1</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.mRID>f1769752-9aeb-11e5-91da-b8763fd99c5f</cim:IdentifiedObject.mRID>
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:ID="_f1769758-9aeb-11e5-91da-b8763fd99c5f">
@@ -1864,7 +1774,6 @@
 		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
 		<cim:IdentifiedObject.description>5600 &apos;2 &apos;</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>KRISTIAN300 L2</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.mRID>f1769758-9aeb-11e5-91da-b8763fd99c5f</cim:IdentifiedObject.mRID>
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:ID="_f17697dc-9aeb-11e5-91da-b8763fd99c5f">
@@ -1877,7 +1786,6 @@
 		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
 		<cim:IdentifiedObject.description>8500 &apos;1 &apos;</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>MALMO   420 L1</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.mRID>f17697dc-9aeb-11e5-91da-b8763fd99c5f</cim:IdentifiedObject.mRID>
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:ID="_f17697e2-9aeb-11e5-91da-b8763fd99c5f">
@@ -1890,7 +1798,6 @@
 		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
 		<cim:IdentifiedObject.description>8500 &apos;2 &apos;</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>MALMO   420 L2</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.mRID>f17697e2-9aeb-11e5-91da-b8763fd99c5f</cim:IdentifiedObject.mRID>
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:ID="_f17697e8-9aeb-11e5-91da-b8763fd99c5f">
@@ -1903,7 +1810,6 @@
 		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
 		<cim:IdentifiedObject.description>8500 &apos;3 &apos;</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>MALMO   420 L3</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.mRID>f17697e8-9aeb-11e5-91da-b8763fd99c5f</cim:IdentifiedObject.mRID>
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:ID="_f1769788-9aeb-11e5-91da-b8763fd99c5f">
@@ -1916,7 +1822,6 @@
 		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
 		<cim:IdentifiedObject.description>6700 &apos;1 &apos;</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>MO      300 L1</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.mRID>f1769788-9aeb-11e5-91da-b8763fd99c5f</cim:IdentifiedObject.mRID>
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:ID="_f176970a-9aeb-11e5-91da-b8763fd99c5f">
@@ -1929,7 +1834,6 @@
 		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
 		<cim:IdentifiedObject.description>3300 &apos;1 &apos;</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>OSKARSHA420 L1</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.mRID>f176970a-9aeb-11e5-91da-b8763fd99c5f</cim:IdentifiedObject.mRID>
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:ID="_f1769710-9aeb-11e5-91da-b8763fd99c5f">
@@ -1942,7 +1846,6 @@
 		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
 		<cim:IdentifiedObject.description>3300 &apos;2 &apos;</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>OSKARSHA420 L2</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.mRID>f1769710-9aeb-11e5-91da-b8763fd99c5f</cim:IdentifiedObject.mRID>
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:ID="_f1769740-9aeb-11e5-91da-b8763fd99c5f">
@@ -1955,7 +1858,6 @@
 		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
 		<cim:IdentifiedObject.description>5400 &apos;1 &apos;</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>OSLO    300 L1</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.mRID>f1769740-9aeb-11e5-91da-b8763fd99c5f</cim:IdentifiedObject.mRID>
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:ID="_f17697ca-9aeb-11e5-91da-b8763fd99c5f">
@@ -1968,7 +1870,6 @@
 		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
 		<cim:IdentifiedObject.description>7100 &apos;1 &apos;</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>OULU    420 L1</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.mRID>f17697ca-9aeb-11e5-91da-b8763fd99c5f</cim:IdentifiedObject.mRID>
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:ID="_f17697d0-9aeb-11e5-91da-b8763fd99c5f">
@@ -1981,7 +1882,6 @@
 		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
 		<cim:IdentifiedObject.description>7100 &apos;2 &apos;</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>OULU    420 L2</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.mRID>f17697d0-9aeb-11e5-91da-b8763fd99c5f</cim:IdentifiedObject.mRID>
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:ID="_f17696fe-9aeb-11e5-91da-b8763fd99c5f">
@@ -1994,7 +1894,6 @@
 		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
 		<cim:IdentifiedObject.description>3115 &apos;1 &apos;</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>PORJUS  420 L1</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.mRID>f17696fe-9aeb-11e5-91da-b8763fd99c5f</cim:IdentifiedObject.mRID>
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:ID="_f1769716-9aeb-11e5-91da-b8763fd99c5f">
@@ -2007,7 +1906,6 @@
 		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
 		<cim:IdentifiedObject.description>3359 &apos;1 &apos;</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>RINGHALS420 L1</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.mRID>f1769716-9aeb-11e5-91da-b8763fd99c5f</cim:IdentifiedObject.mRID>
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:ID="_f176971c-9aeb-11e5-91da-b8763fd99c5f">
@@ -2020,7 +1918,6 @@
 		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
 		<cim:IdentifiedObject.description>3359 &apos;2 &apos;</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>RINGHALS420 L2</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.mRID>f176971c-9aeb-11e5-91da-b8763fd99c5f</cim:IdentifiedObject.mRID>
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:ID="_f1769722-9aeb-11e5-91da-b8763fd99c5f">
@@ -2033,7 +1930,6 @@
 		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
 		<cim:IdentifiedObject.description>3359 &apos;3 &apos;</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>RINGHALS420 L3</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.mRID>f1769722-9aeb-11e5-91da-b8763fd99c5f</cim:IdentifiedObject.mRID>
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:ID="_f1769728-9aeb-11e5-91da-b8763fd99c5f">
@@ -2046,7 +1942,6 @@
 		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
 		<cim:IdentifiedObject.description>3359 &apos;4 &apos;</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>RINGHALS420 L4</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90159-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.mRID>f1769728-9aeb-11e5-91da-b8763fd99c5f</cim:IdentifiedObject.mRID>
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:ID="_f176973a-9aeb-11e5-91da-b8763fd99c5f">
@@ -2059,7 +1954,6 @@
 		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
 		<cim:IdentifiedObject.description>5300 &apos;2 &apos;</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>SIMA    300 L2</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.mRID>f176973a-9aeb-11e5-91da-b8763fd99c5f</cim:IdentifiedObject.mRID>
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:ID="_f1769734-9aeb-11e5-91da-b8763fd99c5f">
@@ -2072,7 +1966,6 @@
 		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
 		<cim:IdentifiedObject.description>5100 &apos;1 &apos;</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>TRETTEN 300 L1</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.mRID>f1769734-9aeb-11e5-91da-b8763fd99c5f</cim:IdentifiedObject.mRID>
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:ID="_f1769776-9aeb-11e5-91da-b8763fd99c5f">
@@ -2085,7 +1978,6 @@
 		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
 		<cim:IdentifiedObject.description>6500 &apos;1 &apos;</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>TRONDHEI300 L1</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.mRID>f1769776-9aeb-11e5-91da-b8763fd99c5f</cim:IdentifiedObject.mRID>
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:ID="_f176977c-9aeb-11e5-91da-b8763fd99c5f">
@@ -2098,7 +1990,6 @@
 		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
 		<cim:IdentifiedObject.description>6500 &apos;2 &apos;</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>TRONDHEI300 L2</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.mRID>f176977c-9aeb-11e5-91da-b8763fd99c5f</cim:IdentifiedObject.mRID>
 	</cim:ConformLoad>
 	<cim:ConformLoad rdf:ID="_f1769782-9aeb-11e5-91da-b8763fd99c5f">
@@ -2111,7 +2002,6 @@
 		<cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
 		<cim:IdentifiedObject.description>6500 &apos;3 &apos;</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>TRONDHEI300 L3</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.mRID>f1769782-9aeb-11e5-91da-b8763fd99c5f</cim:IdentifiedObject.mRID>
 	</cim:ConformLoad>
 	<cim:ConformLoadGroup rdf:ID="_2dd901f8-bdfb-11e5-94fa-c8f73332c8f4">
@@ -6628,7 +6518,6 @@
 		<cim:Equipment.EquipmentContainer rdf:resource="#_f72994d8-9857-b349-a4ae-2e3c9652d5bc"/>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.description>Arendal 300 Asker 1 A Disconnector</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.mRID>4e7aa43e-f1a3-0046-8cbb-19f29bfdeab6</cim:IdentifiedObject.mRID>
 	</cim:Disconnector>
@@ -6637,7 +6526,6 @@
 		<cim:Equipment.EquipmentContainer rdf:resource="#_f72994d8-9857-b349-a4ae-2e3c9652d5bc"/>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:Switch.normalOpen>true</cim:Switch.normalOpen>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.description>Arendal 300 Asker 1 B Disconnector</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.mRID>6d9f92ea-354f-9f40-9fc2-33367292f12c</cim:IdentifiedObject.mRID>
 	</cim:Disconnector>
@@ -6646,7 +6534,6 @@
 		<cim:Equipment.EquipmentContainer rdf:resource="#_e5943b0f-8c95-ef4c-a6f6-16b9ace48341"/>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.description>Arendal 300 Kristiansand 1 A Disconnector</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.mRID>e3672ff8-a637-5046-a7f7-cd1760746ed4</cim:IdentifiedObject.mRID>
 	</cim:Disconnector>
@@ -6655,7 +6542,6 @@
 		<cim:Equipment.EquipmentContainer rdf:resource="#_e5943b0f-8c95-ef4c-a6f6-16b9ace48341"/>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:Switch.normalOpen>true</cim:Switch.normalOpen>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.description>Arendal 300 Kristiansand 1 B Disconnector</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.mRID>b36c1e1d-ec67-7b48-9a2f-ecbf617ae59f</cim:IdentifiedObject.mRID>
 	</cim:Disconnector>
@@ -6664,7 +6550,6 @@
 		<cim:Equipment.EquipmentContainer rdf:resource="#_b61b6279-c21e-8241-aeb7-8d9bd3ead57c"/>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.description>Arendal 300 Kristiansand 2 A Disconnector</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.mRID>674b85b4-1a1f-2341-94bf-7e8f93392a7a</cim:IdentifiedObject.mRID>
 	</cim:Disconnector>
@@ -6673,7 +6558,6 @@
 		<cim:Equipment.EquipmentContainer rdf:resource="#_b61b6279-c21e-8241-aeb7-8d9bd3ead57c"/>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:Switch.normalOpen>true</cim:Switch.normalOpen>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.description>Arendal 300 Kristiansand 2 B Disconnector</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.mRID>4ba4e1a4-7265-d74f-8d46-8a4db7da37d1</cim:IdentifiedObject.mRID>
 	</cim:Disconnector>
@@ -6682,7 +6566,6 @@
 		<cim:Equipment.EquipmentContainer rdf:resource="#_e789e752-840f-6244-aca3-735295ad7b1e"/>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.description>Kristiansand 300 Arendal 1 A Disconnector</cim:IdentifiedObject.description>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>ecc63b62-ab62-9747-9744-92ba78e89971</cim:IdentifiedObject.mRID>
@@ -6692,7 +6575,6 @@
 		<cim:Equipment.EquipmentContainer rdf:resource="#_e789e752-840f-6244-aca3-735295ad7b1e"/>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:Switch.normalOpen>true</cim:Switch.normalOpen>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.description>Kristiansand 300 Feda 1 B Disconnector</cim:IdentifiedObject.description>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>dad36893-9a19-d148-8703-a4f0ddd95077</cim:IdentifiedObject.mRID>
@@ -6702,7 +6584,6 @@
 		<cim:Equipment.EquipmentContainer rdf:resource="#_d965c17e-a3fe-c447-8139-b55a1201b3b3"/>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.description>Kristiansand 300 Feda 1 A Disconnector</cim:IdentifiedObject.description>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>ff413319-b126-e444-9e46-3e2268fc19aa</cim:IdentifiedObject.mRID>
@@ -6712,7 +6593,6 @@
 		<cim:Equipment.EquipmentContainer rdf:resource="#_d965c17e-a3fe-c447-8139-b55a1201b3b3"/>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:Switch.normalOpen>true</cim:Switch.normalOpen>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.description>Kristiansand 300 Feda 1 B Disconnector</cim:IdentifiedObject.description>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>6589185b-1ac4-df4e-830b-30ea50c3d15d</cim:IdentifiedObject.mRID>
@@ -6722,7 +6602,6 @@
 		<cim:Equipment.EquipmentContainer rdf:resource="#_cf91c2cb-551a-e14c-8295-85c979c5c75e"/>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.description>Kristiansand 300 Gen 1 A Disconnector</cim:IdentifiedObject.description>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>85c172ea-50d5-8843-ba55-f8659693a2c6</cim:IdentifiedObject.mRID>
@@ -6732,7 +6611,6 @@
 		<cim:Equipment.EquipmentContainer rdf:resource="#_cf91c2cb-551a-e14c-8295-85c979c5c75e"/>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:Switch.normalOpen>true</cim:Switch.normalOpen>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.description>Kristiansand 300 Gen 1 B Disconnector</cim:IdentifiedObject.description>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>41b5a199-973e-9246-ab28-6593d6a59a0d</cim:IdentifiedObject.mRID>
@@ -6742,7 +6620,6 @@
 		<cim:Equipment.EquipmentContainer rdf:resource="#_270e76e1-9738-5942-8fd5-ebabca4dfdad"/>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.description>Kristiansand 300 Gen 2 A Disconnector</cim:IdentifiedObject.description>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>bdc35ecf-da90-de41-9345-b8c4228f63bd</cim:IdentifiedObject.mRID>
@@ -6752,7 +6629,6 @@
 		<cim:Equipment.EquipmentContainer rdf:resource="#_270e76e1-9738-5942-8fd5-ebabca4dfdad"/>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:Switch.normalOpen>true</cim:Switch.normalOpen>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.description>Kristiansand 300 Gen 2 B Disconnector</cim:IdentifiedObject.description>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>df16ad25-a8cf-a04b-a420-0d71145132dc</cim:IdentifiedObject.mRID>
@@ -6762,7 +6638,6 @@
 		<cim:Equipment.EquipmentContainer rdf:resource="#_c356ea84-abae-cb43-895f-7118f2f82b3e"/>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.description>Kristiansand 300 Gen 3 A Disconnector</cim:IdentifiedObject.description>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>c9917527-be41-014a-9344-d9df590239e3</cim:IdentifiedObject.mRID>
@@ -6772,7 +6647,6 @@
 		<cim:Equipment.EquipmentContainer rdf:resource="#_c356ea84-abae-cb43-895f-7118f2f82b3e"/>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:Switch.normalOpen>true</cim:Switch.normalOpen>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.description>Kristiansand 300 Gen 3 B Disconnector</cim:IdentifiedObject.description>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>3993c419-d9d7-bb4c-8319-6671df77ec90</cim:IdentifiedObject.mRID>
@@ -6782,7 +6656,6 @@
 		<cim:Equipment.EquipmentContainer rdf:resource="#_e3a27e90-4941-8146-86c4-932c8016b8d3"/>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.description>Kristiansand 300 Gen 4 A Disconnector</cim:IdentifiedObject.description>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>cc9d6086-68d7-0840-88da-2456744b3b14</cim:IdentifiedObject.mRID>
@@ -6792,7 +6665,6 @@
 		<cim:Equipment.EquipmentContainer rdf:resource="#_e3a27e90-4941-8146-86c4-932c8016b8d3"/>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:Switch.normalOpen>true</cim:Switch.normalOpen>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.description>Kristiansand 300 Gen 4 B Disconnector</cim:IdentifiedObject.description>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>3a4ef440-621c-ec4d-9d45-65e99b395dae</cim:IdentifiedObject.mRID>
@@ -6802,7 +6674,6 @@
 		<cim:Equipment.EquipmentContainer rdf:resource="#_9ba118a2-7cb0-a54b-ac6e-277cf55bfd4d"/>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.description>Kristiansand 300 Kvilldal 1 A Disconnector</cim:IdentifiedObject.description>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>0192045c-3523-324a-a050-c9dddd6fe2d0</cim:IdentifiedObject.mRID>
@@ -6812,7 +6683,6 @@
 		<cim:Equipment.EquipmentContainer rdf:resource="#_9ba118a2-7cb0-a54b-ac6e-277cf55bfd4d"/>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:Switch.normalOpen>true</cim:Switch.normalOpen>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.description>Kristiansand 300 Kvilldal 1 B Disconnector</cim:IdentifiedObject.description>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>4ee41c27-44cd-3146-8fe0-ad30d5051340</cim:IdentifiedObject.mRID>
@@ -6822,7 +6692,6 @@
 		<cim:Equipment.EquipmentContainer rdf:resource="#_bc25cadf-543e-8442-a72a-6c11a851d3cf"/>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.description>Kristiansand 300 Load 1 A Disconnector</cim:IdentifiedObject.description>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>c986d524-47e9-9e4d-b635-64386c9be9a1</cim:IdentifiedObject.mRID>
@@ -6832,7 +6701,6 @@
 		<cim:Equipment.EquipmentContainer rdf:resource="#_bc25cadf-543e-8442-a72a-6c11a851d3cf"/>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:Switch.normalOpen>true</cim:Switch.normalOpen>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.description>Kristiansand 300 Load 1 B Disconnector</cim:IdentifiedObject.description>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>9098d05f-45b6-7b4f-b176-a6995b423baa</cim:IdentifiedObject.mRID>
@@ -6842,7 +6710,6 @@
 		<cim:Equipment.EquipmentContainer rdf:resource="#_95f000f9-9c2b-4c4d-9ce5-6ced7a695b08"/>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.description>Kristiansand 300 Load 2 A Disconnector</cim:IdentifiedObject.description>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>2366eea5-1051-1047-b1e4-ba6c741e076d</cim:IdentifiedObject.mRID>
@@ -6852,7 +6719,6 @@
 		<cim:Equipment.EquipmentContainer rdf:resource="#_95f000f9-9c2b-4c4d-9ce5-6ced7a695b08"/>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:Switch.normalOpen>true</cim:Switch.normalOpen>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.description>Kristiansand 300 Load 2 B Disconnector</cim:IdentifiedObject.description>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>29fd599d-9429-cb4b-a103-df08eb0a97f8</cim:IdentifiedObject.mRID>
@@ -6862,7 +6728,6 @@
 		<cim:Equipment.EquipmentContainer rdf:resource="#_58f5a32f-aec4-d647-9119-a1b6c15fa01a"/>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:Switch.normalOpen>false</cim:Switch.normalOpen>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.description>Kristiansand 300 Stavanger 1 A Disconnector</cim:IdentifiedObject.description>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>4b31bd38-15c9-104a-bbb8-4570207cc245</cim:IdentifiedObject.mRID>
@@ -6872,7 +6737,6 @@
 		<cim:Equipment.EquipmentContainer rdf:resource="#_58f5a32f-aec4-d647-9119-a1b6c15fa01a"/>
 		<cim:Switch.retained>false</cim:Switch.retained>
 		<cim:Switch.normalOpen>true</cim:Switch.normalOpen>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:IdentifiedObject.description>Kristiansand 300 Stavanger 1 B Disconnector</cim:IdentifiedObject.description>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>f0473e35-b545-ac4a-84b9-2d52718a3b35</cim:IdentifiedObject.mRID>
@@ -11565,7 +11429,6 @@
 		<cim:Equipment.EquipmentContainer rdf:resource="#_f1769660-9aeb-11e5-91da-b8763fd99c5f"/>
 		<cim:IdentifiedObject.description>5600 &apos;1 &apos;</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>KRISTIAN300 M1</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>f1769929-9aeb-11e5-91da-b8763fd99c5f</cim:IdentifiedObject.mRID>
 	</cim:SynchronousMachine>
@@ -11580,7 +11443,6 @@
 		<cim:Equipment.EquipmentContainer rdf:resource="#_f1769660-9aeb-11e5-91da-b8763fd99c5f"/>
 		<cim:IdentifiedObject.description>5600 &apos;2 &apos;</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>KRISTIAN300 M2</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>f1769930-9aeb-11e5-91da-b8763fd99c5f</cim:IdentifiedObject.mRID>
 	</cim:SynchronousMachine>
@@ -11595,7 +11457,6 @@
 		<cim:Equipment.EquipmentContainer rdf:resource="#_f1769660-9aeb-11e5-91da-b8763fd99c5f"/>
 		<cim:IdentifiedObject.description>5600 &apos;3 &apos;</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>KRISTIAN300 M3</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>f1769937-9aeb-11e5-91da-b8763fd99c5f</cim:IdentifiedObject.mRID>
 	</cim:SynchronousMachine>
@@ -11610,7 +11471,6 @@
 		<cim:Equipment.EquipmentContainer rdf:resource="#_f1769660-9aeb-11e5-91da-b8763fd99c5f"/>
 		<cim:IdentifiedObject.description>5600 &apos;4 &apos;</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>KRISTIAN300 M4</cim:IdentifiedObject.name>
-		<cim:ConductingEquipment.BaseVoltage rdf:resource="#_2dd90169-bdfb-11e5-94fa-c8f73332c8f4"/>
 		<cim:Equipment.aggregate>false</cim:Equipment.aggregate>
 		<cim:IdentifiedObject.mRID>f176993e-9aeb-11e5-91da-b8763fd99c5f</cim:IdentifiedObject.mRID>
 	</cim:SynchronousMachine>
