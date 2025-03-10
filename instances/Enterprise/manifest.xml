@@ -42,12 +42,12 @@
     <dcterms:publisher rdf:resource="https://www.statnett.no/en/about-statnett/contact-us/"/>
     <dcterms:rights>Copyright</dcterms:rights>
     <dcterms:rightsHolder>Statnett SF</dcterms:rightsHolder>
-    <dcterms:title>20160101_N44-ENT-Scheider_AC_v3-0-0-beta-1</dcterms:title>
+    <dcterms:title>20160101_N44-ENT-Schneider_AC_v3-0-0-beta-1</dcterms:title>
     <dcterms:type rdf:resource="https://energy.referencedata.eu/type/CIM-EnterpriseModel"/>
   </dcat:Dataset>
 
   <dcat:Distribution rdf:about="urn:uuid:ec47575c-900e-4ddb-87c8-fd8deb8e0d00">
-    <dcat:accessURL rdf:resource="file://xmlrdf/N44-ENT-Schneider_AC.xml"/>
+    <dcat:accessURL rdf:resource="file://cimxml/N44-ENT-Schneider_AC.xml"/>
     <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/rdf+xml"/>
     <dcterms:conformsTo rdf:resource="urn:iso:std:iec:61970-552:2016"/>
     <dcterms:description xml:lang="en">CIMXML serialization of the Nordic44 AC</dcterms:description>
@@ -76,7 +76,7 @@
   </dcat:Dataset>
 
   <dcat:Distribution rdf:about="urn:uuid:28050d72-acb0-41d2-b0fa-ddf034d8bccf">
-    <dcat:accessURL rdf:resource="file://xmlrdf/N44-ENT-Siemens_AC.xml"/>
+    <dcat:accessURL rdf:resource="file://cimxml/N44-ENT-Siemens_AC.xml"/>
     <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/rdf+xml"/>
     <dcterms:conformsTo rdf:resource="urn:iso:std:iec:61970-552:2016"/>
     <dcterms:description xml:lang="en">CIMXML serialization of the Nordic44 AC</dcterms:description>
@@ -108,7 +108,7 @@
   </dcat:Dataset>
 
   <dcat:Distribution rdf:about="urn:uuid:66ab65a5-dffe-41c7-9d5b-b1e74906b4d9">
-    <dcat:accessURL rdf:resource="file://xmlrdf/N44-ENT-Statnett_AS.xml"/>
+    <dcat:accessURL rdf:resource="file://cimxml/N44-ENT-Statnett_AS.xml"/>
     <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/rdf+xml"/>
     <dcterms:conformsTo rdf:resource="urn:iso:std:iec:61970-552:2016"/>
     <dcterms:description xml:lang="en">CIMXML serialization of the Nordic44 AS</dcterms:description>

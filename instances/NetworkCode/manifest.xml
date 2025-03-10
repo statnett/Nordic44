@@ -53,7 +53,7 @@
 
 
 <dcat:Distribution rdf:about="urn:uuid:400c0d16-37b1-4b63-beda-87769b33bb23">
-  <dcat:accessURL rdf:resource="file://xmlrdf/N44-NC-HV_CD.xml"/>
+  <dcat:accessURL rdf:resource="file://cimxml/N44-NC-HV_CD.xml"/>
   <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/rdf+xml"/>
   <dcterms:conformsTo rdf:resource="urn:iso:std:iec:61970-552:2016"/>
   <dcterms:description xml:lang="en">CIMXML serialization of the Nordic44 NC CD</dcterms:description>
@@ -86,7 +86,7 @@
 
 
 <dcat:Distribution rdf:about="urn:uuid:c3fbf07c-548c-4acd-8939-e9f9e6e81ad3">
-  <dcat:accessURL rdf:resource="file://xmlrdf/N44-NC-HV_CO.xml"/>
+  <dcat:accessURL rdf:resource="file://cimxml/N44-NC-HV_CO.xml"/>
   <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/rdf+xml"/>
   <dcterms:conformsTo rdf:resource="urn:iso:std:iec:61970-552:2016"/>
   <dcterms:description xml:lang="en">CIMXML serialization of the Nordic44 NC CO</dcterms:description>
@@ -119,7 +119,7 @@
 </dcat:Dataset>
 
 <dcat:Distribution rdf:about="urn:uuid:1c1362fd-a3ed-40f1-b19c-dc974d2407bd">
-  <dcat:accessURL rdf:resource="file://xmlrdf/N44-NC-HV_SSI.xml"/>
+  <dcat:accessURL rdf:resource="file://cimxml/N44-NC-HV_SSI.xml"/>
   <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/rdf+xml"/>
   <dcterms:conformsTo rdf:resource="urn:iso:std:iec:61970-552:2016"/>
   <dcterms:description xml:lang="en">CIMXML serialization of the Nordic44 NC SSI</dcterms:description>
@@ -151,7 +151,7 @@
 </dcat:Dataset>
 
 <dcat:Distribution rdf:about="urn:uuid:f5f18710-1952-4966-a4f0-8fafe10abb6f">
-  <dcat:accessURL rdf:resource="file://xmlrdf/N44-NC-HV_ER.xml"/>
+  <dcat:accessURL rdf:resource="file://cimxml/N44-NC-HV_ER.xml"/>
   <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/rdf+xml"/>
   <dcterms:conformsTo rdf:resource="urn:iso:std:iec:61970-552:2016"/>
   <dcterms:description xml:lang="en">CIMXML serialization of the Nordic44 NC ER</dcterms:description>
@@ -183,7 +183,7 @@
 </dcat:Dataset>
 
 <dcat:Distribution rdf:about="urn:uuid:342a10a3-39db-4af7-b26c-5a5ef3662d27">
-  <dcat:accessURL rdf:resource="file://xmlrdf/N44-NC-HV_RA.xml"/>
+  <dcat:accessURL rdf:resource="file://cimxml/N44-NC-HV_RA.xml"/>
   <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/rdf+xml"/>
   <dcterms:conformsTo rdf:resource="urn:iso:std:iec:61970-552:2016"/>
   <dcterms:description xml:lang="en">CIMXML serialization of the Nordic44 NC RA</dcterms:description>
@@ -214,7 +214,7 @@
 </dcat:Dataset>
 
 <dcat:Distribution rdf:about="urn:uuid:80b51c80-82e3-4687-827d-addd8454d2fc">
-  <dcat:accessURL rdf:resource="file://xmlrdf/N44-NC-HV_RAS.xml"/>
+  <dcat:accessURL rdf:resource="file://cimxml/N44-NC-HV_RAS.xml"/>
   <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/rdf+xml"/>
   <dcterms:conformsTo rdf:resource="urn:iso:std:iec:61970-552:2016"/>
   <dcterms:description xml:lang="en">CIMXML serialization of the Nordic44 NC RAS</dcterms:description>
