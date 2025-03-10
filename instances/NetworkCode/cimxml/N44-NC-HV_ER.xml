@@ -258,7 +258,7 @@
     <cim:IdentifiedObject.mRID>7ac39667-7920-42ad-9f10-bcb766a2b681</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>Forsmark_SR</cim:IdentifiedObject.description>
 	</nc:ScheduleResource>
-	<nc:ScheduleResource rdf:ID="_7825e759-1c96-490a-8f29-3aa3cb776cc8">
+	<nc:ScheduleResource rdf:ID="_939d9c9b-5c0f-46eb-941b-ea90ceac4db9">
 		<cim:IdentifiedObject.name>SR-NOKG14</cim:IdentifiedObject.name>
     <cim:IdentifiedObject.mRID>7ac39667-7920-42ad-9f10-bcb766a2b681</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>Helsinki_SR</cim:IdentifiedObject.description>
