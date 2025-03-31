@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?iec61970-552 version="2.0"?>
 
-<rdf:RDF  xmlns:cim="http://iec.ch/TC57/CIM/CIM100#"
+<rdf:RDF  xmlns:cim="http://iec.ch/TC57/CIM100#"
 		xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 		xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#"
 	>		

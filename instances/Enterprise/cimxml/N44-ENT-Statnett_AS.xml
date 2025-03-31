@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?iec61970-552 version="2.0"?>
 
-<rdf:RDF  xmlns:cim="http://iec.ch/TC57/CIM/CIM100#" 
+<rdf:RDF  xmlns:cim="http://iec.ch/TC57/CIM100#" 
 		xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 		xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#"
 		>		
@@ -15,10 +14,10 @@
     <md:Model.modelingAuthoritySet>http://www.Statnett.no/Enterprise/Nordic44</md:Model.modelingAuthoritySet>
     <md:Model.profile>http://iec.ch/TC57/CIM/Asset/2/0</md:Model.profile>
 	<!-- Depending on AssetCatalogue file -->
-    <md:Model.DependentOn rdf:resource="urn:uuid:d869a44b5-7ab5-4bcf-9d58-1c9e750a6f20" />
+    <md:Model.DependentOn rdf:resource="urn:uuid:ade44b65-0bfa-41e0-95c5-2ccb345a6fed" />
 	<md:Model.DependentOn rdf:resource="urn:uuid:75f351c7-75a6-4c25-8f1c-985aa59e90ad" />
 	<!-- Depending on ElectricalProperties file -->
-    <md:Model.DependentOn rdf:resource="urn:uuid:1cbcbc2c-1cf1-48f0-b3fd-2c28444c21b" />		
+    <md:Model.DependentOn rdf:resource="urn:uuid:d3158561-2716-4978-9b61-dd7cc47f1f91" />		
   </md:FullModel>
 
   

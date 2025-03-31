@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?iec61970-552 version="2.0"?>
 
-<rdf:RDF  xmlns:cim="http://iec.ch/TC57/CIM/CIM100#"
+<rdf:RDF  xmlns:cim="http://iec.ch/TC57/CIM100#"
 		xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 		xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#"
 	>		
 	
-<md:FullModel rdf:about="urn:uuid:d869a44b5-7ab5-4bcf-9d58-1c9e750a6f20">
+<md:FullModel rdf:about="urn:uuid:ade44b65-0bfa-41e0-95c5-2ccb345a6fed">
     <md:Model.created>2025-02-14T12:00:00Z</md:Model.created>
     <md:Model.scenarioTime>2015-12-31T23:00:00Z</md:Model.scenarioTime>
     <md:Model.version>1</md:Model.version>
