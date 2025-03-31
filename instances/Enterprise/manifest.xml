@@ -100,7 +100,7 @@
     <dcterms:publisher rdf:resource="https://www.statnett.no/en/about-statnett/contact-us/"/>
     <dcterms:requires rdf:resource="urn:uuid:ade44b65-0bfa-41e0-95c5-2ccb345a6fed"/>
     <dcterms:requires rdf:resource="urn:uuid:75f351c7-75a6-4c25-8f1c-985aa59e90ad"/>
-    <dcterms:requires rdf:resource="urn:uuid:1cbcbc2c-1cf1-48f0-b3fd-2c28444c21b"/>
+    <dcterms:requires rdf:resource="urn:uuid:d3158561-2716-4978-9b61-dd7cc47f1f91"/>
     <dcterms:rights>Copyright</dcterms:rights>
     <dcterms:rightsHolder>Statnett SF</dcterms:rightsHolder>
     <dcterms:title>20160101_N44-ENT-Statnett_AS_v3-0-0-beta-1</dcterms:title>
