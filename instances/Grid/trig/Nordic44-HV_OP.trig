@@ -1,0 +1,1969 @@
+PREFIX cim:      <http://iec.ch/TC57/CIM100#>
+PREFIX dcat:     <http://www.w3.org/ns/dcat#>
+PREFIX dcat-cim: <https://cim4.eu/ns/dcat-cim#>
+PREFIX dct:      <http://purl.org/dc/terms/>
+PREFIX dm:       <http://iec.ch/TC57/61970-552/DifferenceModel/1#>
+PREFIX eu:       <http://iec.ch/TC57/CIM100-European#>
+PREFIX eumd:     <https://cim4.eu/ns/Metadata-European#>
+PREFIX json-ld:  <https://www.w3.org/ns/json-ld#>
+PREFIX md:       <http://iec.ch/TC57/61970-552/ModelDescription/1#>
+PREFIX nc:       <https://cim4.eu/ns/nc#>
+PREFIX rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfg:     <http://www.w3.org/2004/03/trix/rdfg-1/>
+PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
+
+<urn:uuid:67e97bb0-ec38-481d-9e56-3e9d45e95a33> {
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_1a0728bb-9543-c843-bed2-9f07280b140a>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_7ae1d616-8796-ad43-95f7-f3510b413e81>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Production Forecast Five Day-ahead";
+            cim:IdentifiedObject.mRID  "1a0728bb-9543-c843-bed2-9f07280b140a";
+            cim:IdentifiedObject.name  "NO-BZ-1 PRO 5D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_d9c67735-2e2b-7746-9d00-145c4905db86> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_b07d2149-2fca-9c4b-a4ab-909fe501e1b6>
+            rdf:type                        cim:Analog;
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Installed Hydro Pump Capacity Active Power";
+            cim:IdentifiedObject.mRID       "b07d2149-2fca-9c4b-a4ab-909fe501e1b6";
+            cim:IdentifiedObject.name       "NO-BZ-1 IHYPC P";
+            cim:Measurement.PowerSystemResource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a>;
+            cim:Measurement.measurementType
+                    "ThreePhaseActivePower";
+            cim:Measurement.unitMultiplier  cim:UnitMultiplier.M;
+            cim:Measurement.unitSymbol      cim:UnitSymbol.W .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_991b2a6c-e272-2c4b-a7c2-96af26c9d7b8>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_40af803a-e127-ba4c-8366-a19451841b93>;
+            cim:AnalogValue.value      "3720";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Remaining Capacity Forecast Six Day-ahead";
+            cim:IdentifiedObject.mRID  "991b2a6c-e272-2c4b-a7c2-96af26c9d7b8";
+            cim:IdentifiedObject.name  "NO-BZ-1 RCA 6D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_d9c67735-2e2b-7746-9d00-145c4905db86> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_5e5f565d-894e-1e43-86a1-7c666d7e13cd>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_7183e6f1-4ba0-854b-918f-ac180ca2aa78>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Other Production Forecast Five Day-ahead";
+            cim:IdentifiedObject.mRID  "5e5f565d-894e-1e43-86a1-7c666d7e13cd";
+            cim:IdentifiedObject.name  "NO-BZ-1 OTH 5D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_4bf95c21-9760-f54e-8910-ea2639b51447>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_7ae1d616-8796-ad43-95f7-f3510b413e81>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Production Forecast Three Day-ahead";
+            cim:IdentifiedObject.mRID  "4bf95c21-9760-f54e-8910-ea2639b51447";
+            cim:IdentifiedObject.name  "NO-BZ-1 PRO 3D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_d9c67735-2e2b-7746-9d00-145c4905db86> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_fd33f771-db4e-1d44-bec5-e7691cf2a54b>
+            rdf:type                        cim:Analog;
+            cim:IdentifiedObject.description
+                    "NO2 BiddingZone Load Actual Active Power";
+            cim:IdentifiedObject.mRID       "fd33f771-db4e-1d44-bec5-e7691cf2a54b";
+            cim:IdentifiedObject.name       "NO-BZ-2 LA P";
+            cim:Measurement.PowerSystemResource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_63b13e2e-8d0a-47d0-8de8-fb686decbae4>;
+            cim:Measurement.measurementType
+                    "ThreePhaseActivePower";
+            cim:Measurement.unitMultiplier  cim:UnitMultiplier.M;
+            cim:Measurement.unitSymbol      cim:UnitSymbol.W .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_3b244970-4e6d-8e48-b4b5-e65492a10f06>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_a68067c8-8456-7143-9f20-216a1a88d213>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Net Exchange Forecast Year-ahead";
+            cim:IdentifiedObject.mRID  "3b244970-4e6d-8e48-b4b5-e65492a10f06";
+            cim:IdentifiedObject.name  "NO-BZ-1 NEX 1Y P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_58dd875f-8531-b94b-9bd1-265c0010934b>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_7183e6f1-4ba0-854b-918f-ac180ca2aa78>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Other Production Forecast Three Day-ahead";
+            cim:IdentifiedObject.mRID  "58dd875f-8531-b94b-9bd1-265c0010934b";
+            cim:IdentifiedObject.name  "NO-BZ-1 OTH 3D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_9dbc42a0-6748-467c-b4b5-5f0b51cda4ae>
+            rdf:type                   cim:MeasurementValueSource;
+            cim:IdentifiedObject.description
+                    "ICCP - From Elcom, ICCP from partner";
+            cim:IdentifiedObject.mRID  "9dbc42a0-6748-467c-b4b5-5f0b51cda4ae";
+            cim:IdentifiedObject.name  "ICCP" .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_19e74f84-0f9a-1e41-8568-6bd6d48db26f>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_7183e6f1-4ba0-854b-918f-ac180ca2aa78>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Other Production Forecast Year-ahead";
+            cim:IdentifiedObject.mRID  "19e74f84-0f9a-1e41-8568-6bd6d48db26f";
+            cim:IdentifiedObject.name  "NO-BZ-1 OTH 1Y P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_8e2081cd-1a05-f147-b532-9f3e4928dc8c>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_e86c1491-955c-4946-82de-b63a6192277a>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Hydro Forecast Four Day-ahead";
+            cim:IdentifiedObject.mRID  "8e2081cd-1a05-f147-b532-9f3e4928dc8c";
+            cim:IdentifiedObject.name  "NO-BZ-1 HYD 4D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_cec5f642-8b62-a949-933b-30f9cd8ebfd6>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_a68067c8-8456-7143-9f20-216a1a88d213>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Net Exchange Forecast Two Day-ahead";
+            cim:IdentifiedObject.mRID  "cec5f642-8b62-a949-933b-30f9cd8ebfd6";
+            cim:IdentifiedObject.name  "NO-BZ-1 NEX 2D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_b294e2e6-d1cd-2644-b079-27641ab2d844>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_1aae61d1-6b75-d84e-8b08-f8cf5ff69b78>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Nuclear Actual Scheduled";
+            cim:IdentifiedObject.mRID  "b294e2e6-d1cd-2644-b079-27641ab2d844";
+            cim:IdentifiedObject.name  "NO-BZ-1 NUCS P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_6a4237ae-327d-5a4c-9c10-167725983c17> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_687792ee-e9a2-5d4b-bac2-6ec451287c6d>
+            rdf:type                        cim:Analog;
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Load Forecast Active Power";
+            cim:IdentifiedObject.mRID       "687792ee-e9a2-5d4b-bac2-6ec451287c6d";
+            cim:IdentifiedObject.name       "NO-BZ-1 LF P";
+            cim:Measurement.PowerSystemResource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a>;
+            cim:Measurement.measurementType
+                    "ThreePhaseActivePower";
+            cim:Measurement.unitMultiplier  cim:UnitMultiplier.M;
+            cim:Measurement.unitSymbol      cim:UnitSymbol.W .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_91bb6456-f9da-f844-834a-ee713c43d32e>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_40af803a-e127-ba4c-8366-a19451841b93>;
+            cim:AnalogValue.value      "3720";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Remaining Capacity Forecast Four Day-ahead";
+            cim:IdentifiedObject.mRID  "91bb6456-f9da-f844-834a-ee713c43d32e";
+            cim:IdentifiedObject.name  "NO-BZ-1 RCA 4D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_d9c67735-2e2b-7746-9d00-145c4905db86> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_70f1ac8f-1148-194e-98de-2dab24f638e0>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_58a1fd1d-c187-8143-82f9-cd57a421888e>;
+            cim:AnalogValue.value      "6060";
+            cim:IdentifiedObject.description
+                    "NO2 BiddingZone Load Forecast Two Day-ahead";
+            cim:IdentifiedObject.mRID  "70f1ac8f-1148-194e-98de-2dab24f638e0";
+            cim:IdentifiedObject.name  "NO-BZ-2 LF 2D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_5693dfbd-c51e-e343-b1d7-e2d3faa3db5d> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_130156d7-9f92-324a-aa6a-817473599541>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_40af803a-e127-ba4c-8366-a19451841b93>;
+            cim:AnalogValue.value      "3720";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Remaining Capacity Forecast Five Day-ahead";
+            cim:IdentifiedObject.mRID  "130156d7-9f92-324a-aa6a-817473599541";
+            cim:IdentifiedObject.name  "NO-BZ-1 RCA 5D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_d9c67735-2e2b-7746-9d00-145c4905db86> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_e19ff914-6ca4-4440-987d-820241f7aeec>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_4b4f37c6-c90d-2749-b77f-d53ece79c4e7>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Thermal Forecast Month-ahead";
+            cim:IdentifiedObject.mRID  "e19ff914-6ca4-4440-987d-820241f7aeec";
+            cim:IdentifiedObject.name  "NO-BZ-1 THR 1M P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_f2f7ec5a-de86-5742-9e75-4a7143b837c8>
+            rdf:type                   cim:MeasurementValueSource;
+            cim:IdentifiedObject.description
+                    "LFTWv234 - Load Forecasting Tool Week v.2.3.4";
+            cim:IdentifiedObject.mRID  "f2f7ec5a-de86-5742-9e75-4a7143b837c8";
+            cim:IdentifiedObject.name  "Forecasted" .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_58a1fd1d-c187-8143-82f9-cd57a421888e>
+            rdf:type                        cim:Analog;
+            cim:IdentifiedObject.description
+                    "NO2 BiddingZone Load Forecast Active Power";
+            cim:IdentifiedObject.mRID       "58a1fd1d-c187-8143-82f9-cd57a421888e";
+            cim:IdentifiedObject.name       "NO-BZ-2 LF P";
+            cim:Measurement.PowerSystemResource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_63b13e2e-8d0a-47d0-8de8-fb686decbae4>;
+            cim:Measurement.measurementType
+                    "ThreePhaseActivePower";
+            cim:Measurement.unitMultiplier  cim:UnitMultiplier.M;
+            cim:Measurement.unitSymbol      cim:UnitSymbol.W .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_efd83f4d-ff51-9441-b2d3-7087abb9c2ba>
+            rdf:type                        cim:Analog;
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Installed Run-of-river Capacity Active Power";
+            cim:IdentifiedObject.mRID       "efd83f4d-ff51-9441-b2d3-7087abb9c2ba";
+            cim:IdentifiedObject.name       "NO-BZ-1 IRORC P";
+            cim:Measurement.PowerSystemResource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a>;
+            cim:Measurement.measurementType
+                    "ThreePhaseActivePower";
+            cim:Measurement.unitMultiplier  cim:UnitMultiplier.M;
+            cim:Measurement.unitSymbol      cim:UnitSymbol.W .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_3e7d0769-fdc9-3849-a35f-7dd3fad92bf4>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_e46afcb9-f3a4-4a4b-9c28-2d51b3708ae1>;
+            cim:AnalogValue.value      "3720";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Hydro Pump Availability Forecast Two Day-ahead";
+            cim:IdentifiedObject.mRID  "3e7d0769-fdc9-3849-a35f-7dd3fad92bf4";
+            cim:IdentifiedObject.name  "NO-BZ-1 HYP 2D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_05a07c31-d13d-1747-af09-473145ad84ed>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_40af803a-e127-ba4c-8366-a19451841b93>;
+            cim:AnalogValue.value      "3720";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Remaining Capacity Forecast Two Day-ahead";
+            cim:IdentifiedObject.mRID  "05a07c31-d13d-1747-af09-473145ad84ed";
+            cim:IdentifiedObject.name  "NO-BZ-1 RCA 2D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_d9c67735-2e2b-7746-9d00-145c4905db86> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_a25730b8-28dd-3d41-a4d0-02dd8741919e>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_7e629e54-eef1-2d44-bcbe-6450c51e6603>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Wind Forecast Five Day-ahead";
+            cim:IdentifiedObject.mRID  "a25730b8-28dd-3d41-a4d0-02dd8741919e";
+            cim:IdentifiedObject.name  "NO-BZ-1 WIN 5D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_97b13531-4d48-2342-a562-8a76bcd377d8>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_e86c1491-955c-4946-82de-b63a6192277a>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Hydro Forecast Five Day-ahead";
+            cim:IdentifiedObject.mRID  "97b13531-4d48-2342-a562-8a76bcd377d8";
+            cim:IdentifiedObject.name  "NO-BZ-1 HYD 5D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_a5ec92a1-7c6f-9b4f-922c-12a9642cf1a6>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_efd83f4d-ff51-9441-b2d3-7087abb9c2ba>;
+            cim:AnalogValue.value      "2370";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Installed Run-of-river Capacity";
+            cim:IdentifiedObject.mRID  "a5ec92a1-7c6f-9b4f-922c-12a9642cf1a6";
+            cim:IdentifiedObject.name  "NO-BZ-1 IRORC P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_978a6a69-4700-3b4d-a8af-b6f775d14a44>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_8e5494f2-1d0b-8d42-9ae6-3a0d8cf8d25d>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Nuclear Forecast Three Day-ahead";
+            cim:IdentifiedObject.mRID  "978a6a69-4700-3b4d-a8af-b6f775d14a44";
+            cim:IdentifiedObject.name  "NO-BZ-1 NUC 3D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_e5c7bc21-bfe4-c241-a36a-d2a602e52964>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_e46afcb9-f3a4-4a4b-9c28-2d51b3708ae1>;
+            cim:AnalogValue.value      "3720";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Hydro Pump Availability Forecast Year-ahead";
+            cim:IdentifiedObject.mRID  "e5c7bc21-bfe4-c241-a36a-d2a602e52964";
+            cim:IdentifiedObject.name  "NO-BZ-1 HYP 1Y P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_cde8988f-4a06-1348-b17a-f80d4141c52b>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_687792ee-e9a2-5d4b-bac2-6ec451287c6d>;
+            cim:AnalogValue.value      "3878";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Load Forecast Three Day-ahead";
+            cim:IdentifiedObject.mRID  "cde8988f-4a06-1348-b17a-f80d4141c52b";
+            cim:IdentifiedObject.name  "NO-BZ-1 LF 3D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_f2f7ec5a-de86-5742-9e75-4a7143b837c8> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_ac076588-a148-ab46-874d-cb66957b543e>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_5d9cc592-1b36-9740-af4d-06e3696f829e>;
+            cim:AnalogValue.value      "3720";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Hydro Reservoir Availability Forecast Year-ahead";
+            cim:IdentifiedObject.mRID  "ac076588-a148-ab46-874d-cb66957b543e";
+            cim:IdentifiedObject.name  "NO-BZ-1 HYRA 1Y P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_666ae00e-97c2-144c-924c-ef75311e827a>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_addc4858-76ce-8240-a702-d6e96126b946>;
+            cim:AnalogValue.value      "4000";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Thermal  Actual Observed";
+            cim:IdentifiedObject.mRID  "666ae00e-97c2-144c-924c-ef75311e827a";
+            cim:IdentifiedObject.name  "NO-BZ-1 THRO P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_4c0436b7-532d-a34e-b2ee-a46a5e151536> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_6624c256-b94b-9246-b539-c2ad7c304d33>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_74306ce2-bf32-9e40-a14f-9303f3101274>;
+            cim:AnalogValue.value      "3750";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Load Actual Scheduled";
+            cim:IdentifiedObject.mRID  "6624c256-b94b-9246-b539-c2ad7c304d33";
+            cim:IdentifiedObject.name  "NO-BZ-1 LAS P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_6a4237ae-327d-5a4c-9c10-167725983c17> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_91f91b9e-9b73-d841-9ccd-2c064d4c17d7>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_9ad8e518-0b29-4d46-872a-105321bbcce1>;
+            cim:AnalogValue.value      "1188";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Run-of-river Forecast Four Day-ahead";
+            cim:IdentifiedObject.mRID  "91f91b9e-9b73-d841-9ccd-2c064d4c17d7";
+            cim:IdentifiedObject.name  "NO-BZ-1 ROR 4D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_daf31d05-411f-984e-96d7-560183e1ec67> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_a68067c8-8456-7143-9f20-216a1a88d213>
+            rdf:type                        cim:Analog;
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Net Exchange Forecast Active Power";
+            cim:IdentifiedObject.mRID       "a68067c8-8456-7143-9f20-216a1a88d213";
+            cim:IdentifiedObject.name       "NO-BZ-1 NEXF P";
+            cim:Measurement.PowerSystemResource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a>;
+            cim:Measurement.measurementType
+                    "ThreePhaseActivePower";
+            cim:Measurement.unitMultiplier  cim:UnitMultiplier.M;
+            cim:Measurement.unitSymbol      cim:UnitSymbol.W .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_5521a3b3-0e1d-d344-85b6-2c24ebe3eb3e>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_35ef9ce3-5fc6-9546-a056-067807c3b30a>;
+            cim:AnalogValue.value      "2350";
+            cim:IdentifiedObject.description
+                    "NO3 BiddingZone Load Actual Observed";
+            cim:IdentifiedObject.mRID  "5521a3b3-0e1d-d344-85b6-2c24ebe3eb3e";
+            cim:IdentifiedObject.name  "NO-BZ-3 LAO P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_4c0436b7-532d-a34e-b2ee-a46a5e151536> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_35ef9ce3-5fc6-9546-a056-067807c3b30a>
+            rdf:type                        cim:Analog;
+            cim:IdentifiedObject.description
+                    "NO3 BiddingZone Load Actual Active Power";
+            cim:IdentifiedObject.mRID       "35ef9ce3-5fc6-9546-a056-067807c3b30a";
+            cim:IdentifiedObject.name       "NO-BZ-3 LA P";
+            cim:Measurement.PowerSystemResource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_0f094148-164b-427a-a8e8-0c5f334688ae>;
+            cim:Measurement.measurementType
+                    "ThreePhaseActivePower";
+            cim:Measurement.unitMultiplier  cim:UnitMultiplier.M;
+            cim:Measurement.unitSymbol      cim:UnitSymbol.W .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_d556dd93-6c86-764b-b28b-776b41a3e7bb>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_e86c1491-955c-4946-82de-b63a6192277a>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Hydro Forecast Six Day-ahead";
+            cim:IdentifiedObject.mRID  "d556dd93-6c86-764b-b28b-776b41a3e7bb";
+            cim:IdentifiedObject.name  "NO-BZ-1 HYD 6D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_ff7cbe46-633f-8a46-a38e-ce21c38510dc>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_cedb649b-78f5-d042-b399-1efeb080029e>;
+            cim:AnalogValue.value      "4000";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Production Actual Observed";
+            cim:IdentifiedObject.mRID  "ff7cbe46-633f-8a46-a38e-ce21c38510dc";
+            cim:IdentifiedObject.name  "NO-BZ-1 PROO P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_4c0436b7-532d-a34e-b2ee-a46a5e151536> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_3c34dc2e-ba22-0940-b0fb-fc5528d9aed1>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_7e629e54-eef1-2d44-bcbe-6450c51e6603>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Wind Forecast Year-ahead";
+            cim:IdentifiedObject.mRID  "3c34dc2e-ba22-0940-b0fb-fc5528d9aed1";
+            cim:IdentifiedObject.name  "NO-BZ-1 WIN 1Y P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_22c86021-5e62-824d-9965-38826dc07a4c>
+            rdf:type                        cim:Analog;
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Run-of-river Actual Active Power";
+            cim:IdentifiedObject.mRID       "22c86021-5e62-824d-9965-38826dc07a4c";
+            cim:IdentifiedObject.name       "NO-BZ-1 RORA P";
+            cim:Measurement.PowerSystemResource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a>;
+            cim:Measurement.measurementType
+                    "ThreePhaseActivePower";
+            cim:Measurement.unitMultiplier  cim:UnitMultiplier.M;
+            cim:Measurement.unitSymbol      cim:UnitSymbol.W .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_ef44b349-9aa5-cf4d-9252-d3c7f7d4a58f>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_7e629e54-eef1-2d44-bcbe-6450c51e6603>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Wind Forecast Two Day-ahead";
+            cim:IdentifiedObject.mRID  "ef44b349-9aa5-cf4d-9252-d3c7f7d4a58f";
+            cim:IdentifiedObject.name  "NO-BZ-1 WIN 2D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_a2f26a70-4ea5-e54a-a9e3-7387efc47310>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_8e5494f2-1d0b-8d42-9ae6-3a0d8cf8d25d>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Nuclear Forecast Year-ahead";
+            cim:IdentifiedObject.mRID  "a2f26a70-4ea5-e54a-a9e3-7387efc47310";
+            cim:IdentifiedObject.name  "NO-BZ-1 NUC 1Y P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_9f954584-6132-af41-8015-80fd7c0e22f8>
+            rdf:type                        cim:Analog;
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Other Actual Active Power";
+            cim:IdentifiedObject.mRID       "9f954584-6132-af41-8015-80fd7c0e22f8";
+            cim:IdentifiedObject.name       "NO-BZ-1 OTHA P";
+            cim:Measurement.PowerSystemResource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a>;
+            cim:Measurement.measurementType
+                    "ThreePhaseActivePower";
+            cim:Measurement.unitMultiplier  cim:UnitMultiplier.M;
+            cim:Measurement.unitSymbol      cim:UnitSymbol.W .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_2e59189a-4617-e84f-bef3-b2558a32884c>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_5d9cc592-1b36-9740-af4d-06e3696f829e>;
+            cim:AnalogValue.value      "3720";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Hydro Reservoir Availability Forecast Day-ahead";
+            cim:IdentifiedObject.mRID  "2e59189a-4617-e84f-bef3-b2558a32884c";
+            cim:IdentifiedObject.name  "NO-BZ-1 HYRA 1D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_748308fd-acf4-1346-b2b2-9dbdc871d68c>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_e86c1491-955c-4946-82de-b63a6192277a>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Hydro Forecast Two Day-ahead";
+            cim:IdentifiedObject.mRID  "748308fd-acf4-1346-b2b2-9dbdc871d68c";
+            cim:IdentifiedObject.name  "NO-BZ-1 HYD 2D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_ba20d758-38ed-8042-8506-07e1acac12e6>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_8b1b936a-7395-e644-8b0a-63113ed9f23c>;
+            cim:AnalogValue.value      "2349";
+            cim:IdentifiedObject.description
+                    "NO3 BiddingZone Load Forecast Two Day-ahead";
+            cim:IdentifiedObject.mRID  "ba20d758-38ed-8042-8506-07e1acac12e6";
+            cim:IdentifiedObject.name  "NO-BZ-3 LF 2D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_5693dfbd-c51e-e343-b1d7-e2d3faa3db5d> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_e973680b-c0a5-bc4f-a984-368624c197c7>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_7183e6f1-4ba0-854b-918f-ac180ca2aa78>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Other Production Forecast Two Day-ahead";
+            cim:IdentifiedObject.mRID  "e973680b-c0a5-bc4f-a984-368624c197c7";
+            cim:IdentifiedObject.name  "NO-BZ-1 OTH 2D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_9ad8e518-0b29-4d46-872a-105321bbcce1>
+            rdf:type                        cim:Analog;
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Run-of-river Forecast Active Power";
+            cim:IdentifiedObject.mRID       "9ad8e518-0b29-4d46-872a-105321bbcce1";
+            cim:IdentifiedObject.name       "NO-BZ-1 RORF P";
+            cim:Measurement.PowerSystemResource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a>;
+            cim:Measurement.measurementType
+                    "ThreePhaseActivePower";
+            cim:Measurement.unitMultiplier  cim:UnitMultiplier.M;
+            cim:Measurement.unitSymbol      cim:UnitSymbol.W .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_19901048-1ad8-3d4a-88cf-37c4471d895c>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_e86c1491-955c-4946-82de-b63a6192277a>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Hydro Forecast Year-ahead";
+            cim:IdentifiedObject.mRID  "19901048-1ad8-3d4a-88cf-37c4471d895c";
+            cim:IdentifiedObject.name  "NO-BZ-1 HYD 1Y P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_6c7f7942-c6bf-2341-847c-e8446f0d2f8e>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_a68067c8-8456-7143-9f20-216a1a88d213>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Net Exchange Forecast Month-ahead";
+            cim:IdentifiedObject.mRID  "6c7f7942-c6bf-2341-847c-e8446f0d2f8e";
+            cim:IdentifiedObject.name  "NO-BZ-1 NEX 1M P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_83e6342d-ece0-5043-8f0b-80b3633f20b2>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_ad3782e5-a8fb-e44e-9366-38a7c8827368>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Hydro Actual Scheduled";
+            cim:IdentifiedObject.mRID  "83e6342d-ece0-5043-8f0b-80b3633f20b2";
+            cim:IdentifiedObject.name  "NO-BZ-1 HYDS P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_6a4237ae-327d-5a4c-9c10-167725983c17> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_e86c1491-955c-4946-82de-b63a6192277a>
+            rdf:type                        cim:Analog;
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Hydro Forecast Active Power";
+            cim:IdentifiedObject.mRID       "e86c1491-955c-4946-82de-b63a6192277a";
+            cim:IdentifiedObject.name       "NO-BZ-1 HYDF P";
+            cim:Measurement.PowerSystemResource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a>;
+            cim:Measurement.measurementType
+                    "ThreePhaseActivePower";
+            cim:Measurement.unitMultiplier  cim:UnitMultiplier.M;
+            cim:Measurement.unitSymbol      cim:UnitSymbol.W .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_25da52c9-8f6d-3140-bfc8-79ea5aa524cb>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_4b4f37c6-c90d-2749-b77f-d53ece79c4e7>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Thermal Forecast Seven Day-ahead";
+            cim:IdentifiedObject.mRID  "25da52c9-8f6d-3140-bfc8-79ea5aa524cb";
+            cim:IdentifiedObject.name  "NO-BZ-1 THR 7D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_ad3782e5-a8fb-e44e-9366-38a7c8827368>
+            rdf:type                        cim:Analog;
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Hydro Actual Active Power";
+            cim:IdentifiedObject.mRID       "ad3782e5-a8fb-e44e-9366-38a7c8827368";
+            cim:IdentifiedObject.name       "NO-BZ-1 HYDA P";
+            cim:Measurement.PowerSystemResource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a>;
+            cim:Measurement.measurementType
+                    "ThreePhaseActivePower";
+            cim:Measurement.unitMultiplier  cim:UnitMultiplier.M;
+            cim:Measurement.unitSymbol      cim:UnitSymbol.W .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_433c1753-32f6-9d46-ae72-3e467bd8d547>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_4b4f37c6-c90d-2749-b77f-d53ece79c4e7>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Thermal Forecast Four Day-ahead";
+            cim:IdentifiedObject.mRID  "433c1753-32f6-9d46-ae72-3e467bd8d547";
+            cim:IdentifiedObject.name  "NO-BZ-1 THR 4D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_0aa5e8dd-7ee5-e04c-a5f4-400089570f6c>
+            rdf:type                        cim:Analog;
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Installed Hydro Reservoir Capacity Active Power";
+            cim:IdentifiedObject.mRID       "0aa5e8dd-7ee5-e04c-a5f4-400089570f6c";
+            cim:IdentifiedObject.name       "NO-BZ-1 IHYRC P";
+            cim:Measurement.PowerSystemResource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a>;
+            cim:Measurement.measurementType
+                    "ThreePhaseActivePower";
+            cim:Measurement.unitMultiplier  cim:UnitMultiplier.M;
+            cim:Measurement.unitSymbol      cim:UnitSymbol.W .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_94454c1d-5779-0f48-86a5-64ad8b0f007e>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_5d9cc592-1b36-9740-af4d-06e3696f829e>;
+            cim:AnalogValue.value      "3720";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Hydro Reservoir Availability Forecast Five Day-ahead";
+            cim:IdentifiedObject.mRID  "94454c1d-5779-0f48-86a5-64ad8b0f007e";
+            cim:IdentifiedObject.name  "NO-BZ-1 HYRA 5D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_a1e2be1e-c01d-194f-a85c-faeea6dab749>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_40af803a-e127-ba4c-8366-a19451841b93>;
+            cim:AnalogValue.value      "3720";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Remaining Capacity Forecast Year-ahead";
+            cim:IdentifiedObject.mRID  "a1e2be1e-c01d-194f-a85c-faeea6dab749";
+            cim:IdentifiedObject.name  "NO-BZ-1 RCA 1Y P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_d9c67735-2e2b-7746-9d00-145c4905db86> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_3b167a19-ddea-ec45-98be-8a1c2c021457>
+            rdf:type                   cim:MeasurementValueSource;
+            cim:IdentifiedObject.description
+                    "LFTYv101 - Load Forecasting Tool Year v.1.0.1";
+            cim:IdentifiedObject.mRID  "3b167a19-ddea-ec45-98be-8a1c2c021457";
+            cim:IdentifiedObject.name  "Forecasted" .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_6e8ad8a4-1342-7941-901f-73dec3086118>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_7e629e54-eef1-2d44-bcbe-6450c51e6603>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Wind Forecast Month-ahead";
+            cim:IdentifiedObject.mRID  "6e8ad8a4-1342-7941-901f-73dec3086118";
+            cim:IdentifiedObject.name  "NO-BZ-1 WIN 1M P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_74306ce2-bf32-9e40-a14f-9303f3101274>
+            rdf:type                        cim:Analog;
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Load Actual Active Power";
+            cim:IdentifiedObject.mRID       "74306ce2-bf32-9e40-a14f-9303f3101274";
+            cim:IdentifiedObject.name       "NO-BZ-1 LA P";
+            cim:Measurement.PowerSystemResource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a>;
+            cim:Measurement.measurementType
+                    "ThreePhaseActivePower";
+            cim:Measurement.unitMultiplier  cim:UnitMultiplier.M;
+            cim:Measurement.unitSymbol      cim:UnitSymbol.W .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_7ae1d616-8796-ad43-95f7-f3510b413e81>
+            rdf:type                        cim:Analog;
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Production Forecast Active Power";
+            cim:IdentifiedObject.mRID       "7ae1d616-8796-ad43-95f7-f3510b413e81";
+            cim:IdentifiedObject.name       "NO-BZ-1 PROF P";
+            cim:Measurement.PowerSystemResource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a>;
+            cim:Measurement.measurementType
+                    "ThreePhaseActivePower";
+            cim:Measurement.unitMultiplier  cim:UnitMultiplier.M;
+            cim:Measurement.unitSymbol      cim:UnitSymbol.W .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_4439bb91-7c9b-1b41-a091-8ae3600d3349>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_7ae1d616-8796-ad43-95f7-f3510b413e81>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Production Forecast Seven Day-ahead";
+            cim:IdentifiedObject.mRID  "4439bb91-7c9b-1b41-a091-8ae3600d3349";
+            cim:IdentifiedObject.name  "NO-BZ-1 PRO 7D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_d9c67735-2e2b-7746-9d00-145c4905db86> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_fa58f41d-1ee2-9146-8dfc-4595cd86ed0e>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_fd33f771-db4e-1d44-bec5-e7691cf2a54b>;
+            cim:AnalogValue.value      "6000";
+            cim:IdentifiedObject.description
+                    "NO2 BiddingZone Load Actual Observed";
+            cim:IdentifiedObject.mRID  "fa58f41d-1ee2-9146-8dfc-4595cd86ed0e";
+            cim:IdentifiedObject.name  "NO-BZ-2 LAO P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_4c0436b7-532d-a34e-b2ee-a46a5e151536> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_0fd05cfd-b3c3-3443-8c4b-8d8dadcd72c3>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_8e5494f2-1d0b-8d42-9ae6-3a0d8cf8d25d>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Nuclear Forecast Four Day-ahead";
+            cim:IdentifiedObject.mRID  "0fd05cfd-b3c3-3443-8c4b-8d8dadcd72c3";
+            cim:IdentifiedObject.name  "NO-BZ-1 NUC 4D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_4c556416-4bde-9c41-9b8b-9c7838b9c7c3>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_5d9cc592-1b36-9740-af4d-06e3696f829e>;
+            cim:AnalogValue.value      "3720";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Hydro Reservoir Availability Forecast Four Day-ahead";
+            cim:IdentifiedObject.mRID  "4c556416-4bde-9c41-9b8b-9c7838b9c7c3";
+            cim:IdentifiedObject.name  "NO-BZ-1 HYRA 4D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_e5a9b2b8-7444-fb43-98be-ff4ab1a703d1>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_9ad8e518-0b29-4d46-872a-105321bbcce1>;
+            cim:AnalogValue.value      "1202";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Run-of-river Forecast Year-ahead";
+            cim:IdentifiedObject.mRID  "e5a9b2b8-7444-fb43-98be-ff4ab1a703d1";
+            cim:IdentifiedObject.name  "NO-BZ-1 ROR 1Y P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_daf31d05-411f-984e-96d7-560183e1ec67> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_e91f397c-aa81-e54e-859a-7a7b5c52275f>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_9f954584-6132-af41-8015-80fd7c0e22f8>;
+            cim:AnalogValue.value      "4000";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Other Production Actual Observed";
+            cim:IdentifiedObject.mRID  "e91f397c-aa81-e54e-859a-7a7b5c52275f";
+            cim:IdentifiedObject.name  "NO-BZ-1 OTHO P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_4c0436b7-532d-a34e-b2ee-a46a5e151536> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_279d4ac0-f203-514f-8b99-dd01ee7e23d1>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_b6200d77-995a-ee46-967a-fa8bc92a582a>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Wind Actual Scheduled";
+            cim:IdentifiedObject.mRID  "279d4ac0-f203-514f-8b99-dd01ee7e23d1";
+            cim:IdentifiedObject.name  "NO-BZ-1 WINS P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_6a4237ae-327d-5a4c-9c10-167725983c17> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_1656efeb-3475-304d-9886-a88a72a83a66>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_e86c1491-955c-4946-82de-b63a6192277a>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Hydro Forecast Month-ahead";
+            cim:IdentifiedObject.mRID  "1656efeb-3475-304d-9886-a88a72a83a66";
+            cim:IdentifiedObject.name  "NO-BZ-1 HYD 1M P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_5d9cc592-1b36-9740-af4d-06e3696f829e>
+            rdf:type                        cim:Analog;
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Hydro Reservoir Availability Forecast Active Power";
+            cim:IdentifiedObject.mRID       "5d9cc592-1b36-9740-af4d-06e3696f829e";
+            cim:IdentifiedObject.name       "NO-BZ-1 HYRAF P";
+            cim:Measurement.PowerSystemResource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a>;
+            cim:Measurement.measurementType
+                    "ThreePhaseActivePower";
+            cim:Measurement.unitMultiplier  cim:UnitMultiplier.M;
+            cim:Measurement.unitSymbol      cim:UnitSymbol.W .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_3689afd5-d3e9-c749-9d31-d2c403d88d06>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_9ad8e518-0b29-4d46-872a-105321bbcce1>;
+            cim:AnalogValue.value      "1199";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Run-of-river Forecast Month-ahead";
+            cim:IdentifiedObject.mRID  "3689afd5-d3e9-c749-9d31-d2c403d88d06";
+            cim:IdentifiedObject.name  "NO-BZ-1 ROR 1M P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_daf31d05-411f-984e-96d7-560183e1ec67> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_bd0a0b58-cdc0-d648-934e-82b5c5c5ff80>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_687792ee-e9a2-5d4b-bac2-6ec451287c6d>;
+            cim:AnalogValue.value      "3855";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Load Forecast Six Day-ahead";
+            cim:IdentifiedObject.mRID  "bd0a0b58-cdc0-d648-934e-82b5c5c5ff80";
+            cim:IdentifiedObject.name  "NO-BZ-1 LF 6D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_f2f7ec5a-de86-5742-9e75-4a7143b837c8> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_e46afcb9-f3a4-4a4b-9c28-2d51b3708ae1>
+            rdf:type                        cim:Analog;
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Hydro Pump Availability Forecast Active Power";
+            cim:IdentifiedObject.mRID       "e46afcb9-f3a4-4a4b-9c28-2d51b3708ae1";
+            cim:IdentifiedObject.name       "NO-BZ-1 PUMAF P";
+            cim:Measurement.PowerSystemResource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a>;
+            cim:Measurement.measurementType
+                    "ThreePhaseActivePower";
+            cim:Measurement.unitMultiplier  cim:UnitMultiplier.M;
+            cim:Measurement.unitSymbol      cim:UnitSymbol.W .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_199e3dc4-5d44-f748-ae37-89535d501c1d>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_5d9cc592-1b36-9740-af4d-06e3696f829e>;
+            cim:AnalogValue.value      "3720";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Hydro Reservoir Availability Forecast Intraday";
+            cim:IdentifiedObject.mRID  "199e3dc4-5d44-f748-ae37-89535d501c1d";
+            cim:IdentifiedObject.name  "NO-BZ-1 HYRA ID P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_46a7d2ab-2156-3d49-95a3-c1db7b1f89bb>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_7183e6f1-4ba0-854b-918f-ac180ca2aa78>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Other Production Forecast Six Day-ahead";
+            cim:IdentifiedObject.mRID  "46a7d2ab-2156-3d49-95a3-c1db7b1f89bb";
+            cim:IdentifiedObject.name  "NO-BZ-1 OTH 6D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_eb019c80-69a8-754d-b29e-e5668f857cea>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_4b4f37c6-c90d-2749-b77f-d53ece79c4e7>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Thermal Forecast Year-ahead";
+            cim:IdentifiedObject.mRID  "eb019c80-69a8-754d-b29e-e5668f857cea";
+            cim:IdentifiedObject.name  "NO-BZ-1 THR 1Y P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_b797eb13-e770-874b-8a00-9046c4a5928e>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_40af803a-e127-ba4c-8366-a19451841b93>;
+            cim:AnalogValue.value      "3720";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Remaining Capacity Forecast Day-ahead";
+            cim:IdentifiedObject.mRID  "b797eb13-e770-874b-8a00-9046c4a5928e";
+            cim:IdentifiedObject.name  "NO-BZ-1 RCA 1D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_d9c67735-2e2b-7746-9d00-145c4905db86> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_95b796ba-8242-304e-985e-fa06fec37eec>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_b07d2149-2fca-9c4b-a4ab-909fe501e1b6>;
+            cim:AnalogValue.value      "2370";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Installed Hydro Pump Capacity";
+            cim:IdentifiedObject.mRID  "95b796ba-8242-304e-985e-fa06fec37eec";
+            cim:IdentifiedObject.name  "NO-BZ-1 IHYPC P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_84dc2c58-2aa7-bf41-8059-4e675cc961dc>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_9ad8e518-0b29-4d46-872a-105321bbcce1>;
+            cim:AnalogValue.value      "1221";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Run-of-river Forecast Six Day-ahead";
+            cim:IdentifiedObject.mRID  "84dc2c58-2aa7-bf41-8059-4e675cc961dc";
+            cim:IdentifiedObject.name  "NO-BZ-1 ROR 6D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_daf31d05-411f-984e-96d7-560183e1ec67> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_62f68aa1-5914-c345-9a54-03eaff37ce27>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_a68067c8-8456-7143-9f20-216a1a88d213>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Net Exchange Forecast Three Day-ahead";
+            cim:IdentifiedObject.mRID  "62f68aa1-5914-c345-9a54-03eaff37ce27";
+            cim:IdentifiedObject.name  "NO-BZ-1 NEX 3D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_933ce024-197c-ab42-b1ff-d1f2f45f1887>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_4b4f37c6-c90d-2749-b77f-d53ece79c4e7>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Thermal Forecast Six Day-ahead";
+            cim:IdentifiedObject.mRID  "933ce024-197c-ab42-b1ff-d1f2f45f1887";
+            cim:IdentifiedObject.name  "NO-BZ-1 THR 6D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_f9d52d43-ea1d-7c4d-9f80-f8fdba3f8e71>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_40af803a-e127-ba4c-8366-a19451841b93>;
+            cim:AnalogValue.value      "3720";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Remaining Capacity Forecast Intraday";
+            cim:IdentifiedObject.mRID  "f9d52d43-ea1d-7c4d-9f80-f8fdba3f8e71";
+            cim:IdentifiedObject.name  "NO-BZ-1 RCA ID P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_d9c67735-2e2b-7746-9d00-145c4905db86> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_d9c1fe94-20f8-1a43-ae5f-809b37c12c9d>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_5d9cc592-1b36-9740-af4d-06e3696f829e>;
+            cim:AnalogValue.value      "3720";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Hydro Reservoir Availability Forecast Two Day-ahead";
+            cim:IdentifiedObject.mRID  "d9c1fe94-20f8-1a43-ae5f-809b37c12c9d";
+            cim:IdentifiedObject.name  "NO-BZ-1 HYRA 2D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_4decf4ce-3b46-444c-95dc-84ab5bfd8b07>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_ad3782e5-a8fb-e44e-9366-38a7c8827368>;
+            cim:AnalogValue.value      "4000";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Hydro Actual Observed";
+            cim:IdentifiedObject.mRID  "4decf4ce-3b46-444c-95dc-84ab5bfd8b07";
+            cim:IdentifiedObject.name  "NO-BZ-1 HYDO P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_4c0436b7-532d-a34e-b2ee-a46a5e151536> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_7183e6f1-4ba0-854b-918f-ac180ca2aa78>
+            rdf:type                        cim:Analog;
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Other Forecast Active Power";
+            cim:IdentifiedObject.mRID       "7183e6f1-4ba0-854b-918f-ac180ca2aa78";
+            cim:IdentifiedObject.name       "NO-BZ-1 OTHF P";
+            cim:Measurement.PowerSystemResource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a>;
+            cim:Measurement.measurementType
+                    "ThreePhaseActivePower";
+            cim:Measurement.unitMultiplier  cim:UnitMultiplier.M;
+            cim:Measurement.unitSymbol      cim:UnitSymbol.W .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_afdcb33c-1030-ca4b-a1de-1e91c1e50653>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_8e5494f2-1d0b-8d42-9ae6-3a0d8cf8d25d>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Nuclear Forecast Month-ahead";
+            cim:IdentifiedObject.mRID  "afdcb33c-1030-ca4b-a1de-1e91c1e50653";
+            cim:IdentifiedObject.name  "NO-BZ-1 NUC 1M P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_74cf4686-58c0-414f-838b-86627b03bbdf>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_7e629e54-eef1-2d44-bcbe-6450c51e6603>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Wind Forecast Three Day-ahead";
+            cim:IdentifiedObject.mRID  "74cf4686-58c0-414f-838b-86627b03bbdf";
+            cim:IdentifiedObject.name  "NO-BZ-1 WIN 3D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_92cc8125-73f5-ea46-a002-a77e62861acf>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_8e5494f2-1d0b-8d42-9ae6-3a0d8cf8d25d>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Nuclear Forecast Seven Day-ahead";
+            cim:IdentifiedObject.mRID  "92cc8125-73f5-ea46-a002-a77e62861acf";
+            cim:IdentifiedObject.name  "NO-BZ-1 NUC 7D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_75cab90d-30ae-7648-93f0-c9e8ab113ef7>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_40af803a-e127-ba4c-8366-a19451841b93>;
+            cim:AnalogValue.value      "3720";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Remaining Capacity Forecast Month-ahead";
+            cim:IdentifiedObject.mRID  "75cab90d-30ae-7648-93f0-c9e8ab113ef7";
+            cim:IdentifiedObject.name  "NO-BZ-1 RCA 1M P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_d9c67735-2e2b-7746-9d00-145c4905db86> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_ffa7e134-3386-5e4a-947f-c2eddedd14e6>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_58a1fd1d-c187-8143-82f9-cd57a421888e>;
+            cim:AnalogValue.value      "6100";
+            cim:IdentifiedObject.description
+                    "NO2 BiddingZone Load Forecast Day-ahead";
+            cim:IdentifiedObject.mRID  "ffa7e134-3386-5e4a-947f-c2eddedd14e6";
+            cim:IdentifiedObject.name  "NO-BZ-2 LF 1D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_5693dfbd-c51e-e343-b1d7-e2d3faa3db5d> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_47e284f2-1961-b948-acd6-76518d238e95>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_a68067c8-8456-7143-9f20-216a1a88d213>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Net Exchange Forecast Seven Day-ahead";
+            cim:IdentifiedObject.mRID  "47e284f2-1961-b948-acd6-76518d238e95";
+            cim:IdentifiedObject.name  "NO-BZ-1 NEX 7D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_e470a7d7-2f32-f54f-8315-035efcee7bfa>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_4b4f37c6-c90d-2749-b77f-d53ece79c4e7>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Thermal Forecast Three Day-ahead";
+            cim:IdentifiedObject.mRID  "e470a7d7-2f32-f54f-8315-035efcee7bfa";
+            cim:IdentifiedObject.name  "NO-BZ-1 THR 3D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_5631c6de-952c-714d-a492-27137f7bdc1a>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_8e5494f2-1d0b-8d42-9ae6-3a0d8cf8d25d>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Nuclear Forecast Two Day-ahead";
+            cim:IdentifiedObject.mRID  "5631c6de-952c-714d-a492-27137f7bdc1a";
+            cim:IdentifiedObject.name  "NO-BZ-1 NUC 2D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_1cb273d8-2093-334f-99c7-509b401d442f>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_7e629e54-eef1-2d44-bcbe-6450c51e6603>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Wind Forecast Six Day-ahead";
+            cim:IdentifiedObject.mRID  "1cb273d8-2093-334f-99c7-509b401d442f";
+            cim:IdentifiedObject.name  "NO-BZ-1 WIN 6D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_c1032361-b0c7-6a45-846e-2e0069727e67>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_8e5494f2-1d0b-8d42-9ae6-3a0d8cf8d25d>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Nuclear Forecast Six Day-ahead";
+            cim:IdentifiedObject.mRID  "c1032361-b0c7-6a45-846e-2e0069727e67";
+            cim:IdentifiedObject.name  "NO-BZ-1 NUC 6D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_4c0436b7-532d-a34e-b2ee-a46a5e151536>
+            rdf:type                   cim:MeasurementValueSource;
+            cim:IdentifiedObject.description
+                    "SEv267 - State Estimator v.2.6.7";
+            cim:IdentifiedObject.mRID  "4c0436b7-532d-a34e-b2ee-a46a5e151536";
+            cim:IdentifiedObject.name  "PowerFlow" .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_1b5d0b83-ed26-b84f-b3de-73a370e12a71>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_687792ee-e9a2-5d4b-bac2-6ec451287c6d>;
+            cim:AnalogValue.value      "3831";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Load Forecast Seven Day-ahead";
+            cim:IdentifiedObject.mRID  "1b5d0b83-ed26-b84f-b3de-73a370e12a71";
+            cim:IdentifiedObject.name  "NO-BZ-1 LF 7D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_f2f7ec5a-de86-5742-9e75-4a7143b837c8> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_dd0758c7-2b5a-3846-99d0-77413ffe9950>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_7183e6f1-4ba0-854b-918f-ac180ca2aa78>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Other Production Forecast Month-ahead";
+            cim:IdentifiedObject.mRID  "dd0758c7-2b5a-3846-99d0-77413ffe9950";
+            cim:IdentifiedObject.name  "NO-BZ-1 OTH 1M P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_afc9435a-a180-744c-b56d-a3d6e529606e>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_687792ee-e9a2-5d4b-bac2-6ec451287c6d>;
+            cim:AnalogValue.value      "3850";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Load Forecast Five Day-ahead";
+            cim:IdentifiedObject.mRID  "afc9435a-a180-744c-b56d-a3d6e529606e";
+            cim:IdentifiedObject.name  "NO-BZ-1 LF 5D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_f2f7ec5a-de86-5742-9e75-4a7143b837c8> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_4615474a-2e25-8643-96c7-277a9db2e467>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_e46afcb9-f3a4-4a4b-9c28-2d51b3708ae1>;
+            cim:AnalogValue.value      "3720";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Hydro Pump Availability Forecast Month-ahead";
+            cim:IdentifiedObject.mRID  "4615474a-2e25-8643-96c7-277a9db2e467";
+            cim:IdentifiedObject.name  "NO-BZ-1 HYP 1M P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_817254d6-0199-244f-9bc9-0fd730e1d337>
+            rdf:type                   cim:MeasurementValueSource;
+            cim:IdentifiedObject.description
+                    "LFTMv520 - Load Forecasting Tool Month v.5.2.0";
+            cim:IdentifiedObject.mRID  "817254d6-0199-244f-9bc9-0fd730e1d337";
+            cim:IdentifiedObject.name  "Forecasted" .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_fa062dad-5adb-a945-807d-862f080f5d23>
+            rdf:type                        cim:Analog;
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Installed Wind Capacity Active Power";
+            cim:IdentifiedObject.mRID       "fa062dad-5adb-a945-807d-862f080f5d23";
+            cim:IdentifiedObject.name       "NO-BZ-1 IWINC P";
+            cim:Measurement.PowerSystemResource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a>;
+            cim:Measurement.measurementType
+                    "ThreePhaseActivePower";
+            cim:Measurement.unitMultiplier  cim:UnitMultiplier.M;
+            cim:Measurement.unitSymbol      cim:UnitSymbol.W .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_40af803a-e127-ba4c-8366-a19451841b93>
+            rdf:type                        cim:Analog;
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Remaining Capacity Forecast Active Power";
+            cim:IdentifiedObject.mRID       "40af803a-e127-ba4c-8366-a19451841b93";
+            cim:IdentifiedObject.name       "NO-BZ-1 RCF P";
+            cim:Measurement.PowerSystemResource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a>;
+            cim:Measurement.measurementType
+                    "ThreePhaseActivePower";
+            cim:Measurement.unitMultiplier  cim:UnitMultiplier.M;
+            cim:Measurement.unitSymbol      cim:UnitSymbol.W .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_38b205bb-a597-a549-b4c5-b9063d2fb4e8>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_5d9cc592-1b36-9740-af4d-06e3696f829e>;
+            cim:AnalogValue.value      "3720";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Hydro Reservoir Availability Forecast Six Day-ahead";
+            cim:IdentifiedObject.mRID  "38b205bb-a597-a549-b4c5-b9063d2fb4e8";
+            cim:IdentifiedObject.name  "NO-BZ-1 HYRA 6D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f>
+            rdf:type                   cim:MeasurementValueSource;
+            cim:IdentifiedObject.description
+                    "WFv101 - Wind Forecast Tool v.1.0.1";
+            cim:IdentifiedObject.mRID  "8432a0f5-0640-e34f-b811-331e8bb3712f";
+            cim:IdentifiedObject.name  "Forecasted" .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_3061f1e3-2328-9b43-b216-96ea9104cf57>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_1aae61d1-6b75-d84e-8b08-f8cf5ff69b78>;
+            cim:AnalogValue.value      "4000";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Nuclear Actual Observed";
+            cim:IdentifiedObject.mRID  "3061f1e3-2328-9b43-b216-96ea9104cf57";
+            cim:IdentifiedObject.name  "NO-BZ-1 NUCO P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_4c0436b7-532d-a34e-b2ee-a46a5e151536> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_0cc9a316-236e-e246-89c6-dfcc94e703d4>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_e46afcb9-f3a4-4a4b-9c28-2d51b3708ae1>;
+            cim:AnalogValue.value      "3720";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Hydro Pump Availability Forecast Intraday";
+            cim:IdentifiedObject.mRID  "0cc9a316-236e-e246-89c6-dfcc94e703d4";
+            cim:IdentifiedObject.name  "NO-BZ-1 HYP ID P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_1a865713-25b6-b740-a85b-bf685ad85c4d>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_7e629e54-eef1-2d44-bcbe-6450c51e6603>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Wind Forecast Seven Day-ahead";
+            cim:IdentifiedObject.mRID  "1a865713-25b6-b740-a85b-bf685ad85c4d";
+            cim:IdentifiedObject.name  "NO-BZ-1 WIN 7D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_3a08148b-5fa9-f642-a327-a00073b2c719>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_ede27694-434e-5a42-9bdc-272dd750a9c0>;
+            cim:AnalogValue.value      "2370";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Installed Generating Capacity";
+            cim:IdentifiedObject.mRID  "3a08148b-5fa9-f642-a327-a00073b2c719";
+            cim:IdentifiedObject.name  "NO-BZ-1 IGENC P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_d9c67735-2e2b-7746-9d00-145c4905db86> .
+    
+    <urn:uuid:67e97bb0-ec38-481d-9e56-3e9d45e95a33>
+            rdf:type           rdfg:Graph , dcat:Dataset;
+            dct:conformsTo     <http://iec.ch/TC57/ns/CIM/Operation-EU/3.0>;
+            dct:description    "Equipment Operation (OP) part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region.";
+            dct:identifier     "67e97bb0-ec38-481d-9e56-3e9d45e95a33";
+            dct:issued         "2025-02-14"^^xsd:date;
+            dct:requires       <urn:uuid:e710212f-f6b2-8d4c-9dc0-365398d8b59c> , <urn:uuid:d9a01a85-0ad8-4958-be03-d89ad78ca497>;
+            dct:temporal       [ rdf:type        dct:PeriodOfTime;
+                                 dcat:startDate  "2015-12-31T23:00:00Z"^^xsd:dateTime
+                               ];
+            dcat:distribution  [ rdf:type    dcat:Distribution;
+                                 dct:issued  "2025-02-14T12:00:00Z"^^xsd:dateTime
+                               ];
+            dcat:isVersionOf   <http://www.Statnett.no/IGM/Nordic44_CGM>;
+            dcat:version       "1";
+            json-ld:base       "http://www.Statnett.no/IGM/Nordic44_CGM#" .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_1caa0865-8c0b-c047-9168-43218cc431db>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_e46afcb9-f3a4-4a4b-9c28-2d51b3708ae1>;
+            cim:AnalogValue.value      "3720";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Hydro Pump Availability Forecast Three Day-ahead";
+            cim:IdentifiedObject.mRID  "1caa0865-8c0b-c047-9168-43218cc431db";
+            cim:IdentifiedObject.name  "NO-BZ-1 HYP 3D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_8e5494f2-1d0b-8d42-9ae6-3a0d8cf8d25d>
+            rdf:type                        cim:Analog;
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Nuclear Forecast Active Power";
+            cim:IdentifiedObject.mRID       "8e5494f2-1d0b-8d42-9ae6-3a0d8cf8d25d";
+            cim:IdentifiedObject.name       "NO-BZ-1 NUCF P";
+            cim:Measurement.PowerSystemResource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a>;
+            cim:Measurement.measurementType
+                    "ThreePhaseActivePower";
+            cim:Measurement.unitMultiplier  cim:UnitMultiplier.M;
+            cim:Measurement.unitSymbol      cim:UnitSymbol.W .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_142d7702-2d93-3042-afae-5b633a8d629e>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_e46afcb9-f3a4-4a4b-9c28-2d51b3708ae1>;
+            cim:AnalogValue.value      "3720";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Hydro Pump Availability Forecast Seven Day-ahead";
+            cim:IdentifiedObject.mRID  "142d7702-2d93-3042-afae-5b633a8d629e";
+            cim:IdentifiedObject.name  "NO-BZ-1 HYP 7D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_e568348b-92a6-5e4c-8071-242e552f2863>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_4b4f37c6-c90d-2749-b77f-d53ece79c4e7>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Thermal Forecast Five Day-ahead";
+            cim:IdentifiedObject.mRID  "e568348b-92a6-5e4c-8071-242e552f2863";
+            cim:IdentifiedObject.name  "NO-BZ-1 THR 5D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_d3881b87-17a2-7949-aa6c-2ed11c10a620>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_7ae1d616-8796-ad43-95f7-f3510b413e81>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Production Forecast Month-ahead";
+            cim:IdentifiedObject.mRID  "d3881b87-17a2-7949-aa6c-2ed11c10a620";
+            cim:IdentifiedObject.name  "NO-BZ-1 PRO 1M P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_d9c67735-2e2b-7746-9d00-145c4905db86> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_343ca58a-714a-41e5-8920-5cad9a1b4a94>
+            rdf:type                   cim:MeasurementValueSource;
+            cim:IdentifiedObject.description
+                    "Operator - User entry";
+            cim:IdentifiedObject.mRID  "343ca58a-714a-41e5-8920-5cad9a1b4a94";
+            cim:IdentifiedObject.name  "Operator" .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_7d497f37-351b-e24f-be98-c52e61e3b0d8>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_7183e6f1-4ba0-854b-918f-ac180ca2aa78>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Other Production Forecast Seven Day-ahead";
+            cim:IdentifiedObject.mRID  "7d497f37-351b-e24f-be98-c52e61e3b0d8";
+            cim:IdentifiedObject.name  "NO-BZ-1 OTH 7D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_6b467cdf-55ba-b643-b9b7-6bc71fa8c96f>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_e46afcb9-f3a4-4a4b-9c28-2d51b3708ae1>;
+            cim:AnalogValue.value      "3720";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Hydro Pump Availability Forecast Six Day-ahead";
+            cim:IdentifiedObject.mRID  "6b467cdf-55ba-b643-b9b7-6bc71fa8c96f";
+            cim:IdentifiedObject.name  "NO-BZ-1 HYP 6D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_fe4df282-46b3-7c40-a5ad-f49187a533e5>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_cedb649b-78f5-d042-b399-1efeb080029e>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Production Actual Scheduled";
+            cim:IdentifiedObject.mRID  "fe4df282-46b3-7c40-a5ad-f49187a533e5";
+            cim:IdentifiedObject.name  "NO-BZ-1 PROS P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_6a4237ae-327d-5a4c-9c10-167725983c17> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_82dd4d6f-9055-a149-b42b-33d97d87528b>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_e86c1491-955c-4946-82de-b63a6192277a>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Hydro Forecast Seven Day-ahead";
+            cim:IdentifiedObject.mRID  "82dd4d6f-9055-a149-b42b-33d97d87528b";
+            cim:IdentifiedObject.name  "NO-BZ-1 HYD 7D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_31896b46-0a9d-fa47-aa50-059c2328c1f8>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_687792ee-e9a2-5d4b-bac2-6ec451287c6d>;
+            cim:AnalogValue.value      "3888";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Load Forecast Two Day-ahead";
+            cim:IdentifiedObject.mRID  "31896b46-0a9d-fa47-aa50-059c2328c1f8";
+            cim:IdentifiedObject.name  "NO-BZ-1 LF 2D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_5693dfbd-c51e-e343-b1d7-e2d3faa3db5d> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_6e0c8781-2092-4f4c-9a13-d47cec447afa>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_9ad8e518-0b29-4d46-872a-105321bbcce1>;
+            cim:AnalogValue.value      "1200";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Run-of-river Forecast Two Day-ahead";
+            cim:IdentifiedObject.mRID  "6e0c8781-2092-4f4c-9a13-d47cec447afa";
+            cim:IdentifiedObject.name  "NO-BZ-1 ROR 2D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_daf31d05-411f-984e-96d7-560183e1ec67> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_b6200d77-995a-ee46-967a-fa8bc92a582a>
+            rdf:type                        cim:Analog;
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Wind Actual Active Power";
+            cim:IdentifiedObject.mRID       "b6200d77-995a-ee46-967a-fa8bc92a582a";
+            cim:IdentifiedObject.name       "NO-BZ-1 WINA P";
+            cim:Measurement.PowerSystemResource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a>;
+            cim:Measurement.measurementType
+                    "ThreePhaseActivePower";
+            cim:Measurement.unitMultiplier  cim:UnitMultiplier.M;
+            cim:Measurement.unitSymbol      cim:UnitSymbol.W .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_1d5b07d3-4dba-1b4e-adcb-bc4c09dae83c>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_7183e6f1-4ba0-854b-918f-ac180ca2aa78>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Other Production Forecast Four Day-ahead";
+            cim:IdentifiedObject.mRID  "1d5b07d3-4dba-1b4e-adcb-bc4c09dae83c";
+            cim:IdentifiedObject.name  "NO-BZ-1 OTH 4D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_367ee225-3f09-ef44-a485-b9391f8bedd1>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_9ad8e518-0b29-4d46-872a-105321bbcce1>;
+            cim:AnalogValue.value      "1200";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Run-of-river Forecast Seven Day-ahead";
+            cim:IdentifiedObject.mRID  "367ee225-3f09-ef44-a485-b9391f8bedd1";
+            cim:IdentifiedObject.name  "NO-BZ-1 ROR 7D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_daf31d05-411f-984e-96d7-560183e1ec67> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_ede27694-434e-5a42-9bdc-272dd750a9c0>
+            rdf:type                        cim:Analog;
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Installed Generating Capacity Active Power";
+            cim:IdentifiedObject.mRID       "ede27694-434e-5a42-9bdc-272dd750a9c0";
+            cim:IdentifiedObject.name       "NO-BZ-1 IGENC P";
+            cim:Measurement.PowerSystemResource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a>;
+            cim:Measurement.measurementType
+                    "ThreePhaseActivePower";
+            cim:Measurement.unitMultiplier  cim:UnitMultiplier.M;
+            cim:Measurement.unitSymbol      cim:UnitSymbol.W .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_80fbd5bc-44ef-a449-bd3a-a332871d687c>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_8b1b936a-7395-e644-8b0a-63113ed9f23c>;
+            cim:AnalogValue.value      "2370";
+            cim:IdentifiedObject.description
+                    "NO3 BiddingZone Load Forecast Day-ahead";
+            cim:IdentifiedObject.mRID  "80fbd5bc-44ef-a449-bd3a-a332871d687c";
+            cim:IdentifiedObject.name  "NO-BZ-3 LF 1D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_5693dfbd-c51e-e343-b1d7-e2d3faa3db5d> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_addc4858-76ce-8240-a702-d6e96126b946>
+            rdf:type                        cim:Analog;
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Thermal Actual Active Power";
+            cim:IdentifiedObject.mRID       "addc4858-76ce-8240-a702-d6e96126b946";
+            cim:IdentifiedObject.name       "NO-BZ-1 THRA P";
+            cim:Measurement.PowerSystemResource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a>;
+            cim:Measurement.measurementType
+                    "ThreePhaseActivePower";
+            cim:Measurement.unitMultiplier  cim:UnitMultiplier.M;
+            cim:Measurement.unitSymbol      cim:UnitSymbol.W .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_4047f3ac-76fc-fd45-ad58-2994037775af>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_fa062dad-5adb-a945-807d-862f080f5d23>;
+            cim:AnalogValue.value      "2370";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Installed Wind Capacity";
+            cim:IdentifiedObject.mRID  "4047f3ac-76fc-fd45-ad58-2994037775af";
+            cim:IdentifiedObject.name  "NO-BZ-1 IWINCF P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_2f605e72-da22-7442-a08f-0558f37fc83f>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_40af803a-e127-ba4c-8366-a19451841b93>;
+            cim:AnalogValue.value      "3720";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Remaining Capacity Forecast Three Day-ahead";
+            cim:IdentifiedObject.mRID  "2f605e72-da22-7442-a08f-0558f37fc83f";
+            cim:IdentifiedObject.name  "NO-BZ-1 RCA 3D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_d9c67735-2e2b-7746-9d00-145c4905db86> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_d9c67735-2e2b-7746-9d00-145c4905db86>
+            rdf:type                   cim:MeasurementValueSource;
+            cim:IdentifiedObject.description
+                    "Cac - Calculation based on other analog values";
+            cim:IdentifiedObject.mRID  "d9c67735-2e2b-7746-9d00-145c4905db86";
+            cim:IdentifiedObject.name  "Calculated" .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_9c4d65c1-9653-a74a-ae7b-316ead0afeb3>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_5d9cc592-1b36-9740-af4d-06e3696f829e>;
+            cim:AnalogValue.value      "3720";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Hydro Reservoir Availability Forecast Seven Day-ahead";
+            cim:IdentifiedObject.mRID  "9c4d65c1-9653-a74a-ae7b-316ead0afeb3";
+            cim:IdentifiedObject.name  "NO-BZ-1 HYRA 7D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_1d1756ee-f0f1-8f41-95e7-f7a955017ad3>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_e46afcb9-f3a4-4a4b-9c28-2d51b3708ae1>;
+            cim:AnalogValue.value      "3720";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Hydro Pump Availability Forecast Four Day-ahead";
+            cim:IdentifiedObject.mRID  "1d1756ee-f0f1-8f41-95e7-f7a955017ad3";
+            cim:IdentifiedObject.name  "NO-BZ-1 HYP 4D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_cc696cf4-aeb2-0c49-a2a3-e5932352ec38>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_a68067c8-8456-7143-9f20-216a1a88d213>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Net Exchange Forecast Six Day-ahead";
+            cim:IdentifiedObject.mRID  "cc696cf4-aeb2-0c49-a2a3-e5932352ec38";
+            cim:IdentifiedObject.name  "NO-BZ-1 NEX 6D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_c7111857-b4fa-9945-b840-c5bab849144a>
+            rdf:type                        cim:Analog;
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Net Exchange Actual Active Power";
+            cim:IdentifiedObject.mRID       "c7111857-b4fa-9945-b840-c5bab849144a";
+            cim:IdentifiedObject.name       "NO-BZ-1 NEXA P";
+            cim:Measurement.PowerSystemResource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a>;
+            cim:Measurement.measurementType
+                    "ThreePhaseActivePower";
+            cim:Measurement.unitMultiplier  cim:UnitMultiplier.M;
+            cim:Measurement.unitSymbol      cim:UnitSymbol.W .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_f9b2a56b-fcba-f242-b8f0-d0fc72500435>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_c7111857-b4fa-9945-b840-c5bab849144a>;
+            cim:AnalogValue.value      "4000";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Net Exchange Actual Observed";
+            cim:IdentifiedObject.mRID  "f9b2a56b-fcba-f242-b8f0-d0fc72500435";
+            cim:IdentifiedObject.name  "NO-BZ-1 NEXO P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_4c0436b7-532d-a34e-b2ee-a46a5e151536> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_105384df-9b48-3848-8fd2-97cf37575885>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_687792ee-e9a2-5d4b-bac2-6ec451287c6d>;
+            cim:AnalogValue.value      "3720";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Load Forecast Intraday";
+            cim:IdentifiedObject.mRID  "105384df-9b48-3848-8fd2-97cf37575885";
+            cim:IdentifiedObject.name  "NO-BZ-1 LF ID P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_5693dfbd-c51e-e343-b1d7-e2d3faa3db5d> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_60296fca-83f6-cc4c-8eda-02a06599d10d>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_fd33f771-db4e-1d44-bec5-e7691cf2a54b>;
+            cim:AnalogValue.value      "6010";
+            cim:IdentifiedObject.description
+                    "NO2 BiddingZone Load Actual Scheduled";
+            cim:IdentifiedObject.mRID  "60296fca-83f6-cc4c-8eda-02a06599d10d";
+            cim:IdentifiedObject.name  "NO-BZ-2 LAS P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_6a4237ae-327d-5a4c-9c10-167725983c17> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_069b8d2b-eef4-b245-8958-3541b8c53862>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_687792ee-e9a2-5d4b-bac2-6ec451287c6d>;
+            cim:AnalogValue.value      "3870";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Load Forecast Four Day-ahead";
+            cim:IdentifiedObject.mRID  "069b8d2b-eef4-b245-8958-3541b8c53862";
+            cim:IdentifiedObject.name  "NO-BZ-1 LF 4D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_f2f7ec5a-de86-5742-9e75-4a7143b837c8> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_8b1b936a-7395-e644-8b0a-63113ed9f23c>
+            rdf:type                        cim:Analog;
+            cim:IdentifiedObject.description
+                    "NO3 BiddingZone Load Forecast Active Power";
+            cim:IdentifiedObject.mRID       "8b1b936a-7395-e644-8b0a-63113ed9f23c";
+            cim:IdentifiedObject.name       "NO-BZ-3 LF P";
+            cim:Measurement.PowerSystemResource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_0f094148-164b-427a-a8e8-0c5f334688ae>;
+            cim:Measurement.measurementType
+                    "ThreePhaseActivePower";
+            cim:Measurement.unitMultiplier  cim:UnitMultiplier.M;
+            cim:Measurement.unitSymbol      cim:UnitSymbol.W .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_d86ebff3-a4f2-c74c-b639-c347c801775c>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_e46afcb9-f3a4-4a4b-9c28-2d51b3708ae1>;
+            cim:AnalogValue.value      "3720";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Hydro Pump Availability Forecast Day-ahead";
+            cim:IdentifiedObject.mRID  "d86ebff3-a4f2-c74c-b639-c347c801775c";
+            cim:IdentifiedObject.name  "NO-BZ-1 HYP 1D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_6a4237ae-327d-5a4c-9c10-167725983c17>
+            rdf:type                   cim:MeasurementValueSource;
+            cim:IdentifiedObject.description
+                    "MMSv334 - Market Management System v3.3.3";
+            cim:IdentifiedObject.mRID  "6a4237ae-327d-5a4c-9c10-167725983c17";
+            cim:IdentifiedObject.name  "Allocated" .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_daf31d05-411f-984e-96d7-560183e1ec67>
+            rdf:type                   cim:MeasurementValueSource;
+            cim:IdentifiedObject.description
+                    "RoRFv222 - Run-of-river Forecast Tool v.2.2.2";
+            cim:IdentifiedObject.mRID  "daf31d05-411f-984e-96d7-560183e1ec67";
+            cim:IdentifiedObject.name  "Forecasted" .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_67a8751f-3053-a743-bc2c-52f0a114d914>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_c7111857-b4fa-9945-b840-c5bab849144a>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Net Exchange Actual Scheduled";
+            cim:IdentifiedObject.mRID  "67a8751f-3053-a743-bc2c-52f0a114d914";
+            cim:IdentifiedObject.name  "NO-BZ-1 NEXS P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_6a4237ae-327d-5a4c-9c10-167725983c17> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_5693dfbd-c51e-e343-b1d7-e2d3faa3db5d>
+            rdf:type                   cim:MeasurementValueSource;
+            cim:IdentifiedObject.description
+                    "LFTDv109 - Load Forecasting Tool Day v.1.0.9";
+            cim:IdentifiedObject.mRID  "5693dfbd-c51e-e343-b1d7-e2d3faa3db5d";
+            cim:IdentifiedObject.name  "Forecasted" .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_aa53ac58-4e87-3b4f-9437-580f2e577c18>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_74306ce2-bf32-9e40-a14f-9303f3101274>;
+            cim:AnalogValue.value      "3700";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Load Actual Observed";
+            cim:IdentifiedObject.mRID  "aa53ac58-4e87-3b4f-9437-580f2e577c18";
+            cim:IdentifiedObject.name  "NO-BZ-1 LAO P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_4c0436b7-532d-a34e-b2ee-a46a5e151536> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_aab3c96c-9943-7640-9621-b5965f19aafa>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_7ae1d616-8796-ad43-95f7-f3510b413e81>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Production Forecast Six Day-ahead";
+            cim:IdentifiedObject.mRID  "aab3c96c-9943-7640-9621-b5965f19aafa";
+            cim:IdentifiedObject.name  "NO-BZ-1 PRO 6D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_d9c67735-2e2b-7746-9d00-145c4905db86> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_4eec4118-7441-e442-bd80-af6dcf9f9aa9>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_9f954584-6132-af41-8015-80fd7c0e22f8>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Other Production Actual Scheduled";
+            cim:IdentifiedObject.mRID  "4eec4118-7441-e442-bd80-af6dcf9f9aa9";
+            cim:IdentifiedObject.name  "NO-BZ-1 OTHS P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_6a4237ae-327d-5a4c-9c10-167725983c17> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_6dbb42eb-96cd-c94e-ad13-e94e7d1d037b>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_9ad8e518-0b29-4d46-872a-105321bbcce1>;
+            cim:AnalogValue.value      "1300";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Run-of-river Forecast Five Day-ahead";
+            cim:IdentifiedObject.mRID  "6dbb42eb-96cd-c94e-ad13-e94e7d1d037b";
+            cim:IdentifiedObject.name  "NO-BZ-1 ROR 5D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_daf31d05-411f-984e-96d7-560183e1ec67> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_4b4f37c6-c90d-2749-b77f-d53ece79c4e7>
+            rdf:type                        cim:Analog;
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Thermal Forecast Active Power";
+            cim:IdentifiedObject.mRID       "4b4f37c6-c90d-2749-b77f-d53ece79c4e7";
+            cim:IdentifiedObject.name       "NO-BZ-1 THRF P";
+            cim:Measurement.PowerSystemResource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a>;
+            cim:Measurement.measurementType
+                    "ThreePhaseActivePower";
+            cim:Measurement.unitMultiplier  cim:UnitMultiplier.M;
+            cim:Measurement.unitSymbol      cim:UnitSymbol.W .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_c71397e8-77ea-3e4a-84c8-36308b315205>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_addc4858-76ce-8240-a702-d6e96126b946>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Thermal Actual Scheduled";
+            cim:IdentifiedObject.mRID  "c71397e8-77ea-3e4a-84c8-36308b315205";
+            cim:IdentifiedObject.name  "NO-BZ-1 THRS P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_6a4237ae-327d-5a4c-9c10-167725983c17> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_15df5908-87e7-3247-b250-7f119eff1a9f>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_9ad8e518-0b29-4d46-872a-105321bbcce1>;
+            cim:AnalogValue.value      "1234";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Run-of-river Forecast Three Day-ahead";
+            cim:IdentifiedObject.mRID  "15df5908-87e7-3247-b250-7f119eff1a9f";
+            cim:IdentifiedObject.name  "NO-BZ-1 ROR 3D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_daf31d05-411f-984e-96d7-560183e1ec67> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_b6eef139-d322-0346-a512-7d2ea261abd2>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_0aa5e8dd-7ee5-e04c-a5f4-400089570f6c>;
+            cim:AnalogValue.value      "2370";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Installed Hydro Reservoir Capacity";
+            cim:IdentifiedObject.mRID  "b6eef139-d322-0346-a512-7d2ea261abd2";
+            cim:IdentifiedObject.name  "NO-BZ-1 IHYRC P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_563c0df5-7602-7d4a-86f6-ef69bd9bf6b5>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_5d9cc592-1b36-9740-af4d-06e3696f829e>;
+            cim:AnalogValue.value      "3720";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Hydro Reservoir Availability Forecast Three Day-ahead";
+            cim:IdentifiedObject.mRID  "563c0df5-7602-7d4a-86f6-ef69bd9bf6b5";
+            cim:IdentifiedObject.name  "NO-BZ-1 HYRA 3D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_4685e740-e437-554e-963e-eb73ecf845d7>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_7e629e54-eef1-2d44-bcbe-6450c51e6603>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Wind Forecast Four Day-ahead";
+            cim:IdentifiedObject.mRID  "4685e740-e437-554e-963e-eb73ecf845d7";
+            cim:IdentifiedObject.name  "NO-BZ-1 WIN 4D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_5e014656-16d4-2845-9b97-e5cd0fab24f4>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_7ae1d616-8796-ad43-95f7-f3510b413e81>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Production Forecast Two Day-ahead";
+            cim:IdentifiedObject.mRID  "5e014656-16d4-2845-9b97-e5cd0fab24f4";
+            cim:IdentifiedObject.name  "NO-BZ-1 PRO 2D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_d9c67735-2e2b-7746-9d00-145c4905db86> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_61ab46d2-a1a7-4342-b601-82c2aedbd782>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_a68067c8-8456-7143-9f20-216a1a88d213>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Net Exchange Forecast Four Day-ahead";
+            cim:IdentifiedObject.mRID  "61ab46d2-a1a7-4342-b601-82c2aedbd782";
+            cim:IdentifiedObject.name  "NO-BZ-1 NEX 4D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_5d0f3607-8bac-4f08-94e2-c230387560df>
+            rdf:type                   cim:MeasurementValueSource;
+            cim:IdentifiedObject.description
+                    "SCADA - From RTU or 61850";
+            cim:IdentifiedObject.mRID  "5d0f3607-8bac-4f08-94e2-c230387560df";
+            cim:IdentifiedObject.name  "SCADA" .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_ff3cc0d8-5886-5343-9513-9cea9a104359>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_a68067c8-8456-7143-9f20-216a1a88d213>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Net Exchange Forecast Five Day-ahead";
+            cim:IdentifiedObject.mRID  "ff3cc0d8-5886-5343-9513-9cea9a104359";
+            cim:IdentifiedObject.name  "NO-BZ-1 NEX 5D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_7e629e54-eef1-2d44-bcbe-6450c51e6603>
+            rdf:type                        cim:Analog;
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Wind Forecast Active Power";
+            cim:IdentifiedObject.mRID       "7e629e54-eef1-2d44-bcbe-6450c51e6603";
+            cim:IdentifiedObject.name       "NO-BZ-1 WINF P";
+            cim:Measurement.PowerSystemResource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a>;
+            cim:Measurement.measurementType
+                    "ThreePhaseActivePower";
+            cim:Measurement.unitMultiplier  cim:UnitMultiplier.M;
+            cim:Measurement.unitSymbol      cim:UnitSymbol.W .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_cedb649b-78f5-d042-b399-1efeb080029e>
+            rdf:type                        cim:Analog;
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Production Actual Active Power";
+            cim:IdentifiedObject.mRID       "cedb649b-78f5-d042-b399-1efeb080029e";
+            cim:IdentifiedObject.name       "NO-BZ-1 PROA P";
+            cim:Measurement.PowerSystemResource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a>;
+            cim:Measurement.measurementType
+                    "ThreePhaseActivePower";
+            cim:Measurement.unitMultiplier  cim:UnitMultiplier.M;
+            cim:Measurement.unitSymbol      cim:UnitSymbol.W .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_75ecd1e9-945a-b046-8381-c60f4df11caa>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_687792ee-e9a2-5d4b-bac2-6ec451287c6d>;
+            cim:AnalogValue.value      "3720";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Load Forecast Day-ahead";
+            cim:IdentifiedObject.mRID  "75ecd1e9-945a-b046-8381-c60f4df11caa";
+            cim:IdentifiedObject.name  "NO-BZ-1 LF 1D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_5693dfbd-c51e-e343-b1d7-e2d3faa3db5d> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_62d3dd27-ac28-8948-824d-b53a58e7be29>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_687792ee-e9a2-5d4b-bac2-6ec451287c6d>;
+            cim:AnalogValue.value      "3831";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Load Forecast Year-ahead";
+            cim:IdentifiedObject.mRID  "62d3dd27-ac28-8948-824d-b53a58e7be29";
+            cim:IdentifiedObject.name  "NO-BZ-1 LF 1Y P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_3b167a19-ddea-ec45-98be-8a1c2c021457> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_276fb966-a647-994f-87ee-c938bf41a8af>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_8e5494f2-1d0b-8d42-9ae6-3a0d8cf8d25d>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Nuclear Forecast Five Day-ahead";
+            cim:IdentifiedObject.mRID  "276fb966-a647-994f-87ee-c938bf41a8af";
+            cim:IdentifiedObject.name  "NO-BZ-1 NUC 5D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_78e48c3f-fe5a-d541-8efc-49b15839db90>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_687792ee-e9a2-5d4b-bac2-6ec451287c6d>;
+            cim:AnalogValue.value      "3831";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Load Forecast Month-ahead";
+            cim:IdentifiedObject.mRID  "78e48c3f-fe5a-d541-8efc-49b15839db90";
+            cim:IdentifiedObject.name  "NO-BZ-1 LF 1M P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_817254d6-0199-244f-9bc9-0fd730e1d337> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_322f936d-1b8a-4a4b-b1d2-03403945c202>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_35ef9ce3-5fc6-9546-a056-067807c3b30a>;
+            cim:AnalogValue.value      "2360";
+            cim:IdentifiedObject.description
+                    "NO3 BiddingZone Load Actual Scheduled";
+            cim:IdentifiedObject.mRID  "322f936d-1b8a-4a4b-b1d2-03403945c202";
+            cim:IdentifiedObject.name  "NO-BZ-3 LAS P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_6a4237ae-327d-5a4c-9c10-167725983c17> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_69b510f5-8c8a-214d-93dd-da39b6b9fbe8>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_40af803a-e127-ba4c-8366-a19451841b93>;
+            cim:AnalogValue.value      "3720";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Remaining Capacity Forecast Seven Day-ahead";
+            cim:IdentifiedObject.mRID  "69b510f5-8c8a-214d-93dd-da39b6b9fbe8";
+            cim:IdentifiedObject.name  "NO-BZ-1 RCA 7D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_d9c67735-2e2b-7746-9d00-145c4905db86> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_8d6a6576-1a9c-de47-b4dc-4f83c9c60981>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_5d9cc592-1b36-9740-af4d-06e3696f829e>;
+            cim:AnalogValue.value      "3720";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Hydro Reservoir Availability Forecast Month-ahead";
+            cim:IdentifiedObject.mRID  "8d6a6576-1a9c-de47-b4dc-4f83c9c60981";
+            cim:IdentifiedObject.name  "NO-BZ-1 HYRA 1M P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_1cced0c2-25ad-6040-b415-eca9d3b107de>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_e86c1491-955c-4946-82de-b63a6192277a>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Hydro Forecast Three Day-ahead";
+            cim:IdentifiedObject.mRID  "1cced0c2-25ad-6040-b415-eca9d3b107de";
+            cim:IdentifiedObject.name  "NO-BZ-1 HYD 3D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_7301a8ca-a197-8e43-9bd5-0faf02211079>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_b6200d77-995a-ee46-967a-fa8bc92a582a>;
+            cim:AnalogValue.value      "4000";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Wind Actual Observed";
+            cim:IdentifiedObject.mRID  "7301a8ca-a197-8e43-9bd5-0faf02211079";
+            cim:IdentifiedObject.name  "NO-BZ-1 WINO P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_4c0436b7-532d-a34e-b2ee-a46a5e151536> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_1aae61d1-6b75-d84e-8b08-f8cf5ff69b78>
+            rdf:type                        cim:Analog;
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Nuclear Actual Active Power";
+            cim:IdentifiedObject.mRID       "1aae61d1-6b75-d84e-8b08-f8cf5ff69b78";
+            cim:IdentifiedObject.name       "NO-BZ-1 NUCA P";
+            cim:Measurement.PowerSystemResource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a>;
+            cim:Measurement.measurementType
+                    "ThreePhaseActivePower";
+            cim:Measurement.unitMultiplier  cim:UnitMultiplier.M;
+            cim:Measurement.unitSymbol      cim:UnitSymbol.W .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_0c064e09-1338-c642-bd41-28c2d6853188>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_e46afcb9-f3a4-4a4b-9c28-2d51b3708ae1>;
+            cim:AnalogValue.value      "3720";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Hydro Pump Availability Forecast Five Day-ahead";
+            cim:IdentifiedObject.mRID  "0c064e09-1338-c642-bd41-28c2d6853188";
+            cim:IdentifiedObject.name  "NO-BZ-1 HYP 5D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_1df8925c-8fae-fe4d-8802-862d6f0f2389>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_7ae1d616-8796-ad43-95f7-f3510b413e81>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Production Forecast Four Day-ahead";
+            cim:IdentifiedObject.mRID  "1df8925c-8fae-fe4d-8802-862d6f0f2389";
+            cim:IdentifiedObject.name  "NO-BZ-1 PRO 4D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_d9c67735-2e2b-7746-9d00-145c4905db86> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_734c712f-7c33-c44d-ba3f-d0b8b03ddc83>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_7ae1d616-8796-ad43-95f7-f3510b413e81>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Production Forecast Year-ahead";
+            cim:IdentifiedObject.mRID  "734c712f-7c33-c44d-ba3f-d0b8b03ddc83";
+            cim:IdentifiedObject.name  "NO-BZ-1 PRO 1Y P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_d9c67735-2e2b-7746-9d00-145c4905db86> .
+    
+    <http://www.Statnett.no/IGM/Nordic44_CGM#_bae46cc4-cc01-214e-b4b3-f9df8fcad219>
+            rdf:type                   cim:AnalogValue;
+            cim:AnalogValue.Analog     <http://www.Statnett.no/IGM/Nordic44_CGM#_4b4f37c6-c90d-2749-b77f-d53ece79c4e7>;
+            cim:AnalogValue.value      "4050";
+            cim:IdentifiedObject.description
+                    "NO1 BiddingZone Thermal Forecast Two Day-ahead";
+            cim:IdentifiedObject.mRID  "bae46cc4-cc01-214e-b4b3-f9df8fcad219";
+            cim:IdentifiedObject.name  "NO-BZ-1 THR 2D P_V";
+            cim:MeasurementValue.MeasurementValueSource
+                    <http://www.Statnett.no/IGM/Nordic44_CGM#_8432a0f5-0640-e34f-b811-331e8bb3712f> .
+}
