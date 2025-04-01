@@ -8,7 +8,7 @@
 	<!-- The header information could be replaced by Manifest profile. The header is added to identify relevant information. -->
   <md:FullModel rdf:about="urn:uuid:eb4d92e6-d4da-11e7-9296-cec278b6b50a">
     <md:Model.created>2025-02-14T12:00:00Z</md:Model.created>
-    <md:Model.scenarioTime>2015-12-31T23:00:00Z</md:Model.scenarioTime>
+    <md:Model.scenarioTime>2014-12-31T23:00:00Z</md:Model.scenarioTime>
     <md:Model.version>1</md:Model.version>
     <md:Model.description>Asset (AS) records for Statnett as asset owner in the enterprise part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region.Nordic CPMSM Test model Asset.</md:Model.description>
     <md:Model.modelingAuthoritySet>http://www.Statnett.no/Enterprise/Nordic44</md:Model.modelingAuthoritySet>

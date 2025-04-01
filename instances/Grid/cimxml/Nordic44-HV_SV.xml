@@ -10,7 +10,7 @@
 		<md:Model.profile>http://iec.ch/TC57/ns/CIM/StateVariables-EU/3.0</md:Model.profile>
 		<md:Model.DependentOn rdf:resource="urn:uuid:7b3f94c0-bd9b-e74e-866b-f473153c3e70"/>
 		<md:Model.modelingAuthoritySet>http://www.Statnett.no/IGM/Nordic44_CGM</md:Model.modelingAuthoritySet>
-		<md:Model.scenarioTime>2015-12-31T23:00:00Z</md:Model.scenarioTime>
+		<md:Model.scenarioTime>2014-12-31T23:00:00Z</md:Model.scenarioTime>
 		<md:Model.version>1</md:Model.version>
 	</md:FullModel>
 

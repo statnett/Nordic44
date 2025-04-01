@@ -30,7 +30,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             dct:identifier     "75f351c7-75a6-4c25-8f1c-985aa59e90ad";
             dct:issued         "2025-02-14"^^xsd:date;
             dct:temporal       [ rdf:type        dct:PeriodOfTime;
-                                 dcat:startDate  "2015-12-31T23:00:00Z"^^xsd:dateTime
+                                 dcat:startDate  "2014-12-31T23:00:00Z"^^xsd:dateTime
                                ];
             dcat:distribution  [ rdf:type    dcat:Distribution;
                                  dct:issued  "2025-02-14T12:00:00Z"^^xsd:dateTime

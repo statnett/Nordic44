@@ -35,7 +35,7 @@
   <dcat:isVersionOf rdf:resource="https://energy.referencedata.eu/Test/Model/Nordic44-HV_EQ"/>
   <dcat:keyword>EQ</dcat:keyword>
   <dcat:keyword>Equipment</dcat:keyword>
-  <dcat:startDate>2015-12-31T23:00:00Z</dcat:startDate>
+  <dcat:startDate>2014-12-31T23:00:00Z</dcat:startDate>
   <dcat:version>3.0.0-beta-1</dcat:version>
   <dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/Public"/>
   <dcterms:conformsTo rdf:resource="http://iec.ch/TC57/ns/CIM/CoreEquipment-EU/3.0"/>
@@ -66,7 +66,7 @@
   <dcat:isVersionOf rdf:resource="https://energy.referencedata.eu/Test/Model/Nordic44-HV_SSH"/>
   <dcat:keyword>SSH</dcat:keyword>
   <dcat:keyword>SteadyStateHypothesis</dcat:keyword>
-  <dcat:startDate>2015-12-31T23:00:00Z</dcat:startDate>
+  <dcat:startDate>2014-12-31T23:00:00Z</dcat:startDate>
   <dcat:version>3.0.0-beta-1</dcat:version>
   <dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/Public"/>
   <dcterms:conformsTo rdf:resource="http://iec.ch/TC57/ns/CIM/SteadyStateHypothesis-EU/3.0"/>

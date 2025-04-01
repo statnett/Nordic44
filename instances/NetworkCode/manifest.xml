@@ -35,7 +35,7 @@
   <dcat:isVersionOf rdf:resource="https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD"/>
   <dcat:keyword>CD</dcat:keyword>
   <dcat:keyword>CommonData</dcat:keyword>
-  <dcat:startDate>2015-12-31T23:00:00Z</dcat:startDate>
+  <dcat:startDate>2014-12-31T23:00:00Z</dcat:startDate>
   <dcat:version>3.0.0-beta-1</dcat:version>
   <dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/Public"/>
   <dcterms:conformsTo rdf:resource="https://ap.cim4.eu/EquipmentReliability/2.3"/>
@@ -66,7 +66,7 @@
   <dcat:isVersionOf rdf:resource="https://energy.referencedata.eu/Test/Model/N44-NC-HV_CO"/>
   <dcat:keyword>CO</dcat:keyword>
   <dcat:keyword>Contingency</dcat:keyword>
-  <dcat:startDate>2015-12-31T23:00:00Z</dcat:startDate>
+  <dcat:startDate>2014-12-31T23:00:00Z</dcat:startDate>
   <dcat:version>3.0.0-beta-1</dcat:version>
   <dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/Public"/>
   <dcterms:conformsTo rdf:resource="https://ap.cim4.eu/Contingency/2.3"/>
@@ -99,7 +99,7 @@
   <dcat:isVersionOf rdf:resource="https://energy.referencedata.eu/Test/Model/N44-NC-HV_SSI"/>
   <dcat:keyword>SSI</dcat:keyword>
   <dcat:keyword>SteadyStateInstruction</dcat:keyword>
-  <dcat:startDate>2015-12-31T23:00:00Z</dcat:startDate>
+  <dcat:startDate>2014-12-31T23:00:00Z</dcat:startDate>
   <dcat:version>3.0.0-beta-1</dcat:version>
   <dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/Public"/>
   <dcterms:conformsTo rdf:resource="https://ap.cim4.eu/SteadyStateInstruction/2.3"/>
@@ -132,7 +132,7 @@
   <dcat:isVersionOf rdf:resource="https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER"/>
   <dcat:keyword>ER</dcat:keyword>
   <dcat:keyword>EquipmentReliability</dcat:keyword>
-  <dcat:startDate>2015-12-31T23:00:00Z</dcat:startDate>
+  <dcat:startDate>2014-12-31T23:00:00Z</dcat:startDate>
   <dcat:version>3.0.0-beta-1</dcat:version>
   <dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/Public"/>
   <dcterms:conformsTo rdf:resource="https://ap.cim4.eu/EquipmentReliability/2.3"/>
@@ -164,7 +164,7 @@
   <dcat:isVersionOf rdf:resource="https://energy.referencedata.eu/Test/Model/N44-NC-HV_RA"/>
   <dcat:keyword>RA</dcat:keyword>
   <dcat:keyword>RemedialAction</dcat:keyword>
-  <dcat:startDate>2015-12-31T23:00:00Z</dcat:startDate>
+  <dcat:startDate>2014-12-31T23:00:00Z</dcat:startDate>
   <dcat:version>3.0.0-beta-1</dcat:version>
   <dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/Public"/>
   <dcterms:conformsTo rdf:resource="https://ap.cim4.eu/RemedialAction/2.3"/>
@@ -197,7 +197,7 @@
   <dcat:isVersionOf rdf:resource="https://energy.referencedata.eu/Test/Model/N44-NC-HV_RAS"/>
   <dcat:keyword>RAS</dcat:keyword>
   <dcat:keyword>RemedialActionSchedule</dcat:keyword>
-  <dcat:startDate>2015-12-31T23:00:00Z</dcat:startDate>
+  <dcat:startDate>2014-12-31T23:00:00Z</dcat:startDate>
   <dcat:version>3.0.0-beta-1</dcat:version>
   <dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/Public"/>
   <dcterms:conformsTo rdf:resource="https://ap.cim4.eu/RemedialActionSchedule/2.3"/>

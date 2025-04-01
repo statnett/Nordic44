@@ -7,7 +7,7 @@
 	
 <md:FullModel rdf:about="urn:uuid:ade44b65-0bfa-41e0-95c5-2ccb345a6fed">
     <md:Model.created>2025-02-14T12:00:00Z</md:Model.created>
-    <md:Model.scenarioTime>2015-12-31T23:00:00Z</md:Model.scenarioTime>
+    <md:Model.scenarioTime>2014-12-31T23:00:00Z</md:Model.scenarioTime>
     <md:Model.version>1</md:Model.version>
     <md:Model.description>Asset Catalogue (AC) from Schneider Electric included in the enterprise part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region.</md:Model.description>
     <md:Model.modelingAuthoritySet>http://www.Statnett.no/Enterprise/Nordic44</md:Model.modelingAuthoritySet>

@@ -31,7 +31,7 @@
     <dcat:isVersionOf rdf:resource="https://energy.referencedata.eu/Test/Enterprise/N44-ENT-Schneider_AC"/>
     <dcat:keyword>AC</dcat:keyword>
     <dcat:keyword>AssetCatalogue</dcat:keyword>
-    <dcat:startDate>2015-12-31T23:00:00Z</dcat:startDate>
+    <dcat:startDate>2014-12-31T23:00:00Z</dcat:startDate>
     <dcat:version>3.0.0-beta-1</dcat:version>
     <dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/Public"/>
     <dcterms:conformsTo rdf:resource="http://iec.ch/TC57/CIM/AssetCatalogue/2/0"/>
@@ -60,7 +60,7 @@
     <dcat:isVersionOf rdf:resource="https://energy.referencedata.eu/Test/Enterprise/N44-ENT-Siemens_AC"/>
     <dcat:keyword>AC</dcat:keyword>
     <dcat:keyword>AssetCatalogue</dcat:keyword>
-    <dcat:startDate>2015-12-31T23:00:00Z</dcat:startDate>
+    <dcat:startDate>2014-12-31T23:00:00Z</dcat:startDate>
     <dcat:version>3.0.0-beta-1</dcat:version>
     <dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/Public"/>
     <dcterms:conformsTo rdf:resource="http://iec.ch/TC57/CIM/AssetCatalogue/2/0"/>
@@ -89,7 +89,7 @@
     <dcat:isVersionOf rdf:resource="https://energy.referencedata.eu/Test/Enterprise/N44-ENT-Statnett_AS"/>
     <dcat:keyword>AS</dcat:keyword>
     <dcat:keyword>Asset</dcat:keyword>
-    <dcat:startDate>2015-12-31T23:00:00Z</dcat:startDate>
+    <dcat:startDate>2014-12-31T23:00:00Z</dcat:startDate>
     <dcat:version>3.0.0-beta-1</dcat:version>
     <dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/Public"/>
     <dcterms:conformsTo rdf:resource="http://iec.ch/TC57/CIM/Asset/2/0"/>

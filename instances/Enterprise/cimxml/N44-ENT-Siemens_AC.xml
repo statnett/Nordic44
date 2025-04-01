@@ -7,7 +7,7 @@
 	
 <md:FullModel rdf:about="urn:uuid:75f351c7-75a6-4c25-8f1c-985aa59e90ad">
     <md:Model.created>2025-02-14T12:00:00Z</md:Model.created>
-    <md:Model.scenarioTime>2015-12-31T23:00:00Z</md:Model.scenarioTime>
+    <md:Model.scenarioTime>2014-12-31T23:00:00Z</md:Model.scenarioTime>
     <md:Model.version>1</md:Model.version>
     <md:Model.description>Asset Catalogue (AC) from Siemens Energy included in the enterprise part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region.</md:Model.description>
     <md:Model.modelingAuthoritySet>http://www.Statnett.no/Enterprise/Nordic44</md:Model.modelingAuthoritySet>

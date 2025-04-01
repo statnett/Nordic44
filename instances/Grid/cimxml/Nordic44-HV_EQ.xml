@@ -9,7 +9,7 @@
 		<md:Model.description>Equipment (EQ) part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region.</md:Model.description>
 		<md:Model.profile>http://iec.ch/TC57/ns/CIM/CoreEquipment-EU/3.0</md:Model.profile>
 		<md:Model.modelingAuthoritySet>http://www.Statnett.no/IGM/Nordic44_CGM</md:Model.modelingAuthoritySet>
-		<md:Model.scenarioTime>2015-12-31T23:00:00Z</md:Model.scenarioTime>
+		<md:Model.scenarioTime>2014-12-31T23:00:00Z</md:Model.scenarioTime>
 		<md:Model.version>1</md:Model.version>
 	</md:FullModel>
 
