@@ -1,0 +1,39 @@
+)= CIM Naming Table
+
+[cols="1,1,1,1,2", options="header"]
+|===
+| Type | Abbreviation | Rule | Name Example | Description Example
+| cim:ACLineSegment <member of cim:Line> | ACLS | S_<VL>_<SubA>-<SubB>_ACLS_<SEQ> | S_132kV_Arendal-Froland_ACLS_1 | S 132kV Arendal-Froland 1 ACLineSegment 1
+| cim:ACLineSegment <member of cim:Feeder> | ACLS | S_<VL>_<FD>_ACLS_<SEQ> | S_400V_Telemarkstien_ACLS_3 | S 400V Telemarkstien 2 ACLineSegment 3
+| cim:Bay | Ba | <Sub>_<Sub>_<VL>_Ba<SEQ> | FROLAND_132kV_Ba1 | Froland 132kV Bay 1
+| cim:Breaker | Br | S_<Sub>_<VL>_<Bay>_Br<SEQ> | S_FROLAND_132kV_Ba1_Br1 | S Froland 132kV Bay1 Breaker 1
+| cim:BusbarSection | BbS | S_<Sub>_<VL>_BbS<A-SEQ> | S_FROLAND_132kV_A | S Froland 132kV A Busbar Section
+| cim:ConformLoad | CL | S_<Sub>_<VL>_<Ba>_CL <SEQ> | S_FROLAND_132kV_Ba1_CL | Froland 132 Bay 1 Conform Load
+| cim:ConnectivityNode | CN | <Sub>_CN_<SEQ> | ARENDAL_CN_007 | Arendal Connectivity Node 007
+| cim:CurrentLimit | CuL | CuL_<LimitType>_<ConductingEquipment> | CuL_PATL_ARENDAL_T1_420-P | Current Limit PATL Arendal T1 420 Primary
+| cim:Disconnector | Dis | S_<Sub>_<VL>_<Ba>_Dis<SEQ> | S_FROLAND_132kV_Ba1_Dis1 | S Froland 132kV Bay 1 Disconnector 1
+| cim:EquivalentInjection | EQI | S_<Sub>_<VL>_<Ba>_EQI | S_NEDENES_400V_EQI | S Nedenes 400V Equivalent Injection
+| cim:GeneratingUnit | G | <Sub>_<VL>_G<SEQ> | ARENDAL_420kV_G1 | Arendal 420kV Generating Unit
+| cim:Line | LC | LC <SEQ>_<VL>_<SubA>-<SubB> | LC_132kV_ARENDAL-FROLAND | Line 132kV Arendal-Froland
+| cim:LinearShuntCompensator | LSC | S_<Sub>_<VL>_<Ba>_LSC<SEQ> | S_ENGENE_22kV_SC1 | S Engene 22kV A Shunt Compensator 1
+| cim:LoadBreakSwitch | LBS | S_<Sub>_<VL>_<Ba>_LBS<SEQ> | S_NEDENES_22kV_Ba1_LBS1 | S Nedenes 22kV Engene 1 Load Break Switch 1
+| cim:Location | L | L_<Sub> | L_FROLAND | Location Froland
+| cim:PetersenCoil | PC | S_<Sub>_<VL>_<Transformer>_PC | S_ARENDAL_132kV_T1_PC | Arendal 132kV T1 PetersenCoil
+| cim:PowerTransformer | T | S_<Sub>_T<SEQ> | S_ARENDAL_T1 | Arendal Transformer 1
+| cim:PowerTransformerEnd |  | S_<Sub>_<Transformer>_<Winding> | S_ARENDAL_T1_420-P | Arendal T1 420kV Primary Winding
+| cim:RatioTapChanger | RTC | S_<Sub>_<Transformer>_<Winding>_RTC | S_ARENDAL_T1_132-S_RTC | Arendal T1 132kV Secondary Winding Ration Tap Changer
+| cim:RegulatingControl | RC | S_<Sub>_<VL>_<EquipmentRef>_RC | S_ENGENE_22kV_SC1_RC | Engene 22kV Shunt Compensator Regulating Control
+| cim:Substation | - | <Sub> | ENGENE | Engene Substation
+| cim:SynchronousMachine | SM | S_<Sub>_<VL>_<Ba>_SM<SEQ> | S_ARENDAL_420kV_Ba1_SM1 | Arendal 420kV Bay 1 Synchronous Machine 1
+| cim:TapChangerControl | TCC | S_<Substation>_TCC<SEQ> | S_ENGENE_TCC1 | S Engene Tap Changer Control 1
+| cim:Terminal | - | T1/T2_<EquipmentRef> | T1_S_132kV_ARENDAL-FROLAND_1 | Terminal 1 132kV Arendal-Froland 1
+| cim:UsagePoint | UP | <Sub>_<VL>_UP<SEQ> | TELEMA2_400V_UP007 | Telemarkstien2 400 Volt UsagePoint 7
+| cim:ACDCConverterDCTerminal |  | T1/T2_<acdcconverterdcterminal> | S_example_ACDC | Example description for ACDCConverterDCTerminal
+| cim:ActivePowerLimit | APL | APL_<LimitType>_<ConductingEquipment> | APL_PATL_ARENDAL_T1_420-P | Active Power Limit PATL Arendal T1 420 Primary
+| cim:Analog | A | A_<measurmentType>_<PowerSystemResource>_<SEQ> | A_ARENDAL_420kV_Ba1_SM1_ThreePhaseActivePower_1 | Analog Arendal 
+| cim:ApparentPowerLimit | APP | APP_<LimitType>_<ConductingEquipment> | APP_PATL_ARENDAL_T1_420-P | Apparent Power Limit PATL Arendal T1 420 Primary
+| cim:VoltageLevel |  | <Sub>_<basevoltage> | Arendal_420kV | Arendal 420kV Voltage Level
+| cim:BaseVoltage | BV | BV_<basevoltage> | BV_420kV | Base Voltage 420kV 
+| cim:BusNameMarker | BNM | BNM_<BusbarSection> | BNM_S_FROLAND_132kV_A  | Bus Name Marker S_FROLAND_132kV_A
+|===
+
