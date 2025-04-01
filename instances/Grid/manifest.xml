@@ -32,7 +32,6 @@
 
 <dcat:Dataset rdf:about="urn:uuid:e710212f-f6b2-8d4c-9dc0-365398d8b59c">
   <adms:versionNotes xml:lang="en">Initial version</adms:versionNotes>
-  <dcat:distribution rdf:resource="urn:uuid:5e109739-0140-449f-a7ae-f531f882f7d0"/>
   <dcat:isVersionOf rdf:resource="https://energy.referencedata.eu/Test/Model/Nordic44-HV_EQ"/>
   <dcat:keyword>EQ</dcat:keyword>
   <dcat:keyword>Equipment</dcat:keyword>
@@ -53,7 +52,8 @@
 
 
 <dcat:Distribution rdf:about="urn:uuid:5e109739-0140-449f-a7ae-f531f882f7d0">
-  <dcat:accessURL rdf:resource="file://xmlrdf/Nordic44-HV_EQ.xml"/>
+  <dcat:accessURL rdf:resource="file://cimxml/Nordic44-HV_EQ.xml"/>
+  <dcat:isDistributionOf rdf:resource="urn:uuid:e710212f-f6b2-8d4c-9dc0-365398d8b59c"/>
   <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/rdf+xml"/>
   <dcterms:conformsTo rdf:resource="urn:iso:std:iec:61970-552:2016"/>
   <dcterms:description xml:lang="en">CIMXML serialization of the Nordic44 EQ</dcterms:description>
@@ -63,7 +63,6 @@
 
 <dcat:Dataset rdf:about="urn:uuid:1d08772d-c1d0-4c47-810d-b14908cd94f5">
   <adms:versionNotes xml:lang="en">Initial version</adms:versionNotes>
-  <dcat:distribution rdf:resource="urn:uuid:38884d50-30ff-41d3-99bb-c794cbdf57cb"/>
   <dcat:isVersionOf rdf:resource="https://energy.referencedata.eu/Test/Model/Nordic44-HV_SSH"/>
   <dcat:keyword>SSH</dcat:keyword>
   <dcat:keyword>SteadyStateHypothesis</dcat:keyword>
@@ -84,7 +83,8 @@
 </dcat:Dataset>
 
 <dcat:Distribution rdf:about="urn:uuid:38884d50-30ff-41d3-99bb-c794cbdf57cb">
-  <dcat:accessURL rdf:resource="file://xmlrdf/Nordic44-HV_SSH.xml"/>
+  <dcat:accessURL rdf:resource="file://cimxml/Nordic44-HV_SSH.xml"/>
+  <dcat:isDistributionOf rdf:resource="urn:uuid:1d08772d-c1d0-4c47-810d-b14908cd94f5"/>  
   <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/rdf+xml"/>
   <dcterms:conformsTo rdf:resource="urn:iso:std:iec:61970-552:2016"/>
   <dcterms:description xml:lang="en">CIMXML serialization of the Nordic44 SSH</dcterms:description>
@@ -94,7 +94,6 @@
 
 <dcat:Dataset rdf:about="urn:uuid:167b4832-27c5-ff4f-bd26-6ce3bff1bdb7">
   <adms:versionNotes xml:lang="en">Initial version</adms:versionNotes>
-  <dcat:distribution rdf:resource="urn:uuid:8b095732-1506-40bd-aeb8-a42d311edd5a"/>
   <dcat:isVersionOf rdf:resource="https://energy.referencedata.eu/Test/Model/Nordic44-HV_GL"/>
   <dcat:keyword>GL</dcat:keyword>
   <dcat:keyword>GeographicalLocation</dcat:keyword>
@@ -115,7 +114,8 @@
 </dcat:Dataset>
 
 <dcat:Distribution rdf:about="urn:uuid:8b095732-1506-40bd-aeb8-a42d311edd5a">
-  <dcat:accessURL rdf:resource="file://xmlrdf/Nordic44-HV_GL.xml"/>
+  <dcat:accessURL rdf:resource="file://cimxml/Nordic44-HV_GL.xml"/>
+  <dcat:isDistributionOf rdf:resource="urn:uuid:167b4832-27c5-ff4f-bd26-6ce3bff1bdb7"/>  
   <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/rdf+xml"/>
   <dcterms:conformsTo rdf:resource="urn:iso:std:iec:61970-552:2016"/>
   <dcterms:description xml:lang="en">CIMXML serialization of the Nordic44 GL</dcterms:description>
@@ -125,7 +125,6 @@
 
 <dcat:Dataset rdf:about="urn:uuid:2e11908e-5e1f-8542-854c-54da76d379d1">
   <adms:versionNotes xml:lang="en">Initial version</adms:versionNotes>
-  <dcat:distribution rdf:resource="urn:uuid:8b095732-1506-40bd-aeb8-a42d311edd5a"/>
   <dcat:isVersionOf rdf:resource="https://energy.referencedata.eu/Test/Model/Nordic44-HV_DL"/>
   <dcat:keyword>DL</dcat:keyword>
   <dcat:keyword>DiagramLayout</dcat:keyword>
@@ -147,7 +146,8 @@
 </dcat:Dataset>
 
 <dcat:Distribution rdf:about="urn:uuid:8b095732-1506-40bd-aeb8-a42d311edd5a">
-  <dcat:accessURL rdf:resource="file://xmlrdf/Nordic44-HV_DL.xml"/>
+  <dcat:accessURL rdf:resource="file://cimxml/Nordic44-HV_DL.xml"/>
+  <dcat:isDistributionOf rdf:resource="urn:uuid:2e11908e-5e1f-8542-854c-54da76d379d1"/>  
   <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/rdf+xml"/>
   <dcterms:conformsTo rdf:resource="urn:iso:std:iec:61970-552:2016"/>
   <dcterms:description xml:lang="en">CIMXML serialization of the Nordic44 DL</dcterms:description>
@@ -157,7 +157,6 @@
 
 <dcat:Dataset rdf:about="urn:uuid:7b3f94c0-bd9b-e74e-866b-f473153c3e70">
   <adms:versionNotes xml:lang="en">Initial version</adms:versionNotes>
-  <dcat:distribution rdf:resource="urn:uuid:e6539353-17f9-4d94-be60-eabed8b6e99f"/>
   <dcat:isVersionOf rdf:resource="https://energy.referencedata.eu/Test/Model/Nordic44-HV_DL"/>
   <dcat:keyword>DL</dcat:keyword>
   <dcat:keyword>DiagramLayout</dcat:keyword>
@@ -178,7 +177,8 @@
 </dcat:Dataset>
 
 <dcat:Distribution rdf:about="urn:uuid:e6539353-17f9-4d94-be60-eabed8b6e99f">
-  <dcat:accessURL rdf:resource="file://xmlrdf/Nordic44-HV_TP.xml"/>
+  <dcat:accessURL rdf:resource="file://cimxml/Nordic44-HV_TP.xml"/>
+  <dcat:isDistributionOf rdf:resource="urn:uuid:7b3f94c0-bd9b-e74e-866b-f473153c3e70"/>
   <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/rdf+xml"/>
   <dcterms:conformsTo rdf:resource="urn:iso:std:iec:61970-552:2016"/>
   <dcterms:description xml:lang="en">CIMXML serialization of the Nordic44 TP</dcterms:description>
@@ -189,7 +189,6 @@
 
 <dcat:Dataset rdf:about="urn:uuid:5b6a8b13-4c20-4147-8ed6-7249e303e647">
   <adms:versionNotes xml:lang="en">Initial version</adms:versionNotes>
-  <dcat:distribution rdf:resource="urn:uuid:4841109b-52ca-4457-9beb-8db6890082d6"/>
   <dcat:isVersionOf rdf:resource="https://energy.referencedata.eu/Test/Model/Nordic44-HV_SV"/>
   <dcat:keyword>SV</dcat:keyword>
   <dcat:keyword>StateVariablet</dcat:keyword>
@@ -210,7 +209,8 @@
 </dcat:Dataset>
 
 <dcat:Distribution rdf:about="urn:uuid:4841109b-52ca-4457-9beb-8db6890082d6">
-  <dcat:accessURL rdf:resource="file://xmlrdf/Nordic44-HV_SV.xml"/>
+  <dcat:accessURL rdf:resource="file://cimxml/Nordic44-HV_SV.xml"/>
+  <dcat:isDistributionOf rdf:resource="urn:uuid:5b6a8b13-4c20-4147-8ed6-7249e303e647"/>
   <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/rdf+xml"/>
   <dcterms:conformsTo rdf:resource="urn:iso:std:iec:61970-552:2016"/>
   <dcterms:description xml:lang="en">CIMXML serialization of the Nordic44 SV</dcterms:description>
@@ -242,7 +242,8 @@
 </dcat:Dataset>
 
 <dcat:Distribution rdf:about="urn:uuid:c4f2422b-03a4-4298-aa16-40921c4ca16f">
-  <dcat:accessURL rdf:resource="file://xmlrdf/Nordic44-HV_OP.xml"/>
+  <dcat:accessURL rdf:resource="file://cimxml/Nordic44-HV_OP.xml"/>
+  <dcat:isDistributionOf rdf:resource="urn:uuid:67e97bb0-ec38-481d-9e56-3e9d45e95a33"/>
   <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/rdf+xml"/>
   <dcterms:conformsTo rdf:resource="urn:iso:std:iec:61970-552:2016"/>
   <dcterms:description xml:lang="en">CIMXML serialization of the Nordic44 OP</dcterms:description>

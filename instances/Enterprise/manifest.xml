@@ -28,8 +28,7 @@
 
   <dcat:Dataset rdf:about="urn:uuid:d869a44b5-7ab5-4bcf-9d58-1c9e750a6f20">
     <adms:versionNotes xml:lang="en">Initial version</adms:versionNotes>
-    <dcat:distribution rdf:resource="urn:uuid:ec47575c-900e-4ddb-87c8-fd8deb8e0d00"/>
-    <dcat:isVersionOf rdf:resource="https://energy.referencedata.eu/Test/Enterprise/N44-ENT-Scheider_AC"/>
+    <dcat:isVersionOf rdf:resource="https://energy.referencedata.eu/Test/Enterprise/N44-ENT-Schneider_AC"/>
     <dcat:keyword>AC</dcat:keyword>
     <dcat:keyword>AssetCatalogue</dcat:keyword>
     <dcat:startDate>2015-12-31T23:00:00Z</dcat:startDate>
@@ -42,12 +41,13 @@
     <dcterms:publisher rdf:resource="https://www.statnett.no/en/about-statnett/contact-us/"/>
     <dcterms:rights>Copyright</dcterms:rights>
     <dcterms:rightsHolder>Statnett SF</dcterms:rightsHolder>
-    <dcterms:title>20160101_N44-ENT-Scheider_AC_v3-0-0-beta-1</dcterms:title>
+    <dcterms:title>20160101_N44-ENT-Schneider_AC_v3-0-0-beta-1</dcterms:title>
     <dcterms:type rdf:resource="https://energy.referencedata.eu/type/CIM-EnterpriseModel"/>
   </dcat:Dataset>
 
   <dcat:Distribution rdf:about="urn:uuid:ec47575c-900e-4ddb-87c8-fd8deb8e0d00">
-    <dcat:accessURL rdf:resource="file://xmlrdf/N44-ENT-Schneider_AC.xml"/>
+    <dcat:accessURL rdf:resource="file://cimxml/N44-ENT-Schneider_AC.xml"/>
+    <dcat:isDistributionOf rdf:resource="urn:uuid:d869a44b5-7ab5-4bcf-9d58-1c9e750a6f20"/>
     <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/rdf+xml"/>
     <dcterms:conformsTo rdf:resource="urn:iso:std:iec:61970-552:2016"/>
     <dcterms:description xml:lang="en">CIMXML serialization of the Nordic44 AC</dcterms:description>
@@ -57,7 +57,6 @@
 
   <dcat:Dataset rdf:about="urn:uuid:75f351c7-75a6-4c25-8f1c-985aa59e90ad">
     <adms:versionNotes xml:lang="en">Initial version</adms:versionNotes>
-    <dcat:distribution rdf:resource="urn:uuid:28050d72-acb0-41d2-b0fa-ddf034d8bccf"/>
     <dcat:isVersionOf rdf:resource="https://energy.referencedata.eu/Test/Enterprise/N44-ENT-Siemens_AC"/>
     <dcat:keyword>AC</dcat:keyword>
     <dcat:keyword>AssetCatalogue</dcat:keyword>
@@ -76,7 +75,8 @@
   </dcat:Dataset>
 
   <dcat:Distribution rdf:about="urn:uuid:28050d72-acb0-41d2-b0fa-ddf034d8bccf">
-    <dcat:accessURL rdf:resource="file://xmlrdf/N44-ENT-Siemens_AC.xml"/>
+    <dcat:accessURL rdf:resource="file://cimxml/N44-ENT-Siemens_AC.xml"/>
+    <dcat:isDistributionOf rdf:resource="urn:uuid:75f351c7-75a6-4c25-8f1c-985aa59e90ad"/>
     <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/rdf+xml"/>
     <dcterms:conformsTo rdf:resource="urn:iso:std:iec:61970-552:2016"/>
     <dcterms:description xml:lang="en">CIMXML serialization of the Nordic44 AC</dcterms:description>
@@ -86,7 +86,6 @@
 
   <dcat:Dataset rdf:about="urn:uuid:eb4d92e6-d4da-11e7-9296-cec278b6b50a">
     <adms:versionNotes xml:lang="en">Initial version</adms:versionNotes>
-    <dcat:distribution rdf:resource="urn:uuid:66ab65a5-dffe-41c7-9d5b-b1e74906b4d9"/>
     <dcat:isVersionOf rdf:resource="https://energy.referencedata.eu/Test/Enterprise/N44-ENT-Statnett_AS"/>
     <dcat:keyword>AS</dcat:keyword>
     <dcat:keyword>Asset</dcat:keyword>
@@ -108,7 +107,8 @@
   </dcat:Dataset>
 
   <dcat:Distribution rdf:about="urn:uuid:66ab65a5-dffe-41c7-9d5b-b1e74906b4d9">
-    <dcat:accessURL rdf:resource="file://xmlrdf/N44-ENT-Statnett_AS.xml"/>
+    <dcat:accessURL rdf:resource="file://cimxml/N44-ENT-Statnett_AS.xml"/>
+    <dcat:isDistributionOf rdf:resource="urn:uuid:eb4d92e6-d4da-11e7-9296-cec278b6b50a"/>
     <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/rdf+xml"/>
     <dcterms:conformsTo rdf:resource="urn:iso:std:iec:61970-552:2016"/>
     <dcterms:description xml:lang="en">CIMXML serialization of the Nordic44 AS</dcterms:description>

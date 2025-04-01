@@ -32,7 +32,6 @@
 
 <dcat:Dataset rdf:about="urn:uuid:d9a01a85-0ad8-4958-be03-d89ad78ca497">
   <adms:versionNotes xml:lang="en">Initial version</adms:versionNotes>
-  <dcat:distribution rdf:resource="urn:uuid:400c0d16-37b1-4b63-beda-87769b33bb23"/>
   <dcat:isVersionOf rdf:resource="https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD"/>
   <dcat:keyword>CD</dcat:keyword>
   <dcat:keyword>CommonData</dcat:keyword>
@@ -53,7 +52,8 @@
 
 
 <dcat:Distribution rdf:about="urn:uuid:400c0d16-37b1-4b63-beda-87769b33bb23">
-  <dcat:accessURL rdf:resource="file://xmlrdf/N44-NC-HV_CD.xml"/>
+  <dcat:accessURL rdf:resource="file://cimxml/N44-NC-HV_CD.xml"/>
+  <dcat:isDistributionOf rdf:resource="urn:uuid:d9a01a85-0ad8-4958-be03-d89ad78ca497"/>
   <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/rdf+xml"/>
   <dcterms:conformsTo rdf:resource="urn:iso:std:iec:61970-552:2016"/>
   <dcterms:description xml:lang="en">CIMXML serialization of the Nordic44 NC CD</dcterms:description>
@@ -63,7 +63,6 @@
 
 <dcat:Dataset rdf:about="urn:uuid:84552e03-0040-43d5-aff2-0f77f01668cb">
   <adms:versionNotes xml:lang="en">Initial version</adms:versionNotes>
-  <dcat:distribution rdf:resource="urn:uuid:c3fbf07c-548c-4acd-8939-e9f9e6e81ad3"/>
   <dcat:isVersionOf rdf:resource="https://energy.referencedata.eu/Test/Model/N44-NC-HV_CO"/>
   <dcat:keyword>CO</dcat:keyword>
   <dcat:keyword>Contingency</dcat:keyword>
@@ -86,7 +85,8 @@
 
 
 <dcat:Distribution rdf:about="urn:uuid:c3fbf07c-548c-4acd-8939-e9f9e6e81ad3">
-  <dcat:accessURL rdf:resource="file://xmlrdf/N44-NC-HV_CO.xml"/>
+  <dcat:accessURL rdf:resource="file://cimxml/N44-NC-HV_CO.xml"/>
+  <dcat:isDistributionOf rdf:resource="urn:uuid:84552e03-0040-43d5-aff2-0f77f01668cb"/>
   <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/rdf+xml"/>
   <dcterms:conformsTo rdf:resource="urn:iso:std:iec:61970-552:2016"/>
   <dcterms:description xml:lang="en">CIMXML serialization of the Nordic44 NC CO</dcterms:description>
@@ -96,7 +96,6 @@
 
 <dcat:Dataset rdf:about="urn:uuid:ebe06a74-e44c-491f-bbfe-1cabb232828e">
   <adms:versionNotes xml:lang="en">Initial version</adms:versionNotes>
-  <dcat:distribution rdf:resource="urn:uuid:1c1362fd-a3ed-40f1-b19c-dc974d2407bd"/>  
   <dcat:isVersionOf rdf:resource="https://energy.referencedata.eu/Test/Model/N44-NC-HV_SSI"/>
   <dcat:keyword>SSI</dcat:keyword>
   <dcat:keyword>SteadyStateInstruction</dcat:keyword>
@@ -119,7 +118,8 @@
 </dcat:Dataset>
 
 <dcat:Distribution rdf:about="urn:uuid:1c1362fd-a3ed-40f1-b19c-dc974d2407bd">
-  <dcat:accessURL rdf:resource="file://xmlrdf/N44-NC-HV_SSI.xml"/>
+  <dcat:accessURL rdf:resource="file://cimxml/N44-NC-HV_SSI.xml"/>
+  <dcat:isDistributionOf rdf:resource="urn:uuid:ebe06a74-e44c-491f-bbfe-1cabb232828e"/>  
   <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/rdf+xml"/>
   <dcterms:conformsTo rdf:resource="urn:iso:std:iec:61970-552:2016"/>
   <dcterms:description xml:lang="en">CIMXML serialization of the Nordic44 NC SSI</dcterms:description>
@@ -129,7 +129,6 @@
 
 <dcat:Dataset rdf:about="urn:uuid:ebef4527-f0bc-4c59-8870-950af8ed9041">
   <adms:versionNotes xml:lang="en">Initial version</adms:versionNotes>
-  <dcat:distribution rdf:resource="urn:uuid:f5f18710-1952-4966-a4f0-8fafe10abb6f"/>    
   <dcat:isVersionOf rdf:resource="https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER"/>
   <dcat:keyword>ER</dcat:keyword>
   <dcat:keyword>EquipmentReliability</dcat:keyword>
@@ -151,7 +150,8 @@
 </dcat:Dataset>
 
 <dcat:Distribution rdf:about="urn:uuid:f5f18710-1952-4966-a4f0-8fafe10abb6f">
-  <dcat:accessURL rdf:resource="file://xmlrdf/N44-NC-HV_ER.xml"/>
+  <dcat:accessURL rdf:resource="file://cimxml/N44-NC-HV_ER.xml"/>
+  <dcat:isDistributionOf rdf:resource="urn:uuid:ebef4527-f0bc-4c59-8870-950af8ed9041"/>
   <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/rdf+xml"/>
   <dcterms:conformsTo rdf:resource="urn:iso:std:iec:61970-552:2016"/>
   <dcterms:description xml:lang="en">CIMXML serialization of the Nordic44 NC ER</dcterms:description>
@@ -161,7 +161,6 @@
 
 <dcat:Dataset rdf:about="urn:uuid:9e3521e2-9504-4122-8c1e-a4c4411ffd7a">
   <adms:versionNotes xml:lang="en">Initial version</adms:versionNotes>
-  <dcat:distribution rdf:resource="urn:uuid:342a10a3-39db-4af7-b26c-5a5ef3662d27"/>
   <dcat:isVersionOf rdf:resource="https://energy.referencedata.eu/Test/Model/N44-NC-HV_RA"/>
   <dcat:keyword>RA</dcat:keyword>
   <dcat:keyword>RemedialAction</dcat:keyword>
@@ -183,7 +182,8 @@
 </dcat:Dataset>
 
 <dcat:Distribution rdf:about="urn:uuid:342a10a3-39db-4af7-b26c-5a5ef3662d27">
-  <dcat:accessURL rdf:resource="file://xmlrdf/N44-NC-HV_RA.xml"/>
+  <dcat:accessURL rdf:resource="file://cimxml/N44-NC-HV_RA.xml"/>
+  <dcat:isDistributionOf rdf:resource="urn:uuid:9e3521e2-9504-4122-8c1e-a4c4411ffd7a"/>
   <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/rdf+xml"/>
   <dcterms:conformsTo rdf:resource="urn:iso:std:iec:61970-552:2016"/>
   <dcterms:description xml:lang="en">CIMXML serialization of the Nordic44 NC RA</dcterms:description>
@@ -214,7 +214,8 @@
 </dcat:Dataset>
 
 <dcat:Distribution rdf:about="urn:uuid:80b51c80-82e3-4687-827d-addd8454d2fc">
-  <dcat:accessURL rdf:resource="file://xmlrdf/N44-NC-HV_RAS.xml"/>
+  <dcat:accessURL rdf:resource="file://cimxml/N44-NC-HV_RAS.xml"/>
+  <dcat:isDistributionOf rdf:resource="urn:uuid:3f3f00a8-b86a-4a3e-ab86-2cd3140fa187"/>
   <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/rdf+xml"/>
   <dcterms:conformsTo rdf:resource="urn:iso:std:iec:61970-552:2016"/>
   <dcterms:description xml:lang="en">CIMXML serialization of the Nordic44 NC RAS</dcterms:description>
