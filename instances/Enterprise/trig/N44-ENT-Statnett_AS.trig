@@ -34,8 +34,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Asset.ProductAssetModel    <urn:uuid:6d993b26-72bf-46f0-9eb3-70bc26d544ac>;
             cim:Asset.critical             true;
             cim:Asset.inUseDate            "1988-05-20"^^xsd:date;
-            cim:Asset.inUseState           <http://iec.ch/TC57/CIM/CIM100#InUseStateKind.inUse>;
-            cim:Asset.kind                 <http://iec.ch/TC57/CIM/CIM100#AssetKind.transformer>;
+            cim:Asset.inUseState           cim:InUseStateKind.inUse;
+            cim:Asset.kind                 cim:AssetKind.transformer;
             cim:Asset.serialNumber         "T201";
             cim:IdentifiedObject.name      "T201 Power Transformer" .
     
@@ -44,8 +44,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Asset.AssetInfo            <urn:uuid:82d61e6f-bf85-4aa9-8276-457dbcdb5198>;
             cim:Asset.PowerSystemResource  <urn:uuid:22e5ddcf-ac23-b449-bc4f-83336535f7c2>;
             cim:Asset.inUseDate            "1988-04-23"^^xsd:date;
-            cim:Asset.inUseState           <http://iec.ch/TC57/CIM/CIM100#InUseStateKind.inUse>;
-            cim:Asset.kind                 <http://iec.ch/TC57/CIM/CIM100#AssetKind.breakerSF6DeadTankBreaker>;
+            cim:Asset.inUseState           cim:InUseStateKind.inUse;
+            cim:Asset.kind                 cim:AssetKind.breakerSF6DeadTankBreaker;
             cim:Asset.serialNumber         "MB123";
             cim:IdentifiedObject.name      "MB123 Multi phase Breaker" .
     
@@ -56,8 +56,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Asset.PowerSystemResource  <urn:uuid:f1769e28-9aeb-11e5-91da-b8763fd99c5f>;
             cim:Asset.ProductAssetModel    <urn:uuid:e673fe8d-62a3-4e28-819b-c9e94bfcae38>;
             cim:Asset.inUseDate            "1988-05-20"^^xsd:date;
-            cim:Asset.inUseState           <http://iec.ch/TC57/CIM/CIM100#InUseStateKind.inUse>;
-            cim:Asset.kind                 <http://iec.ch/TC57/CIM/CIM100#AssetKind.other>;
+            cim:Asset.inUseState           cim:InUseStateKind.inUse;
+            cim:Asset.kind                 cim:AssetKind.other;
             cim:Asset.serialNumber         "TC301";
             cim:IdentifiedObject.name      "TC201 Tap Changer" .
     
@@ -73,8 +73,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Asset.AssetInfo          <urn:uuid:6e2752f2-d4f3-11e7-9296-cec278b6b50a>;
             cim:Asset.ProductAssetModel  <urn:uuid:f9d75cad-02c4-4c24-9f68-2be249a5bd68>;
             cim:Asset.inUseDate          "1988-05-20"^^xsd:date;
-            cim:Asset.inUseState         <http://iec.ch/TC57/CIM/CIM100#InUseStateKind.inUse>;
-            cim:Asset.kind               <http://iec.ch/TC57/CIM/CIM100#AssetKind.breakerSF6DeadTankBreaker>;
+            cim:Asset.inUseState         cim:InUseStateKind.inUse;
+            cim:Asset.kind               cim:AssetKind.breakerSF6DeadTankBreaker;
             cim:Asset.serialNumber       "SB101";
             cim:IdentifiedObject.name    "SB101 Single phase Breaker" .
     
@@ -94,8 +94,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Asset.AssetInfo          <urn:uuid:6e2752f2-d4f3-11e7-9296-cec278b6b50a>;
             cim:Asset.ProductAssetModel  <urn:uuid:f9d75cad-02c4-4c24-9f68-2be249a5bd68>;
             cim:Asset.inUseDate          "1988-05-20"^^xsd:date;
-            cim:Asset.inUseState         <http://iec.ch/TC57/CIM/CIM100#InUseStateKind.inUse>;
-            cim:Asset.kind               <http://iec.ch/TC57/CIM/CIM100#AssetKind.breakerSF6DeadTankBreaker>;
+            cim:Asset.inUseState         cim:InUseStateKind.inUse;
+            cim:Asset.kind               cim:AssetKind.breakerSF6DeadTankBreaker;
             cim:Asset.serialNumber       "SB102";
             cim:IdentifiedObject.name    "SB102 Single phase Breaker" .
     
@@ -119,8 +119,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Asset.PowerSystemResource  <urn:uuid:2dd90408-bdfb-11e5-94fa-c8f73332c8f4>;
             cim:Asset.ProductAssetModel    <urn:uuid:6d993b26-72bf-46f0-9eb3-70bc26d544ac>;
             cim:Asset.inUseDate            "1988-05-20"^^xsd:date;
-            cim:Asset.inUseState           <http://iec.ch/TC57/CIM/CIM100#InUseStateKind.inUse>;
-            cim:Asset.kind                 <http://iec.ch/TC57/CIM/CIM100#AssetKind.other>;
+            cim:Asset.inUseState           cim:InUseStateKind.inUse;
+            cim:Asset.kind                 cim:AssetKind.other;
             cim:Asset.serialNumber         "LSC401";
             cim:IdentifiedObject.name      "LSC401 Shunt Compensator" .
     
@@ -130,8 +130,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:Asset.AssetInfo          <urn:uuid:6e2752f2-d4f3-11e7-9296-cec278b6b50a>;
             cim:Asset.ProductAssetModel  <urn:uuid:f9d75cad-02c4-4c24-9f68-2be249a5bd68>;
             cim:Asset.inUseDate          "1988-05-20"^^xsd:date;
-            cim:Asset.inUseState         <http://iec.ch/TC57/CIM/CIM100#InUseStateKind.inUse>;
-            cim:Asset.kind               <http://iec.ch/TC57/CIM/CIM100#AssetKind.breakerSF6DeadTankBreaker>;
+            cim:Asset.inUseState         cim:InUseStateKind.inUse;
+            cim:Asset.kind               cim:AssetKind.breakerSF6DeadTankBreaker;
             cim:Asset.serialNumber       "SB103";
             cim:IdentifiedObject.name    "SB103 Single phase Breaker" .
     

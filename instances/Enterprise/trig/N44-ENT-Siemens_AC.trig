@@ -53,13 +53,13 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     
     <urn:uuid:971ee291-79f2-43b2-a4ed-a45f39572079>
             rdf:type                      cim:CableInfo;
-            cim:CableInfo.shieldMaterial  <http://iec.ch/TC57/CIM/CIM100#CableShieldMaterialKind.cooper>;
+            cim:CableInfo.shieldMaterial  cim:CableShieldMaterialKind.cooper;
             cim:IdentifiedObject.name     "CI Cable";
             cim:WireInfo.gmr              "1000"^^xsd:float;
             cim:WireInfo.insulated        true;
             cim:WireInfo.insulationMaterial
-                    <http://iec.ch/TC57/CIM/CIM100#WireInsulationKind.treeRetardantCrosslinkedPolyethylene>;
-            cim:WireInfo.material         <http://iec.ch/TC57/CIM/CIM100#WireMaterialKind.aluminum>;
+                    cim:WireInsulationKind.treeRetardantCrosslinkedPolyethylene;
+            cim:WireInfo.material         cim:WireMaterialKind.aluminum;
             cim:WireInfo.nominalTemperature
                     "20"^^xsd:float .
     
@@ -93,5 +93,5 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ProductAssetModel.modelNumber
                     "B CA001";
             cim:ProductAssetModel.usageKind
-                    <http://iec.ch/TC57/CIM/CIM100#AssetModelUsageKind.transmission> .
+                    cim:AssetModelUsageKind.transmission .
 }

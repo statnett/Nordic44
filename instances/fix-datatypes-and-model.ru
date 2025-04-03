@@ -3586,7 +3586,7 @@ where {
     (nc:VsConverterTimePoint.targetQpcc                               xsd:float     )
     (nc:VsConverterTimePoint.targetUpcc                               xsd:float     )
 
-    # Asset (AC and AS) properties
+    # Asset (AC and AS) properties (commented props are xsd:string, which is the default datatype)
     (cim:Asset.critical                                               xsd:boolean   )
     (cim:Asset.inUseDate                                              xsd:date      )
     #cim:Asset.serialNumber

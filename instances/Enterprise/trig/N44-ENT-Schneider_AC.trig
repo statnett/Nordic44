@@ -25,7 +25,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ProductAssetModel.modelNumber
                     "A TC001";
             cim:ProductAssetModel.usageKind
-                    <http://iec.ch/TC57/CIM/CIM100#AssetModelUsageKind.transmission> .
+                    cim:AssetModelUsageKind.transmission .
     
     <urn:uuid:6fca60c7-c0bc-4ee9-87c4-7a2ecacd552f>
             rdf:type                   cim:ProductAssetModel;
@@ -97,7 +97,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:TransformerEndInfo.TransformerTankInfo
                     <urn:uuid:3ac55233-7ca0-4b39-afc1-d6f777fc3c0e>;
             cim:TransformerEndInfo.connectionKind
-                    <http://iec.ch/TC57/CIM/CIM100#WindingConnection.Y>;
+                    cim:WindingConnection.Y;
             cim:TransformerEndInfo.endNumber
                     2;
             cim:TransformerEndInfo.phaseAngleClock
@@ -136,7 +136,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ProductAssetModel.modelNumber
                     "A LSC001";
             cim:ProductAssetModel.usageKind
-                    <http://iec.ch/TC57/CIM/CIM100#AssetModelUsageKind.transmission> .
+                    cim:AssetModelUsageKind.transmission .
     
     <urn:uuid:cb50c3ea-5598-46dd-97c7-ce0b824c498b>
             rdf:type                      cim:SwitchInfo;
@@ -185,7 +185,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ProductAssetModel.modelNumber
                     "A PTI001";
             cim:ProductAssetModel.usageKind
-                    <http://iec.ch/TC57/CIM/CIM100#AssetModelUsageKind.transmission> .
+                    cim:AssetModelUsageKind.transmission .
     
     <urn:uuid:be53e1d0-1147-44af-b624-77c9ff829bb4>
             rdf:type                       cim:TransformerEndInfo;
@@ -193,7 +193,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:TransformerEndInfo.TransformerTankInfo
                     <urn:uuid:3ac55233-7ca0-4b39-afc1-d6f777fc3c0e>;
             cim:TransformerEndInfo.connectionKind
-                    <http://iec.ch/TC57/CIM/CIM100#WindingConnection.Y>;
+                    cim:WindingConnection.Y;
             cim:TransformerEndInfo.endNumber
                     2;
             cim:TransformerEndInfo.phaseAngleClock
@@ -241,7 +241,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ProductAssetModel.modelNumber
                     "A OHW001";
             cim:ProductAssetModel.usageKind
-                    <http://iec.ch/TC57/CIM/CIM100#AssetModelUsageKind.transmission> .
+                    cim:AssetModelUsageKind.transmission .
     
     <urn:uuid:4ffa629d-a671-4bd1-b4bb-c69c8fd2511d>
             rdf:type                   cim:ProductAssetModel;
@@ -255,5 +255,5 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ProductAssetModel.modelNumber
                     "A BS001";
             cim:ProductAssetModel.usageKind
-                    <http://iec.ch/TC57/CIM/CIM100#AssetModelUsageKind.transmission> .
+                    cim:AssetModelUsageKind.transmission .
 }

@@ -3,9 +3,13 @@ FIXME = ../../ENTSOE-SHACL/Inst4CIM-KG/rdf-improved
 XML = $(wildcard Grid/cimxml/*.xml) $(wildcard Enterprise/cimxml/*.xml)
 # XML_EXCLUDE = $(wildcard NetworkCode/cimxml/*.xml) # We can't do it right now because it uses dcat:Dataset instead of md:FullModel
 # XML = $(filter-out $(XML_EXCLUDE), $(XML_INCLUDE))
-TTL = $(subst .xml,.trig, $(subst /cimxml,/trig, $(XML)))
+TRIG = $(subst .xml,.trig, $(subst /cimxml,/trig, $(XML)))
 
-all: $(TTL)
+all: $(TRIG)
+
+debug:
+	@echo $(XML)
+	@echo $(TRIG)
 
 fix-datatypes-and-model.ru: fix-datatypes-with-assets.ru $(FIXME)/fix-model.ru
 	cat $^ > $@
