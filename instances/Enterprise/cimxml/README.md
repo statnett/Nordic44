@@ -1,6 +1,9 @@
 
 Fix errors:
-- Fix wrong namespace `http://iec.ch/TC57/CIM/CIM100#` (extraneous `CIM/`) in all files
+- Fix wrong namespace `http://iec.ch/TC57/CIM/CIM100#` (extraneous `CIM/`) in all files:
+```
+perl -i -pe "s{http://iec.ch/TC57/CIM/CIM100#}{http://iec.ch/TC57/CIM100#}g" *.xml
+```
 - Delete `<?iec61970-552 version="2.0"?>` in all files:
 ```
 WARN  riot :: [line: 2, col: 31] XML Processing instruction - ignored

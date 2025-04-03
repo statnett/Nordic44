@@ -52,7 +52,7 @@
 		<cim:IdentifiedObject.name>PSM B Cable</cim:IdentifiedObject.name>
 		<cim:ProductAssetModel.catalogueNumber>006</cim:ProductAssetModel.catalogueNumber>
 		<cim:ProductAssetModel.modelNumber>B CA001</cim:ProductAssetModel.modelNumber>
-		<cim:ProductAssetModel.usageKind rdf:resource="http://iec.ch/TC57/CIM/CIM100#AssetModelUsageKind.transmission"/>
+		<cim:ProductAssetModel.usageKind rdf:resource="http://iec.ch/TC57/CIM100#AssetModelUsageKind.transmission"/>
 		<cim:ProductAssetModel.Manufacturer rdf:resource="urn:uuid:ba8b5d24-9649-408d-8afe-452a987fbbc3" />
 		<cim:ProductAssetModel.AssetInfo rdf:resource="urn:uuid:971ee291-79f2-43b2-a4ed-a45f39572079" />	
 	</cim:ProductAssetModel>
@@ -61,9 +61,9 @@
 		<cim:IdentifiedObject.name>CI Cable</cim:IdentifiedObject.name>
 		<cim:WireInfo.gmr>1000</cim:WireInfo.gmr>
 		<cim:WireInfo.insulated>true</cim:WireInfo.insulated>
-		<cim:WireInfo.material rdf:resource="http://iec.ch/TC57/CIM/CIM100#WireMaterialKind.aluminum"/>			
-		<cim:WireInfo.insulationMaterial rdf:resource="http://iec.ch/TC57/CIM/CIM100#WireInsulationKind.treeRetardantCrosslinkedPolyethylene"/>		
-		<cim:CableInfo.shieldMaterial rdf:resource="http://iec.ch/TC57/CIM/CIM100#CableShieldMaterialKind.cooper"/>
+		<cim:WireInfo.material rdf:resource="http://iec.ch/TC57/CIM100#WireMaterialKind.aluminum"/>			
+		<cim:WireInfo.insulationMaterial rdf:resource="http://iec.ch/TC57/CIM100#WireInsulationKind.treeRetardantCrosslinkedPolyethylene"/>		
+		<cim:CableInfo.shieldMaterial rdf:resource="http://iec.ch/TC57/CIM100#CableShieldMaterialKind.cooper"/>
 		<cim:WireInfo.nominalTemperature>20</cim:WireInfo.nominalTemperature>
 	</cim:CableInfo>
 

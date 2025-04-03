@@ -54,8 +54,8 @@
 		-->
 		<cim:Asset.serialNumber>MB123</cim:Asset.serialNumber>
 		<cim:Asset.inUseDate>1988-04-23</cim:Asset.inUseDate>
-		<cim:Asset.inUseState rdf:resource="http://iec.ch/TC57/CIM/CIM100#InUseStateKind.inUse"/>
-		<cim:Asset.kind rdf:resource="http://iec.ch/TC57/CIM/CIM100#AssetKind.breakerSF6DeadTankBreaker"/>	
+		<cim:Asset.inUseState rdf:resource="http://iec.ch/TC57/CIM100#InUseStateKind.inUse"/>
+		<cim:Asset.kind rdf:resource="http://iec.ch/TC57/CIM100#AssetKind.breakerSF6DeadTankBreaker"/>	
 	</cim:Asset>
 
   	<cim:Ownership rdf:about="urn:uuid:96f338e1-6ea9-4fa6-89de-cd3780fb2de5">
@@ -99,8 +99,8 @@
 		<cim:Asset.ProductAssetModel rdf:resource="urn:uuid:f9d75cad-02c4-4c24-9f68-2be249a5bd68"/>
 		<cim:Asset.serialNumber>SB101</cim:Asset.serialNumber>
 		<cim:Asset.inUseDate>1988-05-20</cim:Asset.inUseDate>
-		<cim:Asset.inUseState rdf:resource="http://iec.ch/TC57/CIM/CIM100#InUseStateKind.inUse"/>
-		<cim:Asset.kind rdf:resource="http://iec.ch/TC57/CIM/CIM100#AssetKind.breakerSF6DeadTankBreaker"/>	
+		<cim:Asset.inUseState rdf:resource="http://iec.ch/TC57/CIM100#InUseStateKind.inUse"/>
+		<cim:Asset.kind rdf:resource="http://iec.ch/TC57/CIM100#AssetKind.breakerSF6DeadTankBreaker"/>	
 	</cim:Asset>
 
 	<cim:Asset rdf:about="urn:uuid:c9360819-9a84-4191-a9c3-4112b42d6417">
@@ -113,8 +113,8 @@
 		<cim:Asset.ProductAssetModel rdf:resource="urn:uuid:f9d75cad-02c4-4c24-9f68-2be249a5bd68"/>
 		<cim:Asset.serialNumber>SB102</cim:Asset.serialNumber>
 		<cim:Asset.inUseDate>1988-05-20</cim:Asset.inUseDate>
-		<cim:Asset.inUseState rdf:resource="http://iec.ch/TC57/CIM/CIM100#InUseStateKind.inUse"/>
-		<cim:Asset.kind rdf:resource="http://iec.ch/TC57/CIM/CIM100#AssetKind.breakerSF6DeadTankBreaker"/>	
+		<cim:Asset.inUseState rdf:resource="http://iec.ch/TC57/CIM100#InUseStateKind.inUse"/>
+		<cim:Asset.kind rdf:resource="http://iec.ch/TC57/CIM100#AssetKind.breakerSF6DeadTankBreaker"/>	
 	</cim:Asset>
 
 	<cim:Asset rdf:about="urn:uuid:7babdccf-d97a-48e6-898e-5b3d854abda3">
@@ -127,8 +127,8 @@
 		<cim:Asset.ProductAssetModel rdf:resource="urn:uuid:f9d75cad-02c4-4c24-9f68-2be249a5bd68"/>
 		<cim:Asset.serialNumber>SB103</cim:Asset.serialNumber>
 		<cim:Asset.inUseDate>1988-05-20</cim:Asset.inUseDate>
-		<cim:Asset.inUseState rdf:resource="http://iec.ch/TC57/CIM/CIM100#InUseStateKind.inUse"/>
-		<cim:Asset.kind rdf:resource="http://iec.ch/TC57/CIM/CIM100#AssetKind.breakerSF6DeadTankBreaker"/>	
+		<cim:Asset.inUseState rdf:resource="http://iec.ch/TC57/CIM100#InUseStateKind.inUse"/>
+		<cim:Asset.kind rdf:resource="http://iec.ch/TC57/CIM100#AssetKind.breakerSF6DeadTankBreaker"/>	
 	</cim:Asset>
 	
 	<!--	Power Transformer with Tap Change and ownership on Tap Change  -->
@@ -143,8 +143,8 @@
 		<cim:Asset.ProductAssetModel rdf:resource="urn:uuid:6d993b26-72bf-46f0-9eb3-70bc26d544ac"/>
 		<cim:Asset.inUseDate>1988-05-20</cim:Asset.inUseDate>
 		<cim:Asset.critical>true</cim:Asset.critical>
-		<cim:Asset.inUseState rdf:resource="http://iec.ch/TC57/CIM/CIM100#InUseStateKind.inUse"/>
-		<cim:Asset.kind rdf:resource="http://iec.ch/TC57/CIM/CIM100#AssetKind.transformer"/>	
+		<cim:Asset.inUseState rdf:resource="http://iec.ch/TC57/CIM100#InUseStateKind.inUse"/>
+		<cim:Asset.kind rdf:resource="http://iec.ch/TC57/CIM100#AssetKind.transformer"/>	
 	</cim:Asset>
 		
 	<cim:Asset rdf:about="urn:uuid:9b669974-9309-43ea-bab4-013376a79e3b">
@@ -159,8 +159,8 @@
 		<!--	T201 Power Transformer located in this file -->
 		<cim:Asset.AssetContainer rdf:resource="urn:uuid:29d8b748-d4f4-11e7-9296-cec278b6b50a"/>
 		<cim:Asset.inUseDate>1988-05-20</cim:Asset.inUseDate>
-		<cim:Asset.inUseState rdf:resource="http://iec.ch/TC57/CIM/CIM100#InUseStateKind.inUse"/>
-		<cim:Asset.kind rdf:resource="http://iec.ch/TC57/CIM/CIM100#AssetKind.other"/>	
+		<cim:Asset.inUseState rdf:resource="http://iec.ch/TC57/CIM100#InUseStateKind.inUse"/>
+		<cim:Asset.kind rdf:resource="http://iec.ch/TC57/CIM100#AssetKind.other"/>	
 	</cim:Asset>
 
   	<cim:Ownership rdf:about="urn:uuid:5d555ac3-ab3f-4480-81e1-85730c720067">
@@ -181,8 +181,8 @@
 		<!--	PAM A ShuntCompensator located in the Asset Catalogue file -->
 		<cim:Asset.ProductAssetModel rdf:resource="urn:uuid:6d993b26-72bf-46f0-9eb3-70bc26d544ac"/>
 		<cim:Asset.inUseDate>1988-05-20</cim:Asset.inUseDate>
-		<cim:Asset.inUseState rdf:resource="http://iec.ch/TC57/CIM/CIM100#InUseStateKind.inUse"/>
-		<cim:Asset.kind rdf:resource="http://iec.ch/TC57/CIM/CIM100#AssetKind.other"/>	
+		<cim:Asset.inUseState rdf:resource="http://iec.ch/TC57/CIM100#InUseStateKind.inUse"/>
+		<cim:Asset.kind rdf:resource="http://iec.ch/TC57/CIM100#AssetKind.other"/>	
 	</cim:Asset>
 
   	<cim:Ownership rdf:about="urn:uuid:912b4bbb-1f9b-455d-a578-b2f8fef16c31">

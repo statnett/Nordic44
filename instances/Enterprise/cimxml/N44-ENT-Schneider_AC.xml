@@ -80,7 +80,7 @@
 		<cim:IdentifiedObject.name>PSM A Overhead Wire</cim:IdentifiedObject.name>
 		<cim:ProductAssetModel.catalogueNumber>005</cim:ProductAssetModel.catalogueNumber>
 		<cim:ProductAssetModel.modelNumber>A OHW001</cim:ProductAssetModel.modelNumber>
-		<cim:ProductAssetModel.usageKind rdf:resource="http://iec.ch/TC57/CIM/CIM100#AssetModelUsageKind.transmission"/>
+		<cim:ProductAssetModel.usageKind rdf:resource="http://iec.ch/TC57/CIM100#AssetModelUsageKind.transmission"/>
 		<cim:ProductAssetModel.Manufacturer rdf:resource="urn:uuid:96af32e4-215b-448f-a6ed-20d0e64e3dff" />	
 		<cim:ProductAssetModel.AssetInfo rdf:resource="urn:uuid:7f618ac4-d4da-11e7-9296-cec278b6b50a" />	
 	</cim:ProductAssetModel>
@@ -99,7 +99,7 @@
 		<cim:IdentifiedObject.name>PAM A Power Transformer</cim:IdentifiedObject.name>
 		<cim:ProductAssetModel.catalogueNumber>006</cim:ProductAssetModel.catalogueNumber>
 		<cim:ProductAssetModel.modelNumber>A PTI001</cim:ProductAssetModel.modelNumber>
-		<cim:ProductAssetModel.usageKind rdf:resource="http://iec.ch/TC57/CIM/CIM100#AssetModelUsageKind.transmission"/>
+		<cim:ProductAssetModel.usageKind rdf:resource="http://iec.ch/TC57/CIM100#AssetModelUsageKind.transmission"/>
 		<cim:ProductAssetModel.Manufacturer rdf:resource="urn:uuid:96af32e4-215b-448f-a6ed-20d0e64e3dff" />	
 		<cim:ProductAssetModel.AssetInfo rdf:resource="urn:uuid:9eb4e906-d4f4-11e7-9296-cec278b6b50a" />	
 	</cim:ProductAssetModel>
@@ -117,7 +117,7 @@
 	<cim:TransformerEndInfo rdf:about="urn:uuid:be53e1d0-1147-44af-b624-77c9ff829bb4">
 		<cim:IdentifiedObject.name>TEI P Transformer End Primary</cim:IdentifiedObject.name>
 		<cim:TransformerEndInfo.TransformerTankInfo rdf:resource="urn:uuid:3ac55233-7ca0-4b39-afc1-d6f777fc3c0e" />
-		<cim:TransformerEndInfo.connectionKind rdf:resource="http://iec.ch/TC57/CIM/CIM100#WindingConnection.Y"/>
+		<cim:TransformerEndInfo.connectionKind rdf:resource="http://iec.ch/TC57/CIM100#WindingConnection.Y"/>
 		<cim:TransformerEndInfo.endNumber>2</cim:TransformerEndInfo.endNumber>
 		<cim:TransformerEndInfo.phaseAngleClock>0</cim:TransformerEndInfo.phaseAngleClock>
 		<cim:TransformerEndInfo.r>0</cim:TransformerEndInfo.r>
@@ -134,7 +134,7 @@
 	<cim:TransformerEndInfo rdf:about="urn:uuid:bdeebee8-9178-40a1-993d-571c47209f4d">
 		<cim:IdentifiedObject.name>TEI S Transformer End Secondary</cim:IdentifiedObject.name>
 		<cim:TransformerEndInfo.TransformerTankInfo rdf:resource="urn:uuid:3ac55233-7ca0-4b39-afc1-d6f777fc3c0e" />
-		<cim:TransformerEndInfo.connectionKind rdf:resource="http://iec.ch/TC57/CIM/CIM100#WindingConnection.Y"/>
+		<cim:TransformerEndInfo.connectionKind rdf:resource="http://iec.ch/TC57/CIM100#WindingConnection.Y"/>
 		<cim:TransformerEndInfo.endNumber>2</cim:TransformerEndInfo.endNumber>
 		<cim:TransformerEndInfo.phaseAngleClock>0</cim:TransformerEndInfo.phaseAngleClock>
 		<cim:TransformerEndInfo.r>0.14112</cim:TransformerEndInfo.r>
@@ -153,7 +153,7 @@
 		<cim:IdentifiedObject.name>PAM A Tap Changer</cim:IdentifiedObject.name>
 		<cim:ProductAssetModel.catalogueNumber>007</cim:ProductAssetModel.catalogueNumber>
 		<cim:ProductAssetModel.modelNumber>A TC001</cim:ProductAssetModel.modelNumber>
-		<cim:ProductAssetModel.usageKind rdf:resource="http://iec.ch/TC57/CIM/CIM100#AssetModelUsageKind.transmission"/>
+		<cim:ProductAssetModel.usageKind rdf:resource="http://iec.ch/TC57/CIM100#AssetModelUsageKind.transmission"/>
 		<cim:ProductAssetModel.Manufacturer rdf:resource="urn:uuid:96af32e4-215b-448f-a6ed-20d0e64e3dff" />	
 		<cim:ProductAssetModel.AssetInfo rdf:resource="urn:uuid:66c4bc79-0e4c-420d-9f9a-f64c81fd2254" />	
 	</cim:ProductAssetModel>
@@ -177,7 +177,7 @@
 		<cim:IdentifiedObject.name>PAM A ShuntCompensator</cim:IdentifiedObject.name>
 		<cim:ProductAssetModel.catalogueNumber>008</cim:ProductAssetModel.catalogueNumber>
 		<cim:ProductAssetModel.modelNumber>A LSC001</cim:ProductAssetModel.modelNumber>
-		<cim:ProductAssetModel.usageKind rdf:resource="http://iec.ch/TC57/CIM/CIM100#AssetModelUsageKind.transmission"/>
+		<cim:ProductAssetModel.usageKind rdf:resource="http://iec.ch/TC57/CIM100#AssetModelUsageKind.transmission"/>
 		<cim:ProductAssetModel.Manufacturer rdf:resource="urn:uuid:96af32e4-215b-448f-a6ed-20d0e64e3dff" />	
 		<cim:ProductAssetModel.AssetInfo rdf:resource="urn:uuid:d9a0ead9-f67e-4317-a128-631fe9f68177" />	
 	</cim:ProductAssetModel>
@@ -196,7 +196,7 @@
 		<cim:IdentifiedObject.name>PAM A BusbarSection</cim:IdentifiedObject.name>
 		<cim:ProductAssetModel.catalogueNumber>009</cim:ProductAssetModel.catalogueNumber>
 		<cim:ProductAssetModel.modelNumber>A BS001</cim:ProductAssetModel.modelNumber>
-		<cim:ProductAssetModel.usageKind rdf:resource="http://iec.ch/TC57/CIM/CIM100#AssetModelUsageKind.transmission"/>
+		<cim:ProductAssetModel.usageKind rdf:resource="http://iec.ch/TC57/CIM100#AssetModelUsageKind.transmission"/>
 		<cim:ProductAssetModel.Manufacturer rdf:resource="urn:uuid:96af32e4-215b-448f-a6ed-20d0e64e3dff" />	
 		<cim:ProductAssetModel.AssetInfo rdf:resource="urn:uuid:628b66ae-c9c7-4191-89c0-82d95f26319e" />	
 	</cim:ProductAssetModel>
