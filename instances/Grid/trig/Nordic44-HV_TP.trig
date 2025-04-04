@@ -2,12 +2,14 @@ PREFIX cim:      <http://iec.ch/TC57/CIM100#>
 PREFIX dcat:     <http://www.w3.org/ns/dcat#>
 PREFIX dcat-cim: <https://cim4.eu/ns/dcat-cim#>
 PREFIX dct:      <http://purl.org/dc/terms/>
+PREFIX dcterms:  <http://purl.org/dc/terms/>
 PREFIX dm:       <http://iec.ch/TC57/61970-552/DifferenceModel/1#>
 PREFIX eu:       <http://iec.ch/TC57/CIM100-European#>
 PREFIX eumd:     <https://cim4.eu/ns/Metadata-European#>
 PREFIX json-ld:  <https://www.w3.org/ns/json-ld#>
 PREFIX md:       <http://iec.ch/TC57/61970-552/ModelDescription/1#>
 PREFIX nc:       <https://cim4.eu/ns/nc#>
+PREFIX prov:     <http://www.w3.org/ns/prov#>
 PREFIX rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfg:     <http://www.w3.org/2004/03/trix/rdfg-1/>
 PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
@@ -2308,7 +2310,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             dct:issued               "2025-02-14"^^xsd:date;
             dct:requires             <urn:uuid:1d08772d-c1d0-4c47-810d-b14908cd94f5>;
             dct:temporal             [ rdf:type        dct:PeriodOfTime;
-                                       dcat:endDate    "2016-01-01T00:00:00Z"^^xsd:dateTime;
+                                       dcat:endDate    "2015-01-01T00:00:00Z"^^xsd:dateTime;
                                        dcat:startDate  "2014-12-31T23:00:00Z"^^xsd:dateTime
                                      ];
             dcat:distribution        [ rdf:type    dcat:Distribution;

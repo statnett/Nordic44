@@ -1,0 +1,147 @@
+PREFIX adms:     <http://www.w3.org/ns/adms#>
+PREFIX cim:      <http://iec.ch/TC57/CIM100#>
+PREFIX dcat:     <http://www.w3.org/ns/dcat#>
+PREFIX dcat-cim: <https://cim4.eu/ns/dcat-cim#>
+PREFIX dct:      <http://purl.org/dc/terms/>
+PREFIX dcterms:  <http://purl.org/dc/terms/>
+PREFIX dm:       <http://iec.ch/TC57/61970-552/DifferenceModel/1#>
+PREFIX eu:       <http://iec.ch/TC57/CIM100-European#>
+PREFIX eumd:     <https://cim4.eu/ns/Metadata-European#>
+PREFIX json-ld:  <https://www.w3.org/ns/json-ld#>
+PREFIX md:       <http://iec.ch/TC57/61970-552/ModelDescription/1#>
+PREFIX nc:       <https://cim4.eu/ns/nc#>
+PREFIX prov:     <http://www.w3.org/ns/prov#>
+PREFIX rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfg:     <http://www.w3.org/2004/03/trix/rdfg-1/>
+PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
+
+<urn:uuid:ebe06a74-e44c-491f-bbfe-1cabb232828e> {
+    <https://energy.referencedata.eu/Test/Model/_f235a8cc-4321-4c4d-a8ff-84e09a9c95b7>
+            rdf:type                        nc:TopologyAction;
+            nc:GridStateAlteration.enabled  true .
+    
+    <https://energy.referencedata.eu/Test/Model/_dcca331c-3acd-446a-94ec-1c00b427af05>
+            rdf:type                   nc:StageTrigger;
+            nc:StageTrigger.armed      true;
+            nc:StageTrigger.inService  true .
+    
+    <https://energy.referencedata.eu/Test/Model/_68d525d7-f393-47c0-aebb-155ef41f79ca>
+            rdf:type                       nc:RemedialActionScheme;
+            nc:RemedialActionScheme.armed  true;
+            nc:RemedialActionScheme.inService
+                    true .
+    
+    <https://energy.referencedata.eu/Test/Model/_19454eeb-cf3c-4b22-91c8-42c94a48e04e>
+            rdf:type  nc:SchedulingArea;
+            nc:SchedulingArea.participationFactor
+                    "0.6"^^xsd:float .
+    
+    <https://energy.referencedata.eu/Test/Model/_69ed3bd9-c374-49ef-b186-d49d869940bb>
+            rdf:type                   nc:StageTrigger;
+            nc:StageTrigger.armed      true;
+            nc:StageTrigger.inService  true .
+    
+    <https://energy.referencedata.eu/Test/Model/_03b7096c-99ad-41ef-b6b4-c169dfecdb28>
+            rdf:type                        nc:TopologyAction;
+            nc:GridStateAlteration.enabled  true .
+    
+    <https://energy.referencedata.eu/Test/Model/_723d5e6c-76d1-4f49-b151-a0ad7f46e036>
+            rdf:type                  nc:StaticPropertyRange;
+            nc:RangeConstraint.value  "25"^^xsd:float .
+    
+    <https://energy.referencedata.eu/Test/Model/_bb6dc968-2ad4-436d-847e-242622ad395b>
+            rdf:type                        nc:TopologyAction;
+            nc:GridStateAlteration.enabled  true .
+    
+    <https://energy.referencedata.eu/Test/Model/_e3cfe43a-f522-4164-bb01-f7a3abc5b26d>
+            rdf:type  nc:OrdinaryPowerTransferCorridor;
+            nc:PowerTransferCorridor.enabled
+                    true .
+    
+    <https://energy.referencedata.eu/Test/Model/_417979f7-6af4-460e-8966-c42e671844a3>
+            rdf:type                        nc:RotatingMachineAction;
+            nc:GridStateAlteration.enabled  true .
+    
+    <https://energy.referencedata.eu/Test/Model/_553776dc-295d-aa4b-a36e-f563acc71bb7>
+            rdf:type  nc:SchedulingArea;
+            nc:SchedulingArea.participationFactor
+                    "0.4"^^xsd:float .
+    
+    <https://energy.referencedata.eu/Test/Model/_71c1c2af-f4d4-429a-af03-8c6fd44de393>
+            rdf:type                  nc:StaticPropertyRange;
+            nc:RangeConstraint.value  "30"^^xsd:float .
+    
+    <https://energy.referencedata.eu/Test/Model/_e6fedcdb-8a62-4559-bd19-227de853c76a>
+            rdf:type  nc:CircuitShare;
+            nc:CircuitShare.contributionFactor
+                    "90"^^xsd:float .
+    
+    <https://energy.referencedata.eu/Test/Model/_0c19a9a2-1165-49f9-bc0a-2f6b88deec9f>
+            rdf:type                    nc:OrdinaryContingency;
+            cim:Contingency.mustStudy   true;
+            nc:Contingency.probability  "100"^^xsd:float .
+    
+    <https://energy.referencedata.eu/Test/Model/_7d4a1418-e789-45b3-97a5-456b14ffde2b>
+            rdf:type                        nc:InServiceAction;
+            nc:GridStateAlteration.enabled  true .
+    
+    <https://energy.referencedata.eu/Test/Model/_050cd458-b999-4c8d-ad24-93c6a3102b53>
+            rdf:type                        nc:RotatingMachineAction;
+            nc:GridStateAlteration.enabled  true .
+    
+    <https://energy.referencedata.eu/Test/Model/_bb31f847-7509-4582-9721-6e50b525f55d>
+            rdf:type                   nc:StageTrigger;
+            nc:StageTrigger.armed      true;
+            nc:StageTrigger.inService  true .
+    
+    <https://energy.referencedata.eu/Test/Model/_1dcb03a1-9ab8-458c-a9c4-0d5e5824645b>
+            rdf:type                        nc:TopologyAction;
+            nc:GridStateAlteration.enabled  true .
+    
+    <urn:uuid:ebe06a74-e44c-491f-bbfe-1cabb232828e>
+            rdf:type              dcat:Dataset;
+            dct:accessRights      <https://energy.referencedata.eu/Confidentiality/Public>;
+            dct:conformsTo        <https://ap.cim4.eu/SteadyStateInstruction/2.3>;
+            dct:description       "Steady State Instruction (SSI) included in Network Code part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region."@en;
+            dct:identifier        "urn:uuid:ebe06a74-e44c-491f-bbfe-1cabb232828e";
+            dct:issued            "2025-02-14T12:00:00Z"^^xsd:dateTime;
+            dct:publisher         <https://www.statnett.no/en/about-statnett/contact-us/>;
+            dct:requires          <urn:uuid:ebef4527-f0bc-4c59-8870-950af8ed9041> , <urn:uuid:9e3521e2-9504-4122-8c1e-a4c4411ffd7a> , <urn:uuid:84552e03-0040-43d5-aff2-0f77f01668cb>;
+            dct:rights            "Copyright";
+            dct:rightsHolder      "Statnett SF";
+            dct:spatial           <https://energy.referencedata.eu/Test/Frame/NORDIC-Power-Transmission-System>;
+            dct:title             "20160101_N44-NC-HV_SSI_v3-0-0-beta-1";
+            dct:type              <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
+            adms:versionNotes     "Initial version"@en;
+            dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/N44-NC-HV_SSI>;
+            dcat:keyword          "SSI" , "SteadyStateInstruction";
+            dcat:startDate        "2014-12-31T23:00:00Z"^^xsd:dateTime;
+            dcat:version          "3.0.0-beta-1";
+            prov:generatedAtTime  "2025-02-14T11:00:00Z"^^xsd:dateTime;
+            prov:wasGeneratedBy   <https://energy.referencedata.eu/Test/Action/SSI> .
+    
+    <https://energy.referencedata.eu/Test/Model/_9a6018fb-ede3-4517-94e4-b54c583543ad>
+            rdf:type  nc:CircuitShare;
+            nc:CircuitShare.contributionFactor
+                    "90"^^xsd:float .
+    
+    <https://energy.referencedata.eu/Test/Model/_5850bebd-d028-4578-a1c0-e77c718a116f>
+            rdf:type                       nc:RemedialActionScheme;
+            nc:RemedialActionScheme.armed  true;
+            nc:RemedialActionScheme.inService
+                    true .
+    
+    <https://energy.referencedata.eu/Test/Model/_8048d34b-3ae2-4699-8e4c-e83e2cdff327>
+            rdf:type                  nc:StaticPropertyRange;
+            nc:RangeConstraint.value  "150"^^xsd:float .
+    
+    <https://energy.referencedata.eu/Test/Model/_ec32d28c-4ea8-4a8b-a3f1-558dd07666e7>
+            rdf:type                        nc:LoadAction;
+            nc:GridStateAlteration.enabled  true .
+    
+    <https://energy.referencedata.eu/Test/Model/_e34b8faa-ede0-4000-8c7d-d8df46a37416>
+            rdf:type                       nc:RemedialActionScheme;
+            nc:RemedialActionScheme.armed  true;
+            nc:RemedialActionScheme.inService
+                    true .
+}

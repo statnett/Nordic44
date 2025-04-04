@@ -1,0 +1,1020 @@
+PREFIX adms:     <http://www.w3.org/ns/adms#>
+PREFIX cim:      <http://iec.ch/TC57/CIM100#>
+PREFIX dcat:     <http://www.w3.org/ns/dcat#>
+PREFIX dcat-cim: <https://cim4.eu/ns/dcat-cim#>
+PREFIX dct:      <http://purl.org/dc/terms/>
+PREFIX dcterms:  <http://purl.org/dc/terms/>
+PREFIX dm:       <http://iec.ch/TC57/61970-552/DifferenceModel/1#>
+PREFIX eu:       <http://iec.ch/TC57/CIM100-European#>
+PREFIX eumd:     <https://cim4.eu/ns/Metadata-European#>
+PREFIX json-ld:  <https://www.w3.org/ns/json-ld#>
+PREFIX md:       <http://iec.ch/TC57/61970-552/ModelDescription/1#>
+PREFIX nc:       <https://cim4.eu/ns/nc#>
+PREFIX prov:     <http://www.w3.org/ns/prov#>
+PREFIX rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfg:     <http://www.w3.org/2004/03/trix/rdfg-1/>
+PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
+
+<urn:uuid:ebef4527-f0bc-4c59-8870-950af8ed9041> {
+    <https://energy.referencedata.eu/Test/Model/_f176986c-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_e301f841-e969-4f95-8c22-f737b2f73c79>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "7.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_c7275c33-0232-476f-8a80-071879629be7>
+            rdf:type               cim:CurveData;
+            cim:CurveData.Curve    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#C_5f595160-19c7-467e-a8df-4bcefc89b46e>;
+            cim:CurveData.xValue   "20.0";
+            cim:CurveData.y1Value  "0.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_ae6cb5a5-b679-4307-bc6d-f1fe70cb3a2c>
+            rdf:type                   nc:ScheduleResource;
+            cim:IdentifiedObject.description
+                    "Oskarshamn_SR";
+            cim:IdentifiedObject.mRID  "ae6cb5a5-b679-4307-bc6d-f1fe70cb3a2c";
+            cim:IdentifiedObject.name  "SR-NOKG04" .
+    
+    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_c378b218-4131-4d5b-8cb8-8263451211c0>
+            rdf:type               cim:CurveData;
+            cim:CurveData.Curve    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#C_5f595160-19c7-467e-a8df-4bcefc89b46e>;
+            cim:CurveData.xValue   "30.0";
+            cim:CurveData.y1Value  "1.5" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f17698ff-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_dab56647-fc6e-41ac-b2f4-ca2c8a669b61>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "6.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_d8739dc3-ffab-4457-b819-a20579c4d0fc>
+            rdf:type                       nc:SchedulingArea;
+            cim:IdentifiedObject.description
+                    "Scheduling Area of Sverige 4";
+            cim:IdentifiedObject.mRID      "d8739dc3-ffab-4457-b819-a20579c4d0fc";
+            cim:IdentifiedObject.name      "SA-SE4";
+            nc:SchedulingArea.BiddingZone  <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_2119a5e9-fa38-4fe8-a8e9-2a2cc6f73bad>;
+            nc:SchedulingArea.ControlArea  <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_f17695ca-9aeb-11e5-91da-b8763fd99c5f>;
+            nc:SchedulingArea.SynchronousArea
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_5829041b-1f25-4a3d-8b4c-532d9f0b6e54>;
+            nc:SchedulingArea.normalParticipationFactor
+                    "1.0"^^xsd:float .
+    
+    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_8bea88f7-12bb-425b-864f-a6e67218cbfa>
+            rdf:type               cim:CurveData;
+            cim:CurveData.Curve    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#C_5f595160-19c7-467e-a8df-4bcefc89b46e>;
+            cim:CurveData.xValue   "5";
+            cim:CurveData.y1Value  "0.8" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f176985e-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_e301f841-e969-4f95-8c22-f737b2f73c79>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "5.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f176980d-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_7825e759-1c96-490a-8f29-3aa3cb776cc8>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "3.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f17699eb-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_939d9c9b-5c0f-46eb-941b-ea90ceac4db9>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "8.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f1769a2b-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_5ff5264a-70fd-40f9-b5bf-0020c677c2fe>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "5.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f176987b-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_ae6cb5a5-b679-4307-bc6d-f1fe70cb3a2c>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "1.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f1769915-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_2ad2b84f-9b6e-48db-96d9-3dcbd5d9fc6f> .
+    
+    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_3eabc0b3-1afe-439c-98a1-3fc0ef12e102>
+            rdf:type                   nc:ScheduleResource;
+            cim:IdentifiedObject.description
+                    "Kristiansand_SR";
+            cim:IdentifiedObject.mRID  "3eabc0b3-1afe-439c-98a1-3fc0ef12e102";
+            cim:IdentifiedObject.name  "SR-NOKG09" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f176990e-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_2ad2b84f-9b6e-48db-96d9-3dcbd5d9fc6f>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "2.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_b08fcabb-1507-478a-8b76-081ead819b1d>
+            rdf:type                       nc:SchedulingArea;
+            cim:IdentifiedObject.description
+                    "Scheduling Area of NO3 - 2011-05-16: Mid Part of Norway, n.o.Ø.Vinstra (300kV), n.o.Litjf(132 kV bus bars), s.o.Tunnsjødal-Verdal (300kV), s (300kV)";
+            cim:IdentifiedObject.mRID      "b08fcabb-1507-478a-8b76-081ead819b1d";
+            cim:IdentifiedObject.name      "SA-NO3";
+            nc:SchedulingArea.BiddingZone  <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_0f094148-164b-427a-a8e8-0c5f334688ae>;
+            nc:SchedulingArea.ControlArea  <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_f1769606-9aeb-11e5-91da-b8763fd99c5f>;
+            nc:SchedulingArea.SynchronousArea
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_5829041b-1f25-4a3d-8b4c-532d9f0b6e54>;
+            nc:SchedulingArea.normalParticipationFactor
+                    "1.0"^^xsd:float .
+    
+    <https://energy.referencedata.eu/Test/Model/_f1769a32-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_5ff5264a-70fd-40f9-b5bf-0020c677c2fe>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "6.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f17698b4-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_bd52ca52-19a2-467b-ad03-e77af426d092>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "3.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f17698ae-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_bd52ca52-19a2-467b-ad03-e77af426d092>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "2.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f1769883-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_ae6cb5a5-b679-4307-bc6d-f1fe70cb3a2c>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "2.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f176997d-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_24b6fc32-57fc-4f13-a102-46a4d80826ef>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "1.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f17698c0-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_bd52ca52-19a2-467b-ad03-e77af426d092>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "5.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f176982a-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_dd07673f-1aa1-4839-9f1c-cca381ec8f2f>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "4.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_dab56647-fc6e-41ac-b2f4-ca2c8a669b61>
+            rdf:type                   nc:ScheduleResource;
+            cim:IdentifiedObject.description
+                    "Sima_SR";
+            cim:IdentifiedObject.mRID  "dab56647-fc6e-41ac-b2f4-ca2c8a669b61";
+            cim:IdentifiedObject.name  "SR-NOKG07" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f1769a0e-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_5ff5264a-70fd-40f9-b5bf-0020c677c2fe>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "1.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f176999b-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_e69c9068-d9ab-4197-b46a-8552e0d58557>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "1.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f1769800-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_7825e759-1c96-490a-8f29-3aa3cb776cc8>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "1.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f17699c1-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_939d9c9b-5c0f-46eb-941b-ea90ceac4db9>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "2.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_28846c30-b0ce-46b4-98d4-9ae2490607ad>
+            rdf:type               cim:CurveData;
+            cim:CurveData.Curve    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#C_5f595160-19c7-467e-a8df-4bcefc89b46e>;
+            cim:CurveData.xValue   "10.0";
+            cim:CurveData.y1Value  "0.85" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f1769865-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_e301f841-e969-4f95-8c22-f737b2f73c79>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "6.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_5ff5264a-70fd-40f9-b5bf-0020c677c2fe>
+            rdf:type                   nc:ScheduleResource;
+            cim:IdentifiedObject.description
+                    "Malmo_SR";
+            cim:IdentifiedObject.mRID  "5ff5264a-70fd-40f9-b5bf-0020c677c2fe";
+            cim:IdentifiedObject.name  "SR-NOKG16" .
+    
+    <urn:uuid:ebef4527-f0bc-4c59-8870-950af8ed9041>
+            rdf:type              dcat:Dataset;
+            dct:accessRights      <https://energy.referencedata.eu/Confidentiality/Public>;
+            dct:conformsTo        <https://ap.cim4.eu/EquipmentReliability/2.3>;
+            dct:description       "Equipment Reliability (ER) included in Network Code part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region."@en;
+            dct:identifier        "urn:uuid:ebef4527-f0bc-4c59-8870-950af8ed9041";
+            dct:issued            "2025-02-14T12:00:00Z"^^xsd:dateTime;
+            dct:publisher         <https://www.statnett.no/en/about-statnett/contact-us/>;
+            dct:requires          <urn:uuid:e710212f-f6b2-8d4c-9dc0-365398d8b59c> , <urn:uuid:d9a01a85-0ad8-4958-be03-d89ad78ca497>;
+            dct:rights            "Copyright";
+            dct:rightsHolder      "Statnett SF";
+            dct:spatial           <https://energy.referencedata.eu/Test/Frame/NORDIC-Power-Transmission-System>;
+            dct:title             "20160101_N44-NC-HV_ER_v3-0-0-beta-1";
+            dct:type              <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
+            adms:versionNotes     "Initial version"@en;
+            dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER>;
+            dcat:keyword          "ER" , "EquipmentReliability";
+            dcat:startDate        "2014-12-31T23:00:00Z"^^xsd:dateTime;
+            dcat:version          "3.0.0-beta-1";
+            prov:generatedAtTime  "2025-02-14T11:00:00Z"^^xsd:dateTime;
+            prov:wasGeneratedBy   <https://energy.referencedata.eu/Test/Action/ER> .
+    
+    <https://energy.referencedata.eu/Test/Model/_f1769898-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_ae6cb5a5-b679-4307-bc6d-f1fe70cb3a2c>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "5.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_9a6018fb-ede3-4517-94e4-b54c583543ad>
+            rdf:type                   nc:CircuitShare;
+            cim:IdentifiedObject.description
+                    "Circuit contribution share of CC 420RINGHALS-HALDEN  1 on PTC 420RINGHALS-HALDEN";
+            cim:IdentifiedObject.mRID  "9a6018fb-ede3-4517-94e4-b54c583543ad";
+            cim:IdentifiedObject.name  "CS 420RINGHALS-HALDEN  1";
+            nc:CircuitShare.Circuit    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_efe2dce7-e144-48ae-8b0e-9e48cddea658>;
+            nc:CircuitShare.PowerTransferCorridor
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_e3cfe43a-f522-4164-bb01-f7a3abc5b26d>;
+            nc:CircuitShare.normalContributionFactor
+                    "100"^^xsd:float .
+    
+    <https://energy.referencedata.eu/Test/Model/_f17698f1-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_dab56647-fc6e-41ac-b2f4-ca2c8a669b61>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "4.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f1769964-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_7ac39667-7920-42ad-9f10-bcb766a2b681>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "2.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_96ce695d-ee63-4ec2-a14e-80af2730d39b>
+            rdf:type               cim:CurveData;
+            cim:CurveData.Curve    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#C_5f595160-19c7-467e-a8df-4bcefc89b46e>;
+            cim:CurveData.xValue   "-30";
+            cim:CurveData.y1Value  "0.5" .
+    
+    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_e69c9068-d9ab-4197-b46a-8552e0d58557>
+            rdf:type                   nc:ScheduleResource;
+            cim:IdentifiedObject.description
+                    "Rossaga_SR";
+            cim:IdentifiedObject.mRID  "e69c9068-d9ab-4197-b46a-8552e0d58557";
+            cim:IdentifiedObject.name  "SR-NOKG13" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f176994a-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_482cbb4f-7ccd-4353-b5c8-60cc96c9799e>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "2.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f176981c-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_dd07673f-1aa1-4839-9f1c-cca381ec8f2f>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "2.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f1769925-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_3eabc0b3-1afe-439c-98a1-3fc0ef12e102>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "1.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_77017cd9-7224-4612-87aa-b5697530bd52>
+            rdf:type               cim:CurveData;
+            cim:CurveData.Curve    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#C_5f595160-19c7-467e-a8df-4bcefc89b46e>;
+            cim:CurveData.xValue   "-15";
+            cim:CurveData.y1Value  "0.7" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f1769857-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_e301f841-e969-4f95-8c22-f737b2f73c79>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "4.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f1769a24-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_5ff5264a-70fd-40f9-b5bf-0020c677c2fe>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "4.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_abb7331d-8fce-4d83-bbcf-67caa0ab562d>
+            rdf:type               cim:CurveData;
+            cim:CurveData.Curve    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#C_5f595160-19c7-467e-a8df-4bcefc89b46e>;
+            cim:CurveData.xValue   "-5";
+            cim:CurveData.y1Value  "0.7" .
+    
+    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_2ad2b84f-9b6e-48db-96d9-3dcbd5d9fc6f>
+            rdf:type                   nc:ScheduleResource;
+            cim:IdentifiedObject.description
+                    "Oslo_SR";
+            cim:IdentifiedObject.mRID  "2ad2b84f-9b6e-48db-96d9-3dcbd5d9fc6f";
+            cim:IdentifiedObject.name  "SR-NOKG08" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f1769814-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_dd07673f-1aa1-4839-9f1c-cca381ec8f2f>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "1.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f1769993-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_24b6fc32-57fc-4f13-a102-46a4d80826ef>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "4.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_2e24d8c9-bc91-4c64-a6e9-4ee28f7e46aa>
+            rdf:type               cim:CurveData;
+            cim:CurveData.Curve    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#C_5f595160-19c7-467e-a8df-4bcefc89b46e>;
+            cim:CurveData.xValue   "0";
+            cim:CurveData.y1Value  "0.75" .
+    
+    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_8da54c8f-7667-443c-b456-70a27cb09447>
+            rdf:type               cim:CurveData;
+            cim:CurveData.Curve    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#C_5f595160-19c7-467e-a8df-4bcefc89b46e>;
+            cim:CurveData.xValue   "-20";
+            cim:CurveData.y1Value  "0.65" .
+    
+    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_2e0d8985-2b1b-425f-b1da-756635504a6b>
+            rdf:type                       nc:SchedulingArea;
+            cim:IdentifiedObject.description
+                    "Scheduling Area of Sverige 1";
+            cim:IdentifiedObject.mRID      "2e0d8985-2b1b-425f-b1da-756635504a6b";
+            cim:IdentifiedObject.name      "SA-SE1";
+            nc:SchedulingArea.BiddingZone  <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_b478a210-4550-4986-9e47-47912ff06d61>;
+            nc:SchedulingArea.ControlArea  <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_f17695ca-9aeb-11e5-91da-b8763fd99c5f>;
+            nc:SchedulingArea.SynchronousArea
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_5829041b-1f25-4a3d-8b4c-532d9f0b6e54>;
+            nc:SchedulingArea.normalParticipationFactor
+                    "1.0"^^xsd:float .
+    
+    <https://energy.referencedata.eu/Test/Model/_f1769850-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_e301f841-e969-4f95-8c22-f737b2f73c79>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "3.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f1769976-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_7ac39667-7920-42ad-9f10-bcb766a2b681>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "5.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f1769839-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_e301f841-e969-4f95-8c22-f737b2f73c79>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "1.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_f802a83f-b9fb-48fb-9dde-0f5132e5f886>
+            rdf:type                   cim:OperationalLimitSet;
+            cim:IdentifiedObject.description
+                    "PTC 420RINGHALS-HALDEN LimitSet for direction Halden to Ringhals";
+            cim:IdentifiedObject.mRID  "f802a83f-b9fb-48fb-9dde-0f5132e5f886";
+            cim:IdentifiedObject.name  "LS PTC 420RING-HALDEN F HA";
+            cim:OperationalLimitSet.Terminal
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_2dd9039f-bdfb-11e5-94fa-c8f73332c8f4>;
+            nc:OperationalLimitSet.PowerTransferCorridor
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_e3cfe43a-f522-4164-bb01-f7a3abc5b26d> .
+    
+    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_0b6da2c4-48c2-4a39-953a-38b365e0953e>
+            rdf:type                       nc:SchedulingArea;
+            cim:IdentifiedObject.description
+                    "Scheduling Area of NO4 - 2011-05-16: Mid Part of Norway, n.o.Tunnsjødal-Verdal (300kV),os (300kV) Northern Norway";
+            cim:IdentifiedObject.mRID      "0b6da2c4-48c2-4a39-953a-38b365e0953e";
+            cim:IdentifiedObject.name      "SA-NO4";
+            nc:SchedulingArea.BiddingZone  <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_b64efd13-92fe-4786-87ef-731d1e2cce0e>;
+            nc:SchedulingArea.ControlArea  <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_f1769606-9aeb-11e5-91da-b8763fd99c5f>;
+            nc:SchedulingArea.SynchronousArea
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_5829041b-1f25-4a3d-8b4c-532d9f0b6e54>;
+            nc:SchedulingArea.normalParticipationFactor
+                    "1.0"^^xsd:float .
+    
+    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_f6ab9ccd-10fa-4531-8427-763e11163b28>
+            rdf:type                   cim:ActivePowerLimit;
+            cim:ActivePowerLimit.normalValue
+                    "1600"^^xsd:float;
+            cim:IdentifiedObject.mRID  "f6ab9ccd-10fa-4531-8427-763e11163b28";
+            cim:IdentifiedObject.name  "APL STABILITY";
+            cim:OperationalLimit.OperationalLimitSet
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_f802a83f-b9fb-48fb-9dde-0f5132e5f886>;
+            cim:OperationalLimit.OperationalLimitType
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_df0cea8a-8e5a-4254-a040-410fa4797154> .
+    
+    <https://energy.referencedata.eu/Test/Model/_f17698f8-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_dab56647-fc6e-41ac-b2f4-ca2c8a669b61>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "5.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_f01ffeb3-1dd0-4344-9de7-42323a27d731>
+            rdf:type                       nc:SchedulingArea;
+            cim:IdentifiedObject.description
+                    "Scheduling Area of Sverige 3";
+            cim:IdentifiedObject.mRID      "f01ffeb3-1dd0-4344-9de7-42323a27d731";
+            cim:IdentifiedObject.name      "SA-SE3";
+            nc:SchedulingArea.BiddingZone  <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_30e6709e-510c-49b9-92ec-e2aebdc1050e>;
+            nc:SchedulingArea.ControlArea  <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_f17695ca-9aeb-11e5-91da-b8763fd99c5f>;
+            nc:SchedulingArea.SynchronousArea
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_5829041b-1f25-4a3d-8b4c-532d9f0b6e54>;
+            nc:SchedulingArea.normalParticipationFactor
+                    "1.0"^^xsd:float .
+    
+    <https://energy.referencedata.eu/Test/Model/_f1769807-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_7825e759-1c96-490a-8f29-3aa3cb776cc8>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "2.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f176996a-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_7ac39667-7920-42ad-9f10-bcb766a2b681>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "3.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f1769a16-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_5ff5264a-70fd-40f9-b5bf-0020c677c2fe>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "2.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f17699b9-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_939d9c9b-5c0f-46eb-941b-ea90ceac4db9>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "1.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f17699b1-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_e69c9068-d9ab-4197-b46a-8552e0d58557>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "4.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f17698ea-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_dab56647-fc6e-41ac-b2f4-ca2c8a669b61>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "3.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f1769943-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_482cbb4f-7ccd-4353-b5c8-60cc96c9799e>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "1.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_e3cfe43a-f522-4164-bb01-f7a3abc5b26d>
+            rdf:type                   nc:OrdinaryPowerTransferCorridor;
+            cim:IdentifiedObject.description
+                    "Ordinary Power Transfer Corridor 420RINGHALS-HALDEN";
+            cim:IdentifiedObject.mRID  "e3cfe43a-f522-4164-bb01-f7a3abc5b26d";
+            cim:IdentifiedObject.name  "OPTC 420RINGHALS-HALDEN";
+            nc:PowerTransferCorridor.normalEnabled
+                    true .
+    
+    <https://energy.referencedata.eu/Test/Model/_f17699a3-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_e69c9068-d9ab-4197-b46a-8552e0d58557>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "2.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_939d9c9b-5c0f-46eb-941b-ea90ceac4db9>
+            rdf:type                   nc:ScheduleResource;
+            cim:IdentifiedObject.description
+                    "Helsinki_SR";
+            cim:IdentifiedObject.mRID  "7ac39667-7920-42ad-9f10-bcb766a2b681";
+            cim:IdentifiedObject.name  "SR-NOKG14" .
+    
+    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_e591a226-13bb-44ec-9e42-1667d90dd286>
+            rdf:type               cim:CurveData;
+            cim:CurveData.Curve    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#C_5f595160-19c7-467e-a8df-4bcefc89b46e>;
+            cim:CurveData.xValue   "40.0";
+            cim:CurveData.y1Value  "2.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_f8dcb94f-6a0f-40ef-9928-842b25b7df53>
+            rdf:type               cim:CurveData;
+            cim:CurveData.Curve    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#C_5f595160-19c7-467e-a8df-4bcefc89b46e>;
+            cim:CurveData.xValue   "-10";
+            cim:CurveData.y1Value  "0.75" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f176995d-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_7ac39667-7920-42ad-9f10-bcb766a2b681>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "1.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f1769a01-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_25dae699-5c94-4ed3-91df-d015a62d235b>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "2.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_bd52ca52-19a2-467b-ad03-e77af426d092>
+            rdf:type                   nc:ScheduleResource;
+            cim:IdentifiedObject.description
+                    "Ringhals_SR";
+            cim:IdentifiedObject.mRID  "bd52ca52-19a2-467b-ad03-e77af426d092";
+            cim:IdentifiedObject.name  "SR-NOKG05" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f17699cf-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_939d9c9b-5c0f-46eb-941b-ea90ceac4db9>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "4.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_482cbb4f-7ccd-4353-b5c8-60cc96c9799e>
+            rdf:type                   nc:ScheduleResource;
+            cim:IdentifiedObject.description
+                    "Kvilldal_SR";
+            cim:IdentifiedObject.mRID  "482cbb4f-7ccd-4353-b5c8-60cc96c9799e";
+            cim:IdentifiedObject.name  "SR-NOKG10" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f1769970-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_7ac39667-7920-42ad-9f10-bcb766a2b681>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "4.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f17698cd-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_0726d132-976b-4b46-8015-c0fdce45cd47>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "1.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_24b6fc32-57fc-4f13-a102-46a4d80826ef>
+            rdf:type                   nc:ScheduleResource;
+            cim:IdentifiedObject.description
+                    "Trondheim_SR";
+            cim:IdentifiedObject.mRID  "24b6fc32-57fc-4f13-a102-46a4d80826ef";
+            cim:IdentifiedObject.name  "SR-NOKG12" .
+    
+    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_d398cead-6dfb-4ce3-80a0-93f23d46bd7b>
+            rdf:type                       nc:SchedulingArea;
+            cim:IdentifiedObject.description
+                    "Scheduling Area of NO2 - 2011-05-16: Southern Norway. West of Hasle (420kV), Sylling (4kV). East of Sauda (300kV)";
+            cim:IdentifiedObject.mRID      "d398cead-6dfb-4ce3-80a0-93f23d46bd7b";
+            cim:IdentifiedObject.name      "SA-NO2";
+            nc:SchedulingArea.BiddingZone  <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_63b13e2e-8d0a-47d0-8de8-fb686decbae4>;
+            nc:SchedulingArea.ControlArea  <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_f1769606-9aeb-11e5-91da-b8763fd99c5f>;
+            nc:SchedulingArea.SynchronousArea
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_5829041b-1f25-4a3d-8b4c-532d9f0b6e54>;
+            nc:SchedulingArea.normalParticipationFactor
+                    "1.0"^^xsd:float .
+    
+    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_096cb162-6a74-4dcd-b9e5-9845e1f049b6>
+            rdf:type                       nc:SchedulingArea;
+            cim:IdentifiedObject.description
+                    "Scheduling Area of Finland (FI)";
+            cim:IdentifiedObject.mRID      "096cb162-6a74-4dcd-b9e5-9845e1f049b6";
+            cim:IdentifiedObject.name      "SA-FI";
+            nc:SchedulingArea.BiddingZone  <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_6eaaae78-21f1-41c7-81a4-2b0fe15cdbfc>;
+            nc:SchedulingArea.ControlArea  <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_f17696b0-9aeb-11e5-91da-b8763fd99c5f>;
+            nc:SchedulingArea.SynchronousArea
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_5829041b-1f25-4a3d-8b4c-532d9f0b6e54>;
+            nc:SchedulingArea.normalParticipationFactor
+                    "1.0"^^xsd:float .
+    
+    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_dd07673f-1aa1-4839-9f1c-cca381ec8f2f>
+            rdf:type                   nc:ScheduleResource;
+            cim:IdentifiedObject.description
+                    "Porjus_SR";
+            cim:IdentifiedObject.mRID  "dd07673f-1aa1-4839-9f1c-cca381ec8f2f";
+            cim:IdentifiedObject.name  "SR-NOKG02" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f17699d6-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_939d9c9b-5c0f-46eb-941b-ea90ceac4db9>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "5.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_709001cd-13d9-4d1e-9a4e-553cd24f0724>
+            rdf:type                       nc:SchedulingArea;
+            cim:IdentifiedObject.description
+                    "Scheduling Area of Sverige 2";
+            cim:IdentifiedObject.mRID      "709001cd-13d9-4d1e-9a4e-553cd24f0724";
+            cim:IdentifiedObject.name      "SA-SE2";
+            nc:SchedulingArea.BiddingZone  <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_781f385c-f3a1-4691-843d-eab2ed919a1b>;
+            nc:SchedulingArea.ControlArea  <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_f17695ca-9aeb-11e5-91da-b8763fd99c5f>;
+            nc:SchedulingArea.SynchronousArea
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_5829041b-1f25-4a3d-8b4c-532d9f0b6e54>;
+            nc:SchedulingArea.normalParticipationFactor
+                    "1.0"^^xsd:float .
+    
+    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_5f595160-19c7-467e-a8df-4bcefc89b46e>
+            rdf:type                   nc:AmbientTemperatureDependencyCurve;
+            cim:IdentifiedObject.description
+                    "Ambient Temperature Dependency Curve in degree Celsius";
+            cim:IdentifiedObject.mRID  "5f595160-19c7-467e-a8df-4bcefc89b46e";
+            cim:IdentifiedObject.name  "ATDC-001";
+            cim:curve.curveStyle       <https://cim.ucaiug.io/ns#straightLineYValues>;
+            cim:curve.xUnit            <https://cim.ucaiug.io/ns#UnitSymbol.degC>;
+            cim:curve.y2Unit           <https://cim.ucaiug.io/ns#UnitSymbol.none> .
+    
+    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_7ac39667-7920-42ad-9f10-bcb766a2b681>
+            rdf:type                   nc:ScheduleResource;
+            cim:IdentifiedObject.description
+                    "Blafalli_SR";
+            cim:IdentifiedObject.mRID  "7ac39667-7920-42ad-9f10-bcb766a2b681";
+            cim:IdentifiedObject.name  "SR-NOKG11" .
+    
+    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_7825e759-1c96-490a-8f29-3aa3cb776cc8>
+            rdf:type                   nc:ScheduleResource;
+            cim:IdentifiedObject.description
+                    "Forsmark_SR";
+            cim:IdentifiedObject.mRID  "7ac39667-7920-42ad-9f10-bcb766a2b681";
+            cim:IdentifiedObject.name  "SR-NOKG01" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f176998c-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_24b6fc32-57fc-4f13-a102-46a4d80826ef>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "3.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f1769985-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_24b6fc32-57fc-4f13-a102-46a4d80826ef>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "2.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_e6fedcdb-8a62-4559-bd19-227de853c76a>
+            rdf:type                   nc:CircuitShare;
+            cim:IdentifiedObject.description
+                    "Circuit contribution share of CC 420RINGHALS-HALDEN  2 on PTC 420RINGHALS-HALDEN";
+            cim:IdentifiedObject.mRID  "e6fedcdb-8a62-4559-bd19-227de853c76a";
+            cim:IdentifiedObject.name  "CS 420RINGHALS-HALDEN  2";
+            nc:CircuitShare.Circuit    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_0b8fd844-ca69-4cc9-82b5-3225991235b6>;
+            nc:CircuitShare.PowerTransferCorridor
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_e3cfe43a-f522-4164-bb01-f7a3abc5b26d>;
+            nc:CircuitShare.contributionFactor
+                    "100"^^xsd:float;
+            nc:CircuitShare.normalContributionFactor
+                    "100"^^xsd:float .
+    
+    <https://energy.referencedata.eu/Test/Model/_f17699dd-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_939d9c9b-5c0f-46eb-941b-ea90ceac4db9>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "6.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f17699fa-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_25dae699-5c94-4ed3-91df-d015a62d235b>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "1.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_25dae699-5c94-4ed3-91df-d015a62d235b>
+            rdf:type                   nc:ScheduleResource;
+            cim:IdentifiedObject.description
+                    "Oulu_SR";
+            cim:IdentifiedObject.mRID  "25dae699-5c94-4ed3-91df-d015a62d235b";
+            cim:IdentifiedObject.name  "SR-NOKG15" .
+    
+    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_553776dc-295d-aa4b-a36e-f563acc71bb7>
+            rdf:type                       nc:SchedulingArea;
+            cim:IdentifiedObject.description
+                    "Scheduling Area of Ostfold";
+            cim:IdentifiedObject.mRID      "553776dc-295d-aa4b-a36e-f563acc71bb7";
+            cim:IdentifiedObject.name      "SA-NO6";
+            nc:SchedulingArea.BiddingZone  <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a>;
+            nc:SchedulingArea.ControlArea  <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_f1769606-9aeb-11e5-91da-b8763fd99c5f>;
+            nc:SchedulingArea.SynchronousArea
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_5829041b-1f25-4a3d-8b4c-532d9f0b6e54>;
+            nc:SchedulingArea.normalParticipationFactor
+                    "0.5"^^xsd:float .
+    
+    <https://energy.referencedata.eu/Test/Model/_f17699c8-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_939d9c9b-5c0f-46eb-941b-ea90ceac4db9>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "3.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_79f002b6-1193-40e2-9a3f-1b2e3d5dfa5c>
+            rdf:type                       nc:SchedulingArea;
+            cim:IdentifiedObject.description
+                    "Scheduling Area of NO5 - 2011-05-16: Western Norway. West of Hylen (300kv), Nesflaten (300kv)";
+            cim:IdentifiedObject.mRID      "79f002b6-1193-40e2-9a3f-1b2e3d5dfa5c";
+            cim:IdentifiedObject.name      "SA-NO5";
+            nc:SchedulingArea.BiddingZone  <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_dc281688-8b45-4ce7-b2e8-6c524a5afece>;
+            nc:SchedulingArea.ControlArea  <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_f1769606-9aeb-11e5-91da-b8763fd99c5f>;
+            nc:SchedulingArea.SynchronousArea
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_5829041b-1f25-4a3d-8b4c-532d9f0b6e54>;
+            nc:SchedulingArea.normalParticipationFactor
+                    "1.0"^^xsd:float .
+    
+    <https://energy.referencedata.eu/Test/Model/_f17698c6-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_bd52ca52-19a2-467b-ad03-e77af426d092>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "6.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f176992d-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_3eabc0b3-1afe-439c-98a1-3fc0ef12e102>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "2.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_16bc3fbb-3b45-4bbb-b400-3d0b58af2f6b>
+            rdf:type               cim:CurveData;
+            cim:CurveData.Curve    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#C_5f595160-19c7-467e-a8df-4bcefc89b46e>;
+            cim:CurveData.xValue   "15.0";
+            cim:CurveData.y1Value  "0.9" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f1769891-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_ae6cb5a5-b679-4307-bc6d-f1fe70cb3a2c>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "4.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f17698d4-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_0726d132-976b-4b46-8015-c0fdce45cd47>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "2.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f176991d-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_2ad2b84f-9b6e-48db-96d9-3dcbd5d9fc6f> .
+    
+    <https://energy.referencedata.eu/Test/Model/_f176988a-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_ae6cb5a5-b679-4307-bc6d-f1fe70cb3a2c>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "3.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f1769956-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_482cbb4f-7ccd-4353-b5c8-60cc96c9799e>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "4.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f17699e4-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_939d9c9b-5c0f-46eb-941b-ea90ceac4db9>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "7.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f1769907-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_2ad2b84f-9b6e-48db-96d9-3dcbd5d9fc6f>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "1.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f176993b-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_3eabc0b3-1afe-439c-98a1-3fc0ef12e102>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "4.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_efe2dce7-e144-48ae-8b0e-9e48cddea658>
+            rdf:type                   nc:LineCircuit;
+            cim:IdentifiedObject.description
+                    "Line Circuit container for 420RINGHALS-HALDEN  1.";
+            cim:IdentifiedObject.mRID  "efe2dce7-e144-48ae-8b0e-9e48cddea658";
+            cim:IdentifiedObject.name  "CC 420RINGHALS-HALDEN  1";
+            nc:Circuit.Terminal        <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_2dd9039f-bdfb-11e5-94fa-c8f73332c8f4>;
+            nc:Circuit.positiveFlowIn  true .
+    
+    <https://energy.referencedata.eu/Test/Model/_f1769823-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_dd07673f-1aa1-4839-9f1c-cca381ec8f2f>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "3.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_79ebe136-0807-403e-9e16-594eb3e550b6>
+            rdf:type               cim:CurveData;
+            cim:CurveData.Curve    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#C_5f595160-19c7-467e-a8df-4bcefc89b46e>;
+            cim:CurveData.xValue   "-25";
+            cim:CurveData.y1Value  "0.6" .
+    
+    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_0726d132-976b-4b46-8015-c0fdce45cd47>
+            rdf:type                   nc:ScheduleResource;
+            cim:IdentifiedObject.description
+                    "Tretten_SR";
+            cim:IdentifiedObject.mRID  "0726d132-976b-4b46-8015-c0fdce45cd47";
+            cim:IdentifiedObject.name  "SR-NOKG06" .
+    
+    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_e301f841-e969-4f95-8c22-f737b2f73c79>
+            rdf:type                   nc:ScheduleResource;
+            cim:IdentifiedObject.description
+                    "Jarpstrommen_Grundfors_SR";
+            cim:IdentifiedObject.mRID  "e301f841-e969-4f95-8c22-f737b2f73c79";
+            cim:IdentifiedObject.name  "SR-NOKG03" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f1769a1d-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_5ff5264a-70fd-40f9-b5bf-0020c677c2fe>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "3.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f1769950-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_482cbb4f-7ccd-4353-b5c8-60cc96c9799e>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "3.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f1769831-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_dd07673f-1aa1-4839-9f1c-cca381ec8f2f>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "5.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f1769841-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_e301f841-e969-4f95-8c22-f737b2f73c79>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "1.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f17698ba-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_bd52ca52-19a2-467b-ad03-e77af426d092>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "4.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f1769a07-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_25dae699-5c94-4ed3-91df-d015a62d235b>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "3.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_2cab1876-1d80-47f3-8d27-7a99f4d1db4f>
+            rdf:type               cim:CurveData;
+            cim:CurveData.Curve    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#C_5f595160-19c7-467e-a8df-4bcefc89b46e>;
+            cim:CurveData.xValue   "25.0";
+            cim:CurveData.y1Value  "1.1" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f176989f-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_ae6cb5a5-b679-4307-bc6d-f1fe70cb3a2c>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "6.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f17698db-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_dab56647-fc6e-41ac-b2f4-ca2c8a669b61>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "1.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_0b8fd844-ca69-4cc9-82b5-3225991235b6>
+            rdf:type                   nc:LineCircuit;
+            cim:IdentifiedObject.description
+                    "Line Circuit container for 420RINGHALS-HALDEN  2.";
+            cim:IdentifiedObject.mRID  "0b8fd844-ca69-4cc9-82b5-3225991235b6";
+            cim:IdentifiedObject.name  "CC 420RINGHALS-HALDEN  2";
+            nc:Circuit.Terminal        <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_2dd903a2-bdfb-11e5-94fa-c8f73332c8f4>;
+            nc:Circuit.positiveFlowIn  true .
+    
+    <https://energy.referencedata.eu/Test/Model/_f17698e3-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_dab56647-fc6e-41ac-b2f4-ca2c8a669b61>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "2.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f17698a7-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_bd52ca52-19a2-467b-ad03-e77af426d092>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "1.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f1769873-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_e301f841-e969-4f95-8c22-f737b2f73c79>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "8.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f17699aa-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_e69c9068-d9ab-4197-b46a-8552e0d58557>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "3.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f1769934-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_3eabc0b3-1afe-439c-98a1-3fc0ef12e102>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "3.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/_f17699f2-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_939d9c9b-5c0f-46eb-941b-ea90ceac4db9>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "9.0" .
+    
+    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_19454eeb-cf3c-4b22-91c8-42c94a48e04e>
+            rdf:type                       nc:SchedulingArea;
+            cim:IdentifiedObject.description
+                    "Scheduling Area of Viken North";
+            cim:IdentifiedObject.mRID      "19454eeb-cf3c-4b22-91c8-42c94a48e04e";
+            cim:IdentifiedObject.name      "SA-NO1";
+            nc:SchedulingArea.BiddingZone  <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a>;
+            nc:SchedulingArea.ControlArea  <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_f1769606-9aeb-11e5-91da-b8763fd99c5f>;
+            nc:SchedulingArea.SynchronousArea
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_5829041b-1f25-4a3d-8b4c-532d9f0b6e54>;
+            nc:SchedulingArea.normalParticipationFactor
+                    "0.5"^^xsd:float .
+    
+    <https://energy.referencedata.eu/Test/Model/_f1769849-9aeb-11e5-91da-b8763fd99c5f>
+            rdf:type  cim:GeneratingUnit;
+            nc:GeneratingUnit.ScheduleResource
+                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER#_e301f841-e969-4f95-8c22-f737b2f73c79>;
+            nc:GeneratingUnit.normalParticipationFactor
+                    "2.0" .
+}
