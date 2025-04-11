@@ -1,4 +1,4 @@
-PREFIX cim:      <http://iec.ch/TC57/CIM100#>
+PREFIX cim:      <https://cim.ucaiug.io/ns#>
 PREFIX dcat:     <http://www.w3.org/ns/dcat#>
 PREFIX dcat-cim: <https://cim4.eu/ns/dcat-cim#>
 PREFIX dct:      <http://purl.org/dc/terms/>
@@ -4506,14 +4506,14 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     
     <http://www.Statnett.no/IGM/Nordic44_CGM#_87cf3d46-9cf1-4dcb-9d1c-22498a639d76>
             rdf:type                   cim:OperationalLimitType;
+            <http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#OperationalLimitType.kind>
+                    <http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#LimitKind.highVoltage>;
             cim:IdentifiedObject.mRID  "87cf3d46-9cf1-4dcb-9d1c-22498a639d76";
             cim:IdentifiedObject.name  "OLT High warning Voltage";
             cim:OperationalLimitType.direction
                     cim:OperationalLimitDirectionKind.high;
             cim:OperationalLimitType.isInfiniteDuration
-                    true;
-            <http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#OperationalLimitType.kind>
-                    <http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#LimitKind.highVoltage> .
+                    true .
     
     <http://www.Statnett.no/IGM/Nordic44_CGM#_2dd90268-bdfb-11e5-94fa-c8f73332c8f4>
             rdf:type                       cim:Terminal;
@@ -5434,6 +5434,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     
     <http://www.Statnett.no/IGM/Nordic44_CGM#_f1769a43-9aeb-11e5-91da-b8763fd99c5f>
             rdf:type                   cim:OperationalLimitType;
+            <http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#OperationalLimitType.kind>
+                    <http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#LimitKind.lowVoltage>;
             cim:IdentifiedObject.mRID  "f1769a43-9aeb-11e5-91da-b8763fd99c5f";
             cim:IdentifiedObject.name  "LowVoltage";
             cim:OperationalLimitType.acceptableDuration
@@ -5441,9 +5443,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:OperationalLimitType.direction
                     cim:OperationalLimitDirectionKind.low;
             cim:OperationalLimitType.isInfiniteDuration
-                    false;
-            <http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#OperationalLimitType.kind>
-                    <http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#LimitKind.lowVoltage> .
+                    false .
     
     <http://www.Statnett.no/IGM/Nordic44_CGM#_f176987f-9aeb-11e5-91da-b8763fd99c5f>
             rdf:type                     cim:SynchronousMachine;
@@ -7999,14 +7999,14 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     
     <http://www.Statnett.no/IGM/Nordic44_CGM#_199c9d5f-bb9a-4a71-99f6-f6c1bf9bf10e>
             rdf:type                   cim:OperationalLimitType;
+            <http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#OperationalLimitType.kind>
+                    <http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#LimitKind.tatl>;
             cim:IdentifiedObject.mRID  "199c9d5f-bb9a-4a71-99f6-f6c1bf9bf10e";
             cim:IdentifiedObject.name  "OLT TATL at 20degree";
             cim:OperationalLimitType.direction
                     cim:OperationalLimitDirectionKind.high;
             cim:OperationalLimitType.isInfiniteDuration
-                    true;
-            <http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#OperationalLimitType.kind>
-                    <http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#LimitKind.tatl> .
+                    true .
     
     <http://www.Statnett.no/IGM/Nordic44_CGM#_f17695c4-9aeb-11e5-91da-b8763fd99c5f>
             rdf:type                      cim:VoltageLevel;
@@ -11488,14 +11488,14 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     
     <http://www.Statnett.no/IGM/Nordic44_CGM#_f1769a44-9aeb-11e5-91da-b8763fd99c5f>
             rdf:type                   cim:OperationalLimitType;
+            <http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#OperationalLimitType.kind>
+                    <http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#LimitKind.lowVoltage>;
             cim:IdentifiedObject.mRID  "f1769a44-9aeb-11e5-91da-b8763fd99c5f";
             cim:IdentifiedObject.name  "LowVoltage";
             cim:OperationalLimitType.direction
                     cim:OperationalLimitDirectionKind.low;
             cim:OperationalLimitType.isInfiniteDuration
-                    true;
-            <http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#OperationalLimitType.kind>
-                    <http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#LimitKind.lowVoltage> .
+                    true .
     
     <http://www.Statnett.no/IGM/Nordic44_CGM#_f1769e2d-9aeb-11e5-91da-b8763fd99c5f>
             rdf:type                      cim:CurrentLimit;
@@ -12378,6 +12378,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     
     <http://www.Statnett.no/IGM/Nordic44_CGM#_f1769a3f-9aeb-11e5-91da-b8763fd99c5f>
             rdf:type                   cim:OperationalLimitType;
+            <http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#OperationalLimitType.kind>
+                    <http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#LimitKind.tatl>;
             cim:IdentifiedObject.mRID  "f1769a3f-9aeb-11e5-91da-b8763fd99c5f";
             cim:IdentifiedObject.name  "TATL";
             cim:OperationalLimitType.acceptableDuration
@@ -12385,9 +12387,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:OperationalLimitType.direction
                     cim:OperationalLimitDirectionKind.absoluteValue;
             cim:OperationalLimitType.isInfiniteDuration
-                    false;
-            <http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#OperationalLimitType.kind>
-                    <http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#LimitKind.tatl> .
+                    false .
     
     <http://www.Statnett.no/IGM/Nordic44_CGM#_f1769cc0-9aeb-11e5-91da-b8763fd99c5f>
             rdf:type                      cim:CurrentLimit;
@@ -12982,14 +12982,14 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     
     <http://www.Statnett.no/IGM/Nordic44_CGM#_df0cea8a-8e5a-4254-a040-410fa4797154>
             rdf:type                   cim:OperationalLimitType;
+            <http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#OperationalLimitType.kind>
+                    <http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#LimitKind.stability>;
             cim:IdentifiedObject.mRID  "df0cea8a-8e5a-4254-a040-410fa4797154";
             cim:IdentifiedObject.name  "OLT Low Stability";
             cim:OperationalLimitType.direction
                     cim:OperationalLimitDirectionKind.low;
             cim:OperationalLimitType.isInfiniteDuration
-                    true;
-            <http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#OperationalLimitType.kind>
-                    <http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#LimitKind.stability> .
+                    true .
     
     <http://www.Statnett.no/IGM/Nordic44_CGM#_f1769aac-9aeb-11e5-91da-b8763fd99c5f>
             rdf:type                   cim:ACLineSegment;
@@ -16024,6 +16024,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     
     <http://www.Statnett.no/IGM/Nordic44_CGM#_f1769a41-9aeb-11e5-91da-b8763fd99c5f>
             rdf:type                   cim:OperationalLimitType;
+            <http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#OperationalLimitType.kind>
+                    <http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#LimitKind.highVoltage>;
             cim:IdentifiedObject.mRID  "f1769a41-9aeb-11e5-91da-b8763fd99c5f";
             cim:IdentifiedObject.name  "HighVoltage";
             cim:OperationalLimitType.acceptableDuration
@@ -16031,9 +16033,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:OperationalLimitType.direction
                     cim:OperationalLimitDirectionKind.high;
             cim:OperationalLimitType.isInfiniteDuration
-                    false;
-            <http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#OperationalLimitType.kind>
-                    <http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#LimitKind.highVoltage> .
+                    false .
     
     <http://www.Statnett.no/IGM/Nordic44_CGM#_2dd90265-bdfb-11e5-94fa-c8f73332c8f4>
             rdf:type                       cim:Terminal;
@@ -16820,6 +16820,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     
     <http://www.Statnett.no/IGM/Nordic44_CGM#_f1769a40-9aeb-11e5-91da-b8763fd99c5f>
             rdf:type                   cim:OperationalLimitType;
+            <http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#OperationalLimitType.kind>
+                    <http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#LimitKind.tatl>;
             cim:IdentifiedObject.mRID  "f1769a40-9aeb-11e5-91da-b8763fd99c5f";
             cim:IdentifiedObject.name  "TATL";
             cim:OperationalLimitType.acceptableDuration
@@ -16827,9 +16829,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:OperationalLimitType.direction
                     cim:OperationalLimitDirectionKind.absoluteValue;
             cim:OperationalLimitType.isInfiniteDuration
-                    false;
-            <http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#OperationalLimitType.kind>
-                    <http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#LimitKind.tatl> .
+                    false .
     
     <http://www.Statnett.no/IGM/Nordic44_CGM#_2dd9020b-bdfb-11e5-94fa-c8f73332c8f4>
             rdf:type                       cim:Terminal;
@@ -17084,14 +17084,14 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     
     <http://www.Statnett.no/IGM/Nordic44_CGM#_f1769a3e-9aeb-11e5-91da-b8763fd99c5f>
             rdf:type                   cim:OperationalLimitType;
+            <http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#OperationalLimitType.kind>
+                    <http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#LimitKind.patl>;
             cim:IdentifiedObject.mRID  "f1769a3e-9aeb-11e5-91da-b8763fd99c5f";
             cim:IdentifiedObject.name  "PATL";
             cim:OperationalLimitType.direction
                     cim:OperationalLimitDirectionKind.absoluteValue;
             cim:OperationalLimitType.isInfiniteDuration
-                    true;
-            <http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#OperationalLimitType.kind>
-                    <http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#LimitKind.patl> .
+                    true .
     
     <http://www.Statnett.no/IGM/Nordic44_CGM#_f1769a87-9aeb-11e5-91da-b8763fd99c5f>
             rdf:type                      cim:CurrentLimit;
@@ -19797,14 +19797,14 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     
     <http://www.Statnett.no/IGM/Nordic44_CGM#_0d6c5927-fd86-4053-9831-d1fd151c66f1>
             rdf:type                   cim:OperationalLimitType;
+            <http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#OperationalLimitType.kind>
+                    <http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#LimitKind.patl>;
             cim:IdentifiedObject.mRID  "0d6c5927-fd86-4053-9831-d1fd151c66f1";
             cim:IdentifiedObject.name  "OLT High PATL at 20degree";
             cim:OperationalLimitType.direction
                     cim:OperationalLimitDirectionKind.high;
             cim:OperationalLimitType.isInfiniteDuration
-                    true;
-            <http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#OperationalLimitType.kind>
-                    <http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#LimitKind.patl> .
+                    true .
     
     <http://www.Statnett.no/IGM/Nordic44_CGM#_2dd90360-bdfb-11e5-94fa-c8f73332c8f4>
             rdf:type                       cim:Terminal;
@@ -20012,14 +20012,14 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     
     <http://www.Statnett.no/IGM/Nordic44_CGM#_f1769a42-9aeb-11e5-91da-b8763fd99c5f>
             rdf:type                   cim:OperationalLimitType;
+            <http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#OperationalLimitType.kind>
+                    <http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#LimitKind.highVoltage>;
             cim:IdentifiedObject.mRID  "f1769a42-9aeb-11e5-91da-b8763fd99c5f";
             cim:IdentifiedObject.name  "HighVoltage";
             cim:OperationalLimitType.direction
                     cim:OperationalLimitDirectionKind.high;
             cim:OperationalLimitType.isInfiniteDuration
-                    true;
-            <http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#OperationalLimitType.kind>
-                    <http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#LimitKind.highVoltage> .
+                    true .
     
     <http://www.Statnett.no/IGM/Nordic44_CGM#_f1769b95-9aeb-11e5-91da-b8763fd99c5f>
             rdf:type                      cim:CurrentLimit;
@@ -21351,14 +21351,14 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     
     <http://www.Statnett.no/IGM/Nordic44_CGM#_39a66540-9ce3-4c9f-a52d-2f8ef3ec78d8>
             rdf:type                   cim:OperationalLimitType;
+            <http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#OperationalLimitType.kind>
+                    <http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#LimitKind.tatl>;
             cim:IdentifiedObject.mRID  "39a66540-9ce3-4c9f-a52d-2f8ef3ec78d8";
             cim:IdentifiedObject.name  "OLT TATL at 30degree";
             cim:OperationalLimitType.direction
                     cim:OperationalLimitDirectionKind.high;
             cim:OperationalLimitType.isInfiniteDuration
-                    true;
-            <http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#OperationalLimitType.kind>
-                    <http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#LimitKind.tatl> .
+                    true .
     
     <http://www.Statnett.no/IGM/Nordic44_CGM#_2dd90173-bdfb-11e5-94fa-c8f73332c8f4>
             rdf:type                       cim:Terminal;
@@ -23493,14 +23493,14 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     
     <http://www.Statnett.no/IGM/Nordic44_CGM#_7ab9aef4-39ef-4744-9a14-1ddba65afe2f>
             rdf:type                   cim:OperationalLimitType;
+            <http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#OperationalLimitType.kind>
+                    <http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#LimitKind.patl>;
             cim:IdentifiedObject.mRID  "7ab9aef4-39ef-4744-9a14-1ddba65afe2f";
             cim:IdentifiedObject.name  "OLT High PATL at 30degree";
             cim:OperationalLimitType.direction
                     cim:OperationalLimitDirectionKind.high;
             cim:OperationalLimitType.isInfiniteDuration
-                    true;
-            <http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#OperationalLimitType.kind>
-                    <http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#LimitKind.patl> .
+                    true .
     
     <http://www.Statnett.no/IGM/Nordic44_CGM#_2dd90185-bdfb-11e5-94fa-c8f73332c8f4>
             rdf:type                   cim:BusbarSection;
