@@ -5,6 +5,9 @@ TRIG = $(subst .xml,.trig, $(subst /cimxml,/trig, $(XML)))
 
 all: $(TRIG)
 
+clean:
+	rm $(TRIG)
+
 define XML2TRIG
 	perl fix-ns.pl $(1) > temp.xml
 	perl $(FIXME)/cim-trig.pl -r temp.xml > temp.trig
