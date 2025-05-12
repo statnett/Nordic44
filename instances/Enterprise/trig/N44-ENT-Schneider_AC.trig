@@ -1,11 +1,13 @@
+PREFIX adms:     <http://www.w3.org/ns/adms#>
 PREFIX cim:      <https://cim.ucaiug.io/ns#>
 PREFIX dcat:     <http://www.w3.org/ns/dcat#>
 PREFIX dcat-cim: <https://cim4.eu/ns/dcat-cim#>
+PREFIX dcatcim:  <https://cim4.eu/ns/dcatcim#>
 PREFIX dct:      <http://purl.org/dc/terms/>
 PREFIX dcterms:  <http://purl.org/dc/terms/>
 PREFIX dm:       <http://iec.ch/TC57/61970-552/DifferenceModel/1#>
 PREFIX entsoe2:  <http://entsoe.eu/CIM/SchemaExtension/3/2#>
-PREFIX eu:       <http://iec.ch/TC57/CIM100-European#>
+PREFIX eu:       <https://cim.ucaiug.io/ns/eu#>
 PREFIX eumd:     <https://cim4.eu/ns/Metadata-European#>
 PREFIX icim:     <http://iec.ch/TC57/2013/CIM-schema-cim16-info#>
 PREFIX json-ld:  <https://www.w3.org/ns/json-ld#>
@@ -81,20 +83,22 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
                     "A D001" .
     
     <urn:uuid:ade44b65-0bfa-41e0-95c5-2ccb345a6fed>
-            rdf:type           rdfg:Graph , dcat:Dataset;
+            rdf:type           dcat:Dataset;
+            dct:accessRights   <https://energy.referencedata.eu/Confidentiality/Public>;
             dct:conformsTo     <http://iec.ch/TC57/CIM/AssetCatalogue/2/0>;
-            dct:description    "Asset Catalogue (AC) from Schneider Electric included in the enterprise part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region.";
-            dct:identifier     "ade44b65-0bfa-41e0-95c5-2ccb345a6fed";
-            dct:issued         "2025-02-14"^^xsd:date;
-            dct:temporal       [ rdf:type        dct:PeriodOfTime;
-                                 dcat:startDate  "2014-12-31T23:00:00Z"^^xsd:dateTime
-                               ];
-            dcat:distribution  [ rdf:type    dcat:Distribution;
-                                 dct:issued  "2025-02-14T12:00:00Z"^^xsd:dateTime
-                               ];
-            dcat:isVersionOf   <http://www.Statnett.no/Enterprise/Nordic44>;
-            dcat:version       "1";
-            json-ld:base       "http://www.Statnett.no/Enterprise/Nordic44#" .
+            dct:description    "Asset Catalogue (AC) from Schneider included in the enterprise part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region."@en;
+            dct:identifier     "urn:uuid:ade44b65-0bfa-41e0-95c5-2ccb345a6fed";
+            dct:issued         "2025-02-14T12:00:00Z"^^xsd:dateTime;
+            dct:publisher      <https://www.statnett.no/en/about-statnett/contact-us/>;
+            dct:rights         "Copyright";
+            dct:rightsHolder   "Statnett SF";
+            dct:title          "20160101_N44-ENT-Schneider_AC_v3-0-0-beta-1";
+            dct:type           <https://energy.referencedata.eu/type/CIM-EnterpriseModel>;
+            adms:versionNotes  "Initial version"@en;
+            dcat:isVersionOf   <https://energy.referencedata.eu/Test/Enterprise/N44-ENT-Schneider_AC>;
+            dcat:keyword       "AC" , "AssetCatalogue";
+            dcat:startDate     "2014-12-31T23:00:00Z"^^xsd:dateTime;
+            dcat:version       "3.0.0-beta-1" .
     
     <urn:uuid:bdeebee8-9178-40a1-993d-571c47209f4d>
             rdf:type                       cim:TransformerEndInfo;

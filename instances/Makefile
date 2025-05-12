@@ -9,7 +9,7 @@ clean:
 	rm $(TRIG)
 
 define XML2TRIG
-	perl fix-ns.pl $(1) > temp.xml
+	perl fix-ns.pl $(1) | perl $(FIXME)/cim-urn-uuid.pl > temp.xml
 	perl $(FIXME)/cim-trig.pl -r temp.xml > temp.trig
 	update.bat --update=$(FIXME)/fix-datatypes-and-model.ru --data=temp.trig --dump > $(2)
 	rm temp.xml temp.trig

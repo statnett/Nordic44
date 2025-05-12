@@ -1,11 +1,13 @@
+PREFIX adms:     <http://www.w3.org/ns/adms#>
 PREFIX cim:      <https://cim.ucaiug.io/ns#>
 PREFIX dcat:     <http://www.w3.org/ns/dcat#>
 PREFIX dcat-cim: <https://cim4.eu/ns/dcat-cim#>
+PREFIX dcatcim:  <https://cim4.eu/ns/dcatcim#>
 PREFIX dct:      <http://purl.org/dc/terms/>
 PREFIX dcterms:  <http://purl.org/dc/terms/>
 PREFIX dm:       <http://iec.ch/TC57/61970-552/DifferenceModel/1#>
 PREFIX entsoe2:  <http://entsoe.eu/CIM/SchemaExtension/3/2#>
-PREFIX eu:       <http://iec.ch/TC57/CIM100-European#>
+PREFIX eu:       <https://cim.ucaiug.io/ns/eu#>
 PREFIX eumd:     <https://cim4.eu/ns/Metadata-European#>
 PREFIX icim:     <http://iec.ch/TC57/2013/CIM-schema-cim16-info#>
 PREFIX json-ld:  <https://www.w3.org/ns/json-ld#>
@@ -141,21 +143,23 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.name    "SB103 Single phase Breaker" .
     
     <urn:uuid:eb4d92e6-d4da-11e7-9296-cec278b6b50a>
-            rdf:type           rdfg:Graph , dcat:Dataset;
+            rdf:type           dcat:Dataset;
+            dct:accessRights   <https://energy.referencedata.eu/Confidentiality/Public>;
             dct:conformsTo     <http://iec.ch/TC57/CIM/Asset/2/0>;
-            dct:description    "Asset (AS) records for Statnett as asset owner in the enterprise part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region.Nordic CPMSM Test model Asset.";
-            dct:identifier     "eb4d92e6-d4da-11e7-9296-cec278b6b50a";
-            dct:issued         "2025-02-14"^^xsd:date;
+            dct:description    "Asset (AS) records for Statnett as asset owner in the enterprise part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region.Nordic CPMSM Test model Asset."@en;
+            dct:identifier     "urn:uuid:eb4d92e6-d4da-11e7-9296-cec278b6b50a";
+            dct:issued         "2025-02-14T12:00:00Z"^^xsd:dateTime;
+            dct:publisher      <https://www.statnett.no/en/about-statnett/contact-us/>;
             dct:requires       <urn:uuid:ade44b65-0bfa-41e0-95c5-2ccb345a6fed> , <urn:uuid:75f351c7-75a6-4c25-8f1c-985aa59e90ad> , <urn:uuid:d3158561-2716-4978-9b61-dd7cc47f1f91>;
-            dct:temporal       [ rdf:type        dct:PeriodOfTime;
-                                 dcat:startDate  "2014-12-31T23:00:00Z"^^xsd:dateTime
-                               ];
-            dcat:distribution  [ rdf:type    dcat:Distribution;
-                                 dct:issued  "2025-02-14T12:00:00Z"^^xsd:dateTime
-                               ];
-            dcat:isVersionOf   <http://www.Statnett.no/Enterprise/Nordic44>;
-            dcat:version       "1";
-            json-ld:base       "http://www.Statnett.no/Enterprise/Nordic44#" .
+            dct:rights         "Copyright";
+            dct:rightsHolder   "Statnett SF";
+            dct:title          "20160101_N44-ENT-Statnett_AS_v3-0-0-beta-1";
+            dct:type           <https://energy.referencedata.eu/type/CIM-EnterpriseModel>;
+            adms:versionNotes  "Initial version"@en;
+            dcat:isVersionOf   <https://energy.referencedata.eu/Test/Enterprise/N44-ENT-Statnett_AS>;
+            dcat:keyword       "Asset" , "AS";
+            dcat:startDate     "2014-12-31T23:00:00Z"^^xsd:dateTime;
+            dcat:version       "3.0.0-beta-1" .
     
     <urn:uuid:0b1136d1-2117-453a-8365-c39e47dcd6f7>
             rdf:type                   cim:Ownership;

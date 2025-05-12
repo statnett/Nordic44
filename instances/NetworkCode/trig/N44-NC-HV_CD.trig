@@ -6,7 +6,7 @@ PREFIX dct:      <http://purl.org/dc/terms/>
 PREFIX dcterms:  <http://purl.org/dc/terms/>
 PREFIX dm:       <http://iec.ch/TC57/61970-552/DifferenceModel/1#>
 PREFIX entsoe2:  <http://entsoe.eu/CIM/SchemaExtension/3/2#>
-PREFIX eu:       <http://iec.ch/TC57/CIM100-European#>
+PREFIX eu:       <https://cim.ucaiug.io/ns/eu#>
 PREFIX eumd:     <https://cim4.eu/ns/Metadata-European#>
 PREFIX icim:     <http://iec.ch/TC57/2013/CIM-schema-cim16-info#>
 PREFIX json-ld:  <https://www.w3.org/ns/json-ld#>
@@ -19,115 +19,130 @@ PREFIX rdfg:     <http://www.w3.org/2004/03/trix/rdfg-1/>
 PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
 
 <urn:uuid:d9a01a85-0ad8-4958-be03-d89ad78ca497> {
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_b56a8421-25e2-47c2-bf0d-58432c58bfcc>
-            rdf:type                   nc:BiddingZoneBorder;
-            cim:IdentifiedObject.description
-                    "Non-oriented border between Norwegian Area Elspot Area 4 - Finland";
-            cim:IdentifiedObject.mRID  "b56a8421-25e2-47c2-bf0d-58432c58bfcc";
-            cim:IdentifiedObject.name  "NO4 - FI";
-            nc:BiddingZoneBorder.BiddingZoneOne
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_b64efd13-92fe-4786-87ef-731d1e2cce0e>;
-            nc:BiddingZoneBorder.BiddingZoneTwo
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_6eaaae78-21f1-41c7-81a4-2b0fe15cdbfc> .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_3426d23d-68f9-4631-8acc-f4c715416030>
-            rdf:type                   nc:CapacityCalculationRegion;
-            cim:IdentifiedObject.description
-                    "Capacity Calculation Region Nordic44";
-            cim:IdentifiedObject.mRID  "3426d23d-68f9-4631-8acc-f4c715416030";
-            cim:IdentifiedObject.name  "CCR-Nordic44" .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_7216a0ff-6528-4026-80ad-d73fb45efda0>
+    <urn:uuid:dc281688-8b45-4ce7-b2e8-6c524a5afece>
             rdf:type                       nc:BiddingZone;
             cim:IdentifiedObject.description
-                    "SE4_NB (SE4, Nordbalt)";
-            cim:IdentifiedObject.mRID      "7216a0ff-6528-4026-80ad-d73fb45efda0";
-            cim:IdentifiedObject.name      "SE4_NB";
-            <https://cim.ucaiug.io/ns/eu#IdentifiedObject.energyIdentCodeEic>
-                    "46Y000000000004S";
+                    "Norwegian Area Elspot Area 5";
+            cim:IdentifiedObject.mRID      "dc281688-8b45-4ce7-b2e8-6c524a5afece";
+            cim:IdentifiedObject.name      "NO5";
+            eu:IdentifiedObject.energyIdentCodeEic
+                    "10Y1001A1001A48H";
             nc:BiddingZone.isTradeEnabled  true .
     
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_85fea1a6-7edb-4f73-88b8-3a95ea728d03>
-            rdf:type                       nc:BiddingZone;
-            cim:IdentifiedObject.description
-                    "Germany_Luxemburg";
-            cim:IdentifiedObject.mRID      "85fea1a6-7edb-4f73-88b8-3a95ea728d03";
-            cim:IdentifiedObject.name      "DE_LU";
-            <https://cim.ucaiug.io/ns/eu#IdentifiedObject.energyIdentCodeEic>
-                    "10Y1001A1001A82H";
-            nc:BiddingZone.isTradeEnabled  true .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_ebf80203-6649-42c7-901e-18382bcb3730>
-            rdf:type                       nc:BiddingZone;
-            cim:IdentifiedObject.description
-                    "SE4_SWL (SE4, Sydvastlanken)";
-            cim:IdentifiedObject.mRID      "ebf80203-6649-42c7-901e-18382bcb3730";
-            cim:IdentifiedObject.name      "SE4_SWL";
-            <https://cim.ucaiug.io/ns/eu#IdentifiedObject.energyIdentCodeEic>
-                    "46Y000000000018H";
-            nc:BiddingZone.isTradeEnabled  true .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_e8bc1265-aed2-4455-8e01-aa98cff31cc6>
-            rdf:type                       nc:BiddingZone;
-            cim:IdentifiedObject.description
-                    "DKW-DKE virtual Bidding Zone Border";
-            cim:IdentifiedObject.mRID      "e8bc1265-aed2-4455-8e01-aa98cff31cc6";
-            cim:IdentifiedObject.name      "DKW-DKE";
-            <https://cim.ucaiug.io/ns/eu#IdentifiedObject.energyIdentCodeEic>
-                    "45Y0000000000038";
-            nc:BiddingZone.isTradeEnabled  true .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_173e9d6d-77c8-44e0-805f-dc2f773c61fb>
-            rdf:type                       nc:BiddingZone;
-            cim:IdentifiedObject.description
-                    "Virtual Bidding Zone NO2-DK1";
-            cim:IdentifiedObject.mRID      "173e9d6d-77c8-44e0-805f-dc2f773c61fb";
-            cim:IdentifiedObject.name      "NO_NO2_DK1";
-            <https://cim.ucaiug.io/ns/eu#IdentifiedObject.energyIdentCodeEic>
-                    "50YCUY85S1HH29EK";
-            nc:BiddingZone.isTradeEnabled  true .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_b64efd13-92fe-4786-87ef-731d1e2cce0e>
+    <urn:uuid:b64efd13-92fe-4786-87ef-731d1e2cce0e>
             rdf:type                       nc:BiddingZone;
             cim:IdentifiedObject.description
                     "Norwegian Area Elspot Area 4";
             cim:IdentifiedObject.mRID      "b64efd13-92fe-4786-87ef-731d1e2cce0e";
             cim:IdentifiedObject.name      "NO4";
-            <https://cim.ucaiug.io/ns/eu#IdentifiedObject.energyIdentCodeEic>
+            eu:IdentifiedObject.energyIdentCodeEic
                     "10YNO-4--------9";
             nc:BiddingZone.isTradeEnabled  true .
     
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_e951c775-b6d0-4aa4-b85c-496a00c91175>
+    <urn:uuid:d2baadfc-1398-4300-bcd8-2eacd5b931aa>
             rdf:type                   nc:BiddingZoneBorder;
             cim:IdentifiedObject.description
-                    "Non-oriented border between Denmark DK1 - Swedish Elspot Area 3";
-            cim:IdentifiedObject.mRID  "e951c775-b6d0-4aa4-b85c-496a00c91175";
-            cim:IdentifiedObject.name  "DK1 - SE3";
+                    "Non-oriented border between Swedish Elspot Area 4 - Germany_Luxemburg";
+            cim:IdentifiedObject.mRID  "d2baadfc-1398-4300-bcd8-2eacd5b931aa";
+            cim:IdentifiedObject.name  "SE4 - DE_LU";
             nc:BiddingZoneBorder.BiddingZoneOne
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_e7e780b2-3a74-4453-8e4d-f10a397abf5d>;
+                    <urn:uuid:2119a5e9-fa38-4fe8-a8e9-2a2cc6f73bad>;
             nc:BiddingZoneBorder.BiddingZoneTwo
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_30e6709e-510c-49b9-92ec-e2aebdc1050e> .
+                    <urn:uuid:85fea1a6-7edb-4f73-88b8-3a95ea728d03> .
     
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_3f43657a-d46a-4247-85d8-55027c0adaf7>
+    <urn:uuid:1dd01985-1188-4568-af69-814fed3a3c84>
+            rdf:type                   nc:Organisation;
+            cim:IdentifiedObject.description
+                    "Nordic_TSO";
+            cim:IdentifiedObject.mRID  "1dd01985-1188-4568-af69-814fed3a3c84";
+            cim:IdentifiedObject.name  "Nordic_TSO" .
+    
+    <urn:uuid:0b1fce1c-50ec-409a-a8ba-5a69a50b88ed>
             rdf:type                   nc:BiddingZoneBorder;
             cim:IdentifiedObject.description
-                    "Non-oriented border between Norwegian Area Elspot Area 5 - Norwegian Area Elspot Area 3";
-            cim:IdentifiedObject.mRID  "3f43657a-d46a-4247-85d8-55027c0adaf7";
-            cim:IdentifiedObject.name  "NO5 - NO3";
+                    "Non-oriented border between Swedish Elspot Area 3 - Finland";
+            cim:IdentifiedObject.mRID  "0b1fce1c-50ec-409a-a8ba-5a69a50b88ed";
+            cim:IdentifiedObject.name  "SE3 - FI";
             nc:BiddingZoneBorder.BiddingZoneOne
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_dc281688-8b45-4ce7-b2e8-6c524a5afece>;
+                    <urn:uuid:30e6709e-510c-49b9-92ec-e2aebdc1050e>;
             nc:BiddingZoneBorder.BiddingZoneTwo
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_0f094148-164b-427a-a8e8-0c5f334688ae> .
+                    <urn:uuid:6eaaae78-21f1-41c7-81a4-2b0fe15cdbfc> .
     
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_239f5b94-dc6c-40ef-8413-f95f23ba701e>
+    <urn:uuid:4bd4d204-ad21-4bb5-9657-a713bb8193d4>
+            rdf:type                   nc:BiddingZoneBorder;
+            cim:IdentifiedObject.description
+                    "Non-oriented border between Swedish Elspot Area 1 - Swedish Elspot Area 2";
+            cim:IdentifiedObject.mRID  "4bd4d204-ad21-4bb5-9657-a713bb8193d4";
+            cim:IdentifiedObject.name  "SE1 - SE2";
+            nc:BiddingZoneBorder.BiddingZoneOne
+                    <urn:uuid:b478a210-4550-4986-9e47-47912ff06d61>;
+            nc:BiddingZoneBorder.BiddingZoneTwo
+                    <urn:uuid:781f385c-f3a1-4691-843d-eab2ed919a1b> .
+    
+    <urn:uuid:d59af46b-8d2c-41b0-a2b0-817b001831fc>
+            rdf:type                   nc:BiddingZoneBorder;
+            cim:IdentifiedObject.description
+                    "Non-oriented border between Germany_Luxemburg - Denmark DK2";
+            cim:IdentifiedObject.mRID  "d59af46b-8d2c-41b0-a2b0-817b001831fc";
+            cim:IdentifiedObject.name  "DE_LU - DK2";
+            nc:BiddingZoneBorder.BiddingZoneOne
+                    <urn:uuid:85fea1a6-7edb-4f73-88b8-3a95ea728d03>;
+            nc:BiddingZoneBorder.BiddingZoneTwo
+                    <urn:uuid:0c1bc7f4-7404-4a4d-9d6b-d9edc0944a54> .
+    
+    <urn:uuid:7d612e2e-5378-42a4-9d44-c3a722561c99>
             rdf:type                       nc:BiddingZone;
             cim:IdentifiedObject.description
-                    "SE3_KS (SE3, Kontiskan)";
-            cim:IdentifiedObject.mRID      "239f5b94-dc6c-40ef-8413-f95f23ba701e";
-            cim:IdentifiedObject.name      "SE3_KS";
-            <https://cim.ucaiug.io/ns/eu#IdentifiedObject.energyIdentCodeEic>
-                    "46Y000000000002W";
+                    "Bidding Zone - Great Britain (APX)";
+            cim:IdentifiedObject.mRID      "7d612e2e-5378-42a4-9d44-c3a722561c99";
+            cim:IdentifiedObject.name      "GB_APX_PRICEZONE";
+            eu:IdentifiedObject.energyIdentCodeEic
+                    "10Y1001A1001A58E";
             nc:BiddingZone.isTradeEnabled  true .
+    
+    <urn:uuid:9ae85411-31a9-474d-acbd-f88da4cad240>
+            rdf:type                   nc:BiddingZoneBorder;
+            cim:IdentifiedObject.description
+                    "Non-oriented border between Norwegian Area Elspot Area 2 - Norwegian Fictitious Area 2A";
+            cim:IdentifiedObject.mRID  "9ae85411-31a9-474d-acbd-f88da4cad240";
+            cim:IdentifiedObject.name  "NO2 - NO_FICT_AREA_2A";
+            nc:BiddingZoneBorder.BiddingZoneOne
+                    <urn:uuid:63b13e2e-8d0a-47d0-8de8-fb686decbae4>;
+            nc:BiddingZoneBorder.BiddingZoneTwo
+                    <urn:uuid:8ad62773-067d-4de6-a818-c399459347cf> .
+    
+    <urn:uuid:ccb919b4-1482-49f1-ab46-b072020ac120>
+            rdf:type                   nc:BiddingZoneBorder;
+            cim:IdentifiedObject.description
+                    "Non-oriented border between Denmark DK1 - Netherlands";
+            cim:IdentifiedObject.mRID  "ccb919b4-1482-49f1-ab46-b072020ac120";
+            cim:IdentifiedObject.name  "DK1 - NL";
+            nc:BiddingZoneBorder.BiddingZoneOne
+                    <urn:uuid:e7e780b2-3a74-4453-8e4d-f10a397abf5d>;
+            nc:BiddingZoneBorder.BiddingZoneTwo
+                    <urn:uuid:090d342b-a577-4be1-880b-f97bc958ff03> .
+    
+    <urn:uuid:a681779c-0c9a-4d1e-9b31-5e896f09b6d3>
+            rdf:type                   nc:BiddingZoneBorder;
+            cim:IdentifiedObject.description
+                    "Non-oriented border between Norwegian Area Elspot Area 2 - Germany_Luxemburg";
+            cim:IdentifiedObject.mRID  "a681779c-0c9a-4d1e-9b31-5e896f09b6d3";
+            cim:IdentifiedObject.name  "NO2 - DE_LU";
+            nc:BiddingZoneBorder.BiddingZoneOne
+                    <urn:uuid:63b13e2e-8d0a-47d0-8de8-fb686decbae4>;
+            nc:BiddingZoneBorder.BiddingZoneTwo
+                    <urn:uuid:85fea1a6-7edb-4f73-88b8-3a95ea728d03> .
+    
+    <urn:uuid:fdc34686-71ab-4fc4-8975-271a1bbe0acb>
+            rdf:type                   nc:BiddingZoneBorder;
+            cim:IdentifiedObject.description
+                    "Non-oriented border between Norwegian Area Elspot Area 5 - Norwegian Area Elspot Area 1";
+            cim:IdentifiedObject.mRID  "fdc34686-71ab-4fc4-8975-271a1bbe0acb";
+            cim:IdentifiedObject.name  "NO5 - NO1";
+            nc:BiddingZoneBorder.BiddingZoneOne
+                    <urn:uuid:dc281688-8b45-4ce7-b2e8-6c524a5afece>;
+            nc:BiddingZoneBorder.BiddingZoneTwo
+                    <urn:uuid:83aa03e5-5fd0-431c-b8dd-acc08c21ed6a> .
     
     <urn:uuid:d9a01a85-0ad8-4958-be03-d89ad78ca497>
             rdf:type              dcat:Dataset;
@@ -150,840 +165,825 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             prov:generatedAtTime  "2025-02-14T11:00:00Z"^^xsd:dateTime;
             prov:wasGeneratedBy   <https://energy.referencedata.eu/Test/Action/CD> .
     
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_a681779c-0c9a-4d1e-9b31-5e896f09b6d3>
-            rdf:type                   nc:BiddingZoneBorder;
-            cim:IdentifiedObject.description
-                    "Non-oriented border between Norwegian Area Elspot Area 2 - Germany_Luxemburg";
-            cim:IdentifiedObject.mRID  "a681779c-0c9a-4d1e-9b31-5e896f09b6d3";
-            cim:IdentifiedObject.name  "NO2 - DE_LU";
-            nc:BiddingZoneBorder.BiddingZoneOne
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_63b13e2e-8d0a-47d0-8de8-fb686decbae4>;
-            nc:BiddingZoneBorder.BiddingZoneTwo
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_85fea1a6-7edb-4f73-88b8-3a95ea728d03> .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_090d342b-a577-4be1-880b-f97bc958ff03>
-            rdf:type                       nc:BiddingZone;
-            cim:IdentifiedObject.description
-                    "Netherlands";
-            cim:IdentifiedObject.mRID      "090d342b-a577-4be1-880b-f97bc958ff03";
-            cim:IdentifiedObject.name      "NL";
-            <https://cim.ucaiug.io/ns/eu#IdentifiedObject.energyIdentCodeEic>
-                    "10YNL----------L";
-            nc:BiddingZone.isTradeEnabled  true .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_0f094148-164b-427a-a8e8-0c5f334688ae>
-            rdf:type                       nc:BiddingZone;
-            cim:IdentifiedObject.description
-                    "Norwegian Area Elspot Area 3";
-            cim:IdentifiedObject.mRID      "0f094148-164b-427a-a8e8-0c5f334688ae";
-            cim:IdentifiedObject.name      "NO3";
-            <https://cim.ucaiug.io/ns/eu#IdentifiedObject.energyIdentCodeEic>
-                    "10YNO-3--------J";
-            nc:BiddingZone.isTradeEnabled  true .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_5829041b-1f25-4a3d-8b4c-532d9f0b6e54>
-            rdf:type                   nc:SynchronousArea;
-            cim:IdentifiedObject.description
-                    "Nordic Synchronous Area";
-            cim:IdentifiedObject.mRID  "5829041b-1f25-4a3d-8b4c-532d9f0b6e54";
-            cim:IdentifiedObject.name  "NORDIC_SYNC_AREA";
-            <https://cim.ucaiug.io/ns/eu#IdentifiedObject.energyIdentCodeEic>
-                    "10Y1001C--00146U";
-            nc:SynchronousArea.nominalFrequency
-                    "50.0"^^xsd:float .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_7d612e2e-5378-42a4-9d44-c3a722561c99>
-            rdf:type                       nc:BiddingZone;
-            cim:IdentifiedObject.description
-                    "Bidding Zone - Great Britain (APX)";
-            cim:IdentifiedObject.mRID      "7d612e2e-5378-42a4-9d44-c3a722561c99";
-            cim:IdentifiedObject.name      "GB_APX_PRICEZONE";
-            <https://cim.ucaiug.io/ns/eu#IdentifiedObject.energyIdentCodeEic>
-                    "10Y1001A1001A58E";
-            nc:BiddingZone.isTradeEnabled  true .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_3d91562b-f6fa-429f-b4bf-11593f79c557>
-            rdf:type                   nc:BiddingZoneBorder;
-            cim:IdentifiedObject.description
-                    "Non-oriented border between Swedish Elspot Area 2 - Swedish Elspot Area 3";
-            cim:IdentifiedObject.mRID  "3d91562b-f6fa-429f-b4bf-11593f79c557";
-            cim:IdentifiedObject.name  "SE2 - SE3";
-            nc:BiddingZoneBorder.BiddingZoneOne
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_781f385c-f3a1-4691-843d-eab2ed919a1b>;
-            nc:BiddingZoneBorder.BiddingZoneTwo
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_30e6709e-510c-49b9-92ec-e2aebdc1050e> .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_7113ab1b-c48b-4977-a067-f70ae52df0b5>
-            rdf:type                   nc:BiddingZoneBorder;
-            cim:IdentifiedObject.description
-                    "Non-oriented border between Poland - Swedish Elspot Area 4";
-            cim:IdentifiedObject.mRID  "7113ab1b-c48b-4977-a067-f70ae52df0b5";
-            cim:IdentifiedObject.name  "PL - SE4";
-            nc:BiddingZoneBorder.BiddingZoneOne
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_cebd0c20-568c-4bb4-8542-1a6e90e741af>;
-            nc:BiddingZoneBorder.BiddingZoneTwo
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_2119a5e9-fa38-4fe8-a8e9-2a2cc6f73bad> .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_9eab662e-dc18-41ad-883e-021cbcfede99>
-            rdf:type                       nc:BiddingZone;
-            cim:IdentifiedObject.description
-                    "Fingrid Oyj";
-            cim:IdentifiedObject.mRID      "9eab662e-dc18-41ad-883e-021cbcfede99";
-            cim:IdentifiedObject.name      "FI_FS";
-            <https://cim.ucaiug.io/ns/eu#IdentifiedObject.energyIdentCodeEic>
-                    "44Y-00000000160K";
-            nc:BiddingZone.isTradeEnabled  true .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_f36f7e28-51a4-4396-8441-9d90d22f0775>
-            rdf:type                   nc:CoordinatedCapacityCalculator;
-            cim:IdentifiedObject.description
-                    "Coordinated Capacity Calcualtion performed by Nordic_TSO";
-            cim:IdentifiedObject.mRID  "f36f7e28-51a4-4396-8441-9d90d22f0775";
-            cim:IdentifiedObject.name  "CCC-Nordic_TSO";
-            cim:OrganisationRole.Organisation
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_1dd01985-1188-4568-af69-814fed3a3c84> .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_1573e9cd-ba34-4706-8111-a20ba8f299dd>
-            rdf:type                       nc:BiddingZone;
-            cim:IdentifiedObject.description
-                    "Latvia";
-            cim:IdentifiedObject.mRID      "1573e9cd-ba34-4706-8111-a20ba8f299dd";
-            cim:IdentifiedObject.name      "LV";
-            <https://cim.ucaiug.io/ns/eu#IdentifiedObject.energyIdentCodeEic>
-                    "10YLV-1001A00074";
-            nc:BiddingZone.isTradeEnabled  true .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_852b95c0-4c49-4ded-85b2-a8f2b610db30>
-            rdf:type                   nc:BiddingZoneBorder;
-            cim:IdentifiedObject.description
-                    "Non-oriented border between Norwegian Area Elspot Area 1 - Norwegian Area Elspot Area 3";
-            cim:IdentifiedObject.mRID  "852b95c0-4c49-4ded-85b2-a8f2b610db30";
-            cim:IdentifiedObject.name  "NO1 - NO3";
-            nc:BiddingZoneBorder.BiddingZoneOne
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a>;
-            nc:BiddingZoneBorder.BiddingZoneTwo
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_0f094148-164b-427a-a8e8-0c5f334688ae> .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_6f62eb40-3a9b-4424-b47b-2815b8e0d9fe>
-            rdf:type                   nc:BiddingZoneBorder;
-            cim:IdentifiedObject.description
-                    "Non-oriented border between Cut area SE3LS - Swedish Elspot Area 3";
-            cim:IdentifiedObject.mRID  "6f62eb40-3a9b-4424-b47b-2815b8e0d9fe";
-            cim:IdentifiedObject.name  "CUT_AREA_SE3LS - SE3";
-            nc:BiddingZoneBorder.BiddingZoneOne
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_e79e30a5-9cc0-4773-9909-1aab02341519>;
-            nc:BiddingZoneBorder.BiddingZoneTwo
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_30e6709e-510c-49b9-92ec-e2aebdc1050e> .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_f87c7026-ffd9-4c9e-b2ad-5311ea79e5f2>
-            rdf:type                   nc:BiddingZoneBorder;
-            cim:IdentifiedObject.description
-                    "Non-oriented border between Swedish Elspot Area 3 - Norwegian Area Elspot Area 1";
-            cim:IdentifiedObject.mRID  "f87c7026-ffd9-4c9e-b2ad-5311ea79e5f2";
-            cim:IdentifiedObject.name  "SE3 - NO1";
-            nc:BiddingZoneBorder.BiddingZoneOne
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_30e6709e-510c-49b9-92ec-e2aebdc1050e>;
-            nc:BiddingZoneBorder.BiddingZoneTwo
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a> .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_63120a2a-5a7e-4d6e-b5fe-7b9f31214372>
-            rdf:type                       nc:BiddingZone;
-            cim:IdentifiedObject.description
-                    "Virtual Bidding Zone NO2NSL";
-            cim:IdentifiedObject.mRID      "63120a2a-5a7e-4d6e-b5fe-7b9f31214372";
-            cim:IdentifiedObject.name      "NO_NO2NSL";
-            <https://cim.ucaiug.io/ns/eu#IdentifiedObject.energyIdentCodeEic>
-                    "50Y0JVU59B4JWQCU";
-            nc:BiddingZone.isTradeEnabled  true .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_9ed72c3e-5849-4ff6-aea0-e9fbe9ee9bbf>
-            rdf:type                   nc:BiddingZoneBorder;
-            cim:IdentifiedObject.description
-                    "Non-oriented border between Swedish Elspot Area 2 - Norwegian Area Elspot Area 3";
-            cim:IdentifiedObject.mRID  "9ed72c3e-5849-4ff6-aea0-e9fbe9ee9bbf";
-            cim:IdentifiedObject.name  "SE2 - NO3";
-            nc:BiddingZoneBorder.BiddingZoneOne
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_781f385c-f3a1-4691-843d-eab2ed919a1b>;
-            nc:BiddingZoneBorder.BiddingZoneTwo
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_0f094148-164b-427a-a8e8-0c5f334688ae> .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_2bd7a8ab-18d1-42c6-8454-c2c8ff4dbebd>
-            rdf:type                       nc:BiddingZone;
-            cim:IdentifiedObject.description
-                    "Estonia";
-            cim:IdentifiedObject.mRID      "2bd7a8ab-18d1-42c6-8454-c2c8ff4dbebd";
-            cim:IdentifiedObject.name      "EE";
-            <https://cim.ucaiug.io/ns/eu#IdentifiedObject.energyIdentCodeEic>
-                    "10Y1001A1001A39I";
-            nc:BiddingZone.isTradeEnabled  true .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_0c1bc7f4-7404-4a4d-9d6b-d9edc0944a54>
-            rdf:type                       nc:BiddingZone;
-            cim:IdentifiedObject.description
-                    "Denmark DK2";
-            cim:IdentifiedObject.mRID      "0c1bc7f4-7404-4a4d-9d6b-d9edc0944a54";
-            cim:IdentifiedObject.name      "DK2";
-            <https://cim.ucaiug.io/ns/eu#IdentifiedObject.energyIdentCodeEic>
-                    "10YDK-2--------M";
-            nc:BiddingZone.isTradeEnabled  true .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_f7bf2b22-981d-468a-88a5-895833533251>
-            rdf:type                       nc:BiddingZone;
-            cim:IdentifiedObject.description
-                    "Virtual bidding zone border SE3-SE4 AC+SWL";
-            cim:IdentifiedObject.mRID      "f7bf2b22-981d-468a-88a5-895833533251";
-            cim:IdentifiedObject.name      "VBZ_SE3-SE4_ACSW";
-            <https://cim.ucaiug.io/ns/eu#IdentifiedObject.energyIdentCodeEic>
-                    "46Y000000000015N";
-            nc:BiddingZone.isTradeEnabled  true .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_ccb919b4-1482-49f1-ab46-b072020ac120>
-            rdf:type                   nc:BiddingZoneBorder;
-            cim:IdentifiedObject.description
-                    "Non-oriented border between Denmark DK1 - Netherlands";
-            cim:IdentifiedObject.mRID  "ccb919b4-1482-49f1-ab46-b072020ac120";
-            cim:IdentifiedObject.name  "DK1 - NL";
-            nc:BiddingZoneBorder.BiddingZoneOne
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_e7e780b2-3a74-4453-8e4d-f10a397abf5d>;
-            nc:BiddingZoneBorder.BiddingZoneTwo
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_090d342b-a577-4be1-880b-f97bc958ff03> .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_1dd01985-1188-4568-af69-814fed3a3c84>
-            rdf:type                   nc:Organisation;
-            cim:IdentifiedObject.description
-                    "Nordic_TSO";
-            cim:IdentifiedObject.mRID  "1dd01985-1188-4568-af69-814fed3a3c84";
-            cim:IdentifiedObject.name  "Nordic_TSO" .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_8ec52d73-62d1-4676-a791-0f7302a04b71>
-            rdf:type                       nc:BiddingZone;
-            cim:IdentifiedObject.description
-                    "Swedish Fictitious Area SE3A";
-            cim:IdentifiedObject.mRID      "8ec52d73-62d1-4676-a791-0f7302a04b71";
-            cim:IdentifiedObject.name      "SE3A";
-            <https://cim.ucaiug.io/ns/eu#IdentifiedObject.energyIdentCodeEic>
-                    "10Y1001C--00148Q";
-            nc:BiddingZone.isTradeEnabled  true .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_49811c7c-0cea-4dcf-8c83-3c5b8601b218>
-            rdf:type                   nc:BiddingZoneBorder;
-            cim:IdentifiedObject.description
-                    "Non-oriented border between Denmark DK2 - Germany_Austria_Luxemburg";
-            cim:IdentifiedObject.mRID  "49811c7c-0cea-4dcf-8c83-3c5b8601b218";
-            cim:IdentifiedObject.name  "DK2 - DE_AT_LU";
-            nc:BiddingZoneBorder.BiddingZoneOne
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_0c1bc7f4-7404-4a4d-9d6b-d9edc0944a54>;
-            nc:BiddingZoneBorder.BiddingZoneTwo
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_f0a0d421-7010-423b-805a-73a99393f1d6> .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_6eaaae78-21f1-41c7-81a4-2b0fe15cdbfc>
-            rdf:type                       nc:BiddingZone;
-            cim:IdentifiedObject.description
-                    "Finland";
-            cim:IdentifiedObject.mRID      "6eaaae78-21f1-41c7-81a4-2b0fe15cdbfc";
-            cim:IdentifiedObject.name      "FI";
-            <https://cim.ucaiug.io/ns/eu#IdentifiedObject.energyIdentCodeEic>
-                    "10YFI-1--------U";
-            nc:BiddingZone.isTradeEnabled  true .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_085b0abe-2e81-49f7-9843-f4746c387e10>
-            rdf:type                   nc:BiddingZoneBorder;
-            cim:IdentifiedObject.description
-                    "Non-oriented border between IFA2_virtual_BZN - Great Britain";
-            cim:IdentifiedObject.mRID  "085b0abe-2e81-49f7-9843-f4746c387e10";
-            cim:IdentifiedObject.name  "FR_UK_IFA2_V_BZN - GB";
-            nc:BiddingZoneBorder.BiddingZoneOne
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_5df846f4-0a3a-43fc-af92-1d2fa0c6d860>;
-            nc:BiddingZoneBorder.BiddingZoneTwo
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_7e0de26d-9d0e-4181-a94a-d3a50fdaf719> .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_a285b3dd-010c-4d79-aac8-54832d0d994c>
-            rdf:type                       nc:BiddingZone;
-            cim:IdentifiedObject.description
-                    "Virtual bidding Zone NO2-GB";
-            cim:IdentifiedObject.mRID      "a285b3dd-010c-4d79-aac8-54832d0d994c";
-            cim:IdentifiedObject.name      "NO_NO2-GB";
-            <https://cim.ucaiug.io/ns/eu#IdentifiedObject.energyIdentCodeEic>
-                    "50Y-HTS3792HUOAC";
-            nc:BiddingZone.isTradeEnabled  true .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_2e7b7ea0-39a6-46ed-80a1-e887ce4c45cd>
-            rdf:type                   nc:BiddingZoneBorder;
-            cim:IdentifiedObject.description
-                    "Non-oriented border between Norwegian Area Elspot Area 1 - Norwegian Area Elspot Area 2";
-            cim:IdentifiedObject.mRID  "2e7b7ea0-39a6-46ed-80a1-e887ce4c45cd";
-            cim:IdentifiedObject.name  "NO1 - NO2";
-            nc:BiddingZoneBorder.BiddingZoneOne
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a>;
-            nc:BiddingZoneBorder.BiddingZoneTwo
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_63b13e2e-8d0a-47d0-8de8-fb686decbae4> .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_b08ad243-30c1-4bb1-9e7e-5783a8ed50bd>
-            rdf:type                   nc:DistributionSystemOperator;
-            cim:IdentifiedObject.description
-                    "Distribution System Operator (DSO) role performed by Telemark_DSO-Test";
-            cim:IdentifiedObject.mRID  "b08ad243-30c1-4bb1-9e7e-5783a8ed50bd";
-            cim:IdentifiedObject.name  "DSO-Telemark_DSO-Test";
-            cim:OrganisationRole.Organisation
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_7c072768-f7f2-4c95-8037-e0059468442a> .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_4f1743b1-da1c-4087-9055-291f7955ec8f>
-            rdf:type                   nc:BiddingZoneBorder;
-            cim:IdentifiedObject.description
-                    "Non-oriented border between Norwegian Area Elspot Area 4 - Swedish Elspot Area 1";
-            cim:IdentifiedObject.mRID  "4f1743b1-da1c-4087-9055-291f7955ec8f";
-            cim:IdentifiedObject.name  "NO4 - SE1";
-            nc:BiddingZoneBorder.BiddingZoneOne
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_b64efd13-92fe-4786-87ef-731d1e2cce0e>;
-            nc:BiddingZoneBorder.BiddingZoneTwo
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_b478a210-4550-4986-9e47-47912ff06d61> .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_781f385c-f3a1-4691-843d-eab2ed919a1b>
-            rdf:type                       nc:BiddingZone;
-            cim:IdentifiedObject.description
-                    "Swedish Elspot Area 2";
-            cim:IdentifiedObject.mRID      "781f385c-f3a1-4691-843d-eab2ed919a1b";
-            cim:IdentifiedObject.name      "SE2";
-            <https://cim.ucaiug.io/ns/eu#IdentifiedObject.energyIdentCodeEic>
-                    "10Y1001A1001A45N";
-            nc:BiddingZone.isTradeEnabled  true .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_4f4f2cfe-424c-42d0-a55b-d91faf704913>
-            rdf:type                   nc:BiddingZoneBorder;
-            cim:IdentifiedObject.description
-                    "Non-oriented border between Denmark DK1 - Germany_Luxemburg";
-            cim:IdentifiedObject.mRID  "4f4f2cfe-424c-42d0-a55b-d91faf704913";
-            cim:IdentifiedObject.name  "DK1 - DE_LU";
-            nc:BiddingZoneBorder.BiddingZoneOne
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_e7e780b2-3a74-4453-8e4d-f10a397abf5d>;
-            nc:BiddingZoneBorder.BiddingZoneTwo
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_85fea1a6-7edb-4f73-88b8-3a95ea728d03> .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_8105c169-bb3e-4c36-9bac-0c31c482638b>
-            rdf:type                   nc:BiddingZoneBorder;
-            cim:IdentifiedObject.description
-                    "Non-oriented border between Denmark DK1 - Great Britain";
-            cim:IdentifiedObject.mRID  "8105c169-bb3e-4c36-9bac-0c31c482638b";
-            cim:IdentifiedObject.name  "DK1 - GB";
-            nc:BiddingZoneBorder.BiddingZoneOne
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_e7e780b2-3a74-4453-8e4d-f10a397abf5d>;
-            nc:BiddingZoneBorder.BiddingZoneTwo
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_7e0de26d-9d0e-4181-a94a-d3a50fdaf719> .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_72eb4991-d019-4b13-b023-74578baec192>
-            rdf:type                   nc:BiddingZoneBorder;
-            cim:IdentifiedObject.description
-                    "Non-oriented border between Great Britain - Norwegian Area Elspot Area 2";
-            cim:IdentifiedObject.mRID  "72eb4991-d019-4b13-b023-74578baec192";
-            cim:IdentifiedObject.name  "GB - NO2";
-            nc:BiddingZoneBorder.BiddingZoneOne
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_7e0de26d-9d0e-4181-a94a-d3a50fdaf719>;
-            nc:BiddingZoneBorder.BiddingZoneTwo
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_63b13e2e-8d0a-47d0-8de8-fb686decbae4> .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_50f0783d-0543-41c4-972a-9ad8415b52a4>
-            rdf:type                   nc:TransmissionSystemOperator;
-            cim:IdentifiedObject.description
-                    "Transmission System Operator (TSO) role performed by Nordic_Test";
-            cim:IdentifiedObject.mRID  "50f0783d-0543-41c4-972a-9ad8415b52a4";
-            cim:IdentifiedObject.name  "TSO-Nordic_Test";
-            cim:OrganisationRole.Organisation
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_1dd01985-1188-4568-af69-814fed3a3c84> .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_8ad62773-067d-4de6-a818-c399459347cf>
-            rdf:type                       nc:BiddingZone;
-            cim:IdentifiedObject.description
-                    "Norwegian Fictitious Area 2A";
-            cim:IdentifiedObject.mRID      "8ad62773-067d-4de6-a818-c399459347cf";
-            cim:IdentifiedObject.name      "NO_FICT_AREA_2A";
-            <https://cim.ucaiug.io/ns/eu#IdentifiedObject.energyIdentCodeEic>
-                    "10Y1001C--001219";
-            nc:BiddingZone.isTradeEnabled  true .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_8a2653a0-7f76-4f64-a346-9ae318f219dc>
-            rdf:type                   nc:BiddingZoneBorder;
-            cim:IdentifiedObject.description
-                    "Non-oriented border between Norwegian Area Elspot Area 5 - Norwegian Area Elspot Area 2";
-            cim:IdentifiedObject.mRID  "8a2653a0-7f76-4f64-a346-9ae318f219dc";
-            cim:IdentifiedObject.name  "NO5 - NO2";
-            nc:BiddingZoneBorder.BiddingZoneOne
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_dc281688-8b45-4ce7-b2e8-6c524a5afece>;
-            nc:BiddingZoneBorder.BiddingZoneTwo
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_63b13e2e-8d0a-47d0-8de8-fb686decbae4> .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_889205f2-284f-4beb-8c9f-7d4da78382d0>
-            rdf:type                   nc:SecurityCoordinator;
-            cim:IdentifiedObject.description
-                    "Security Coordinator role for Nordic performed by Nordic-TSO";
-            cim:IdentifiedObject.mRID  "889205f2-284f-4beb-8c9f-7d4da78382d0";
-            cim:IdentifiedObject.name  "SC-Nordic-Nordic";
-            cim:OrganisationRole.Organisation
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_1dd01985-1188-4568-af69-814fed3a3c84> .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_fdc34686-71ab-4fc4-8975-271a1bbe0acb>
-            rdf:type                   nc:BiddingZoneBorder;
-            cim:IdentifiedObject.description
-                    "Non-oriented border between Norwegian Area Elspot Area 5 - Norwegian Area Elspot Area 1";
-            cim:IdentifiedObject.mRID  "fdc34686-71ab-4fc4-8975-271a1bbe0acb";
-            cim:IdentifiedObject.name  "NO5 - NO1";
-            nc:BiddingZoneBorder.BiddingZoneOne
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_dc281688-8b45-4ce7-b2e8-6c524a5afece>;
-            nc:BiddingZoneBorder.BiddingZoneTwo
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a> .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_e79e30a5-9cc0-4773-9909-1aab02341519>
-            rdf:type                       nc:BiddingZone;
-            cim:IdentifiedObject.description
-                    "Cut area SE3LS";
-            cim:IdentifiedObject.mRID      "e79e30a5-9cc0-4773-9909-1aab02341519";
-            cim:IdentifiedObject.name      "CUT_AREA_SE3LS";
-            <https://cim.ucaiug.io/ns/eu#IdentifiedObject.energyIdentCodeEic>
-                    "46Y000000000007M";
-            nc:BiddingZone.isTradeEnabled  true .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_fd627c61-3528-4127-a5d5-be2b3dfcf1d2>
-            rdf:type                       nc:BiddingZone;
-            cim:IdentifiedObject.description
-                    "SE4_SP (SE4, Swepol link)";
-            cim:IdentifiedObject.mRID      "fd627c61-3528-4127-a5d5-be2b3dfcf1d2";
-            cim:IdentifiedObject.name      "SE4_SP";
-            <https://cim.ucaiug.io/ns/eu#IdentifiedObject.energyIdentCodeEic>
-                    "46Y000000000003U";
-            nc:BiddingZone.isTradeEnabled  true .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_83aa03e5-5fd0-431c-b8dd-acc08c21ed6a>
-            rdf:type                       nc:BiddingZone;
-            cim:IdentifiedObject.description
-                    "Norwegian Area Elspot Area 1";
-            cim:IdentifiedObject.mRID      "83aa03e5-5fd0-431c-b8dd-acc08c21ed6a";
-            cim:IdentifiedObject.name      "NO1";
-            <https://cim.ucaiug.io/ns/eu#IdentifiedObject.energyIdentCodeEic>
-                    "10YNO-1--------2";
-            nc:BiddingZone.isTradeEnabled  true .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_4f05e7b6-fd77-4913-a112-b8524b21d0b4>
-            rdf:type                   nc:BiddingZoneBorder;
-            cim:IdentifiedObject.description
-                    "Non-oriented border between Norwegian Area Elspot Area 2 - Netherlands";
-            cim:IdentifiedObject.mRID  "4f05e7b6-fd77-4913-a112-b8524b21d0b4";
-            cim:IdentifiedObject.name  "NO2 - NL";
-            nc:BiddingZoneBorder.BiddingZoneOne
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_63b13e2e-8d0a-47d0-8de8-fb686decbae4>;
-            nc:BiddingZoneBorder.BiddingZoneTwo
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_090d342b-a577-4be1-880b-f97bc958ff03> .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_d59af46b-8d2c-41b0-a2b0-817b001831fc>
-            rdf:type                   nc:BiddingZoneBorder;
-            cim:IdentifiedObject.description
-                    "Non-oriented border between Germany_Luxemburg - Denmark DK2";
-            cim:IdentifiedObject.mRID  "d59af46b-8d2c-41b0-a2b0-817b001831fc";
-            cim:IdentifiedObject.name  "DE_LU - DK2";
-            nc:BiddingZoneBorder.BiddingZoneOne
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_85fea1a6-7edb-4f73-88b8-3a95ea728d03>;
-            nc:BiddingZoneBorder.BiddingZoneTwo
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_0c1bc7f4-7404-4a4d-9d6b-d9edc0944a54> .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_2e524331-ba5b-4b27-99a2-332184e2ce24>
-            rdf:type                   nc:BiddingZoneBorder;
-            cim:IdentifiedObject.description
-                    "Non-oriented border between Swedish Elspot Area 4 - Lithuania";
-            cim:IdentifiedObject.mRID  "2e524331-ba5b-4b27-99a2-332184e2ce24";
-            cim:IdentifiedObject.name  "SE4 - LT";
-            nc:BiddingZoneBorder.BiddingZoneOne
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_2119a5e9-fa38-4fe8-a8e9-2a2cc6f73bad>;
-            nc:BiddingZoneBorder.BiddingZoneTwo
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_20ab92be-8650-44cc-8a7e-fdae8baf027f> .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_2bb01483-28f2-4a79-a9c6-754478445e30>
-            rdf:type                   nc:SynchronousArea;
-            cim:IdentifiedObject.description
-                    "Synchronous Zone of Continental Europe";
-            cim:IdentifiedObject.mRID  "2bb01483-28f2-4a79-a9c6-754478445e30";
-            cim:IdentifiedObject.name  "EU-CONTINENT-SYN";
-            <https://cim.ucaiug.io/ns/eu#IdentifiedObject.energyIdentCodeEic>
-                    "10YEU-CONT-SYNC0";
-            nc:SynchronousArea.nominalFrequency
-                    "50.0"^^xsd:float .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_becf566b-8de1-43f3-9995-19921bbab9b0>
-            rdf:type                   nc:BiddingZoneBorder;
-            cim:IdentifiedObject.description
-                    "Non-oriented border between Swedish Elspot Area 4 - Germany_Austria_Luxemburg";
-            cim:IdentifiedObject.mRID  "becf566b-8de1-43f3-9995-19921bbab9b0";
-            cim:IdentifiedObject.name  "SE4 - DE_AT_LU";
-            nc:BiddingZoneBorder.BiddingZoneOne
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_2119a5e9-fa38-4fe8-a8e9-2a2cc6f73bad>;
-            nc:BiddingZoneBorder.BiddingZoneTwo
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_f0a0d421-7010-423b-805a-73a99393f1d6> .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_f0a0d421-7010-423b-805a-73a99393f1d6>
-            rdf:type                       nc:BiddingZone;
-            cim:IdentifiedObject.description
-                    "Germany_Austria_Luxemburg";
-            cim:IdentifiedObject.mRID      "f0a0d421-7010-423b-805a-73a99393f1d6";
-            cim:IdentifiedObject.name      "DE_AT_LU";
-            <https://cim.ucaiug.io/ns/eu#IdentifiedObject.energyIdentCodeEic>
-                    "10Y1001A1001A63L";
-            nc:BiddingZone.isTradeEnabled  true .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_4308fd4e-591d-4db9-966c-417402c99601>
-            rdf:type                   nc:BiddingZoneBorder;
-            cim:IdentifiedObject.description
-                    "Non-oriented border between Norwegian Area Elspot Area 4 - Swedish Elspot Area 2";
-            cim:IdentifiedObject.mRID  "4308fd4e-591d-4db9-966c-417402c99601";
-            cim:IdentifiedObject.name  "NO4 - SE2";
-            nc:BiddingZoneBorder.BiddingZoneOne
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_b64efd13-92fe-4786-87ef-731d1e2cce0e>;
-            nc:BiddingZoneBorder.BiddingZoneTwo
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_781f385c-f3a1-4691-843d-eab2ed919a1b> .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_7e0de26d-9d0e-4181-a94a-d3a50fdaf719>
-            rdf:type                       nc:BiddingZone;
-            cim:IdentifiedObject.description
-                    "Great Britain";
-            cim:IdentifiedObject.mRID      "7e0de26d-9d0e-4181-a94a-d3a50fdaf719";
-            cim:IdentifiedObject.name      "GB";
-            <https://cim.ucaiug.io/ns/eu#IdentifiedObject.energyIdentCodeEic>
-                    "10YGB----------A";
-            nc:BiddingZone.isTradeEnabled  true .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_0b1fce1c-50ec-409a-a8ba-5a69a50b88ed>
-            rdf:type                   nc:BiddingZoneBorder;
-            cim:IdentifiedObject.description
-                    "Non-oriented border between Swedish Elspot Area 3 - Finland";
-            cim:IdentifiedObject.mRID  "0b1fce1c-50ec-409a-a8ba-5a69a50b88ed";
-            cim:IdentifiedObject.name  "SE3 - FI";
-            nc:BiddingZoneBorder.BiddingZoneOne
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_30e6709e-510c-49b9-92ec-e2aebdc1050e>;
-            nc:BiddingZoneBorder.BiddingZoneTwo
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_6eaaae78-21f1-41c7-81a4-2b0fe15cdbfc> .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_b478a210-4550-4986-9e47-47912ff06d61>
-            rdf:type                       nc:BiddingZone;
-            cim:IdentifiedObject.description
-                    "Swedish Elspot Area 1";
-            cim:IdentifiedObject.mRID      "b478a210-4550-4986-9e47-47912ff06d61";
-            cim:IdentifiedObject.name      "SE1";
-            <https://cim.ucaiug.io/ns/eu#IdentifiedObject.energyIdentCodeEic>
-                    "10Y1001A1001A44P";
-            nc:BiddingZone.isTradeEnabled  true .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_d2baadfc-1398-4300-bcd8-2eacd5b931aa>
-            rdf:type                   nc:BiddingZoneBorder;
-            cim:IdentifiedObject.description
-                    "Non-oriented border between Swedish Elspot Area 4 - Germany_Luxemburg";
-            cim:IdentifiedObject.mRID  "d2baadfc-1398-4300-bcd8-2eacd5b931aa";
-            cim:IdentifiedObject.name  "SE4 - DE_LU";
-            nc:BiddingZoneBorder.BiddingZoneOne
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_2119a5e9-fa38-4fe8-a8e9-2a2cc6f73bad>;
-            nc:BiddingZoneBorder.BiddingZoneTwo
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_85fea1a6-7edb-4f73-88b8-3a95ea728d03> .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_20ab92be-8650-44cc-8a7e-fdae8baf027f>
-            rdf:type                       nc:BiddingZone;
-            cim:IdentifiedObject.description
-                    "Lithuania";
-            cim:IdentifiedObject.mRID      "20ab92be-8650-44cc-8a7e-fdae8baf027f";
-            cim:IdentifiedObject.name      "LT";
-            <https://cim.ucaiug.io/ns/eu#IdentifiedObject.energyIdentCodeEic>
-                    "10YLT-1001A0008Q";
-            nc:BiddingZone.isTradeEnabled  true .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_2cd34940-0a4f-420a-92db-b265c4bd23ea>
-            rdf:type                       nc:BiddingZone;
-            cim:IdentifiedObject.description
-                    "SE4_BC (SE4, Baltic Cable)";
-            cim:IdentifiedObject.mRID      "2cd34940-0a4f-420a-92db-b265c4bd23ea";
-            cim:IdentifiedObject.name      "SE4_BC";
-            <https://cim.ucaiug.io/ns/eu#IdentifiedObject.energyIdentCodeEic>
-                    "46Y000000000005Q";
-            nc:BiddingZone.isTradeEnabled  true .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_2fe0c5f3-33d1-4c30-9cc9-1e7d69d2befe>
-            rdf:type                       nc:BiddingZone;
-            cim:IdentifiedObject.description
-                    "DKW-SE3 virtual Bidding Zone Border";
-            cim:IdentifiedObject.mRID      "2fe0c5f3-33d1-4c30-9cc9-1e7d69d2befe";
-            cim:IdentifiedObject.name      "DKW-SE3";
-            <https://cim.ucaiug.io/ns/eu#IdentifiedObject.energyIdentCodeEic>
-                    "45Y000000000002A";
-            nc:BiddingZone.isTradeEnabled  true .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_e7e780b2-3a74-4453-8e4d-f10a397abf5d>
-            rdf:type                       nc:BiddingZone;
-            cim:IdentifiedObject.description
-                    "Denmark DK1";
-            cim:IdentifiedObject.mRID      "e7e780b2-3a74-4453-8e4d-f10a397abf5d";
-            cim:IdentifiedObject.name      "DK1";
-            <https://cim.ucaiug.io/ns/eu#IdentifiedObject.energyIdentCodeEic>
-                    "10YDK-1--------W";
-            nc:BiddingZone.isTradeEnabled  true .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_782856fe-3263-4d10-8f45-4005f5f8e477>
-            rdf:type                       nc:BiddingZone;
-            cim:IdentifiedObject.description
-                    "SE3_FS (SE3, Fennoskan)";
-            cim:IdentifiedObject.mRID      "782856fe-3263-4d10-8f45-4005f5f8e477";
-            cim:IdentifiedObject.name      "SE3_FS";
-            <https://cim.ucaiug.io/ns/eu#IdentifiedObject.energyIdentCodeEic>
-                    "46Y000000000001Y";
-            nc:BiddingZone.isTradeEnabled  true .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_6fc38ac8-aebd-4bd9-8ffd-df9de926431b>
-            rdf:type                       nc:BiddingZone;
-            cim:IdentifiedObject.description
-                    "Virtual bidding zone border SE4-SE3 AC+SWL";
-            cim:IdentifiedObject.mRID      "6fc38ac8-aebd-4bd9-8ffd-df9de926431b";
-            cim:IdentifiedObject.name      "VBZ_SE4-SE3_ACSW";
-            <https://cim.ucaiug.io/ns/eu#IdentifiedObject.energyIdentCodeEic>
-                    "46Y000000000016L";
-            nc:BiddingZone.isTradeEnabled  true .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_0fd1ebd0-300c-49a3-a696-9597c325b3c0>
-            rdf:type                   nc:SynchronousArea;
-            cim:IdentifiedObject.description
-                    "Great Britain";
-            cim:IdentifiedObject.mRID  "0fd1ebd0-300c-49a3-a696-9597c325b3c0";
-            cim:IdentifiedObject.name  "GB";
-            <https://cim.ucaiug.io/ns/eu#IdentifiedObject.energyIdentCodeEic>
-                    "10YGB----------A";
-            nc:SynchronousArea.nominalFrequency
-                    "50.0"^^xsd:float .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_418d9231-72f2-4b70-af6d-511cf4a60e46>
-            rdf:type                   nc:BiddingZoneBorder;
-            cim:IdentifiedObject.description
-                    "Non-oriented border between Denmark DK1 - Germany_Austria_Luxemburg";
-            cim:IdentifiedObject.mRID  "418d9231-72f2-4b70-af6d-511cf4a60e46";
-            cim:IdentifiedObject.name  "DK1 - DE_AT_LU";
-            nc:BiddingZoneBorder.BiddingZoneOne
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_e7e780b2-3a74-4453-8e4d-f10a397abf5d>;
-            nc:BiddingZoneBorder.BiddingZoneTwo
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_f0a0d421-7010-423b-805a-73a99393f1d6> .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_7c072768-f7f2-4c95-8037-e0059468442a>
-            rdf:type                   nc:Organisation;
-            cim:IdentifiedObject.description
-                    "Telemark-DSO Organisation";
-            cim:IdentifiedObject.mRID  "7c072768-f7f2-4c95-8037-e0059468442a";
-            cim:IdentifiedObject.name  "Telemark-DSO" .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_6fb56677-7feb-4197-8165-f52a7acc7051>
-            rdf:type                   nc:BiddingZoneBorder;
-            cim:IdentifiedObject.description
-                    "Non-oriented border between Swedish Fictitious Area SE3A - Swedish Elspot Area 3";
-            cim:IdentifiedObject.mRID  "6fb56677-7feb-4197-8165-f52a7acc7051";
-            cim:IdentifiedObject.name  "SE3A - SE3";
-            nc:BiddingZoneBorder.BiddingZoneOne
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_8ec52d73-62d1-4676-a791-0f7302a04b71>;
-            nc:BiddingZoneBorder.BiddingZoneTwo
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_30e6709e-510c-49b9-92ec-e2aebdc1050e> .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_c6f889c7-eb10-4964-a47f-765cabbb0aa3>
-            rdf:type                   nc:BiddingZoneBorder;
-            cim:IdentifiedObject.description
-                    "Non-oriented border between Swedish Elspot Area 4 - Denmark DK2";
-            cim:IdentifiedObject.mRID  "c6f889c7-eb10-4964-a47f-765cabbb0aa3";
-            cim:IdentifiedObject.name  "SE4 - DK2";
-            nc:BiddingZoneBorder.BiddingZoneOne
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_2119a5e9-fa38-4fe8-a8e9-2a2cc6f73bad>;
-            nc:BiddingZoneBorder.BiddingZoneTwo
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_0c1bc7f4-7404-4a4d-9d6b-d9edc0944a54> .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_c21d9d06-7eb0-4653-b766-f4a2b2315032>
-            rdf:type                   nc:BiddingZoneBorder;
-            cim:IdentifiedObject.description
-                    "Non-oriented border between Denmark DK2 - Denmark DK1";
-            cim:IdentifiedObject.mRID  "c21d9d06-7eb0-4653-b766-f4a2b2315032";
-            cim:IdentifiedObject.name  "DK2 - DK1";
-            nc:BiddingZoneBorder.BiddingZoneOne
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_0c1bc7f4-7404-4a4d-9d6b-d9edc0944a54>;
-            nc:BiddingZoneBorder.BiddingZoneTwo
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_e7e780b2-3a74-4453-8e4d-f10a397abf5d> .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_4607066a-7748-4c8b-acb1-3bc648bf41c2>
+    <urn:uuid:4607066a-7748-4c8b-acb1-3bc648bf41c2>
             rdf:type                   nc:BiddingZoneBorder;
             cim:IdentifiedObject.description
                     "Non-oriented border between Swedish Elspot Area 3 - Swedish Elspot Area 4";
             cim:IdentifiedObject.mRID  "4607066a-7748-4c8b-acb1-3bc648bf41c2";
             cim:IdentifiedObject.name  "SE3 - SE4";
             nc:BiddingZoneBorder.BiddingZoneOne
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_30e6709e-510c-49b9-92ec-e2aebdc1050e>;
+                    <urn:uuid:30e6709e-510c-49b9-92ec-e2aebdc1050e>;
             nc:BiddingZoneBorder.BiddingZoneTwo
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_2119a5e9-fa38-4fe8-a8e9-2a2cc6f73bad> .
+                    <urn:uuid:2119a5e9-fa38-4fe8-a8e9-2a2cc6f73bad> .
     
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_9ae85411-31a9-474d-acbd-f88da4cad240>
+    <urn:uuid:b56a8421-25e2-47c2-bf0d-58432c58bfcc>
             rdf:type                   nc:BiddingZoneBorder;
             cim:IdentifiedObject.description
-                    "Non-oriented border between Norwegian Area Elspot Area 2 - Norwegian Fictitious Area 2A";
-            cim:IdentifiedObject.mRID  "9ae85411-31a9-474d-acbd-f88da4cad240";
-            cim:IdentifiedObject.name  "NO2 - NO_FICT_AREA_2A";
+                    "Non-oriented border between Norwegian Area Elspot Area 4 - Finland";
+            cim:IdentifiedObject.mRID  "b56a8421-25e2-47c2-bf0d-58432c58bfcc";
+            cim:IdentifiedObject.name  "NO4 - FI";
             nc:BiddingZoneBorder.BiddingZoneOne
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_63b13e2e-8d0a-47d0-8de8-fb686decbae4>;
+                    <urn:uuid:b64efd13-92fe-4786-87ef-731d1e2cce0e>;
             nc:BiddingZoneBorder.BiddingZoneTwo
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_8ad62773-067d-4de6-a818-c399459347cf> .
+                    <urn:uuid:6eaaae78-21f1-41c7-81a4-2b0fe15cdbfc> .
     
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_afbedf95-95b7-4192-a7a0-711fe1954363>
-            rdf:type                       nc:BiddingZone;
-            cim:IdentifiedObject.description
-                    "Virtual Bidding Zone NO2-NL";
-            cim:IdentifiedObject.mRID      "afbedf95-95b7-4192-a7a0-711fe1954363";
-            cim:IdentifiedObject.name      "NO_NO2_NL";
-            <https://cim.ucaiug.io/ns/eu#IdentifiedObject.energyIdentCodeEic>
-                    "50Y73EMZ34CQL9AJ";
-            nc:BiddingZone.isTradeEnabled  true .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_3c85143d-a2d8-4ddf-9521-27f4b634ad62>
+    <urn:uuid:3c85143d-a2d8-4ddf-9521-27f4b634ad62>
             rdf:type                       nc:BiddingZone;
             cim:IdentifiedObject.description
                     "SE3_SWL (SE3, Sydvastlanken)";
             cim:IdentifiedObject.mRID      "3c85143d-a2d8-4ddf-9521-27f4b634ad62";
             cim:IdentifiedObject.name      "SE3_SWL";
-            <https://cim.ucaiug.io/ns/eu#IdentifiedObject.energyIdentCodeEic>
+            eu:IdentifiedObject.energyIdentCodeEic
                     "46Y000000000017J";
             nc:BiddingZone.isTradeEnabled  true .
     
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_63b13e2e-8d0a-47d0-8de8-fb686decbae4>
+    <urn:uuid:7216a0ff-6528-4026-80ad-d73fb45efda0>
             rdf:type                       nc:BiddingZone;
             cim:IdentifiedObject.description
-                    "Norwegian Area Elspot Area 2";
-            cim:IdentifiedObject.mRID      "63b13e2e-8d0a-47d0-8de8-fb686decbae4";
-            cim:IdentifiedObject.name      "NO2";
-            <https://cim.ucaiug.io/ns/eu#IdentifiedObject.energyIdentCodeEic>
-                    "10YNO-2--------T";
+                    "SE4_NB (SE4, Nordbalt)";
+            cim:IdentifiedObject.mRID      "7216a0ff-6528-4026-80ad-d73fb45efda0";
+            cim:IdentifiedObject.name      "SE4_NB";
+            eu:IdentifiedObject.energyIdentCodeEic
+                    "46Y000000000004S";
             nc:BiddingZone.isTradeEnabled  true .
     
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_dc281688-8b45-4ce7-b2e8-6c524a5afece>
+    <urn:uuid:fd627c61-3528-4127-a5d5-be2b3dfcf1d2>
             rdf:type                       nc:BiddingZone;
             cim:IdentifiedObject.description
-                    "Norwegian Area Elspot Area 5";
-            cim:IdentifiedObject.mRID      "dc281688-8b45-4ce7-b2e8-6c524a5afece";
-            cim:IdentifiedObject.name      "NO5";
-            <https://cim.ucaiug.io/ns/eu#IdentifiedObject.energyIdentCodeEic>
-                    "10Y1001A1001A48H";
+                    "SE4_SP (SE4, Swepol link)";
+            cim:IdentifiedObject.mRID      "fd627c61-3528-4127-a5d5-be2b3dfcf1d2";
+            cim:IdentifiedObject.name      "SE4_SP";
+            eu:IdentifiedObject.energyIdentCodeEic
+                    "46Y000000000003U";
             nc:BiddingZone.isTradeEnabled  true .
     
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_2119a5e9-fa38-4fe8-a8e9-2a2cc6f73bad>
+    <urn:uuid:b478a210-4550-4986-9e47-47912ff06d61>
             rdf:type                       nc:BiddingZone;
             cim:IdentifiedObject.description
-                    "Swedish Elspot Area 4";
-            cim:IdentifiedObject.mRID      "2119a5e9-fa38-4fe8-a8e9-2a2cc6f73bad";
-            cim:IdentifiedObject.name      "SE4";
-            <https://cim.ucaiug.io/ns/eu#IdentifiedObject.energyIdentCodeEic>
-                    "10Y1001A1001A47J";
+                    "Swedish Elspot Area 1";
+            cim:IdentifiedObject.mRID      "b478a210-4550-4986-9e47-47912ff06d61";
+            cim:IdentifiedObject.name      "SE1";
+            eu:IdentifiedObject.energyIdentCodeEic
+                    "10Y1001A1001A44P";
             nc:BiddingZone.isTradeEnabled  true .
     
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_c9afca0e-9c27-41be-b802-ed774a8d4856>
+    <urn:uuid:090d342b-a577-4be1-880b-f97bc958ff03>
+            rdf:type                       nc:BiddingZone;
+            cim:IdentifiedObject.description
+                    "Netherlands";
+            cim:IdentifiedObject.mRID      "090d342b-a577-4be1-880b-f97bc958ff03";
+            cim:IdentifiedObject.name      "NL";
+            eu:IdentifiedObject.energyIdentCodeEic
+                    "10YNL----------L";
+            nc:BiddingZone.isTradeEnabled  true .
+    
+    <urn:uuid:f7bf2b22-981d-468a-88a5-895833533251>
+            rdf:type                       nc:BiddingZone;
+            cim:IdentifiedObject.description
+                    "Virtual bidding zone border SE3-SE4 AC+SWL";
+            cim:IdentifiedObject.mRID      "f7bf2b22-981d-468a-88a5-895833533251";
+            cim:IdentifiedObject.name      "VBZ_SE3-SE4_ACSW";
+            eu:IdentifiedObject.energyIdentCodeEic
+                    "46Y000000000015N";
+            nc:BiddingZone.isTradeEnabled  true .
+    
+    <urn:uuid:ebf80203-6649-42c7-901e-18382bcb3730>
+            rdf:type                       nc:BiddingZone;
+            cim:IdentifiedObject.description
+                    "SE4_SWL (SE4, Sydvastlanken)";
+            cim:IdentifiedObject.mRID      "ebf80203-6649-42c7-901e-18382bcb3730";
+            cim:IdentifiedObject.name      "SE4_SWL";
+            eu:IdentifiedObject.energyIdentCodeEic
+                    "46Y000000000018H";
+            nc:BiddingZone.isTradeEnabled  true .
+    
+    <urn:uuid:afbedf95-95b7-4192-a7a0-711fe1954363>
+            rdf:type                       nc:BiddingZone;
+            cim:IdentifiedObject.description
+                    "Virtual Bidding Zone NO2-NL";
+            cim:IdentifiedObject.mRID      "afbedf95-95b7-4192-a7a0-711fe1954363";
+            cim:IdentifiedObject.name      "NO_NO2_NL";
+            eu:IdentifiedObject.energyIdentCodeEic
+                    "50Y73EMZ34CQL9AJ";
+            nc:BiddingZone.isTradeEnabled  true .
+    
+    <urn:uuid:c21d9d06-7eb0-4653-b766-f4a2b2315032>
             rdf:type                   nc:BiddingZoneBorder;
             cim:IdentifiedObject.description
-                    "Non-oriented border between Denmark DK1 - Norwegian Area Elspot Area 2";
-            cim:IdentifiedObject.mRID  "c9afca0e-9c27-41be-b802-ed774a8d4856";
-            cim:IdentifiedObject.name  "DK1 - NO2";
+                    "Non-oriented border between Denmark DK2 - Denmark DK1";
+            cim:IdentifiedObject.mRID  "c21d9d06-7eb0-4653-b766-f4a2b2315032";
+            cim:IdentifiedObject.name  "DK2 - DK1";
             nc:BiddingZoneBorder.BiddingZoneOne
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_e7e780b2-3a74-4453-8e4d-f10a397abf5d>;
+                    <urn:uuid:0c1bc7f4-7404-4a4d-9d6b-d9edc0944a54>;
             nc:BiddingZoneBorder.BiddingZoneTwo
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_63b13e2e-8d0a-47d0-8de8-fb686decbae4> .
+                    <urn:uuid:e7e780b2-3a74-4453-8e4d-f10a397abf5d> .
     
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_4bd4d204-ad21-4bb5-9657-a713bb8193d4>
+    <urn:uuid:c6f889c7-eb10-4964-a47f-765cabbb0aa3>
             rdf:type                   nc:BiddingZoneBorder;
             cim:IdentifiedObject.description
-                    "Non-oriented border between Swedish Elspot Area 1 - Swedish Elspot Area 2";
-            cim:IdentifiedObject.mRID  "4bd4d204-ad21-4bb5-9657-a713bb8193d4";
-            cim:IdentifiedObject.name  "SE1 - SE2";
+                    "Non-oriented border between Swedish Elspot Area 4 - Denmark DK2";
+            cim:IdentifiedObject.mRID  "c6f889c7-eb10-4964-a47f-765cabbb0aa3";
+            cim:IdentifiedObject.name  "SE4 - DK2";
             nc:BiddingZoneBorder.BiddingZoneOne
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_b478a210-4550-4986-9e47-47912ff06d61>;
+                    <urn:uuid:2119a5e9-fa38-4fe8-a8e9-2a2cc6f73bad>;
             nc:BiddingZoneBorder.BiddingZoneTwo
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_781f385c-f3a1-4691-843d-eab2ed919a1b> .
+                    <urn:uuid:0c1bc7f4-7404-4a4d-9d6b-d9edc0944a54> .
     
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_513a2d2e-952f-458d-ba64-e01da098b43c>
-            rdf:type                       nc:BiddingZone;
-            cim:IdentifiedObject.description
-                    "Bidding Zone - Great Britain (N2EX)";
-            cim:IdentifiedObject.mRID      "513a2d2e-952f-458d-ba64-e01da098b43c";
-            cim:IdentifiedObject.name      "GB_N2EX_PRICZONE";
-            <https://cim.ucaiug.io/ns/eu#IdentifiedObject.energyIdentCodeEic>
-                    "10Y1001A1001A57G";
-            nc:BiddingZone.isTradeEnabled  true .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_4684fa6a-2955-4a24-b862-b6287ae8edf1>
-            rdf:type                       nc:BiddingZone;
-            cim:IdentifiedObject.description
-                    "DKW-NO2 virtual Bidding Zone Border";
-            cim:IdentifiedObject.mRID      "4684fa6a-2955-4a24-b862-b6287ae8edf1";
-            cim:IdentifiedObject.name      "DKW-NO2";
-            <https://cim.ucaiug.io/ns/eu#IdentifiedObject.energyIdentCodeEic>
-                    "45Y000000000001C";
-            nc:BiddingZone.isTradeEnabled  true .
-    
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_697bcbb6-d367-4c5c-be7b-13a91cf36d53>
+    <urn:uuid:4f05e7b6-fd77-4913-a112-b8524b21d0b4>
             rdf:type                   nc:BiddingZoneBorder;
             cim:IdentifiedObject.description
-                    "Non-oriented border between Norwegian Area Elspot Area 3 - Norwegian Area Elspot Area 4";
-            cim:IdentifiedObject.mRID  "697bcbb6-d367-4c5c-be7b-13a91cf36d53";
-            cim:IdentifiedObject.name  "NO3 - NO4";
+                    "Non-oriented border between Norwegian Area Elspot Area 2 - Netherlands";
+            cim:IdentifiedObject.mRID  "4f05e7b6-fd77-4913-a112-b8524b21d0b4";
+            cim:IdentifiedObject.name  "NO2 - NL";
             nc:BiddingZoneBorder.BiddingZoneOne
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_0f094148-164b-427a-a8e8-0c5f334688ae>;
+                    <urn:uuid:63b13e2e-8d0a-47d0-8de8-fb686decbae4>;
             nc:BiddingZoneBorder.BiddingZoneTwo
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_b64efd13-92fe-4786-87ef-731d1e2cce0e> .
+                    <urn:uuid:090d342b-a577-4be1-880b-f97bc958ff03> .
     
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_80022cc2-2b82-45e9-b225-a5defa8b17d6>
+    <urn:uuid:a285b3dd-010c-4d79-aac8-54832d0d994c>
             rdf:type                       nc:BiddingZone;
             cim:IdentifiedObject.description
-                    "Nordic Synchronous Area";
-            cim:IdentifiedObject.mRID      "80022cc2-2b82-45e9-b225-a5defa8b17d6";
-            cim:IdentifiedObject.name      "NORDIC_SYNC_AREA";
-            <https://cim.ucaiug.io/ns/eu#IdentifiedObject.energyIdentCodeEic>
-                    "10Y1001C--00146U";
+                    "Virtual bidding Zone NO2-GB";
+            cim:IdentifiedObject.mRID      "a285b3dd-010c-4d79-aac8-54832d0d994c";
+            cim:IdentifiedObject.name      "NO_NO2-GB";
+            eu:IdentifiedObject.energyIdentCodeEic
+                    "50Y-HTS3792HUOAC";
             nc:BiddingZone.isTradeEnabled  true .
     
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_109c6570-7b10-4855-9d2e-648818ed95e3>
+    <urn:uuid:8105c169-bb3e-4c36-9bac-0c31c482638b>
+            rdf:type                   nc:BiddingZoneBorder;
+            cim:IdentifiedObject.description
+                    "Non-oriented border between Denmark DK1 - Great Britain";
+            cim:IdentifiedObject.mRID  "8105c169-bb3e-4c36-9bac-0c31c482638b";
+            cim:IdentifiedObject.name  "DK1 - GB";
+            nc:BiddingZoneBorder.BiddingZoneOne
+                    <urn:uuid:e7e780b2-3a74-4453-8e4d-f10a397abf5d>;
+            nc:BiddingZoneBorder.BiddingZoneTwo
+                    <urn:uuid:7e0de26d-9d0e-4181-a94a-d3a50fdaf719> .
+    
+    <urn:uuid:239f5b94-dc6c-40ef-8413-f95f23ba701e>
             rdf:type                       nc:BiddingZone;
             cim:IdentifiedObject.description
-                    "Virtual bidding Zone NO2-DE";
-            cim:IdentifiedObject.mRID      "109c6570-7b10-4855-9d2e-648818ed95e3";
-            cim:IdentifiedObject.name      "NO_NO2-DE";
-            <https://cim.ucaiug.io/ns/eu#IdentifiedObject.energyIdentCodeEic>
-                    "50YNBFFTWZRAHA3P";
+                    "SE3_KS (SE3, Kontiskan)";
+            cim:IdentifiedObject.mRID      "239f5b94-dc6c-40ef-8413-f95f23ba701e";
+            cim:IdentifiedObject.name      "SE3_KS";
+            eu:IdentifiedObject.energyIdentCodeEic
+                    "46Y000000000002W";
             nc:BiddingZone.isTradeEnabled  true .
     
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_4835ff24-9dfd-439c-88f0-fed992da0949>
+    <urn:uuid:7113ab1b-c48b-4977-a067-f70ae52df0b5>
+            rdf:type                   nc:BiddingZoneBorder;
+            cim:IdentifiedObject.description
+                    "Non-oriented border between Poland - Swedish Elspot Area 4";
+            cim:IdentifiedObject.mRID  "7113ab1b-c48b-4977-a067-f70ae52df0b5";
+            cim:IdentifiedObject.name  "PL - SE4";
+            nc:BiddingZoneBorder.BiddingZoneOne
+                    <urn:uuid:cebd0c20-568c-4bb4-8542-1a6e90e741af>;
+            nc:BiddingZoneBorder.BiddingZoneTwo
+                    <urn:uuid:2119a5e9-fa38-4fe8-a8e9-2a2cc6f73bad> .
+    
+    <urn:uuid:4f1743b1-da1c-4087-9055-291f7955ec8f>
+            rdf:type                   nc:BiddingZoneBorder;
+            cim:IdentifiedObject.description
+                    "Non-oriented border between Norwegian Area Elspot Area 4 - Swedish Elspot Area 1";
+            cim:IdentifiedObject.mRID  "4f1743b1-da1c-4087-9055-291f7955ec8f";
+            cim:IdentifiedObject.name  "NO4 - SE1";
+            nc:BiddingZoneBorder.BiddingZoneOne
+                    <urn:uuid:b64efd13-92fe-4786-87ef-731d1e2cce0e>;
+            nc:BiddingZoneBorder.BiddingZoneTwo
+                    <urn:uuid:b478a210-4550-4986-9e47-47912ff06d61> .
+    
+    <urn:uuid:e79e30a5-9cc0-4773-9909-1aab02341519>
             rdf:type                       nc:BiddingZone;
             cim:IdentifiedObject.description
-                    "Fingrid Oyj";
-            cim:IdentifiedObject.mRID      "4835ff24-9dfd-439c-88f0-fed992da0949";
-            cim:IdentifiedObject.name      "FI_EL";
-            <https://cim.ucaiug.io/ns/eu#IdentifiedObject.energyIdentCodeEic>
-                    "44Y-00000000161I";
+                    "Cut area SE3LS";
+            cim:IdentifiedObject.mRID      "e79e30a5-9cc0-4773-9909-1aab02341519";
+            cim:IdentifiedObject.name      "CUT_AREA_SE3LS";
+            eu:IdentifiedObject.energyIdentCodeEic
+                    "46Y000000000007M";
             nc:BiddingZone.isTradeEnabled  true .
     
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_30e6709e-510c-49b9-92ec-e2aebdc1050e>
+    <urn:uuid:becf566b-8de1-43f3-9995-19921bbab9b0>
+            rdf:type                   nc:BiddingZoneBorder;
+            cim:IdentifiedObject.description
+                    "Non-oriented border between Swedish Elspot Area 4 - Germany_Austria_Luxemburg";
+            cim:IdentifiedObject.mRID  "becf566b-8de1-43f3-9995-19921bbab9b0";
+            cim:IdentifiedObject.name  "SE4 - DE_AT_LU";
+            nc:BiddingZoneBorder.BiddingZoneOne
+                    <urn:uuid:2119a5e9-fa38-4fe8-a8e9-2a2cc6f73bad>;
+            nc:BiddingZoneBorder.BiddingZoneTwo
+                    <urn:uuid:f0a0d421-7010-423b-805a-73a99393f1d6> .
+    
+    <urn:uuid:6fb56677-7feb-4197-8165-f52a7acc7051>
+            rdf:type                   nc:BiddingZoneBorder;
+            cim:IdentifiedObject.description
+                    "Non-oriented border between Swedish Fictitious Area SE3A - Swedish Elspot Area 3";
+            cim:IdentifiedObject.mRID  "6fb56677-7feb-4197-8165-f52a7acc7051";
+            cim:IdentifiedObject.name  "SE3A - SE3";
+            nc:BiddingZoneBorder.BiddingZoneOne
+                    <urn:uuid:8ec52d73-62d1-4676-a791-0f7302a04b71>;
+            nc:BiddingZoneBorder.BiddingZoneTwo
+                    <urn:uuid:30e6709e-510c-49b9-92ec-e2aebdc1050e> .
+    
+    <urn:uuid:085b0abe-2e81-49f7-9843-f4746c387e10>
+            rdf:type                   nc:BiddingZoneBorder;
+            cim:IdentifiedObject.description
+                    "Non-oriented border between IFA2_virtual_BZN - Great Britain";
+            cim:IdentifiedObject.mRID  "085b0abe-2e81-49f7-9843-f4746c387e10";
+            cim:IdentifiedObject.name  "FR_UK_IFA2_V_BZN - GB";
+            nc:BiddingZoneBorder.BiddingZoneOne
+                    <urn:uuid:5df846f4-0a3a-43fc-af92-1d2fa0c6d860>;
+            nc:BiddingZoneBorder.BiddingZoneTwo
+                    <urn:uuid:7e0de26d-9d0e-4181-a94a-d3a50fdaf719> .
+    
+    <urn:uuid:f0a0d421-7010-423b-805a-73a99393f1d6>
             rdf:type                       nc:BiddingZone;
             cim:IdentifiedObject.description
-                    "Swedish Elspot Area 3";
-            cim:IdentifiedObject.mRID      "30e6709e-510c-49b9-92ec-e2aebdc1050e";
-            cim:IdentifiedObject.name      "SE3";
-            <https://cim.ucaiug.io/ns/eu#IdentifiedObject.energyIdentCodeEic>
-                    "10Y1001A1001A46L";
+                    "Germany_Austria_Luxemburg";
+            cim:IdentifiedObject.mRID      "f0a0d421-7010-423b-805a-73a99393f1d6";
+            cim:IdentifiedObject.name      "DE_AT_LU";
+            eu:IdentifiedObject.energyIdentCodeEic
+                    "10Y1001A1001A63L";
             nc:BiddingZone.isTradeEnabled  true .
     
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_876cec4f-ba53-4430-b74e-db535e4c10dd>
+    <urn:uuid:173e9d6d-77c8-44e0-805f-dc2f773c61fb>
             rdf:type                       nc:BiddingZone;
             cim:IdentifiedObject.description
-                    "Cut corridor SE3LS-SE3";
-            cim:IdentifiedObject.mRID      "876cec4f-ba53-4430-b74e-db535e4c10dd";
-            cim:IdentifiedObject.name      "CUTCOR_SE3LS-SE3";
-            <https://cim.ucaiug.io/ns/eu#IdentifiedObject.energyIdentCodeEic>
-                    "46Y000000000009I";
+                    "Virtual Bidding Zone NO2-DK1";
+            cim:IdentifiedObject.mRID      "173e9d6d-77c8-44e0-805f-dc2f773c61fb";
+            cim:IdentifiedObject.name      "NO_NO2_DK1";
+            eu:IdentifiedObject.energyIdentCodeEic
+                    "50YCUY85S1HH29EK";
             nc:BiddingZone.isTradeEnabled  true .
     
-    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_3dab7075-ce62-4e1e-98c1-c61fa047ae43>
+    <urn:uuid:83aa03e5-5fd0-431c-b8dd-acc08c21ed6a>
+            rdf:type                       nc:BiddingZone;
+            cim:IdentifiedObject.description
+                    "Norwegian Area Elspot Area 1";
+            cim:IdentifiedObject.mRID      "83aa03e5-5fd0-431c-b8dd-acc08c21ed6a";
+            cim:IdentifiedObject.name      "NO1";
+            eu:IdentifiedObject.energyIdentCodeEic
+                    "10YNO-1--------2";
+            nc:BiddingZone.isTradeEnabled  true .
+    
+    <urn:uuid:4f4f2cfe-424c-42d0-a55b-d91faf704913>
+            rdf:type                   nc:BiddingZoneBorder;
+            cim:IdentifiedObject.description
+                    "Non-oriented border between Denmark DK1 - Germany_Luxemburg";
+            cim:IdentifiedObject.mRID  "4f4f2cfe-424c-42d0-a55b-d91faf704913";
+            cim:IdentifiedObject.name  "DK1 - DE_LU";
+            nc:BiddingZoneBorder.BiddingZoneOne
+                    <urn:uuid:e7e780b2-3a74-4453-8e4d-f10a397abf5d>;
+            nc:BiddingZoneBorder.BiddingZoneTwo
+                    <urn:uuid:85fea1a6-7edb-4f73-88b8-3a95ea728d03> .
+    
+    <urn:uuid:2bd7a8ab-18d1-42c6-8454-c2c8ff4dbebd>
+            rdf:type                       nc:BiddingZone;
+            cim:IdentifiedObject.description
+                    "Estonia";
+            cim:IdentifiedObject.mRID      "2bd7a8ab-18d1-42c6-8454-c2c8ff4dbebd";
+            cim:IdentifiedObject.name      "EE";
+            eu:IdentifiedObject.energyIdentCodeEic
+                    "10Y1001A1001A39I";
+            nc:BiddingZone.isTradeEnabled  true .
+    
+    <urn:uuid:7c072768-f7f2-4c95-8037-e0059468442a>
+            rdf:type                   nc:Organisation;
+            cim:IdentifiedObject.description
+                    "Telemark-DSO Organisation";
+            cim:IdentifiedObject.mRID  "7c072768-f7f2-4c95-8037-e0059468442a";
+            cim:IdentifiedObject.name  "Telemark-DSO" .
+    
+    <urn:uuid:889205f2-284f-4beb-8c9f-7d4da78382d0>
+            rdf:type                   nc:SecurityCoordinator;
+            cim:IdentifiedObject.description
+                    "Security Coordinator role for Nordic performed by Nordic-TSO";
+            cim:IdentifiedObject.mRID  "889205f2-284f-4beb-8c9f-7d4da78382d0";
+            cim:IdentifiedObject.name  "SC-Nordic-Nordic";
+            cim:OrganisationRole.Organisation
+                    <urn:uuid:1dd01985-1188-4568-af69-814fed3a3c84> .
+    
+    <urn:uuid:3426d23d-68f9-4631-8acc-f4c715416030>
+            rdf:type                   nc:CapacityCalculationRegion;
+            cim:IdentifiedObject.description
+                    "Capacity Calculation Region Nordic44";
+            cim:IdentifiedObject.mRID  "3426d23d-68f9-4631-8acc-f4c715416030";
+            cim:IdentifiedObject.name  "CCR-Nordic44" .
+    
+    <urn:uuid:b08ad243-30c1-4bb1-9e7e-5783a8ed50bd>
+            rdf:type                   nc:DistributionSystemOperator;
+            cim:IdentifiedObject.description
+                    "Distribution System Operator (DSO) role performed by Telemark_DSO-Test";
+            cim:IdentifiedObject.mRID  "b08ad243-30c1-4bb1-9e7e-5783a8ed50bd";
+            cim:IdentifiedObject.name  "DSO-Telemark_DSO-Test";
+            cim:OrganisationRole.Organisation
+                    <urn:uuid:7c072768-f7f2-4c95-8037-e0059468442a> .
+    
+    <urn:uuid:3dab7075-ce62-4e1e-98c1-c61fa047ae43>
             rdf:type                   nc:BiddingZoneBorder;
             cim:IdentifiedObject.description
                     "Non-oriented border between Swedish Elspot Area 1 - Finland";
             cim:IdentifiedObject.mRID  "3dab7075-ce62-4e1e-98c1-c61fa047ae43";
             cim:IdentifiedObject.name  "SE1 - FI";
             nc:BiddingZoneBorder.BiddingZoneOne
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_b478a210-4550-4986-9e47-47912ff06d61>;
+                    <urn:uuid:b478a210-4550-4986-9e47-47912ff06d61>;
             nc:BiddingZoneBorder.BiddingZoneTwo
-                    <https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD#_6eaaae78-21f1-41c7-81a4-2b0fe15cdbfc> .
+                    <urn:uuid:6eaaae78-21f1-41c7-81a4-2b0fe15cdbfc> .
+    
+    <urn:uuid:20ab92be-8650-44cc-8a7e-fdae8baf027f>
+            rdf:type                       nc:BiddingZone;
+            cim:IdentifiedObject.description
+                    "Lithuania";
+            cim:IdentifiedObject.mRID      "20ab92be-8650-44cc-8a7e-fdae8baf027f";
+            cim:IdentifiedObject.name      "LT";
+            eu:IdentifiedObject.energyIdentCodeEic
+                    "10YLT-1001A0008Q";
+            nc:BiddingZone.isTradeEnabled  true .
+    
+    <urn:uuid:8ec52d73-62d1-4676-a791-0f7302a04b71>
+            rdf:type                       nc:BiddingZone;
+            cim:IdentifiedObject.description
+                    "Swedish Fictitious Area SE3A";
+            cim:IdentifiedObject.mRID      "8ec52d73-62d1-4676-a791-0f7302a04b71";
+            cim:IdentifiedObject.name      "SE3A";
+            eu:IdentifiedObject.energyIdentCodeEic
+                    "10Y1001C--00148Q";
+            nc:BiddingZone.isTradeEnabled  true .
+    
+    <urn:uuid:c9afca0e-9c27-41be-b802-ed774a8d4856>
+            rdf:type                   nc:BiddingZoneBorder;
+            cim:IdentifiedObject.description
+                    "Non-oriented border between Denmark DK1 - Norwegian Area Elspot Area 2";
+            cim:IdentifiedObject.mRID  "c9afca0e-9c27-41be-b802-ed774a8d4856";
+            cim:IdentifiedObject.name  "DK1 - NO2";
+            nc:BiddingZoneBorder.BiddingZoneOne
+                    <urn:uuid:e7e780b2-3a74-4453-8e4d-f10a397abf5d>;
+            nc:BiddingZoneBorder.BiddingZoneTwo
+                    <urn:uuid:63b13e2e-8d0a-47d0-8de8-fb686decbae4> .
+    
+    <urn:uuid:9eab662e-dc18-41ad-883e-021cbcfede99>
+            rdf:type                       nc:BiddingZone;
+            cim:IdentifiedObject.description
+                    "Fingrid Oyj";
+            cim:IdentifiedObject.mRID      "9eab662e-dc18-41ad-883e-021cbcfede99";
+            cim:IdentifiedObject.name      "FI_FS";
+            eu:IdentifiedObject.energyIdentCodeEic
+                    "44Y-00000000160K";
+            nc:BiddingZone.isTradeEnabled  true .
+    
+    <urn:uuid:2e7b7ea0-39a6-46ed-80a1-e887ce4c45cd>
+            rdf:type                   nc:BiddingZoneBorder;
+            cim:IdentifiedObject.description
+                    "Non-oriented border between Norwegian Area Elspot Area 1 - Norwegian Area Elspot Area 2";
+            cim:IdentifiedObject.mRID  "2e7b7ea0-39a6-46ed-80a1-e887ce4c45cd";
+            cim:IdentifiedObject.name  "NO1 - NO2";
+            nc:BiddingZoneBorder.BiddingZoneOne
+                    <urn:uuid:83aa03e5-5fd0-431c-b8dd-acc08c21ed6a>;
+            nc:BiddingZoneBorder.BiddingZoneTwo
+                    <urn:uuid:63b13e2e-8d0a-47d0-8de8-fb686decbae4> .
+    
+    <urn:uuid:63b13e2e-8d0a-47d0-8de8-fb686decbae4>
+            rdf:type                       nc:BiddingZone;
+            cim:IdentifiedObject.description
+                    "Norwegian Area Elspot Area 2";
+            cim:IdentifiedObject.mRID      "63b13e2e-8d0a-47d0-8de8-fb686decbae4";
+            cim:IdentifiedObject.name      "NO2";
+            eu:IdentifiedObject.energyIdentCodeEic
+                    "10YNO-2--------T";
+            nc:BiddingZone.isTradeEnabled  true .
+    
+    <urn:uuid:49811c7c-0cea-4dcf-8c83-3c5b8601b218>
+            rdf:type                   nc:BiddingZoneBorder;
+            cim:IdentifiedObject.description
+                    "Non-oriented border between Denmark DK2 - Germany_Austria_Luxemburg";
+            cim:IdentifiedObject.mRID  "49811c7c-0cea-4dcf-8c83-3c5b8601b218";
+            cim:IdentifiedObject.name  "DK2 - DE_AT_LU";
+            nc:BiddingZoneBorder.BiddingZoneOne
+                    <urn:uuid:0c1bc7f4-7404-4a4d-9d6b-d9edc0944a54>;
+            nc:BiddingZoneBorder.BiddingZoneTwo
+                    <urn:uuid:f0a0d421-7010-423b-805a-73a99393f1d6> .
+    
+    <urn:uuid:3d91562b-f6fa-429f-b4bf-11593f79c557>
+            rdf:type                   nc:BiddingZoneBorder;
+            cim:IdentifiedObject.description
+                    "Non-oriented border between Swedish Elspot Area 2 - Swedish Elspot Area 3";
+            cim:IdentifiedObject.mRID  "3d91562b-f6fa-429f-b4bf-11593f79c557";
+            cim:IdentifiedObject.name  "SE2 - SE3";
+            nc:BiddingZoneBorder.BiddingZoneOne
+                    <urn:uuid:781f385c-f3a1-4691-843d-eab2ed919a1b>;
+            nc:BiddingZoneBorder.BiddingZoneTwo
+                    <urn:uuid:30e6709e-510c-49b9-92ec-e2aebdc1050e> .
+    
+    <urn:uuid:3f43657a-d46a-4247-85d8-55027c0adaf7>
+            rdf:type                   nc:BiddingZoneBorder;
+            cim:IdentifiedObject.description
+                    "Non-oriented border between Norwegian Area Elspot Area 5 - Norwegian Area Elspot Area 3";
+            cim:IdentifiedObject.mRID  "3f43657a-d46a-4247-85d8-55027c0adaf7";
+            cim:IdentifiedObject.name  "NO5 - NO3";
+            nc:BiddingZoneBorder.BiddingZoneOne
+                    <urn:uuid:dc281688-8b45-4ce7-b2e8-6c524a5afece>;
+            nc:BiddingZoneBorder.BiddingZoneTwo
+                    <urn:uuid:0f094148-164b-427a-a8e8-0c5f334688ae> .
+    
+    <urn:uuid:f87c7026-ffd9-4c9e-b2ad-5311ea79e5f2>
+            rdf:type                   nc:BiddingZoneBorder;
+            cim:IdentifiedObject.description
+                    "Non-oriented border between Swedish Elspot Area 3 - Norwegian Area Elspot Area 1";
+            cim:IdentifiedObject.mRID  "f87c7026-ffd9-4c9e-b2ad-5311ea79e5f2";
+            cim:IdentifiedObject.name  "SE3 - NO1";
+            nc:BiddingZoneBorder.BiddingZoneOne
+                    <urn:uuid:30e6709e-510c-49b9-92ec-e2aebdc1050e>;
+            nc:BiddingZoneBorder.BiddingZoneTwo
+                    <urn:uuid:83aa03e5-5fd0-431c-b8dd-acc08c21ed6a> .
+    
+    <urn:uuid:2e524331-ba5b-4b27-99a2-332184e2ce24>
+            rdf:type                   nc:BiddingZoneBorder;
+            cim:IdentifiedObject.description
+                    "Non-oriented border between Swedish Elspot Area 4 - Lithuania";
+            cim:IdentifiedObject.mRID  "2e524331-ba5b-4b27-99a2-332184e2ce24";
+            cim:IdentifiedObject.name  "SE4 - LT";
+            nc:BiddingZoneBorder.BiddingZoneOne
+                    <urn:uuid:2119a5e9-fa38-4fe8-a8e9-2a2cc6f73bad>;
+            nc:BiddingZoneBorder.BiddingZoneTwo
+                    <urn:uuid:20ab92be-8650-44cc-8a7e-fdae8baf027f> .
+    
+    <urn:uuid:6fc38ac8-aebd-4bd9-8ffd-df9de926431b>
+            rdf:type                       nc:BiddingZone;
+            cim:IdentifiedObject.description
+                    "Virtual bidding zone border SE4-SE3 AC+SWL";
+            cim:IdentifiedObject.mRID      "6fc38ac8-aebd-4bd9-8ffd-df9de926431b";
+            cim:IdentifiedObject.name      "VBZ_SE4-SE3_ACSW";
+            eu:IdentifiedObject.energyIdentCodeEic
+                    "46Y000000000016L";
+            nc:BiddingZone.isTradeEnabled  true .
+    
+    <urn:uuid:6f62eb40-3a9b-4424-b47b-2815b8e0d9fe>
+            rdf:type                   nc:BiddingZoneBorder;
+            cim:IdentifiedObject.description
+                    "Non-oriented border between Cut area SE3LS - Swedish Elspot Area 3";
+            cim:IdentifiedObject.mRID  "6f62eb40-3a9b-4424-b47b-2815b8e0d9fe";
+            cim:IdentifiedObject.name  "CUT_AREA_SE3LS - SE3";
+            nc:BiddingZoneBorder.BiddingZoneOne
+                    <urn:uuid:e79e30a5-9cc0-4773-9909-1aab02341519>;
+            nc:BiddingZoneBorder.BiddingZoneTwo
+                    <urn:uuid:30e6709e-510c-49b9-92ec-e2aebdc1050e> .
+    
+    <urn:uuid:513a2d2e-952f-458d-ba64-e01da098b43c>
+            rdf:type                       nc:BiddingZone;
+            cim:IdentifiedObject.description
+                    "Bidding Zone - Great Britain (N2EX)";
+            cim:IdentifiedObject.mRID      "513a2d2e-952f-458d-ba64-e01da098b43c";
+            cim:IdentifiedObject.name      "GB_N2EX_PRICZONE";
+            eu:IdentifiedObject.energyIdentCodeEic
+                    "10Y1001A1001A57G";
+            nc:BiddingZone.isTradeEnabled  true .
+    
+    <urn:uuid:8a2653a0-7f76-4f64-a346-9ae318f219dc>
+            rdf:type                   nc:BiddingZoneBorder;
+            cim:IdentifiedObject.description
+                    "Non-oriented border between Norwegian Area Elspot Area 5 - Norwegian Area Elspot Area 2";
+            cim:IdentifiedObject.mRID  "8a2653a0-7f76-4f64-a346-9ae318f219dc";
+            cim:IdentifiedObject.name  "NO5 - NO2";
+            nc:BiddingZoneBorder.BiddingZoneOne
+                    <urn:uuid:dc281688-8b45-4ce7-b2e8-6c524a5afece>;
+            nc:BiddingZoneBorder.BiddingZoneTwo
+                    <urn:uuid:63b13e2e-8d0a-47d0-8de8-fb686decbae4> .
+    
+    <urn:uuid:0fd1ebd0-300c-49a3-a696-9597c325b3c0>
+            rdf:type                   nc:SynchronousArea;
+            cim:IdentifiedObject.description
+                    "Great Britain";
+            cim:IdentifiedObject.mRID  "0fd1ebd0-300c-49a3-a696-9597c325b3c0";
+            cim:IdentifiedObject.name  "GB";
+            eu:IdentifiedObject.energyIdentCodeEic
+                    "10YGB----------A";
+            nc:SynchronousArea.nominalFrequency
+                    "50.0"^^xsd:float .
+    
+    <urn:uuid:0c1bc7f4-7404-4a4d-9d6b-d9edc0944a54>
+            rdf:type                       nc:BiddingZone;
+            cim:IdentifiedObject.description
+                    "Denmark DK2";
+            cim:IdentifiedObject.mRID      "0c1bc7f4-7404-4a4d-9d6b-d9edc0944a54";
+            cim:IdentifiedObject.name      "DK2";
+            eu:IdentifiedObject.energyIdentCodeEic
+                    "10YDK-2--------M";
+            nc:BiddingZone.isTradeEnabled  true .
+    
+    <urn:uuid:5829041b-1f25-4a3d-8b4c-532d9f0b6e54>
+            rdf:type                   nc:SynchronousArea;
+            cim:IdentifiedObject.description
+                    "Nordic Synchronous Area";
+            cim:IdentifiedObject.mRID  "5829041b-1f25-4a3d-8b4c-532d9f0b6e54";
+            cim:IdentifiedObject.name  "NORDIC_SYNC_AREA";
+            eu:IdentifiedObject.energyIdentCodeEic
+                    "10Y1001C--00146U";
+            nc:SynchronousArea.nominalFrequency
+                    "50.0"^^xsd:float .
+    
+    <urn:uuid:63120a2a-5a7e-4d6e-b5fe-7b9f31214372>
+            rdf:type                       nc:BiddingZone;
+            cim:IdentifiedObject.description
+                    "Virtual Bidding Zone NO2NSL";
+            cim:IdentifiedObject.mRID      "63120a2a-5a7e-4d6e-b5fe-7b9f31214372";
+            cim:IdentifiedObject.name      "NO_NO2NSL";
+            eu:IdentifiedObject.energyIdentCodeEic
+                    "50Y0JVU59B4JWQCU";
+            nc:BiddingZone.isTradeEnabled  true .
+    
+    <urn:uuid:4684fa6a-2955-4a24-b862-b6287ae8edf1>
+            rdf:type                       nc:BiddingZone;
+            cim:IdentifiedObject.description
+                    "DKW-NO2 virtual Bidding Zone Border";
+            cim:IdentifiedObject.mRID      "4684fa6a-2955-4a24-b862-b6287ae8edf1";
+            cim:IdentifiedObject.name      "DKW-NO2";
+            eu:IdentifiedObject.energyIdentCodeEic
+                    "45Y000000000001C";
+            nc:BiddingZone.isTradeEnabled  true .
+    
+    <urn:uuid:2119a5e9-fa38-4fe8-a8e9-2a2cc6f73bad>
+            rdf:type                       nc:BiddingZone;
+            cim:IdentifiedObject.description
+                    "Swedish Elspot Area 4";
+            cim:IdentifiedObject.mRID      "2119a5e9-fa38-4fe8-a8e9-2a2cc6f73bad";
+            cim:IdentifiedObject.name      "SE4";
+            eu:IdentifiedObject.energyIdentCodeEic
+                    "10Y1001A1001A47J";
+            nc:BiddingZone.isTradeEnabled  true .
+    
+    <urn:uuid:876cec4f-ba53-4430-b74e-db535e4c10dd>
+            rdf:type                       nc:BiddingZone;
+            cim:IdentifiedObject.description
+                    "Cut corridor SE3LS-SE3";
+            cim:IdentifiedObject.mRID      "876cec4f-ba53-4430-b74e-db535e4c10dd";
+            cim:IdentifiedObject.name      "CUTCOR_SE3LS-SE3";
+            eu:IdentifiedObject.energyIdentCodeEic
+                    "46Y000000000009I";
+            nc:BiddingZone.isTradeEnabled  true .
+    
+    <urn:uuid:2cd34940-0a4f-420a-92db-b265c4bd23ea>
+            rdf:type                       nc:BiddingZone;
+            cim:IdentifiedObject.description
+                    "SE4_BC (SE4, Baltic Cable)";
+            cim:IdentifiedObject.mRID      "2cd34940-0a4f-420a-92db-b265c4bd23ea";
+            cim:IdentifiedObject.name      "SE4_BC";
+            eu:IdentifiedObject.energyIdentCodeEic
+                    "46Y000000000005Q";
+            nc:BiddingZone.isTradeEnabled  true .
+    
+    <urn:uuid:e8bc1265-aed2-4455-8e01-aa98cff31cc6>
+            rdf:type                       nc:BiddingZone;
+            cim:IdentifiedObject.description
+                    "DKW-DKE virtual Bidding Zone Border";
+            cim:IdentifiedObject.mRID      "e8bc1265-aed2-4455-8e01-aa98cff31cc6";
+            cim:IdentifiedObject.name      "DKW-DKE";
+            eu:IdentifiedObject.energyIdentCodeEic
+                    "45Y0000000000038";
+            nc:BiddingZone.isTradeEnabled  true .
+    
+    <urn:uuid:109c6570-7b10-4855-9d2e-648818ed95e3>
+            rdf:type                       nc:BiddingZone;
+            cim:IdentifiedObject.description
+                    "Virtual bidding Zone NO2-DE";
+            cim:IdentifiedObject.mRID      "109c6570-7b10-4855-9d2e-648818ed95e3";
+            cim:IdentifiedObject.name      "NO_NO2-DE";
+            eu:IdentifiedObject.energyIdentCodeEic
+                    "50YNBFFTWZRAHA3P";
+            nc:BiddingZone.isTradeEnabled  true .
+    
+    <urn:uuid:4308fd4e-591d-4db9-966c-417402c99601>
+            rdf:type                   nc:BiddingZoneBorder;
+            cim:IdentifiedObject.description
+                    "Non-oriented border between Norwegian Area Elspot Area 4 - Swedish Elspot Area 2";
+            cim:IdentifiedObject.mRID  "4308fd4e-591d-4db9-966c-417402c99601";
+            cim:IdentifiedObject.name  "NO4 - SE2";
+            nc:BiddingZoneBorder.BiddingZoneOne
+                    <urn:uuid:b64efd13-92fe-4786-87ef-731d1e2cce0e>;
+            nc:BiddingZoneBorder.BiddingZoneTwo
+                    <urn:uuid:781f385c-f3a1-4691-843d-eab2ed919a1b> .
+    
+    <urn:uuid:2bb01483-28f2-4a79-a9c6-754478445e30>
+            rdf:type                   nc:SynchronousArea;
+            cim:IdentifiedObject.description
+                    "Synchronous Zone of Continental Europe";
+            cim:IdentifiedObject.mRID  "2bb01483-28f2-4a79-a9c6-754478445e30";
+            cim:IdentifiedObject.name  "EU-CONTINENT-SYN";
+            eu:IdentifiedObject.energyIdentCodeEic
+                    "10YEU-CONT-SYNC0";
+            nc:SynchronousArea.nominalFrequency
+                    "50.0"^^xsd:float .
+    
+    <urn:uuid:852b95c0-4c49-4ded-85b2-a8f2b610db30>
+            rdf:type                   nc:BiddingZoneBorder;
+            cim:IdentifiedObject.description
+                    "Non-oriented border between Norwegian Area Elspot Area 1 - Norwegian Area Elspot Area 3";
+            cim:IdentifiedObject.mRID  "852b95c0-4c49-4ded-85b2-a8f2b610db30";
+            cim:IdentifiedObject.name  "NO1 - NO3";
+            nc:BiddingZoneBorder.BiddingZoneOne
+                    <urn:uuid:83aa03e5-5fd0-431c-b8dd-acc08c21ed6a>;
+            nc:BiddingZoneBorder.BiddingZoneTwo
+                    <urn:uuid:0f094148-164b-427a-a8e8-0c5f334688ae> .
+    
+    <urn:uuid:9ed72c3e-5849-4ff6-aea0-e9fbe9ee9bbf>
+            rdf:type                   nc:BiddingZoneBorder;
+            cim:IdentifiedObject.description
+                    "Non-oriented border between Swedish Elspot Area 2 - Norwegian Area Elspot Area 3";
+            cim:IdentifiedObject.mRID  "9ed72c3e-5849-4ff6-aea0-e9fbe9ee9bbf";
+            cim:IdentifiedObject.name  "SE2 - NO3";
+            nc:BiddingZoneBorder.BiddingZoneOne
+                    <urn:uuid:781f385c-f3a1-4691-843d-eab2ed919a1b>;
+            nc:BiddingZoneBorder.BiddingZoneTwo
+                    <urn:uuid:0f094148-164b-427a-a8e8-0c5f334688ae> .
+    
+    <urn:uuid:e7e780b2-3a74-4453-8e4d-f10a397abf5d>
+            rdf:type                       nc:BiddingZone;
+            cim:IdentifiedObject.description
+                    "Denmark DK1";
+            cim:IdentifiedObject.mRID      "e7e780b2-3a74-4453-8e4d-f10a397abf5d";
+            cim:IdentifiedObject.name      "DK1";
+            eu:IdentifiedObject.energyIdentCodeEic
+                    "10YDK-1--------W";
+            nc:BiddingZone.isTradeEnabled  true .
+    
+    <urn:uuid:418d9231-72f2-4b70-af6d-511cf4a60e46>
+            rdf:type                   nc:BiddingZoneBorder;
+            cim:IdentifiedObject.description
+                    "Non-oriented border between Denmark DK1 - Germany_Austria_Luxemburg";
+            cim:IdentifiedObject.mRID  "418d9231-72f2-4b70-af6d-511cf4a60e46";
+            cim:IdentifiedObject.name  "DK1 - DE_AT_LU";
+            nc:BiddingZoneBorder.BiddingZoneOne
+                    <urn:uuid:e7e780b2-3a74-4453-8e4d-f10a397abf5d>;
+            nc:BiddingZoneBorder.BiddingZoneTwo
+                    <urn:uuid:f0a0d421-7010-423b-805a-73a99393f1d6> .
+    
+    <urn:uuid:6eaaae78-21f1-41c7-81a4-2b0fe15cdbfc>
+            rdf:type                       nc:BiddingZone;
+            cim:IdentifiedObject.description
+                    "Finland";
+            cim:IdentifiedObject.mRID      "6eaaae78-21f1-41c7-81a4-2b0fe15cdbfc";
+            cim:IdentifiedObject.name      "FI";
+            eu:IdentifiedObject.energyIdentCodeEic
+                    "10YFI-1--------U";
+            nc:BiddingZone.isTradeEnabled  true .
+    
+    <urn:uuid:781f385c-f3a1-4691-843d-eab2ed919a1b>
+            rdf:type                       nc:BiddingZone;
+            cim:IdentifiedObject.description
+                    "Swedish Elspot Area 2";
+            cim:IdentifiedObject.mRID      "781f385c-f3a1-4691-843d-eab2ed919a1b";
+            cim:IdentifiedObject.name      "SE2";
+            eu:IdentifiedObject.energyIdentCodeEic
+                    "10Y1001A1001A45N";
+            nc:BiddingZone.isTradeEnabled  true .
+    
+    <urn:uuid:782856fe-3263-4d10-8f45-4005f5f8e477>
+            rdf:type                       nc:BiddingZone;
+            cim:IdentifiedObject.description
+                    "SE3_FS (SE3, Fennoskan)";
+            cim:IdentifiedObject.mRID      "782856fe-3263-4d10-8f45-4005f5f8e477";
+            cim:IdentifiedObject.name      "SE3_FS";
+            eu:IdentifiedObject.energyIdentCodeEic
+                    "46Y000000000001Y";
+            nc:BiddingZone.isTradeEnabled  true .
+    
+    <urn:uuid:72eb4991-d019-4b13-b023-74578baec192>
+            rdf:type                   nc:BiddingZoneBorder;
+            cim:IdentifiedObject.description
+                    "Non-oriented border between Great Britain - Norwegian Area Elspot Area 2";
+            cim:IdentifiedObject.mRID  "72eb4991-d019-4b13-b023-74578baec192";
+            cim:IdentifiedObject.name  "GB - NO2";
+            nc:BiddingZoneBorder.BiddingZoneOne
+                    <urn:uuid:7e0de26d-9d0e-4181-a94a-d3a50fdaf719>;
+            nc:BiddingZoneBorder.BiddingZoneTwo
+                    <urn:uuid:63b13e2e-8d0a-47d0-8de8-fb686decbae4> .
+    
+    <urn:uuid:2fe0c5f3-33d1-4c30-9cc9-1e7d69d2befe>
+            rdf:type                       nc:BiddingZone;
+            cim:IdentifiedObject.description
+                    "DKW-SE3 virtual Bidding Zone Border";
+            cim:IdentifiedObject.mRID      "2fe0c5f3-33d1-4c30-9cc9-1e7d69d2befe";
+            cim:IdentifiedObject.name      "DKW-SE3";
+            eu:IdentifiedObject.energyIdentCodeEic
+                    "45Y000000000002A";
+            nc:BiddingZone.isTradeEnabled  true .
+    
+    <urn:uuid:8ad62773-067d-4de6-a818-c399459347cf>
+            rdf:type                       nc:BiddingZone;
+            cim:IdentifiedObject.description
+                    "Norwegian Fictitious Area 2A";
+            cim:IdentifiedObject.mRID      "8ad62773-067d-4de6-a818-c399459347cf";
+            cim:IdentifiedObject.name      "NO_FICT_AREA_2A";
+            eu:IdentifiedObject.energyIdentCodeEic
+                    "10Y1001C--001219";
+            nc:BiddingZone.isTradeEnabled  true .
+    
+    <urn:uuid:85fea1a6-7edb-4f73-88b8-3a95ea728d03>
+            rdf:type                       nc:BiddingZone;
+            cim:IdentifiedObject.description
+                    "Germany_Luxemburg";
+            cim:IdentifiedObject.mRID      "85fea1a6-7edb-4f73-88b8-3a95ea728d03";
+            cim:IdentifiedObject.name      "DE_LU";
+            eu:IdentifiedObject.energyIdentCodeEic
+                    "10Y1001A1001A82H";
+            nc:BiddingZone.isTradeEnabled  true .
+    
+    <urn:uuid:50f0783d-0543-41c4-972a-9ad8415b52a4>
+            rdf:type                   nc:TransmissionSystemOperator;
+            cim:IdentifiedObject.description
+                    "Transmission System Operator (TSO) role performed by Nordic_Test";
+            cim:IdentifiedObject.mRID  "50f0783d-0543-41c4-972a-9ad8415b52a4";
+            cim:IdentifiedObject.name  "TSO-Nordic_Test";
+            cim:OrganisationRole.Organisation
+                    <urn:uuid:1dd01985-1188-4568-af69-814fed3a3c84> .
+    
+    <urn:uuid:1573e9cd-ba34-4706-8111-a20ba8f299dd>
+            rdf:type                       nc:BiddingZone;
+            cim:IdentifiedObject.description
+                    "Latvia";
+            cim:IdentifiedObject.mRID      "1573e9cd-ba34-4706-8111-a20ba8f299dd";
+            cim:IdentifiedObject.name      "LV";
+            eu:IdentifiedObject.energyIdentCodeEic
+                    "10YLV-1001A00074";
+            nc:BiddingZone.isTradeEnabled  true .
+    
+    <urn:uuid:7e0de26d-9d0e-4181-a94a-d3a50fdaf719>
+            rdf:type                       nc:BiddingZone;
+            cim:IdentifiedObject.description
+                    "Great Britain";
+            cim:IdentifiedObject.mRID      "7e0de26d-9d0e-4181-a94a-d3a50fdaf719";
+            cim:IdentifiedObject.name      "GB";
+            eu:IdentifiedObject.energyIdentCodeEic
+                    "10YGB----------A";
+            nc:BiddingZone.isTradeEnabled  true .
+    
+    <urn:uuid:80022cc2-2b82-45e9-b225-a5defa8b17d6>
+            rdf:type                       nc:BiddingZone;
+            cim:IdentifiedObject.description
+                    "Nordic Synchronous Area";
+            cim:IdentifiedObject.mRID      "80022cc2-2b82-45e9-b225-a5defa8b17d6";
+            cim:IdentifiedObject.name      "NORDIC_SYNC_AREA";
+            eu:IdentifiedObject.energyIdentCodeEic
+                    "10Y1001C--00146U";
+            nc:BiddingZone.isTradeEnabled  true .
+    
+    <urn:uuid:30e6709e-510c-49b9-92ec-e2aebdc1050e>
+            rdf:type                       nc:BiddingZone;
+            cim:IdentifiedObject.description
+                    "Swedish Elspot Area 3";
+            cim:IdentifiedObject.mRID      "30e6709e-510c-49b9-92ec-e2aebdc1050e";
+            cim:IdentifiedObject.name      "SE3";
+            eu:IdentifiedObject.energyIdentCodeEic
+                    "10Y1001A1001A46L";
+            nc:BiddingZone.isTradeEnabled  true .
+    
+    <urn:uuid:e951c775-b6d0-4aa4-b85c-496a00c91175>
+            rdf:type                   nc:BiddingZoneBorder;
+            cim:IdentifiedObject.description
+                    "Non-oriented border between Denmark DK1 - Swedish Elspot Area 3";
+            cim:IdentifiedObject.mRID  "e951c775-b6d0-4aa4-b85c-496a00c91175";
+            cim:IdentifiedObject.name  "DK1 - SE3";
+            nc:BiddingZoneBorder.BiddingZoneOne
+                    <urn:uuid:e7e780b2-3a74-4453-8e4d-f10a397abf5d>;
+            nc:BiddingZoneBorder.BiddingZoneTwo
+                    <urn:uuid:30e6709e-510c-49b9-92ec-e2aebdc1050e> .
+    
+    <urn:uuid:697bcbb6-d367-4c5c-be7b-13a91cf36d53>
+            rdf:type                   nc:BiddingZoneBorder;
+            cim:IdentifiedObject.description
+                    "Non-oriented border between Norwegian Area Elspot Area 3 - Norwegian Area Elspot Area 4";
+            cim:IdentifiedObject.mRID  "697bcbb6-d367-4c5c-be7b-13a91cf36d53";
+            cim:IdentifiedObject.name  "NO3 - NO4";
+            nc:BiddingZoneBorder.BiddingZoneOne
+                    <urn:uuid:0f094148-164b-427a-a8e8-0c5f334688ae>;
+            nc:BiddingZoneBorder.BiddingZoneTwo
+                    <urn:uuid:b64efd13-92fe-4786-87ef-731d1e2cce0e> .
+    
+    <urn:uuid:0f094148-164b-427a-a8e8-0c5f334688ae>
+            rdf:type                       nc:BiddingZone;
+            cim:IdentifiedObject.description
+                    "Norwegian Area Elspot Area 3";
+            cim:IdentifiedObject.mRID      "0f094148-164b-427a-a8e8-0c5f334688ae";
+            cim:IdentifiedObject.name      "NO3";
+            eu:IdentifiedObject.energyIdentCodeEic
+                    "10YNO-3--------J";
+            nc:BiddingZone.isTradeEnabled  true .
+    
+    <urn:uuid:4835ff24-9dfd-439c-88f0-fed992da0949>
+            rdf:type                       nc:BiddingZone;
+            cim:IdentifiedObject.description
+                    "Fingrid Oyj";
+            cim:IdentifiedObject.mRID      "4835ff24-9dfd-439c-88f0-fed992da0949";
+            cim:IdentifiedObject.name      "FI_EL";
+            eu:IdentifiedObject.energyIdentCodeEic
+                    "44Y-00000000161I";
+            nc:BiddingZone.isTradeEnabled  true .
+    
+    <urn:uuid:f36f7e28-51a4-4396-8441-9d90d22f0775>
+            rdf:type                   nc:CoordinatedCapacityCalculator;
+            cim:IdentifiedObject.description
+                    "Coordinated Capacity Calcualtion performed by Nordic_TSO";
+            cim:IdentifiedObject.mRID  "f36f7e28-51a4-4396-8441-9d90d22f0775";
+            cim:IdentifiedObject.name  "CCC-Nordic_TSO";
+            cim:OrganisationRole.Organisation
+                    <urn:uuid:1dd01985-1188-4568-af69-814fed3a3c84> .
 }
