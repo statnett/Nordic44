@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#"
 	xmlns:dcat="http://www.w3.org/ns/dcat#"
-	xmlns:dcat-cim="https://cim4.eu/ns/dcat-cim#" 
+	xmlns:dcatcim="https://cim4.eu/ns/dcatcim#" 
 	xmlns:dcterms="http://purl.org/dc/terms/" 
  	xmlns:eu="https://cim.ucaiug.io/ns/eu#"
 	xmlns:nc="https://cim4.eu/ns/nc#"
