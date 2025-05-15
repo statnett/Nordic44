@@ -622,17 +622,17 @@
     <cim:OrganisationRole.Organisation rdf:resource="#_1dd01985-1188-4568-af69-814fed3a3c84"/>
   </nc:CoordinatedCapacityCalculator>
 
-  <nc:Organisation rdf:ID="_1dd01985-1188-4568-af69-814fed3a3c84">
+  <cim:Organisation rdf:ID="_1dd01985-1188-4568-af69-814fed3a3c84">
     <cim:IdentifiedObject.description>Nordic_TSO</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>1dd01985-1188-4568-af69-814fed3a3c84</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Nordic_TSO</cim:IdentifiedObject.name>
-  </nc:Organisation>
+  </cim:Organisation>
 
-  <nc:Organisation rdf:ID="_7c072768-f7f2-4c95-8037-e0059468442a">
+  <cim:Organisation rdf:ID="_7c072768-f7f2-4c95-8037-e0059468442a">
     <cim:IdentifiedObject.description>Telemark-DSO Organisation</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>7c072768-f7f2-4c95-8037-e0059468442a</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Telemark-DSO</cim:IdentifiedObject.name>
-  </nc:Organisation>
+  </cim:Organisation>
 
   <nc:SecurityCoordinator rdf:ID="_889205f2-284f-4beb-8c9f-7d4da78382d0">
     <cim:IdentifiedObject.description>Security Coordinator role for Nordic performed by Nordic-TSO</cim:IdentifiedObject.description>
