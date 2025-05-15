@@ -20,7 +20,7 @@
   <dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/Public"/>
   <dcterms:conformsTo rdf:resource="https://ap.cim4.eu/EquipmentReliability/2.3"/>
   <dcterms:description xml:lang="en">Common Data (CD) included in Network Code part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region.</dcterms:description>
-  <dcterms:identifier>urn:uuid:d9a01a85-0ad8-4958-be03-d89ad78ca497</dcterms:identifier>
+  <dcterms:identifier>d9a01a85-0ad8-4958-be03-d89ad78ca497</dcterms:identifier>
   <dcterms:issued>2025-02-14T12:00:00Z</dcterms:issued>
   <dcterms:publisher rdf:resource="https://www.statnett.no/en/about-statnett/contact-us/"/>
   <dcterms:rights>Copyright</dcterms:rights>

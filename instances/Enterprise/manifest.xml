@@ -16,7 +16,7 @@
     <dcat:dataset rdf:resource="urn:uuid:75f351c7-75a6-4c25-8f1c-985aa59e90ad"/>
     <dcat:version>3.0.0-beta.1</dcat:version>
     <dcterms:description xml:lang="en">Enterprise (ENT) part of Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region.</dcterms:description>
-    <dcterms:identifier>urn:uuid:f0d38504-4ba9-4912-b9ca-3673f5947e7d</dcterms:identifier>
+    <dcterms:identifier>f0d38504-4ba9-4912-b9ca-3673f5947e7d</dcterms:identifier>
     <dcterms:issued>2025-02-14T12:00:00Z</dcterms:issued>
     <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
     <dcterms:publisher rdf:resource="https://www.statnett.no/en/about-statnett/contact-us/"/>
@@ -36,7 +36,7 @@
     <dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/Public"/>
     <dcterms:conformsTo rdf:resource="http://iec.ch/TC57/CIM/AssetCatalogue/2/0"/>
     <dcterms:description xml:lang="en">Asset Catalogue (AC) from Schneider included in the enterprise part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region.</dcterms:description>
-    <dcterms:identifier>urn:uuid:ade44b65-0bfa-41e0-95c5-2ccb345a6fed</dcterms:identifier>
+    <dcterms:identifier>ade44b65-0bfa-41e0-95c5-2ccb345a6fed</dcterms:identifier>
     <dcterms:issued>2025-02-14T12:00:00Z</dcterms:issued>
     <dcterms:publisher rdf:resource="https://www.statnett.no/en/about-statnett/contact-us/"/>
     <dcterms:rights>Copyright</dcterms:rights>
@@ -65,7 +65,7 @@
     <dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/Public"/>
     <dcterms:conformsTo rdf:resource="http://iec.ch/TC57/CIM/AssetCatalogue/2/0"/>
     <dcterms:description xml:lang="en">Asset Catalogue (AC) from Siemens Energy included in the enterprise part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region.</dcterms:description>
-    <dcterms:identifier>urn:uuid:d869a44b5-7ab5-4bcf-9d58-1c9e750a6f20</dcterms:identifier>
+    <dcterms:identifier>d869a44b5-7ab5-4bcf-9d58-1c9e750a6f20</dcterms:identifier>
     <dcterms:issued>2025-02-14T12:00:00Z</dcterms:issued>
     <dcterms:publisher rdf:resource="https://www.statnett.no/en/about-statnett/contact-us/"/>
     <dcterms:rights>Copyright</dcterms:rights>
@@ -94,7 +94,7 @@
     <dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/Public"/>
     <dcterms:conformsTo rdf:resource="http://iec.ch/TC57/CIM/Asset/2/0"/>
     <dcterms:description xml:lang="en">Asset (AS) records for Statnett as asset owner in the enterprise part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region.Nordic CPMSM Test model Asset.</dcterms:description>
-    <dcterms:identifier>urn:uuid:eb4d92e6-d4da-11e7-9296-cec278b6b50a</dcterms:identifier>
+    <dcterms:identifier>eb4d92e6-d4da-11e7-9296-cec278b6b50a</dcterms:identifier>
     <dcterms:issued>2025-02-14T12:00:00Z</dcterms:issued>
     <dcterms:publisher rdf:resource="https://www.statnett.no/en/about-statnett/contact-us/"/>
     <dcterms:requires rdf:resource="urn:uuid:ade44b65-0bfa-41e0-95c5-2ccb345a6fed"/>

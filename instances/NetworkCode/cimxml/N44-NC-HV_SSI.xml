@@ -20,7 +20,7 @@
   <dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/Public"/>
   <dcterms:conformsTo rdf:resource="https://ap.cim4.eu/SteadyStateInstruction/2.3"/>
   <dcterms:description xml:lang="en">Steady State Instruction (SSI) included in Network Code part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region.</dcterms:description>
-  <dcterms:identifier>urn:uuid:ebe06a74-e44c-491f-bbfe-1cabb232828e</dcterms:identifier>
+  <dcterms:identifier>ebe06a74-e44c-491f-bbfe-1cabb232828e</dcterms:identifier>
   <dcterms:issued>2025-02-14T12:00:00Z</dcterms:issued>
   <dcterms:publisher rdf:resource="https://www.statnett.no/en/about-statnett/contact-us/"/>
   <dcterms:requires rdf:resource="urn:uuid:84552e03-0040-43d5-aff2-0f77f01668cb"/> <!-- N44-NC-HV_CO --> 
