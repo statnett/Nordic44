@@ -51,7 +51,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
                     <urn:uuid:85fea1a6-7edb-4f73-88b8-3a95ea728d03> .
     
     <urn:uuid:1dd01985-1188-4568-af69-814fed3a3c84>
-            rdf:type                   nc:Organisation;
+            rdf:type                   cim:Organisation;
             cim:IdentifiedObject.description
                     "Nordic_TSO";
             cim:IdentifiedObject.mRID  "1dd01985-1188-4568-af69-814fed3a3c84";
@@ -448,7 +448,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             nc:BiddingZone.isTradeEnabled  true .
     
     <urn:uuid:7c072768-f7f2-4c95-8037-e0059468442a>
-            rdf:type                   nc:Organisation;
+            rdf:type                   cim:Organisation;
             cim:IdentifiedObject.description
                     "Telemark-DSO Organisation";
             cim:IdentifiedObject.mRID  "7c072768-f7f2-4c95-8037-e0059468442a";

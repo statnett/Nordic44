@@ -21,7 +21,7 @@
     <dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/Public"/>
     <dcterms:conformsTo rdf:resource="http://iec.ch/TC57/CIM/AssetCatalogue/2/0"/>
     <dcterms:description xml:lang="en">Asset Catalogue (AC) from Schneider included in the enterprise part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region.</dcterms:description>
-    <dcterms:identifier>urn:uuid:ade44b65-0bfa-41e0-95c5-2ccb345a6fed</dcterms:identifier>
+    <dcterms:identifier>ade44b65-0bfa-41e0-95c5-2ccb345a6fed</dcterms:identifier>
     <dcterms:issued>2025-02-14T12:00:00Z</dcterms:issued>
     <dcterms:publisher rdf:resource="https://www.statnett.no/en/about-statnett/contact-us/"/>
     <dcterms:rights>Copyright</dcterms:rights>

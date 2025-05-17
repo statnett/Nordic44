@@ -4,6 +4,7 @@
 	xmlns:dcatcim="https://cim4.eu/ns/dcatcim#" 
 	xmlns:dcterms="http://purl.org/dc/terms/" 
  	xmlns:eu="https://cim.ucaiug.io/ns/eu#"
+  xmlns:eumd="https://cim4.eu/ns/Metadata-European#"
 	xmlns:nc="https://cim4.eu/ns/nc#"
 	xmlns:prov="http://www.w3.org/ns/prov#"
   xmlns:adms="http://www.w3.org/ns/adms#"
@@ -20,7 +21,7 @@
   <dcat:dataset rdf:resource="urn:uuid:3f3f00a8-b86a-4a3e-ab86-2cd3140fa187"/> <!-- N44-NC-HV_RAS -->
   <dcat:version>3.0.0-beta.1</dcat:version>
   <dcterms:description xml:lang="en">Network Code (NC) part of Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region.</dcterms:description>
-  <dcterms:identifier>urn:uuid:7c8e1c28-eb8d-4453-90d0-e3509ad07b32</dcterms:identifier>
+  <dcterms:identifier>7c8e1c28-eb8d-4453-90d0-e3509ad07b32</dcterms:identifier>
   <dcterms:issued>2025-02-14T12:00:00Z</dcterms:issued>
   <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
   <dcterms:publisher rdf:resource="https://www.statnett.no/en/about-statnett/contact-us/"/>
@@ -40,7 +41,7 @@
   <dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/Public"/>
   <dcterms:conformsTo rdf:resource="https://ap.cim4.eu/EquipmentReliability/2.3"/>
   <dcterms:description xml:lang="en">Common Data (CD) included in Network Code part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region.</dcterms:description>
-  <dcterms:identifier>urn:uuid:d9a01a85-0ad8-4958-be03-d89ad78ca497</dcterms:identifier>
+  <dcterms:identifier>d9a01a85-0ad8-4958-be03-d89ad78ca497</dcterms:identifier>
   <dcterms:issued>2025-02-14T12:00:00Z</dcterms:issued>
   <dcterms:publisher rdf:resource="https://www.statnett.no/en/about-statnett/contact-us/"/>
   <dcterms:rights>Copyright</dcterms:rights>
@@ -71,7 +72,7 @@
   <dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/Public"/>
   <dcterms:conformsTo rdf:resource="https://ap.cim4.eu/Contingency/2.3"/>
   <dcterms:description xml:lang="en">Contingency (CO) included in Network Code part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region.</dcterms:description>
-  <dcterms:identifier>urn:uuid:84552e03-0040-43d5-aff2-0f77f01668c</dcterms:identifier>
+  <dcterms:identifier>84552e03-0040-43d5-aff2-0f77f01668c</dcterms:identifier>
   <dcterms:issued>2025-02-14T12:00:00Z</dcterms:issued>
   <dcterms:publisher rdf:resource="https://www.statnett.no/en/about-statnett/contact-us/"/>
   <dcterms:requires rdf:resource="urn:uuid:e710212f-f6b2-8d4c-9dc0-365398d8b59c"/> <!-- Nordic44-HV_EQ -->
@@ -104,7 +105,7 @@
   <dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/Public"/>
   <dcterms:conformsTo rdf:resource="https://ap.cim4.eu/SteadyStateInstruction/2.3"/>
   <dcterms:description xml:lang="en">Steady State Instruction (SSI) included in Network Code part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region.</dcterms:description>
-  <dcterms:identifier>urn:uuid:ebe06a74-e44c-491f-bbfe-1cabb232828e</dcterms:identifier>
+  <dcterms:identifier>ebe06a74-e44c-491f-bbfe-1cabb232828e</dcterms:identifier>
   <dcterms:issued>2025-02-14T12:00:00Z</dcterms:issued>
   <dcterms:publisher rdf:resource="https://www.statnett.no/en/about-statnett/contact-us/"/>
   <dcterms:requires rdf:resource="urn:uuid:84552e03-0040-43d5-aff2-0f77f01668cb"/> <!-- N44-NC-HV_CO -->
@@ -137,7 +138,7 @@
   <dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/Public"/>
   <dcterms:conformsTo rdf:resource="https://ap.cim4.eu/EquipmentReliability/2.3"/>
   <dcterms:description xml:lang="en">Equipment Reliability (ER) included in Network Code part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region.</dcterms:description>
-  <dcterms:identifier>urn:uuid:ebef4527-f0bc-4c59-8870-950af8ed9041</dcterms:identifier>
+  <dcterms:identifier>ebef4527-f0bc-4c59-8870-950af8ed9041</dcterms:identifier>
   <dcterms:issued>2025-02-14T12:00:00Z</dcterms:issued>
   <dcterms:publisher rdf:resource="https://www.statnett.no/en/about-statnett/contact-us/"/>
   <dcterms:requires rdf:resource="urn:uuid:e710212f-f6b2-8d4c-9dc0-365398d8b59c"/> <!-- Nordic44-HV_EQ -->
@@ -169,7 +170,7 @@
   <dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/Public"/>
   <dcterms:conformsTo rdf:resource="https://ap.cim4.eu/RemedialAction/2.3"/>
   <dcterms:description xml:lang="en">Remedial Action (RA) included in Network Code part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region.</dcterms:description>
-  <dcterms:identifier>urn:uuid:9e3521e2-9504-4122-8c1e-a4c4411ffd7a</dcterms:identifier>
+  <dcterms:identifier>9e3521e2-9504-4122-8c1e-a4c4411ffd7a</dcterms:identifier>
   <dcterms:issued>2025-02-14T12:00:00Z</dcterms:issued>
   <dcterms:publisher rdf:resource="https://www.statnett.no/en/about-statnett/contact-us/"/>
   <dcterms:requires rdf:resource="urn:uuid:e710212f-f6b2-8d4c-9dc0-365398d8b59c"/> <!-- Nordic44-HV_EQ -->
@@ -202,7 +203,7 @@
   <dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/Public"/>
   <dcterms:conformsTo rdf:resource="https://ap.cim4.eu/RemedialActionSchedule/2.3"/>
   <dcterms:description xml:lang="en">Remedial Action Schedule (RAS) included in Network Code part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region.</dcterms:description>
-  <dcterms:identifier>urn:uuid:3f3f00a8-b86a-4a3e-ab86-2cd3140fa187</dcterms:identifier>
+  <dcterms:identifier>3f3f00a8-b86a-4a3e-ab86-2cd3140fa187</dcterms:identifier>
   <dcterms:issued>2025-02-14T12:00:00Z</dcterms:issued>
   <dcterms:publisher rdf:resource="https://www.statnett.no/en/about-statnett/contact-us/"/>
   <dcterms:requires rdf:resource="urn:uuid:9e3521e2-9504-4122-8c1e-a4c4411ffd7a"/> <!-- N44-NC-HV_RA -->  

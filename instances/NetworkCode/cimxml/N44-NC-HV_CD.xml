@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#"
+<rdf:RDF xmlns:cim="https://cim.ucaiug.io/ns#"
 	xmlns:dcat="http://www.w3.org/ns/dcat#"
-	xmlns:dcat-cim="https://cim4.eu/ns/dcat-cim#" 
+	xmlns:dcatcim="https://cim4.eu/ns/dcatcim#" 
 	xmlns:dcterms="http://purl.org/dc/terms/" 
  	xmlns:eu="https://cim.ucaiug.io/ns/eu#"
+  xmlns:eumd="https://cim4.eu/ns/Metadata-European#"
 	xmlns:nc="https://cim4.eu/ns/nc#"
 	xmlns:prov="http://www.w3.org/ns/prov#"
   xmlns:adms="http://www.w3.org/ns/adms#"
@@ -20,7 +21,7 @@
   <dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/Public"/>
   <dcterms:conformsTo rdf:resource="https://ap.cim4.eu/EquipmentReliability/2.3"/>
   <dcterms:description xml:lang="en">Common Data (CD) included in Network Code part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region.</dcterms:description>
-  <dcterms:identifier>urn:uuid:d9a01a85-0ad8-4958-be03-d89ad78ca497</dcterms:identifier>
+  <dcterms:identifier>d9a01a85-0ad8-4958-be03-d89ad78ca497</dcterms:identifier>
   <dcterms:issued>2025-02-14T12:00:00Z</dcterms:issued>
   <dcterms:publisher rdf:resource="https://www.statnett.no/en/about-statnett/contact-us/"/>
   <dcterms:rights>Copyright</dcterms:rights>
@@ -621,17 +622,17 @@
     <cim:OrganisationRole.Organisation rdf:resource="#_1dd01985-1188-4568-af69-814fed3a3c84"/>
   </nc:CoordinatedCapacityCalculator>
 
-  <nc:Organisation rdf:ID="_1dd01985-1188-4568-af69-814fed3a3c84">
+  <cim:Organisation rdf:ID="_1dd01985-1188-4568-af69-814fed3a3c84">
     <cim:IdentifiedObject.description>Nordic_TSO</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>1dd01985-1188-4568-af69-814fed3a3c84</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Nordic_TSO</cim:IdentifiedObject.name>
-  </nc:Organisation>
+  </cim:Organisation>
 
-  <nc:Organisation rdf:ID="_7c072768-f7f2-4c95-8037-e0059468442a">
+  <cim:Organisation rdf:ID="_7c072768-f7f2-4c95-8037-e0059468442a">
     <cim:IdentifiedObject.description>Telemark-DSO Organisation</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>7c072768-f7f2-4c95-8037-e0059468442a</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Telemark-DSO</cim:IdentifiedObject.name>
-  </nc:Organisation>
+  </cim:Organisation>
 
   <nc:SecurityCoordinator rdf:ID="_889205f2-284f-4beb-8c9f-7d4da78382d0">
     <cim:IdentifiedObject.description>Security Coordinator role for Nordic performed by Nordic-TSO</cim:IdentifiedObject.description>
