@@ -917,7 +917,7 @@
 		<cim:IdentifiedObject.name>CC 420RINGHALS-HALDEN  1</cim:IdentifiedObject.name>
     <cim:IdentifiedObject.mRID>efe2dce7-e144-48ae-8b0e-9e48cddea658</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>Line Circuit container for 420RINGHALS-HALDEN  1.</cim:IdentifiedObject.description>
-		<nc:Circuit.Terminal rdf:resource="#_2dd9039f-bdfb-11e5-94fa-c8f73332c8f4"/> <!-- Need to check -->
+		<nc:Circuit.IdentifyingTerminal rdf:resource="#_2dd9039f-bdfb-11e5-94fa-c8f73332c8f4"/> <!-- Need to check -->
 		<nc:Circuit.positiveFlowIn>true</nc:Circuit.positiveFlowIn>
 	</nc:LineCircuit>
 
@@ -925,7 +925,7 @@
 		<cim:IdentifiedObject.name>CC 420RINGHALS-HALDEN  2</cim:IdentifiedObject.name>
     	<cim:IdentifiedObject.mRID>0b8fd844-ca69-4cc9-82b5-3225991235b6</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.description>Line Circuit container for 420RINGHALS-HALDEN  2.</cim:IdentifiedObject.description>
-		<nc:Circuit.Terminal rdf:resource="#_2dd903a2-bdfb-11e5-94fa-c8f73332c8f4"/> <!-- Need to check -->
+		<nc:Circuit.IdentifyingTerminal rdf:resource="#_2dd903a2-bdfb-11e5-94fa-c8f73332c8f4"/> <!-- Need to check -->
 		<nc:Circuit.positiveFlowIn>true</nc:Circuit.positiveFlowIn>
 	</nc:LineCircuit>
 
