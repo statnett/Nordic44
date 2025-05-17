@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:cim="http://iec.ch/TC57/CIM100#"
+<rdf:RDF xmlns:cim="https://cim.ucaiug.io/ns#"
 	xmlns:dcat="http://www.w3.org/ns/dcat#"
 	xmlns:dcatcim="https://cim4.eu/ns/dcatcim#" 
 	xmlns:dcterms="http://purl.org/dc/terms/" 
