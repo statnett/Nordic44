@@ -59,9 +59,9 @@
 		<cim:IdentifiedObject.description>Ambient Temperature Dependency Curve in degree Celsius</cim:IdentifiedObject.description>
 		<cim:IdentifiedObject.name>ATDC-001</cim:IdentifiedObject.name>
 		<cim:IdentifiedObject.mRID>5f595160-19c7-467e-a8df-4bcefc89b46e</cim:IdentifiedObject.mRID>
-		<cim:curve.curveStyle rdf:resource="https://cim.ucaiug.io/ns#straightLineYValues"/>	
-		<cim:curve.xUnit rdf:resource="https://cim.ucaiug.io/ns#UnitSymbol.degC"/>
-		<cim:curve.y2Unit rdf:resource="https://cim.ucaiug.io/ns#UnitSymbol.none"/>
+		<cim:Curve.curveStyle rdf:resource="https://cim.ucaiug.io/ns#straightLineYValues"/>	
+		<cim:Curve.xUnit rdf:resource="https://cim.ucaiug.io/ns#UnitSymbol.degC"/>
+		<cim:Curve.y2Unit rdf:resource="https://cim.ucaiug.io/ns#UnitSymbol.none"/>
 	</nc:AmbientTemperatureDependencyCurve>
 
 	<cim:CurveData rdf:ID="_f8dcb94f-6a0f-40ef-9928-842b25b7df53">
