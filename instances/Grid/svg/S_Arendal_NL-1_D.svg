@@ -1,0 +1,1018 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cimspy="https://powerinfo.us/CIMSpy" id="MultiStations" width="2571.577" height="2188" viewBox="0 0 4694.352 3994.142" cimspy:name="MultiStations" rdf:ID="_f1769670-9aeb-11e5-91da-b8763fd99c5f--::--217.451788911914--::--230.690704004883--#--_f176964e-9aeb-11e5-91da-b8763fd99c5f--::--384.909727023913--::--228.771486071299--#--_f176965a-9aeb-11e5-91da-b8763fd99c5f--::--217.247513164078--::--398.665405103764--#--_f1769676-9aeb-11e5-91da-b8763fd99c5f--::--50--::--228.390415136457--#--_f176966a-9aeb-11e5-91da-b8763fd99c5f--::--217.660554456617--::--50" cimspy:diagramType="6" style="background-color: #DCF5FF" fill="#DCF5FF" xmlns="http://www.w3.org/2000/svg">
+  <polygon id="Boundary_ARENDAL" points="815,616 815,1503.5 1535,1503.5 1535,616" rdf:ID="_f1769670-9aeb-11e5-91da-b8763fd99c5f" stroke="#000033" fill="none" stroke-width="2" />
+  <polygon id="Boundary_ASKER" points="1743,611 1743,910.9414 2463,910.9414 2463,611" rdf:ID="_f176964e-9aeb-11e5-91da-b8763fd99c5f" stroke="#000033" fill="none" stroke-width="2" />
+  <polygon id="Boundary_KRISTIANSAND" points="180,1656 180,2158 2152.5,2158 2152.5,1656" rdf:ID="_f176965a-9aeb-11e5-91da-b8763fd99c5f" stroke="#000033" fill="none" stroke-width="2" />
+  <polygon id="Boundary_KRISTIA_HVDC" points="181,610 181,866.9707 312,866.9707 312,610" rdf:ID="_f1769676-9aeb-11e5-91da-b8763fd99c5f" stroke="#000033" fill="none" stroke-width="2" />
+  <polygon id="Boundary_SANDEFJORD" points="966,130 966,312.9707 1386,312.9707 1386,130" rdf:ID="_f176966a-9aeb-11e5-91da-b8763fd99c5f" stroke="#000033" fill="none" stroke-width="2" />
+  <text id="FreeText_ARENDAL CN 002" x="1161.085" y="1067.97" rdf:ID="_f176966f-9aeb-11e5-91da-b8763fd99c5f" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">300 KV</text>
+  <text id="FreeText_ARENDAL CN 002" x="1164.321" y="1067.97" rdf:ID="_f176966f-9aeb-11e5-91da-b8763fd99c5f" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">0.970</text>
+  <text id="FreeText_ARENDAL CN 004" x="1058.5" y="1258.485" rdf:ID="_b92e4ea4-edf8-ba43-987b-e5bfdf722f76" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">300 KV</text>
+  <text id="FreeText_ARENDAL CN 004" x="1013.143" y="1264.47" rdf:ID="_b92e4ea4-edf8-ba43-987b-e5bfdf722f76" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">0.970</text>
+  <text id="FreeText_ARENDAL CN 006" x="1227.585" y="1469.97" rdf:ID="_6d29661c-f61d-2d41-bf87-4f8956ddd2a4" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">300 KV</text>
+  <text id="FreeText_ARENDAL CN 010" x="1253.5" y="1258.485" rdf:ID="_4fdd3c67-0b4a-5145-b123-8404da4b4c37" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">300 KV</text>
+  <text id="FreeText_ARENDAL CN 010" x="1208.143" y="1264.47" rdf:ID="_4fdd3c67-0b4a-5145-b123-8404da4b4c37" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">0.970</text>
+  <text id="FreeText_ARENDAL CN 011" x="1448.5" y="1258.485" rdf:ID="_634c0b31-4fe8-2545-b189-6afde342600e" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">300 KV</text>
+  <text id="FreeText_ARENDAL CN 011" x="1403.143" y="1264.47" rdf:ID="_634c0b31-4fe8-2545-b189-6afde342600e" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">0.970</text>
+  <text id="FreeText_ARENDAL 420T1  AB_S" x="1182" y="759.9846" rdf:ID="_368340e1-464b-814b-9bac-9b70b93dde72" fill="#622423" font-family="Segoe UI" font-size="9" font-weight="normal">ARENDAL 420T1  AB_S</text>
+  <text id="FreeText_ARENDAL 300AS1 AB_S" x="1053.5" y="1105.485" rdf:ID="_22e5ddcf-ac23-b449-bc4f-83336535f7c2" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">ARENDAL 300AS1 AB_S</text>
+  <text id="FreeText_ARENDAL 300KR1 AB_S" x="1248.5" y="1105.485" rdf:ID="_f56758a8-12a0-7648-b04b-f32ec3247e3b" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">ARENDAL 300KR1 AB_S</text>
+  <text id="FreeText_ARENDAL 300KR2 AB_S" x="1443.5" y="1105.485" rdf:ID="_dd8be3ea-8ad3-f148-898c-5509662d5159" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">ARENDAL 300KR2 AB_S</text>
+  <text id="FreeText_ARENDAL 300SC1 AB_S" x="889.5" y="1105.485" rdf:ID="_3dd4a1cf-86dc-9649-8120-e519d7986be9" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">ARENDAL 300SC1 AB_S</text>
+  <text id="FreeText_ARENDAL 300T1  AB_S" x="1182" y="1009.485" rdf:ID="_5ae8b25f-24cc-e34b-b238-2aea59d516c5" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">ARENDAL 300T1  AB_S</text>
+  <text id="FreeText_ARENDAL 300AS1 AD_S" x="1056" y="1205.985" rdf:ID="_4e7aa43e-f1a3-0046-8cbb-19f29bfdeab6" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">ARENDAL 300AS1 AD_S</text>
+  <text id="FreeText_ARENDAL 300AS1 BD_S" x="1056" y="1310.985" rdf:ID="_6d9f92ea-354f-9f40-9fc2-33367292f12c" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">ARENDAL 300AS1 BD_S</text>
+  <text id="FreeText_ARENDAL 300 LSC1" x="843.6238" y="1251.47" rdf:ID="_2dd90408-bdfb-11e5-94fa-c8f73332c8f4" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">ARENDAL 300 LSC1</text>
+  <text id="FreeText_ARENDAL 300AS1 BB_S" x="1053.5" y="1411.485" rdf:ID="_0a46da9f-1326-254e-8a3b-649a431f6625" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">ARENDAL 300AS1 BB_S</text>
+  <text id="FreeText_ARENDAL 300KR1 BB_S" x="1248.5" y="1411.485" rdf:ID="_7113e099-7f24-6a47-9fa2-94a2d57d6c9b" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">ARENDAL 300KR1 BB_S</text>
+  <text id="FreeText_ARENDAL 300KR2 BB_S" x="1443.5" y="1411.485" rdf:ID="_cbd34307-2d45-ae47-872a-516888952750" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">ARENDAL 300KR2 BB_S</text>
+  <text id="FreeText_ARENDAL 300KR1 AD_S" x="1251" y="1205.985" rdf:ID="_e3672ff8-a637-5046-a7f7-cd1760746ed4" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">ARENDAL 300KR1 AD_S</text>
+  <text id="FreeText_ARENDAL 300KR2 AD_S" x="1446" y="1205.985" rdf:ID="_674b85b4-1a1f-2341-94bf-7e8f93392a7a" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">ARENDAL 300KR2 AD_S</text>
+  <text id="FreeText_ARENDAL 300KR1 BD_S" x="1251" y="1310.985" rdf:ID="_b36c1e1d-ec67-7b48-9a2f-ecbf617ae59f" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">ARENDAL 300KR1 BD_S</text>
+  <text id="FreeText_ARENDAL 300KR2 BD_S" x="1446" y="1310.985" rdf:ID="_4ba4e1a4-7265-d74f-8d46-8a4db7da37d1" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">ARENDAL 300KR2 BD_S</text>
+  <text id="FreeText_ARENDAL T1" x="1189.5" y="884.7346" rdf:ID="_f1769e1e-9aeb-11e5-91da-b8763fd99c5f" fill="#622423" font-family="Segoe UI" font-size="9" font-weight="normal">ARENDAL T1</text>
+  <text id="FreeText_ARENDAL CN 001" x="1145.085" y="844.4993" rdf:ID="_eb3421d2-80ad-7747-b602-3be10cb30599" fill="#622423" font-family="Segoe UI" font-size="9" font-weight="normal">420 KV</text>
+  <text id="FreeText_ARENDAL CN 001" x="1187" y="860.97" rdf:ID="_eb3421d2-80ad-7747-b602-3be10cb30599" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">0.972</text>
+  <text id="FreeText_ARENDAL T1 T2" x="1177.5" y="844.0139" rdf:ID="_2dd9047c-bdfb-11e5-94fa-c8f73332c8f4" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">739.9MW, 35MVAr</text>
+  <text id="FreeText_ARENDAL CN 014" x="1187" y="980.4846" rdf:ID="_c40dd7e6-4d04-c749-b05a-7d733ba2661c" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">300 KV</text>
+  <text id="FreeText_ARENDAL CN 014" x="1141.643" y="986.47" rdf:ID="_c40dd7e6-4d04-c749-b05a-7d733ba2661c" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">0.970</text>
+  <text id="FreeText_ARENDAL CN 015" x="1177.085" y="720.4993" rdf:ID="_cb837454-5c66-d341-be63-d0c044e5fd3c" fill="#622423" font-family="Segoe UI" font-size="9" font-weight="normal">420 KV</text>
+  <text id="FreeText_ARENDAL CN 015" x="1187" y="736.97" rdf:ID="_cb837454-5c66-d341-be63-d0c044e5fd3c" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">0.972</text>
+  <text id="FreeText_ARENDAL CN 005" x="894.5" y="1192.485" rdf:ID="_8684ec86-2477-414d-9cab-63a5f35822b4" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">300 KV</text>
+  <text id="FreeText_ARENDAL CN 005" x="849.1426" y="1198.47" rdf:ID="_8684ec86-2477-414d-9cab-63a5f35822b4" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">0.970</text>
+  <text id="FreeText_ARENDAL 300 LSC1 T1" x="885" y="1181.514" rdf:ID="_2dd90409-bdfb-11e5-94fa-c8f73332c8f4" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">0.3MW, -1.2MVAr</text>
+  <text id="FreeText_ARENDAL CN 003" x="1058.5" y="1172.485" rdf:ID="_c270f00c-d35c-384d-82bf-ff0883b1eb41" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">300 KV</text>
+  <text id="FreeText_ARENDAL CN 003" x="1013.143" y="1178.47" rdf:ID="_c270f00c-d35c-384d-82bf-ff0883b1eb41" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">0.970</text>
+  <text id="FreeText_ARENDAL CN 008" x="1253.5" y="1172.485" rdf:ID="_20c2eb92-4ef1-204b-9054-c1baaba29845" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">300 KV</text>
+  <text id="FreeText_ARENDAL CN 008" x="1208.143" y="1178.47" rdf:ID="_20c2eb92-4ef1-204b-9054-c1baaba29845" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">0.970</text>
+  <text id="FreeText_ARENDAL CN 009" x="1448.5" y="1172.485" rdf:ID="_2751922a-47e7-714b-a611-b90281f72c7e" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">300 KV</text>
+  <text id="FreeText_ARENDAL CN 009" x="1403.143" y="1178.47" rdf:ID="_2751922a-47e7-714b-a611-b90281f72c7e" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">0.970</text>
+  <text id="FreeText_ARENDAL CN 007" x="1058.5" y="1382.485" rdf:ID="_6b8e0ffe-1129-e541-9ba1-65e69ebff7a4" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">300 KV</text>
+  <text id="FreeText_ARENDAL CN 012" x="1253.5" y="1382.485" rdf:ID="_b20d8f4b-ad02-ff4e-bd3f-f34a841f2432" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">300 KV</text>
+  <text id="FreeText_ARENDAL CN 013" x="1448.5" y="1382.485" rdf:ID="_b51adb17-75b9-2245-9021-ef54fa7870b7" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">300 KV</text>
+  <text id="FreeText_ARENDAL" x="1155.587" y="629.97" rdf:ID="_f1769670-9aeb-11e5-91da-b8763fd99c5f" fill="#000033" font-family="Segoe UI" font-size="9" font-weight="normal">ARENDAL</text>
+  <text id="FreeText_OSLO2       " x="2089.085" y="760.4407" rdf:ID="_f176964d-9aeb-11e5-91da-b8763fd99c5f" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">300 KV</text>
+  <text id="FreeText_OSLO2       " x="1793" y="760.4407" rdf:ID="_f176964d-9aeb-11e5-91da-b8763fd99c5f" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">1.004</text>
+  <text id="FreeText_ASKER   300 L1" x="2232.126" y="822.9407" rdf:ID="_f1769746-9aeb-11e5-91da-b8763fd99c5f" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">ASKER   300 L1</text>
+  <text id="FreeText_ASKER   300 L2" x="2368.376" y="822.9407" rdf:ID="_f176974c-9aeb-11e5-91da-b8763fd99c5f" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">ASKER   300 L2</text>
+  <text id="FreeText_ASKER   300 M1" x="1830" y="817.4553" rdf:ID="_f1769919-9aeb-11e5-91da-b8763fd99c5f" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">ASKER   300 M1</text>
+  <text id="FreeText_ASKER   300 M2" x="1981.25" y="817.4553" rdf:ID="_f1769920-9aeb-11e5-91da-b8763fd99c5f" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">ASKER   300 M2</text>
+  <text id="FreeText_ASKER   300 LSC1" x="2132.5" y="809.9553" rdf:ID="_2dd90405-bdfb-11e5-94fa-c8f73332c8f4" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">ASKER   300 LSC1</text>
+  <text id="FreeText_ASKER   T1" x="2052.5" y="717.9846" rdf:ID="_f1769dfa-9aeb-11e5-91da-b8763fd99c5f" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">ASKER   T1</text>
+  <a id="xlink_FreeText_SKIEN" xlink:href="SKIEN.svg">
+    <text id="FreeText_SKIEN" x="2031.159" y="672.97" rdf:ID="_f1769654-9aeb-11e5-91da-b8763fd99c5f" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">SKIEN</text>
+  </a>
+  <text id="FreeText_ASKER   T1" x="2052.5" y="729.9553" rdf:ID="_f1769dfa-9aeb-11e5-91da-b8763fd99c5f" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">969MW, 1144.7MVAr</text>
+  <a id="xlink_FreeText_300TRETTEN-ASKER" xlink:href="300TRETTEN-ASKER.svg">
+    <text id="FreeText_300TRETTEN-ASKER" x="2165.5" y="717.9846" rdf:ID="_f1769b9c-9aeb-11e5-91da-b8763fd99c5f" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">300TRETTEN-ASKER</text>
+  </a>
+  <a id="xlink_FreeText_TRETTEN" xlink:href="TRETTEN.svg">
+    <text id="FreeText_TRETTEN" x="2145.316" y="672.97" rdf:ID="_f1769604-9aeb-11e5-91da-b8763fd99c5f" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">TRETTEN</text>
+  </a>
+  <a id="xlink_FreeText_300TRETTEN-ASKER_1" xlink:href="300TRETTEN-ASKER.svg">
+    <text id="FreeText_300TRETTEN-ASKER" x="2165.5" y="729.9553" rdf:ID="_f1769b9c-9aeb-11e5-91da-b8763fd99c5f" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">651.9MW, -118.9MVAr</text>
+  </a>
+  <a id="xlink_FreeText_300OSLO-ASKER" xlink:href="300OSLO-ASKER.svg">
+    <text id="FreeText_300OSLO-ASKER" x="2285.5" y="717.9846" rdf:ID="_f1769c68-9aeb-11e5-91da-b8763fd99c5f" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">300OSLO-ASKER</text>
+  </a>
+  <a id="xlink_FreeText_OSLO" xlink:href="OSLO.svg">
+    <text id="FreeText_OSLO" x="2271.706" y="672.97" rdf:ID="_f176963c-9aeb-11e5-91da-b8763fd99c5f" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">OSLO</text>
+  </a>
+  <a id="xlink_FreeText_300OSLO-ASKER_1" xlink:href="300OSLO-ASKER.svg">
+    <text id="FreeText_300OSLO-ASKER" x="2285.5" y="729.9553" rdf:ID="_f1769c68-9aeb-11e5-91da-b8763fd99c5f" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">320.4MW, 21.8MVAr</text>
+  </a>
+  <text id="FreeText_T1" x="2264.25" y="757.9846" rdf:ID="_2dd901f9-bdfb-11e5-94fa-c8f73332c8f4" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">1030.4MW, 430.1MVAr</text>
+  <text id="FreeText_T1" x="2400.5" y="757.9846" rdf:ID="_2dd901fc-bdfb-11e5-94fa-c8f73332c8f4" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">1030.4MW, 430.1MVAr</text>
+  <text id="FreeText_T1" x="1818" y="757.9846" rdf:ID="_2dd902d6-bdfb-11e5-94fa-c8f73332c8f4" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">248.5MW, -73.1MVAr</text>
+  <text id="FreeText_T1" x="1969.25" y="757.9846" rdf:ID="_2dd902d9-bdfb-11e5-94fa-c8f73332c8f4" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">248.5MW, -73.1MVAr</text>
+  <text id="FreeText_T1" x="2120.5" y="757.9846" rdf:ID="_2dd90406-bdfb-11e5-94fa-c8f73332c8f4" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">0.3MW, -1.3MVAr</text>
+  <text id="FreeText_ASKER" x="2090.128" y="624.97" rdf:ID="_f176964e-9aeb-11e5-91da-b8763fd99c5f" fill="#000033" font-family="Segoe UI" font-size="9" font-weight="normal">ASKER</text>
+  <text id="FreeText_KRISTIAN CN 001" x="1178.585" y="1701.499" rdf:ID="_f1769659-9aeb-11e5-91da-b8763fd99c5f" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">300 KV</text>
+  <text id="FreeText_KRISTIAN CN 001" x="1181.821" y="1713.47" rdf:ID="_f1769659-9aeb-11e5-91da-b8763fd99c5f" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">1.010</text>
+  <text id="FreeText_KRISTIAN CN 003" x="679.8625" y="1902.499" rdf:ID="_d5ea472c-af76-584c-8a65-a5b8317877f0" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">300 KV</text>
+  <text id="FreeText_KRISTIAN CN 003" x="689.7778" y="1918.97" rdf:ID="_d5ea472c-af76-584c-8a65-a5b8317877f0" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">1.010</text>
+  <text id="FreeText_KRISTIAN CN 005" x="1163.085" y="2103.499" rdf:ID="_28061cca-1604-214c-8c06-2fead2059ba8" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">300 KV</text>
+  <text id="FreeText_KRISTIAN CN 010" x="1680.307" y="1902.499" rdf:ID="_3c9ed587-6983-374e-a74d-83d4f7d7f649" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">300 KV</text>
+  <text id="FreeText_KRISTIAN CN 010" x="1690.222" y="1918.97" rdf:ID="_3c9ed587-6983-374e-a74d-83d4f7d7f649" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">1.010</text>
+  <text id="FreeText_KRISTIAN CN 012" x="882.7514" y="1902.499" rdf:ID="_3e1fe653-f8a5-8e40-ad9c-d9be4a58aae7" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">300 KV</text>
+  <text id="FreeText_KRISTIAN CN 012" x="892.6667" y="1918.97" rdf:ID="_3e1fe653-f8a5-8e40-ad9c-d9be4a58aae7" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">1.010</text>
+  <text id="FreeText_KRISTIAN CN 013" x="1288.529" y="1902.499" rdf:ID="_56c7aad0-b73d-714f-8904-cb156a912127" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">300 KV</text>
+  <text id="FreeText_KRISTIAN CN 013" x="1298.444" y="1918.97" rdf:ID="_56c7aad0-b73d-714f-8904-cb156a912127" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">1.010</text>
+  <text id="FreeText_KRISTIAN CN 020" x="500.8889" y="1912.985" rdf:ID="_8f2b8925-21b0-d14c-8ced-d67d3fcea0b7" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">300 KV</text>
+  <text id="FreeText_KRISTIAN CN 020" x="455.5315" y="1918.97" rdf:ID="_8f2b8925-21b0-d14c-8ced-d67d3fcea0b7" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">1.010</text>
+  <text id="FreeText_KRISTIAN CN 021" x="1501.333" y="1912.985" rdf:ID="_94a69cff-f81f-6541-b6e4-bdb979e1f6f5" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">300 KV</text>
+  <text id="FreeText_KRISTIAN CN 021" x="1455.976" y="1918.97" rdf:ID="_94a69cff-f81f-6541-b6e4-bdb979e1f6f5" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">1.010</text>
+  <text id="FreeText_KRISTIAN CN 022" x="1868.196" y="1902.499" rdf:ID="_9d774e04-5169-7943-bcdf-cf4f73601dec" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">300 KV</text>
+  <text id="FreeText_KRISTIAN CN 022" x="1878.111" y="1918.97" rdf:ID="_9d774e04-5169-7943-bcdf-cf4f73601dec" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">1.010</text>
+  <text id="FreeText_KRISTIAN CN 024" x="312" y="1912.985" rdf:ID="_a311e1be-3bd0-0643-9298-94b985de0e9e" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">300 KV</text>
+  <text id="FreeText_KRISTIAN CN 024" x="266.6426" y="1918.97" rdf:ID="_a311e1be-3bd0-0643-9298-94b985de0e9e" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">1.010</text>
+  <text id="FreeText_KRISTIAN CN 025" x="1085.64" y="1902.499" rdf:ID="_ab565f24-4ed2-f349-b00c-8727645d1793" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">300 KV</text>
+  <text id="FreeText_KRISTIAN CN 025" x="1095.556" y="1918.97" rdf:ID="_ab565f24-4ed2-f349-b00c-8727645d1793" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">1.010</text>
+  <text id="FreeText_KRISTIAN CN 028" x="2066" y="1912.985" rdf:ID="_b791db49-1c0b-3d48-a46e-c5509c1e49db" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">300 KV</text>
+  <text id="FreeText_KRISTIAN CN 028" x="2020.643" y="1918.97" rdf:ID="_b791db49-1c0b-3d48-a46e-c5509c1e49db" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">1.010</text>
+  <text id="FreeText_KRISTIAN300AR1 AB_S" x="307" y="1759.985" rdf:ID="_2384f146-deb2-c046-817c-6322a5381b9c" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">KRISTIAN300AR1 AB_S</text>
+  <text id="FreeText_KRISTIAN300FE1 AB_S" x="495.8889" y="1759.985" rdf:ID="_0d415b1b-b4da-f34f-aafb-802c77edce8e" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">KRISTIAN300FE1 AB_S</text>
+  <text id="FreeText_KRISTIAN300G1  AB_S" x="684.7778" y="1759.985" rdf:ID="_cefef4c4-1b45-af4b-8e13-275e0c9ffe27" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">KRISTIAN300G1  AB_S</text>
+  <text id="FreeText_KRISTIAN300G2  AB_S" x="887.6667" y="1759.985" rdf:ID="_13588bcf-c30d-7a49-beaa-67fcce61d305" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">KRISTIAN300G2  AB_S</text>
+  <text id="FreeText_KRISTIAN300G3  AB_S" x="1090.556" y="1759.985" rdf:ID="_316f39b6-0fed-ea41-87a1-0f5119e136c2" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">KRISTIAN300G3  AB_S</text>
+  <text id="FreeText_KRISTIAN300G4  AB_S" x="1293.444" y="1759.985" rdf:ID="_a7bb9a3e-03d8-3b46-9cf6-f2bf71ab7042" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">KRISTIAN300G4  AB_S</text>
+  <text id="FreeText_KRISTIAN300KV1 AB_S" x="1496.333" y="1759.985" rdf:ID="_e399c43f-0e9e-ae42-a66e-116fcccb56ac" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">KRISTIAN300KV1 AB_S</text>
+  <text id="FreeText_KRISTIAN300L1  AB_S" x="1685.222" y="1759.985" rdf:ID="_05d4226b-111b-f747-84b4-cc7be03f3544" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">KRISTIAN300L1  AB_S</text>
+  <text id="FreeText_KRISTIAN300L2  AB_S" x="1873.111" y="1759.985" rdf:ID="_7cc994ab-ddb9-8a4a-bbda-e91af59a06d9" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">KRISTIAN300L2  AB_S</text>
+  <text id="FreeText_KRISTIAN300ST1 AB_S" x="2061" y="1759.985" rdf:ID="_b209ada6-1835-1540-8868-1cd5e65016c2" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">KRISTIAN300ST1 AB_S</text>
+  <text id="FreeText_KRISTIAN300G1  AD_S" x="687.2778" y="1860.485" rdf:ID="_85c172ea-50d5-8843-ba55-f8659693a2c6" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">KRISTIAN300G1  AD_S</text>
+  <text id="FreeText_KRISTIAN300 M1" x="604.0871" y="2015.97" rdf:ID="_f1769929-9aeb-11e5-91da-b8763fd99c5f" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">KRISTIAN300 M1</text>
+  <text id="FreeText_KRISTIAN300G1  BD_S" x="687.2778" y="1965.485" rdf:ID="_41b5a199-973e-9246-ab28-6593d6a59a0d" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">KRISTIAN300G1  BD_S</text>
+  <text id="FreeText_KRISTIAN300G1  BB_S" x="684.7778" y="2065.985" rdf:ID="_bf62264e-c8f3-8f43-95c9-570f3337479c" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">KRISTIAN300G1  BB_S</text>
+  <text id="FreeText_KRISTIAN300AR1 BB_S" x="307" y="2065.985" rdf:ID="_3c4c59b7-461d-5b40-8f0e-2064845bbfdb" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">KRISTIAN300AR1 BB_S</text>
+  <text id="FreeText_KRISTIAN300FE1 BB_S" x="495.8889" y="2065.985" rdf:ID="_fdf147d4-240d-2143-b01a-84fc829bc284" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">KRISTIAN300FE1 BB_S</text>
+  <text id="FreeText_KRISTIAN300G2  BB_S" x="887.6667" y="2065.985" rdf:ID="_128ca899-5716-9341-a823-dd4c35385f2e" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">KRISTIAN300G2  BB_S</text>
+  <text id="FreeText_KRISTIAN300G3  BB_S" x="1090.556" y="2065.985" rdf:ID="_30b297b4-8e19-da40-9f52-fb9175136a22" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">KRISTIAN300G3  BB_S</text>
+  <text id="FreeText_KRISTIAN300G4  BB_S" x="1293.444" y="2065.985" rdf:ID="_0c75da66-5f3b-7d4a-809d-5a3772999253" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">KRISTIAN300G4  BB_S</text>
+  <text id="FreeText_KRISTIAN300KV1 BB_S" x="1496.333" y="2065.985" rdf:ID="_0169b8e7-c05b-3640-b55e-22b40081ca21" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">KRISTIAN300KV1 BB_S</text>
+  <text id="FreeText_KRISTIAN300ST1 BB_S" x="2061" y="2065.985" rdf:ID="_56013ae5-ff4f-2949-b59a-e60c62702d3e" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">KRISTIAN300ST1 BB_S</text>
+  <text id="FreeText_KRISTIAN300L1  BB_S" x="1685.222" y="2065.985" rdf:ID="_2973c36e-3d17-284c-a950-b86b9496acca" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">KRISTIAN300L1  BB_S</text>
+  <text id="FreeText_KRISTIAN300L2  BB_S" x="1873.111" y="2065.985" rdf:ID="_373c4779-0905-d34c-bbc9-d200f848cbd9" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">KRISTIAN300L2  BB_S</text>
+  <text id="FreeText_KRISTIAN300AR1 AD_S" x="309.5" y="1860.485" rdf:ID="_ecc63b62-ab62-9747-9744-92ba78e89971" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">KRISTIAN300AR1 AD_S</text>
+  <text id="FreeText_KRISTIAN300L1  BD_S" x="1687.722" y="1965.485" rdf:ID="_9098d05f-45b6-7b4f-b176-a6995b423baa" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">KRISTIAN300L1  BD_S</text>
+  <text id="FreeText_KRISTIAN300G4  BD_S" x="1295.944" y="1965.485" rdf:ID="_3a4ef440-621c-ec4d-9d45-65e99b395dae" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">KRISTIAN300G4  BD_S</text>
+  <text id="FreeText_KRISTIAN300G2  AD_S" x="890.1667" y="1860.485" rdf:ID="_bdc35ecf-da90-de41-9345-b8c4228f63bd" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">KRISTIAN300G2  AD_S</text>
+  <text id="FreeText_KRISTIAN300 L1" x="1579.954" y="1944.999" rdf:ID="_f1769752-9aeb-11e5-91da-b8763fd99c5f" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">KRISTIAN300 L1</text>
+  <text id="FreeText_KRISTIAN300L1  AD_S" x="1687.722" y="1860.485" rdf:ID="_c986d524-47e9-9e4d-b635-64386c9be9a1" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">KRISTIAN300L1  AD_S</text>
+  <text id="FreeText_KRISTIAN300G4  AD_S" x="1295.944" y="1860.485" rdf:ID="_cc9d6086-68d7-0840-88da-2456744b3b14" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">KRISTIAN300G4  AD_S</text>
+  <text id="FreeText_KRISTIAN300 M2" x="806.976" y="2015.97" rdf:ID="_f1769930-9aeb-11e5-91da-b8763fd99c5f" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">KRISTIAN300 M2</text>
+  <text id="FreeText_KRISTIAN300G2  BD_S" x="890.1667" y="1965.485" rdf:ID="_df16ad25-a8cf-a04b-a420-0d71145132dc" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">KRISTIAN300G2  BD_S</text>
+  <text id="FreeText_KRISTIAN300 M4" x="1212.754" y="2015.97" rdf:ID="_f176993e-9aeb-11e5-91da-b8763fd99c5f" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">KRISTIAN300 M4</text>
+  <text id="FreeText_KRISTIAN300KV1 AD_S" x="1498.833" y="1860.485" rdf:ID="_0192045c-3523-324a-a050-c9dddd6fe2d0" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">KRISTIAN300KV1 AD_S</text>
+  <text id="FreeText_KRISTIAN300G3  AD_S" x="1093.056" y="1860.485" rdf:ID="_c9917527-be41-014a-9344-d9df590239e3" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">KRISTIAN300G3  AD_S</text>
+  <text id="FreeText_KRISTIAN300ST1 BD_S" x="2063.5" y="1965.485" rdf:ID="_f0473e35-b545-ac4a-84b9-2d52718a3b35" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">KRISTIAN300ST1 BD_S</text>
+  <text id="FreeText_KRISTIAN300L2  AD_S" x="1875.611" y="1860.485" rdf:ID="_2366eea5-1051-1047-b1e4-ba6c741e076d" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">KRISTIAN300L2  AD_S</text>
+  <text id="FreeText_KRISTIAN300ST1 AD_S" x="2063.5" y="1860.485" rdf:ID="_4b31bd38-15c9-104a-bbb8-4570207cc245" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">KRISTIAN300ST1 AD_S</text>
+  <text id="FreeText_KRISTIAN300FE1 BD_S" x="498.3889" y="1965.485" rdf:ID="_6589185b-1ac4-df4e-830b-30ea50c3d15d" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">KRISTIAN300FE1 BD_S</text>
+  <text id="FreeText_KRISTIAN300FE1 AD_S" x="498.3889" y="1860.485" rdf:ID="_ff413319-b126-e444-9e46-3e2268fc19aa" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">KRISTIAN300FE1 AD_S</text>
+  <text id="FreeText_KRISTIAN300KV1 BD_S" x="1498.833" y="1965.485" rdf:ID="_4ee41c27-44cd-3146-8fe0-ad30d5051340" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">KRISTIAN300KV1 BD_S</text>
+  <text id="FreeText_KRISTIAN300 L2" x="1767.843" y="1944.999" rdf:ID="_f1769758-9aeb-11e5-91da-b8763fd99c5f" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">KRISTIAN300 L2</text>
+  <text id="FreeText_KRISTIAN300L2  BD_S" x="1875.611" y="1965.485" rdf:ID="_29fd599d-9429-cb4b-a103-df08eb0a97f8" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">KRISTIAN300L2  BD_S</text>
+  <text id="FreeText_KRISTIAN300AR1 BD_S" x="309.5" y="1965.485" rdf:ID="_dad36893-9a19-d148-8703-a4f0ddd95077" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">KRISTIAN300AR1 BD_S</text>
+  <text id="FreeText_KRISTIAN300 M3" x="1009.865" y="2015.97" rdf:ID="_f1769937-9aeb-11e5-91da-b8763fd99c5f" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">KRISTIAN300 M3</text>
+  <text id="FreeText_KRISTIAN300G3  BD_S" x="1093.056" y="1965.485" rdf:ID="_3993c419-d9d7-bb4c-8319-6671df77ec90" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">KRISTIAN300G3  BD_S</text>
+  <a id="xlink_FreeText_300KRISTIAN-FEDA" xlink:href="300KRISTIAN-FEDA.svg">
+    <text id="FreeText_300KRISTIAN-FEDA" x="393.0664" y="1920.97" rdf:ID="_f1769ce0-9aeb-11e5-91da-b8763fd99c5f" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">300KRISTIAN-FEDA</text>
+  </a>
+  <a id="xlink_FreeText_FEDA_HVDC" xlink:href="FEDA_HVDC.svg">
+    <text id="FreeText_FEDA_HVDC" x="394.5586" y="1835.999" rdf:ID="_f176967c-9aeb-11e5-91da-b8763fd99c5f" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">FEDA_HVDC</text>
+  </a>
+  <a id="xlink_FreeText_300KRISTIAN-FEDA_1" xlink:href="300KRISTIAN-FEDA.svg">
+    <text id="FreeText_300KRISTIAN-FEDA" x="335.4665" y="1902.985" rdf:ID="_f1769ce0-9aeb-11e5-91da-b8763fd99c5f" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">729MW, 245.4MVAr</text>
+  </a>
+  <a id="xlink_FreeText_300KRISTIAN-KVILLDAL" xlink:href="300KRISTIAN-KVILLDAL.svg">
+    <text id="FreeText_300KRISTIAN-KVILLDAL" x="1385.027" y="1920.97" rdf:ID="_f1769cec-9aeb-11e5-91da-b8763fd99c5f" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">300KRISTIAN-KVILLDAL</text>
+  </a>
+  <a id="xlink_FreeText_KVILLDAL" xlink:href="KVILLDAL.svg">
+    <text id="FreeText_KVILLDAL" x="1400.318" y="1835.999" rdf:ID="_f1769682-9aeb-11e5-91da-b8763fd99c5f" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">KVILLDAL</text>
+  </a>
+  <a id="xlink_FreeText_300KRISTIAN-KVILLDAL_1" xlink:href="300KRISTIAN-KVILLDAL.svg">
+    <text id="FreeText_300KRISTIAN-KVILLDAL" x="1322.658" y="1908.985" rdf:ID="_f1769cec-9aeb-11e5-91da-b8763fd99c5f" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">1154.6MW, -244.7MVAr</text>
+  </a>
+  <a id="xlink_FreeText_300KRISTIAN-STAVANGE" xlink:href="300KRISTIAN-STAVANGE.svg">
+    <text id="FreeText_300KRISTIAN-STAVANGE" x="1946.631" y="1920.97" rdf:ID="_f1769cc8-9aeb-11e5-91da-b8763fd99c5f" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">300KRISTIAN-STAVANGE</text>
+  </a>
+  <a id="xlink_FreeText_STAVANGER" xlink:href="STAVANGER.svg">
+    <text id="FreeText_STAVANGER" x="1959.23" y="1835.999" rdf:ID="_f1769664-9aeb-11e5-91da-b8763fd99c5f" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">STAVANGER</text>
+  </a>
+  <a id="xlink_FreeText_300KRISTIAN-STAVANGE_1" xlink:href="300KRISTIAN-STAVANGE.svg">
+    <text id="FreeText_300KRISTIAN-STAVANGE" x="1890.176" y="1890.985" rdf:ID="_f1769cc8-9aeb-11e5-91da-b8763fd99c5f" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">646.6MW, -129.9MVAr</text>
+  </a>
+  <text id="FreeText_KRISTIAN300 M1  T1" x="549.5527" y="1915.485" rdf:ID="_2dd902dd-bdfb-11e5-94fa-c8f73332c8f4" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">557.8MW, 387.1MVAr</text>
+  <text id="FreeText_KRISTIAN300 L1  T1" x="1552.646" y="1919.235" rdf:ID="_2dd901ff-bdfb-11e5-94fa-c8f73332c8f4" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">1312.2MW, 267.4MVAr</text>
+  <text id="FreeText_KRISTIAN300 M2  T1" x="752.4416" y="1915.485" rdf:ID="_2dd902e0-bdfb-11e5-94fa-c8f73332c8f4" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">557.8MW, 387.1MVAr</text>
+  <text id="FreeText_KRISTIAN300 M4  T1" x="1158.219" y="1915.485" rdf:ID="_2dd902e6-bdfb-11e5-94fa-c8f73332c8f4" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">223.7MW, 155.2MVAr</text>
+  <text id="FreeText_KRISTIAN300 L2  T1" x="1740.534" y="1919.235" rdf:ID="_2dd90202-bdfb-11e5-94fa-c8f73332c8f4" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">1312.2MW, 267.4MVAr</text>
+  <text id="FreeText_KRISTIAN300 M3  T1" x="955.3304" y="1915.485" rdf:ID="_2dd902e3-bdfb-11e5-94fa-c8f73332c8f4" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">557.8MW, 387.1MVAr</text>
+  <text id="FreeText_KRISTIAN CN 006" x="312" y="1826.985" rdf:ID="_0954de0b-536f-7b45-b83a-f3ebaf34db13" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">300 KV</text>
+  <text id="FreeText_KRISTIAN CN 006" x="266.6426" y="1832.97" rdf:ID="_0954de0b-536f-7b45-b83a-f3ebaf34db13" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">1.010</text>
+  <text id="FreeText_KRISTIAN CN 027" x="500.8889" y="1826.985" rdf:ID="_b7754308-afb1-1c4d-9b56-466440d43cba" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">300 KV</text>
+  <text id="FreeText_KRISTIAN CN 027" x="455.5315" y="1832.97" rdf:ID="_b7754308-afb1-1c4d-9b56-466440d43cba" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">1.010</text>
+  <text id="FreeText_KRISTIAN CN 002" x="689.7778" y="1826.985" rdf:ID="_8d66545e-0da2-bd46-92ae-d3b2730aec73" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">300 KV</text>
+  <text id="FreeText_KRISTIAN CN 002" x="644.4203" y="1832.97" rdf:ID="_8d66545e-0da2-bd46-92ae-d3b2730aec73" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">1.010</text>
+  <text id="FreeText_KRISTIAN CN 009" x="892.6667" y="1826.985" rdf:ID="_3b3cf49f-d92c-0d4f-86c9-062292ba9dcb" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">300 KV</text>
+  <text id="FreeText_KRISTIAN CN 009" x="847.3093" y="1832.97" rdf:ID="_3b3cf49f-d92c-0d4f-86c9-062292ba9dcb" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">1.010</text>
+  <text id="FreeText_KRISTIAN CN 015" x="1095.556" y="1826.985" rdf:ID="_66aaabfc-e5e4-dc4a-b10a-efa25c201563" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">300 KV</text>
+  <text id="FreeText_KRISTIAN CN 015" x="1050.198" y="1832.97" rdf:ID="_66aaabfc-e5e4-dc4a-b10a-efa25c201563" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">1.010</text>
+  <text id="FreeText_KRISTIAN CN 011" x="1298.444" y="1826.985" rdf:ID="_3d152ee3-5a28-1040-b170-5f83682c0d5c" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">300 KV</text>
+  <text id="FreeText_KRISTIAN CN 011" x="1253.087" y="1832.97" rdf:ID="_3d152ee3-5a28-1040-b170-5f83682c0d5c" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">1.010</text>
+  <text id="FreeText_KRISTIAN CN 014" x="1501.333" y="1826.985" rdf:ID="_632d75e3-fe75-d449-a589-afb7493c954b" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">300 KV</text>
+  <text id="FreeText_KRISTIAN CN 014" x="1455.976" y="1832.97" rdf:ID="_632d75e3-fe75-d449-a589-afb7493c954b" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">1.010</text>
+  <text id="FreeText_KRISTIAN CN 029" x="1690.222" y="1826.985" rdf:ID="_cd874389-3b02-3e4a-895b-d40c055de5f4" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">300 KV</text>
+  <text id="FreeText_KRISTIAN CN 029" x="1644.865" y="1832.97" rdf:ID="_cd874389-3b02-3e4a-895b-d40c055de5f4" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">1.010</text>
+  <text id="FreeText_KRISTIAN CN 017" x="1878.111" y="1826.985" rdf:ID="_700cf98b-e125-8046-a921-7ce9a9ace386" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">300 KV</text>
+  <text id="FreeText_KRISTIAN CN 017" x="1832.754" y="1832.97" rdf:ID="_700cf98b-e125-8046-a921-7ce9a9ace386" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">1.010</text>
+  <text id="FreeText_KRISTIAN CN 018" x="2066" y="1826.985" rdf:ID="_76fd57e8-ef10-364c-aa31-f5ee56bff4d8" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">300 KV</text>
+  <text id="FreeText_KRISTIAN CN 018" x="2020.643" y="1832.97" rdf:ID="_76fd57e8-ef10-364c-aa31-f5ee56bff4d8" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">1.010</text>
+  <text id="FreeText_KRISTIAN CN 004" x="689.7778" y="2036.985" rdf:ID="_60d2f810-3070-7c42-845e-563b79e3d17f" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">300 KV</text>
+  <text id="FreeText_KRISTIAN CN 032" x="312" y="2036.985" rdf:ID="_fcd6113f-f4b8-b54d-bcb2-57c43f16355f" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">300 KV</text>
+  <text id="FreeText_KRISTIAN CN 019" x="500.8889" y="2036.985" rdf:ID="_802abb47-d6be-d248-99a0-748dc8fa6c91" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">300 KV</text>
+  <text id="FreeText_KRISTIAN CN 031" x="892.6667" y="2036.985" rdf:ID="_f1272314-6398-e84f-af14-5aecb8549a76" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">300 KV</text>
+  <text id="FreeText_KRISTIAN CN 026" x="1095.556" y="2036.985" rdf:ID="_acb47937-7b0b-5b48-aa5c-1bfea476304c" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">300 KV</text>
+  <text id="FreeText_KRISTIAN CN 008" x="1298.444" y="2036.985" rdf:ID="_3a1fe27a-73b2-fb4c-9f35-ad8c47190cc3" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">300 KV</text>
+  <text id="FreeText_KRISTIAN CN 030" x="1501.333" y="2036.985" rdf:ID="_ef9cf8bb-dbde-5046-9f4e-269f415dd919" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">300 KV</text>
+  <text id="FreeText_KRISTIAN CN 016" x="2066" y="2036.985" rdf:ID="_70075010-ec3b-4f48-aa6f-a8b0b0a68c8c" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">300 KV</text>
+  <text id="FreeText_KRISTIAN CN 007" x="1690.222" y="2036.985" rdf:ID="_24f03172-f76d-0b4c-bb16-7ee1a4902d9b" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">300 KV</text>
+  <text id="FreeText_KRISTIAN CN 023" x="1878.111" y="2036.985" rdf:ID="_a119b074-2851-3341-870b-81bce2a20960" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">300 KV</text>
+  <text id="FreeText_KRISTIANSAND" x="1135.721" y="1669.97" rdf:ID="_f176965a-9aeb-11e5-91da-b8763fd99c5f" fill="#000033" font-family="Segoe UI" font-size="9" font-weight="normal">KRISTIANSAND</text>
+  <text id="FreeText_KRISTIA_HVDC" x="201.1694" y="705.9846" rdf:ID="_f1769675-9aeb-11e5-91da-b8763fd99c5f" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">300 KV</text>
+  <text id="FreeText_KRISTIA_HVDC" x="264" y="711.97" rdf:ID="_f1769675-9aeb-11e5-91da-b8763fd99c5f" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">0.969</text>
+  <text id="FreeText_KRISTIA 300 L1" x="216.8655" y="778.97" rdf:ID="_f176975e-9aeb-11e5-91da-b8763fd99c5f" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">KRISTIA 300 L1</text>
+  <text id="FreeText_T1" x="249" y="714.0139" rdf:ID="_2dd90205-bdfb-11e5-94fa-c8f73332c8f4" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">1230MW, 175.3MVAr</text>
+  <text id="FreeText_KRISTIA_HVDC" x="217.3533" y="623.97" rdf:ID="_f1769676-9aeb-11e5-91da-b8763fd99c5f" fill="#000033" font-family="Segoe UI" font-size="9" font-weight="normal">KRISTIA_HVDC</text>
+  <text id="FreeText_SANDEFJORD  " x="1338" y="268.9554" rdf:ID="_f1769669-9aeb-11e5-91da-b8763fd99c5f" fill="#622423" font-family="Segoe UI" font-size="9" font-weight="normal">420 KV</text>
+  <text id="FreeText_SANDEFJORD  " x="1016" y="279.4407" rdf:ID="_f1769669-9aeb-11e5-91da-b8763fd99c5f" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">0.972</text>
+  <a id="xlink_FreeText_420SYLLING-SANDEFJORD" xlink:href="420SYLLING-SANDEFJORD.svg">
+    <text id="FreeText_420SYLLING-SANDEFJORD" x="1018.048" y="248.9554" rdf:ID="_f1769c8c-9aeb-11e5-91da-b8763fd99c5f" fill="#622423" font-family="Segoe UI" font-size="9" font-weight="normal">420SYLLING-SANDEFJORD</text>
+  </a>
+  <a id="xlink_FreeText_SYLLING" xlink:href="SYLLING.svg">
+    <text id="FreeText_SYLLING" x="1109.235" y="191.97" rdf:ID="_f1769642-9aeb-11e5-91da-b8763fd99c5f" fill="#622423" font-family="Segoe UI" font-size="9" font-weight="normal">SYLLING</text>
+  </a>
+  <a id="xlink_FreeText_420SYLLING-SANDEFJORD_1" xlink:href="420SYLLING-SANDEFJORD.svg">
+    <text id="FreeText_420SYLLING-SANDEFJORD" x="1042.626" y="258.9261" rdf:ID="_f1769c8c-9aeb-11e5-91da-b8763fd99c5f" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">739.9MW, 35.5MVAr</text>
+  </a>
+  <text id="FreeText_SANDEFJORD" x="1148.866" y="143.97" rdf:ID="_f176966a-9aeb-11e5-91da-b8763fd99c5f" fill="#000033" font-family="Segoe UI" font-size="9" font-weight="normal">SANDEFJORD</text>
+  <a id="xlink_FreeText_300ASKER-ARENDAL" xlink:href="300ASKER-ARENDAL.svg">
+    <text id="FreeText_300ASKER-ARENDAL" x="1440.889" y="697.5286" rdf:ID="_f1769cb6-9aeb-11e5-91da-b8763fd99c5f" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">300ASKER-ARENDAL</text>
+  </a>
+  <a id="xlink_FreeText_300ASKER-ARENDAL_1" xlink:href="300ASKER-ARENDAL.svg">
+    <text id="FreeText_300ASKER-ARENDAL" x="1440.889" y="709.4993" rdf:ID="_f1769cb6-9aeb-11e5-91da-b8763fd99c5f" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">377.2MW, 42.6MVAr</text>
+  </a>
+  <a id="xlink_FreeText_300KRISTIAN-ARENDAL" xlink:href="300KRISTIAN-ARENDAL.svg">
+    <text id="FreeText_300KRISTIAN-ARENDAL" x="718.5461" y="1186.058" rdf:ID="_f1769cd4-9aeb-11e5-91da-b8763fd99c5f" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">300KRISTIAN-ARENDAL</text>
+  </a>
+  <a id="xlink_FreeText_300KRISTIAN-ARENDAL_1" xlink:href="300KRISTIAN-ARENDAL.svg">
+    <text id="FreeText_300KRISTIAN-ARENDAL" x="718.5461" y="1198.029" rdf:ID="_f1769cd4-9aeb-11e5-91da-b8763fd99c5f" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">121.2MW, 161.7MVAr</text>
+  </a>
+  <a id="xlink_FreeText_300ARENDAL-KRISTA_HVDC" xlink:href="300ARENDAL-KRISTA_HVDC.svg">
+    <text id="FreeText_300ARENDAL-KRISTA_HVDC" x="782.561" y="613.5579" rdf:ID="_f1769cf8-9aeb-11e5-91da-b8763fd99c5f" fill="#380054" font-family="Segoe UI" font-size="9" font-weight="normal">300ARENDAL-KRISTA_HVDC</text>
+  </a>
+  <a id="xlink_FreeText_300ARENDAL-KRISTA_HVDC_1" xlink:href="300ARENDAL-KRISTA_HVDC.svg">
+    <text id="FreeText_300ARENDAL-KRISTA_HVDC" x="782.561" y="625.5286" rdf:ID="_f1769cf8-9aeb-11e5-91da-b8763fd99c5f" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">1230MW, 175.3MVAr</text>
+  </a>
+  <a id="xlink_FreeText_420ARENDAL-SANDEFJORD" xlink:href="420ARENDAL-SANDEFJORD.svg">
+    <text id="FreeText_420ARENDAL-SANDEFJORD" x="1144.876" y="156.5286" rdf:ID="_4d89c650-5698-2e43-849b-ff65a7251f9c" fill="#622423" font-family="Segoe UI" font-size="9" font-weight="normal">420ARENDAL-SANDEFJORD</text>
+  </a>
+  <a id="xlink_FreeText_420ARENDAL-SANDEFJORD_1" xlink:href="420ARENDAL-SANDEFJORD.svg">
+    <text id="FreeText_420ARENDAL-SANDEFJORD" x="1144.876" y="168.4993" rdf:ID="_4d89c650-5698-2e43-849b-ff65a7251f9c" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">739.9MW, 35.6MVAr</text>
+  </a>
+  <polyline id="PinLink_ARENDAL T1 T2" points="1175,850 1175,849" rdf:ID="_2dd9047c-bdfb-11e5-94fa-c8f73332c8f4" stroke="#622423" fill="none" stroke-width="1" />
+  <polyline id="PinLink_ARENDAL 420T1  AB_S T2" points="1175,782 1175,849" rdf:ID="_1a6d8d77-f2ca-f043-b475-f7db6304fe3e" stroke="#622423" fill="none" stroke-width="1" />
+  <polyline id="PinLink_ARENDAL T1 T1" points="1175,907.5 1175,974.5" rdf:ID="_2dd90478-bdfb-11e5-94fa-c8f73332c8f4" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_ARENDAL 300T1  AB_S T1" points="1175,975.5 1175,974.5" rdf:ID="_356c6f11-da4d-3f4d-b3fd-49234106345c" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_ARENDAL 420T1  AB_S T1" points="1175,726 1175,725" rdf:ID="_db724627-9dae-4748-b4e3-2daf627ffa17" stroke="#622423" fill="none" stroke-width="1" />
+  <polyline id="PinLink_ARENDAL 300 LSC1 T1" points="882.5,1187.5 882.5,1186.5" rdf:ID="_2dd90409-bdfb-11e5-94fa-c8f73332c8f4" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_ARENDAL 300SC1 AB_S T2" points="882.5,1127.5 882.5,1186.5" rdf:ID="_0ef62251-5e2e-d14a-aa44-396d4a885c4f" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_ARENDAL 300AS1 AB_S T1" points="1046.5,1071.5 1046.5,1051.5" rdf:ID="_dc791b3b-fe63-a14b-b144-953748088613" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_ARENDAL 300AS1 AB_S T2" points="1046.5,1127.5 1046.5,1166.5" rdf:ID="_2e64900b-94a8-6e40-bd63-3e69510c316f" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_ARENDAL 300AS1 AD_S T1" points="1046.5,1167.5 1046.5,1166.5" rdf:ID="_aadfa134-666a-ae4f-8c09-6f3ae114c3b5" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_ARENDAL 300KR1 AB_S T1" points="1241.5,1071.5 1241.5,1051.5" rdf:ID="_fe798f30-0725-e94e-8142-c06ca7701b14" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_ARENDAL 300KR1 AB_S T2" points="1241.5,1127.5 1241.5,1166.5" rdf:ID="_5906b2a0-4ec9-1949-98b8-709380af0060" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_ARENDAL 300KR1 AD_S T1" points="1241.5,1167.5 1241.5,1166.5" rdf:ID="_51883d43-111e-f24b-89f7-0573426fa32f" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_ARENDAL 300KR2 AB_S T1" points="1436.5,1071.5 1436.5,1051.5" rdf:ID="_a949cafd-39f3-8e4c-bca5-9928b004b4da" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_ARENDAL 300KR2 AB_S T2" points="1436.5,1127.5 1436.5,1166.5" rdf:ID="_6da89f37-cc6f-4e4e-8b20-975295017390" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_ARENDAL 300KR2 AD_S T2" points="1436.5,1167.5 1436.5,1166.5" rdf:ID="_eba035f1-7c96-0142-8561-37b28625abf7" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_ARENDAL 300SC1 AB_S T1" points="882.5,1071.5 882.5,1051.5" rdf:ID="_d28bc89e-0592-1440-9721-5cbe124c1f1b" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_ARENDAL 300T1  AB_S T2" points="1175,1031.5 1175,1051.5" rdf:ID="_761a49da-2b71-2d4e-877f-3cf7fa86ef63" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_ARENDAL 300AS1 AD_S T2" points="1046.5,1232.5 1046.5,1252.5" rdf:ID="_eb8b2a90-9bc8-154f-92dd-3887e3676498" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_ARENDAL 300AS1 BD_S T1" points="1046.5,1272.5 1046.5,1252.5" rdf:ID="_8a0babd6-6d6f-854b-b65f-4245e65c9e9c" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_ARENDAL 300AS1 BD_S T2" points="1046.5,1337.5 1046.5,1376.5" rdf:ID="_a533d3fd-822f-3b40-9030-e18b571cd1ea" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_ARENDAL 300AS1 BB_S T1" points="1046.5,1377.5 1046.5,1376.5" rdf:ID="_bff806b2-7825-af4c-a34b-be542dbe5ae6" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_ARENDAL 300AS1 BB_S T2" points="1046.5,1433.5 1046.5,1453.5" rdf:ID="_ee4223ab-0538-dc4a-9b79-d463c048bb08" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_ARENDAL 300KR1 BB_S T2" points="1241.5,1433.5 1241.5,1453.5" rdf:ID="_d288bd96-ae6e-cf46-9775-f38e2699f1ce" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_ARENDAL 300KR1 BB_S T1" points="1241.5,1377.5 1241.5,1376.5" rdf:ID="_1ef7a41b-2cff-6046-b48f-c60a16fd20b0" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_ARENDAL 300KR1 BD_S T2" points="1241.5,1337.5 1241.5,1376.5" rdf:ID="_076da31b-080d-c742-9cb1-134a6ba5b1ed" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_ARENDAL 300KR2 BB_S T2" points="1436.5,1433.5 1436.5,1453.5" rdf:ID="_b77c60e8-fe4f-9149-9bc6-c3eb8f899de2" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_ARENDAL 300KR2 BB_S T1" points="1436.5,1377.5 1436.5,1376.5" rdf:ID="_3916ae31-9f3d-af4e-8d87-87d373d8200a" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_ARENDAL 300KR2 BD_S T2" points="1436.5,1337.5 1436.5,1376.5" rdf:ID="_ab88a3a2-a572-3440-be06-757e0225ea42" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_ARENDAL 300KR1 AD_S T2" points="1241.5,1232.5 1241.5,1252.5" rdf:ID="_e2f56599-a78e-494f-8db3-c0b0bdab1d70" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_ARENDAL 300KR2 AD_S T1" points="1436.5,1232.5 1436.5,1252.5" rdf:ID="_c3458e72-1c7a-a74b-b561-8afe0a3aa2be" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_ARENDAL 300KR1 BD_S T1" points="1241.5,1272.5 1241.5,1252.5" rdf:ID="_9acd76b4-8d78-2b4b-81d5-e404e244997d" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_ARENDAL 300KR2 BD_S T1" points="1436.5,1272.5 1436.5,1252.5" rdf:ID="_22c3512a-fdf2-464c-b1f4-85d173fa2d18" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="TransformerLineSegment_ASKER   T1" points="2043,703.9707 2043,743.9707" rdf:ID="_f1769dfa-9aeb-11e5-91da-b8763fd99c5f" stroke="#380054" fill="none" stroke-width="1" />
+  <a id="xlink_ACLineSegment_300TRETTEN-ASKER" xlink:href="300TRETTEN-ASKER.svg">
+    <polyline id="ACLineSegment_300TRETTEN-ASKER" points="2163,703.9707 2163,743.9707" rdf:ID="_f1769b9c-9aeb-11e5-91da-b8763fd99c5f" stroke="#380054" fill="none" stroke-width="1" />
+  </a>
+  <a id="xlink_ACLineSegment_300OSLO-ASKER" xlink:href="300OSLO-ASKER.svg">
+    <polyline id="ACLineSegment_300OSLO-ASKER" points="2283,703.9707 2283,743.9707" rdf:ID="_f1769c68-9aeb-11e5-91da-b8763fd99c5f" stroke="#380054" fill="none" stroke-width="1" />
+  </a>
+  <polyline id="PinLink_T1" points="2261.75,783.9707 2261.75,743.9707" rdf:ID="_2dd901f9-bdfb-11e5-94fa-c8f73332c8f4" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T1" points="2398,783.9707 2398,743.9707" rdf:ID="_2dd901fc-bdfb-11e5-94fa-c8f73332c8f4" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T1" points="1815.5,783.9707 1815.5,743.9707" rdf:ID="_2dd902d6-bdfb-11e5-94fa-c8f73332c8f4" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T1" points="1966.75,783.9707 1966.75,743.9707" rdf:ID="_2dd902d9-bdfb-11e5-94fa-c8f73332c8f4" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T1" points="2118,783.9707 2118,743.9707" rdf:ID="_2dd90406-bdfb-11e5-94fa-c8f73332c8f4" stroke="#380054" fill="none" stroke-width="1" />
+  <a id="xlink_ACLineSegment_300KRISTIAN-FEDA" xlink:href="300KRISTIAN-FEDA.svg">
+    <polyline id="ACLineSegment_300KRISTIAN-FEDA" points="418.8889,1867 418.8889,1907 483.8889,1907" rdf:ID="_f1769ce0-9aeb-11e5-91da-b8763fd99c5f" stroke="#380054" fill="none" stroke-width="1" />
+  </a>
+  <a id="xlink_ACLineSegment_300KRISTIAN-KVILLDAL" xlink:href="300KRISTIAN-KVILLDAL.svg">
+    <polyline id="ACLineSegment_300KRISTIAN-KVILLDAL" points="1419.333,1867 1419.333,1907 1484.333,1907" rdf:ID="_f1769cec-9aeb-11e5-91da-b8763fd99c5f" stroke="#380054" fill="none" stroke-width="1" />
+  </a>
+  <a id="xlink_ACLineSegment_300KRISTIAN-STAVANGE" xlink:href="300KRISTIAN-STAVANGE.svg">
+    <polyline id="ACLineSegment_300KRISTIAN-STAVANGE" points="1984,1867 1984,1907 2049,1907" rdf:ID="_f1769cc8-9aeb-11e5-91da-b8763fd99c5f" stroke="#380054" fill="none" stroke-width="1" />
+  </a>
+  <polyline id="PinLink_KRISTIAN300 M1  T1" points="637.7778,1947 637.7778,1907 672.7778,1907 672.7778,1907" rdf:ID="_2dd902dd-bdfb-11e5-94fa-c8f73332c8f4" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300 L1  T1" points="1645.722,1947 1645.722,1907 1673.222,1907 1673.222,1907" rdf:ID="_2dd901ff-bdfb-11e5-94fa-c8f73332c8f4" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300 M2  T1" points="840.6667,1947 840.6667,1907 875.6667,1907 875.6667,1907" rdf:ID="_2dd902e0-bdfb-11e5-94fa-c8f73332c8f4" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300 M4  T1" points="1246.444,1947 1246.444,1907 1281.444,1907 1281.444,1907" rdf:ID="_2dd902e6-bdfb-11e5-94fa-c8f73332c8f4" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300 L2  T1" points="1833.611,1947 1833.611,1907 1861.111,1907 1861.111,1907" rdf:ID="_2dd90202-bdfb-11e5-94fa-c8f73332c8f4" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300 M3  T1" points="1043.556,1947 1043.556,1907 1078.556,1907 1078.556,1907" rdf:ID="_2dd902e3-bdfb-11e5-94fa-c8f73332c8f4" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300AR1 AB_S T1" points="300,1726 300,1706" rdf:ID="_67dfc70a-36cf-da4e-b97c-fd1eda9cd8ac" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300AR1 AB_S T2" points="300,1782 300,1821" rdf:ID="_7d101d2b-ce05-9843-ab59-2c3e5e244cbb" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300AR1 AD_S T1" points="300,1822 300,1821" rdf:ID="_a749d698-52a2-564e-8c6f-068fe62045fe" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300FE1 AB_S T1" points="488.8889,1726 488.8889,1706" rdf:ID="_7f811234-10fe-e34f-a9af-9af61a6dd4c7" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300FE1 AB_S T2" points="488.8889,1782 488.8889,1821" rdf:ID="_f08f910c-300e-8941-aa85-3106d93e3429" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300FE1 AD_S T1" points="488.8889,1822 488.8889,1821" rdf:ID="_e3d56d8b-5f71-3042-9734-7118977e887c" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300G1  AB_S T1" points="677.7778,1726 677.7778,1706" rdf:ID="_ad970e05-69d9-5340-9dbd-ce6a9a2e0996" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300G1  AB_S T2" points="677.7778,1782 677.7778,1821" rdf:ID="_0b50ae74-92eb-f244-872b-07e629f53494" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300G1  AD_S T2" points="677.7778,1822 677.7778,1821" rdf:ID="_0619c12e-abb9-b141-b3a7-e2788d3d375c" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300G2  AB_S T2" points="880.6667,1726 880.6667,1706" rdf:ID="_dae3bb4b-0a86-9243-99c1-a1d5b163774d" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300G2  AB_S T1" points="880.6667,1782 880.6667,1821" rdf:ID="_b3ff19da-83b8-5e40-b38c-38982b748732" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300G2  AD_S T1" points="880.6667,1822 880.6667,1821" rdf:ID="_e25c03e3-96a7-a64f-b776-a155f009d5f8" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300G3  AB_S T1" points="1083.556,1726 1083.556,1706" rdf:ID="_c1ca1160-be67-9448-a16b-e92a6112e380" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300G3  AB_S T2" points="1083.556,1782 1083.556,1821" rdf:ID="_c8f95fee-e9a6-a44b-97ac-23e272a05ecd" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300G3  AD_S T1" points="1083.556,1822 1083.556,1821" rdf:ID="_f9e8d6d1-76e1-6c4d-a640-e128ecfa723e" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300G4  AB_S T1" points="1286.444,1726 1286.444,1706" rdf:ID="_a4bc44aa-25e4-684a-ab2c-c7fc3378d9e5" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300G4  AB_S T2" points="1286.444,1782 1286.444,1821" rdf:ID="_16659ede-d69f-1d48-bcf2-ebb2ee6c259e" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300G4  AD_S T1" points="1286.444,1822 1286.444,1821" rdf:ID="_0d7f39d0-5447-fb42-9d4f-3d0775bceef0" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300KV1 AB_S T1" points="1489.333,1726 1489.333,1706" rdf:ID="_925f3ab7-54ce-b748-887a-fc6ae23bbdc2" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300KV1 AB_S T2" points="1489.333,1782 1489.333,1821" rdf:ID="_a0ad0036-fbee-6646-b195-3a86614529f2" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300KV1 AD_S T1" points="1489.333,1822 1489.333,1821" rdf:ID="_9b49634c-4910-9841-b595-0d0cb0d0d1de" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300L1  AB_S T1" points="1678.222,1726 1678.222,1706" rdf:ID="_3718af45-a6ee-fb40-a4c6-f1118c114393" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300L1  AB_S T2" points="1678.222,1782 1678.222,1821" rdf:ID="_ae68b597-69fb-e14b-a070-67c7dcc1d698" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300L1  AD_S T1" points="1678.222,1822 1678.222,1821" rdf:ID="_8574aebb-23c4-3e4a-bd04-b5651c97d27a" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300L2  AB_S T1" points="1866.111,1726 1866.111,1706" rdf:ID="_e3ef93a1-723a-224e-8863-472e4f269633" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300L2  AB_S T2" points="1866.111,1782 1866.111,1821" rdf:ID="_714c775a-246f-e34f-9a6b-667f4b66138c" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300L2  AD_S T1" points="1866.111,1822 1866.111,1821" rdf:ID="_efe663e2-7518-3044-88d4-209bf597536a" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300ST1 AB_S T1" points="2054,1726 2054,1706" rdf:ID="_329965e7-b5de-c54f-856a-358c9e1f9c50" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300ST1 AB_S T2" points="2054,1782 2054,1821" rdf:ID="_f710cc4a-50dd-e443-8ac7-4c56b70041e8" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300ST1 AD_S T1" points="2054,1822 2054,1821" rdf:ID="_da4b0f71-a251-f947-be12-2de53a2d272a" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300G1  AD_S T1" points="677.7778,1887 677.7778,1907" rdf:ID="_f4dba262-3ff3-9f41-961d-7fbe1f8a0cd7" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300G1  BD_S T1" points="677.7778,1927 677.7778,1907" rdf:ID="_947636e9-e939-294e-a94b-2090060b74ca" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300G1  BD_S T2" points="677.7778,1992 677.7778,2031" rdf:ID="_7af49a35-a119-5443-84be-af343b7761c8" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300G1  BB_S T2" points="677.7778,2032 677.7778,2031" rdf:ID="_2a67a243-6e4a-a84d-8aea-f250399166c9" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300G1  BB_S T1" points="677.7778,2088 677.7778,2108" rdf:ID="_f723530d-ae1e-df4f-9c7f-21e42da147d6" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300AR1 BB_S T2" points="300,2088 300,2108" rdf:ID="_692809cf-1bb4-8642-9b70-ee677f063304" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300AR1 BB_S T1" points="300,2032 300,2031" rdf:ID="_2e98d68c-e0c5-6d47-b392-a1746743ef63" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300AR1 BD_S T2" points="300,1992 300,2031" rdf:ID="_67bc203e-13e4-534b-94b8-bf19f5b31080" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300FE1 BB_S T2" points="488.8889,2088 488.8889,2108" rdf:ID="_5831696b-e9e1-8e4a-a169-0e4e09f15f1f" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300FE1 BB_S T1" points="488.8889,2032 488.8889,2031" rdf:ID="_71d09d39-a080-5d4f-86f3-7b3185e51b8e" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300FE1 BD_S T2" points="488.8889,1992 488.8889,2031" rdf:ID="_ecfaf384-4581-4249-8646-b5d31943ad61" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300G2  BB_S T2" points="880.6667,2088 880.6667,2108" rdf:ID="_40725e5a-33bf-6046-8d11-da19f9c726b4" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300G2  BB_S T1" points="880.6667,2032 880.6667,2031" rdf:ID="_0a122f63-f2c6-ca43-be49-76571474d98c" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300G2  BD_S T2" points="880.6667,1992 880.6667,2031" rdf:ID="_ad37e24a-9993-4f45-80ed-49a80b6a85d9" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300G3  BB_S T2" points="1083.556,2088 1083.556,2108" rdf:ID="_40c8340e-7ccf-d446-8a6b-bffa19ec88e6" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300G3  BB_S T1" points="1083.556,2032 1083.556,2031" rdf:ID="_292835be-c432-734c-8c28-3b8c61c0c077" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300G3  BD_S T2" points="1083.556,1992 1083.556,2031" rdf:ID="_854b40ee-7109-d04c-b4ef-f0665722e451" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300G4  BB_S T2" points="1286.444,2088 1286.444,2108" rdf:ID="_d7a472cc-6b91-564d-93b4-0f3c24f2342c" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300G4  BB_S T1" points="1286.444,2032 1286.444,2031" rdf:ID="_c95039b2-aea2-ad4d-b444-c6efc77461e5" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300G4  BD_S T2" points="1286.444,1992 1286.444,2031" rdf:ID="_a2a690ef-b78a-3f46-90c5-5d434e26a64e" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300KV1 BB_S T2" points="1489.333,2088 1489.333,2108" rdf:ID="_79887cf1-6c94-3f4f-a1f8-7ddef866d55f" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300KV1 BB_S T1" points="1489.333,2032 1489.333,2031" rdf:ID="_37c82b4c-7441-9946-98bf-7ade99732ecf" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300KV1 BD_S T2" points="1489.333,1992 1489.333,2031" rdf:ID="_0345061e-37c9-9a49-b632-2af77bdca3a2" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300KV1 BB_S T2" points="2054,2088 2054,2108" rdf:ID="_d92cb2eb-fd81-194c-9e43-618df025d6b4" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300KV1 BB_S T1" points="2054,2032 2054,2031" rdf:ID="_caa10f15-4591-e241-ac0b-81675acf5687" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300ST1 BD_S T2" points="2054,1992 2054,2031" rdf:ID="_c8ac9d5f-d60e-a345-8790-12b86184c31b" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300L1  BB_S T2" points="1678.222,2088 1678.222,2108" rdf:ID="_0dae5d37-4d01-3645-9e94-607410c5ac34" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300L1  BB_S T1" points="1678.222,2032 1678.222,2031" rdf:ID="_c1aa295d-e817-db46-b14e-bee2739fcd9d" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300L1  BD_S T2" points="1678.222,1992 1678.222,2031" rdf:ID="_5ddb272d-00bd-d74e-8c96-e2049351c3e4" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300L2  BB_S T2" points="1866.111,2088 1866.111,2108" rdf:ID="_8d35b51b-06bd-7541-b3e6-2ddbbb1204fe" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300L2  BB_S T1" points="1866.111,2032 1866.111,2031" rdf:ID="_eaf768b1-3d82-c64d-a1c6-5bd7f9a72751" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300L2  BD_S T2" points="1866.111,1992 1866.111,2031" rdf:ID="_6ac2f3cd-c906-0a4b-ba1b-5942e9c65307" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300AR1 AD_S T2" points="300,1887 300,1907" rdf:ID="_5ffde614-bc34-384d-923e-e62ac9f3f584" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300L1  BD_S T1" points="1678.222,1927 1678.222,1907" rdf:ID="_cf654436-a05a-7948-8cc3-f3a288608964" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300G4  BD_S T1" points="1286.444,1927 1286.444,1907" rdf:ID="_6abb96f5-a71f-8e41-b563-7c569789d6bd" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300G2  AD_S T2" points="880.6667,1887 880.6667,1907" rdf:ID="_2f8c9437-e564-e948-8764-be3494565b1f" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300L1  AD_S T2" points="1678.222,1887 1678.222,1907" rdf:ID="_38b8e08a-112e-b046-8504-efef4beb0c17" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300G4  AD_S T2" points="1286.444,1887 1286.444,1907" rdf:ID="_e65c4130-3a4d-db42-9020-c9f7c447d473" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300G2  BD_S T1" points="880.6667,1927 880.6667,1907" rdf:ID="_30ab0123-1669-1242-99ca-610e4bcdc6c5" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300KV1 AD_S T2" points="1489.333,1887 1489.333,1907" rdf:ID="_bc0f852a-3cc8-e143-8174-f0854a2d38aa" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300G3  AD_S T2" points="1083.556,1887 1083.556,1907" rdf:ID="_b016bc42-5a9f-ec42-b326-e9b9eed9e6d3" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300ST1 BD_S T1" points="2054,1927 2054,1907" rdf:ID="_cd25f47c-ad0c-f74d-8c0e-fd91a95505b6" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300L2  AD_S T2" points="1866.111,1887 1866.111,1907" rdf:ID="_e035c87e-704d-404f-8ea8-91c62e0d7d8a" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300ST1 AD_S T2" points="2054,1887 2054,1907" rdf:ID="_5c3fa20d-4748-5e44-b915-481e6d2552cd" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300FE1 BD_S T1" points="488.8889,1927 488.8889,1907" rdf:ID="_13116d72-3969-1344-91a7-14fb404a00c0" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300FE1 AD_S T2" points="488.8889,1887 488.8889,1907" rdf:ID="_4a5b7813-14d3-fa4d-8907-edcdce7dbfd9" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300KV1 BD_S T1" points="1489.333,1927 1489.333,1907" rdf:ID="_84775b5d-95c1-bd46-bb0d-0f74e4c06757" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300L2  BD_S T1" points="1866.111,1927 1866.111,1907" rdf:ID="_70f1852f-186d-5e43-98bf-b69f028cfcc5" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300AR1 BD_S T1" points="300,1927 300,1907" rdf:ID="_8e8e6b0c-ee96-7a4f-9790-c9ae62edafbe" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_KRISTIAN300G3  BD_S T1" points="1083.556,1927 1083.556,1907" rdf:ID="_093a3df5-0583-894f-99c9-016d752ff920" stroke="#380054" fill="none" stroke-width="1" />
+  <polyline id="PinLink_T1" points="246.5,740 246.5,700" rdf:ID="_2dd90205-bdfb-11e5-94fa-c8f73332c8f4" stroke="#380054" fill="none" stroke-width="1" />
+  <a id="xlink_ACLineSegment_420SYLLING-SANDEFJORD" xlink:href="420SYLLING-SANDEFJORD.svg">
+    <polyline id="ACLineSegment_420SYLLING-SANDEFJORD" points="1126,222.9707 1126,262.9707" rdf:ID="_f1769c8c-9aeb-11e5-91da-b8763fd99c5f" stroke="#622423" fill="none" stroke-width="1" />
+  </a>
+  <a id="xlink_ACLineSegment_300ASKER-ARENDAL" xlink:href="300ASKER-ARENDAL.svg">
+    <polyline id="ACLineSegment_300ASKER-ARENDAL" points="1041.5,1252.5 1041.5,723.9707 1923,723.9707 1923,743.9707" rdf:ID="_f1769cb6-9aeb-11e5-91da-b8763fd99c5f" stroke="#380054" fill="none" stroke-width="1" />
+  </a>
+  <a id="xlink_ACLineSegment_300KRISTIAN-ARENDAL" xlink:href="300KRISTIAN-ARENDAL.svg">
+    <polyline id="ACLineSegment_300KRISTIAN-ARENDAL" points="1236.5,1252.5 1236.5,1212.5 295,1212.5 295,1907" rdf:ID="_f1769cd4-9aeb-11e5-91da-b8763fd99c5f" stroke="#380054" fill="none" stroke-width="1" />
+  </a>
+  <a id="xlink_ACLineSegment_300ARENDAL-KRISTA_HVDC" xlink:href="300ARENDAL-KRISTA_HVDC.svg">
+    <polyline id="ACLineSegment_300ARENDAL-KRISTA_HVDC" points="1431.5,1252.5 1431.5,640 246.5,640 246.5,700" rdf:ID="_f1769cf8-9aeb-11e5-91da-b8763fd99c5f" stroke="#380054" fill="none" stroke-width="1" />
+  </a>
+  <a id="xlink_ACLineSegment_420ARENDAL-SANDEFJORD" xlink:href="420ARENDAL-SANDEFJORD.svg">
+    <polyline id="ACLineSegment_420ARENDAL-SANDEFJORD" points="1175,725 1175,182.9707 1226,182.9707 1226,262.9707" rdf:ID="_4d89c650-5698-2e43-849b-ff65a7251f9c" stroke="#622423" fill="none" stroke-width="1" />
+  </a>
+  <g id="MultiStations_596">
+    <g id="MultiStations_596_1" transform="rotate(180, 1041.5, 1212.5)">
+      <line id="MultiStations_596_1_1" x1="1041.5" y1="1209" x2="1041.5" y2="1216" stroke="#DCF5FF" fill="none" stroke-width="1.2" />
+    </g>
+    <g id="MultiStations_596_2" transform="rotate(90, 1041.5, 1212.5)">
+      <line id="MultiStations_596_2_1" x1="1041.5" y1="1209" x2="1041.5" y2="1216" stroke="#380054" fill="none" stroke-width="1" />
+    </g>
+  </g>
+  <g id="MultiStations_597">
+    <g id="MultiStations_597_1" transform="rotate(270, 1431.5, 723.970703125)">
+      <line id="MultiStations_597_1_1" x1="1431.5" y1="720.4707" x2="1431.5" y2="727.4707" stroke="#DCF5FF" fill="none" stroke-width="1.2" />
+    </g>
+    <g id="MultiStations_597_2" transform="rotate(180, 1431.5, 723.970703125)">
+      <line id="MultiStations_597_2_1" x1="1431.5" y1="720.4707" x2="1431.5" y2="727.4707" stroke="#380054" fill="none" stroke-width="1" />
+    </g>
+  </g>
+  <g id="MultiStations_598">
+    <g id="MultiStations_598_1" transform="rotate(270, 1175, 723.970703125)">
+      <line id="MultiStations_598_1_1" x1="1175" y1="720.4707" x2="1175" y2="727.4707" stroke="#DCF5FF" fill="none" stroke-width="1.2" />
+    </g>
+    <g id="MultiStations_598_2" transform="rotate(180, 1175, 723.970703125)">
+      <line id="MultiStations_598_2_1" x1="1175" y1="720.4707" x2="1175" y2="727.4707" stroke="#622423" fill="none" stroke-width="1" />
+    </g>
+  </g>
+  <g id="MultiStations_599">
+    <g id="MultiStations_599_1" transform="rotate(0, 1041.5, 1051.5)">
+      <line id="MultiStations_599_1_1" x1="1041.5" y1="1045" x2="1041.5" y2="1058" stroke="#DCF5FF" fill="none" stroke-width="2" />
+    </g>
+  </g>
+  <g id="MultiStations_600">
+    <g id="MultiStations_600_1" transform="rotate(0, 1041.5, 1166.5)">
+      <line id="MultiStations_600_1_1" x1="1041.5" y1="1160" x2="1041.5" y2="1173" stroke="#DCF5FF" fill="none" stroke-width="2" />
+    </g>
+  </g>
+  <g id="MultiStations_601">
+    <g id="MultiStations_601_1" transform="rotate(-180, 295, 1706)">
+      <line id="MultiStations_601_1_1" x1="295" y1="1699.5" x2="295" y2="1712.5" stroke="#DCF5FF" fill="none" stroke-width="2" />
+    </g>
+  </g>
+  <g id="MultiStations_602">
+    <g id="MultiStations_602_1" transform="rotate(-180, 295, 1821)">
+      <line id="MultiStations_602_1_1" x1="295" y1="1814.5" x2="295" y2="1827.5" stroke="#DCF5FF" fill="none" stroke-width="2" />
+    </g>
+  </g>
+  <g id="MultiStations_603">
+    <g id="MultiStations_603_1" transform="rotate(90, 1175, 640)">
+      <line id="MultiStations_603_1_1" x1="1175" y1="636.5" x2="1175" y2="643.5" stroke="#DCF5FF" fill="none" stroke-width="1.2" />
+    </g>
+    <g id="MultiStations_603_2" transform="rotate(180, 1175, 640)">
+      <line id="MultiStations_603_2_1" x1="1175" y1="636.5" x2="1175" y2="643.5" stroke="#622423" fill="none" stroke-width="1" />
+    </g>
+  </g>
+  <g id="MultiStations_604">
+    <g id="MultiStations_604_1" transform="rotate(0, 1431.5, 1051.5)">
+      <line id="MultiStations_604_1_1" x1="1431.5" y1="1045" x2="1431.5" y2="1058" stroke="#DCF5FF" fill="none" stroke-width="2" />
+    </g>
+  </g>
+  <g id="MultiStations_605">
+    <g id="MultiStations_605_1" transform="rotate(0, 1431.5, 1166.5)">
+      <line id="MultiStations_605_1_1" x1="1431.5" y1="1160" x2="1431.5" y2="1173" stroke="#DCF5FF" fill="none" stroke-width="2" />
+    </g>
+  </g>
+  <g id="Breaker_ARENDAL 420T1  AB_S" rdf:ID="_368340e1-464b-814b-9bac-9b70b93dde72">
+    <rect id="Breaker_ARENDAL 420T1  AB_S_1" x="1170" y="743" width="10" height="22" stroke="#622423" fill="#622423" stroke-width="1" />
+    <line id="Breaker_ARENDAL 420T1  AB_S_2" x1="1175" y1="726" x2="1175" y2="743" stroke="#622423" fill="none" stroke-width="1" />
+    <line id="Breaker_ARENDAL 420T1  AB_S_3" x1="1175" y1="765" x2="1175" y2="782" stroke="#622423" fill="none" stroke-width="1" />
+  </g>
+  <g id="Breaker_ARENDAL 300AS1 AB_S" rdf:ID="_22e5ddcf-ac23-b449-bc4f-83336535f7c2">
+    <rect id="Breaker_ARENDAL 300AS1 AB_S_1" x="1041.5" y="1088.5" width="10" height="22" stroke="#380054" fill="#380054" stroke-width="1" />
+    <line id="Breaker_ARENDAL 300AS1 AB_S_2" x1="1046.5" y1="1071.5" x2="1046.5" y2="1088.5" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Breaker_ARENDAL 300AS1 AB_S_3" x1="1046.5" y1="1110.5" x2="1046.5" y2="1127.5" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Breaker_ARENDAL 300KR1 AB_S" rdf:ID="_f56758a8-12a0-7648-b04b-f32ec3247e3b">
+    <rect id="Breaker_ARENDAL 300KR1 AB_S_1" x="1236.5" y="1088.5" width="10" height="22" stroke="#380054" fill="#380054" stroke-width="1" />
+    <line id="Breaker_ARENDAL 300KR1 AB_S_2" x1="1241.5" y1="1071.5" x2="1241.5" y2="1088.5" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Breaker_ARENDAL 300KR1 AB_S_3" x1="1241.5" y1="1110.5" x2="1241.5" y2="1127.5" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Breaker_ARENDAL 300KR2 AB_S" rdf:ID="_dd8be3ea-8ad3-f148-898c-5509662d5159">
+    <rect id="Breaker_ARENDAL 300KR2 AB_S_1" x="1431.5" y="1088.5" width="10" height="22" stroke="#380054" fill="#380054" stroke-width="1" />
+    <line id="Breaker_ARENDAL 300KR2 AB_S_2" x1="1436.5" y1="1071.5" x2="1436.5" y2="1088.5" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Breaker_ARENDAL 300KR2 AB_S_3" x1="1436.5" y1="1110.5" x2="1436.5" y2="1127.5" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Breaker_ARENDAL 300SC1 AB_S" rdf:ID="_3dd4a1cf-86dc-9649-8120-e519d7986be9">
+    <rect id="Breaker_ARENDAL 300SC1 AB_S_1" x="877.5" y="1088.5" width="10" height="22" stroke="#380054" fill="#380054" stroke-width="1" />
+    <line id="Breaker_ARENDAL 300SC1 AB_S_2" x1="882.5" y1="1071.5" x2="882.5" y2="1088.5" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Breaker_ARENDAL 300SC1 AB_S_3" x1="882.5" y1="1110.5" x2="882.5" y2="1127.5" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Breaker_ARENDAL 300T1  AB_S" rdf:ID="_5ae8b25f-24cc-e34b-b238-2aea59d516c5">
+    <rect id="Breaker_ARENDAL 300T1  AB_S_1" x="1170" y="992.5" width="10" height="22" stroke="#380054" fill="#380054" stroke-width="1" />
+    <line id="Breaker_ARENDAL 300T1  AB_S_2" x1="1175" y1="975.5" x2="1175" y2="992.5" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Breaker_ARENDAL 300T1  AB_S_3" x1="1175" y1="1014.5" x2="1175" y2="1031.5" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Disconnector_ARENDAL 300AS1 AD_S" rdf:ID="_4e7aa43e-f1a3-0046-8cbb-19f29bfdeab6">
+    <line id="Disconnector_ARENDAL 300AS1 AD_S_1" x1="1046.5" y1="1187.5" x2="1046.5" y2="1212.5" stroke="#380054" fill="none" stroke-width="2" />
+    <line id="Disconnector_ARENDAL 300AS1 AD_S_2" x1="1054" y1="1187.5" x2="1039" y2="1212.5" stroke="#380054" fill="none" stroke-width="2" />
+    <line id="Disconnector_ARENDAL 300AS1 AD_S_3" x1="1046.5" y1="1167.5" x2="1046.5" y2="1187.5" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Disconnector_ARENDAL 300AS1 AD_S_4" x1="1046.5" y1="1212.5" x2="1046.5" y2="1232.5" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Disconnector_ARENDAL 300AS1 BD_S" rdf:ID="_6d9f92ea-354f-9f40-9fc2-33367292f12c">
+    <line id="Disconnector_ARENDAL 300AS1 BD_S_1" x1="1039" y1="1292.5" x2="1054" y2="1317.5" stroke="#380054" fill="none" stroke-width="2" />
+    <line id="Disconnector_ARENDAL 300AS1 BD_S_2" x1="1046.5" y1="1272.5" x2="1046.5" y2="1292.5" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Disconnector_ARENDAL 300AS1 BD_S_3" x1="1046.5" y1="1317.5" x2="1046.5" y2="1337.5" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Capacitor_ARENDAL 300 LSC1" rdf:ID="_2dd90408-bdfb-11e5-94fa-c8f73332c8f4">
+    <g id="Capacitor_ARENDAL 300 LSC1_1" stroke="#380054" fill="none" stroke-width="1">
+      <path id="Capacitor_ARENDAL 300 LSC1_1_1" d="M 882.5 1202 A 7.5 6 0 0 1 882.5 1214.5 " />
+      <path id="Capacitor_ARENDAL 300 LSC1_1_2" d="M 882.5 1210.5 A 7.5 6 0 0 1 882.5 1223 " />
+      <path id="Capacitor_ARENDAL 300 LSC1_1_3" d="M 882.5 1210.5 A 5 2 0 0 0 882.5 1214.5 " />
+    </g>
+    <line id="Capacitor_ARENDAL 300 LSC1_2" x1="882.5" y1="1187.5" x2="882.5" y2="1202.5" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Capacitor_ARENDAL 300 LSC1_3" x1="882.5" y1="1222.5" x2="882.5" y2="1232.5" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Capacitor_ARENDAL 300 LSC1_4" x1="876.875" y1="1232.5" x2="888.125" y2="1232.5" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Capacitor_ARENDAL 300 LSC1_5" x1="878.75" y1="1235" x2="886.25" y2="1235" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Capacitor_ARENDAL 300 LSC1_6" x1="880.625" y1="1237.5" x2="884.375" y2="1237.5" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Breaker_ARENDAL 300AS1 BB_S" rdf:ID="_0a46da9f-1326-254e-8a3b-649a431f6625">
+    <rect id="Breaker_ARENDAL 300AS1 BB_S_1" x="1041.5" y="1394.5" width="10" height="22" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Breaker_ARENDAL 300AS1 BB_S_2" x1="1046.5" y1="1377.5" x2="1046.5" y2="1394.5" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Breaker_ARENDAL 300AS1 BB_S_3" x1="1046.5" y1="1416.5" x2="1046.5" y2="1433.5" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Breaker_ARENDAL 300KR1 BB_S" rdf:ID="_7113e099-7f24-6a47-9fa2-94a2d57d6c9b">
+    <rect id="Breaker_ARENDAL 300KR1 BB_S_1" x="1236.5" y="1394.5" width="10" height="22" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Breaker_ARENDAL 300KR1 BB_S_2" x1="1241.5" y1="1377.5" x2="1241.5" y2="1394.5" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Breaker_ARENDAL 300KR1 BB_S_3" x1="1241.5" y1="1416.5" x2="1241.5" y2="1433.5" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Breaker_ARENDAL 300KR2 BB_S" rdf:ID="_cbd34307-2d45-ae47-872a-516888952750">
+    <rect id="Breaker_ARENDAL 300KR2 BB_S_1" x="1431.5" y="1394.5" width="10" height="22" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Breaker_ARENDAL 300KR2 BB_S_2" x1="1436.5" y1="1377.5" x2="1436.5" y2="1394.5" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Breaker_ARENDAL 300KR2 BB_S_3" x1="1436.5" y1="1416.5" x2="1436.5" y2="1433.5" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Disconnector_ARENDAL 300KR1 AD_S" rdf:ID="_e3672ff8-a637-5046-a7f7-cd1760746ed4">
+    <line id="Disconnector_ARENDAL 300KR1 AD_S_1" x1="1241.5" y1="1187.5" x2="1241.5" y2="1212.5" stroke="#380054" fill="none" stroke-width="2" />
+    <line id="Disconnector_ARENDAL 300KR1 AD_S_2" x1="1249" y1="1187.5" x2="1234" y2="1212.5" stroke="#380054" fill="none" stroke-width="2" />
+    <line id="Disconnector_ARENDAL 300KR1 AD_S_3" x1="1241.5" y1="1167.5" x2="1241.5" y2="1187.5" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Disconnector_ARENDAL 300KR1 AD_S_4" x1="1241.5" y1="1212.5" x2="1241.5" y2="1232.5" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Disconnector_ARENDAL 300KR2 AD_S" rdf:ID="_674b85b4-1a1f-2341-94bf-7e8f93392a7a">
+    <line id="Disconnector_ARENDAL 300KR2 AD_S_1" x1="1436.5" y1="1187.5" x2="1436.5" y2="1212.5" stroke="#380054" fill="none" stroke-width="2" />
+    <line id="Disconnector_ARENDAL 300KR2 AD_S_2" x1="1444" y1="1187.5" x2="1429" y2="1212.5" stroke="#380054" fill="none" stroke-width="2" />
+    <line id="Disconnector_ARENDAL 300KR2 AD_S_3" x1="1436.5" y1="1167.5" x2="1436.5" y2="1187.5" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Disconnector_ARENDAL 300KR2 AD_S_4" x1="1436.5" y1="1212.5" x2="1436.5" y2="1232.5" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Disconnector_ARENDAL 300KR1 BD_S" rdf:ID="_b36c1e1d-ec67-7b48-9a2f-ecbf617ae59f">
+    <line id="Disconnector_ARENDAL 300KR1 BD_S_1" x1="1234" y1="1292.5" x2="1249" y2="1317.5" stroke="#380054" fill="none" stroke-width="2" />
+    <line id="Disconnector_ARENDAL 300KR1 BD_S_2" x1="1241.5" y1="1272.5" x2="1241.5" y2="1292.5" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Disconnector_ARENDAL 300KR1 BD_S_3" x1="1241.5" y1="1317.5" x2="1241.5" y2="1337.5" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Disconnector_ARENDAL 300KR2 BD_S" rdf:ID="_4ba4e1a4-7265-d74f-8d46-8a4db7da37d1">
+    <line id="Disconnector_ARENDAL 300KR2 BD_S_1" x1="1429" y1="1292.5" x2="1444" y2="1317.5" stroke="#380054" fill="none" stroke-width="2" />
+    <line id="Disconnector_ARENDAL 300KR2 BD_S_2" x1="1436.5" y1="1272.5" x2="1436.5" y2="1292.5" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Disconnector_ARENDAL 300KR2 BD_S_3" x1="1436.5" y1="1317.5" x2="1436.5" y2="1337.5" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Transformer2W_ARENDAL T1" rdf:ID="_f1769e1e-9aeb-11e5-91da-b8763fd99c5f">
+    <ellipse id="Transformer2W_ARENDAL T1_1" cx="1175" cy="872.5" rx="12.5" ry="12.5" rdf:ID="_2dd9047d-bdfb-11e5-94fa-c8f73332c8f4" stroke="#622423" fill="none" stroke-width="1" />
+    <ellipse id="Transformer2W_ARENDAL T1_2" cx="1175" cy="885" rx="12.5" ry="12.5" rdf:ID="_2dd90479-bdfb-11e5-94fa-c8f73332c8f4" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Transformer2W_ARENDAL T1_3" x1="1175" y1="850" x2="1175" y2="860" rdf:ID="_2dd9047d-bdfb-11e5-94fa-c8f73332c8f4" stroke="#622423" fill="none" stroke-width="1" />
+    <line id="Transformer2W_ARENDAL T1_4" x1="1175" y1="897.5" x2="1175" y2="907.5" rdf:ID="_2dd90479-bdfb-11e5-94fa-c8f73332c8f4" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Load_ASKER   300 L1" rdf:ID="_f1769746-9aeb-11e5-91da-b8763fd99c5f">
+    <polygon id="Load_ASKER   300 L1_1" points="2256.75,798.9707 2266.75,798.9707 2261.75,808.9707" stroke="#380054" fill="#380054" stroke-width="1" />
+    <line id="Load_ASKER   300 L1_2" x1="2261.75" y1="783.9707" x2="2261.75" y2="798.9707" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Load_ASKER   300 L2" rdf:ID="_f176974c-9aeb-11e5-91da-b8763fd99c5f">
+    <polygon id="Load_ASKER   300 L2_1" points="2393,798.9707 2403,798.9707 2398,808.9707" stroke="#380054" fill="#380054" stroke-width="1" />
+    <line id="Load_ASKER   300 L2_2" x1="2398" y1="783.9707" x2="2398" y2="798.9707" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Generator_ASKER   300 M1" rdf:ID="_f1769919-9aeb-11e5-91da-b8763fd99c5f">
+    <ellipse id="Generator_ASKER   300 M1_1" cx="1815.5" cy="811.4707" rx="12.5" ry="12.5" stroke="#380054" fill="none" stroke-width="1" />
+    <g id="Generator_ASKER   300 M1_2" stroke="#380054" fill="none" stroke-width="1">
+      <path id="Generator_ASKER   300 M1_2_1" d="M 1804 811.4707 A 6.25 6.25 0 0 1 1815.5 811.4707 " />
+      <path id="Generator_ASKER   300 M1_2_2" d="M 1815.5 811.4707 A 6.25 6.25 0 0 0 1827 811.4707 " />
+    </g>
+    <line id="Generator_ASKER   300 M1_3" x1="1815.5" y1="783.9707" x2="1815.5" y2="798.9707" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Generator_ASKER   300 M1_4" x1="1815.5" y1="823.9707" x2="1815.5" y2="833.9707" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Generator_ASKER   300 M1_5" x1="1806.125" y1="833.9707" x2="1824.875" y2="833.9707" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Generator_ASKER   300 M1_6" x1="1809.25" y1="836.4707" x2="1821.75" y2="836.4707" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Generator_ASKER   300 M1_7" x1="1812.375" y1="838.9707" x2="1818.625" y2="838.9707" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Generator_ASKER   300 M2" rdf:ID="_f1769920-9aeb-11e5-91da-b8763fd99c5f">
+    <ellipse id="Generator_ASKER   300 M2_1" cx="1966.75" cy="811.4707" rx="12.5" ry="12.5" stroke="#380054" fill="none" stroke-width="1" />
+    <g id="Generator_ASKER   300 M2_2" stroke="#380054" fill="none" stroke-width="1">
+      <path id="Generator_ASKER   300 M2_2_1" d="M 1955.25 811.4707 A 6.25 6.25 0 0 1 1966.75 811.4707 " />
+      <path id="Generator_ASKER   300 M2_2_2" d="M 1966.75 811.4707 A 6.25 6.25 0 0 0 1978.25 811.4707 " />
+    </g>
+    <line id="Generator_ASKER   300 M2_3" x1="1966.75" y1="783.9707" x2="1966.75" y2="798.9707" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Generator_ASKER   300 M2_4" x1="1966.75" y1="823.9707" x2="1966.75" y2="833.9707" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Generator_ASKER   300 M2_5" x1="1957.375" y1="833.9707" x2="1976.125" y2="833.9707" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Generator_ASKER   300 M2_6" x1="1960.5" y1="836.4707" x2="1973" y2="836.4707" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Generator_ASKER   300 M2_7" x1="1963.625" y1="838.9707" x2="1969.875" y2="838.9707" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Capacitor_ASKER   300 LSC1" rdf:ID="_2dd90405-bdfb-11e5-94fa-c8f73332c8f4">
+    <line id="Capacitor_ASKER   300 LSC1_1" x1="2105.5" y1="797.5707" x2="2130.5" y2="797.5707" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Capacitor_ASKER   300 LSC1_2" x1="2105.5" y1="803.5707" x2="2130.5" y2="803.5707" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Capacitor_ASKER   300 LSC1_3" x1="2118" y1="783.9707" x2="2118" y2="797.5707" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Capacitor_ASKER   300 LSC1_4" x1="2118" y1="803.5707" x2="2118" y2="813.1707" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Capacitor_ASKER   300 LSC1_5" x1="2108.625" y1="813.1707" x2="2127.375" y2="813.1707" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Capacitor_ASKER   300 LSC1_6" x1="2111.75" y1="815.1707" x2="2124.25" y2="815.1707" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Capacitor_ASKER   300 LSC1_7" x1="2114.875" y1="817.1707" x2="2121.125" y2="817.1707" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <a id="xlink_NeighborSubstation_SKIEN" xlink:href="SKIEN.svg">
+    <g id="NeighborSubstation_SKIEN" rdf:ID="_f1769654-9aeb-11e5-91da-b8763fd99c5f" transform="rotate(180, 2043, 688.470703125)">
+      <polyline id="NeighborSubstation_SKIEN_1" points="2037.5,693.9707 2043,703.9707 2048.5,693.9707" stroke="#380054" fill="none" stroke-width="1" />
+      <line id="NeighborSubstation_SKIEN_2" x1="2043" y1="693.9707" x2="2043" y2="703.4707" stroke="#380054" fill="none" stroke-width="1" />
+      <line id="NeighborSubstation_SKIEN_3" x1="2043" y1="672.9707" x2="2043" y2="693.9707" stroke="#380054" fill="none" stroke-width="1" />
+    </g>
+  </a>
+  <a id="xlink_NeighborSubstation_TRETTEN" xlink:href="TRETTEN.svg">
+    <g id="NeighborSubstation_TRETTEN" rdf:ID="_f1769604-9aeb-11e5-91da-b8763fd99c5f" transform="rotate(180, 2163, 688.470703125)">
+      <polyline id="NeighborSubstation_TRETTEN_1" points="2157.5,693.9707 2163,703.9707 2168.5,693.9707" stroke="#380054" fill="none" stroke-width="1" />
+      <line id="NeighborSubstation_TRETTEN_2" x1="2163" y1="693.9707" x2="2163" y2="703.4707" stroke="#380054" fill="none" stroke-width="1" />
+      <line id="NeighborSubstation_TRETTEN_3" x1="2163" y1="672.9707" x2="2163" y2="693.9707" stroke="#380054" fill="none" stroke-width="1" />
+    </g>
+  </a>
+  <a id="xlink_NeighborSubstation_OSLO" xlink:href="OSLO.svg">
+    <g id="NeighborSubstation_OSLO" rdf:ID="_f176963c-9aeb-11e5-91da-b8763fd99c5f" transform="rotate(180, 2283, 688.470703125)">
+      <polyline id="NeighborSubstation_OSLO_1" points="2277.5,693.9707 2283,703.9707 2288.5,693.9707" stroke="#380054" fill="none" stroke-width="1" />
+      <line id="NeighborSubstation_OSLO_2" x1="2283" y1="693.9707" x2="2283" y2="703.4707" stroke="#380054" fill="none" stroke-width="1" />
+      <line id="NeighborSubstation_OSLO_3" x1="2283" y1="672.9707" x2="2283" y2="693.9707" stroke="#380054" fill="none" stroke-width="1" />
+    </g>
+  </a>
+  <g id="Breaker_KRISTIAN300AR1 AB_S" rdf:ID="_2384f146-deb2-c046-817c-6322a5381b9c">
+    <rect id="Breaker_KRISTIAN300AR1 AB_S_1" x="295" y="1743" width="10" height="22" stroke="#380054" fill="#380054" stroke-width="1" />
+    <line id="Breaker_KRISTIAN300AR1 AB_S_2" x1="300" y1="1726" x2="300" y2="1743" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Breaker_KRISTIAN300AR1 AB_S_3" x1="300" y1="1765" x2="300" y2="1782" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Breaker_KRISTIAN300FE1 AB_S" rdf:ID="_0d415b1b-b4da-f34f-aafb-802c77edce8e">
+    <rect id="Breaker_KRISTIAN300FE1 AB_S_1" x="483.8889" y="1743" width="10" height="22" stroke="#380054" fill="#380054" stroke-width="1" />
+    <line id="Breaker_KRISTIAN300FE1 AB_S_2" x1="488.8889" y1="1726" x2="488.8889" y2="1743" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Breaker_KRISTIAN300FE1 AB_S_3" x1="488.8889" y1="1765" x2="488.8889" y2="1782" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Breaker_KRISTIAN300G1  AB_S" rdf:ID="_cefef4c4-1b45-af4b-8e13-275e0c9ffe27">
+    <rect id="Breaker_KRISTIAN300G1  AB_S_1" x="672.7778" y="1743" width="10" height="22" stroke="#380054" fill="#380054" stroke-width="1" />
+    <line id="Breaker_KRISTIAN300G1  AB_S_2" x1="677.7778" y1="1726" x2="677.7778" y2="1743" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Breaker_KRISTIAN300G1  AB_S_3" x1="677.7778" y1="1765" x2="677.7778" y2="1782" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Breaker_KRISTIAN300G2  AB_S" rdf:ID="_13588bcf-c30d-7a49-beaa-67fcce61d305">
+    <rect id="Breaker_KRISTIAN300G2  AB_S_1" x="875.6667" y="1743" width="10" height="22" stroke="#380054" fill="#380054" stroke-width="1" />
+    <line id="Breaker_KRISTIAN300G2  AB_S_2" x1="880.6667" y1="1726" x2="880.6667" y2="1743" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Breaker_KRISTIAN300G2  AB_S_3" x1="880.6667" y1="1765" x2="880.6667" y2="1782" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Breaker_KRISTIAN300G3  AB_S" rdf:ID="_316f39b6-0fed-ea41-87a1-0f5119e136c2">
+    <rect id="Breaker_KRISTIAN300G3  AB_S_1" x="1078.556" y="1743" width="10" height="22" stroke="#380054" fill="#380054" stroke-width="1" />
+    <line id="Breaker_KRISTIAN300G3  AB_S_2" x1="1083.556" y1="1726" x2="1083.556" y2="1743" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Breaker_KRISTIAN300G3  AB_S_3" x1="1083.556" y1="1765" x2="1083.556" y2="1782" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Breaker_KRISTIAN300G4  AB_S" rdf:ID="_a7bb9a3e-03d8-3b46-9cf6-f2bf71ab7042">
+    <rect id="Breaker_KRISTIAN300G4  AB_S_1" x="1281.444" y="1743" width="10" height="22" stroke="#380054" fill="#380054" stroke-width="1" />
+    <line id="Breaker_KRISTIAN300G4  AB_S_2" x1="1286.444" y1="1726" x2="1286.444" y2="1743" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Breaker_KRISTIAN300G4  AB_S_3" x1="1286.444" y1="1765" x2="1286.444" y2="1782" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Breaker_KRISTIAN300KV1 AB_S" rdf:ID="_e399c43f-0e9e-ae42-a66e-116fcccb56ac">
+    <rect id="Breaker_KRISTIAN300KV1 AB_S_1" x="1484.333" y="1743" width="10" height="22" stroke="#380054" fill="#380054" stroke-width="1" />
+    <line id="Breaker_KRISTIAN300KV1 AB_S_2" x1="1489.333" y1="1726" x2="1489.333" y2="1743" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Breaker_KRISTIAN300KV1 AB_S_3" x1="1489.333" y1="1765" x2="1489.333" y2="1782" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Breaker_KRISTIAN300L1  AB_S" rdf:ID="_05d4226b-111b-f747-84b4-cc7be03f3544">
+    <rect id="Breaker_KRISTIAN300L1  AB_S_1" x="1673.222" y="1743" width="10" height="22" stroke="#380054" fill="#380054" stroke-width="1" />
+    <line id="Breaker_KRISTIAN300L1  AB_S_2" x1="1678.222" y1="1726" x2="1678.222" y2="1743" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Breaker_KRISTIAN300L1  AB_S_3" x1="1678.222" y1="1765" x2="1678.222" y2="1782" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Breaker_KRISTIAN300L2  AB_S" rdf:ID="_7cc994ab-ddb9-8a4a-bbda-e91af59a06d9">
+    <rect id="Breaker_KRISTIAN300L2  AB_S_1" x="1861.111" y="1743" width="10" height="22" stroke="#380054" fill="#380054" stroke-width="1" />
+    <line id="Breaker_KRISTIAN300L2  AB_S_2" x1="1866.111" y1="1726" x2="1866.111" y2="1743" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Breaker_KRISTIAN300L2  AB_S_3" x1="1866.111" y1="1765" x2="1866.111" y2="1782" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Breaker_KRISTIAN300ST1 AB_S" rdf:ID="_b209ada6-1835-1540-8868-1cd5e65016c2">
+    <rect id="Breaker_KRISTIAN300ST1 AB_S_1" x="2049" y="1743" width="10" height="22" stroke="#380054" fill="#380054" stroke-width="1" />
+    <line id="Breaker_KRISTIAN300ST1 AB_S_2" x1="2054" y1="1726" x2="2054" y2="1743" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Breaker_KRISTIAN300ST1 AB_S_3" x1="2054" y1="1765" x2="2054" y2="1782" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Disconnector_KRISTIAN300G1  AD_S" rdf:ID="_85c172ea-50d5-8843-ba55-f8659693a2c6">
+    <line id="Disconnector_KRISTIAN300G1  AD_S_1" x1="677.7778" y1="1842" x2="677.7778" y2="1867" stroke="#380054" fill="none" stroke-width="2" />
+    <line id="Disconnector_KRISTIAN300G1  AD_S_2" x1="685.2778" y1="1842" x2="670.2778" y2="1867" stroke="#380054" fill="none" stroke-width="2" />
+    <line id="Disconnector_KRISTIAN300G1  AD_S_3" x1="677.7778" y1="1822" x2="677.7778" y2="1842" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Disconnector_KRISTIAN300G1  AD_S_4" x1="677.7778" y1="1867" x2="677.7778" y2="1887" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Generator_KRISTIAN300 M1" rdf:ID="_f1769929-9aeb-11e5-91da-b8763fd99c5f">
+    <ellipse id="Generator_KRISTIAN300 M1_1" cx="637.7778" cy="1974.5" rx="12.5" ry="12.5" stroke="#380054" fill="none" stroke-width="1" />
+    <g id="Generator_KRISTIAN300 M1_2" stroke="#380054" fill="none" stroke-width="1">
+      <path id="Generator_KRISTIAN300 M1_2_1" d="M 626.2778 1974.5 A 6.25 6.25 0 0 1 637.7778 1974.5 " />
+      <path id="Generator_KRISTIAN300 M1_2_2" d="M 637.7778 1974.5 A 6.25 6.25 0 0 0 649.2778 1974.5 " />
+    </g>
+    <line id="Generator_KRISTIAN300 M1_3" x1="637.7778" y1="1947" x2="637.7778" y2="1962" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Generator_KRISTIAN300 M1_4" x1="637.7778" y1="1987" x2="637.7778" y2="1997" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Generator_KRISTIAN300 M1_5" x1="628.4028" y1="1997" x2="647.1528" y2="1997" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Generator_KRISTIAN300 M1_6" x1="631.5278" y1="1999.5" x2="644.0278" y2="1999.5" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Generator_KRISTIAN300 M1_7" x1="634.6528" y1="2002" x2="640.9028" y2="2002" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Disconnector_KRISTIAN300G1  BD_S" rdf:ID="_41b5a199-973e-9246-ab28-6593d6a59a0d">
+    <line id="Disconnector_KRISTIAN300G1  BD_S_1" x1="670.2778" y1="1947" x2="685.2778" y2="1972" stroke="#380054" fill="none" stroke-width="2" />
+    <line id="Disconnector_KRISTIAN300G1  BD_S_2" x1="677.7778" y1="1927" x2="677.7778" y2="1947" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Disconnector_KRISTIAN300G1  BD_S_3" x1="677.7778" y1="1972" x2="677.7778" y2="1992" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Breaker_KRISTIAN300G1  BB_S" rdf:ID="_bf62264e-c8f3-8f43-95c9-570f3337479c">
+    <rect id="Breaker_KRISTIAN300G1  BB_S_1" x="672.7778" y="2049" width="10" height="22" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Breaker_KRISTIAN300G1  BB_S_2" x1="677.7778" y1="2032" x2="677.7778" y2="2049" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Breaker_KRISTIAN300G1  BB_S_3" x1="677.7778" y1="2071" x2="677.7778" y2="2088" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Breaker_KRISTIAN300AR1 BB_S" rdf:ID="_3c4c59b7-461d-5b40-8f0e-2064845bbfdb">
+    <rect id="Breaker_KRISTIAN300AR1 BB_S_1" x="295" y="2049" width="10" height="22" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Breaker_KRISTIAN300AR1 BB_S_2" x1="300" y1="2032" x2="300" y2="2049" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Breaker_KRISTIAN300AR1 BB_S_3" x1="300" y1="2071" x2="300" y2="2088" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Breaker_KRISTIAN300FE1 BB_S" rdf:ID="_fdf147d4-240d-2143-b01a-84fc829bc284">
+    <rect id="Breaker_KRISTIAN300FE1 BB_S_1" x="483.8889" y="2049" width="10" height="22" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Breaker_KRISTIAN300FE1 BB_S_2" x1="488.8889" y1="2032" x2="488.8889" y2="2049" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Breaker_KRISTIAN300FE1 BB_S_3" x1="488.8889" y1="2071" x2="488.8889" y2="2088" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Breaker_KRISTIAN300G2  BB_S" rdf:ID="_128ca899-5716-9341-a823-dd4c35385f2e">
+    <rect id="Breaker_KRISTIAN300G2  BB_S_1" x="875.6667" y="2049" width="10" height="22" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Breaker_KRISTIAN300G2  BB_S_2" x1="880.6667" y1="2032" x2="880.6667" y2="2049" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Breaker_KRISTIAN300G2  BB_S_3" x1="880.6667" y1="2071" x2="880.6667" y2="2088" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Breaker_KRISTIAN300G3  BB_S" rdf:ID="_30b297b4-8e19-da40-9f52-fb9175136a22">
+    <rect id="Breaker_KRISTIAN300G3  BB_S_1" x="1078.556" y="2049" width="10" height="22" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Breaker_KRISTIAN300G3  BB_S_2" x1="1083.556" y1="2032" x2="1083.556" y2="2049" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Breaker_KRISTIAN300G3  BB_S_3" x1="1083.556" y1="2071" x2="1083.556" y2="2088" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Breaker_KRISTIAN300G4  BB_S" rdf:ID="_0c75da66-5f3b-7d4a-809d-5a3772999253">
+    <rect id="Breaker_KRISTIAN300G4  BB_S_1" x="1281.444" y="2049" width="10" height="22" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Breaker_KRISTIAN300G4  BB_S_2" x1="1286.444" y1="2032" x2="1286.444" y2="2049" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Breaker_KRISTIAN300G4  BB_S_3" x1="1286.444" y1="2071" x2="1286.444" y2="2088" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Breaker_KRISTIAN300KV1 BB_S" rdf:ID="_0169b8e7-c05b-3640-b55e-22b40081ca21">
+    <rect id="Breaker_KRISTIAN300KV1 BB_S_1" x="1484.333" y="2049" width="10" height="22" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Breaker_KRISTIAN300KV1 BB_S_2" x1="1489.333" y1="2032" x2="1489.333" y2="2049" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Breaker_KRISTIAN300KV1 BB_S_3" x1="1489.333" y1="2071" x2="1489.333" y2="2088" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Breaker_KRISTIAN300ST1 BB_S" rdf:ID="_56013ae5-ff4f-2949-b59a-e60c62702d3e">
+    <rect id="Breaker_KRISTIAN300ST1 BB_S_1" x="2049" y="2049" width="10" height="22" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Breaker_KRISTIAN300ST1 BB_S_2" x1="2054" y1="2032" x2="2054" y2="2049" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Breaker_KRISTIAN300ST1 BB_S_3" x1="2054" y1="2071" x2="2054" y2="2088" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Breaker_KRISTIAN300L1  BB_S" rdf:ID="_2973c36e-3d17-284c-a950-b86b9496acca">
+    <rect id="Breaker_KRISTIAN300L1  BB_S_1" x="1673.222" y="2049" width="10" height="22" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Breaker_KRISTIAN300L1  BB_S_2" x1="1678.222" y1="2032" x2="1678.222" y2="2049" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Breaker_KRISTIAN300L1  BB_S_3" x1="1678.222" y1="2071" x2="1678.222" y2="2088" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Breaker_KRISTIAN300L2  BB_S" rdf:ID="_373c4779-0905-d34c-bbc9-d200f848cbd9">
+    <rect id="Breaker_KRISTIAN300L2  BB_S_1" x="1861.111" y="2049" width="10" height="22" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Breaker_KRISTIAN300L2  BB_S_2" x1="1866.111" y1="2032" x2="1866.111" y2="2049" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Breaker_KRISTIAN300L2  BB_S_3" x1="1866.111" y1="2071" x2="1866.111" y2="2088" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Disconnector_KRISTIAN300AR1 AD_S" rdf:ID="_ecc63b62-ab62-9747-9744-92ba78e89971">
+    <line id="Disconnector_KRISTIAN300AR1 AD_S_1" x1="300" y1="1842" x2="300" y2="1867" stroke="#380054" fill="none" stroke-width="2" />
+    <line id="Disconnector_KRISTIAN300AR1 AD_S_2" x1="307.5" y1="1842" x2="292.5" y2="1867" stroke="#380054" fill="none" stroke-width="2" />
+    <line id="Disconnector_KRISTIAN300AR1 AD_S_3" x1="300" y1="1822" x2="300" y2="1842" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Disconnector_KRISTIAN300AR1 AD_S_4" x1="300" y1="1867" x2="300" y2="1887" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Disconnector_KRISTIAN300L1  BD_S" rdf:ID="_9098d05f-45b6-7b4f-b176-a6995b423baa">
+    <line id="Disconnector_KRISTIAN300L1  BD_S_1" x1="1670.722" y1="1947" x2="1685.722" y2="1972" stroke="#380054" fill="none" stroke-width="2" />
+    <line id="Disconnector_KRISTIAN300L1  BD_S_2" x1="1678.222" y1="1927" x2="1678.222" y2="1947" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Disconnector_KRISTIAN300L1  BD_S_3" x1="1678.222" y1="1972" x2="1678.222" y2="1992" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Disconnector_KRISTIAN300G4  BD_S" rdf:ID="_3a4ef440-621c-ec4d-9d45-65e99b395dae">
+    <line id="Disconnector_KRISTIAN300G4  BD_S_1" x1="1278.944" y1="1947" x2="1293.944" y2="1972" stroke="#380054" fill="none" stroke-width="2" />
+    <line id="Disconnector_KRISTIAN300G4  BD_S_2" x1="1286.444" y1="1927" x2="1286.444" y2="1947" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Disconnector_KRISTIAN300G4  BD_S_3" x1="1286.444" y1="1972" x2="1286.444" y2="1992" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Disconnector_KRISTIAN300G2  AD_S" rdf:ID="_bdc35ecf-da90-de41-9345-b8c4228f63bd">
+    <line id="Disconnector_KRISTIAN300G2  AD_S_1" x1="880.6667" y1="1842" x2="880.6667" y2="1867" stroke="#380054" fill="none" stroke-width="2" />
+    <line id="Disconnector_KRISTIAN300G2  AD_S_2" x1="888.1667" y1="1842" x2="873.1667" y2="1867" stroke="#380054" fill="none" stroke-width="2" />
+    <line id="Disconnector_KRISTIAN300G2  AD_S_3" x1="880.6667" y1="1822" x2="880.6667" y2="1842" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Disconnector_KRISTIAN300G2  AD_S_4" x1="880.6667" y1="1867" x2="880.6667" y2="1887" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Load_KRISTIAN300 L1" rdf:ID="_f1769752-9aeb-11e5-91da-b8763fd99c5f">
+    <polygon id="Load_KRISTIAN300 L1_1" points="1640.722,1962 1650.722,1962 1645.722,1972" stroke="#380054" fill="#380054" stroke-width="1" />
+    <line id="Load_KRISTIAN300 L1_2" x1="1645.722" y1="1947" x2="1645.722" y2="1962" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Disconnector_KRISTIAN300L1  AD_S" rdf:ID="_c986d524-47e9-9e4d-b635-64386c9be9a1">
+    <line id="Disconnector_KRISTIAN300L1  AD_S_1" x1="1678.222" y1="1842" x2="1678.222" y2="1867" stroke="#380054" fill="none" stroke-width="2" />
+    <line id="Disconnector_KRISTIAN300L1  AD_S_2" x1="1685.722" y1="1842" x2="1670.722" y2="1867" stroke="#380054" fill="none" stroke-width="2" />
+    <line id="Disconnector_KRISTIAN300L1  AD_S_3" x1="1678.222" y1="1822" x2="1678.222" y2="1842" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Disconnector_KRISTIAN300L1  AD_S_4" x1="1678.222" y1="1867" x2="1678.222" y2="1887" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Disconnector_KRISTIAN300G4  AD_S" rdf:ID="_cc9d6086-68d7-0840-88da-2456744b3b14">
+    <line id="Disconnector_KRISTIAN300G4  AD_S_1" x1="1286.444" y1="1842" x2="1286.444" y2="1867" stroke="#380054" fill="none" stroke-width="2" />
+    <line id="Disconnector_KRISTIAN300G4  AD_S_2" x1="1293.944" y1="1842" x2="1278.944" y2="1867" stroke="#380054" fill="none" stroke-width="2" />
+    <line id="Disconnector_KRISTIAN300G4  AD_S_3" x1="1286.444" y1="1822" x2="1286.444" y2="1842" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Disconnector_KRISTIAN300G4  AD_S_4" x1="1286.444" y1="1867" x2="1286.444" y2="1887" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Generator_KRISTIAN300 M2" rdf:ID="_f1769930-9aeb-11e5-91da-b8763fd99c5f">
+    <ellipse id="Generator_KRISTIAN300 M2_1" cx="840.6667" cy="1974.5" rx="12.5" ry="12.5" stroke="#380054" fill="none" stroke-width="1" />
+    <g id="Generator_KRISTIAN300 M2_2" stroke="#380054" fill="none" stroke-width="1">
+      <path id="Generator_KRISTIAN300 M2_2_1" d="M 829.1667 1974.5 A 6.25 6.25 0 0 1 840.6667 1974.5 " />
+      <path id="Generator_KRISTIAN300 M2_2_2" d="M 840.6667 1974.5 A 6.25 6.25 0 0 0 852.1667 1974.5 " />
+    </g>
+    <line id="Generator_KRISTIAN300 M2_3" x1="840.6667" y1="1947" x2="840.6667" y2="1962" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Generator_KRISTIAN300 M2_4" x1="840.6667" y1="1987" x2="840.6667" y2="1997" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Generator_KRISTIAN300 M2_5" x1="831.2917" y1="1997" x2="850.0417" y2="1997" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Generator_KRISTIAN300 M2_6" x1="834.4167" y1="1999.5" x2="846.9167" y2="1999.5" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Generator_KRISTIAN300 M2_7" x1="837.5417" y1="2002" x2="843.7917" y2="2002" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Disconnector_KRISTIAN300G2  BD_S" rdf:ID="_df16ad25-a8cf-a04b-a420-0d71145132dc">
+    <line id="Disconnector_KRISTIAN300G2  BD_S_1" x1="873.1667" y1="1947" x2="888.1667" y2="1972" stroke="#380054" fill="none" stroke-width="2" />
+    <line id="Disconnector_KRISTIAN300G2  BD_S_2" x1="880.6667" y1="1927" x2="880.6667" y2="1947" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Disconnector_KRISTIAN300G2  BD_S_3" x1="880.6667" y1="1972" x2="880.6667" y2="1992" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Generator_KRISTIAN300 M4" rdf:ID="_f176993e-9aeb-11e5-91da-b8763fd99c5f">
+    <ellipse id="Generator_KRISTIAN300 M4_1" cx="1246.444" cy="1974.5" rx="12.5" ry="12.5" stroke="#380054" fill="none" stroke-width="1" />
+    <g id="Generator_KRISTIAN300 M4_2" stroke="#380054" fill="none" stroke-width="1">
+      <path id="Generator_KRISTIAN300 M4_2_1" d="M 1234.944 1974.5 A 6.25 6.25 0 0 1 1246.444 1974.5 " />
+      <path id="Generator_KRISTIAN300 M4_2_2" d="M 1246.444 1974.5 A 6.25 6.25 0 0 0 1257.944 1974.5 " />
+    </g>
+    <line id="Generator_KRISTIAN300 M4_3" x1="1246.444" y1="1947" x2="1246.444" y2="1962" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Generator_KRISTIAN300 M4_4" x1="1246.444" y1="1987" x2="1246.444" y2="1997" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Generator_KRISTIAN300 M4_5" x1="1237.069" y1="1997" x2="1255.819" y2="1997" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Generator_KRISTIAN300 M4_6" x1="1240.194" y1="1999.5" x2="1252.694" y2="1999.5" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Generator_KRISTIAN300 M4_7" x1="1243.319" y1="2002" x2="1249.569" y2="2002" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Disconnector_KRISTIAN300KV1 AD_S" rdf:ID="_0192045c-3523-324a-a050-c9dddd6fe2d0">
+    <line id="Disconnector_KRISTIAN300KV1 AD_S_1" x1="1489.333" y1="1842" x2="1489.333" y2="1867" stroke="#380054" fill="none" stroke-width="2" />
+    <line id="Disconnector_KRISTIAN300KV1 AD_S_2" x1="1496.833" y1="1842" x2="1481.833" y2="1867" stroke="#380054" fill="none" stroke-width="2" />
+    <line id="Disconnector_KRISTIAN300KV1 AD_S_3" x1="1489.333" y1="1822" x2="1489.333" y2="1842" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Disconnector_KRISTIAN300KV1 AD_S_4" x1="1489.333" y1="1867" x2="1489.333" y2="1887" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Disconnector_KRISTIAN300G3  AD_S" rdf:ID="_c9917527-be41-014a-9344-d9df590239e3">
+    <line id="Disconnector_KRISTIAN300G3  AD_S_1" x1="1083.556" y1="1842" x2="1083.556" y2="1867" stroke="#380054" fill="none" stroke-width="2" />
+    <line id="Disconnector_KRISTIAN300G3  AD_S_2" x1="1091.056" y1="1842" x2="1076.056" y2="1867" stroke="#380054" fill="none" stroke-width="2" />
+    <line id="Disconnector_KRISTIAN300G3  AD_S_3" x1="1083.556" y1="1822" x2="1083.556" y2="1842" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Disconnector_KRISTIAN300G3  AD_S_4" x1="1083.556" y1="1867" x2="1083.556" y2="1887" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Disconnector_KRISTIAN300ST1 BD_S" rdf:ID="_f0473e35-b545-ac4a-84b9-2d52718a3b35">
+    <line id="Disconnector_KRISTIAN300ST1 BD_S_1" x1="2046.5" y1="1947" x2="2061.5" y2="1972" stroke="#380054" fill="none" stroke-width="2" />
+    <line id="Disconnector_KRISTIAN300ST1 BD_S_2" x1="2054" y1="1927" x2="2054" y2="1947" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Disconnector_KRISTIAN300ST1 BD_S_3" x1="2054" y1="1972" x2="2054" y2="1992" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Disconnector_KRISTIAN300L2  AD_S" rdf:ID="_2366eea5-1051-1047-b1e4-ba6c741e076d">
+    <line id="Disconnector_KRISTIAN300L2  AD_S_1" x1="1866.111" y1="1842" x2="1866.111" y2="1867" stroke="#380054" fill="none" stroke-width="2" />
+    <line id="Disconnector_KRISTIAN300L2  AD_S_2" x1="1873.611" y1="1842" x2="1858.611" y2="1867" stroke="#380054" fill="none" stroke-width="2" />
+    <line id="Disconnector_KRISTIAN300L2  AD_S_3" x1="1866.111" y1="1822" x2="1866.111" y2="1842" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Disconnector_KRISTIAN300L2  AD_S_4" x1="1866.111" y1="1867" x2="1866.111" y2="1887" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Disconnector_KRISTIAN300ST1 AD_S" rdf:ID="_4b31bd38-15c9-104a-bbb8-4570207cc245">
+    <line id="Disconnector_KRISTIAN300ST1 AD_S_1" x1="2054" y1="1842" x2="2054" y2="1867" stroke="#380054" fill="none" stroke-width="2" />
+    <line id="Disconnector_KRISTIAN300ST1 AD_S_2" x1="2061.5" y1="1842" x2="2046.5" y2="1867" stroke="#380054" fill="none" stroke-width="2" />
+    <line id="Disconnector_KRISTIAN300ST1 AD_S_3" x1="2054" y1="1822" x2="2054" y2="1842" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Disconnector_KRISTIAN300ST1 AD_S_4" x1="2054" y1="1867" x2="2054" y2="1887" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Disconnector_KRISTIAN300FE1 BD_S" rdf:ID="_6589185b-1ac4-df4e-830b-30ea50c3d15d">
+    <line id="Disconnector_KRISTIAN300FE1 BD_S_1" x1="481.3889" y1="1947" x2="496.3889" y2="1972" stroke="#380054" fill="none" stroke-width="2" />
+    <line id="Disconnector_KRISTIAN300FE1 BD_S_2" x1="488.8889" y1="1927" x2="488.8889" y2="1947" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Disconnector_KRISTIAN300FE1 BD_S_3" x1="488.8889" y1="1972" x2="488.8889" y2="1992" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Disconnector_KRISTIAN300FE1 AD_S" rdf:ID="_ff413319-b126-e444-9e46-3e2268fc19aa">
+    <line id="Disconnector_KRISTIAN300FE1 AD_S_1" x1="488.8889" y1="1842" x2="488.8889" y2="1867" stroke="#380054" fill="none" stroke-width="2" />
+    <line id="Disconnector_KRISTIAN300FE1 AD_S_2" x1="496.3889" y1="1842" x2="481.3889" y2="1867" stroke="#380054" fill="none" stroke-width="2" />
+    <line id="Disconnector_KRISTIAN300FE1 AD_S_3" x1="488.8889" y1="1822" x2="488.8889" y2="1842" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Disconnector_KRISTIAN300FE1 AD_S_4" x1="488.8889" y1="1867" x2="488.8889" y2="1887" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Disconnector_KRISTIAN300KV1 BD_S" rdf:ID="_4ee41c27-44cd-3146-8fe0-ad30d5051340">
+    <line id="Disconnector_KRISTIAN300KV1 BD_S_1" x1="1481.833" y1="1947" x2="1496.833" y2="1972" stroke="#380054" fill="none" stroke-width="2" />
+    <line id="Disconnector_KRISTIAN300KV1 BD_S_2" x1="1489.333" y1="1927" x2="1489.333" y2="1947" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Disconnector_KRISTIAN300KV1 BD_S_3" x1="1489.333" y1="1972" x2="1489.333" y2="1992" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Load_KRISTIAN300 L2" rdf:ID="_f1769758-9aeb-11e5-91da-b8763fd99c5f">
+    <polygon id="Load_KRISTIAN300 L2_1" points="1828.611,1962 1838.611,1962 1833.611,1972" stroke="#380054" fill="#380054" stroke-width="1" />
+    <line id="Load_KRISTIAN300 L2_2" x1="1833.611" y1="1947" x2="1833.611" y2="1962" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Disconnector_KRISTIAN300L2  BD_S" rdf:ID="_29fd599d-9429-cb4b-a103-df08eb0a97f8">
+    <line id="Disconnector_KRISTIAN300L2  BD_S_1" x1="1858.611" y1="1947" x2="1873.611" y2="1972" stroke="#380054" fill="none" stroke-width="2" />
+    <line id="Disconnector_KRISTIAN300L2  BD_S_2" x1="1866.111" y1="1927" x2="1866.111" y2="1947" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Disconnector_KRISTIAN300L2  BD_S_3" x1="1866.111" y1="1972" x2="1866.111" y2="1992" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Disconnector_KRISTIAN300AR1 BD_S" rdf:ID="_dad36893-9a19-d148-8703-a4f0ddd95077">
+    <line id="Disconnector_KRISTIAN300AR1 BD_S_1" x1="292.5" y1="1947" x2="307.5" y2="1972" stroke="#380054" fill="none" stroke-width="2" />
+    <line id="Disconnector_KRISTIAN300AR1 BD_S_2" x1="300" y1="1927" x2="300" y2="1947" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Disconnector_KRISTIAN300AR1 BD_S_3" x1="300" y1="1972" x2="300" y2="1992" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Generator_KRISTIAN300 M3" rdf:ID="_f1769937-9aeb-11e5-91da-b8763fd99c5f">
+    <ellipse id="Generator_KRISTIAN300 M3_1" cx="1043.556" cy="1974.5" rx="12.5" ry="12.5" stroke="#380054" fill="none" stroke-width="1" />
+    <g id="Generator_KRISTIAN300 M3_2" stroke="#380054" fill="none" stroke-width="1">
+      <path id="Generator_KRISTIAN300 M3_2_1" d="M 1032.056 1974.5 A 6.25 6.25 0 0 1 1043.556 1974.5 " />
+      <path id="Generator_KRISTIAN300 M3_2_2" d="M 1043.556 1974.5 A 6.25 6.25 0 0 0 1055.056 1974.5 " />
+    </g>
+    <line id="Generator_KRISTIAN300 M3_3" x1="1043.556" y1="1947" x2="1043.556" y2="1962" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Generator_KRISTIAN300 M3_4" x1="1043.556" y1="1987" x2="1043.556" y2="1997" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Generator_KRISTIAN300 M3_5" x1="1034.181" y1="1997" x2="1052.931" y2="1997" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Generator_KRISTIAN300 M3_6" x1="1037.306" y1="1999.5" x2="1049.806" y2="1999.5" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Generator_KRISTIAN300 M3_7" x1="1040.431" y1="2002" x2="1046.681" y2="2002" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <g id="Disconnector_KRISTIAN300G3  BD_S" rdf:ID="_3993c419-d9d7-bb4c-8319-6671df77ec90">
+    <line id="Disconnector_KRISTIAN300G3  BD_S_1" x1="1076.056" y1="1947" x2="1091.056" y2="1972" stroke="#380054" fill="none" stroke-width="2" />
+    <line id="Disconnector_KRISTIAN300G3  BD_S_2" x1="1083.556" y1="1927" x2="1083.556" y2="1947" stroke="#380054" fill="none" stroke-width="1" />
+    <line id="Disconnector_KRISTIAN300G3  BD_S_3" x1="1083.556" y1="1972" x2="1083.556" y2="1992" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <a id="xlink_NeighborSubstation_FEDA_HVDC" xlink:href="FEDA_HVDC.svg">
+    <g id="NeighborSubstation_FEDA_HVDC" rdf:ID="_f176967c-9aeb-11e5-91da-b8763fd99c5f" transform="rotate(180, 418.888885498047, 1851.5)">
+      <polyline id="NeighborSubstation_FEDA_HVDC_1" points="413.3889,1857 418.8889,1867 424.3889,1857" stroke="#380054" fill="none" stroke-width="1" />
+      <line id="NeighborSubstation_FEDA_HVDC_2" x1="418.8889" y1="1857" x2="418.8889" y2="1866.5" stroke="#380054" fill="none" stroke-width="1" />
+      <line id="NeighborSubstation_FEDA_HVDC_3" x1="418.8889" y1="1836" x2="418.8889" y2="1857" stroke="#380054" fill="none" stroke-width="1" />
+    </g>
+  </a>
+  <a id="xlink_NeighborSubstation_KVILLDAL" xlink:href="KVILLDAL.svg">
+    <g id="NeighborSubstation_KVILLDAL" rdf:ID="_f1769682-9aeb-11e5-91da-b8763fd99c5f" transform="rotate(180, 1419.33337402344, 1851.5)">
+      <polyline id="NeighborSubstation_KVILLDAL_1" points="1413.833,1857 1419.333,1867 1424.833,1857" stroke="#380054" fill="none" stroke-width="1" />
+      <line id="NeighborSubstation_KVILLDAL_2" x1="1419.333" y1="1857" x2="1419.333" y2="1866.5" stroke="#380054" fill="none" stroke-width="1" />
+      <line id="NeighborSubstation_KVILLDAL_3" x1="1419.333" y1="1836" x2="1419.333" y2="1857" stroke="#380054" fill="none" stroke-width="1" />
+    </g>
+  </a>
+  <a id="xlink_NeighborSubstation_STAVANGER" xlink:href="STAVANGER.svg">
+    <g id="NeighborSubstation_STAVANGER" rdf:ID="_f1769664-9aeb-11e5-91da-b8763fd99c5f" transform="rotate(180, 1984, 1851.5)">
+      <polyline id="NeighborSubstation_STAVANGER_1" points="1978.5,1857 1984,1867 1989.5,1857" stroke="#380054" fill="none" stroke-width="1" />
+      <line id="NeighborSubstation_STAVANGER_2" x1="1984" y1="1857" x2="1984" y2="1866.5" stroke="#380054" fill="none" stroke-width="1" />
+      <line id="NeighborSubstation_STAVANGER_3" x1="1984" y1="1836" x2="1984" y2="1857" stroke="#380054" fill="none" stroke-width="1" />
+    </g>
+  </a>
+  <g id="Load_KRISTIA 300 L1" rdf:ID="_f176975e-9aeb-11e5-91da-b8763fd99c5f">
+    <polygon id="Load_KRISTIA 300 L1_1" points="241.5,755 251.5,755 246.5,765" stroke="#380054" fill="#380054" stroke-width="1" />
+    <line id="Load_KRISTIA 300 L1_2" x1="246.5" y1="740" x2="246.5" y2="755" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+  <a id="xlink_NeighborSubstation_SYLLING" xlink:href="SYLLING.svg">
+    <g id="NeighborSubstation_SYLLING" rdf:ID="_f1769642-9aeb-11e5-91da-b8763fd99c5f" transform="rotate(180, 1126, 207.470703125)">
+      <polyline id="NeighborSubstation_SYLLING_1" points="1120.5,212.9707 1126,222.9707 1131.5,212.9707" stroke="#622423" fill="none" stroke-width="1" />
+      <line id="NeighborSubstation_SYLLING_2" x1="1126" y1="212.9707" x2="1126" y2="222.4707" stroke="#622423" fill="none" stroke-width="1" />
+      <line id="NeighborSubstation_SYLLING_3" x1="1126" y1="191.9707" x2="1126" y2="212.9707" stroke="#622423" fill="none" stroke-width="1" />
+    </g>
+  </a>
+  <line id="Bus_ARENDAL CN 002" x1="865" y1="1051.5" x2="1485" y2="1051.5" rdf:ID="_f176966f-9aeb-11e5-91da-b8763fd99c5f" stroke="#380054" fill="none" stroke-width="5" />
+  <line id="Bus_ARENDAL CN 004" x1="1041.5" y1="1252.5" x2="1051.5" y2="1252.5" rdf:ID="_b92e4ea4-edf8-ba43-987b-e5bfdf722f76" stroke="#380054" fill="none" stroke-width="5" />
+  <line id="Bus_ARENDAL CN 006" x1="1031.5" y1="1453.5" x2="1451.5" y2="1453.5" rdf:ID="_6d29661c-f61d-2d41-bf87-4f8956ddd2a4" stroke="#380054" fill="none" stroke-width="5" />
+  <line id="Bus_ARENDAL CN 010" x1="1236.5" y1="1252.5" x2="1246.5" y2="1252.5" rdf:ID="_4fdd3c67-0b4a-5145-b123-8404da4b4c37" stroke="#380054" fill="none" stroke-width="5" />
+  <line id="Bus_ARENDAL CN 011" x1="1431.5" y1="1252.5" x2="1441.5" y2="1252.5" rdf:ID="_634c0b31-4fe8-2545-b189-6afde342600e" stroke="#380054" fill="none" stroke-width="5" />
+  <line id="Bus_ARENDAL CN 001" x1="1165" y1="849" x2="1185" y2="849" rdf:ID="_eb3421d2-80ad-7747-b602-3be10cb30599" stroke="#622423" fill="none" stroke-width="5" />
+  <line id="Bus_ARENDAL CN 014" x1="1165" y1="974.5" x2="1185" y2="974.5" rdf:ID="_c40dd7e6-4d04-c749-b05a-7d733ba2661c" stroke="#380054" fill="none" stroke-width="5" />
+  <line id="Bus_ARENDAL CN 015" x1="1165" y1="725" x2="1185" y2="725" rdf:ID="_cb837454-5c66-d341-be63-d0c044e5fd3c" stroke="#622423" fill="none" stroke-width="5" />
+  <line id="Bus_ARENDAL CN 005" x1="872.5" y1="1186.5" x2="892.5" y2="1186.5" rdf:ID="_8684ec86-2477-414d-9cab-63a5f35822b4" stroke="#380054" fill="none" stroke-width="5" />
+  <line id="Bus_ARENDAL CN 003" x1="1036.5" y1="1166.5" x2="1056.5" y2="1166.5" rdf:ID="_c270f00c-d35c-384d-82bf-ff0883b1eb41" stroke="#380054" fill="none" stroke-width="5" />
+  <line id="Bus_ARENDAL CN 008" x1="1231.5" y1="1166.5" x2="1251.5" y2="1166.5" rdf:ID="_20c2eb92-4ef1-204b-9054-c1baaba29845" stroke="#380054" fill="none" stroke-width="5" />
+  <line id="Bus_ARENDAL CN 009" x1="1426.5" y1="1166.5" x2="1446.5" y2="1166.5" rdf:ID="_2751922a-47e7-714b-a611-b90281f72c7e" stroke="#380054" fill="none" stroke-width="5" />
+  <line id="Bus_ARENDAL CN 007" x1="1036.5" y1="1376.5" x2="1056.5" y2="1376.5" rdf:ID="_6b8e0ffe-1129-e541-9ba1-65e69ebff7a4" stroke="#380054" fill="none" stroke-width="5" />
+  <line id="Bus_ARENDAL CN 012" x1="1231.5" y1="1376.5" x2="1251.5" y2="1376.5" rdf:ID="_b20d8f4b-ad02-ff4e-bd3f-f34a841f2432" stroke="#380054" fill="none" stroke-width="5" />
+  <line id="Bus_ARENDAL CN 013" x1="1426.5" y1="1376.5" x2="1446.5" y2="1376.5" rdf:ID="_b51adb17-75b9-2245-9021-ef54fa7870b7" stroke="#380054" fill="none" stroke-width="5" />
+  <line id="Bus_OSLO2       " x1="1793" y1="743.9707" x2="2413" y2="743.9707" rdf:ID="_f176964d-9aeb-11e5-91da-b8763fd99c5f" stroke="#380054" fill="none" stroke-width="5" />
+  <line id="Bus_KRISTIAN CN 001" x1="282.5" y1="1706" x2="2102.5" y2="1706" rdf:ID="_f1769659-9aeb-11e5-91da-b8763fd99c5f" stroke="#380054" fill="none" stroke-width="5" />
+  <line id="Bus_KRISTIAN CN 003" x1="672.7778" y1="1907" x2="682.7778" y2="1907" rdf:ID="_d5ea472c-af76-584c-8a65-a5b8317877f0" stroke="#380054" fill="none" stroke-width="5" />
+  <line id="Bus_KRISTIAN CN 005" x1="267" y1="2108" x2="2087" y2="2108" rdf:ID="_28061cca-1604-214c-8c06-2fead2059ba8" stroke="#380054" fill="none" stroke-width="5" />
+  <line id="Bus_KRISTIAN CN 010" x1="1673.222" y1="1907" x2="1683.222" y2="1907" rdf:ID="_3c9ed587-6983-374e-a74d-83d4f7d7f649" stroke="#380054" fill="none" stroke-width="5" />
+  <line id="Bus_KRISTIAN CN 012" x1="875.6667" y1="1907" x2="885.6667" y2="1907" rdf:ID="_3e1fe653-f8a5-8e40-ad9c-d9be4a58aae7" stroke="#380054" fill="none" stroke-width="5" />
+  <line id="Bus_KRISTIAN CN 013" x1="1281.444" y1="1907" x2="1291.444" y2="1907" rdf:ID="_56c7aad0-b73d-714f-8904-cb156a912127" stroke="#380054" fill="none" stroke-width="5" />
+  <line id="Bus_KRISTIAN CN 020" x1="483.8889" y1="1907" x2="493.8889" y2="1907" rdf:ID="_8f2b8925-21b0-d14c-8ced-d67d3fcea0b7" stroke="#380054" fill="none" stroke-width="5" />
+  <line id="Bus_KRISTIAN CN 021" x1="1484.333" y1="1907" x2="1494.333" y2="1907" rdf:ID="_94a69cff-f81f-6541-b6e4-bdb979e1f6f5" stroke="#380054" fill="none" stroke-width="5" />
+  <line id="Bus_KRISTIAN CN 022" x1="1861.111" y1="1907" x2="1871.111" y2="1907" rdf:ID="_9d774e04-5169-7943-bcdf-cf4f73601dec" stroke="#380054" fill="none" stroke-width="5" />
+  <line id="Bus_KRISTIAN CN 024" x1="295" y1="1907" x2="305" y2="1907" rdf:ID="_a311e1be-3bd0-0643-9298-94b985de0e9e" stroke="#380054" fill="none" stroke-width="5" />
+  <line id="Bus_KRISTIAN CN 025" x1="1078.556" y1="1907" x2="1088.556" y2="1907" rdf:ID="_ab565f24-4ed2-f349-b00c-8727645d1793" stroke="#380054" fill="none" stroke-width="5" />
+  <line id="Bus_KRISTIAN CN 028" x1="2049" y1="1907" x2="2059" y2="1907" rdf:ID="_b791db49-1c0b-3d48-a46e-c5509c1e49db" stroke="#380054" fill="none" stroke-width="5" />
+  <line id="Bus_KRISTIAN CN 006" x1="290" y1="1821" x2="310" y2="1821" rdf:ID="_0954de0b-536f-7b45-b83a-f3ebaf34db13" stroke="#380054" fill="none" stroke-width="5" />
+  <line id="Bus_KRISTIAN CN 027" x1="478.8889" y1="1821" x2="498.8889" y2="1821" rdf:ID="_b7754308-afb1-1c4d-9b56-466440d43cba" stroke="#380054" fill="none" stroke-width="5" />
+  <line id="Bus_KRISTIAN CN 002" x1="667.7778" y1="1821" x2="687.7778" y2="1821" rdf:ID="_8d66545e-0da2-bd46-92ae-d3b2730aec73" stroke="#380054" fill="none" stroke-width="5" />
+  <line id="Bus_KRISTIAN CN 009" x1="870.6667" y1="1821" x2="890.6667" y2="1821" rdf:ID="_3b3cf49f-d92c-0d4f-86c9-062292ba9dcb" stroke="#380054" fill="none" stroke-width="5" />
+  <line id="Bus_KRISTIAN CN 015" x1="1073.556" y1="1821" x2="1093.556" y2="1821" rdf:ID="_66aaabfc-e5e4-dc4a-b10a-efa25c201563" stroke="#380054" fill="none" stroke-width="5" />
+  <line id="Bus_KRISTIAN CN 011" x1="1276.444" y1="1821" x2="1296.444" y2="1821" rdf:ID="_3d152ee3-5a28-1040-b170-5f83682c0d5c" stroke="#380054" fill="none" stroke-width="5" />
+  <line id="Bus_KRISTIAN CN 014" x1="1479.333" y1="1821" x2="1499.333" y2="1821" rdf:ID="_632d75e3-fe75-d449-a589-afb7493c954b" stroke="#380054" fill="none" stroke-width="5" />
+  <line id="Bus_KRISTIAN CN 029" x1="1668.222" y1="1821" x2="1688.222" y2="1821" rdf:ID="_cd874389-3b02-3e4a-895b-d40c055de5f4" stroke="#380054" fill="none" stroke-width="5" />
+  <line id="Bus_KRISTIAN CN 017" x1="1856.111" y1="1821" x2="1876.111" y2="1821" rdf:ID="_700cf98b-e125-8046-a921-7ce9a9ace386" stroke="#380054" fill="none" stroke-width="5" />
+  <line id="Bus_KRISTIAN CN 018" x1="2044" y1="1821" x2="2064" y2="1821" rdf:ID="_76fd57e8-ef10-364c-aa31-f5ee56bff4d8" stroke="#380054" fill="none" stroke-width="5" />
+  <line id="Bus_KRISTIAN CN 004" x1="667.7778" y1="2031" x2="687.7778" y2="2031" rdf:ID="_60d2f810-3070-7c42-845e-563b79e3d17f" stroke="#380054" fill="none" stroke-width="5" />
+  <line id="Bus_KRISTIAN CN 032" x1="290" y1="2031" x2="310" y2="2031" rdf:ID="_fcd6113f-f4b8-b54d-bcb2-57c43f16355f" stroke="#380054" fill="none" stroke-width="5" />
+  <line id="Bus_KRISTIAN CN 019" x1="478.8889" y1="2031" x2="498.8889" y2="2031" rdf:ID="_802abb47-d6be-d248-99a0-748dc8fa6c91" stroke="#380054" fill="none" stroke-width="5" />
+  <line id="Bus_KRISTIAN CN 031" x1="870.6667" y1="2031" x2="890.6667" y2="2031" rdf:ID="_f1272314-6398-e84f-af14-5aecb8549a76" stroke="#380054" fill="none" stroke-width="5" />
+  <line id="Bus_KRISTIAN CN 026" x1="1073.556" y1="2031" x2="1093.556" y2="2031" rdf:ID="_acb47937-7b0b-5b48-aa5c-1bfea476304c" stroke="#380054" fill="none" stroke-width="5" />
+  <line id="Bus_KRISTIAN CN 008" x1="1276.444" y1="2031" x2="1296.444" y2="2031" rdf:ID="_3a1fe27a-73b2-fb4c-9f35-ad8c47190cc3" stroke="#380054" fill="none" stroke-width="5" />
+  <line id="Bus_KRISTIAN CN 030" x1="1479.333" y1="2031" x2="1499.333" y2="2031" rdf:ID="_ef9cf8bb-dbde-5046-9f4e-269f415dd919" stroke="#380054" fill="none" stroke-width="5" />
+  <line id="Bus_KRISTIAN CN 016" x1="2044" y1="2031" x2="2064" y2="2031" rdf:ID="_70075010-ec3b-4f48-aa6f-a8b0b0a68c8c" stroke="#380054" fill="none" stroke-width="5" />
+  <line id="Bus_KRISTIAN CN 007" x1="1668.222" y1="2031" x2="1688.222" y2="2031" rdf:ID="_24f03172-f76d-0b4c-bb16-7ee1a4902d9b" stroke="#380054" fill="none" stroke-width="5" />
+  <line id="Bus_KRISTIAN CN 023" x1="1856.111" y1="2031" x2="1876.111" y2="2031" rdf:ID="_a119b074-2851-3341-870b-81bce2a20960" stroke="#380054" fill="none" stroke-width="5" />
+  <line id="Bus_KRISTIA_HVDC" x1="231" y1="700" x2="262" y2="700" rdf:ID="_f1769675-9aeb-11e5-91da-b8763fd99c5f" stroke="#380054" fill="none" stroke-width="5" />
+  <line id="Bus_SANDEFJORD  " x1="1016" y1="262.9707" x2="1336" y2="262.9707" rdf:ID="_f1769669-9aeb-11e5-91da-b8763fd99c5f" stroke="#622423" fill="none" stroke-width="5" />
+  <polygon id="MultiStations_732" points="1171.5,844.2861 1178.5,844.2861 1175,854.2861" fill="#FF0000" stroke-width="1" transform="rotate(0, 1175, 849.2861328125)" />
+  <polygon id="MultiStations_733" points="879,1182.214 886,1182.214 882.5,1192.214" fill="#FF0000" stroke-width="1" transform="rotate(180, 882.5, 1187.2138671875)" />
+  <polygon id="MultiStations_734" points="2039.5,722.6103 2046.5,722.6103 2043,732.6103" fill="#FF0000" stroke-width="1" transform="rotate(0, 2043, 727.610290527344)" />
+  <polygon id="MultiStations_735" points="2159.5,722.6103 2166.5,722.6103 2163,732.6103" fill="#FF0000" stroke-width="1" transform="rotate(0, 2163, 727.610290527344)" />
+  <polygon id="MultiStations_736" points="2279.5,722.6103 2286.5,722.6103 2283,732.6103" fill="#FF0000" stroke-width="1" transform="rotate(0, 2283, 727.610290527344)" />
+  <polygon id="MultiStations_737" points="2258.25,762.6103 2265.25,762.6103 2261.75,772.6103" fill="#FF0000" stroke-width="1" transform="rotate(0, 2261.75, 767.610290527344)" />
+  <polygon id="MultiStations_738" points="2394.5,762.6103 2401.5,762.6103 2398,772.6103" fill="#FF0000" stroke-width="1" transform="rotate(0, 2398, 767.610290527344)" />
+  <polygon id="MultiStations_739" points="1812,755.3311 1819,755.3311 1815.5,765.3311" fill="#FF0000" stroke-width="1" transform="rotate(180, 1815.5, 760.331115722656)" />
+  <polygon id="MultiStations_740" points="1963.25,755.3311 1970.25,755.3311 1966.75,765.3311" fill="#FF0000" stroke-width="1" transform="rotate(180, 1966.75, 760.331115722656)" />
+  <polygon id="MultiStations_741" points="2114.5,762.6103 2121.5,762.6103 2118,772.6103" fill="#FF0000" stroke-width="1" transform="rotate(0, 2118, 767.610290527344)" />
+  <polygon id="MultiStations_743" points="426.6072,1902 433.6072,1902 430.1072,1912" fill="#FF0000" stroke-width="1" transform="rotate(90, 430.107177734375, 1907)" />
+  <polygon id="MultiStations_745" points="1429.607,1902 1436.607,1902 1433.107,1912" fill="#FF0000" stroke-width="1" transform="rotate(-90, 1433.10693359375, 1907)" />
+  <polygon id="MultiStations_747" points="1994.274,1902 2001.274,1902 1997.774,1912" fill="#FF0000" stroke-width="1" transform="rotate(-90, 1997.77368164063, 1907)" />
+  <polygon id="MultiStations_750" points="648.0523,1902 655.0523,1902 651.5523,1912" fill="#FF0000" stroke-width="1" transform="rotate(-90, 651.552307128906, 1907)" />
+  <polygon id="MultiStations_753" points="1645.94,1902 1652.94,1902 1649.44,1912" fill="#FF0000" stroke-width="1" transform="rotate(90, 1649.44030761719, 1907)" />
+  <polygon id="MultiStations_756" points="850.9412,1902 857.9412,1902 854.4412,1912" fill="#FF0000" stroke-width="1" transform="rotate(-90, 854.441223144531, 1907)" />
+  <polygon id="MultiStations_759" points="1256.719,1902 1263.719,1902 1260.219,1912" fill="#FF0000" stroke-width="1" transform="rotate(-90, 1260.21899414063, 1907)" />
+  <polygon id="MultiStations_762" points="1833.829,1902 1840.829,1902 1837.329,1912" fill="#FF0000" stroke-width="1" transform="rotate(90, 1837.32922363281, 1907)" />
+  <polygon id="MultiStations_765" points="1053.83,1902 1060.83,1902 1057.33,1912" fill="#FF0000" stroke-width="1" transform="rotate(-90, 1057.330078125, 1907)" />
+  <polygon id="MultiStations_766" points="243,718.6396 250,718.6396 246.5,728.6396" fill="#FF0000" stroke-width="1" transform="rotate(0, 246.5, 723.639587402344)" />
+  <polygon id="MultiStations_767" points="1122.5,241.6103 1129.5,241.6103 1126,251.6103" fill="#FF0000" stroke-width="1" transform="rotate(0, 1126, 246.610321044922)" />
+  <polygon id="MultiStations_770" points="1038,921.2499 1045,921.2499 1041.5,931.2499" fill="#FF0000" stroke-width="1" transform="rotate(0, 1041.5, 926.249938964844)" />
+  <polygon id="MultiStations_773" points="700.7754,1207.5 707.7754,1207.5 704.2754,1217.5" fill="#FF0000" stroke-width="1" transform="rotate(-90, 704.275390625, 1212.5)" />
+  <polygon id="MultiStations_776" points="936.7174,635 943.7174,635 940.2174,645" fill="#FF0000" stroke-width="1" transform="rotate(90, 940.217407226563, 640)" />
+  <polygon id="MultiStations_779" points="1171.5,477.7123 1178.5,477.7123 1175,487.7123" fill="#FF0000" stroke-width="1" transform="rotate(0, 1175, 482.712341308594)" />
+  <g id="MultiStations_780" transform="rotate(90, 2043, 723.970703125)">
+    <ellipse id="MultiStations_780_1" cx="2040.5" cy="723.9707" rx="5" ry="5" stroke="#380054" fill="#DCF5FF" stroke-width="1" />
+    <ellipse id="MultiStations_780_2" cx="2045.5" cy="723.9707" rx="5" ry="5" stroke="#380054" fill="#DCF5FF" stroke-width="1" />
+    <ellipse id="MultiStations_780_3" cx="2040.5" cy="723.9707" rx="5" ry="5" stroke="#380054" fill="none" stroke-width="1" />
+  </g>
+</svg>
