@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cimspy="https://powerinfo.us/CIMSpy" id="ARENDAL" width="698.9731" height="536.8327" viewBox="0 0 698.9731 536.8327" cimspy:name="ARENDAL" rdf:ID="_f1769670-9aeb-11e5-91da-b8763fd99c5f" cimspy:diagramType="4" style="background-color: #DCF5FF" fill="#DCF5FF" xmlns="http://www.w3.org/2000/svg">
+  <a id="xlink_FreeText_ARENDAL" xlink:href="ARENDAL.svg">
+    <text id="FreeText_ARENDAL" x="425.7721" y="321.8427" rdf:ID="_f1769670-9aeb-11e5-91da-b8763fd99c5f" fill="#FF0000" font-family="Segoe UI" font-size="9" font-weight="normal">ARENDAL</text>
+  </a>
+  <a id="xlink_FreeText_ASKER" xlink:href="ASKER.svg">
+    <text id="FreeText_ASKER" x="593.23" y="327.9234" rdf:ID="_f176964e-9aeb-11e5-91da-b8763fd99c5f" fill="#622423" font-family="Segoe UI" font-size="9" font-weight="normal">ASKER</text>
+  </a>
+  <a id="xlink_FreeText_KRISTIANSAND" xlink:href="KRISTIANSAND.svg">
+    <text id="FreeText_KRISTIANSAND" x="425.5678" y="497.8174" rdf:ID="_f176965a-9aeb-11e5-91da-b8763fd99c5f" fill="#622423" font-family="Segoe UI" font-size="9" font-weight="normal">KRISTIANSAND</text>
+  </a>
+  <a id="xlink_FreeText_KRISTIA_HVDC" xlink:href="KRISTIA_HVDC.svg">
+    <text id="FreeText_KRISTIA_HVDC" x="181.0268" y="327.5424" rdf:ID="_f1769676-9aeb-11e5-91da-b8763fd99c5f" fill="#622423" font-family="Segoe UI" font-size="9" font-weight="normal">KRISTIA_HVDC</text>
+  </a>
+  <a id="xlink_FreeText_SANDEFJORD" xlink:href="SANDEFJORD.svg">
+    <text id="FreeText_SANDEFJORD" x="425.9808" y="149.1519" rdf:ID="_f176966a-9aeb-11e5-91da-b8763fd99c5f" fill="#622423" font-family="Segoe UI" font-size="9" font-weight="normal">SANDEFJORD</text>
+  </a>
+  <a id="xlink_ACLineSegment_420ARENDAL-SANDEFJORD" xlink:href="420ARENDAL-SANDEFJORD.svg">
+    <polyline id="ACLineSegment_420ARENDAL-SANDEFJORD" points="416.2721,323.858 416.4808,143.1673" rdf:ID="_4d89c650-5698-2e43-849b-ff65a7251f9c" stroke="#622423" fill="none" stroke-width="3" />
+  </a>
+  <a id="xlink_ACLineSegment_300ASKER-ARENDAL" xlink:href="300ASKER-ARENDAL.svg">
+    <polyline id="ACLineSegment_300ASKER-ARENDAL" points="416.2721,323.858 583.73,321.9388" rdf:ID="_f1769cb6-9aeb-11e5-91da-b8763fd99c5f" stroke="#380054" fill="none" stroke-width="2" />
+  </a>
+  <a id="xlink_ACLineSegment_300KRISTIAN-ARENDAL" xlink:href="300KRISTIAN-ARENDAL.svg">
+    <polyline id="ACLineSegment_300KRISTIAN-ARENDAL" points="416.2721,323.858 416.0678,491.8327" rdf:ID="_f1769cd4-9aeb-11e5-91da-b8763fd99c5f" stroke="#380054" fill="none" stroke-width="2" />
+  </a>
+  <a id="xlink_ACLineSegment_300ARENDAL-KRISTA_HVDC" xlink:href="300ARENDAL-KRISTA_HVDC.svg">
+    <polyline id="ACLineSegment_300ARENDAL-KRISTA_HVDC" points="416.2721,323.858 248.8203,321.5577" rdf:ID="_f1769cf8-9aeb-11e5-91da-b8763fd99c5f" stroke="#380054" fill="none" stroke-width="2" />
+  </a>
+  <polygon id="ARENDAL_22" points="412.6415,140.9646 420.3069,140.9646 416.4742,156.9151" fill="#FF0000" stroke-width="1" transform="rotate(0.0661980889538818, 416.474182128906, 148.939865112305)" />
+  <polygon id="ARENDAL_23" points="441.8195,317.0082 447.454,317.0082 444.6367,330.0576" fill="#FF0000" stroke-width="1" transform="rotate(89.343367805964, 444.63671875, 323.532897949219)" />
+  <polygon id="ARENDAL_24" points="413.8276,421.8721 418.464,421.8721 416.1458,433.4955" fill="#FF0000" stroke-width="1" transform="rotate(180.0696779477, 416.145812988281, 427.683776855469)" />
+  <polygon id="ARENDAL_25" points="274.9423,311.9887 285.4423,311.9887 280.1923,331.9887" fill="#FF0000" stroke-width="1" transform="rotate(90.7870238672385, 280.192321777344, 321.988677978516)" />
+  <a id="xlink_Substation_ARENDAL" xlink:href="ARENDAL.svg">
+    <g id="Substation_ARENDAL" rdf:ID="_f1769670-9aeb-11e5-91da-b8763fd99c5f">
+      <ellipse id="Substation_ARENDAL_1" cx="416.2721" cy="323.858" rx="7.5" ry="7.5" stroke="#FF0000" fill="#DCF5FF" stroke-width="2" />
+    </g>
+  </a>
+  <a id="xlink_Substation_ASKER" xlink:href="ASKER.svg">
+    <g id="Substation_ASKER" rdf:ID="_f176964e-9aeb-11e5-91da-b8763fd99c5f">
+      <ellipse id="Substation_ASKER_1" cx="583.73" cy="321.9388" rx="7.5" ry="7.5" stroke="#622423" fill="#DCF5FF" stroke-width="2" />
+      <line id="Substation_ASKER_2" x1="583.73" y1="318.4388" x2="583.73" y2="325.4388" stroke="#622423" fill="none" stroke-width="2" />
+      <line id="Substation_ASKER_3" x1="580.23" y1="321.9388" x2="587.23" y2="321.9388" stroke="#622423" fill="none" stroke-width="2" />
+    </g>
+  </a>
+  <a id="xlink_Substation_KRISTIANSAND" xlink:href="KRISTIANSAND.svg">
+    <g id="Substation_KRISTIANSAND" rdf:ID="_f176965a-9aeb-11e5-91da-b8763fd99c5f">
+      <ellipse id="Substation_KRISTIANSAND_1" cx="416.0678" cy="491.8327" rx="7.5" ry="7.5" stroke="#622423" fill="#DCF5FF" stroke-width="2" />
+      <line id="Substation_KRISTIANSAND_2" x1="416.0678" y1="488.3327" x2="416.0678" y2="495.3327" stroke="#622423" fill="none" stroke-width="2" />
+      <line id="Substation_KRISTIANSAND_3" x1="412.5678" y1="491.8327" x2="419.5678" y2="491.8327" stroke="#622423" fill="none" stroke-width="2" />
+    </g>
+  </a>
+  <a id="xlink_Substation_KRISTIA_HVDC" xlink:href="KRISTIA_HVDC.svg">
+    <g id="Substation_KRISTIA_HVDC" rdf:ID="_f1769676-9aeb-11e5-91da-b8763fd99c5f">
+      <ellipse id="Substation_KRISTIA_HVDC_1" cx="248.8203" cy="321.5577" rx="7.5" ry="7.5" stroke="#622423" fill="#DCF5FF" stroke-width="2" />
+    </g>
+  </a>
+  <a id="xlink_Substation_SANDEFJORD" xlink:href="SANDEFJORD.svg">
+    <g id="Substation_SANDEFJORD" rdf:ID="_f176966a-9aeb-11e5-91da-b8763fd99c5f">
+      <ellipse id="Substation_SANDEFJORD_1" cx="416.4808" cy="143.1673" rx="7.5" ry="7.5" stroke="#622423" fill="#DCF5FF" stroke-width="2" />
+      <line id="Substation_SANDEFJORD_2" x1="416.4808" y1="139.6673" x2="416.4808" y2="146.6673" stroke="#622423" fill="none" stroke-width="2" />
+      <line id="Substation_SANDEFJORD_3" x1="412.9808" y1="143.1673" x2="419.9808" y2="143.1673" stroke="#622423" fill="none" stroke-width="2" />
+    </g>
+  </a>
+</svg>
