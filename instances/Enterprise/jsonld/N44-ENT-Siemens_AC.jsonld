@@ -1,0 +1,105 @@
+{
+  "@context": "https://raw.githack.com/Sveino/Inst4CIM-KG/develop/rdf-improved/cim-context-new.jsonld",
+  "@graph": [
+    {
+      "@id": "urn:uuid:bec74e51-00a7-471c-8573-a66812a7bd6d",
+      "@type": "cim:ProductAssetModel",
+      "cim:IdentifiedObject.name": "PSM B Cable",
+      "cim:ProductAssetModel.AssetInfo": "urn:uuid:971ee291-79f2-43b2-a4ed-a45f39572079",
+      "cim:ProductAssetModel.Manufacturer": "urn:uuid:ba8b5d24-9649-408d-8afe-452a987fbbc3",
+      "cim:ProductAssetModel.catalogueNumber": "006",
+      "cim:ProductAssetModel.modelNumber": "B CA001",
+      "cim:ProductAssetModel.usageKind": "cim:AssetModelUsageKind.transmission"
+    },
+    {
+      "@id": "urn:uuid:ba8b5d24-9649-408d-8afe-452a987fbbc3",
+      "@type": "cim:Manufacturer",
+      "cim:IdentifiedObject.name": "Siemens Energy Manufacture",
+      "cim:OrganisationRole.Organisation": "urn:uuid:27613d44-28e2-4aeb-a96b-f4a49591d629"
+    },
+    {
+      "@id": "urn:uuid:971ee291-79f2-43b2-a4ed-a45f39572079",
+      "@type": "cim:CableInfo",
+      "cim:CableInfo.shieldMaterial": {
+        "@id": "cim:CableShieldMaterialKind.cooper"
+      },
+      "cim:IdentifiedObject.name": "CI Cable",
+      "cim:WireInfo.gmr": {
+        "@type": "xsd:float",
+        "@value": "1000"
+      },
+      "cim:WireInfo.insulated": {
+        "@type": "xsd:boolean",
+        "@value": "true"
+      },
+      "cim:WireInfo.insulationMaterial": {
+        "@id": "cim:WireInsulationKind.treeRetardantCrosslinkedPolyethylene"
+      },
+      "cim:WireInfo.material": {
+        "@id": "cim:WireMaterialKind.aluminum"
+      },
+      "cim:WireInfo.nominalTemperature": {
+        "@type": "xsd:float",
+        "@value": "20"
+      }
+    },
+    {
+      "@id": "urn:uuid:b9029228-6016-4f86-ac21-6c54657ee9c6",
+      "@type": "cim:ProductAssetModel",
+      "cim:IdentifiedObject.name": "PSM B Disconnecter",
+      "cim:ProductAssetModel.AssetInfo": "urn:uuid:cb50c3ea-5598-46dd-97c7-ce0b824c498b",
+      "cim:ProductAssetModel.Manufacturer": "urn:uuid:ba8b5d24-9649-408d-8afe-452a987fbbc3",
+      "cim:ProductAssetModel.catalogueNumber": "004",
+      "cim:ProductAssetModel.modelNumber": "B D001"
+    },
+    {
+      "@id": "urn:uuid:27613d44-28e2-4aeb-a96b-f4a49591d629",
+      "@type": "cim:Organisation",
+      "cim:IdentifiedObject.name": "Siemens Energy",
+      "cim:Organisation.city": "Erlangen",
+      "cim:Organisation.country": "Germany",
+      "cim:Organisation.eMail": "info@siemens-energy.com",
+      "cim:Organisation.phone": "+49 911 6505 0",
+      "cim:Organisation.postalCode": "91058",
+      "cim:Organisation.streetAddress": "Freyeslebenstr. 1"
+    },
+    {
+      "@id": "urn:uuid:f9d75cad-02c4-4c24-9f68-2be249a5bd68",
+      "@type": "cim:ProductAssetModel",
+      "cim:IdentifiedObject.name": "PSM B Single-Phase Breaker",
+      "cim:ProductAssetModel.AssetInfo": "urn:uuid:6e2752f2-d4f3-11e7-9296-cec278b6b50a",
+      "cim:ProductAssetModel.Manufacturer": "urn:uuid:ba8b5d24-9649-408d-8afe-452a987fbbc3",
+      "cim:ProductAssetModel.catalogueNumber": "002",
+      "cim:ProductAssetModel.modelNumber": "B SPB001"
+    },
+    {
+      "@id": "urn:uuid:75f351c7-75a6-4c25-8f1c-985aa59e90ad",
+      "@type": "dcat:Dataset",
+      "dct:accessRights": "https://energy.referencedata.eu/Confidentiality/Public",
+      "dct:conformsTo": "http://iec.ch/TC57/CIM/AssetCatalogue/2/0",
+      "dct:description": {
+        "@language": "en",
+        "@value": "Asset Catalogue (AC) from Siemens Energy included in the enterprise part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region."
+      },
+      "dct:identifier": "d869a44b5-7ab5-4bcf-9d58-1c9e750a6f20",
+      "dct:issued": "2025-02-14T12:00:00Z",
+      "dct:publisher": "https://www.statnett.no/en/about-statnett/contact-us/",
+      "dct:rights": "Copyright",
+      "dct:rightsHolder": "Statnett SF",
+      "dct:title": "20160101_N44-ENT-Siemens_AC_v3-0-0-beta-1",
+      "dct:type": "https://energy.referencedata.eu/type/CIM-EnterpriseModel",
+      "adms:versionNotes": {
+        "@language": "en",
+        "@value": "Initial version"
+      },
+      "dcat:isVersionOf": "https://energy.referencedata.eu/Test/Enterprise/N44-ENT-Siemens_AC",
+      "dcat:keyword": [
+        "AC",
+        "AssetCatalogue"
+      ],
+      "dcat:startDate": "2014-12-31T23:00:00Z",
+      "dcat:version": "3.0.0-beta-1"
+    }
+  ],
+  "@id": "urn:uuid:75f351c7-75a6-4c25-8f1c-985aa59e90ad"
+}

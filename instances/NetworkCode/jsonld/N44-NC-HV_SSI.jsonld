@@ -1,0 +1,170 @@
+{
+  "@context": "https://raw.githack.com/Sveino/Inst4CIM-KG/develop/rdf-improved/cim-context-new.jsonld",
+  "@graph": [
+    {
+      "@id": "urn:uuid:553776dc-295d-aa4b-a36e-f563acc71bb7",
+      "@type": "nc:SchedulingArea",
+      "nc:SchedulingArea.participationFactor": "0.4"
+    },
+    {
+      "@id": "urn:uuid:69ed3bd9-c374-49ef-b186-d49d869940bb",
+      "@type": "nc:StageTrigger",
+      "nc:StageTrigger.armed": "true",
+      "nc:StageTrigger.inService": "true"
+    },
+    {
+      "@id": "urn:uuid:19454eeb-cf3c-4b22-91c8-42c94a48e04e",
+      "@type": "nc:SchedulingArea",
+      "nc:SchedulingArea.participationFactor": "0.6"
+    },
+    {
+      "@id": "urn:uuid:1dcb03a1-9ab8-458c-a9c4-0d5e5824645b",
+      "@type": "nc:TopologyAction",
+      "nc:GridStateAlteration.enabled": "true"
+    },
+    {
+      "@id": "urn:uuid:7d4a1418-e789-45b3-97a5-456b14ffde2b",
+      "@type": "nc:InServiceAction",
+      "nc:GridStateAlteration.enabled": "true"
+    },
+    {
+      "@id": "urn:uuid:bb31f847-7509-4582-9721-6e50b525f55d",
+      "@type": "nc:StageTrigger",
+      "nc:StageTrigger.armed": "true",
+      "nc:StageTrigger.inService": "true"
+    },
+    {
+      "@id": "urn:uuid:050cd458-b999-4c8d-ad24-93c6a3102b53",
+      "@type": "nc:RotatingMachineAction",
+      "nc:GridStateAlteration.enabled": "true"
+    },
+    {
+      "@id": "urn:uuid:ebe06a74-e44c-491f-bbfe-1cabb232828e",
+      "@type": "dcat:Dataset",
+      "dct:accessRights": "https://energy.referencedata.eu/Confidentiality/Public",
+      "dct:conformsTo": "https://ap.cim4.eu/SteadyStateInstruction/2.3",
+      "dct:description": {
+        "@language": "en",
+        "@value": "Steady State Instruction (SSI) included in Network Code part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region."
+      },
+      "dct:identifier": "ebe06a74-e44c-491f-bbfe-1cabb232828e",
+      "dct:issued": "2025-02-14T12:00:00Z",
+      "dct:publisher": "https://www.statnett.no/en/about-statnett/contact-us/",
+      "dct:requires": [
+        {
+          "@id": "urn:uuid:ebef4527-f0bc-4c59-8870-950af8ed9041"
+        },
+        {
+          "@id": "urn:uuid:9e3521e2-9504-4122-8c1e-a4c4411ffd7a"
+        },
+        {
+          "@id": "urn:uuid:84552e03-0040-43d5-aff2-0f77f01668cb"
+        }
+      ],
+      "dct:rights": "Copyright",
+      "dct:rightsHolder": "Statnett SF",
+      "dct:spatial": "https://energy.referencedata.eu/Test/Frame/NORDIC-Power-Transmission-System",
+      "dct:title": "20160101_N44-NC-HV_SSI_v3-0-0-beta-1",
+      "dct:type": "https://energy.referencedata.eu/type/CIM-PowerSystemModel",
+      "adms:versionNotes": {
+        "@language": "en",
+        "@value": "Initial version"
+      },
+      "dcat:isVersionOf": "https://energy.referencedata.eu/Test/Model/N44-NC-HV_SSI",
+      "dcat:keyword": [
+        "SteadyStateInstruction",
+        "SSI"
+      ],
+      "dcat:startDate": "2014-12-31T23:00:00Z",
+      "dcat:version": "3.0.0-beta-1",
+      "prov:generatedAtTime": "2025-02-14T11:00:00Z",
+      "prov:wasGeneratedBy": "https://energy.referencedata.eu/Test/Action/SSI"
+    },
+    {
+      "@id": "urn:uuid:bb6dc968-2ad4-436d-847e-242622ad395b",
+      "@type": "nc:TopologyAction",
+      "nc:GridStateAlteration.enabled": "true"
+    },
+    {
+      "@id": "urn:uuid:417979f7-6af4-460e-8966-c42e671844a3",
+      "@type": "nc:RotatingMachineAction",
+      "nc:GridStateAlteration.enabled": "true"
+    },
+    {
+      "@id": "urn:uuid:9a6018fb-ede3-4517-94e4-b54c583543ad",
+      "@type": "nc:CircuitShare",
+      "nc:CircuitShare.contributionFactor": "90"
+    },
+    {
+      "@id": "urn:uuid:f235a8cc-4321-4c4d-a8ff-84e09a9c95b7",
+      "@type": "nc:TopologyAction",
+      "nc:GridStateAlteration.enabled": "true"
+    },
+    {
+      "@id": "urn:uuid:e6fedcdb-8a62-4559-bd19-227de853c76a",
+      "@type": "nc:CircuitShare",
+      "nc:CircuitShare.contributionFactor": "90"
+    },
+    {
+      "@id": "urn:uuid:e34b8faa-ede0-4000-8c7d-d8df46a37416",
+      "@type": "nc:RemedialActionScheme",
+      "nc:RemedialActionScheme.armed": "true",
+      "nc:RemedialActionScheme.inService": "true"
+    },
+    {
+      "@id": "urn:uuid:ec32d28c-4ea8-4a8b-a3f1-558dd07666e7",
+      "@type": "nc:LoadAction",
+      "nc:GridStateAlteration.enabled": "true"
+    },
+    {
+      "@id": "urn:uuid:723d5e6c-76d1-4f49-b151-a0ad7f46e036",
+      "@type": "nc:StaticPropertyRange",
+      "nc:RangeConstraint.value": "25"
+    },
+    {
+      "@id": "urn:uuid:0c19a9a2-1165-49f9-bc0a-2f6b88deec9f",
+      "@type": "nc:OrdinaryContingency",
+      "cim:Contingency.mustStudy": "true",
+      "nc:Contingency.probability": "100"
+    },
+    {
+      "@id": "urn:uuid:03b7096c-99ad-41ef-b6b4-c169dfecdb28",
+      "@type": "nc:TopologyAction",
+      "nc:GridStateAlteration.enabled": "true"
+    },
+    {
+      "@id": "urn:uuid:8048d34b-3ae2-4699-8e4c-e83e2cdff327",
+      "@type": "nc:StaticPropertyRange",
+      "nc:RangeConstraint.value": "150"
+    },
+    {
+      "@id": "urn:uuid:71c1c2af-f4d4-429a-af03-8c6fd44de393",
+      "@type": "nc:StaticPropertyRange",
+      "nc:RangeConstraint.value": "30"
+    },
+    {
+      "@id": "urn:uuid:e3cfe43a-f522-4164-bb01-f7a3abc5b26d",
+      "@type": "nc:OrdinaryPowerTransferCorridor",
+      "nc:PowerTransferCorridor.enabled": "true"
+    },
+    {
+      "@id": "urn:uuid:dcca331c-3acd-446a-94ec-1c00b427af05",
+      "@type": "nc:StageTrigger",
+      "nc:StageTrigger.armed": "true",
+      "nc:StageTrigger.inService": "true"
+    },
+    {
+      "@id": "urn:uuid:5850bebd-d028-4578-a1c0-e77c718a116f",
+      "@type": "nc:RemedialActionScheme",
+      "nc:RemedialActionScheme.armed": "true",
+      "nc:RemedialActionScheme.inService": "true"
+    },
+    {
+      "@id": "urn:uuid:68d525d7-f393-47c0-aebb-155ef41f79ca",
+      "@type": "nc:RemedialActionScheme",
+      "nc:RemedialActionScheme.armed": "true",
+      "nc:RemedialActionScheme.inService": "true"
+    }
+  ],
+  "@id": "urn:uuid:ebe06a74-e44c-491f-bbfe-1cabb232828e"
+}

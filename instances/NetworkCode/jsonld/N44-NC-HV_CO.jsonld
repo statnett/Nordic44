@@ -1,0 +1,63 @@
+{
+  "@context": "https://raw.githack.com/Sveino/Inst4CIM-KG/develop/rdf-improved/cim-context-new.jsonld",
+  "@graph": [
+    {
+      "@id": "urn:uuid:84552e03-0040-43d5-aff2-0f77f01668cb",
+      "@type": "dcat:Dataset",
+      "dct:accessRights": "https://energy.referencedata.eu/Confidentiality/Public",
+      "dct:conformsTo": "https://ap.cim4.eu/Contingency/2.3",
+      "dct:description": {
+        "@language": "en",
+        "@value": "Contingency (CO) included in Network Code part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region."
+      },
+      "dct:identifier": "84552e03-0040-43d5-aff2-0f77f01668c",
+      "dct:issued": "2025-02-14T12:00:00Z",
+      "dct:publisher": "https://www.statnett.no/en/about-statnett/contact-us/",
+      "dct:requires": [
+        {
+          "@id": "urn:uuid:e710212f-f6b2-8d4c-9dc0-365398d8b59c"
+        },
+        {
+          "@id": "urn:uuid:d9a01a85-0ad8-4958-be03-d89ad78ca497"
+        }
+      ],
+      "dct:rights": "Copyright",
+      "dct:rightsHolder": "Statnett SF",
+      "dct:spatial": "https://energy.referencedata.eu/Test/Frame/NORDIC-Power-Transmission-System",
+      "dct:title": "20160101_N44-NC-HV_CO_v3-0-0-beta-1",
+      "dct:type": "https://energy.referencedata.eu/type/CIM-PowerSystemModel",
+      "adms:versionNotes": {
+        "@language": "en",
+        "@value": "Initial version"
+      },
+      "dcat:isVersionOf": "https://energy.referencedata.eu/Test/Model/N44-NC-HV_CO",
+      "dcat:keyword": [
+        "Contingency",
+        "CO"
+      ],
+      "dcat:startDate": "2014-12-31T23:00:00Z",
+      "dcat:version": "3.0.0-beta-1"
+    },
+    {
+      "@id": "urn:uuid:0c19a9a2-1165-49f9-bc0a-2f6b88deec9f",
+      "@type": "nc:OrdinaryContingency",
+      "cim:IdentifiedObject.description": "Tripping of 300KRISTIAN-ARENDAL",
+      "cim:IdentifiedObject.mRID": "0c19a9a2-1165-49f9-bc0a-2f6b88deec9f",
+      "cim:IdentifiedObject.name": "OC 300KRISTIAN-ARENDAL",
+      "nc:Contingency.EquipmentOperator": "urn:uuid:50f0783d-0543-41c4-972a-9ad8415b52a4",
+      "nc:Contingency.normalMustStudy": "true",
+      "nc:Contingency.normalProbability": "100"
+    },
+    {
+      "@id": "urn:uuid:8ffcf7ab-2c5f-40eb-9e56-6338bdd8c96d",
+      "@type": "cim:ContingencyEquipment",
+      "cim:ContingencyElement.Contingency": "urn:uuid:0c19a9a2-1165-49f9-bc0a-2f6b88deec9f",
+      "cim:ContingencyEquipment.Equipment": "urn:uuid:f1769cd4-9aeb-11e5-91da-b8763fd99c5f",
+      "cim:ContingencyEquipment.contingentStatus": "cim:ContingencyEquipmentStatusKind.outOfService",
+      "cim:IdentifiedObject.description": "Tripping of 300KRISTIAN-ARENDAL",
+      "cim:IdentifiedObject.mRID": "8ffcf7ab-2c5f-40eb-9e56-6338bdd8c96d",
+      "cim:IdentifiedObject.name": "CE 300KRISTIAN-ARENDAL"
+    }
+  ],
+  "@id": "urn:uuid:84552e03-0040-43d5-aff2-0f77f01668cb"
+}

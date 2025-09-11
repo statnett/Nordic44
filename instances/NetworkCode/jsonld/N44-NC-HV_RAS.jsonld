@@ -1,0 +1,40 @@
+{
+  "@context": "https://raw.githack.com/Sveino/Inst4CIM-KG/develop/rdf-improved/cim-context-new.jsonld",
+  "@graph": [
+    {
+      "@id": "urn:uuid:3f3f00a8-b86a-4a3e-ab86-2cd3140fa187",
+      "@type": "dcat:Dataset",
+      "dct:accessRights": "https://energy.referencedata.eu/Confidentiality/Public",
+      "dct:conformsTo": "https://ap.cim4.eu/RemedialActionSchedule/2.3",
+      "dct:description": {
+        "@language": "en",
+        "@value": "Remedial Action Schedule (RAS) included in Network Code part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region."
+      },
+      "dct:identifier": "3f3f00a8-b86a-4a3e-ab86-2cd3140fa187",
+      "dct:issued": "2025-02-14T12:00:00Z",
+      "dct:publisher": "https://www.statnett.no/en/about-statnett/contact-us/",
+      "dct:requires": {
+        "@id": "urn:uuid:9e3521e2-9504-4122-8c1e-a4c4411ffd7a"
+      },
+      "dct:rights": "Copyright",
+      "dct:rightsHolder": "Statnett SF",
+      "dct:spatial": "https://energy.referencedata.eu/Test/Frame/NORDIC-Power-Transmission-System",
+      "dct:title": "20160101_N44-NC-HV_RAS_v3-0-0-beta-1",
+      "dct:type": "https://energy.referencedata.eu/type/CIM-PowerSystemModel",
+      "adms:versionNotes": {
+        "@language": "en",
+        "@value": "Initial version"
+      },
+      "dcat:isVersionOf": "https://energy.referencedata.eu/Test/Model/N44-NC-HV_RAS",
+      "dcat:keyword": [
+        "RAS",
+        "RemedialActionSchedule"
+      ],
+      "dcat:startDate": "2014-12-31T23:00:00Z",
+      "dcat:version": "3.0.0-beta-1",
+      "prov:generatedAtTime": "2025-02-14T11:00:00Z",
+      "prov:wasGeneratedBy": "https://energy.referencedata.eu/Test/Action/RAS"
+    }
+  ],
+  "@id": "urn:uuid:3f3f00a8-b86a-4a3e-ab86-2cd3140fa187"
+}

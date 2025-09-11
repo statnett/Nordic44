@@ -2,6 +2,7 @@ PREFIX adms:     <http://www.w3.org/ns/adms#>
 PREFIX cim:      <https://cim.ucaiug.io/ns#>
 PREFIX dcat:     <http://www.w3.org/ns/dcat#>
 PREFIX dcat-cim: <https://cim4.eu/ns/dcat-cim#>
+PREFIX dcatcim:  <https://cim4.eu/ns/dcatcim#>
 PREFIX dct:      <http://purl.org/dc/terms/>
 PREFIX dcterms:  <http://purl.org/dc/terms/>
 PREFIX dm:       <http://iec.ch/TC57/61970-552/DifferenceModel/1#>
@@ -49,7 +50,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             dct:accessRights   <https://energy.referencedata.eu/Confidentiality/Public>;
             dct:conformsTo     <https://ap.cim4.eu/Contingency/2.3>;
             dct:description    "Contingency (CO) included in Network Code part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region."@en;
-            dct:identifier     "urn:uuid:84552e03-0040-43d5-aff2-0f77f01668c";
+            dct:identifier     "84552e03-0040-43d5-aff2-0f77f01668c";
             dct:issued         "2025-02-14T12:00:00Z"^^xsd:dateTime;
             dct:publisher      <https://www.statnett.no/en/about-statnett/contact-us/>;
             dct:requires       <urn:uuid:e710212f-f6b2-8d4c-9dc0-365398d8b59c> , <urn:uuid:d9a01a85-0ad8-4958-be03-d89ad78ca497>;

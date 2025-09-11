@@ -147,7 +147,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             dct:accessRights   <https://energy.referencedata.eu/Confidentiality/Public>;
             dct:conformsTo     <http://iec.ch/TC57/CIM/Asset/2/0>;
             dct:description    "Asset (AS) records for Statnett as asset owner in the enterprise part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region.Nordic CPMSM Test model Asset."@en;
-            dct:identifier     "urn:uuid:eb4d92e6-d4da-11e7-9296-cec278b6b50a";
+            dct:identifier     "eb4d92e6-d4da-11e7-9296-cec278b6b50a";
             dct:issued         "2025-02-14T12:00:00Z"^^xsd:dateTime;
             dct:publisher      <https://www.statnett.no/en/about-statnett/contact-us/>;
             dct:requires       <urn:uuid:ade44b65-0bfa-41e0-95c5-2ccb345a6fed> , <urn:uuid:75f351c7-75a6-4c25-8f1c-985aa59e90ad> , <urn:uuid:d3158561-2716-4978-9b61-dd7cc47f1f91>;
@@ -157,7 +157,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             dct:type           <https://energy.referencedata.eu/type/CIM-EnterpriseModel>;
             adms:versionNotes  "Initial version"@en;
             dcat:isVersionOf   <https://energy.referencedata.eu/Test/Enterprise/N44-ENT-Statnett_AS>;
-            dcat:keyword       "Asset" , "AS";
+            dcat:keyword       "AS" , "Asset";
             dcat:startDate     "2014-12-31T23:00:00Z"^^xsd:dateTime;
             dcat:version       "3.0.0-beta-1" .
     

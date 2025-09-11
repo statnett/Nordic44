@@ -35,7 +35,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             dct:accessRights   <https://energy.referencedata.eu/Confidentiality/Public>;
             dct:conformsTo     <http://iec.ch/TC57/CIM/AssetCatalogue/2/0>;
             dct:description    "Asset Catalogue (AC) from Siemens Energy included in the enterprise part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region."@en;
-            dct:identifier     "urn:uuid:d869a44b5-7ab5-4bcf-9d58-1c9e750a6f20";
+            dct:identifier     "d869a44b5-7ab5-4bcf-9d58-1c9e750a6f20";
             dct:issued         "2025-02-14T12:00:00Z"^^xsd:dateTime;
             dct:publisher      <https://www.statnett.no/en/about-statnett/contact-us/>;
             dct:rights         "Copyright";
