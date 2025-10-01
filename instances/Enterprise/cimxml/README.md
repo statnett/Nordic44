@@ -10,10 +10,12 @@ WARN  riot :: [line: 2, col: 31] XML Processing instruction - ignored
 ```
 - Fix wrong UUID in 3 files to `ade44b65-0bfa-41e0-95c5-2ccb345a6fed`:
 ```
-INFO  riot :: File: N44-ENT-Schneider_AC.xml
+N44-ENT-Schneider_AC.xml
 ERROR riot :: [line: 9, col: 74] Not a valid UUID string: urn:uuid:d869a44b5-7ab5-4bcf-9d58-1c9e750a6f20
-INFO  riot :: File: N44-ENT-Statnett_AS.xml
+N44-ENT-Statnett_AS.xml
 ERROR riot :: [line: 18, col: 91] Not a valid UUID string: urn:uuid:d869a44b5-7ab5-4bcf-9d58-1c9e750a6f20
+manifest.xml
+ERROR riot :: [line: 15, col: 82] Not a valid UUID string: urn:uuid:d869a44b5-7ab5-4bcf-9d58-1c9e750a6f20
 ```
 - Fix another wrong UUID in two files to `d3158561-2716-4978-9b61-dd7cc47f1f91` (that model reference is BROKEN anyway?)
 ```

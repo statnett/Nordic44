@@ -1,0 +1,360 @@
+{
+  "@context": "https://raw.githack.com/Sveino/Inst4CIM-KG/develop/rdf-improved/cim-context-new.jsonld",
+  "@graph": [
+    {
+      "@id": "urn:uuid:7c8e1c28-eb8d-4453-90d0-e3509ad07b32",
+      "@type": "dcat:Catalog",
+      "dct:description": {
+        "@language": "en",
+        "@value": "Network Code (NC) part of Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region."
+      },
+      "dct:identifier": "7c8e1c28-eb8d-4453-90d0-e3509ad07b32",
+      "http://purl.org/dc/terms/issued": "2025-02-14T12:00:00Z",
+      "dct:license": "https://creativecommons.org/licenses/by/4.0/",
+      "dct:publisher": "https://www.statnett.no/en/about-statnett/contact-us/",
+      "dct:rights": "Copyright",
+      "dct:rightsHolder": "Statnett SF",
+      "dct:title": "Manifest",
+      "adms:versionNotes": {
+        "@language": "en",
+        "@value": "Initial version"
+      },
+      "dcat:dataset": [
+        {
+          "@id": "urn:uuid:d9a01a85-0ad8-4958-be03-d89ad78ca497"
+        },
+        {
+          "@id": "urn:uuid:84552e03-0040-43d5-aff2-0f77f01668cb"
+        },
+        {
+          "@id": "urn:uuid:ebe06a74-e44c-491f-bbfe-1cabb232828e"
+        },
+        {
+          "@id": "urn:uuid:ebef4527-f0bc-4c59-8870-950af8ed9041"
+        },
+        {
+          "@id": "urn:uuid:9e3521e2-9504-4122-8c1e-a4c4411ffd7a"
+        },
+        {
+          "@id": "urn:uuid:3f3f00a8-b86a-4a3e-ab86-2cd3140fa187"
+        }
+      ],
+      "dcat:version": "3.0.0-beta.1"
+    },
+    {
+      "@id": "urn:uuid:d9a01a85-0ad8-4958-be03-d89ad78ca497",
+      "@type": "dcat:Dataset",
+      "dct:accessRights": "https://energy.referencedata.eu/Confidentiality/Public",
+      "dct:conformsTo": "https://ap.cim4.eu/EquipmentReliability/2.3",
+      "dct:description": {
+        "@language": "en",
+        "@value": "Common Data (CD) included in Network Code part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region."
+      },
+      "dct:identifier": "d9a01a85-0ad8-4958-be03-d89ad78ca497",
+      "http://purl.org/dc/terms/issued": "2025-02-14T12:00:00Z",
+      "dct:publisher": "https://www.statnett.no/en/about-statnett/contact-us/",
+      "dct:rights": "Copyright",
+      "dct:rightsHolder": "Statnett SF",
+      "dct:spatial": "https://energy.referencedata.eu/Test/Frame/NORDIC-Power-Transmission-System",
+      "dct:title": "20160101_N44-NC-HV_CD_v3-0-0-beta-1",
+      "dct:type": "https://energy.referencedata.eu/type/CIM-PowerSystemModel",
+      "adms:versionNotes": {
+        "@language": "en",
+        "@value": "Initial version"
+      },
+      "dcat:isVersionOf": "https://energy.referencedata.eu/Test/Model/N44-NC-HV_CD",
+      "dcat:keyword": [
+        "CD",
+        "CommonData"
+      ],
+      "http://www.w3.org/ns/dcat#startDate": "2014-12-31T23:00:00Z",
+      "dcat:version": "3.0.0-beta-1"
+    },
+    {
+      "@id": "urn:uuid:84552e03-0040-43d5-aff2-0f77f01668cb",
+      "@type": "dcat:Dataset",
+      "dct:accessRights": "https://energy.referencedata.eu/Confidentiality/Public",
+      "dct:conformsTo": "https://ap.cim4.eu/Contingency/2.3",
+      "dct:description": {
+        "@language": "en",
+        "@value": "Contingency (CO) included in Network Code part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region."
+      },
+      "dct:identifier": "84552e03-0040-43d5-aff2-0f77f01668c",
+      "http://purl.org/dc/terms/issued": "2025-02-14T12:00:00Z",
+      "dct:publisher": "https://www.statnett.no/en/about-statnett/contact-us/",
+      "dct:requires": [
+        "urn:uuid:e710212f-f6b2-8d4c-9dc0-365398d8b59c",
+        "urn:uuid:d9a01a85-0ad8-4958-be03-d89ad78ca497"
+      ],
+      "dct:rights": "Copyright",
+      "dct:rightsHolder": "Statnett SF",
+      "dct:spatial": "https://energy.referencedata.eu/Test/Frame/NORDIC-Power-Transmission-System",
+      "dct:title": "20160101_N44-NC-HV_CO_v3-0-0-beta-1",
+      "dct:type": "https://energy.referencedata.eu/type/CIM-PowerSystemModel",
+      "adms:versionNotes": {
+        "@language": "en",
+        "@value": "Initial version"
+      },
+      "dcat:isVersionOf": "https://energy.referencedata.eu/Test/Model/N44-NC-HV_CO",
+      "dcat:keyword": [
+        "Contingency",
+        "CO"
+      ],
+      "http://www.w3.org/ns/dcat#startDate": "2014-12-31T23:00:00Z",
+      "dcat:version": "3.0.0-beta-1"
+    },
+    {
+      "@id": "urn:uuid:ebe06a74-e44c-491f-bbfe-1cabb232828e",
+      "@type": "dcat:Dataset",
+      "dct:accessRights": "https://energy.referencedata.eu/Confidentiality/Public",
+      "dct:conformsTo": "https://ap.cim4.eu/SteadyStateInstruction/2.3",
+      "dct:description": {
+        "@language": "en",
+        "@value": "Steady State Instruction (SSI) included in Network Code part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region."
+      },
+      "dct:identifier": "ebe06a74-e44c-491f-bbfe-1cabb232828e",
+      "http://purl.org/dc/terms/issued": "2025-02-14T12:00:00Z",
+      "dct:publisher": "https://www.statnett.no/en/about-statnett/contact-us/",
+      "dct:requires": [
+        "urn:uuid:84552e03-0040-43d5-aff2-0f77f01668cb",
+        "urn:uuid:ebef4527-f0bc-4c59-8870-950af8ed9041",
+        "urn:uuid:9e3521e2-9504-4122-8c1e-a4c4411ffd7a"
+      ],
+      "dct:rights": "Copyright",
+      "dct:rightsHolder": "Statnett SF",
+      "dct:spatial": "https://energy.referencedata.eu/Test/Frame/NORDIC-Power-Transmission-System",
+      "dct:title": "20160101_N44-NC-HV_SSI_v3-0-0-beta-1",
+      "dct:type": "https://energy.referencedata.eu/type/CIM-PowerSystemModel",
+      "adms:versionNotes": {
+        "@language": "en",
+        "@value": "Initial version"
+      },
+      "dcat:isVersionOf": "https://energy.referencedata.eu/Test/Model/N44-NC-HV_SSI",
+      "dcat:keyword": [
+        "SteadyStateInstruction",
+        "SSI"
+      ],
+      "http://www.w3.org/ns/dcat#startDate": "2014-12-31T23:00:00Z",
+      "dcat:version": "3.0.0-beta-1"
+    },
+    {
+      "@id": "urn:uuid:ebef4527-f0bc-4c59-8870-950af8ed9041",
+      "@type": "dcat:Dataset",
+      "dct:accessRights": "https://energy.referencedata.eu/Confidentiality/Public",
+      "dct:conformsTo": "https://ap.cim4.eu/EquipmentReliability/2.3",
+      "dct:description": {
+        "@language": "en",
+        "@value": "Equipment Reliability (ER) included in Network Code part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region."
+      },
+      "dct:identifier": "ebef4527-f0bc-4c59-8870-950af8ed9041",
+      "http://purl.org/dc/terms/issued": "2025-02-14T12:00:00Z",
+      "dct:publisher": "https://www.statnett.no/en/about-statnett/contact-us/",
+      "dct:requires": [
+        "urn:uuid:e710212f-f6b2-8d4c-9dc0-365398d8b59c",
+        "urn:uuid:d9a01a85-0ad8-4958-be03-d89ad78ca497"
+      ],
+      "dct:rights": "Copyright",
+      "dct:rightsHolder": "Statnett SF",
+      "dct:spatial": "https://energy.referencedata.eu/Test/Frame/NORDIC-Power-Transmission-System",
+      "dct:title": "20160101_N44-NC-HV_ER_v3-0-0-beta-1",
+      "dct:type": "https://energy.referencedata.eu/type/CIM-PowerSystemModel",
+      "adms:versionNotes": {
+        "@language": "en",
+        "@value": "Initial version"
+      },
+      "dcat:isVersionOf": "https://energy.referencedata.eu/Test/Model/N44-NC-HV_ER",
+      "dcat:keyword": [
+        "EquipmentReliability",
+        "ER"
+      ],
+      "http://www.w3.org/ns/dcat#startDate": "2014-12-31T23:00:00Z",
+      "dcat:version": "3.0.0-beta-1"
+    },
+    {
+      "@id": "urn:uuid:9e3521e2-9504-4122-8c1e-a4c4411ffd7a",
+      "@type": "dcat:Dataset",
+      "dct:accessRights": "https://energy.referencedata.eu/Confidentiality/Public",
+      "dct:conformsTo": "https://ap.cim4.eu/RemedialAction/2.3",
+      "dct:description": {
+        "@language": "en",
+        "@value": "Remedial Action (RA) included in Network Code part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region."
+      },
+      "dct:identifier": "9e3521e2-9504-4122-8c1e-a4c4411ffd7a",
+      "http://purl.org/dc/terms/issued": "2025-02-14T12:00:00Z",
+      "dct:publisher": "https://www.statnett.no/en/about-statnett/contact-us/",
+      "dct:requires": [
+        "urn:uuid:e710212f-f6b2-8d4c-9dc0-365398d8b59c",
+        "urn:uuid:d9a01a85-0ad8-4958-be03-d89ad78ca497"
+      ],
+      "dct:rights": "Copyright",
+      "dct:rightsHolder": "Statnett SF",
+      "dct:spatial": "https://energy.referencedata.eu/Test/Frame/NORDIC-Power-Transmission-System",
+      "dct:title": "20160101_N44-NC-HV_RA_v3-0-0-beta-1",
+      "dct:type": "https://energy.referencedata.eu/type/CIM-PowerSystemModel",
+      "adms:versionNotes": {
+        "@language": "en",
+        "@value": "Initial version"
+      },
+      "dcat:isVersionOf": "https://energy.referencedata.eu/Test/Model/N44-NC-HV_RA",
+      "dcat:keyword": [
+        "RemedialAction",
+        "RA"
+      ],
+      "http://www.w3.org/ns/dcat#startDate": "2014-12-31T23:00:00Z",
+      "dcat:version": "3.0.0-beta-1"
+    },
+    {
+      "@id": "urn:uuid:3f3f00a8-b86a-4a3e-ab86-2cd3140fa187",
+      "@type": "dcat:Dataset",
+      "dct:accessRights": "https://energy.referencedata.eu/Confidentiality/Public",
+      "dct:conformsTo": "https://ap.cim4.eu/RemedialActionSchedule/2.3",
+      "dct:description": {
+        "@language": "en",
+        "@value": "Remedial Action Schedule (RAS) included in Network Code part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region."
+      },
+      "dct:identifier": "3f3f00a8-b86a-4a3e-ab86-2cd3140fa187",
+      "http://purl.org/dc/terms/issued": "2025-02-14T12:00:00Z",
+      "dct:publisher": "https://www.statnett.no/en/about-statnett/contact-us/",
+      "dct:requires": "urn:uuid:9e3521e2-9504-4122-8c1e-a4c4411ffd7a",
+      "dct:rights": "Copyright",
+      "dct:rightsHolder": "Statnett SF",
+      "dct:spatial": "https://energy.referencedata.eu/Test/Frame/NORDIC-Power-Transmission-System",
+      "dct:title": "20160101_N44-NC-HV_RAS_v3-0-0-beta-1",
+      "dct:type": "https://energy.referencedata.eu/type/CIM-PowerSystemModel",
+      "adms:versionNotes": {
+        "@language": "en",
+        "@value": "Initial version"
+      },
+      "dcat:distribution": {
+        "@id": "urn:uuid:80b51c80-82e3-4687-827d-addd8454d2fc"
+      },
+      "dcat:isVersionOf": "https://energy.referencedata.eu/Test/Model/N44-NC-HV_RAS",
+      "dcat:keyword": [
+        "RemedialActionSchedule",
+        "RAS"
+      ],
+      "http://www.w3.org/ns/dcat#startDate": "2014-12-31T23:00:00Z",
+      "dcat:version": "3.0.0-beta-1"
+    },
+    {
+      "@id": "urn:uuid:400c0d16-37b1-4b63-beda-87769b33bb23",
+      "@type": "dcat:Distribution",
+      "dct:conformsTo": "urn:iso:std:iec:61970-552:2016",
+      "dct:description": {
+        "@language": "en",
+        "@value": "CIMXML serialization of the Nordic44 NC CD"
+      },
+      "dcat:accessURL": {
+        "@id": "file://cimxml/N44-NC-HV_CD.xml"
+      },
+      "dcat:isDistributionOf": {
+        "@id": "urn:uuid:d9a01a85-0ad8-4958-be03-d89ad78ca497"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/rdf+xml"
+      },
+      "http://www.w3.org/ns/prov#generatedAtTime": "2025-02-14T11:00:00Z",
+      "prov:wasGeneratedBy": "https://energy.referencedata.eu/Test/Action/CD"
+    },
+    {
+      "@id": "urn:uuid:c3fbf07c-548c-4acd-8939-e9f9e6e81ad3",
+      "@type": "dcat:Distribution",
+      "dct:conformsTo": "urn:iso:std:iec:61970-552:2016",
+      "dct:description": {
+        "@language": "en",
+        "@value": "CIMXML serialization of the Nordic44 NC CO"
+      },
+      "dcat:accessURL": {
+        "@id": "file://cimxml/N44-NC-HV_CO.xml"
+      },
+      "dcat:isDistributionOf": {
+        "@id": "urn:uuid:84552e03-0040-43d5-aff2-0f77f01668cb"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/rdf+xml"
+      },
+      "http://www.w3.org/ns/prov#generatedAtTime": "2025-02-14T11:00:00Z",
+      "prov:wasGeneratedBy": "https://energy.referencedata.eu/Test/Action/CO"
+    },
+    {
+      "@id": "urn:uuid:1c1362fd-a3ed-40f1-b19c-dc974d2407bd",
+      "@type": "dcat:Distribution",
+      "dct:conformsTo": "urn:iso:std:iec:61970-552:2016",
+      "dct:description": {
+        "@language": "en",
+        "@value": "CIMXML serialization of the Nordic44 NC SSI"
+      },
+      "dcat:accessURL": {
+        "@id": "file://cimxml/N44-NC-HV_SSI.xml"
+      },
+      "dcat:isDistributionOf": {
+        "@id": "urn:uuid:ebe06a74-e44c-491f-bbfe-1cabb232828e"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/rdf+xml"
+      },
+      "http://www.w3.org/ns/prov#generatedAtTime": "2025-02-14T11:00:00Z",
+      "prov:wasGeneratedBy": "https://energy.referencedata.eu/Test/Action/SSI"
+    },
+    {
+      "@id": "urn:uuid:f5f18710-1952-4966-a4f0-8fafe10abb6f",
+      "@type": "dcat:Distribution",
+      "dct:conformsTo": "urn:iso:std:iec:61970-552:2016",
+      "dct:description": {
+        "@language": "en",
+        "@value": "CIMXML serialization of the Nordic44 NC ER"
+      },
+      "dcat:accessURL": {
+        "@id": "file://cimxml/N44-NC-HV_ER.xml"
+      },
+      "dcat:isDistributionOf": {
+        "@id": "urn:uuid:ebef4527-f0bc-4c59-8870-950af8ed9041"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/rdf+xml"
+      },
+      "http://www.w3.org/ns/prov#generatedAtTime": "2025-02-14T11:00:00Z",
+      "prov:wasGeneratedBy": "https://energy.referencedata.eu/Test/Action/ER"
+    },
+    {
+      "@id": "urn:uuid:342a10a3-39db-4af7-b26c-5a5ef3662d27",
+      "@type": "dcat:Distribution",
+      "dct:conformsTo": "urn:iso:std:iec:61970-552:2016",
+      "dct:description": {
+        "@language": "en",
+        "@value": "CIMXML serialization of the Nordic44 NC RA"
+      },
+      "dcat:accessURL": {
+        "@id": "file://cimxml/N44-NC-HV_RA.xml"
+      },
+      "dcat:isDistributionOf": {
+        "@id": "urn:uuid:9e3521e2-9504-4122-8c1e-a4c4411ffd7a"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/rdf+xml"
+      },
+      "http://www.w3.org/ns/prov#generatedAtTime": "2025-02-14T11:00:00Z",
+      "prov:wasGeneratedBy": "https://energy.referencedata.eu/Test/Action/RA"
+    },
+    {
+      "@id": "urn:uuid:80b51c80-82e3-4687-827d-addd8454d2fc",
+      "@type": "dcat:Distribution",
+      "dct:conformsTo": "urn:iso:std:iec:61970-552:2016",
+      "dct:description": {
+        "@language": "en",
+        "@value": "CIMXML serialization of the Nordic44 NC RAS"
+      },
+      "dcat:accessURL": {
+        "@id": "file://cimxml/N44-NC-HV_RAS.xml"
+      },
+      "dcat:isDistributionOf": {
+        "@id": "urn:uuid:3f3f00a8-b86a-4a3e-ab86-2cd3140fa187"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/rdf+xml"
+      },
+      "http://www.w3.org/ns/prov#generatedAtTime": "2025-02-14T11:00:00Z",
+      "prov:wasGeneratedBy": "https://energy.referencedata.eu/Test/Action/RAS"
+    }
+  ]
+}

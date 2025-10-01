@@ -1,0 +1,402 @@
+{
+  "@context": "https://raw.githack.com/Sveino/Inst4CIM-KG/develop/rdf-improved/cim-context-new.jsonld",
+  "@graph": [
+    {
+      "@id": "urn:uuid:dd979b66-7e29-4124-ba65-52d18b86330b",
+      "@type": "dcat:Catalog",
+      "dct:description": {
+        "@language": "en",
+        "@value": "Grid part of Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region."
+      },
+      "dct:identifier": "3d40111f-fc40-439e-a9f3-1670715392ca",
+      "http://purl.org/dc/terms/issued": "2025-02-14T12:00:00Z",
+      "dct:license": "https://creativecommons.org/licenses/by/4.0/",
+      "dct:publisher": "https://www.statnett.no/en/about-statnett/contact-us/",
+      "dct:rights": "Copyright",
+      "dct:rightsHolder": "Statnett SF",
+      "dct:title": "Manifest",
+      "adms:versionNotes": {
+        "@language": "en",
+        "@value": "Initial version"
+      },
+      "dcat:dataset": [
+        {
+          "@id": "urn:uuid:1d08772d-c1d0-4c47-810d-b14908cd94f5"
+        },
+        {
+          "@id": "urn:uuid:e710212f-f6b2-8d4c-9dc0-365398d8b59c"
+        },
+        {
+          "@id": "urn:uuid:167b4832-27c5-ff4f-bd26-6ce3bff1bdb7"
+        },
+        {
+          "@id": "urn:uuid:2e11908e-5e1f-8542-854c-54da76d379d1"
+        },
+        {
+          "@id": "urn:uuid:7b3f94c0-bd9b-e74e-866b-f473153c3e70"
+        },
+        {
+          "@id": "urn:uuid:5b6a8b13-4c20-4147-8ed6-7249e303e647"
+        }
+      ],
+      "dcat:version": "3.0.0-beta.1"
+    },
+    {
+      "@id": "urn:uuid:1d08772d-c1d0-4c47-810d-b14908cd94f5",
+      "@type": "dcat:Dataset",
+      "dct:accessRights": "https://energy.referencedata.eu/Confidentiality/Public",
+      "dct:conformsTo": "http://iec.ch/TC57/ns/CIM/SteadyStateHypothesis-EU/3.0",
+      "dct:description": {
+        "@language": "en",
+        "@value": "Steady-State Hypothesis (SSH) part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region."
+      },
+      "dct:identifier": "1d08772d-c1d0-4c47-810d-b14908cd94f5",
+      "http://purl.org/dc/terms/issued": "2025-02-14T12:00:00Z",
+      "dct:publisher": "https://www.statnett.no/en/about-statnett/contact-us/",
+      "dct:requires": "urn:uuid:e710212f-f6b2-8d4c-9dc0-365398d8b59c",
+      "dct:rights": "Copyright",
+      "dct:rightsHolder": "Statnett SF",
+      "dct:spatial": "https://energy.referencedata.eu/Test/Frame/NORDIC-Power-Transmission-System",
+      "dct:title": "20160101_Nordic44-HV_SSH_v3-0-0-beta-1",
+      "dct:type": "https://energy.referencedata.eu/type/CIM-PowerSystemModel",
+      "adms:versionNotes": {
+        "@language": "en",
+        "@value": "Initial version"
+      },
+      "dcat:isVersionOf": "https://energy.referencedata.eu/Test/Model/Nordic44-HV_SSH",
+      "dcat:keyword": [
+        "SteadyStateHypothesis",
+        "SSH"
+      ],
+      "http://www.w3.org/ns/dcat#startDate": "2014-12-31T23:00:00Z",
+      "dcat:version": "3.0.0-beta-1"
+    },
+    {
+      "@id": "urn:uuid:e710212f-f6b2-8d4c-9dc0-365398d8b59c",
+      "@type": "dcat:Dataset",
+      "dct:accessRights": "https://energy.referencedata.eu/Confidentiality/Public",
+      "dct:conformsTo": "http://iec.ch/TC57/ns/CIM/CoreEquipment-EU/3.0",
+      "dct:description": {
+        "@language": "en",
+        "@value": "Equipment part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region."
+      },
+      "dct:identifier": "6ffcaafd-b3b7-4a7f-8d86-7d5870e17629",
+      "http://purl.org/dc/terms/issued": "2025-02-14T12:00:00Z",
+      "dct:publisher": "https://www.statnett.no/en/about-statnett/contact-us/",
+      "dct:rights": "Copyright",
+      "dct:rightsHolder": "Statnett SF",
+      "dct:spatial": "https://energy.referencedata.eu/Test/Frame/NORDIC-Power-Transmission-System",
+      "dct:title": "20160101_Nordic44-HV_EQ_v3-0-0-beta-1",
+      "dct:type": "https://energy.referencedata.eu/type/CIM-PowerSystemModel",
+      "adms:versionNotes": {
+        "@language": "en",
+        "@value": "Initial version"
+      },
+      "dcat:isVersionOf": "https://energy.referencedata.eu/Test/Model/Nordic44-HV_EQ",
+      "dcat:keyword": [
+        "EQ",
+        "Equipment"
+      ],
+      "http://www.w3.org/ns/dcat#startDate": "2014-12-31T23:00:00Z",
+      "dcat:version": "3.0.0-beta-1"
+    },
+    {
+      "@id": "urn:uuid:167b4832-27c5-ff4f-bd26-6ce3bff1bdb7",
+      "@type": "dcat:Dataset",
+      "dct:accessRights": "https://energy.referencedata.eu/Confidentiality/Public",
+      "dct:conformsTo": "http://iec.ch/TC57/ns/CIM/GeographicalLocation-EU/3.0",
+      "dct:description": {
+        "@language": "en",
+        "@value": "Geographical Location (GL) part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region."
+      },
+      "dct:identifier": "167b4832-27c5-ff4f-bd26-6ce3bff1bdb7",
+      "http://purl.org/dc/terms/issued": "2025-02-14T11:00:00Z",
+      "dct:publisher": "https://www.statnett.no/en/about-statnett/contact-us/",
+      "dct:requires": "urn:uuid:e710212f-f6b2-8d4c-9dc0-365398d8b59c",
+      "dct:rights": "Copyright",
+      "dct:rightsHolder": "Statnett SF",
+      "dct:spatial": "https://energy.referencedata.eu/Test/Frame/NORDIC-Power-Transmission-System",
+      "dct:title": "20160101_Nordic44-HV_GL_v3-0-0-beta-1",
+      "dct:type": "https://energy.referencedata.eu/type/CIM-PowerSystemModel",
+      "adms:versionNotes": {
+        "@language": "en",
+        "@value": "Initial version"
+      },
+      "dcat:isVersionOf": "https://energy.referencedata.eu/Test/Model/Nordic44-HV_GL",
+      "dcat:keyword": [
+        "GeographicalLocation",
+        "GL"
+      ],
+      "http://www.w3.org/ns/dcat#startDate": "2025-02-14T12:00:00Z",
+      "dcat:version": "3.0.0-beta-1"
+    },
+    {
+      "@id": "urn:uuid:2e11908e-5e1f-8542-854c-54da76d379d1",
+      "@type": "dcat:Dataset",
+      "dct:accessRights": "https://energy.referencedata.eu/Confidentiality/Public",
+      "dct:conformsTo": "http://iec.ch/TC57/ns/CIM/DiagramLayout-EU/3.0",
+      "dct:description": {
+        "@language": "en",
+        "@value": "Diagram Layout (DL) part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region."
+      },
+      "dct:identifier": "2e11908e-5e1f-8542-854c-54da76d379d1",
+      "http://purl.org/dc/terms/issued": "2025-02-14T11:00:00Z",
+      "dct:publisher": "https://www.statnett.no/en/about-statnett/contact-us/",
+      "dct:requires": [
+        "urn:uuid:e710212f-f6b2-8d4c-9dc0-365398d8b59c",
+        "urn:uuid:7b3f94c0-bd9b-e74e-866b-f473153c3e70"
+      ],
+      "dct:rights": "Copyright",
+      "dct:rightsHolder": "Statnett SF",
+      "dct:spatial": "https://energy.referencedata.eu/Test/Frame/NORDIC-Power-Transmission-System",
+      "dct:title": "20160101_Nordic44-HV_DL_v3-0-0-beta-1",
+      "dct:type": "https://energy.referencedata.eu/type/CIM-PowerSystemModel",
+      "adms:versionNotes": {
+        "@language": "en",
+        "@value": "Initial version"
+      },
+      "dcat:isVersionOf": "https://energy.referencedata.eu/Test/Model/Nordic44-HV_DL",
+      "dcat:keyword": [
+        "DiagramLayout",
+        "DL"
+      ],
+      "http://www.w3.org/ns/dcat#startDate": "2025-02-14T12:00:00Z",
+      "dcat:version": "3.0.0-beta-1"
+    },
+    {
+      "@id": "urn:uuid:7b3f94c0-bd9b-e74e-866b-f473153c3e70",
+      "@type": "dcat:Dataset",
+      "dct:accessRights": "https://energy.referencedata.eu/Confidentiality/Public",
+      "dct:conformsTo": "http://iec.ch/TC57/ns/CIM/Topology-EU/3.0",
+      "dct:description": {
+        "@language": "en",
+        "@value": "Topological (TP) part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region."
+      },
+      "dct:identifier": "7b3f94c0-bd9b-e74e-866b-f473153c3e70",
+      "http://purl.org/dc/terms/issued": "2025-02-14T11:00:00Z",
+      "dct:publisher": "https://www.statnett.no/en/about-statnett/contact-us/",
+      "dct:requires": "urn:uuid:1d08772d-c1d0-4c47-810d-b14908cd94f5",
+      "dct:rights": "Copyright",
+      "dct:rightsHolder": "Statnett SF",
+      "dct:spatial": "https://energy.referencedata.eu/Test/Frame/NORDIC-Power-Transmission-System",
+      "dct:title": "20160101_Nordic44-HV_TP_v3-0-0-beta-1",
+      "dct:type": "https://energy.referencedata.eu/type/CIM-PowerSystemModel",
+      "adms:versionNotes": {
+        "@language": "en",
+        "@value": "Initial version"
+      },
+      "dcat:isVersionOf": "https://energy.referencedata.eu/Test/Model/Nordic44-HV_DL",
+      "dcat:keyword": [
+        "DiagramLayout",
+        "DL"
+      ],
+      "http://www.w3.org/ns/dcat#startDate": "2025-02-14T12:00:00Z",
+      "dcat:version": "3.0.0-beta-1"
+    },
+    {
+      "@id": "urn:uuid:5b6a8b13-4c20-4147-8ed6-7249e303e647",
+      "@type": "dcat:Dataset",
+      "dct:accessRights": "https://energy.referencedata.eu/Confidentiality/Public",
+      "dct:conformsTo": "http://iec.ch/TC57/ns/CIM/StateVariables-EU/3.0",
+      "dct:description": {
+        "@language": "en",
+        "@value": "State Variable (SV) part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region."
+      },
+      "dct:identifier": "5b6a8b13-4c20-4147-8ed6-7249e303e647",
+      "http://purl.org/dc/terms/issued": "2025-02-14T11:00:00Z",
+      "dct:publisher": "https://www.statnett.no/en/about-statnett/contact-us/",
+      "dct:requires": "urn:uuid:7b3f94c0-bd9b-e74e-866b-f473153c3e70",
+      "dct:rights": "Copyright",
+      "dct:rightsHolder": "Statnett SF",
+      "dct:spatial": "https://energy.referencedata.eu/Test/Frame/NORDIC-Power-Transmission-System",
+      "dct:title": "20160101_Nordic44-HV_SV_v3-0-0-beta-1",
+      "dct:type": "https://energy.referencedata.eu/type/CIM-PowerSystemModel",
+      "adms:versionNotes": {
+        "@language": "en",
+        "@value": "Initial version"
+      },
+      "dcat:isVersionOf": "https://energy.referencedata.eu/Test/Model/Nordic44-HV_SV",
+      "dcat:keyword": [
+        "StateVariablet",
+        "SV"
+      ],
+      "http://www.w3.org/ns/dcat#startDate": "2025-02-14T12:00:00Z",
+      "dcat:version": "3.0.0-beta-1"
+    },
+    {
+      "@id": "urn:uuid:5e109739-0140-449f-a7ae-f531f882f7d0",
+      "@type": "dcat:Distribution",
+      "dct:conformsTo": "urn:iso:std:iec:61970-552:2016",
+      "dct:description": {
+        "@language": "en",
+        "@value": "CIMXML serialization of the Nordic44 EQ"
+      },
+      "dcat:accessURL": {
+        "@id": "file://cimxml/Nordic44-HV_EQ.xml"
+      },
+      "dcat:isDistributionOf": {
+        "@id": "urn:uuid:e710212f-f6b2-8d4c-9dc0-365398d8b59c"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/rdf+xml"
+      },
+      "http://www.w3.org/ns/prov#generatedAtTime": "2025-02-14T11:00:00Z",
+      "prov:wasGeneratedBy": "https://energy.referencedata.eu/Test/Action/EQ"
+    },
+    {
+      "@id": "urn:uuid:38884d50-30ff-41d3-99bb-c794cbdf57cb",
+      "@type": "dcat:Distribution",
+      "dct:conformsTo": "urn:iso:std:iec:61970-552:2016",
+      "dct:description": {
+        "@language": "en",
+        "@value": "CIMXML serialization of the Nordic44 SSH"
+      },
+      "dcat:accessURL": {
+        "@id": "file://cimxml/Nordic44-HV_SSH.xml"
+      },
+      "dcat:isDistributionOf": {
+        "@id": "urn:uuid:1d08772d-c1d0-4c47-810d-b14908cd94f5"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/rdf+xml"
+      },
+      "http://www.w3.org/ns/prov#generatedAtTime": "2025-02-14T11:00:00Z",
+      "prov:wasGeneratedBy": "https://energy.referencedata.eu/Test/Action/SSH"
+    },
+    {
+      "@id": "urn:uuid:8b095732-1506-40bd-aeb8-a42d311edd5a",
+      "@type": "dcat:Distribution",
+      "dct:conformsTo": "urn:iso:std:iec:61970-552:2016",
+      "dct:description": [
+        {
+          "@language": "en",
+          "@value": "CIMXML serialization of the Nordic44 GL"
+        },
+        {
+          "@language": "en",
+          "@value": "CIMXML serialization of the Nordic44 DL"
+        }
+      ],
+      "dcat:accessURL": [
+        {
+          "@id": "file://cimxml/Nordic44-HV_GL.xml"
+        },
+        {
+          "@id": "file://cimxml/Nordic44-HV_DL.xml"
+        }
+      ],
+      "dcat:isDistributionOf": [
+        {
+          "@id": "urn:uuid:167b4832-27c5-ff4f-bd26-6ce3bff1bdb7"
+        },
+        {
+          "@id": "urn:uuid:2e11908e-5e1f-8542-854c-54da76d379d1"
+        }
+      ],
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/rdf+xml"
+      },
+      "http://www.w3.org/ns/prov#generatedAtTime": "2025-02-14T11:00:00Z",
+      "prov:wasGeneratedBy": [
+        "https://energy.referencedata.eu/Test/Action/GL",
+        "https://energy.referencedata.eu/Test/Action/DL"
+      ]
+    },
+    {
+      "@id": "urn:uuid:e6539353-17f9-4d94-be60-eabed8b6e99f",
+      "@type": "dcat:Distribution",
+      "dct:conformsTo": "urn:iso:std:iec:61970-552:2016",
+      "dct:description": {
+        "@language": "en",
+        "@value": "CIMXML serialization of the Nordic44 TP"
+      },
+      "dcat:accessURL": {
+        "@id": "file://cimxml/Nordic44-HV_TP.xml"
+      },
+      "dcat:isDistributionOf": {
+        "@id": "urn:uuid:7b3f94c0-bd9b-e74e-866b-f473153c3e70"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/rdf+xml"
+      },
+      "http://www.w3.org/ns/prov#generatedAtTime": "2025-02-14T11:00:00Z",
+      "prov:wasGeneratedBy": "https://energy.referencedata.eu/Test/Action/TP"
+    },
+    {
+      "@id": "urn:uuid:4841109b-52ca-4457-9beb-8db6890082d6",
+      "@type": "dcat:Distribution",
+      "dct:conformsTo": "urn:iso:std:iec:61970-552:2016",
+      "dct:description": {
+        "@language": "en",
+        "@value": "CIMXML serialization of the Nordic44 SV"
+      },
+      "dcat:accessURL": {
+        "@id": "file://cimxml/Nordic44-HV_SV.xml"
+      },
+      "dcat:isDistributionOf": {
+        "@id": "urn:uuid:5b6a8b13-4c20-4147-8ed6-7249e303e647"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/rdf+xml"
+      },
+      "http://www.w3.org/ns/prov#generatedAtTime": "2025-02-14T11:00:00Z",
+      "prov:wasGeneratedBy": "https://energy.referencedata.eu/Test/Action/SV"
+    },
+    {
+      "@id": "urn:uuid:67e97bb0-ec38-481d-9e56-3e9d45e95a33",
+      "@type": "dcat:Dataset",
+      "dct:accessRights": "https://energy.referencedata.eu/Confidentiality/Public",
+      "dct:conformsTo": "http://iec.ch/TC57/ns/CIM/Operation-EU/3.0",
+      "dct:description": {
+        "@language": "en",
+        "@value": "Equipment Operation (OP) part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region."
+      },
+      "dct:identifier": "67e97bb0-ec38-481d-9e56-3e9d45e95a33",
+      "http://purl.org/dc/terms/issued": "2025-02-14T11:00:00Z",
+      "dct:publisher": "https://www.statnett.no/en/about-statnett/contact-us/",
+      "dct:requires": [
+        "urn:uuid:e710212f-f6b2-8d4c-9dc0-365398d8b59c",
+        "urn:uuid:d9a01a85-0ad8-4958-be03-d89ad78ca497"
+      ],
+      "dct:rights": "Copyright",
+      "dct:rightsHolder": "Statnett SF",
+      "dct:spatial": "https://energy.referencedata.eu/Test/Frame/NORDIC-Power-Transmission-System",
+      "dct:title": "20160101_Nordic44-HV_OP_v3-0-0-beta-1",
+      "dct:type": "https://energy.referencedata.eu/type/CIM-PowerSystemModel",
+      "adms:versionNotes": {
+        "@language": "en",
+        "@value": "Initial version"
+      },
+      "dcat:distribution": {
+        "@id": "urn:uuid:c4f2422b-03a4-4298-aa16-40921c4ca16f"
+      },
+      "dcat:isVersionOf": "https://energy.referencedata.eu/Test/Model/Nordic44-HV_SV",
+      "dcat:keyword": [
+        "Operation",
+        "OP"
+      ],
+      "http://www.w3.org/ns/dcat#startDate": "2025-02-14T12:00:00Z",
+      "dcat:version": "3.0.0-beta-1"
+    },
+    {
+      "@id": "urn:uuid:c4f2422b-03a4-4298-aa16-40921c4ca16f",
+      "@type": "dcat:Distribution",
+      "dct:conformsTo": "urn:iso:std:iec:61970-552:2016",
+      "dct:description": {
+        "@language": "en",
+        "@value": "CIMXML serialization of the Nordic44 OP"
+      },
+      "dcat:accessURL": {
+        "@id": "file://cimxml/Nordic44-HV_OP.xml"
+      },
+      "dcat:isDistributionOf": {
+        "@id": "urn:uuid:67e97bb0-ec38-481d-9e56-3e9d45e95a33"
+      },
+      "dcat:mediaType": {
+        "@id": "http://www.iana.org/assignments/media-types/application/rdf+xml"
+      },
+      "http://www.w3.org/ns/prov#generatedAtTime": "2025-02-14T11:00:00Z",
+      "prov:wasGeneratedBy": "https://energy.referencedata.eu/Test/Action/OP"
+    }
+  ]
+}
