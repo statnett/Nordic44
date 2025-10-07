@@ -1,4 +1,4 @@
-FIXME = ../../ENTSOE-SHACL/Inst4CIM-KG/rdf-improved
+FIXME = ../../Inst4CIM-KG/rdf-improved
 
 XML_MF    = $(wildcard */cimxml/manifest.xml)
 XML       = $(filter-out $(wildcard */cimxml/*.xml), $(XML_MF))
