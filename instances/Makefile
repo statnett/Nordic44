@@ -1,13 +1,21 @@
 FIXME = ../../Inst4CIM-KG/rdf-improved
 
 XML_MF    = $(wildcard */cimxml/manifest.xml)
-XML       = $(filter-out $(wildcard */cimxml/*.xml), $(XML_MF))
+XML       = $(filter-out $(XML_MF), $(wildcard */cimxml/*.xml))
 TTL_MF    = $(subst .xml,.ttl,    $(subst /cimxml,/trig,   $(XML_MF)))
 TRIG      = $(subst .xml,.trig,   $(subst /cimxml,/trig,   $(XML)))
 JSONLD_MF = $(subst .xml,.jsonld, $(subst /cimxml,/jsonld, $(XML_MF)))
 JSONLD    = $(subst .xml,.jsonld, $(subst /cimxml,/jsonld, $(XML)))
 
 all: $(TTL_MF) $(TRIG) $(JSONLD_MF) $(JSONLD)
+
+echo:
+	@echo $(XML_MF)
+	@echo $(XML)
+	@echo $(TTL_MF)
+	@echo $(TRIG)
+	@echo $(JSONLD_MF)
+	@echo $(JSONLD)
 
 define XML2TTL
 	perl fix-ns.pl $(1) | perl $(FIXME)/cim-urn-uuid.pl > temp.xml
