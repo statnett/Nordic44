@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF  xmlns:cim="http://iec.ch/TC57/CIM100#" xmlns:entsoe="http://entsoe.eu/CIM/SchemaExtension/3/1#" xmlns:eu="http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#" xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#" xmlns:pti="http://www.pti-us.com/PTI_CIM-schema-cim16#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<!-- Exported from CIMSpy/CIMdesk on 2026-03-03T16:38:53Z. -->
+<rdf:RDF  xmlns:cim="http://iec.ch/TC57/CIM100#" 
+		xmlns:eu="http://iec.ch/TC57/CIM100-EuropeanExtension/1/0#" 
+		xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#" 
+		xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
 	<md:FullModel rdf:about="urn:uuid:6f95c0ba-c9b4-b44f-acb0-aa10a4481a59">
 		<md:Model.profile>http://iec.ch/TC57/ns/CIM/Dynamics-EU/1.0</md:Model.profile>
-		<md:Model.created>2015-07-29T12:43:28</md:Model.created>
-		<pti:Model.createdBy>Statnett SF</pti:Model.createdBy>
+		<md:Model.created>2026-03-03T18:06:00</md:Model.created>
+		<md:Model.description>Dynamics (DY) part of the Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region.</md:Model.description>
+		<md:Model.modelingAuthoritySet>http://www.Statnett.no/IGM/Nordic44_CGM</md:Model.modelingAuthoritySet>
 		<md:Model.version>1</md:Model.version>
-		<md:Model.modelingAuthoritySet>http://www.ediel.org/CIM-model/Nordic44_BZ</md:Model.modelingAuthoritySet>
-		<md:Model.DependentOn rdf:resource="urn:uuid:5277958f-35cf-11e5-bf4d-c8f73332c8f4"/>
+		<md:Model.DependentOn rdf:resource="urn:uuid:e710212f-f6b2-8d4c-9dc0-365398d8b59c"/>
 	</md:FullModel>
+
 	<cim:ExcSEXS rdf:ID="_b4a31ab2-35d2-11e5-bf4d-c8f73332c8f4">
 		<cim:ExcSEXS.tatb>0.05</cim:ExcSEXS.tatb>
 		<cim:ExcSEXS.tb>100</cim:ExcSEXS.tb>
