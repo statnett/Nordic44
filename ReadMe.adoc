@@ -1,10 +1,10 @@
-= Nordic44
+= Nordic-SO
 
 == Introduction
-This is the repository for the Nordic44, which is a synthetic power system model of the Nordic high-voltage transmission system, described in link: https://www.iec.ch/homepage[IEC] Common Information Model (link:https://en.wikipedia.org/wiki/Common_Information_Model_(electricity)[CIM]).
+This is the repository for the Nordic Synthetic Open Power System Model (Nordic-SO), which is a synthetic power system model of the Nordic high-voltage transmission system, described in link: https://www.iec.ch/homepage[IEC] Common Information Model (link:https://en.wikipedia.org/wiki/Common_Information_Model_(electricity)[CIM]).
 
 == Purpose
-The main objective of Nordic44 is to provide the necessary CIM model information to support simulation business processes and information exchanges relevant to the Nordic electrical power grid.
+The main objective of Nordic-SO is to provide the necessary CIM model information to support simulation business processes and information exchanges relevant to the Nordic electrical power grid.
 
 Relevant business functions that the model aims to support are:
 
