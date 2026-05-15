@@ -198,7 +198,7 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:publisher     <https://www.statnett.no/en/about-statnett/contact-us/>;
         dcterms:rights        "Copyright";
         dcterms:rightsHolder  "Statnett SF";
-        dcterms:title         "Manifest";
+        dcterms:title         "Nordic 44 NC";
         adms:versionNotes     "Initial version"@en;
         dcat:dataset          <urn:uuid:d9a01a85-0ad8-4958-be03-d89ad78ca497> , <urn:uuid:84552e03-0040-43d5-aff2-0f77f01668cb> , <urn:uuid:ebe06a74-e44c-491f-bbfe-1cabb232828e> , <urn:uuid:ebef4527-f0bc-4c59-8870-950af8ed9041> , <urn:uuid:9e3521e2-9504-4122-8c1e-a4c4411ffd7a> , <urn:uuid:3f3f00a8-b86a-4a3e-ab86-2cd3140fa187>;
         dcat:version          "3.0.0-beta.1" .

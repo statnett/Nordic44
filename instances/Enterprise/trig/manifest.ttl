@@ -102,7 +102,7 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:publisher     <https://www.statnett.no/en/about-statnett/contact-us/>;
         dcterms:rights        "Copyright";
         dcterms:rightsHolder  "Statnett SF";
-        dcterms:title         "Manifest";
+        dcterms:title         "Nordic 44 Enterprise";
         adms:versionNotes     "Initial version"@en;
         dcat:dataset          <urn:uuid:75f351c7-75a6-4c25-8f1c-985aa59e90ad> , <urn:uuid:ade44b65-0bfa-41e0-95c5-2ccb345a6fed>;
         dcat:version          "3.0.0-beta.1" .

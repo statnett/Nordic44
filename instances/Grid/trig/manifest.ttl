@@ -217,7 +217,7 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:publisher     <https://www.statnett.no/en/about-statnett/contact-us/>;
         dcterms:rights        "Copyright";
         dcterms:rightsHolder  "Statnett SF";
-        dcterms:title         "Manifest";
+        dcterms:title         "Nordic 44 Grid";
         adms:versionNotes     "Initial version"@en;
         dcat:dataset          <urn:uuid:1d08772d-c1d0-4c47-810d-b14908cd94f5> , <urn:uuid:e710212f-f6b2-8d4c-9dc0-365398d8b59c> , <urn:uuid:167b4832-27c5-ff4f-bd26-6ce3bff1bdb7> , <urn:uuid:2e11908e-5e1f-8542-854c-54da76d379d1> , <urn:uuid:7b3f94c0-bd9b-e74e-866b-f473153c3e70> , <urn:uuid:5b6a8b13-4c20-4147-8ed6-7249e303e647>;
         dcat:version          "3.0.0-beta.1" .
