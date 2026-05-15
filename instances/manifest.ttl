@@ -1,0 +1,20 @@
+PREFIX adms:    <http://www.w3.org/ns/adms#>
+PREFIX dcat:    <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+<urn:uuid:20faf9b8-79e3-4a2e-a7ca-93db96e2e9e7>
+        rdf:type              dcat:Catalog;
+        dcterms:description   "Nordic 44-bus synthetic test model developed by Statnett SF of the Nordic region. Super-catalog grouping Grid, Network Code, and Enterprise manifests."@en;
+        dcterms:identifier    "20faf9b8-79e3-4a2e-a7ca-93db96e2e9e7";
+        dcterms:issued        "2025-05-15T12:00:00Z";
+        dcterms:license       <https://creativecommons.org/licenses/by/4.0/>;
+        dcterms:publisher     <https://www.statnett.no/en/about-statnett/contact-us/>;
+        dcterms:rights        "Copyright";
+        dcterms:rightsHolder  "Statnett SF";
+        dcterms:title         "Nordic44"@en;
+        adms:versionNotes     "Initial version"@en;
+        dcat:catalog          <urn:uuid:7c8e1c28-eb8d-4453-90d0-e3509ad07b32>,  # Network Code
+                              <urn:uuid:dd979b66-7e29-4124-ba65-52d18b86330b>,  # Grid
+                              <urn:uuid:f0d38504-4ba9-4912-b9ca-3673f5947e7d>;  # Enterprise
+        dcat:version          "3.0.0-beta.1" .
